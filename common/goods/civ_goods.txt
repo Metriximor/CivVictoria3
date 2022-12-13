@@ -21,6 +21,7 @@ wood_tools = {
 }
 
 stone = {
+	texture = "gfx/interface/icons/goods_icons/stone.dds"
 	cost = 40
 	category = industrial
 	consumption_tax_cost = 200

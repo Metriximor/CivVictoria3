@@ -1,4 +1,8 @@
-﻿oak_log = {
+﻿# Convoy cost multiplier 0.25 for goods that are 64 stackable
+# 2.0 for non stackable goods
+# 1.0 for 16 stackable
+
+oak_log = {
 	texture = "gfx/interface/icons/goods_icons/oak_log.dds"
 	cost = 20
 	category = industrial
@@ -12,4 +16,12 @@ wood_tools = {
 	category = industrial
 	convoy_cost_multiplier = 2.0
 	traded_quantity = 1
+}
+
+stone = {
+	cost = 40
+	category = industrial
+	consumption_tax_cost = 200
+	convoy_cost_multiplier = 0.25
+	traded_quantity = 64
 }

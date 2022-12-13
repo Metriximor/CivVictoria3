@@ -1,0 +1,35 @@
+﻿building_output_oak_log_add = {
+    good = yes
+    percent = no
+}
+
+building_input_oak_log_add = {
+    good = no
+    percent = no
+}
+
+building_input_oak_log_mult = {
+	good = no
+	percent = no
+}
+
+building_output_oak_log_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_wood_tools_add = {
+    good = yes
+    percent = no
+}
+
+building_input_wood_tools_add = {
+    good = no
+    percent = no
+}
+
+building_output_wood_tools_mult = {
+    good = yes
+    percent = yes
+}
+

@@ -1,0 +1,15 @@
+﻿oak_log = {
+	texture = "gfx/interface/icons/goods_icons/oak_log.dds"
+	cost = 20
+	category = industrial
+	consumption_tax_cost = 300
+	convoy_cost_multiplier = 0.25
+	traded_quantity = 64
+}
+
+wood_tools = {
+	cost = 80
+	category = industrial
+	convoy_cost_multiplier = 2.0
+	traded_quantity = 1
+}

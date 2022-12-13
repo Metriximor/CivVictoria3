@@ -1,0 +1,224 @@
+﻿# Vanilla sea states start at 3000 so I've just retained that. Unlike land states, sea states only include one province per state. FOrtunately though, aside from getting a bunch of errors, the game still functions without you deifning these if you dont want to. I've defined the example province map sea provinces though to reduce the error count when you start working on your own.
+
+#You will want to remove these though if you add your own province map as the game typically doesn't like when you define provinces that arent on the map.
+
+STATE_1_SEA = {
+    id = 3000
+    provinces = { "x80AAAF" }
+}
+STATE_2_SEA = {
+    id = 3001
+    provinces = { "x838CA8" }
+}
+STATE_3_SEA = {
+    id = 3002
+    provinces = { "x80A7CB" }
+}
+STATE_4_SEA = {
+    id = 3003
+    provinces = { "x7CC9F9" }
+}
+STATE_5_SEA = {
+    id = 3004
+    provinces = { "x81D9CE" }
+}
+STATE_6_SEA = {
+    id = 3005
+    provinces = { "x6D719D" }
+}
+STATE_7_SEA = {
+    id = 3006
+    provinces = { "x96B3F4" }
+}
+STATE_8_SEA = {
+    id = 3007
+    provinces = { "x87F9F5" }
+}
+STATE_9_SEA = {
+    id = 3008
+    provinces = { "x93A5FD" }
+}
+STATE_10_SEA = {
+    id = 3009
+    provinces = { "xB0C6E5" }
+}
+STATE_11_SEA = {
+    id = 3010
+    provinces = { "x70A6D6" }
+}
+STATE_12_SEA = {
+    id = 3011
+    provinces = { "x8583D3" }
+}
+STATE_13_SEA = {
+    id = 3012
+    provinces = { "x819EDC" }
+}
+STATE_14_SEA = {
+    id = 3013
+    provinces = { "x6AA8E5" }
+}
+STATE_15_SEA = {
+    id = 3014
+    provinces = { "x86A0EE" }
+}
+STATE_16_SEA = {
+    id = 3015
+    provinces = { "x6677FB" }
+}
+STATE_17_SEA = {
+    id = 3016
+    provinces = { "x667CFB" }
+}
+STATE_18_SEA = {
+    id = 3017
+    provinces = { "x6697CF" }
+}
+STATE_19_SEA = {
+    id = 3018
+    provinces = { "x6770A8" }
+}
+STATE_20_SEA = {
+    id = 3019
+    provinces = { "x6CB1D8" }
+}
+STATE_21_SEA = {
+    id = 3020
+    provinces = { "xAFC8FA" }
+}
+STATE_22_SEA = {
+    id = 3021
+    provinces = { "xBCDCF0" }
+}
+STATE_23_SEA = {
+    id = 3022
+    provinces = { "x6E98D0" }
+}
+STATE_24_SEA = {
+    id = 3023
+    provinces = { "x8FACF1" }
+}
+STATE_25_SEA = {
+    id = 3024
+    provinces = { "x7A84AF" }
+}
+STATE_26_SEA = {
+    id = 3025
+    provinces = { "x99B8E1" }
+}
+STATE_27_SEA = {
+    id = 3026
+    provinces = { "x95BBB6" }
+}
+STATE_28_SEA = {
+    id = 3027
+    provinces = { "x92DCEA" }
+}
+STATE_29_SEA = {
+    id = 3028
+    provinces = { "x96C6EC" }
+}
+STATE_30_SEA = {
+    id = 3029
+    provinces = { "xA1B9DD" }
+}
+STATE_31_SEA = {
+    id = 3030
+    provinces = { "xACCEDE" }
+}
+STATE_32_SEA = {
+    id = 3031
+    provinces = { "x3AB4FF" }
+}
+STATE_33_SEA = {
+    id = 3032
+    provinces = { "xB8CDDD" }
+}
+STATE_34_SEA = {
+    id = 3033
+    provinces = { "xA5C4EE" }
+}
+STATE_35_SEA = {
+    id = 3034
+    provinces = { "xB9CCF8" }
+}
+STATE_36_SEA = {
+    id = 3035
+    provinces = { "x8BE5D1" }
+}
+STATE_37_SEA = {
+    id = 3036
+    provinces = { "x99B1D9" }
+}
+STATE_38_SEA = {
+    id = 3037
+    provinces = { "x8DA7EF" }
+}
+STATE_39_SEA = {
+    id = 3038
+    provinces = { "x68D0DE" }
+}
+STATE_40_SEA = {
+    id = 3039
+    provinces = { "x9F95C7" }
+}
+STATE_41_SEA = {
+    id = 3040
+    provinces = { "x7987B1" }
+}
+STATE_42_SEA = {
+    id = 3041
+    provinces = { "x6E8ABB" }
+}
+STATE_43_SEA = {
+    id = 3042
+    provinces = { "x78B6C4" }
+}
+STATE_44_SEA = {
+    id = 3043
+    provinces = { "x81CADA" }
+}
+STATE_45_SEA = {
+    id = 3044
+    provinces = { "x7CA3CB" }
+}
+STATE_46_SEA = {
+    id = 3045
+    provinces = { "x85BDCA" }
+}
+STATE_47_SEA = {
+    id = 3046
+    provinces = { "xA4CDF6" }
+}
+STATE_48_SEA = {
+    id = 3047
+    provinces = { "x92C4F0" }
+}
+STATE_49_SEA = {
+    id = 3048
+    provinces = { "x78BEDA" }
+}
+STATE_50_SEA = {
+    id = 3049
+    provinces = { "x7EA0BE" }
+}
+STATE_51_SEA = {
+    id = 3050
+    provinces = { "x7AB5BE" }
+}
+STATE_52_SEA = {
+    id = 3051
+    provinces = { "x80C3D6" }
+}
+STATE_53_SEA = {
+    id = 3052
+    provinces = { "x6D9092" }
+}
+STATE_54_SEA = {
+    id = 3053
+    provinces = { "x9ACDDC" }
+}
+STATE_55_SEA = {
+    id = 3054
+    provinces = { "xA6C7FC" }
+}

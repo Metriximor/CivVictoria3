@@ -1,0 +1,5 @@
+﻿
+STATE_EXAMPLE = {
+    id = 1
+    provinces = { "xD08471" "xF36BB8" "xE7F593" "x6ABE6A" }
+}

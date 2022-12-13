@@ -7,6 +7,7 @@ building_oak_farm = {
 }
 
 building_tool_factory = {
+	texture = "gfx/interface/icons/building_icons/tooling_factory.dds"
 	building_group = bg_heavy_industry
 	production_method_groups = {
 		pmg_base_building_tool_factory

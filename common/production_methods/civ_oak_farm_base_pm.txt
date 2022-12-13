@@ -28,6 +28,8 @@ pm_craft_wood_tools = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_oak_log_add = 10
+
+			building_output_wood_tools_add = 5
 		}
 
 		level_scaled = {

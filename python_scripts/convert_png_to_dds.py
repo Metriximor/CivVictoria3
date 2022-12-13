@@ -1,13 +1,12 @@
 import glob
-from PIL import Image
+from wand.image import Image
 from pathlib import Path
 
 root_dir = "./"
 
-for filename in glob.iglob(root_dir + "gfx/interface/**/*.png", recursive=True):
-    with Image.open(filename) as open_image:
-        if open_image.mode != 'RGB':
-            open_image = open_image.convert('RGB')
-        print(f"Converting {filename} to .dds from .png")
-        path = Path(filename)
-        open_image.save(path.with_suffix('.dds'), 'DDS')
+for png_image in glob.iglob(root_dir + "gfx/interface/**/*.png", recursive=True):
+    with Image(filename=png_image) as open_image:
+        print(f"Converting {png_image} to .dds from .png")
+        open_image.compression='dxt5'
+        path = Path(png_image)
+        open_image.save(filename=path.with_suffix('.dds'))

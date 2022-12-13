@@ -12,8 +12,10 @@ oak_log = {
 }
 
 wood_tools = {
+	texture = "gfx/interface/icons/goods_icons/wood_tools.dds"
 	cost = 80
 	category = industrial
+	consumption_tax_cost = 200
 	convoy_cost_multiplier = 2.0
 	traded_quantity = 1
 }

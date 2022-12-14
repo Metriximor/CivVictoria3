@@ -14,6 +14,7 @@ for file in Path('common/goods').glob('*.txt'):
             match = re.search(r"^\w+", line)
             if match:
                 goods = match.group(0)
+                print(f"Generating building inputs and outputs for {goods}")
                 output_file.write(f'''building_output_{goods}_add = {{
     good = yes
     percent = no
@@ -37,7 +38,11 @@ building_output_{goods}_mult = {{
         localization_file_path = Path(f"localization/{language}/modifiers_l_{language}.yml")
         localization_file_path.parent.mkdir(exist_ok=True, parents=True)
         with open(localization_file_path, 'w+', encoding=UTF_8_BOM) as localization_file:
+            if generated_goods:
+                localization_file.write(f'''l_{language}:
+''')
             for goods in generated_goods:
+                print(f"Generating building inputs and outputs localization for {goods}")
                 # TODO Sanitize the second goods in each line for user readable text
                 localization_file.write(f''' modifier_building_input_{goods}_add:0 "@{goods}! {goods} input per level"
  modifier_building_input_{goods}_add_desc:0 "The amount of @{goods}! {goods} consumed by buildings"

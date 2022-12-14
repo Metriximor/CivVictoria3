@@ -1,4 +1,4 @@
-pm_punch_wood = {
+﻿pm_punch_wood = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_output_oak_log_add = 64
@@ -25,6 +25,7 @@ pm_wood_axe = {
 }
 
 pm_craft_wood_tools = {
+	texture = "gfx/interface/icons/production_method_icons/wood_tools.dds"
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_oak_log_add = 10

@@ -1,15 +1,8 @@
-building_oak_farm = {
+﻿building_tree_farm = {
 	building_group = bg_logging
+	texture = "gfx/interface/icons/building_icons/wood_farm.dds"
+	
 	production_method_groups = {
-		pmg_base_building_oak_farm
-	}
-	has_max_level = yes
-}
-
-building_tool_factory = {
-	texture = "gfx/interface/icons/building_icons/tooling_factory.dds"
-	building_group = bg_heavy_industry
-	production_method_groups = {
-		pmg_base_building_tool_factory
+		pmg_base_building_tree_farm
 	}
 }

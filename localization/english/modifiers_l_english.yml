@@ -1,4 +1,5 @@
-﻿ modifier_building_input_oak_log_add:0 "@oak_log! oak_log input per level"
+﻿l_english:
+ modifier_building_input_oak_log_add:0 "@oak_log! oak_log input per level"
  modifier_building_input_oak_log_add_desc:0 "The amount of @oak_log! oak_log consumed by buildings"
  modifier_building_output_oak_log_add:0 "@oak_log! oak_log output per level"
  modifier_building_output_oak_log_add_desc:0 "The amount of @oak_log! oak_log produced by buildings"

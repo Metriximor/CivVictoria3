@@ -1,5 +1,5 @@
 ﻿building_tree_farm = {
-	building_group = bg_logging
+	building_group = bg_tree_farming
 	texture = "gfx/interface/icons/building_icons/wood_farm.dds"
 	
 	production_method_groups = {

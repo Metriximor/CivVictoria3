@@ -1,0 +1,13 @@
+﻿pm_wood_pickaxe = {
+	texture = "gfx/interface/icons/production_method_icons/wood_pickaxe.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_wood_tools_add = 16
+			building_output_stone_add = 64 # wood has 2 multiplier
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 16
+		}
+	}
+}

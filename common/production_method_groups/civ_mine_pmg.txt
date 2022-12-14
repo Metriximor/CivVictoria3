@@ -1,8 +1,6 @@
-﻿pmg_base_building_tree_farm = {
+﻿pmg_base_mine = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_punch_wood
-		pm_wood_axe
+		pm_wood_pickaxe
 	}
 }
-

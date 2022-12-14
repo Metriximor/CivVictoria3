@@ -1,0 +1,14 @@
+﻿pm_convert_log = {
+	texture = "gfx/interface/icons/production_method_icons/convert_logs.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_oak_log_add = 32
+
+			building_output_charcoal_add = 48
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 20
+		}
+	}
+}

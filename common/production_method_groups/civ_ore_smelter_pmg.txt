@@ -1,7 +1,6 @@
-﻿pmg_base_mine = {
+﻿pmg_base_ore_smelter = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_wood_pickaxe
-		pm_stone_pickaxe
+		pm_basic_smelting
 	}
 }

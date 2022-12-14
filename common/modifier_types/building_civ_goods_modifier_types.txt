@@ -13,6 +13,66 @@ building_output_oak_log_mult = {
     percent = yes
 }
 
+building_output_stone_add = {
+    good = yes
+    percent = no
+}
+
+building_input_stone_add = {
+    good = no
+    percent = no
+}
+
+building_output_stone_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_charcoal_add = {
+    good = yes
+    percent = no
+}
+
+building_input_charcoal_add = {
+    good = no
+    percent = no
+}
+
+building_output_charcoal_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_ironOre_add = {
+    good = yes
+    percent = no
+}
+
+building_input_ironOre_add = {
+    good = no
+    percent = no
+}
+
+building_output_ironOre_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_ironIngot_add = {
+    good = yes
+    percent = no
+}
+
+building_input_ironIngot_add = {
+    good = no
+    percent = no
+}
+
+building_output_ironIngot_mult = {
+    good = yes
+    percent = yes
+}
+
 building_output_wood_tools_add = {
     good = yes
     percent = no
@@ -28,17 +88,17 @@ building_output_wood_tools_mult = {
     percent = yes
 }
 
-building_output_stone_add = {
+building_output_stone_tools_add = {
     good = yes
     percent = no
 }
 
-building_input_stone_add = {
+building_input_stone_tools_add = {
     good = no
     percent = no
 }
 
-building_output_stone_mult = {
+building_output_stone_tools_mult = {
     good = yes
     percent = yes
 }

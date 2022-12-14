@@ -13,3 +13,15 @@
 		}
 	}
 }
+
+pm_craft_stone_tools = {
+	texture = "gfx/interface/icons/production_method_icons/stone_tools.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_oak_log_add = 5
+			building_input_stone_add = 5
+
+			building_output_stone_tools_add = 5
+		}
+	}
+}

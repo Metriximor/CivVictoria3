@@ -1,5 +1,4 @@
 ﻿# Vanilla sea states start at 3000 so I've just retained that. Unlike land states, sea states only include one province per state. FOrtunately though, aside from getting a bunch of errors, the game still functions without you deifning these if you dont want to. I've defined the example province map sea provinces though to reduce the error count when you start working on your own.
-
 #You will want to remove these though if you add your own province map as the game typically doesn't like when you define provinces that arent on the map.
 
 STATE_1_SEA = {

@@ -1,8 +1,8 @@
 ﻿STATE_EXAMPLE = {
     id = 1
     provinces = { "xD08471" "xF36BB8" "xE7F593" "x6ABE6A" }
-	capped_resources = {
-		bg_tree_farming = 10
-		bg_mine = 20
-	}
+    capped_resources = {
+        bg_tree_farming = 10
+        bg_mine = 20
+    }
 }

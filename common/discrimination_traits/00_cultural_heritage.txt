@@ -1,7 +1,7 @@
 ﻿###### EXAMPLE ######
 
-#example_heritage = {
-#	heritage = yes
-#}
+example_heritage = {
+	heritage = yes
+}
 
 #####################

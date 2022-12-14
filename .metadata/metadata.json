@@ -1,9 +1,9 @@
 {
-  "name" : "Total Conversion Sandbox",
+  "name" : "CivMC Victoria 3 Total Overhaul",
   "id" : "",
-  "version" : "1.0",
+  "version" : "0.0.1",
   "supported_game_version" : "1.*.*",
-  "short_description" : "A near blank slate for modders seeking to create a Total Conversion mod.",
+  "short_description" : "WRITE THIS LATER",
   "tags" : [],
   "relationships" : [],
   "game_custom_data" : {
@@ -28,7 +28,8 @@
       "common/history/pops",
       "common/history/population",
       "common/history/states",
-      "common/history/trade_routes",      
+      "common/history/trade_routes",   
+      "common/history/global",   
       "common/strategic_regions",
       "events",
       "events/american_civil_war",

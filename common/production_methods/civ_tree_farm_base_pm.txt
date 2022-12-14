@@ -1,0 +1,27 @@
+﻿pm_punch_wood = {
+	texture = "gfx/interface/icons/production_method_icons/manual.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_oak_log_add = 64
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 64
+		}
+	}
+}
+
+pm_wood_axe = {
+	texture = "gfx/interface/icons/production_method_icons/wood_axe.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_wood_tools_add = 16
+			building_output_oak_log_add = 128 # wood has 2 multiplier
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 16
+		}
+	}
+}
+

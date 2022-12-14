@@ -1,0 +1,23 @@
+﻿building_tool_factory = {
+	texture = "gfx/interface/icons/building_icons/tooling_factory.dds"
+	building_group = bg_heavy_industry
+	production_method_groups = {
+		pmg_base_building_tool_factory
+	}
+}
+
+building_ore_smelter = {
+	texture = "gfx/interface/icons/building_icons/ore_smelter.dds"
+	building_group = bg_heavy_industry
+	production_method_groups = {
+		pmg_base_ore_smelter
+	}
+}
+
+building_charcoal_smelter = {
+	texture = "gfx/interface/icons/building_icons/charcoal_smelter.dds"
+	building_group = bg_heavy_industry
+	production_method_groups = {
+		pmg_base_charcoal_smelter
+	}
+}

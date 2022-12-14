@@ -1,0 +1,8 @@
+﻿building_mine = {
+	building_group = bg_mine
+	texture = "gfx/interface/icons/building_icons/mine.dds"
+	
+	production_method_groups = {
+		pmg_base_mine
+	}
+}

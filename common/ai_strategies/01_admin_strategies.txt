@@ -6,11 +6,13 @@
 	wanted_construction_ratio = 2000000 # 1 level of construction sector per 2 million incorporated population
 
 	building_group_weights = {
-		bg_agriculture = 2.0
-		bg_ranching = 2.0
-		bg_fishing = 1.5
-		bg_plantations = 1.5
-		bg_manufacturing = 0.5
+		bg_mine = 1.0
+		bg_tree_farm = 2.0
+		# bg_agriculture = 2.0
+		# bg_ranching = 2.0
+		# bg_fishing = 1.5
+		# bg_plantations = 1.5
+		# bg_manufacturing = 0.5
 	}
 	
 	goods_stances = {

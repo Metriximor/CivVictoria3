@@ -1,15 +1,66 @@
-﻿oak_log = {
+﻿# Convoy cost multiplier 0.25 for goods that are 64 stackable
+# 2.0 for non stackable goods
+# 1.0 for 16 stackable
+
+oak_log = {
 	texture = "gfx/interface/icons/goods_icons/oak_log.dds"
 	cost = 20
+	category = staple
+	consumption_tax_cost = 300
+	convoy_cost_multiplier = 0.25
+	traded_quantity = 64
+}
+
+stone = {
+	texture = "gfx/interface/icons/goods_icons/stone.dds"
+	cost = 40
+	category = staple
+	consumption_tax_cost = 200
+	convoy_cost_multiplier = 0.25
+	traded_quantity = 64
+}
+
+charcoal = {
+	texture = "gfx/interface/icons/goods_icons/charcoal.dds"
+	cost = 100
+	category = staple
+	consumption_tax_cost = 350
+	convoy_cost_multiplier = 0.25
+	traded_quantity = 64
+}
+
+ironOre = {
+	texture = "gfx/interface/icons/goods_icons/iron_ore.dds"
+	cost = 80
 	category = industrial
+	consumption_tax_cost = 100
+	convoy_cost_multiplier = 0.25
+	traded_quantity = 64
+}
+
+ironIngot = {
+	texture = "gfx/interface/icons/goods_icons/iron_ingot.dds"
+	cost = 120
+	category = staple
 	consumption_tax_cost = 300
 	convoy_cost_multiplier = 0.25
 	traded_quantity = 64
 }
 
 wood_tools = {
+	texture = "gfx/interface/icons/goods_icons/wood_tools.dds"
 	cost = 80
 	category = industrial
+	consumption_tax_cost = 200
+	convoy_cost_multiplier = 2.0
+	traded_quantity = 1
+}
+
+stone_tools = {
+	texture = "gfx/interface/icons/goods_icons/stone_tools.dds"
+	cost = 100
+	category = industrial
+	consumption_tax_cost = 205
 	convoy_cost_multiplier = 2.0
 	traded_quantity = 1
 }

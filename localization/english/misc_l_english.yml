@@ -1,0 +1,19 @@
+﻿l_english: 
+ pmg_base_building_tree_farm:0 "Tree Chopping method"
+ pmg_base_building_tool_factory:0 "Tool production material"
+ pmg_base_mine:0 "Tool selection usage"
+
+ pm_punch_wood:0 "Punch wood"
+ pm_wood_axe:0 "Wood Axes"
+ pm_wood_pickaxe:0 "Wood Pickaxes"
+ pm_stone_pickaxe:0 "Stone Pickaxes"
+ pm_craft_wood_tools:0 "Craft Wood Tools"
+ pm_craft_stone_tools:0 "Craft Stone Tools"
+ pm_convert_log:0 "Convert Log"
+ pm_basic_smelting:0 "Basic Smelting"
+
+ building_tool_factory:0 "Tool Factory"
+ building_tree_farm:0 "Tree Farm"
+ building_mine:0 "Mines"
+ building_ore_smelter:0 "Ore Smelter"
+ building_charcoal_smelter:0 "Charcoal Smelter"

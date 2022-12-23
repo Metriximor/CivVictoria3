@@ -1,0 +1,32 @@
+﻿STATE_PORTUCALE = {
+    id = 1
+}
+
+STATE_PROVENCE = {
+    id = 2
+}
+
+STATE_CASCAIS = {
+    id = 3
+}
+
+STATE_REGINA = {
+    id = 4
+}
+
+STATE_MY_BEBI = {
+    id = 5
+}
+
+STATE_TUTELLE = {
+    id = 6
+}
+
+STATE_CARROT = {
+    id = 7
+}
+
+STATE_BLANCA = {
+    id = 8
+}
+

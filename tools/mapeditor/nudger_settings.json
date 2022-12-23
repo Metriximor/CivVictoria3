@@ -3908,5 +3908,80 @@
 				}
 			},
 			"instances":	[]
+		}, {
+			"object_ref":	{
+				"type":	"locator",
+				"key":	"city"
+			},
+			"entry_state":	{
+				"locked":	false,
+				"base_type":	{
+					"type":	"locator",
+					"key":	"city"
+				}
+			},
+			"instances":	[{
+					"locked":	false
+				}]
+		}, {
+			"object_ref":	{
+				"type":	"locator",
+				"key":	"farm"
+			},
+			"entry_state":	{
+				"locked":	false,
+				"base_type":	{
+					"type":	"locator",
+					"key":	"farm"
+				}
+			},
+			"instances":	[{
+					"locked":	false
+				}]
+		}, {
+			"object_ref":	{
+				"type":	"locator",
+				"key":	"mine"
+			},
+			"entry_state":	{
+				"locked":	false,
+				"base_type":	{
+					"type":	"locator",
+					"key":	"mine"
+				}
+			},
+			"instances":	[{
+					"locked":	false
+				}]
+		}, {
+			"object_ref":	{
+				"type":	"locator",
+				"key":	"port"
+			},
+			"entry_state":	{
+				"locked":	false,
+				"base_type":	{
+					"type":	"locator",
+					"key":	"port"
+				}
+			},
+			"instances":	[{
+					"locked":	false
+				}]
+		}, {
+			"object_ref":	{
+				"type":	"locator",
+				"key":	"wood"
+			},
+			"entry_state":	{
+				"locked":	false,
+				"base_type":	{
+					"type":	"locator",
+					"key":	"wood"
+				}
+			},
+			"instances":	[{
+					"locked":	false
+				}]
 		}]
 }

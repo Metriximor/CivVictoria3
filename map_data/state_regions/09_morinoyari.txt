@@ -1,0 +1,8 @@
+﻿STATE_MORINOYARI = {
+    id = 9
+    provinces = { "x50B8FB" "x65D1D7" "x6DFBB4" "x89EEC4" "xA7E5CB" "xAB99F3" "xB8D78E" "xCECE97" "xE8A86C" "xE9D185" "xEB90DD" "xEEA985" "xF1F3E3" "xF3FA57" "xF69FBF" "xF8D6A1" "xF8F218" "xFA43F5" }
+    capped_resources = {
+        bg_tree_farming = 10
+        bg_mine = 20
+    }
+}

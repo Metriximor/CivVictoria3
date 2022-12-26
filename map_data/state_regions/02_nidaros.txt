@@ -1,0 +1,8 @@
+﻿STATE_NIDAROS = {
+    id = 2
+    provinces = { "x0A4114" "x23E1F9" "x66D2DC" "x68D1C7" "x71E4C2" "x79B5F5" "x81ED95" "x8872FD" "x8AC4D9" "x8CE7B9" "x98B6B1" "xA089D3" "xA3A0B9" "xA5CDBD" "xAACF9A" "xAFA2C8" "xB2F2BD" "xB7A0E2" "xBB73F1" "xBBCDC2" "xBDDFB5" "xC5D67A" "xCAEE5C" "xD3CAFB" "xD3D7DD" "xD658D3" "xD7B1A0" "xD892D6" "xD8E5F0" "xDEC6C2" "xDFAAEB" "xEA3ED6" "xEB6AF2" "xF11FEC" "xF6CEC8" "xF8EDCF" "xFAA19B" "xFCBA82" "xFCCCFA" "xFD55E0" "xFE95C1" }
+    capped_resources = {
+        bg_tree_farming = 10
+        bg_mine = 20
+    }
+}

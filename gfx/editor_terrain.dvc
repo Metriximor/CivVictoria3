@@ -1,0 +1,5 @@
+outs:
+- md5: a7f6921f5039875bb5a333261d5b250b.dir
+  size: 195414747
+  nfiles: 1
+  path: editor_terrain

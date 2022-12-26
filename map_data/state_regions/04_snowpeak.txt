@@ -1,0 +1,8 @@
+﻿STATE_SNOWPEAK = {
+    id = 4
+    provinces = { "x6BE4D3" "x6DFBBB" "x94E0C5" "x987AE5" "xA655FA" "xADF079" "xADFAA2" "xAF6FDA" "xBEFAE4" "xD38AF6" "xD3CB6D" "xD643DD" "xD864FE" "xE282DF" "xEEDA9B" "xF48C9A" "xF58CF3" }
+    capped_resources = {
+        bg_tree_farming = 10
+        bg_mine = 20
+    }
+}

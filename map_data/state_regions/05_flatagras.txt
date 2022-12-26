@@ -1,0 +1,8 @@
+﻿STATE_FLATAGRAS = {
+    id = 5
+    provinces = { "x31ECF9" "x50E6CC" "x6BE9CF" "x72E8B1" "x74B1F2" "x77AAD5" "x7AD3F7" "x7EC8AF" "x89A3D9" "x9679EA" "x9ADA99" "xA0B6FE" "xADF470" "xAED9AA" "xB281FE" "xB7B6C0" "xBC87DE" "xBC97C9" "xBEDB5C" "xD399DB" "xDE66F9" "xDFA2B2" "xE1E4D9" "xE349D8" "xE8868E" "xECD584" "xECF8E0" "xEDFB10" "xEECB76" "xF0D4EE" "xF3F75E" "xF75AFA" "xF763F0" "xF934E8" "xF999C5" "xFAC5CB" "xFBEAB7" }
+    capped_resources = {
+        bg_tree_farming = 10
+        bg_mine = 20
+    }
+}

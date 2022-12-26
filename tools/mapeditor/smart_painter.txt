@@ -1,10 +1,162 @@
 ﻿SmartPainter={
 	PresetManager={
 		Presets={
+			Preset={
+				name="Mesa"
+				HeightRange={
+					Range={
+						name="Mesa"
+						pattern=2
+						curve=3
+						angle_l=13.000000
+						angle_r=94.000000
+						bleeding=3
+						density=4
+						opacity_curve={
+							type="Linear"
+							is_clamped=no
+							points={ 0.000000 1.000000 1.000000 1.000000 }
+						}
+
+						opacity_mask_transform={
+						}
+
+						material={
+							Name=""
+							Materials={
+								Material={
+									MaterialId="cliff_sandstone_04"
+									Value=45
+								}
+
+								Material={
+									MaterialId="desert_06"
+									Value=122
+								}
+
+								Material={
+									MaterialId="cliff_sandstone_05"
+									Value=44
+								}
+
+								Material={
+									MaterialId="cliff_sandstone_03"
+									Value=44
+								}
+
+							}
+						}
+
+						visible=yes
+						avg_geometry=3
+						debugging=no
+					}
+
+				}
+			}
+
+			Preset={
+				name="Desert"
+				HeightRange={
+					Range={
+						name="New Pattern"
+						pattern=3
+						curve=0
+						angle_l=80.000000
+						angle_r=116.000000
+						bleeding=6
+						density=6
+						opacity_curve={
+							type="Linear"
+							is_clamped=no
+							points={ 0.000000 1.000000 1.000000 1.000000 }
+						}
+
+						opacity_mask_transform={
+						}
+
+						material={
+							Name=""
+							Materials={
+								Material={
+									MaterialId="desert_01"
+									Value=72
+								}
+
+								Material={
+									MaterialId="desert_03"
+									Value=81
+								}
+
+								Material={
+									MaterialId="desert_04"
+									Value=32
+								}
+
+								Material={
+									MaterialId="desert_05"
+									Value=70
+								}
+
+							}
+						}
+
+						visible=yes
+						avg_geometry=3
+						debugging=no
+					}
+
+				}
+			}
+
+			Preset={
+				name="Savannah"
+				HeightRange={
+					Range={
+						name="New Pattern"
+						pattern=3
+						curve=0
+						angle_l=80.000000
+						angle_r=100.000000
+						bleeding=3
+						density=4
+						opacity_curve={
+							type="Linear"
+							is_clamped=no
+							points={ 0.000000 1.000000 1.000000 1.000000 }
+						}
+
+						opacity_mask_transform={
+						}
+
+						material={
+							Name=""
+							Materials={
+								Material={
+									MaterialId="savanna_01"
+									Value=153
+								}
+
+								Material={
+									MaterialId="savanna_03"
+									Value=102
+								}
+
+							}
+						}
+
+						visible=yes
+						avg_geometry=1
+						debugging=no
+					}
+
+				}
+			}
+
 		}
 	}
 
-	CurrentPreset=-1
+	CurrentPreset=1
 	Autosave=no
 }
 

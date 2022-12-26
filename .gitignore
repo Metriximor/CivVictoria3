@@ -267,7 +267,6 @@ fabric.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,intellij,pycharm,pycharm+all
 gfx/editor_terrain/*
-gfx/map/*
 gfx/models/papermap/flatmap.dds
 mapeditor*
 Civ Mod.zip

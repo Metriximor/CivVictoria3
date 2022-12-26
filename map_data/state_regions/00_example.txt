@@ -1,8 +1,0 @@
-﻿STATE_EXAMPLE = {
-    id = 1
-    provinces = {}
-    capped_resources = {
-        bg_tree_farming = 10
-        bg_mine = 20
-    }
-}

@@ -17,4 +17,5 @@ with open("src/output/00_states.txt", "w", encoding="utf-8-sig") as f:
         f.write(f"STATE_{strings[i].upper()} = {{\n")
         for key, value in state_dict.items():
             f.write(f"    {key} = {value}\n")
+            f.write(f"    provinces = {{  }}")
         f.write("}\n\n")

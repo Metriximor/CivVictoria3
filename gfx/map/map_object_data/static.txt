@@ -132,8 +132,9 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_09_mesh"
-	count=0
-}
+	count=1
+	transform="5649.635742 0.000000 1285.429932 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+"}
 object={
 	name="canyon_10"
 	clamp_to_water_level=no

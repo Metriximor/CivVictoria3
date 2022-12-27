@@ -694,7 +694,7 @@
 				"key":	"bottom_extension"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"baobab_generator_1_0"
@@ -1309,7 +1309,7 @@
 				"key":	"edgeofworld_papermap"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"baobab_generator_1_0"
@@ -1508,7 +1508,7 @@
 				"key":	"horizontal_lines"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"baobab_generator_1_0"
@@ -1747,7 +1747,7 @@
 				"key":	"line_equator"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"baobab_generator_1_0"
@@ -2269,7 +2269,7 @@
 				"key":	"paper_map_cigarbox_01"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"baobab_generator_1_0"
@@ -2284,7 +2284,7 @@
 				"key":	"paper_map_inkspots_01"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"baobab_generator_1_0"
@@ -2299,7 +2299,7 @@
 				"key":	"paper_map_inkspots_02"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"baobab_generator_1_0"
@@ -2314,7 +2314,7 @@
 				"key":	"paper_map_object_compass"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"baobab_generator_1_0"
@@ -2329,7 +2329,7 @@
 				"key":	"paper_map_object_divider"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"baobab_generator_1_0"
@@ -2344,7 +2344,7 @@
 				"key":	"paper_map_object_fountain_pen"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"baobab_generator_1_0"
@@ -2359,7 +2359,7 @@
 				"key":	"paper_map_sealed_stamp_letter_01"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"baobab_generator_1_0"
@@ -2374,7 +2374,7 @@
 				"key":	"paper_map_table_bottom"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"baobab_generator_1_0"
@@ -2389,7 +2389,7 @@
 				"key":	"paper_map_table_top"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"baobab_generator_1_0"
@@ -3361,7 +3361,7 @@
 				"key":	"top_extension"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"baobab_generator_1_0"
@@ -3374,13 +3374,31 @@
 				"key":	"vertical_lines"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"baobab_generator_1_0"
 				}
 			},
 			"instances":	[{
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
 					"locked":	false
 				}, {
 					"locked":	false

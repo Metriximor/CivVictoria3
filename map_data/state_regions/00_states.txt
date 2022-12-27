@@ -68,6 +68,25 @@ STATE_SIX_COLONIES = {
         bg_mine = 20
     }
 }
+
+STATE_OUTLAND = {
+    id = 25
+    provinces = { }
+    capped_resources = {
+        bg_tree_farming = 10
+        bg_mine = 20
+    }
+}
+
+STATE_OUTER_NIDAROS = { # highest id 26
+    id = 26
+    provinces = { }
+    capped_resources = {
+        bg_tree_farming = 10
+        bg_mine = 20
+    }
+}
+
 # Gensokyo
 
 

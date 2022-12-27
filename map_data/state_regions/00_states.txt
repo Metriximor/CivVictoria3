@@ -20,16 +20,6 @@ STATE_HYLDOR = {
 }
 
 
-STATE_HYLDOR = {
-    id = 3
-    provinces = { "x33E4F5" "x37E0FA" "x45ECCD" "x46F3E0" "x68F6A4" "x73EC9B" "x92CDA4" "x9E7AF9" "xA5BED0" "xABE88E" "xB5D9E0" "xC1D3C4" "xC3D374" "xC4A0E4" "xD1FB6A" "xD2A3EE" "xD2EE85" "xD7F6B3" "xDA8DB1" "xDDA4D6" "xDDD15E" "xDDF281" "xE5A5C6" "xEB95B9" "xEDCABC" "xF1E935" "xF7AAA4" "xF7D660" "xFCEC66" }
-    capped_resources = {
-        bg_tree_farming = 10
-        bg_mine = 20
-    }
-}
-
-
 STATE_SNOWPEAK = {
     id = 4
     provinces = { "xA655FA" "xADFAA2" "xAF6FDA" "xBEFAE4" "xD38AF6" "xD3CB6D" "xD864FE" "xE282DF" "xF58CF3" }

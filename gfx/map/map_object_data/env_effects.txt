@@ -95,8 +95,9 @@ object={
 	generated_content=no
 	layer="environmental_effects"
 	entity="env_sandstorm_small"
-	count=0
-}
+	count=1
+	transform="5777.391113 0.000000 1215.847046 0.000000 0.855550 0.000000 0.517721 1.000000 1.000000 1.000000
+"}
 object={
 	name="env_snow_01_obj"
 	clamp_to_water_level=no

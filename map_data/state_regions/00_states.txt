@@ -68,7 +68,6 @@ STATE_SIX_COLONIES = {
         bg_mine = 20
     }
 }
-
 # Gensokyo
 
 
@@ -120,6 +119,7 @@ STATE_NUMBER'S_LAWN = {
         bg_mine = 20
     }
 }
+
 # Lusitania
 
 STATE_PORTUCALE = {

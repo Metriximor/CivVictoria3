@@ -1,0 +1,120 @@
+﻿s:STATE_NIDAROS = {
+    create_state = {
+        country = c:TRU
+        owned_provinces = { "x0A4114" "x23E1F9" "x46F3E0" "x66D2DC" "x79B5F5" "x81ED95" "x8AC4D9" "x8CE7B9" "xA3A0B9" "xA5CDBD" "xAACF9A" "xADF079" "xAFA2C8" "xB7A0E2" "xBB73F1" "xBBCDC2" "xC5D67A" "xCAEE5C" "xD2A3EE" "xD3CAFB" "xD3D7DD" "xD7B1A0" "xD892D6" "xD8E5F0" "xDEC6C2" "xEB6AF2" "xF11FEC" "xF48C9A" "xF6CEC8" "xF8EDCF" "xFCCCFA" "xFD55E0" }
+    }
+}
+s:STATE_HYLDOR = {
+    create_state = {
+        country = c:TRU
+        owned_provinces = { "x33E4F5" "x37E0FA" "x45ECCD" "x68F6A4" "x73EC9B" "x92CDA4" "x9E7AF9" "xA5BED0" "xABE88E" "xB5D9E0" "xC1D3C4" "xC3D374" "xC4A0E4" "xD1FB6A" "xD2EE85" "xD7F6B3" "xDA8DB1" "xDDA4D6" "xDDD15E" "xDDF281" "xE5A5C6" "xEB95B9" "xEDCABC" "xF1E935" "xF7AAA4" "xF7D660" "xFCEC66" }
+    }
+}
+s:STATE_SNOWPEAK = {
+    create_state = {
+        country = c:TRU
+        owned_provinces = { "xA655FA" "xADFAA2" "xAF6FDA" "xBEFAE4" "xD38AF6" "xD3CB6D" "xD864FE" "xE282DF" "xF58CF3" }
+    }
+}
+s:STATE_FLATAGRAS = {
+    create_state = {
+        country = c:TRU
+        owned_provinces = { "x31ECF9" "x50E6CC" "x6BE9CF" "x72E8B1" "x74B1F2" "x77AAD5" "x7AD3F7" "x7EC8AF" "x89A3D9" "x9679EA" "x9ADA99" "xA0B6FE" "xADF470" "xAED9AA" "xB281FE" "xB7B6C0" "xBC87DE" "xBC97C9" "xBEDB5C" "xD399DB" "xDE66F9" "xDFA2B2" "xE1E4D9" "xE349D8" "xE8868E" "xECD584" "xECF8E0" "xEDFB10" "xEECB76" "xF0D4EE" "xF3F75E" "xF75AFA" "xF763F0" "xF934E8" "xF999C5" "xFAC5CB" "xFBEAB7" }
+    }
+}
+s:STATE_SØRLAND = {
+    create_state = {
+        country = c:TRU
+        owned_provinces = { "x28F7F7" "x46DFE8" "x5DF6F4" "x61E8EF" "x6BE4D3" "x6DFBBB" "x81F8C9" "x82DCFA" "x84A0EF" "x8CBBDF" "x8EB8F2" "x8EEBF8" "x94E0C5" "x987AE5" "x9A7FE2" "x9DDBEF" "x9EA8C4" "x9FF39E" "xA1B9F7" "xAAED8A" "xADA3A6" "xAE82D2" "xB0AEB9" "xB3CEFA" "xB6D4CC" "xB9D084" "xBD56F5" "xBEABDB" "xC180DB" "xC2D56C" "xC3D66D" "xCDE4DF" "xCDFEA3" "xCED968" "xCEEEF9" "xD0DE60" "xD15DD6" "xD1B2C4" "xD643DD" "xD6A9E7" "xD8E5E2" "xDCA2CD" "xDDF32A" "xDF7FAA" "xE29FE6" "xE2A1DA" "xE2F484" "xE46EDE" "xE9C6FE" "xEABFD8" "xEAF323" "xEEDA9B" "xEFF1B8" "xF149BB" "xF1B4C8" "xF26EA9" "xF2BD9B" "xF435E0" "xF66DDD" "xF7D4E2" "xFA41C5" "xFBCDFB" "xFC8AED" }
+    }
+}
+s:STATE_SIX_COLONIES = {
+    create_state = {
+        country = c:TRU
+        owned_provinces = { "x3FE2DC" "x60E9CD" "x6BE1C5" "x77E8D0" "x8D8EFA" "x9CAEC6" "xA8EEF9" "xB0DDF8" "xB8B88E" "xBCF1FD" "xC093AE" "xC19DCD" "xC1F2EB" "xC4B8FD" "xCC3DEC" "xCE8EC1" "xD1C95B" "xD5C4A9" "xD6A979" "xD6BFE2" "xD79AD4" "xD8CFE8" "xDB9891" "xDEACD0" "xE05DC9" "xE075D1" "xE5DE3C" "xE77EBF" "xE855E9" "xE8F54F" "xF647E4" "xF96CE5" "xF99F74" "xFBC74D" }
+    }
+}
+s:STATE_OUTLAND = {
+    create_state = {
+        country = c:TRU
+        owned_provinces = { "x4AE5F5" "x54D3EE" "x7EF1F0" "x81C4D9" "x83B1EF" "x84D9CD" "xA5E4A2" "xA697C0" "xAF7FC9" "xB4D7BF" "xB6CACD" "xBFEBF7" "xC2B6A5" "xCEB5C9" "xDB56FC" "xE851E5" "xEBDDF9" "xF7B5AB" "xF9E883" "xFEB9F2" }
+    }
+}
+s:STATE_OUTER_NIDAROS = {
+    create_state = {
+        country = c:TRU
+        owned_provinces = { "x68D1C7" "x71E4C2" "x8872FD" "x98B6B1" "xA089D3" "xB2F2BD" "xBDDFB5" "xD0F83E" "xD658D3" "xDFAAEB" "xEA3ED6" "xFAA19B" "xFCBA82" "xFE95C1" }
+    }
+}
+s:STATE_PORTUCALE = {
+    create_state = {
+        country = c:LUS
+        owned_provinces = { "x047049" "x7FDEA5" "x90CCEF" "x97C2DD" "xABBED1" "xADCC8C" "xB06EF7" "xBE9CC4" "xCEDFD8" "xD1BDED" "xD279D1" "xD3E158" "xD7FC32" "xDBEEA0" "xDC4BFD" "xE4E6C8" "xE583BC" "xF2F389" "xF9D963" "xFBA660" }
+    }
+}
+s:STATE_PROVENCE = {
+    create_state = {
+        country = c:LUS
+        owned_provinces = { "x5DFCCE" "x6BD8F8" "x91D6CF" "x9DECDA" "xC3B989" "xD3CC92" "xE45EC3" "xE6EA84" "xE796B9" "xF27232" "xFA03F9" "xFA2CE0" "xFAFD93" "xFE3FEE" }
+    }
+}
+s:STATE_CASCAIS = {
+    create_state = {
+        country = c:LUS
+        owned_provinces = { "x4EE3DC" "x73CCE6" "x79D4BA" "x9AFECE" "x9DED6E" "xB4B4BA" "xBE76EC" "xC095DF" "xCDFE95" "xCED5A5" "xD0E7CC" "xD2F758" "xD4EF58" "xD95DFE" "xD9AC8B" "xD9F44C" "xE2F64C" "xE3B9ED" "xE4968B" "xE774BF" "xEEFD1D" "xF0FB0F" "xF2C56C" "xF951BD" "xFB9981" "xFCBA80" }
+    }
+}
+s:STATE_OLIMPIA = {
+    create_state = {
+        country = c:LUS
+        owned_provinces = { "x20FCE3" "x5DFAE3" "x70DFA7" "x8CD5A5" "x8FACDE" "x90C7E0" "x96E3E0" "x9DE591" "xA2D5C5" "xAFABF3" "xBCB29A" "xC0D0CC" "xC36A90" "xC793C0" "xCAC667" "xCCE552" "xD0DD57" "xD4EAD8" "xD7F867" "xDA66BE" "xDACCB1" "xDC32F9" "xDF72B5" "xE4F15E" "xEFE35B" "xF5999E" "xF6B7A3" "xFCD4F7" }
+    }
+}
+s:STATE_ATLAS = {
+    create_state = {
+        country = c:LUS
+        owned_provinces = { "x047048" "x30D7F1" "x6CB1EA" "x88C5DE" "x8BD3DC" "x9CBFB8" "xA0DFF6" "xB9F2C7" "xBAFA7A" "xCE999F" "xD2F9A9" "xD3C3D3" "xD4C989" "xD844E3" "xDE93C0" "xDF88A7" "xDFDCB2" "xE59BAF" "xE64EF7" "xEDA9BD" "xF3A5AD" "xF5C96C" "xF7B795" "xF8A08D" "xFCA961" "xFD57ED" }
+    }
+}
+s:STATE_AZORES = {
+    create_state = {
+        country = c:LUS
+        owned_provinces = { "x04EE66" "x6EBCE9" "xDBF15F" }
+    }
+}
+s:STATE_CLASSICALE = {
+    create_state = {
+        country = c:LUS
+        owned_provinces = { "x838516" "xB5F283" "xB6FECC" "xB7ABD6" "xB8BFDA" "xBEE7F9" "xD6C49B" "xDE82B6" "xE1C4B6" "xF07697" "xF468A9" "xFE43E5" }
+    }
+}
+s:STATE_DREAMLAND = {
+    create_state = {
+        country = c:LUS
+        owned_provinces = { "x3BF0FB" "x440610" "x58BBE4" "x85A9FE" "x8BD1AF" "x8BF29A" "x9EF7BF" "xABEC60" "xB9CCA6" "xBFD86B" "xC3B77D" "xC749EE" "xC8A293" "xCBEC57" "xEAD5C9" "xF55AB5" "xF7C982" }
+    }
+}
+s:STATE_LUSITAN_PLAINS = {
+    create_state = {
+        country = c:LUS
+        owned_provinces = { "x26F3F0" "x41E6EF" "x5BEBE0" "x83BCFD" "x93F3CE" "x98B5C7" "x9DEDEF" "xA0F97C" "xAEE28B" "xDCD0A5" "xDDFC3B" "xDE8A9D" "xDEFD52" "xE4DF7D" "xE7C4EE" "xEA99CF" "xEDBECA" "xEEDA55" "xF2EDBB" "xF2F9EB" "xFA4ACB" "xFD878B" }
+    }
+}
+s:STATE_ALENTEJO = {
+    create_state = {
+        country = c:LUS
+        owned_provinces = { "x32D9EA" "x58EFF4" "x5DD1DC" "x6EE6D7" "x78F5E9" "x7BC4CD" "x8CDAB2" "x8FACDF" "x8FCEC4" "x9394D7" "xB456F5" "xC391C5" "xDAB573" "xE1B19B" "xEA909F" "xEAF818" "xF1FD65" "xF6E868" "xF7E56C" "xFA77AA" "xFDF4B6" "xFEE35B" }
+    }
+}
+s:STATE_LUSITAN_PLATEAUS = {
+    create_state = {
+        country = c:LUS
+        owned_provinces = { "x13D0FE" "x53F9E8" "x67D8FD" "x6CD9E7" "x79B3CE" "x79EAF1" "x7AE4E4" "x7CD3AC" "x81E8A9" "x8CF5F5" "x8CFBCB" "xB19FCD" "xB7C4A4" "xB8C8EF" "xBEC5F4" "xBEC9EE" "xC3FB41" "xC9C2C7" "xCDF4C2" "xD36CC3" "xD798F1" "xD8D2A2" "xDDA1E8" "xDEDAC0" "xE1D0B6" "xED78F6" "xF29E8B" "xF660B6" "xF7BBDC" "xF8FD1C" "xFCD2FE" "xFEB379" }
+    }
+}
+s:STATE_EBORA = {
+    create_state = {
+        country = c:LUS
+        owned_provinces = { "x6DF9C3" "x96CFC0" "xB0E7B2" "xCAD6D5" "xCFD574" "xD1E151" "xE398E3" "xE4D14F" "xE870EF" "xEECCEC" "xF978EE" }
+    }
+}

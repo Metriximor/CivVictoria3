@@ -1,0 +1,9 @@
+﻿truidencian = { 
+	color = rgb { 192 29 56 } 
+	religion = examplian 
+	traits = { example_heritage examplian }
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

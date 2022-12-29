@@ -1,6 +1,4 @@
-﻿####### EXAMPLE #######
-
-examplish={ #Culture name will be used until localisation is provided.
+﻿examplish={ #Culture name will be used until localisation is provided.
 	color= rgb{ 83 175 237 } #Colour of the culture under the culture lens.
 	religion = examplian #Default religion for pops of this culture.
 	traits = { example_heritage examplian } #Discrimination traits defined in common\discrimination_traits
@@ -124,5 +122,3 @@ examplish={ #Culture name will be used until localisation is provided.
 		1 = caucasian
 	}
 }
-
-#####################

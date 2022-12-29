@@ -17,3 +17,6 @@
  building_mine:0 "Mines"
  building_ore_smelter:0 "Ore Smelter"
  building_charcoal_smelter:0 "Charcoal Smelter"
+
+ LUS:0 "Lusitania"
+ TRU:0 "Truidencia"

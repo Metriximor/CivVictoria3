@@ -13,20 +13,35 @@
 @NZL_coa_offset = @[3/16] 
 0.3 = 0.16
 
-###### EXAMPLE ######
-
-EXA = {
-	pattern = "pattern_solid.tga" #Choose a base from gfx\coat_of_arms\patterns
-	color1 = "white" #Use a predefined colour or you can do 'color1 = rgb{ x x x }'.
-	textured_emblem = { #Adds a textured emblem.
-		texture = "te_coa_bahamas.dds" #From gfx\coat_of_arms\textured_emblems
-		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+TRU = {
+	pattern = "pattern_stripes_truidencia.dds"
+	color1 = "full_white"
+	color2 = "truidencian_yellow"
+	color3 = "truidencian_red"
+	colored_emblem = {
+		texture = "ce_truidencia_monarchy.dds"
+		color2 = "full_white"
+		color3 = "truidencian_red"
+		instance = { position { 0.5 0.5} scale = { 1 1 } }
 	}
-	colored_emblem = { #Adds a colored emblem.
-		texture = "ce_coa_frame_costa_rica.dds" #From gfx\coat_of_arms\textured_emblems
-		color1 = "red"
-		color2 = color1 #You can tell it to just use the same base color1 (in this case "white").
-		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+}
+
+LUS = {
+	pattern = "pattern_lusitania.dds"
+	color1 = "lusitan_red"
+	color2 = "full_black"
+	color3 = "full_white"
+	colored_emblem = {
+		texture = "ce_lusitania_shields.dds"
+		color1 = "lusitan_shield_blue"
+		color2 = "full_white"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }	
+	}
+	colored_emblem = {
+		texture = "ce_lusitania.dds"
+		color1 = "lusitan_castle_yellow"
+		color2 = "lusitan_castle_yellow_border"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }	
 	}
 }
 

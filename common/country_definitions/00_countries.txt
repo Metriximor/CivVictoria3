@@ -26,3 +26,11 @@ TRU = {
 	cultures = { truidencian }
 	capital = STATE_NIDAROS
 }
+
+GEN = {
+	color = "red"
+	country_type = recognized
+	tier = kingdom
+	cultures = { examplish }
+	capital = STATE_TENSEIMIYA
+}

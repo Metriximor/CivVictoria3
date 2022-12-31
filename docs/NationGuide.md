@@ -2,6 +2,8 @@
 
 More things may be added in the future but for now this should be good
 
+Join us at **https://discord.gg/uzGXzBvtKP** and ask for a thread for your nation!
+
 ## Country 
 
 A country is defined as a list of states

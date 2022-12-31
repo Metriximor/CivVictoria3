@@ -8,8 +8,9 @@ colors = {
 	# Truidencia
 	truidencian_red = rgb { 192 29 56 }
 	truidencian_yellow = rgb { 247 200 64 }
-
+	
 	# Base Colors
+	pastel_pink = rgb { 255 209 220 }
 	full_white = rgb { 255 255 255 }
 	full_black = rgb { 0 0 0 }
 }

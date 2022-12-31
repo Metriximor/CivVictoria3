@@ -31,9 +31,11 @@
       "common/history/trade_routes",   
       "common/history/global",   
       "common/strategic_regions",
+      "common/goods",
       "events",
       "events/american_civil_war",
-      "map_data/state_regions"
+      "map_data/state_regions",
+      "gfx/portraits/portrait_modifiers"
     ]
   }
 }

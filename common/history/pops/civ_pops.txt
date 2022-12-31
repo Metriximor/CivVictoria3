@@ -1,0 +1,18 @@
+﻿POPS = {
+	s:STATE_PORTUCALE = {
+		region_state:LUS = {
+			create_pop = {
+				culture = lusitan
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_PROVENCE = {
+		region_state:LUS = {
+			create_pop = {
+				culture = lusitan
+				size = 100
+			}
+		}
+	}
+}

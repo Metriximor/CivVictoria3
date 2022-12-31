@@ -44,6 +44,7 @@ for string in state_data.split("\n"):
         value = value.strip()
         if key == "provinces":
             provinces = value.strip("{}").split()
+            provinces = [province.strip('"') for province in provinces]
             # Construct the output string for this state
             output += f"s:{state_name} = {{\n"
             output += "    create_state = {\n"

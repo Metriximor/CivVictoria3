@@ -52,7 +52,7 @@ STATE_SØRLAND = {
 
 STATE_SIX_COLONIES = {
     id = 7
-    provinces = { "x3FE2DC" "x60E9CD" "x6BE1C5" "x77E8D0" "x8D8EFA" "x9CAEC6" "xA8EEF9" "xB0DDF8" "xB8B88E" "xBCF1FD" "xC093AE" "xC19DCD" "xC1F2EB" "xC4B8FD" "xCC3DEC" "xCE8EC1" "xD1C95B" "xD5C4A9" "xD6A979" "xD6BFE2" "xD79AD4" "xD8CFE8" "xDB9891" "xDEACD0" "xE05DC9" "xE075D1" "xE5DE3C" "xE77EBF" "xE855E9" "xE8F54F" "xF647E4" "xF96CE5" "xF99F74" "xFBC74D" }
+    provinces = { "x3FE2DC" "x60E9CD" "x6BE1C5" "x77E8D0" "x8D8EFA" "x9CAEC6" "xA8EEF9" "xB0DDF8" "xB8B88E" "xBCF1FD" "xC093AE" "xC19DCD" "xC1F2EB" "xC4B8FD" "xCC3DEC" "xCE8EC1" "xD1C95B" "xD5C4A9" "xD6A979" "xD6BFE2" "xD8CFE8" "xDB9891" "xDEACD0" "xE05DC9" "xE075D1" "xE5DE3C" "xE77EBF" "xE855E9" "xE8F54F" "xF647E4" "xF99F74" "xFBC74D" }
     capped_resources = {
         bg_tree_farming = 10
         bg_mine = 20
@@ -71,7 +71,7 @@ STATE_OUTLAND = {
 STATE_OUTER_NIDAROS = {
     # highest id 26
     id = 26
-    provinces = { "x68D1C7" "x71E4C2" "x8872FD" "x98B6B1" "xA089D3" "xB2F2BD" "xBDDFB5" "xD0F83E" "xD658D3" "xDFAAEB" "xEA3ED6" "xFAA19B" "xFCBA82" "xFE95C1" }
+    provinces = { "x32012D" "x68D1C7" "x71E4C2" "x8872FD" "x98B6B1" "xA089D3" "xB2F2BD" "xBDDFB5" "xD0F83E" "xD658D3" "xDFAAEB" "xEA3ED6" "xFAA19B" "xFCBA82" "xFE95C1" }
     capped_resources = {
         bg_tree_farming = 10
         bg_mine = 20
@@ -166,7 +166,7 @@ STATE_CLASSICALE = {
 
 STATE_DREAMLAND = {
     id = 20
-    provinces = { "x3BF0FB" "x440610" "x58BBE4" "x85A9FE" "x8BD1AF" "x8BF29A" "x9EF7BF" "xABEC60" "xB9CCA6" "xBFD86B" "xC3B77D" "xC749EE" "xC8A293" "xCBEC57" "xEAD5C9" "xF55AB5" "xF7C982" }
+    provinces = { "x3BF0FB" "x58BBE4" "x85A9FE" "x8BD1AF" "x8BF29A" "x9EF7BF" "xABEC60" "xB9CCA6" "xBFD86B" "xC3B77D" "xC749EE" "xC8A293" "xCBEC57" "xEAD5C9" "xF55AB5" "xF7C982" }
 }
 
 STATE_LUSITAN_PLAINS = {

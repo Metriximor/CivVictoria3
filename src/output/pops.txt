@@ -1,0 +1,175 @@
+﻿s:STATE_NIDAROS = {
+    region_state:TRU = {
+        create_pop = {
+        culture = lusitan
+        size = 292943
+    }
+}
+s:STATE_HYLDOR = {
+    region_state:TRU = {
+        create_pop = {
+        culture = lusitan
+        size = 178399
+    }
+}
+s:STATE_SNOWPEAK = {
+    region_state:TRU = {
+        create_pop = {
+        culture = lusitan
+        size = 610624
+    }
+}
+s:STATE_FLATAGRAS = {
+    region_state:TRU = {
+        create_pop = {
+        culture = lusitan
+        size = 845788
+    }
+}
+s:STATE_SØRLAND = {
+    region_state:TRU = {
+        create_pop = {
+        culture = lusitan
+        size = 663264
+    }
+}
+s:STATE_SIX_COLONIES = {
+    region_state:TRU = {
+        create_pop = {
+        culture = lusitan
+        size = 111417
+    }
+}
+s:STATE_OUTLAND = {
+    region_state:TRU = {
+        create_pop = {
+        culture = lusitan
+        size = 597561
+    }
+}
+s:STATE_OUTER_NIDAROS = {
+    region_state:TRU = {
+        create_pop = {
+        culture = lusitan
+        size = 355654
+    }
+}
+s:STATE_TENSEIMIYA = {
+    region_state:GEN = {
+        create_pop = {
+        culture = lusitan
+        size = 691454
+    }
+}
+s:STATE_MORINOYARI = {
+    region_state:GEN = {
+        create_pop = {
+        culture = lusitan
+        size = 209327
+    }
+}
+s:STATE_DAISHINREIBAU = {
+    region_state:GEN = {
+        create_pop = {
+        culture = lusitan
+        size = 684778
+    }
+}
+s:STATE_MUMEITA = {
+    region_state:GEN = {
+        create_pop = {
+        culture = lusitan
+        size = 597388
+    }
+}
+s:STATE_NUMBER'S_LAWN = {
+    region_state:GEN = {
+        create_pop = {
+        culture = lusitan
+        size = 378275
+    }
+}
+s:STATE_PORTUCALE = {
+    region_state:LUS = {
+        create_pop = {
+        culture = lusitan
+        size = 940392
+    }
+}
+s:STATE_PROVENCE = {
+    region_state:LUS = {
+        create_pop = {
+        culture = lusitan
+        size = 303526
+    }
+}
+s:STATE_CASCAIS = {
+    region_state:LUS = {
+        create_pop = {
+        culture = lusitan
+        size = 406567
+    }
+}
+s:STATE_OLIMPIA = {
+    region_state:LUS = {
+        create_pop = {
+        culture = lusitan
+        size = 573234
+    }
+}
+s:STATE_ATLAS = {
+    region_state:LUS = {
+        create_pop = {
+        culture = lusitan
+        size = 70484
+    }
+}
+s:STATE_AZORES = {
+    region_state:LUS = {
+        create_pop = {
+        culture = lusitan
+        size = 650952
+    }
+}
+s:STATE_CLASSICALE = {
+    region_state:LUS = {
+        create_pop = {
+        culture = lusitan
+        size = 702115
+    }
+}
+s:STATE_DREAMLAND = {
+    region_state:LUS = {
+        create_pop = {
+        culture = lusitan
+        size = 162569
+    }
+}
+s:STATE_LUSITAN_PLAINS = {
+    region_state:LUS = {
+        create_pop = {
+        culture = lusitan
+        size = 380524
+    }
+}
+s:STATE_ALENTEJO = {
+    region_state:LUS = {
+        create_pop = {
+        culture = lusitan
+        size = 156987
+    }
+}
+s:STATE_LUSITAN_PLATEAUS = {
+    region_state:LUS = {
+        create_pop = {
+        culture = lusitan
+        size = 697453
+    }
+}
+s:STATE_EBORA = {
+    region_state:LUS = {
+        create_pop = {
+        culture = lusitan
+        size = 645395
+    }
+}

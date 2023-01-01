@@ -9,5 +9,5 @@ STATE_MEDI_SEA = {
 STATE_DREAMLAND_LAKE = {
     id = 3002
     provinces = { "x440610" }
-    impassable = {}
+    impassable = { "x440610"}
 }

@@ -1,15 +1,42 @@
 ﻿###### EXAMPLE ######
 
-# region_example_strategic_region = { #This name will be used in-game until localisation is provided.
-# 	capital_province = xD08471  #Hex code of a capital province within the strategic region.
-# 	map_color = rgb{ 255 255 255 } #Colour of the strategic region shows when in strategic region lens.
-# 	states = { STATE_EXAMPLE } #All the states you want within the region.
-# }
+region_example_strategic_region = { #This name will be used in-game until localisation is provided.
+	capital_province = x00043E  #Hex code of a capital province within the strategic region.
+	map_color = rgb { 255 255 255 } #Colour of the strategic region shows when in strategic region lens.
+	states = { STATE_DEBUG } #All the states you want within the region.
+}
 
-region_lusitania_strategic_region = {
+region_medi_sea_land = {
 	capital_province = x047049
-	map_color = { 274 64 21 }
-	states = { STATE_PROVENCE STATE_PORTUCALE STATE_CLASSICALE }
+	map_color = rgb { 249 0 0 }
+	states = { 
+		STATE_NIDAROS
+		STATE_HYLDOR
+		STATE_SNOWPEAK
+		STATE_FLATAGRAS
+		STATE_SØRLAND
+		STATE_SIX_COLONIES
+		STATE_OUTLAND
+		STATE_OUTER_NIDAROS
+		STATE_TENSEIMIYA
+		STATE_MORINOYARI
+		STATE_DAISHINREIBAU
+		STATE_MUMEITA
+		STATE_NUMBER'S_LAWN
+		STATE_PORTUCALE
+		STATE_PROVENCE
+		STATE_CASCAIS
+		STATE_OLIMPIA
+		STATE_ATLAS
+		STATE_AZORES
+		STATE_CLASSICALE
+		STATE_DREAMLAND
+		STATE_LUSITAN_PLAINS
+		STATE_ALENTEJO
+		STATE_LUSITAN_PLATEAUS
+		STATE_EBORA 
+		STATE_DREAMLAND_LAKE
+	}
 }
 
 #####################

@@ -1,0 +1,102 @@
+﻿BUILDINGS = {
+	s:STATE_NIDAROS = {
+		region_state:TRU = {
+		}
+	}
+	s:STATE_HYLDOR = {
+		region_state:TRU = {
+		}
+	}
+	s:STATE_SNOWPEAK = {
+		region_state:TRU = {
+		}
+	}
+	s:STATE_FLATAGRAS = {
+		region_state:TRU = {
+		}
+	}
+	s:STATE_SØRLAND = {
+		region_state:TRU = {
+		}
+	}
+	s:STATE_SIX_COLONIES = {
+		region_state:TRU = {
+		}
+	}
+	s:STATE_OUTLAND = {
+		region_state:TRU = {
+		}
+	}
+	s:STATE_OUTER_NIDAROS = {
+		region_state:TRU = {
+		}
+	}
+	s:STATE_TENSEIMIYA = {
+		region_state:GEN = {
+		}
+	}
+	s:STATE_MORINOYARI = {
+		region_state:GEN = {
+		}
+	}
+	s:STATE_DAISHINREIBAU = {
+		region_state:GEN = {
+		}
+	}
+	s:STATE_MUMEITA = {
+		region_state:GEN = {
+		}
+	}
+	s:STATE_NUMBER'S_LAWN = {
+		region_state:GEN = {
+		}
+	}
+	s:STATE_PORTUCALE = {
+		region_state:LUS = {
+		}
+	}
+	s:STATE_PROVENCE = {
+		region_state:LUS = {
+		}
+	}
+	s:STATE_CASCAIS = {
+		region_state:LUS = {
+		}
+	}
+	s:STATE_OLIMPIA = {
+		region_state:LUS = {
+		}
+	}
+	s:STATE_ATLAS = {
+		region_state:LUS = {
+		}
+	}
+	s:STATE_AZORES = {
+		region_state:LUS = {
+		}
+	}
+	s:STATE_CLASSICALE = {
+		region_state:LUS = {
+		}
+	}
+	s:STATE_DREAMLAND = {
+		region_state:LUS = {
+		}
+	}
+	s:STATE_LUSITAN_PLAINS = {
+		region_state:LUS = {
+		}
+	}
+	s:STATE_ALENTEJO = {
+		region_state:LUS = {
+		}
+	}
+	s:STATE_LUSITAN_PLATEAUS = {
+		region_state:LUS = {
+		}
+	}
+	s:STATE_EBORA = {
+		region_state:LUS = {
+		}
+	}	
+}

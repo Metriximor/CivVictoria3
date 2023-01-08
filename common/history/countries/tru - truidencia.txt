@@ -1,0 +1,12 @@
+﻿COUNTRIES = {
+	c:TRU = {
+		effect_starting_technology_tier_2_tech = yes
+
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_no_migration_controls
+
+		ig:ig_pvpers = {
+			set_interest_group_name = ig_tru_imperial_army
+		}
+	}
+}

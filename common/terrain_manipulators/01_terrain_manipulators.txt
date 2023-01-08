@@ -128,3 +128,22 @@ forestry = {
 		"forestry_dynamic" = { show_above = 0.1 }
 	}
 }
+
+urban_city = {
+	created_terrain = urban
+	terrain_mask = "mask_dynamic_farmland"
+	city_type = city
+	toggle_map_object_layers = {
+		"semidynamic" = { show_below = 0.2 }
+	}
+}
+
+urban_port = {
+	created_terrain = docks
+	terrain_mask = "mask_dynamic_farmland"
+	city_type = port
+	coastal = yes
+	toggle_map_object_layers = {
+		"semidynamic" = { show_below = 0.2 }
+	}
+}

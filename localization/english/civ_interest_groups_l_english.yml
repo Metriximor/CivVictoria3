@@ -1,7 +1,7 @@
 ﻿l_english:
  ig_buildfriends:0 "Buildfriends"
  ig_buildfriends_only_icon:0 "@buildfriends!"
- ig_buildfriends_desc:0 ""
+ ig_buildfriends_desc:0 "Buildfriends represent players who focus on creating beautiful structures and settlements, and tends to be peaceful and isolationist in their gameplay style."
 
  ig_grinders:0 "Grinders"
  ig_grinders_only_icon:0 "@grinders!"
@@ -9,7 +9,7 @@
 
  ig_pvpers:0 "Pvpers"
  ig_pvpers_only_icon:0 "@pvpers!"
- ig_pvpers_desc:0 ""
+ ig_pvpers_desc:0 "Pvpers represent players who engage in player versus player combat, often by 'clicking' on other players, building vaults and bunkers and others tied strongly to the nations military."
 
  ig_roleplayers:0 "Roleplayers"
  ig_roleplayers_only_icon:0 "@roleplayers!"
@@ -18,3 +18,6 @@
  ig_civindustrialists:0 "Industrialists"
  ig_civindustrialists_only_icon:0 "@industrialists!"
  ig_civindustrialists_desc:0 ""
+# Custom IG names
+ ig_tru_imperial_army:0 "Imperial Army"
+#  ig_tru_imperial_army_desc:0 ""

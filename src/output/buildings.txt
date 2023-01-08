@@ -54,7 +54,7 @@ s:STATE_PORTUCALE = {
     region_state:LUS = {
     }
 }
-s:STATE_PROVENCE = {
+s:STATE_CIV_PROVENCE = {
     region_state:LUS = {
     }
 }
@@ -86,7 +86,7 @@ s:STATE_LUSITAN_PLAINS = {
     region_state:LUS = {
     }
 }
-s:STATE_ALENTEJO = {
+s:STATE_CIV_ALENTEJO = {
     region_state:LUS = {
     }
 }

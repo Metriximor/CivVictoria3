@@ -18,11 +18,6 @@
  building_ore_smelter:0 "Ore Smelter"
  building_charcoal_smelter:0 "Charcoal Smelter"
 
- ig_buildfriends:0 "Buildfriends"
- ig_grinders:0 "Grinders"
- ig_pvpers:0 "Pvpers"
- ig_roleplayers:0 "Roleplayers"
-
  LUS:0 "Lusitania"
  LUS_ADJ:0 "Lusitan"
  TRU:0 "Truidencia"

@@ -1,4 +1,4 @@
-﻿ig_industrialists = {
+﻿ig_civindustrialists = {
     color = rgb { 173 167 169 }
     texture = "gfx/interface/icons/ig_icons/industrialists.dds"
 

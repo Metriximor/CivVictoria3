@@ -1,0 +1,32 @@
+﻿l_english:
+# Truidencia
+ STATE_NIDAROS:0 "Nidaros"
+ STATE_HYLDOR:0 "Hyldor"
+ STATE_SNOWPEAK:0 "Snowpeak"
+ STATE_FLATAGRAS:0 "Flatagras"
+ STATE_SØRLAND:0 "Sørland"
+ STATE_SIX_COLONIES:0 "Six Colonies"
+ STATE_OUTLAND:0 "Outland"
+ STATE_OUTER_NIDAROS:0 "Outer Nidaros"
+# Gensokyo
+ STATE_TENSEIMIYA:0 "Tenseimiya"
+ STATE_MORINOYARI:0 "Morinoyari"
+ STATE_DAISHINREIBAU:0 "Daishinreibau"
+ STATE_MUMEITA:0 "Mumeita"
+ STATE_NUMBER:0 "Number"
+# Lusitania
+ STATE_PORTUCALE:0 "Portucale"
+ STATE_CIV_PROVENCE:0 "Provence"
+ STATE_CASCAIS:0 "Cascais"
+ STATE_OLIMPIA:0 "Olimpia"
+ STATE_ATLAS:0 "Atlas"
+ STATE_AZORES:0 "Açores"
+ STATE_CLASSICALE:0 "Classicale"
+ STATE_DREAMLAND:0 "Dreamland"
+ STATE_LUSITAN_PLAINS:0 "Lusitan Plains"
+ STATE_CIV_ALENTEJO:0 "Alentejo"
+ STATE_LUSITAN_PLATEAUS:0 "Lusitan Plateaus"
+ STATE_EBORA:0 "Ebora"
+# Seas
+ STATE_DREAMLAND_LAKE:0 "Lake of Dreamland"
+ STATE_MEDI_SEA:0 "Medi Sea"

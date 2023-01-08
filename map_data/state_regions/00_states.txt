@@ -77,7 +77,6 @@ STATE_OUTER_NIDAROS = {
         bg_mine = 20
     }
 }
-
 # Gensokyo
 
 STATE_TENSEIMIYA = {
@@ -128,7 +127,6 @@ STATE_NUMBER'S_LAWN = {
         bg_mine = 20
     }
 }
-
 # Lusitania
 
 STATE_PORTUCALE = {

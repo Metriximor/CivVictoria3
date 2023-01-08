@@ -1,4 +1,5 @@
 ﻿midfriends = {
+	texture = "gfx/interface/icons/pops_icons/midfriend.dds"
 	color = { 236 182 0 }
 	strata = middle
 	start_quality_of_life = 7

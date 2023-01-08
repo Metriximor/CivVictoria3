@@ -1,4 +1,13 @@
-﻿NPops = {
+﻿NGame = {
+	START_DATE = "756.6.24" 
+	END_DATE = "9999.1.1" 
+}
+
+NPops = {
 	DEFAULT_POP_TYPE = "newfriends"
 	SLAVE_POP_TYPE = "newfriends" # For legal reasons that's a joke. There's no slavery in the mod
+}
+
+NPolitics = {
+	DEFAULT_LAW_ACTIVATION_DATE = "756.6.24"
 }

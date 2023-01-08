@@ -1,4 +1,5 @@
 ﻿oldfriends = {
+	texture = "gfx/interface/icons/pops_icons/oldfriend.dds"
 	color = { 112 41 99 }
 	strata = rich
 

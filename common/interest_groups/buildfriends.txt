@@ -41,11 +41,11 @@
 	}
 	
 	female_commander_chance = {	
-		value = 1.0
+		value = 0.1
 	}
 
     female_politician_chance = {
-		value = 1.0
+		value = 0.1
 	}
 	
 	# The chance that a commander belonging to this IG takes over leadership when it changes

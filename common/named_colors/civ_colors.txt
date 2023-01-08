@@ -13,6 +13,10 @@ colors = {
 	bizantine_purple = rgb { 112 41 99 }
 
 	# Base Colors
+	cobblestone = rgb { 173 167 169 }
+	grass_green = rgb { 0 154 23 }
+	chestnut_brown = rgb { 172 126 89 }
+	dark_magenta = rgb { 139 0 139 }
     blueprint_blue = rgb { 53 99 124 }
 	burgundy = rgb { 128 0 32 }
 	golden_yellow = rgb { 236 182 0 }

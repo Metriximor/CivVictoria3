@@ -1,0 +1,9 @@
+gensokyojin = { 
+	color = rgb { 318 0 179 } 
+	religion = examplian 
+	traits = { example_heritage examplian }
+	graphics = asian
+	ethnicities = {
+		1 = asian
+	}
+}

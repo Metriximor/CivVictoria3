@@ -2,7 +2,37 @@
 	color = rgb { 192 29 56 } 
 	religion = examplian 
 	traits = { example_heritage examplian }
-	graphics = european
+	male_common_first_names={
+August
+Bjorn
+Olav 
+Harald Haavard Haakon Handrane
+Magnus 
+
+}
+female_common_first_names = {
+Adrianne Anna Augustina
+Ragnild
+Generica
+}
+	noble_last_names = {
+of_Nidaros of_Hyldor of_Snowpeak of_Fox'_Landing 
+}	
+	common_last_names={
+Nidgard of_Bezengard Revrud
+}
+
+	male_regal_first_names = {
+Obtainius_Bez
+Zeldronicus_Bez
+Besius_Bez
+}
+	female_regal_first_names = {
+Margrete Maud
+Ragnhild 
+}
+
+graphics = european
 	ethnicities = {
 		1 = caucasian
 	}

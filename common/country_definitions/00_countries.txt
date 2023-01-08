@@ -8,7 +8,7 @@ EXA = {
 	tier = kingdom #See common\country_ranks
 
 	cultures = { examplish } #What are their primary culture/s - you can set multiple.
-	capital = STATE_EXAMPLE #Which state holds this nation's default capital
+	capital = STATE_DEBUG #Which state holds this nation's default capital
 }
 
 LUS = {

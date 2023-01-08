@@ -7,7 +7,7 @@
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 16
+			building_employment_newfriends_add = 16
 		}
 	}
 }

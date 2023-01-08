@@ -1,0 +1,56 @@
+﻿ig_buildfriends = {
+    color = rgb { 53 99 124 }
+    texture = "gfx/interface/icons/ig_icons/buildfriends.dds"
+
+    ideologies = {
+    }
+
+    enable = {
+        always = yes
+    }
+
+    traits = {
+    }
+
+    on_enable = {}
+	on_disable = {}	
+	on_character_ig_membership = {}
+
+    pop_potential = {
+        OR = {
+            is_pop_type = newfriends
+            is_pop_type = midfriends
+            is_pop_type = oldfriends
+        }
+    }
+
+    pop_weight = {
+		value = 0
+    }
+
+    monarch_weight = {
+		value = 1.0
+	}
+	
+	commander_weight = {
+		value = 1.0
+	}	
+	
+	noble_chance = {
+		value = 1.0
+	}
+	
+	female_commander_chance = {	
+		value = 1.0
+	}
+
+    female_politician_chance = {
+		value = 1.0
+	}
+	
+	# The chance that a commander belonging to this IG takes over leadership when it changes
+	# scope:character is the most popular commander in the IG
+	commander_leader_chance = {
+		value = 1.0
+	}
+}

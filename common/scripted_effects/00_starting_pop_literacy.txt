@@ -1,9 +1,6 @@
-﻿### NOTE: This file only exist to set a baseline for the simulation, the ACTUAL literacy of pops is calculated during setup so starting literacy January 1, 1836 will NOT match the values set in this file
+﻿# Very high literacy
 
-
-# Very high literacy
-
-# Examples: Sweden, Netherlands
+# Examples: Estalia
 effect_starting_pop_literacy_very_high = {
 	every_scope_pop = {
 		set_pop_literacy = {
@@ -13,10 +10,7 @@ effect_starting_pop_literacy_very_high = {
 				if = {
 					limit = {
 						OR = {
-							is_pop_type = bureaucrats
-							is_pop_type = academics
-							is_pop_type = clergymen
-							is_pop_type = engineers
+							is_pop_type = midfriends
 						}
 					}
 					add = 0.2
@@ -32,21 +26,10 @@ effect_starting_pop_literacy_very_high = {
 				if = {
 					limit = {
 						OR = {
-							is_pop_type = clerks
-							is_pop_type = shopkeepers
+							is_pop_type = midfriends
 						}
 					}
 					add = 0.1
-				}
-				# Subsistence farmers at 70% base
-				if = {
-					limit = {
-						OR = {
-							pop_employment_building_group = bg_subsistence_agriculture
-							pop_employment_building_group = bg_subsistence_ranching
-						}
-					}
-					add = -0.1
 				}
 				# People in Unincorporated territories at half
 				if = {
@@ -70,10 +53,8 @@ effect_starting_pop_literacy_high = {
 				if = {
 					limit = {
 						OR = {
-							is_pop_type = bureaucrats
-							is_pop_type = academics
-							is_pop_type = clergymen
-							is_pop_type = engineers
+							is_pop_type = oldfriends
+							is_pop_type = midfriends
 						}
 					}
 					add = 0.35
@@ -89,21 +70,10 @@ effect_starting_pop_literacy_high = {
 				if = {
 					limit = {
 						OR = {
-							is_pop_type = clerks
-							is_pop_type = shopkeepers
+							is_pop_type = midfriends
 						}
 					}
 					add = 0.1
-				}
-				# Subsistence farmers at 50% base
-				if = {
-					limit = {
-						OR = {
-							pop_employment_building_group = bg_subsistence_agriculture
-							pop_employment_building_group = bg_subsistence_ranching
-						}
-					}
-					add = -0.1
 				}
 				# People in Unincorporated territories at half
 				if = {
@@ -127,10 +97,8 @@ effect_starting_pop_literacy_middling = {
 				if = {
 					limit = {
 						OR = {
-							is_pop_type = bureaucrats
-							is_pop_type = academics
-							is_pop_type = clergymen
-							is_pop_type = engineers
+							is_pop_type = oldfriends
+							is_pop_type = midfriends
 						}
 					}
 					add = 0.5
@@ -146,21 +114,10 @@ effect_starting_pop_literacy_middling = {
 				if = {
 					limit = {
 						OR = {
-							is_pop_type = clerks
-							is_pop_type = shopkeepers
+							is_pop_type = midfriends
 						}
 					}
 					add = 0.1
-				}
-				# Subsistence farmers at 30% base
-				if = {
-					limit = {
-						OR = {
-							pop_employment_building_group = bg_subsistence_agriculture
-							pop_employment_building_group = bg_subsistence_ranching
-						}
-					}
-					add = -0.1
 				}
 				# People in Unincorporated territories at half
 				if = {
@@ -184,10 +141,7 @@ effect_starting_pop_literacy_low = {
 				if = {
 					limit = {
 						OR = {
-							is_pop_type = bureaucrats
-							is_pop_type = academics
-							is_pop_type = clergymen
-							is_pop_type = engineers
+							is_pop_type = midfriends
 						}
 					}
 					add = 0.65
@@ -203,21 +157,10 @@ effect_starting_pop_literacy_low = {
 				if = {
 					limit = {
 						OR = {
-							is_pop_type = clerks
-							is_pop_type = shopkeepers
+							is_pop_type = midfriends
 						}
 					}
 					add = 0.1
-				}
-				# Subsistence farmers at 10% base
-				if = {
-					limit = {
-						OR = {
-							pop_employment_building_group = bg_subsistence_agriculture
-							pop_employment_building_group = bg_subsistence_ranching
-						}
-					}
-					add = -0.1
 				}
 				# People in Unincorporated territories at half
 				if = {
@@ -241,10 +184,8 @@ effect_starting_pop_literacy_very_low = {
 				if = {
 					limit = {
 						OR = {
-							is_pop_type = bureaucrats
-							is_pop_type = academics
-							is_pop_type = clergymen
-							is_pop_type = engineers
+							is_pop_type = oldfriends
+							is_pop_type = midfriends
 						}
 					}
 					add = 0.65
@@ -260,21 +201,10 @@ effect_starting_pop_literacy_very_low = {
 				if = {
 					limit = {
 						OR = {
-							is_pop_type = clerks
-							is_pop_type = shopkeepers
+							is_pop_type = midfriends
 						}
 					}
 					add = 0.1
-				}
-				# Subsistence farmers at 5% base
-				if = {
-					limit = {
-						OR = {
-							pop_employment_building_group = bg_subsistence_agriculture
-							pop_employment_building_group = bg_subsistence_ranching
-						}
-					}
-					add = -0.05
 				}
 				# People in Unincorporated territories at half
 				if = {
@@ -298,10 +228,8 @@ effect_starting_pop_literacy_baseline = {
 				if = {
 					limit = {
 						OR = {
-							is_pop_type = bureaucrats
-							is_pop_type = academics
-							is_pop_type = clergymen
-							is_pop_type = engineers
+							is_pop_type = midfriends
+							is_pop_type = oldfriends
 						}
 					}
 					add = 0.45
@@ -317,8 +245,7 @@ effect_starting_pop_literacy_baseline = {
 				if = {
 					limit = {
 						OR = {
-							is_pop_type = clerks
-							is_pop_type = shopkeepers
+							is_pop_type = midfriends
 						}
 					}
 					add = 0.05

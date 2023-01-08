@@ -35,14 +35,7 @@ social_democrat_party = {
 						has_ideology = ideology_social_democrat
 					}
 				}
-				ig:ig_trade_unions = {
-					is_marginal = no
-				}
 			}
-		}
-		NOT = { # these ig's are inherently anti-worker
-			is_interest_group_type = ig_landowners
-			is_interest_group_type = ig_industrialists
 		}
 		leader = { # fascists and conservatives hate social democracy
 			NOT = {
@@ -153,7 +146,6 @@ social_democrat_party = {
 				leader = {
 					OR = {
 						has_ideology = ideology_feminist
-						has_ideology = ideology_abolitionist
 						has_ideology = ideology_pacifist
 						has_ideology = ideology_radical
 						has_ideology = ideology_reformer
@@ -177,23 +169,6 @@ social_democrat_party = {
 			add = {	
 				value = -5
 				desc = from_marked_liberal_sd
-			}
-		}
-		if = { # generic powerful trade unions party
-			limit = {
-				is_interest_group_type = ig_trade_unions
-				is_powerful = yes
-				leader = {
-					NOR = {
-						has_ideology = ideology_communist
-						has_ideology = ideology_vanguardist
-						has_ideology = ideology_anarchist
-					}
-				}
-			}
-			add = {	
-				value = 5
-				desc = from_powerful_unions
 			}
 		}
 		if = { # anti-censorship
@@ -360,11 +335,9 @@ social_democrat_party = {
 				}
 				OR = {
 					has_ideology = ideology_egalitarian
-					has_ideology = ideology_anti_slavery
 					has_ideology = ideology_laissez_faire
 					has_ideology = ideology_particularist
 					leader = {
-						has_ideology = ideology_abolitionist
 						has_ideology = ideology_social_democrat
 						has_ideology = ideology_communist
 					}
@@ -381,12 +354,6 @@ social_democrat_party = {
 					OR = {
 						has_law = law_type:law_legacy_slavery
 						has_law = law_type:law_slave_trade
-					}
-				}
-				OR = {
-					has_ideology = ideology_anti_slavery
-					leader = {
-						has_ideology = ideology_abolitionist
 					}
 				}
 			}

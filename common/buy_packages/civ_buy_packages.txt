@@ -1,0 +1,6 @@
+﻿wealth_1 = {
+	political_strength = 0.03
+	goods = {
+		popneed_tools = 2
+	}
+}

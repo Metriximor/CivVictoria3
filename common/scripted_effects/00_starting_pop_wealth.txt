@@ -22,20 +22,13 @@ effect_starting_pop_wealth_very_high = {
 				}
 				if = {
 					limit = {
-						is_pop_type = laborers
+						strata = poor
 					}
-					add = -2
-				}
-				if = {
-					limit = {
-						is_pop_type = peasants
-					}
-					add = -3
-				}			
+					add = -1
+				}		
 			}
 			update_loyalties = no
 		}
-		effect_reset_wealth_if_slave = yes
 	}
 } 
 
@@ -60,20 +53,13 @@ effect_starting_pop_wealth_high = {
 				}
 				if = {
 					limit = {
-						is_pop_type = laborers
+						strata = poor
 					}
-					add = -2
-				}
-				if = {
-					limit = {
-						is_pop_type = peasants
-					}
-					add = -3
+					add = -1
 				}		
 			}
 			update_loyalties = no
 		}
-		effect_reset_wealth_if_slave = yes
 	}
 }
 
@@ -98,20 +84,13 @@ effect_starting_pop_wealth_medium = {
 				}
 				if = {
 					limit = {
-						is_pop_type = laborers
+						strata = poor
 					}
 					add = -2
-				}
-				if = {
-					limit = {
-						is_pop_type = peasants
-					}
-					add = -3
-				}				
+				}					
 			}
 			update_loyalties = no
 		}
-		effect_reset_wealth_if_slave = yes
 	}
 }
 
@@ -136,31 +115,10 @@ effect_starting_pop_wealth_low = {
 				}		
 				if = {
 					limit = {
-						is_pop_type = laborers
-					}
-					add = -2
-				}
-				if = {
-					limit = {
-						is_pop_type = peasants
+						strata = poor
 					}
 					add = -3
 				}		
-			}
-			update_loyalties = no
-		}
-		effect_reset_wealth_if_slave = yes
-	}
-}
-
-effect_reset_wealth_if_slave = {
-	if = {
-		limit = {
-			is_pop_type = slaves
-		}
-		set_pop_wealth = {
-			wealth_distribution = {
-				value = 1
 			}
 			update_loyalties = no
 		}

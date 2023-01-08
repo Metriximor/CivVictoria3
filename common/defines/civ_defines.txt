@@ -1,0 +1,4 @@
+﻿NPops = {
+	DEFAULT_POP_TYPE = "newfriends"
+	SLAVE_POP_TYPE = "newfriends" # For legal reasons that's a joke. There's no slavery in the mod
+}

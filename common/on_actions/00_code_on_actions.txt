@@ -1,349 +1,25 @@
 ﻿# For on_actions launched by the code itself.
 
-# Root = Country
-on_monthly_pulse_country = {
-	events = {
-		communism.8 # Red Army
-		peoples_springtime.1
-		opium_wars.1
-		native_resettlement.1
-		meiji.13
-	}
-	effect = {
-	}
-	# Election Events
-	random_events = {
-		50 = 0
-		1 = election_liberal_events.1
-		1 = election_liberal_events.2
-		1 = election_liberal_events.3
-		1 = election_liberal_events.4
-		1 = election_conservative_events.1
-		1 = election_conservative_events.2
-		1 = election_conservative_events.3
-		1 = election_conservative_events.4
-		1 = election_moderate_events.1
-		1 = election_moderate_events.2
-		1 = election_contextual_events.1
-		1 = election_contextual_events.2
-		1 = election_contextual_events.3
-		1 = election_contextual_events.4
-		1 = election_contextual_events.5
-		1 = election_contextual_events.6
-		1 = election_contextual_events.7
-		1 = election_contextual_events.8
-		1 = election_neutral.1
-		1 = election_neutral.2
-		1 = election_neutral.3
-		1 = election_neutral.4
-		1 = election_neutral.5
-		1 = election_neutral.6
-		1 = election_neutral.7
-		1 = election_neutral.8
-		1 = election_other_parties_events.1
-		1 = election_other_parties_events.2
-		1 = election_other_parties_events.3
-		1 = election_other_parties_events.4
-		1 = election_other_parties_events.5
-		1 = ig_leaders.3
-	}
-}
-
-on_yearly_pulse_country = { #Krakatoa special pulse
-	random_events = {
-		47 = 0
-		1 = krakatoa.1
-	}
-	random_events = {
-		11 = 0
-		1 = tunguska.1
-	}
-}
-
 on_yearly_pulse_country = {
 	effect = {
 		# IG leader death
 		random_list = {
-			1 = {
-				trigger_event = { id = character_events.100 }
-			}
 			1 = { }
 		}
 	}
-	random_events = {
-		150 = 0
-
-		20 = government_conflicts.1
-		20 = government_conflicts.2
-		20 = government_conflicts.3
-		20 = government_conflicts.4
-		20 = government_conflicts.5
-		20 = government_conflicts.6
-		20 = government_conflicts.7
-		20 = government_conflicts.8
-		20 = government_conflicts.9
-		20 = government_conflicts.10
-		20 = government_conflicts.11
-		#
-		10 = goldrush.3
-		10 = goldrush.4
-		#
-		20 = ig_leaders.20
-		20 = ig_leaders.4
-		20 = ig_leaders.5
-		20 = ig_leaders.6
-
-		#Character Events
-		20 = character_events.2
-		20 = character_events.3
-		20 = character_events.4
-		20 = character_events.5
-		100 = character_events.6
-		
-		# Border Situations
-		20 = neighbor_events.1
-		20 = neighbor_events.2
-		20 = neighbor_events.3
-		20 = neighbor_events.4
-		20 = neighbor_events.5
-		20 = neighbor_events.6
-		20 = neighbor_events.7
-
-		# Commander Events
-		20 = commander_events.2
-		20 = commander_events.4
-		20 = commander_events.5
-		5 = commander_events.6
-
-		# Law Events
-		50 = law_events.5
-		50 = law_events.6
-
-		# Cultural Homeland Events
-		10 = cultural_homeland_events.1
-		10 = cultural_homeland_events.10
-		10 = cultural_homeland_events.20
-		10 = cultural_homeland_events.30
-		10 = cultural_homeland_events.40
-		10 = cultural_homeland_events.50
-
-		# IGs and Revolutions
-		20 = ig_revolutions.1
-		20 = ig_revolutions.2
-		20 = ig_revolutions.3
-		20 = ig_revolutions.4
-		20 = ig_revolutions.5
-		20 = ig_revolutions.6
-		20 = ig_revolutions.7
-		20 = ig_revolutions.8
-		20 = ig_revolutions.9
-		
-		#IG Suppression
-		20 = ig_suppression_events.1
-
-		# Technology
-		20 = technology_events.1
-		20 = technology_events.10
-		20 = technology_events.20
-		20 = technology_events.30
-		20 = technology_events.40
-		20 = technology_events.50
-		
-		# Industrial Accidents
-		10 = industrial_accident_events.1
-		10 = industrial_accident_events.2
-		10 = industrial_accident_events.3
-		10 = industrial_accident_events.4
-		20 = industrial_accident_events.5
-		20 = industrial_accident_events.6
-
-		# Crime (Why do police not just comment out crime events?)
-		10 = crime_events.1
-		10 = crime_events.2
-		10 = crime_events.10
-
-		# Obligations
-		10 = obligation_events.1
-		10 = obligation_events.3
-		10 = obligation_events.5
-		
-		# Prostitution and police
-		20 = prostitution.1
-		20 = prostitution.2
-		20 = prostitution.3
-		20 = prostitution.4
-		20 = cable_street.1
-
-		#Natural Disasters
-		3 = natural_disaster_events.1
-		3 = natural_disaster_events.2
-		1 = natural_disaster_events.3
-		1 = natural_disaster_events.4
-		3 = natural_disaster_events.5
-		3 = natural_disaster_events.6
-		3 = natural_disaster_events.7
-		1 = natural_disaster_events.8
-		
-		# Assassination
-		10 = assassination_events.1
-
-		# Oil Rush Scandal
-		20 = oil_rush.5
-		
-		#Decree
-		20 = decree_events.1
-		20 = decree_events.2
-		20 = decree_events.3
-		20 = decree_events.4
-		20 = decree_events.5
-		20 = decree_events.6
-		20 = decree_events.100
-		20 = decree_events.101
-		20 = decree_events.102
-		20 = decree_events.103
-		20 = decree_events.104
-		20 = decree_events.105
-		20 = decree_events.106
-		20 = decree_events.107
-		20 = decree_events.108
-		20 = decree_events.109
-		
-		50 = strike.5
-		50 = strike.6
-		50 = strike.7
-
-		10 = opium_wars.8
-
-		10 = south_america.3
-		
-		20 = communism.9
-		20 = communism.7
-
-		100 = nihilism.1
-		
-		#psychology
-		20 = psychology_events.1
-		20 = psychology_events.2
-		20 = psychology_events.3
-		20 = psychology_events.4
-		20 = psychology_events.5
-		20 = psychology_events.6
-		
-		#nationalism
-		20 = fascism_events.8
-
-		20 = dreadnought_hoax.1
-
-		10 = patagonia.2
-		10 = amazon.1
-		10 = amazon.2
-
-		10 = amazon.4 # The Most Dangerous Game
-
-		20 = autocracy.2
-		20 = autocracy.3
-
-		# rivalry events
-		10 = diplomatic_friction.1
-		10 = diplomatic_friction.2
-		10 = diplomatic_friction.20
-		
-		# Titanic
-		10 = titanic.1
-
-		# trains
-		5 = trains.1
-
-		30 = cholera.1
-
-		# Slave revolts
-		5 = slave_revolt.1
-		5 = slave_revolt.2
-		5 = slave_revolt.3
-
-		# Discrimination Events
-		20 = discrimination_events.1
-		20 = discrimination_events.2
-		20 = discrimination_events.3
-		20 = discrimination_events.4
-
-		# Trade routes
-		20 = trade_route_events.1
-		20 = trade_route_events.2
-		20 = trade_route_events.3
-		20 = trade_route_events.4
-		20 = trade_route_events.5
-		
-		#PMs
-		20 = pm_events.1
-		20 = pm_events.2
-		20 = pm_events.4
-		20 = pm_events.5
-		
-		# Vampire Panic
-		1 = vampire_panic.1
-	}
-
-	# Springtime of the Peoples
-	random_events = {
-		5 = 0
-		1 = peoples_springtime.6
-	}
-	
-	random_events = {
-	}
-
-	random_events = {
-		4 = 0
-		1 = wedding.1 # on average, monarchs should marry within 5 years of coming of age
-	}
 }
 on_half_yearly_pulse_country = {
-	random_events = {
-		100 = 0
-		
-		# The Attempt on Lincoln's Life
-		40 = acw_followup_events.1
-		10 = acw_followup_events.2
-		50 = acw_followup_events.3
-
-		#Oscar Wilde event for Europe
-		5 = oscar_wilde_events.1
-	}
-	# Secession
-	random_events = {
-		20 = secession_events.1
-		20 = secession_events.2
-		20 = secession_events.3
-		20 = secession_events.4
-		20 = secession_events.5
-		20 = secession_events.6
-		20 = secession_events.7
-		20 = secession_events.8
-		20 = secession_events.9
-	}
 }
 on_five_year_pulse_country = {
-	events = {
-		generals.1
-	}
 }
 
 
 on_decade_pulse_country = {
-	random_events = {
-		99 = 0
-		1 = plague.1
-	}
 }
 
 # Root = Character
 on_monthly_pulse_character = {}
 on_yearly_pulse_character = {
-	random_events = {
-		20 = character_events.1
-	}
-
 
 }
 on_half_yearly_pulse_character = {}
@@ -354,20 +30,10 @@ on_decade_pulse_character = {
 
 # Root = State
 on_monthly_pulse_state = {
-	random_events = {
-		10 = goldrush.5
-	}
 
 }
 on_half_yearly_pulse_state = {}
 on_yearly_pulse_state = {
-	random_events = {
-		80 = 0
-		10 = oil_rush.3
-		10 = oil_rush.4
-	}
-	on_actions = {
-	}
 }
 on_five_year_pulse_state = {}
 on_decade_pulse_state = {}
@@ -395,9 +61,6 @@ on_battle_ended = {}
 # scope:defender = defending commander
 # scope:state = location state
 on_battle_won = {
-	events = {
-		texan_war_of_independence.3
-	}
 }
 
 # Root = attacker or defender country
@@ -440,88 +103,6 @@ on_create_market = {
 # Root = The applicable country
 # scope:technology = The technology type they started to research
 on_research_technology_started = {
-	effect = {
-		if = {
-			limit = { 
-				has_journal_entry = je_tutorial_research_technology
-			}
-			je:je_tutorial_research_technology = {
-				set_target_technology = scope:technology
-			}
-			set_variable = tut_began_new_research
-		}
-	}
-}
-
-# Root = The applicable country
-# scope:technology = The technology type they just acquired
-on_acquired_technology = {
-	effect = {
-		if = {
-			limit = {
-				has_game_started = yes
-			}
-			post_notification = acquired_technology_notification
-		}
-		if = {
-			limit = {
-				is_player = yes
-				has_technology_researched = pumpjacks
-				NOT = { has_variable = first_oil_discovered }
-			}
-			set_variable = first_oil_discovered
-			if = {
-				limit = {
-					any_scope_state = {
-						has_potential_resource = bg_oil_extraction
-					}
-				}
-				random_scope_state = {
-					limit = {
-						has_potential_resource = bg_oil_extraction
-					}
-					force_resource_discovery = bg_oil_extraction
-				}
-			}
-			else_if = {
-				limit = {
-					any_country = {
-						has_overlapping_interests = ROOT
-						any_scope_state = {
-							has_potential_resource = bg_oil_extraction
-						}
-					}
-				}
-				random_country = {
-					limit = {
-						has_overlapping_interests = ROOT
-						any_scope_state = {
-							has_potential_resource = bg_oil_extraction
-						}
-					}
-					random_scope_state = {
-						limit = {
-							has_potential_resource = bg_oil_extraction
-						}
-						force_resource_discovery = bg_oil_extraction
-					}
-				}
-			}
-			else = {
-				random_state = {
-					limit = {
-						has_potential_resource = bg_oil_extraction
-					}
-					force_resource_discovery = bg_oil_extraction
-				}
-			}
-		}
-	}
-
-	events = {
-		historical_events.1
-		marx_events.1
-	}
 }
 
 # Root = The applicable country
@@ -536,8 +117,6 @@ on_spreading_technology = {
 # Root = Country who owns the interest marker
 # scope:diplomatic_play = The diplomatic play that has been started
 on_diplomatic_play_started = {
-	events = {
-	}
 }
 
 # Root = Character
@@ -743,11 +322,6 @@ on_migration_target_created_other = {
 
 # Root = State
 on_resource_discovered = {
-	events = {
-		goldrush.1
-		oil_rush.1
-		rubber_events.1
-	}
 }
 
 # Root = State
@@ -756,9 +330,6 @@ on_resource_depleted = {
 		owner = {
 			post_notification = resource_depleted
 		}
-	}
-	events = {
-		goldrush.2
 	}
 }
 
@@ -786,17 +357,6 @@ on_peace_agreement_signed_non_participant = {
 # Root = Country
 on_capitulation = {
 	effect = {
-	}
-}
-
-# Root = Country
-on_self_capitulated_notification = {
-	effect = {
-		post_notification = self_capitulated
-		set_variable = {
-			name = recent_capitulation
-			months = short_modifier_time
-		}
 	}
 }
 
@@ -940,39 +500,6 @@ on_sway_offer_rejected = {
 
 # Root = Building
 on_production_method_changed = {
-	effect = {
-		owner = {
-			if = {
-				limit = { 
-					has_journal_entry = je_tutorial_change_production_method
-					je:je_tutorial_change_production_method.target = root
-				}
-				set_variable = has_changed_production_method
-			}
-		}	
-	}
-}
-
-# Root = owner Country of the Law
-# executed when enactment of any law begins
-on_law_enactment_started = {
-	effect = {
-		if = {
-			limit = {
-				has_law = law_type:law_monarchy
-				OR = {
-					is_enacting_law = law_type:law_presidential_republic
-					is_enacting_law = law_type:law_parliamentary_republic
-					is_enacting_law = law_type:law_council_republic
-				}
-			}
-			set_variable = {
-				name = abolishing_monarchy_var
-				value = 0
-			}
-			add_journal_entry = { type =  je_abolish_monarchy }
-		}
-	}
 }
 
 # Root = owner Country of the Law
@@ -1071,19 +598,6 @@ on_revolution_end = {
 on_civil_war_won = {
 }
 
-# Root = Country
-on_wargoal_enforced = {
-	effect = {
-		set_variable = {
-            name = recently_won_war
-            days = 600
-            value = yes
-        }
-        
-	}
-	
-}
-
 # Root = Interest Group
 on_ig_resigned_government = {
 	effect = {
@@ -1123,9 +637,6 @@ on_secession_country_helped_by_home_country = {
 # Root = Home Countr
 # scope:target = Secession country
 on_secession_country_not_helped_by_home_country = {
-	effect = {
-		trigger_event = { id = civil_war_events.1 days = 0 }
-	}
 }
 
 # Root = Diplomatic Play
@@ -1399,4 +910,66 @@ on_character_recruitment = {
 # scope:general = invading general
 # scope:state = location state
 on_naval_invasion = {
+}
+
+# Root = The applicable country
+# scope:technology = The technology type they just acquired
+on_acquired_technology = {
+	effect = {
+		if = {
+			limit = {
+				has_game_started = yes
+			}
+			post_notification = acquired_technology_notification
+		}
+	}
+}
+
+# Root = Country
+on_self_capitulated_notification = {
+	effect = {
+		post_notification = self_capitulated
+		set_variable = {
+			name = recent_capitulation
+			months = short_modifier_time
+		}
+	}
+}
+
+# Root = owner Country of the Law
+# executed when enactment of any law begins
+on_law_enactment_started = {
+	effect = {
+		if = {
+			limit = {
+				has_law = law_type:law_monarchy
+				OR = {
+					is_enacting_law = law_type:law_presidential_republic
+					is_enacting_law = law_type:law_parliamentary_republic
+					is_enacting_law = law_type:law_council_republic
+				}
+			}
+			set_variable = {
+				name = abolishing_monarchy_var
+				value = 0
+			}
+		}
+	}
+}
+
+# Root = Country
+on_wargoal_enforced = {
+	effect = {
+		set_variable = {
+            name = recently_won_war
+            days = 600
+            value = yes
+        }
+        
+	}
+	
+}
+
+# Root = Country
+on_monthly_pulse_country = {
 }

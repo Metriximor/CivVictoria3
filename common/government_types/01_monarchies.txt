@@ -133,22 +133,6 @@
 #	}
 #}
 
-gov_kongolese_kingdom = {
-	transfer_of_power = hereditary
-	
-	male_ruler = "RULER_TITLE_MANIKONGO"
-	female_ruler = "RULER_TITLE_QUEEN"
-
-	male_heir = "RULER_TITLE_PRINCE"
-	female_heir = "RULER_TITLE_PRINCESS"
-	
-	possible = {
-		has_law = law_type:law_monarchy
-		exists = c:ULO 
-		c:ULO = ROOT
-	}
-}
-
 #gov_sunanate = {
 #	transfer_of_power = hereditary
 #	
@@ -240,10 +224,6 @@ gov_prince = {
 	
 	possible = {	
 		has_law = law_type:law_monarchy
-		OR = {
-			AND = { exists = c:SHI c:SHI = ROOT }
-			AND = { exists = c:VOS c:VOS = ROOT }
-		}
 	}		
 }
 
@@ -278,9 +258,6 @@ gov_kaiser = {
 			country_tier = empire
 		}
 		has_law = law_type:law_monarchy
-		OR = {
-			country_has_primary_culture = cu:belkan
-		}
 	}
 }
 
@@ -315,7 +292,6 @@ gov_hm_gov = {
 	
 	possible = {
 		has_law = law_type:law_monarchy
-		AND = { exists = c:ERU c:ERU = ROOT }
 	}
 }
 

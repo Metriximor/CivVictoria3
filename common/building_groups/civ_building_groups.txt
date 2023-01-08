@@ -5,8 +5,6 @@
 	
 	economy_of_scale = yes
 	
-	can_use_slaves = yes
-	
 	default_building = building_tree_farm
 	
 	lens = forestry	
@@ -40,4 +38,20 @@ bg_mine = {
 	should_auto_expand = { 
 		default_auto_expand_rule = yes
 	}
+}
+
+bg_factory = {
+	category = urban
+    always_possible = yes
+    economy_of_scale = yes
+    cash_reserves_max = 25000
+
+	lens = light_industry
+	
+    should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+
+	urbanization = 20
+	infrastructure_usage_per_level = 2
 }

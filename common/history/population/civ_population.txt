@@ -1,11 +1,11 @@
 ﻿POPULATION = {
-	s:STATE_PORTUCALE = {
+	c:LUS = {
 		effect_starting_pop_wealth_low = yes
-		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_literacy_high = yes
 	}
 
-	s:STATE_PROVENCE = {
+	c:TRU = {
 		effect_starting_pop_wealth_low = yes
-		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_literacy_very_high = yes
 	}
 }

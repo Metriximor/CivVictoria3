@@ -118,26 +118,8 @@ struggling_pop_trigger = {
 	}
 }
 
-should_be_naked_trigger = {
-	exists = scope:pop
-	scope:pop = {
-       	OR = {
-			is_pop_type = farmers
-			is_pop_type = peasants
-			is_pop_type = laborers
-			is_pop_type = slaves
-		}
-		OR = {
-			culture = cu:amazonian
-			culture = cu:nuba
-			culture = cu:dinka
-		}
-	}
-}
-
 ## Can only be checked in the interface since the setting isn't synced
 should_be_fully_naked_portrait_trigger = {
-	should_be_naked_trigger = yes
 	should_show_nudity = yes
 }
 #
@@ -147,101 +129,24 @@ should_be_fully_naked_portrait_trigger = {
 #	should_show_nudity = yes
 #}
 
-soldier_clothes_pop_trigger = {
-	exists = scope:pop
-	scope:pop = {
-	   is_pop_type = soldiers
-	}
-}
-
-officers_clothes_pop_trigger = {
+midfriends_clothes_pop_trigger = {
    exists = scope:pop
    scope:pop = {
-	   is_pop_type = officers
+	   is_pop_type = midfriends
    } 
 }
 
-clergy_clothes_pop_trigger = {
-   exists = scope:pop
-	scope:pop = {
-	   is_pop_type = clergymen
-	}
-}
-
-shopkeepers_clothes_pop_trigger = {
+oldfriends_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
-	   is_pop_type = shopkeepers	
-	}    
-}
-
-clerks_clothes_pop_trigger = {
-	exists = scope:pop
-	scope:pop = {
-	   is_pop_type = clerks	
+	   is_pop_type = oldfriends	
 	}   
 }
 
-academics_clothes_pop_trigger = {
+newfriends_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
-	   is_pop_type = academics	
-	}   
-}
-
-farmers_clothes_pop_trigger = {
-	exists = scope:pop
-	scope:pop = {
-	   is_pop_type = farmers	
-	}   
-}
-
-laborers_clothes_pop_trigger = {
-	exists = scope:pop
-	scope:pop = {
-	   is_pop_type = laborers	
-	}   
-}
-
-peasants_clothes_pop_trigger = {
-	exists = scope:pop
-	scope:pop = {
-	   is_pop_type = peasants	
-	}   
-}
-
-slaves_clothes_pop_trigger = {
-	exists = scope:pop
-	scope:pop = {
-	   is_pop_type = slaves	
-	}   
-}
-
-aristocrats_clothes_pop_trigger = {
-	exists = scope:pop
-	scope:pop = {
-	   is_pop_type = aristocrats	
-	}   
-}
-
-machinists_clothes_pop_trigger = {
-	exists = scope:pop
-	scope:pop = {
-	   is_pop_type = machinists	
-	}   
-}
-
-engineers_clothes_pop_trigger = {
-	exists = scope:pop
-	scope:pop = {
-	   is_pop_type = engineers	
-	}   
-}
-
-bureaucrats_clothes_pop_trigger = {
-	exists = scope:pop
-	scope:pop = {
-	   is_pop_type = bureaucrats	
+	   is_pop_type = newfriends	
 	}   
 }
 
@@ -249,10 +154,7 @@ poor_clothes_pop_trigger = {
 	exists = scope:pop
      scope:pop = {
        	OR = {
-			is_pop_type = farmers
-			is_pop_type = peasants
-			is_pop_type = laborers
-			is_pop_type = machinists
+			is_pop_type = newfriends
        	}
      }   
 }
@@ -261,10 +163,7 @@ middle_clothes_pop_trigger = {
      exists = scope:pop
      scope:pop = {
        	OR = {
-			is_pop_type = clerks
-			is_pop_type = engineers
-			is_pop_type = bureaucrats
-			is_pop_type = shopkeepers
+			is_pop_type = midfriends
        	}
      }  
 }
@@ -273,25 +172,9 @@ upper_clothes_pop_trigger = {
      exists = scope:pop
      scope:pop = {
      	OR = {
-			is_pop_type = aristocrats
-			is_pop_type = capitalists
-			is_pop_type = academics
+			is_pop_type = oldfriends
      	}
      }  
-}
-
-devout_clothes_trigger = {
-	exists = scope:character
-	scope:character = {
-		interest_group = { is_interest_group_type = ig_devout }
-	}
-}
-
-armed_forces_clothes_trigger = {
-	exists = scope:character
-	scope:character = {
-		interest_group = { is_interest_group_type = ig_armed_forces }
-	}
 }
 
 ruler_clothes_trigger = {

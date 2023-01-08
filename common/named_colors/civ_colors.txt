@@ -9,7 +9,13 @@ colors = {
 	truidencian_red = rgb { 192 29 56 }
 	truidencian_yellow = rgb { 247 200 64 }
 	
+	# Misc colors
+	bizantine_purple = rgb { 112 41 99 }
+
 	# Base Colors
+    blueprint_blue = rgb { 53 99 124 }
+	burgundy = rgb { 128 0 32 }
+	golden_yellow = rgb { 236 182 0 }
 	pastel_pink = rgb { 255 209 220 }
 	full_white = rgb { 255 255 255 }
 	full_black = rgb { 0 0 0 }

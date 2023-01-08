@@ -26,9 +26,6 @@ liberal_party = {
 	available_for_interest_group = {
 		owner = {
 			country_has_voting_franchise = yes
-			ig:ig_intelligentsia = {
-				is_marginal = no
-			}
 		}
 		leader = { # far right and far left won't join liberal parties
 			NOR = {
@@ -78,7 +75,6 @@ liberal_party = {
 				leader = {
 					OR = {
 						has_ideology = ideology_feminist
-						has_ideology = ideology_abolitionist
 						has_ideology = ideology_pacifist
 						has_ideology = ideology_social_democrat
 						has_ideology = ideology_atheist
@@ -97,7 +93,6 @@ liberal_party = {
 						has_ideology = ideology_traditionalist
 						has_ideology = ideology_royalist
 						has_ideology = ideology_theocrat
-						has_ideology = ideology_slaver
 					}
 				}
 			}
@@ -113,31 +108,12 @@ liberal_party = {
 					has_ideology = ideology_anti_clerical
 				}
 				owner = {
-					has_law = law_type:law_hereditary_bureaucrats
+					has_law = law_type:law_hereditary_midfriends
 				}
 			}
 			add = {
 				value = 3
 				desc = "from_hereditary_offices"
-			}
-		}
-		if = { # armed forces will join if a more powerful member has jingoist leader
-			limit = {
-				is_interest_group_type = ig_armed_forces
-				exists = owner.py:liberal_party
-				owner = {
-					any_interest_group = {
-						is_member_of_party = owner.py:liberal_party
-						is_powerful = yes
-						leader = {
-							has_ideology = ideology_jingoist_leader
-						}
-					}
-				}
-			}
-			add = {
-				value = 5
-				desc = "from_jingoist_party_leader"
 			}
 		}
 		if = { # against illiteracy and religious education
@@ -272,35 +248,12 @@ liberal_party = {
 				desc = "from_republican"
 			}
 		}
-		if = { # peasants opposition to debt slavery
-			limit = {
-				owner = {
-					has_law = law_type:law_debt_slavery
-				}
-				OR = {
-					has_ideology = ideology_particularist
-					leader = {
-						has_ideology = ideology_abolitionist
-					}
-				}
-			}
-			add = {
-				value = 5
-				desc = "from_debt_slavery"
-			}
-		}
 		if = { # general anti-slavery
 			limit = {
 				owner = {
 					OR = {
 						has_law = law_type:law_legacy_slavery
 						has_law = law_type:law_slave_trade
-					}
-				}
-				OR = {
-					has_ideology = ideology_anti_slavery
-					leader = {
-						has_ideology = ideology_abolitionist
 					}
 				}
 			}
@@ -316,11 +269,9 @@ liberal_party = {
 				}
 				OR = {
 					has_ideology = ideology_egalitarian
-					has_ideology = ideology_anti_slavery
 					has_ideology = ideology_laissez_faire
 					has_ideology = ideology_particularist
 					leader = {
-						has_ideology = ideology_abolitionist
 						has_ideology = ideology_social_democrat
 						has_ideology = ideology_communist
 					}

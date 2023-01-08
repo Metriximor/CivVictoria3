@@ -2,7 +2,7 @@
 
 STATE_NIDAROS = {
     id = 1
-    provinces = { "x0A4114" "x23E1F9" "x46F3E0" "x66D2DC" "x79B5F5" "x81ED95" "x8AC4D9" "x8CE7B9" "xA3A0B9" "xA5CDBD" "xAACF9A" "xADF079" "xAFA2C8" "xB7A0E2" "xBB73F1" "xBBCDC2" "xC5D67A" "xCAEE5C" "xD2A3EE" "xD3CAFB" "xD3D7DD" "xD7B1A0" "xD892D6" "xD8E5F0" "xDEC6C2" "xEB6AF2" "xF11FEC" "xF48C9A" "xF6CEC8" "xF8EDCF" "xFCCCFA" "xFD55E0" }
+    provinces = { "x23E1F9" "x46F3E0" "x81ED95" "x8AC4D9" "x8CE7B9" "xA5CDBD" "xAACF9A" "xADF079" "xAFA2C8" "xB7A0E2" "xBB73F1" "xBBCDC2" "xC5D67A" "xCAEE5C" "xD2A3EE" "xD3D7DD" "xD7B1A0" "xD892D6" "xDEC6C2" "xEB6AF2" "xF11FEC" "xF48C9A" "xF8EDCF" "xFCCCFA" "xFD55E0" }
     capped_resources = {
         bg_tree_farming = 10
         bg_mine = 20
@@ -77,6 +77,7 @@ STATE_OUTER_NIDAROS = {
         bg_mine = 20
     }
 }
+
 # Gensokyo
 
 STATE_TENSEIMIYA = {
@@ -127,11 +128,12 @@ STATE_NUMBER'S_LAWN = {
         bg_mine = 20
     }
 }
+
 # Lusitania
 
 STATE_PORTUCALE = {
     id = 13
-    provinces = { "x047049" "x7FDEA5" "x90CCEF" "x97C2DD" "xABBED1" "xADCC8C" "xB06EF7" "xBE9CC4" "xCEDFD8" "xD1BDED" "xD279D1" "xD3E158" "xD7FC32" "xDBEEA0" "xDC4BFD" "xE4E6C8" "xE583BC" "xF2F389" "xF9D963" "xFBA660" }
+    provinces = { "x047049" "x7FDEA5" "x90CCEF" "x97C2DD" "xABBED1" "xAD7FE4" "xADCC8C" "xB06EF7" "xBE9CC4" "xCEDFD8" "xD1BDED" "xD279D1" "xD3E158" "xD7FC32" "xDBEEA0" "xDC4BFD" "xE4E6C8" "xE583BC" "xF2F389" "xF9D963" "xFBA660" }
 }
 
 STATE_PROVENCE = {

@@ -5,7 +5,7 @@
 # }
 
 region_medi_sea = {
-	states = { STATE_MEDI_SEA }
+	states = { STATE_MEDI_SEA STATE_DREAMLAND_LAKE }
 }
 
 #####################

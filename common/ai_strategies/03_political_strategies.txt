@@ -19,11 +19,6 @@
 	}		
 	
 	pro_interest_groups = {
-		ig_rural_folk
-		ig_devout
-		ig_landowners
-		ig_armed_forces
-		ig_petty_bourgeoisie
 	}
 	
 	institution_scores = {
@@ -89,14 +84,9 @@ ai_strategy_reactionary_agenda = {
 	type = political
 	
 	pro_interest_groups = {
-		ig_devout
-		ig_landowners
 	}
 	
 	anti_interest_groups = {
-		ig_intelligentsia
-		ig_trade_unions
-		ig_industrialists
 	}
 	
 	institution_scores = {
@@ -124,53 +114,11 @@ ai_strategy_reactionary_agenda = {
 	}
 
 	possible = {
-		exists = ruler
-		ruler = {
-			interest_group = { 
-				NOR = {
-					is_interest_group_type = ig_intelligentsia
-					is_interest_group_type = ig_trade_unions
-					is_interest_group_type = ig_industrialists
-				}
-			}
-			OR = {
-				has_ideology = ideology_traditionalist
-				has_ideology = ideology_slaver
-				has_ideology = ideology_theocrat
-			}
-		}
-		OR = {
-			AND = {
-				exists = ig:ig_landowners
-				ig:ig_landowners = { is_marginal = no }		
-			}
-			AND = {			
-				exists = ig:ig_devout
-				ig:ig_devout = { is_marginal = no }
-			}
-		}			
+		exists = ruler	
 	}
 	
 	weight = {
-		value = 10
-		
-		if = {
-			limit = {
-				exists = ig:ig_landowners
-				ig:ig_landowners = { is_powerful = yes }
-			}
-			
-			add = 10
-		}		
-		
-		if = {
-			limit = {
-				exists = ig:ig_devout
-				ig:ig_devout = { is_powerful = yes }
-			}
-			
-			add = 10
-		}		
+		value = 10	
 	}
 }
 
@@ -195,8 +143,6 @@ ai_strategy_progressive_agenda = {
 	}	
 	
 	pro_interest_groups = {
-		ig_intelligentsia
-		ig_industrialists
 	}
 
 	institution_scores = {
@@ -223,17 +169,7 @@ ai_strategy_progressive_agenda = {
 		}				
 	}
 
-	possible = {
-		OR = {
-			AND = {
-				exists = ig:ig_intelligentsia
-				ig:ig_intelligentsia = { is_marginal = no }
-			}
-			AND = {			
-				exists = ig:ig_industrialists
-				ig:ig_industrialists = { is_marginal = no }
-			}
-		}	
+	possible = {	
 	}
 	
 	weight = {
@@ -247,7 +183,6 @@ ai_strategy_progressive_agenda = {
 						has_ideology = ideology_radical
 						has_ideology = ideology_atheist
 						has_ideology = ideology_feminist
-						has_ideology = ideology_abolitionist
 						has_ideology = ideology_market_liberal
 					}
 				}
@@ -266,24 +201,6 @@ ai_strategy_progressive_agenda = {
 			
 			add = 40
 		}			
-				
-		if = {
-			limit = {
-				exists = ig:ig_intelligentsia
-				ig:ig_intelligentsia = { is_powerful = yes }
-			}
-			
-			add = 10
-		}
-		
-		if = {
-			limit = {
-				exists = ig:ig_industrialists
-				ig:ig_industrialists = { is_powerful = yes }
-			}
-			
-			add = 10
-		}	
 	}
 }
 
@@ -303,13 +220,9 @@ ai_strategy_egalitarian_agenda = {
 	}	
 	
 	pro_interest_groups = {
-		ig_trade_unions
 	}
 	
 	anti_interest_groups = {
-		ig_landowners
-		ig_industrialists
-		ig_petty_bourgeoisie
 	}
 	
 	institution_scores = {
@@ -338,8 +251,6 @@ ai_strategy_egalitarian_agenda = {
 
 	possible = {
 		has_technology_researched = egalitarianism
-		exists = ig:ig_trade_unions
-		ig:ig_trade_unions = { is_marginal = no }
 	}
 	
 	weight = {
@@ -353,7 +264,6 @@ ai_strategy_egalitarian_agenda = {
 						has_ideology = ideology_radical
 						has_ideology = ideology_reformer
 						has_ideology = ideology_feminist
-						has_ideology = ideology_abolitionist
 						has_ideology = ideology_social_democrat
 						
 					}
@@ -375,15 +285,6 @@ ai_strategy_egalitarian_agenda = {
 			}
 			
 			add = 50
-		}		
-		
-		if = {
-			limit = {
-				exists = ig:ig_trade_unions
-				ig:ig_trade_unions = { is_powerful = yes }
-			}
-			
-			add = 10
 		}			
 	}
 }
@@ -409,13 +310,9 @@ ai_strategy_nationalist_agenda = {
 	}	
 	
 	pro_interest_groups = {
-		ig_armed_forces
-		ig_petty_bourgeoisie
 	}
 	
 	anti_interest_groups = {
-		ig_rural_folk
-		ig_trade_unions
 	}
 	
 	institution_scores = {
@@ -443,17 +340,7 @@ ai_strategy_nationalist_agenda = {
 	}	
 
 	possible = {
-		has_technology_researched = nationalism
-		OR = {
-			AND = {
-				exists = ig:ig_armed_forces
-				ig:ig_armed_forces = { is_marginal = no }
-			}
-			AND = {			
-				exists = ig:ig_petty_bourgeoisie
-				ig:ig_petty_bourgeoisie = { is_marginal = no }
-			}
-		}			
+		has_technology_researched = nationalism		
 	}
 	
 	weight = {
@@ -473,23 +360,5 @@ ai_strategy_nationalist_agenda = {
 			
 			add = 30
 		}			
-		
-		if = {
-			limit = {
-				exists = ig:ig_armed_forces
-				ig:ig_armed_forces = { is_powerful = yes }
-			}
-			
-			add = 10
-		}	
-		
-		if = {
-			limit = {
-				exists = ig:ig_petty_bourgeoisie
-				ig:ig_petty_bourgeoisie = { is_powerful = yes }
-			}
-			
-			add = 10
-		}		
 	}
 }

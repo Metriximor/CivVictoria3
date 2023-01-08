@@ -23,12 +23,7 @@ conservative_party = {
 	available_for_interest_group = {
 		owner = {
 			country_has_voting_franchise = yes
-			ig:ig_landowners = {
-				is_marginal = no
-			}
 		}
-		# unions can never be conservative
-		NOT = { is_interest_group_type = ig_trade_unions }
 	}
 	join_weight = {
 		value = {
@@ -60,7 +55,6 @@ conservative_party = {
 						has_ideology = ideology_traditionalist
 						has_ideology = ideology_royalist
 						has_ideology = ideology_theocrat
-						has_ideology = ideology_slaver
 					}
 				}
 			}
@@ -83,35 +77,6 @@ conservative_party = {
 				desc = "from_conservative_ig"
 			}
 		}
-		if = { # armed forces will join if a more powerful member has jingoist leader
-			limit = {
-				is_interest_group_type = ig_armed_forces
-				exists = owner.py:conservative_party
-				owner = {
-					any_interest_group = {
-						is_member_of_party = owner.py:conservative_party
-						is_powerful = yes
-						leader = {
-							has_ideology = ideology_jingoist_leader
-						}
-					}
-				}
-			}
-			add = {
-				value = 5
-				desc = "from_jingoist_party_leader"
-			}
-		}
-		if = { # landowners will join if they are even moderately powerful
-			limit = {
-				ig_clout >= 0.15
-				is_interest_group_type = ig_landowners
-			}
-			add = {
-				value = 5
-				desc = "from_powerful_conservative_ig"
-			}
-		}
 		if = { # various progressives dislike conservativism
 			limit = {
 				leader = {
@@ -127,21 +92,6 @@ conservative_party = {
 				desc = "from_progressive_con"
 			}
 		}
-		# Abolitionists won't join conservative party
-		if = {
-			limit = {
-				leader = {
-					has_ideology = ideology_abolitionist
-				}
-				owner = {
-					NOT = { has_law = law_type:law_slavery_banned }
-				}
-			}
-			add = {
-				value = -20
-				desc = "from_anti_slavery"
-			}
-		}
 		if = { # patriots are inclined towards conservativism
 			limit = {
 				has_ideology = ideology_patriotic
@@ -151,7 +101,7 @@ conservative_party = {
 				desc = "from_patriot"
 			}
 		}
-		if = { # capitalists more likely to join conservatives when the poor can vote
+		if = { # oldfriends more likely to join conservatives when the poor can vote
 			limit = {
 				OR = {
 					has_ideology = ideology_plutocratic
@@ -163,10 +113,10 @@ conservative_party = {
 			}
 			add = {
 				value = 5
-				desc = "from_capitalists_suffrage"
+				desc = "from_oldfriends_suffrage"
 			}
 		}
-		if = { # capitalists and landowners more likely to join with progressive taxation
+		if = { # oldfriends and landowners more likely to join with progressive taxation
 			limit = {
 				OR = {
 					has_ideology = ideology_plutocratic
@@ -178,10 +128,10 @@ conservative_party = {
 			}
 			add = {
 				value = 2
-				desc = "from_capitalists_tax"
+				desc = "from_oldfriends_tax"
 			}
 		}
-		if = { # capitalists more likely to join conservatives with public health
+		if = { # oldfriends more likely to join conservatives with public health
 			limit = {
 				has_ideology = ideology_individualist
 				owner = {
@@ -190,7 +140,7 @@ conservative_party = {
 			}
 			add = {
 				value = 2
-				desc = "from_capitalists_health"
+				desc = "from_oldfriends_health"
 			}
 		}
 		if = { # devout, industrialists more likely to join conservatives with public schools
@@ -205,7 +155,7 @@ conservative_party = {
 			}
 			add = {
 				value = 2
-				desc = "from_capitalists_schools"
+				desc = "from_oldfriends_schools"
 			}
 		}
 		if = { # devout more likely to join conservatives with total separation
@@ -364,17 +314,6 @@ conservative_party = {
 			add = {
 				value = 3
 				desc = "from_no_police"
-			}
-		}
-		if = { # arbitrary weight for Andrew Jackson to be in the right party
-			limit = {
-				leader = {
-					has_variable = is_andrew_jackson
-				}
-			}
-			add = {
-				value = 35
-				desc = "from_jackson"
 			}
 		}
 	}

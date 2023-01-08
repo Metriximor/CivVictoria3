@@ -1,0 +1,47 @@
+﻿[22:48:48][jomini_script_system.cpp:261]: Script system error!
+  Error: create_state effect [ Invalid province reference! Province: x0A4114, Error: Referencing inexistent province! ]
+  Script location: file: common/history/states/00_states.txt line: 3
+
+[22:48:48][jomini_script_system.cpp:261]: Script system error!
+  Error: create_state effect [ Invalid province reference! Province: x66D2DC, Error: Referencing inexistent province! ]
+  Script location: file: common/history/states/00_states.txt line: 3
+
+[22:48:48][jomini_script_system.cpp:261]: Script system error!
+  Error: create_state effect [ Invalid province reference! Province: x79B5F5, Error: Referencing inexistent province! ]
+  Script location: file: common/history/states/00_states.txt line: 3
+
+[22:48:48][jomini_script_system.cpp:261]: Script system error!
+  Error: create_state effect [ Invalid province reference! Province: xA3A0B9, Error: Referencing inexistent province! ]
+  Script location: file: common/history/states/00_states.txt line: 3
+
+[22:48:48][jomini_script_system.cpp:261]: Script system error!
+  Error: create_state effect [ Invalid province reference! Province: xD3CAFB, Error: Referencing inexistent province! ]
+  Script location: file: common/history/states/00_states.txt line: 3
+
+[22:48:48][jomini_script_system.cpp:261]: Script system error!
+  Error: create_state effect [ Invalid province reference! Province: xD8E5F0, Error: Referencing inexistent province! ]
+  Script location: file: common/history/states/00_states.txt line: 3
+
+[22:48:48][jomini_script_system.cpp:261]: Script system error!
+  Error: create_state effect [ Invalid province reference! Province: xF6CEC8, Error: Referencing inexistent province! ]
+  Script location: file: common/history/states/00_states.txt line: 3
+
+[22:48:48][jomini_script_system.cpp:261]: Script system error!
+  Error: create_state effect [ Invalid province reference! Province: x020C15, Error: Referencing inexistent province! ]
+  Script location: file: common/history/states/00_states.txt line: 154
+
+[22:48:48][jomini_script_system.cpp:261]: Script system error!
+  Error: create_state effect [ Invalid province reference! Province: x043422, Error: Referencing inexistent province! ]
+  Script location: file: common/history/states/00_states.txt line: 154
+
+[22:48:48][jomini_script_system.cpp:261]: Script system error!
+  Error: create_state effect [ Invalid province reference! Province: x122F1A, Error: Referencing inexistent province! ]
+  Script location: file: common/history/states/00_states.txt line: 154
+
+[22:48:48][jomini_script_system.cpp:261]: Script system error!
+  Error: create_state effect [ Invalid province reference! Province: x123604, Error: Referencing inexistent province! ]
+  Script location: file: common/history/states/00_states.txt line: 154
+
+[22:48:48][jomini_script_system.cpp:261]: Script system error!
+  Error: create_state effect [ Invalid province reference! Province: x2B2D05, Error: Referencing inexistent province! ]
+  Script location: file: common/history/states/00_states.txt line: 154

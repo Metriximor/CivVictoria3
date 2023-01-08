@@ -19,6 +19,6 @@
  building_charcoal_smelter:0 "Charcoal Smelter"
 
  LUS:0 "Lusitania"
- LUS_ADJ:0 "Lusitan"
+ LUS_ADJ:0 "$lusitan$"
  TRU:0 "Truidencia"
- TRU_ADJ:0 "Truidencian"
+ TRU_ADJ:0 "$truidencian$"

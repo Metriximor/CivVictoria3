@@ -96,7 +96,7 @@ s:STATE_PORTUCALE = {
         size = 888701
     }
 }
-s:STATE_PROVENCE = {
+s:STATE_CIV_PROVENCE = {
     region_state:LUS = {
         create_pop = {
         culture = lusitan
@@ -152,7 +152,7 @@ s:STATE_LUSITAN_PLAINS = {
         size = 840902
     }
 }
-s:STATE_ALENTEJO = {
+s:STATE_CIV_ALENTEJO = {
     region_state:LUS = {
         create_pop = {
         culture = lusitan

@@ -1,0 +1,17 @@
+﻿CHARACTERS = {
+	c:LUS = {
+		create_character = {
+			first_name = Metriximor
+			last_name = no_last_name
+			noble = yes
+			ruler = yes
+			culture = cu:lusitan
+			age = 21
+			interest_group = ig_roleplayers
+			ideology = ideology_pacifist
+			traits = {
+				reserved
+			}
+		}
+	}
+}

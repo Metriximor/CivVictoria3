@@ -18,7 +18,13 @@
  building_ore_smelter:0 "Ore Smelter"
  building_charcoal_smelter:0 "Charcoal Smelter"
 
+ no_last_name:0 ""
+
  LUS:0 "Lusitania"
  LUS_ADJ:0 "$lusitan$"
  TRU:0 "Truidencia"
  TRU_ADJ:0 "$truidencian$"
+ LAM:0 "Lambat"
+ LAM_ADJ:0 "Lambatan"
+ GEN:0 "Gensokyo"
+ GEN_ADJ:0 "Gensokyojin"

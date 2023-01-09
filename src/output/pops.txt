@@ -2,174 +2,188 @@
     region_state:TRU = {
         create_pop = {
         culture = lusitan
-        size = 631522
+        size = 730856
     }
 }
 s:STATE_HYLDOR = {
     region_state:TRU = {
         create_pop = {
         culture = lusitan
-        size = 133025
+        size = 567667
     }
 }
 s:STATE_SNOWPEAK = {
     region_state:TRU = {
         create_pop = {
         culture = lusitan
-        size = 880072
+        size = 65288
     }
 }
 s:STATE_FLATAGRAS = {
     region_state:TRU = {
         create_pop = {
         culture = lusitan
-        size = 378493
+        size = 5575
     }
 }
 s:STATE_SØRLAND = {
     region_state:TRU = {
         create_pop = {
         culture = lusitan
-        size = 45223
+        size = 174308
     }
 }
 s:STATE_SIX_COLONIES = {
     region_state:TRU = {
         create_pop = {
         culture = lusitan
-        size = 79156
+        size = 659618
     }
 }
 s:STATE_OUTLAND = {
     region_state:TRU = {
         create_pop = {
         culture = lusitan
-        size = 892907
+        size = 566098
     }
 }
 s:STATE_OUTER_NIDAROS = {
     region_state:TRU = {
         create_pop = {
         culture = lusitan
-        size = 416513
+        size = 471410
     }
 }
 s:STATE_TENSEIMIYA = {
     region_state:GEN = {
         create_pop = {
         culture = lusitan
-        size = 38753
+        size = 156969
     }
 }
 s:STATE_MORINOYARI = {
     region_state:GEN = {
         create_pop = {
         culture = lusitan
-        size = 674978
+        size = 774561
     }
 }
 s:STATE_DAISHINREIBAU = {
     region_state:GEN = {
         create_pop = {
         culture = lusitan
-        size = 921387
+        size = 442202
     }
 }
 s:STATE_MUMEITA = {
     region_state:GEN = {
         create_pop = {
         culture = lusitan
-        size = 902585
+        size = 985886
     }
 }
 s:STATE_NUMBER'S_LAWN = {
     region_state:GEN = {
         create_pop = {
         culture = lusitan
-        size = 723659
+        size = 448644
     }
 }
 s:STATE_PORTUCALE = {
     region_state:LUS = {
         create_pop = {
         culture = lusitan
-        size = 888701
+        size = 934778
     }
 }
 s:STATE_CIV_PROVENCE = {
     region_state:LUS = {
         create_pop = {
         culture = lusitan
-        size = 297780
+        size = 78760
     }
 }
 s:STATE_CASCAIS = {
     region_state:LUS = {
         create_pop = {
         culture = lusitan
-        size = 114457
+        size = 650043
     }
 }
 s:STATE_OLIMPIA = {
     region_state:LUS = {
         create_pop = {
         culture = lusitan
-        size = 411560
+        size = 656063
     }
 }
 s:STATE_ATLAS = {
     region_state:LUS = {
         create_pop = {
         culture = lusitan
-        size = 160947
+        size = 697876
     }
 }
 s:STATE_AZORES = {
     region_state:LUS = {
         create_pop = {
         culture = lusitan
-        size = 17987
+        size = 356130
     }
 }
 s:STATE_CLASSICALE = {
     region_state:LUS = {
         create_pop = {
         culture = lusitan
-        size = 411803
+        size = 122235
     }
 }
 s:STATE_DREAMLAND = {
     region_state:LUS = {
         create_pop = {
         culture = lusitan
-        size = 171033
+        size = 77867
     }
 }
 s:STATE_LUSITAN_PLAINS = {
     region_state:LUS = {
         create_pop = {
         culture = lusitan
-        size = 840902
+        size = 687736
     }
 }
 s:STATE_CIV_ALENTEJO = {
     region_state:LUS = {
         create_pop = {
         culture = lusitan
-        size = 302247
+        size = 113207
     }
 }
 s:STATE_LUSITAN_PLATEAUS = {
     region_state:LUS = {
         create_pop = {
         culture = lusitan
-        size = 720662
+        size = 164052
     }
 }
 s:STATE_EBORA = {
     region_state:LUS = {
         create_pop = {
         culture = lusitan
-        size = 106172
+        size = 856876
+    }
+}
+s:STATE_EAST_LAMBAT_CITY = {
+    region_state:LAM = {
+        create_pop = {
+        culture = lusitan
+        size = 426563
+    }
+}
+s:STATE_WEST_LAMBAT_CITY = {
+    region_state:LAM = {
+        create_pop = {
+        culture = lusitan
+        size = 943161
     }
 }

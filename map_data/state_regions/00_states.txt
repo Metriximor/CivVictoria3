@@ -1,4 +1,5 @@
-﻿# Truidencia
+﻿# highest id used 28
+# Truidencia
 
 STATE_NIDAROS = {
     id = 1
@@ -69,7 +70,6 @@ STATE_OUTLAND = {
 }
 
 STATE_OUTER_NIDAROS = {
-    # highest id 26
     id = 26
     provinces = { "x68D1C7" "x71E4C2" "x8872FD" "x98B6B1" "xA089D3" "xB2F2BD" "xBDDFB5" "xD0F83E" "xD658D3" "xDFAAEB" "xEA3ED6" "xFAA19B" "xFCBA82" "xFE95C1" }
     capped_resources = {
@@ -188,4 +188,44 @@ STATE_EBORA = {
     id = 24
     provinces = { "x6DF9C3" "x96CFC0" "xB0E7B2" "xCAD6D5" "xCFD574" "xD1E151" "xE398E3" "xE4D14F" "xE870EF" "xEECCEC" "xF978EE" }
 }
+# Lambat
 
+STATE_EAST_LAMBAT_CITY = {
+    id = 27
+    provinces = { "x04704A" "x21B44C" "x2F1208" "x49D9DF" "x63EDFE" "x83D4A3" "x8FACE0" "xAAD7F5" "xBBB5AB" "xCAAEE9" "xCABFBF" "xCAE358" "xD3B9E5" "xD8A488" "xDBB0D7" "xDCE1D2" "xDEA084" "xE03AFC" "xE7BDB0" "xECADF6" "xEEE9CF" "xF41415" "xF4EC34" "xFABA47" "xFACE99" "xFBD327" "xFEE84E" }
+}
+
+STATE_WEST_LAMBAT_CITY = {
+    id = 28
+    provinces = { "x0F014F" "x13D0FF" "x56DCE7" "x58F8D9" "x5EF9BD" "x66E5AE" "x695703" "x72CDC0" "x84EDC1" "xD39DAA" "xD8E24E" "xE2CCCF" "xE5A38D" "xE870F0" "xECEA92" "xEEC399" "xF48ED5" "xF897F9" "xF8BAAE" }
+}
+
+STATE_VALLE_OCCIDENTAL = {
+    id = 29
+    provinces = { "x0AEF0B" "x47F9FB" "x53FEE0" "x64FDF1" "x73DDF1" "x7BF293" "x81B8EB" "x88D4DA" "x90D8E5" "x90E790" "x9E8EFC" "x9F6CEE" "xA2FA94" "xA8F861" "xAA7DDC" "xB0F353" "xB16EDD" "xB195B0" "xB3AEE5" "xB3EAB3" "xB5EFD4" "xB692D4" "xB6F54E" "xBC64F1" "xBDF273" "xC1B0F4" "xC6BEED" "xC799D8" "xCFE2E9" "xD3AD76" "xD3EAD2" "xD4AAFA" "xD7B994" "xD85CE1" "xD9BCC6" "xDFCDE9" "xE0F19E" "xE1E99E" "xE3DA61" "xE4F420" "xE877E2" "xEC3CD7" "xEDCAC9" "xEF97B0" "xEFA790" "xF696FC" "xF89ED6" "xF8D4D2" "xFADCFC" "xFCEE84" "xFD57EE" "xFDBB96" "xFEA45B" }
+}
+
+STATE_CHUNGIA = {
+    id = 30
+    provinces = {}
+}
+
+STATE_BLANCO_STRAIT = {
+    id = 31
+    provinces = {}
+}
+
+STATE_MERCADO_STRAIT = {
+    id = 32
+    provinces = {}
+}
+
+STATE_PAMPANG = {
+    id = 33
+    provinces = {}
+}
+
+STATE_PARFAIT_KAWAYAN = {
+    id = 34
+    provinces = {}
+}

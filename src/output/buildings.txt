@@ -98,3 +98,11 @@ s:STATE_EBORA = {
     region_state:LUS = {
     }
 }
+s:STATE_EAST_LAMBAT_CITY = {
+    region_state:LAM = {
+    }
+}
+s:STATE_WEST_LAMBAT_CITY = {
+    region_state:LAM = {
+    }
+}

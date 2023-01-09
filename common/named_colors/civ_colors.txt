@@ -8,6 +8,11 @@ colors = {
 	# Truidencia
 	truidencian_red = rgb { 192 29 56 }
 	truidencian_yellow = rgb { 247 200 64 }
+
+	# Lambat
+	lambatan_yellow = rgb { 248 239 0 }
+	lambatan_blue = rgb { 43 53 148 }
+	lambatan_red = rgb { 239 54 36 }
 	
 	# Misc colors
 	bizantine_purple = rgb { 112 41 99 }

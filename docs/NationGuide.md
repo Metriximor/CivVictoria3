@@ -37,6 +37,9 @@ Each culture should have:
 * What states they should show up in (or just the whole country)
 * Cultural Obsessions (ingame items) (e.g. Brews)
 * Tabboos (ingame items) (e.g. how muslims irl don't drink alcohol)
+* Cultural heritages (shared cultural values with other nations) (e.g. Lusitan has a medi sea heritage cause in the past it was part of the medi sea) (this is optional)
+* Languages spoken by said culture (e.g. Lusitan is english and portuguese)
+* Culture groups (shared cultures at the moment, e.g. CDM may have a alenaryth culture group with other alenaryth nations)
 
 ## Religions
 

@@ -4,4 +4,8 @@ example_heritage = {
 	heritage = yes
 }
 
+medi_sea_heritage = {
+	heritage = yes
+}
+
 #####################

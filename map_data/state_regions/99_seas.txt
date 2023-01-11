@@ -34,19 +34,18 @@ STATE_SOUTHERN_SEA = {
 
 STATE_LEONA_SEA = {
     id = 3007
-    provinces = {  }
+    provinces = {}
 }
 
 STATE_MERIDIEM_SEA = {
     id = 3008
-    provinces = {  }
+    provinces = {}
 }
 
 STATE_NORTHLANDIC_OCEAN = {
-	id = 3009
-	provinces = {  }
+    id = 3009
+    provinces = {}
 }
-
 # Lakes
 
 STATE_DREAMLAND_LAKE = {

@@ -8,4 +8,8 @@ medi_sea_heritage = {
 	heritage = yes
 }
 
+udf_heritage = {
+	heritage = yes
+}
+
 #####################

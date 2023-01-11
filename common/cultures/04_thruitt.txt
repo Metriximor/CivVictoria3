@@ -1,0 +1,9 @@
+thruitt = { 
+	color = rgb { 153 58 134 } 
+	religion = examplian 
+	traits = { udf_heritage thruite_culture_group norwegian }
+	graphics = european
+	ethnicities = {
+		1 = fox
+	}
+}

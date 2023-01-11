@@ -1,12 +1,12 @@
 ﻿truidencian = { 
 	color = rgb { 192 29 56 } 
 	religion = examplian 
-	traits = { example_heritage examplian }
+	traits = { udf_heritage medi_sea_culture_group english norwegian }
 	male_common_first_names={
 August
 Bjorn
 Olav 
-Harald Haavard Haakon Handrane Hylian
+Harald Haavard Haakon Handrane
 Magnus 
 
 }
@@ -16,10 +16,13 @@ Ragnild
 Generica
 }
 	noble_last_names = {
-of_Nidaros of_Hyldor of_Snowpeak of_Fox'_Landing av_Rodskjegg
+of_Nidaros of_Hyldor of_Snowpeak av_Rodskjegg
 }	
 	common_last_names={
-Nidgard of_Bezengard Revrud 
+Nidgard 
+of_Bezengard of_Nid of_ of_Fox'_Landing
+Revrud 
+Hylian
 }
 
 	male_regal_first_names = {
@@ -36,6 +39,7 @@ Ragnhild
 
 graphics = european
 	ethnicities = {
-		1 = caucasian
+		50 = caucasian
+		50 = african
 	}
 }

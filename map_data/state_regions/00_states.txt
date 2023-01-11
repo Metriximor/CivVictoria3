@@ -99,7 +99,7 @@ STATE_MORINOYARI = {
 }
 
 
-STATE_DAISHINREIBAU = {
+STATE_DAISHIREIBOU = {
     id = 10
     provinces = { "x28EEEA" "x2AD7F4" "x41D7EA" "x51FEF6" "x56FAC7" "x69AFF8" "x6FC2DC" "x71CDC2" "x73DECB" "x73FCA5" "x74EDA8" "x78ABD3" "x8BD1F2" "x8FE1E8" "x91EE98" "x98D3BA" "x9CCFBB" "xA0AACD" "xA0BAED" "xA395CF" "xA6F958" "xBAC2F8" "xBBD0F5" "xBFB89D" "xC1E0ED" "xC259F3" "xC2F64F" "xC4A4E5" "xC6E1DE" "xC9D5F6" "xCA4AEB" "xCCE1CC" "xCCF99F" "xCDB7D2" "xCDF98F" "xCEB982" "xCF74D5" "xCFAFBB" "xD0DE6E" "xD174B5" "xD198F3" "xD1BCDE" "xD36FE8" "xD69097" "xD8D5B8" "xD98E9B" "xDBB8E2" "xDCB7CF" "xE2B5C4" "xE550D8" "xE6F917" "xE78A8B" "xE7EECD" "xEAA7C3" "xEB32F3" "xEB7FF9" "xEEAD94" "xF1A493" "xF1DCB0" "xF362E8" "xF4C27A" "xF5C3D2" "xF5CB40" "xF8FC8D" "xF9A5F7" "xFABCE8" "xFAE88C" "xFC9F9A" "xFE6BC3" "xFE70B0" }
     capped_resources = {
@@ -227,5 +227,63 @@ STATE_PAMPANG = {
 
 STATE_PARFAIT_KAWAYAN = {
     id = 34
+    provinces = {}
+}
+# Danzilona
+
+STATE_PROVINCE_OF_NEW_DANZILONA = {
+    id = 35
+    provinces = {}
+}
+
+STATE_SOPHIA = {
+    id = 36
+    provinces = {}
+}
+
+STATE_MELIA = {
+    id = 37
+    provinces = {}
+}
+
+STATE_NEW_SWISSTON = {
+    id = 38
+    provinces = {}
+}
+
+STATE_SOUTHERN_PROVINCE = {
+    id = 39
+    provinces = {}
+}
+
+STATE_WEST_DANZILONA = {
+    id = 40
+    provinces = {}
+}
+
+STATE_PETERSKOGUR = {
+    id = 41
+    provinces = {}
+}
+# Wolken 
+
+STATE_WOLKEN = {
+    id = 42
+    provinces = {}
+}
+
+STATE_SOUTH_WOLKEN = {
+    id = 43
+    provinces = {}
+}
+
+STATE_WOLKEN_ISLANDS = {
+    id = 44
+    provinces = {}
+}
+# Gensokyo colony I forgot about
+
+STATE_YAMATO_KEN = {
+    id = 45
     provinces = {}
 }

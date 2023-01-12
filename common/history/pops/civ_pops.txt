@@ -3,7 +3,7 @@
 		region_state:TRU = {
 			create_pop = {
 				culture = lusitan
-				size = 718725
+				size = 898367
 			}
 		}
 	}
@@ -11,7 +11,7 @@
 		region_state:TRU = {
 			create_pop = {
 				culture = lusitan
-				size = 695405
+				size = 17518
 			}
 		}
 	}
@@ -19,7 +19,7 @@
 		region_state:TRU = {
 			create_pop = {
 				culture = lusitan
-				size = 610551
+				size = 602000
 			}
 		}
 	}
@@ -27,7 +27,7 @@
 		region_state:TRU = {
 			create_pop = {
 				culture = lusitan
-				size = 112360
+				size = 75472
 			}
 		}
 	}
@@ -35,7 +35,7 @@
 		region_state:TRU = {
 			create_pop = {
 				culture = lusitan
-				size = 413167
+				size = 701414
 			}
 		}
 	}
@@ -43,7 +43,7 @@
 		region_state:TRU = {
 			create_pop = {
 				culture = lusitan
-				size = 834665
+				size = 129456
 			}
 		}
 	}
@@ -51,7 +51,7 @@
 		region_state:TRU = {
 			create_pop = {
 				culture = lusitan
-				size = 861569
+				size = 28651
 			}
 		}
 	}
@@ -59,7 +59,7 @@
 		region_state:TRU = {
 			create_pop = {
 				culture = lusitan
-				size = 41432
+				size = 252451
 			}
 		}
 	}
@@ -67,7 +67,7 @@
 		region_state:GEN = {
 			create_pop = {
 				culture = lusitan
-				size = 706792
+				size = 748381
 			}
 		}
 	}
@@ -75,7 +75,7 @@
 		region_state:GEN = {
 			create_pop = {
 				culture = lusitan
-				size = 498377
+				size = 805504
 			}
 		}
 	}
@@ -83,7 +83,7 @@
 		region_state:GEN = {
 			create_pop = {
 				culture = lusitan
-				size = 373321
+				size = 228883
 			}
 		}
 	}
@@ -91,7 +91,7 @@
 		region_state:GEN = {
 			create_pop = {
 				culture = lusitan
-				size = 480551
+				size = 398253
 			}
 		}
 	}
@@ -99,7 +99,7 @@
 		region_state:GEN = {
 			create_pop = {
 				culture = lusitan
-				size = 464064
+				size = 116596
 			}
 		}
 	}
@@ -107,7 +107,7 @@
 		region_state:GEN = {
 			create_pop = {
 				culture = lusitan
-				size = 646420
+				size = 771873
 			}
 		}
 	}
@@ -115,7 +115,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 549125
+				size = 487470
 			}
 		}
 	}
@@ -123,7 +123,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 571149
+				size = 676516
 			}
 		}
 	}
@@ -131,7 +131,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 36568
+				size = 555448
 			}
 		}
 	}
@@ -139,7 +139,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 759777
+				size = 680816
 			}
 		}
 	}
@@ -147,7 +147,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 645396
+				size = 830668
 			}
 		}
 	}
@@ -155,7 +155,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 976810
+				size = 747497
 			}
 		}
 	}
@@ -163,7 +163,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 621713
+				size = 962204
 			}
 		}
 	}
@@ -171,7 +171,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 61556
+				size = 621299
 			}
 		}
 	}
@@ -179,7 +179,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 176194
+				size = 397592
 			}
 		}
 	}
@@ -187,7 +187,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 995297
+				size = 13476
 			}
 		}
 	}
@@ -195,7 +195,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 866699
+				size = 674684
 			}
 		}
 	}
@@ -203,7 +203,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 433578
+				size = 795174
 			}
 		}
 	}
@@ -211,7 +211,7 @@
 		region_state:LAM = {
 			create_pop = {
 				culture = lusitan
-				size = 964292
+				size = 531707
 			}
 		}
 	}
@@ -219,7 +219,7 @@
 		region_state:LAM = {
 			create_pop = {
 				culture = lusitan
-				size = 801094
+				size = 102828
 			}
 		}
 	}
@@ -227,7 +227,7 @@
 		region_state:LAM = {
 			create_pop = {
 				culture = lusitan
-				size = 452816
+				size = 255220
 			}
 		}
 	}
@@ -235,7 +235,7 @@
 		region_state:LAM = {
 			create_pop = {
 				culture = lusitan
-				size = 87366
+				size = 980477
 			}
 		}
 	}
@@ -243,7 +243,7 @@
 		region_state:LAM = {
 			create_pop = {
 				culture = lusitan
-				size = 521122
+				size = 910555
 			}
 		}
 	}
@@ -251,7 +251,7 @@
 		region_state:LAM = {
 			create_pop = {
 				culture = lusitan
-				size = 562038
+				size = 461186
 			}
 		}
 	}
@@ -259,7 +259,7 @@
 		region_state:LAM = {
 			create_pop = {
 				culture = lusitan
-				size = 111162
+				size = 548608
 			}
 		}
 	}
@@ -267,7 +267,7 @@
 		region_state:LAM = {
 			create_pop = {
 				culture = lusitan
-				size = 147147
+				size = 766185
 			}
 		}
 	}
@@ -275,7 +275,7 @@
 		region_state:DAN = {
 			create_pop = {
 				culture = lusitan
-				size = 286462
+				size = 19532
 			}
 		}
 	}
@@ -283,7 +283,7 @@
 		region_state:DAN = {
 			create_pop = {
 				culture = lusitan
-				size = 34831
+				size = 471821
 			}
 		}
 	}
@@ -291,7 +291,7 @@
 		region_state:DAN = {
 			create_pop = {
 				culture = lusitan
-				size = 651414
+				size = 711798
 			}
 		}
 	}
@@ -299,7 +299,7 @@
 		region_state:DAN = {
 			create_pop = {
 				culture = lusitan
-				size = 110959
+				size = 812208
 			}
 		}
 	}
@@ -307,7 +307,7 @@
 		region_state:DAN = {
 			create_pop = {
 				culture = lusitan
-				size = 522124
+				size = 267367
 			}
 		}
 	}
@@ -315,7 +315,7 @@
 		region_state:DAN = {
 			create_pop = {
 				culture = lusitan
-				size = 171097
+				size = 250225
 			}
 		}
 	}
@@ -323,31 +323,7 @@
 		region_state:DAN = {
 			create_pop = {
 				culture = lusitan
-				size = 452383
-			}
-		}
-	}
-	s:STATE_WOLKEN = {
-		region_state:DAN = {
-			create_pop = {
-				culture = lusitan
-				size = 325522
-			}
-		}
-	}
-	s:STATE_SOUTH_MELIA = {
-		region_state:DAN = {
-			create_pop = {
-				culture = lusitan
-				size = 77527
-			}
-		}
-	}
-	s:STATE_WOLKEN_ISLANDS = {
-		region_state:DAN = {
-			create_pop = {
-				culture = lusitan
-				size = 681503
+				size = 242124
 			}
 		}
 	}
@@ -355,10 +331,47 @@
 		region_state:DAN = {
 			create_pop = {
 				culture = lusitan
-				size = 855309
+				size = 42261
 			}
 		}
 	}
+	s:STATE_SOUTH_MELIA = {
+		region_state:DAN = {
+			create_pop = {
+				culture = lusitan
+				size = 943300
+			}
+		}
+		region_state:WOL = {
+			create_pop = {
+				culture = lusitan
+				size = 705771
+			}
+		}
+		region_state:EXA = {
+			create_pop = {
+				culture = lusitan
+				size = 369702
+			}
+		}
+	}
+	s:STATE_WOLKEN = {
+		region_state:WOL = {
+			create_pop = {
+				culture = lusitan
+				size = 361209
+			}
+		}
+	}
+	s:STATE_WOLKEN_ISLANDS = {
+		region_state:WOL = {
+			create_pop = {
+				culture = lusitan
+				size = 141601
+			}
+		}
+	}
+	
 	s:STATE_DEBUG = {
 		region_state:EXA = {
 			create_pop = {

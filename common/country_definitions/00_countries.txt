@@ -44,9 +44,17 @@ LAM = {
 }
 
 DAN = {
-	color = "full_black"
+	color = "danzilonan_cyan"
 	country_type = recognized
 	tier = kingdom
 	cultures = { examplish }
 	capital = STATE_PROVINCE_OF_NEW_DANZILONA
+}
+
+WOL = {
+	color = "wolken_green"
+	country_type = recognized
+	tier = principality
+	cultures = { examplish }
+	capital = STATE_WOLKEN
 }

@@ -4,78 +4,80 @@ from random import randint
 
 UTF_8_BOM = 'utf-8-sig'
 
-states_file = Path("src/input/states.json")
+def load_file_into_string(path: str):
+    string = ""
+    file = Path(path)
+    with file.open(encoding=UTF_8_BOM) as f:
+        string = f.read()
+    return string
 
-with open(states_file, encoding=UTF_8_BOM) as f:
-    file_contents = f.read()
-
-states = json.loads(file_contents)
-# Inverts the list
+# Loads Files
+states = json.loads(load_file_into_string("src/input/states.json"))
 states = {state: country  for country, state_names in states.items() for state in state_names}
+split_states: dict = json.loads(load_file_into_string("src/input/split_states.json"))
+state_data = load_file_into_string("map_data/state_regions/00_states.txt")
 
-state_data_file = Path("map_data/state_regions/00_states.txt")
-
-with state_data_file.open(encoding=UTF_8_BOM) as f:
-    state_data = f.read()
-
+# Prepares Outputs
 output = ""
 output_file = Path("src/output/state_history.txt")
-
 pops = ""
 pops_file = Path("src/output/pops.txt")
-
 buildings = ""
 buildings_file = Path("src/output/buildings.txt")
 
-# # Iterate through each state in the states dictionary
-# for abbreviation, names in states.items():
-#     for name in names:
-#         # Extract the state data from the state_data string
-#         state_string = state_data.split(name)[0]
-#         state_string = state_string.split("}")[0]
-        
-#         # Parse the state data to extract the state name and provinces
-#         state_name = None
-#         provinces = []
+# Does the thing
 state_name = ""
-country_abbreviation = ""
+countries: dict = {}
 for string in state_data.split("\n"):
     if string.startswith("#"):
         continue
     if string.startswith("STATE_"):
         state_name = string.split(" ")[0]
-        country_abbreviation = states.get(state_name, "")
+        if state_name in split_states:
+            countries = split_states[state_name]
+        else:
+            countries = {states.get(state_name, ""):[]}
 
         pops += f"s:{state_name} = {{\n"
-        pops += f"    region_state:{country_abbreviation} = {{\n"
-        pops +=  "        create_pop = {\n"
-        pops +=  "            culture = lusitan\n"
-        pops +=	f"            size = {randint(500, 1_000_000)}\n"
-        pops +=  "        }\n"
-        pops +=  "    }\n"
+        for country_abbreviation in countries:
+            pops += f"    region_state:{country_abbreviation} = {{\n"
+            pops +=  "        create_pop = {\n"
+            pops +=  "            culture = lusitan\n"
+            pops +=	f"            size = {randint(500, 1_000_000)}\n"
+            pops +=  "        }\n"
+            pops +=  "    }\n"
         pops +=  "}\n"
 
         buildings += f"s:{state_name} = {{\n"
-        buildings += f"    region_state:{country_abbreviation} = {{\n"
-        buildings +=  "    }\n"
+        for country_abbreviation in countries:
+            buildings += f"    region_state:{country_abbreviation} = {{\n"
+            buildings +=  "    }\n"
         buildings +=  "}\n"
         
-    if "=" in string and country_abbreviation != "":
+    if "=" in string and len(countries) != 0:
         key, value = string.strip().split("=")
         key = key.strip()
         value = value.strip()
         if key == "provinces":
-            provinces = value.strip("{}").split()
-            provinces = [province.strip('"') for province in provinces]
+            if len(countries) > 1:
+                provinces = {}
+                for country in countries:
+                    provinces[country] = map(lambda p: f"x{p.upper()}", countries[country])
+            else:
+                country = next(iter(countries.items()))[0]
+                provinces = {}
+                provinces[country] = map(lambda p: p.strip('"'), value.strip("{}").split())
             # Construct the output string for this state
             output += f"s:{state_name} = {{\n"
-            output += "    create_state = {\n"
-            output += f"        country = c:{country_abbreviation}\n"
-            output += f"        owned_provinces = {{ {' '.join(provinces)} }}\n"
-            output += "    }\n"
+            for country in countries:
+                output += "    create_state = {\n"
+                output += f"        country = c:{country}\n"
+                output += f"        owned_provinces = {{ {' '.join(provinces[country])} }}\n"
+                output += "    }\n"
             output += "}\n"
-            country_abbreviation = ""
+            countries = {}
 
+# Outputs stuff
 with open(output_file, 'w+', encoding=UTF_8_BOM) as output_file:
     output_file.write(output)
 

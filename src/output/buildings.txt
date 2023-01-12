@@ -162,19 +162,23 @@ s:STATE_PETERSKOGUR = {
     region_state:DAN = {
     }
 }
-s:STATE_WOLKEN = {
+s:STATE_EASTERN_SHINING_ISLES = {
     region_state:DAN = {
     }
 }
 s:STATE_SOUTH_MELIA = {
     region_state:DAN = {
     }
-}
-s:STATE_WOLKEN_ISLANDS = {
-    region_state:DAN = {
+    region_state:WOL = {
+    }
+    region_state:EXA = {
     }
 }
-s:STATE_EASTERN_SHINING_ISLES = {
-    region_state:DAN = {
+s:STATE_WOLKEN = {
+    region_state:WOL = {
+    }
+}
+s:STATE_WOLKEN_ISLANDS = {
+    region_state:WOL = {
     }
 }

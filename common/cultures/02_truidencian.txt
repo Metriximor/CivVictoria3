@@ -16,7 +16,7 @@ Ragnild
 Generica
 }
 	noble_last_names = {
-av_Rodskjegg of_Snowpeak of_Hyldor of_Nidaros 
+av_Rodskjegg of_Snowpeak of_Hyldor of_Nidaros of_Dol_Morhen
 }	
 	common_last_names={
 Nidgard 
@@ -30,7 +30,7 @@ Hylian The_Hyldorian
 Obtainius_Bez
 Zeldronicus_Bez
 Besius_Bez
-
+Zeldryn_Bez
 
 
 }

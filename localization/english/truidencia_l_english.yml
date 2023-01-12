@@ -4,7 +4,6 @@
  
 
   # Surnames
- Krog:0 "Krog"
  of_Snowpeak:0 "of Snowpeak"
  of_Nidaros:0 "of Nidaros"
  of_Hyldor:0 "of Hyldor"
@@ -12,15 +11,17 @@
  of_Bezengard:0 "of Bezengard"
  av_Rodskjegg:0 "Redbeard"
  of_Truidencia:0 "av_Trydensia"
+ of_Nid:0 "of Nid"
  Hylian:0 "Hylian"
  Nidgard:0 "Nidgard"
  Revrud:0 "Revrud"
  The_Fox:0 "The Fox"
  of_Soria_Moria:0 "of Soria Moria
+ of_Dol_Morhen:0 "of Dol Morhen"
  
  
   # First names
- Zeldrin:0 "Zeldrin"
+ Zeldrin:0 "Zeldrïn"
  Handrane:0 "Handránë"
  Bjorn:0 "Bjørn"
  Haakon:0 "Håkon"
@@ -31,6 +32,7 @@
  Zeldronicus_Bez:0 "Zeldronicus Bez"
  Besius_Bez:0 "Besius Bez"
  Zeldryn_Bez:0 "Zeldryn Bez"
+ Zeldronix:0 "Zeldronix"
  Maud:0 "Maud"
  Margrete:0 "Margrete"
  Ragnhild:0 "Ragnhild"

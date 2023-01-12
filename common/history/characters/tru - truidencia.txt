@@ -3,30 +3,41 @@
 
 		create_character = {
 			#role = politician # Remove this line
-			first_name = "Zeldrin"
-			last_name = "Krog"
-			birth_date = 1787.1.1 
+			culture = truidencian
+			 
 			ig_leader = yes
-			interest_group = ig_buildfriends # TODO: change this to roleplayers
+			interest_group = ig_roleplayers # TODO: change this to roleplayers
 			ideology = ideology_royalist
 			traits = {
 				brave
 			}
 		}
 
+		create_character = {
+			first_name = Zeldronix
+			last_name = of_Dol_Morhen
+			noble = yes
+			ruler = yes
+			culture = cu:thruitt
+			age = 22
+			interest_group = ig_roleplayers
+			ideology = ideology_royalists
+			traits = {
+				reserved
+			}
+				}
+
 		create_character = { # General
 			is_general = yes
-			first_name = Ferdinand
-			last_name = Wedel_Jarlsberg
-			age = 55
+			culture = truidencian
+
 			traits = {
 			}
 		}
 		
 		create_character = { # Admiral
 			is_admiral = yes
-			first_name = Thomas 
-			last_name = Konow
+			culture = truidencian
 			age = 40
 			traits = {
 				meticulous

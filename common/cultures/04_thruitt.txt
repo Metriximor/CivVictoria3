@@ -19,7 +19,8 @@ The_Fox
 }
 
 	male_regal_first_names = {
-Zeldryn_Bez
+Zeldrin
+Zeldronix
 
 
 

@@ -1,4 +1,4 @@
-﻿# highest id used 28
+﻿# highest id used 46
 # Truidencia
 
 STATE_NIDAROS = {
@@ -126,6 +126,11 @@ STATE_NUMBER'S_LAWN = {
         bg_tree_farming = 10
         bg_mine = 20
     }
+}
+
+STATE_YAMATO_KEN = {
+    id = 45
+    provinces = { "x3FC9ED" "x59EAD5" "x699DF8" "x8FE0B7" "x90D9B2" "xB658EC" "xC49DEC" "xD772D2" "xE0D0CE" "xE4F374" "xE659DA" "xE680BE" "xE967F1" "xEC64B8" "xF2D1B6" "xF4C6FD" "xF637CC" }
 }
 # Lusitania
 
@@ -280,12 +285,6 @@ STATE_SOUTH_MELIA = {
 STATE_WOLKEN_ISLANDS = {
     id = 44
     provinces = { "x0D0705" "x8BD59B" "xAB78FD" "xB67DF0" "xC0D1BB" "xC6E554" "xC778CB" "xCCBF6A" "xEA25F5" "xFC82A0" }
-}
-# Gensokyo colony I forgot about
-
-STATE_YAMATO_KEN = {
-    id = 45
-    provinces = { "x3FC9ED" "x59EAD5" "x699DF8" "x8FE0B7" "x90D9B2" "xB658EC" "xC49DEC" "xD772D2" "xE0D0CE" "xE4F374" "xE659DA" "xE680BE" "xE967F1" "xEC64B8" "xF2D1B6" "xF4C6FD" "xF637CC" }
 }
 # Danzilona islands
 

@@ -49,8 +49,9 @@ for string in state_data.split("\n"):
         pops += f"s:{state_name} = {{\n"
         pops += f"    region_state:{country_abbreviation} = {{\n"
         pops +=  "        create_pop = {\n"
-        pops +=  "        culture = lusitan\n"
-        pops +=	f"        size = {randint(500, 1_000_000)}\n"
+        pops +=  "            culture = lusitan\n"
+        pops +=	f"            size = {randint(500, 1_000_000)}\n"
+        pops +=  "        }\n"
         pops +=  "    }\n"
         pops +=  "}\n"
 

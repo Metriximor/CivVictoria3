@@ -2,197 +2,369 @@
 	s:STATE_NIDAROS = {
 		region_state:TRU = {
 			create_pop = {
-			culture = lusitan
-			size = 730856
+				culture = lusitan
+				size = 718725
+			}
 		}
 	}
 	s:STATE_HYLDOR = {
 		region_state:TRU = {
 			create_pop = {
-			culture = lusitan
-			size = 567667
+				culture = lusitan
+				size = 695405
+			}
 		}
 	}
 	s:STATE_SNOWPEAK = {
 		region_state:TRU = {
 			create_pop = {
-			culture = lusitan
-			size = 65288
+				culture = lusitan
+				size = 610551
+			}
 		}
 	}
 	s:STATE_FLATAGRAS = {
 		region_state:TRU = {
 			create_pop = {
-			culture = lusitan
-			size = 5575
+				culture = lusitan
+				size = 112360
+			}
 		}
 	}
 	s:STATE_SØRLAND = {
 		region_state:TRU = {
 			create_pop = {
-			culture = lusitan
-			size = 174308
+				culture = lusitan
+				size = 413167
+			}
 		}
 	}
 	s:STATE_SIX_COLONIES = {
 		region_state:TRU = {
 			create_pop = {
-			culture = lusitan
-			size = 659618
+				culture = lusitan
+				size = 834665
+			}
 		}
 	}
 	s:STATE_OUTLAND = {
 		region_state:TRU = {
 			create_pop = {
-			culture = lusitan
-			size = 566098
+				culture = lusitan
+				size = 861569
+			}
 		}
 	}
 	s:STATE_OUTER_NIDAROS = {
 		region_state:TRU = {
 			create_pop = {
-			culture = lusitan
-			size = 471410
+				culture = lusitan
+				size = 41432
+			}
 		}
 	}
 	s:STATE_TENSEIMIYA = {
 		region_state:GEN = {
 			create_pop = {
-			culture = lusitan
-			size = 156969
+				culture = lusitan
+				size = 706792
+			}
 		}
 	}
 	s:STATE_MORINOYARI = {
 		region_state:GEN = {
 			create_pop = {
-			culture = lusitan
-			size = 774561
+				culture = lusitan
+				size = 498377
+			}
 		}
 	}
-	s:STATE_DAISHINREIBAU = {
+	s:STATE_DAISHIREIBOU = {
 		region_state:GEN = {
 			create_pop = {
-			culture = lusitan
-			size = 442202
+				culture = lusitan
+				size = 373321
+			}
 		}
 	}
 	s:STATE_MUMEITA = {
 		region_state:GEN = {
 			create_pop = {
-			culture = lusitan
-			size = 985886
+				culture = lusitan
+				size = 480551
+			}
 		}
 	}
 	s:STATE_NUMBER'S_LAWN = {
 		region_state:GEN = {
 			create_pop = {
-			culture = lusitan
-			size = 448644
+				culture = lusitan
+				size = 464064
+			}
+		}
+	}
+	s:STATE_YAMATO_KEN = {
+		region_state:GEN = {
+			create_pop = {
+				culture = lusitan
+				size = 646420
+			}
 		}
 	}
 	s:STATE_PORTUCALE = {
 		region_state:LUS = {
 			create_pop = {
-			culture = lusitan
-			size = 934778
+				culture = lusitan
+				size = 549125
+			}
 		}
 	}
 	s:STATE_CIV_PROVENCE = {
 		region_state:LUS = {
 			create_pop = {
-			culture = lusitan
-			size = 78760
+				culture = lusitan
+				size = 571149
+			}
 		}
 	}
 	s:STATE_CASCAIS = {
 		region_state:LUS = {
 			create_pop = {
-			culture = lusitan
-			size = 650043
+				culture = lusitan
+				size = 36568
+			}
 		}
 	}
 	s:STATE_OLIMPIA = {
 		region_state:LUS = {
 			create_pop = {
-			culture = lusitan
-			size = 656063
+				culture = lusitan
+				size = 759777
+			}
 		}
 	}
 	s:STATE_ATLAS = {
 		region_state:LUS = {
 			create_pop = {
-			culture = lusitan
-			size = 697876
+				culture = lusitan
+				size = 645396
+			}
 		}
 	}
 	s:STATE_AZORES = {
 		region_state:LUS = {
 			create_pop = {
-			culture = lusitan
-			size = 356130
+				culture = lusitan
+				size = 976810
+			}
 		}
 	}
 	s:STATE_CLASSICALE = {
 		region_state:LUS = {
 			create_pop = {
-			culture = lusitan
-			size = 122235
+				culture = lusitan
+				size = 621713
+			}
 		}
 	}
 	s:STATE_DREAMLAND = {
 		region_state:LUS = {
 			create_pop = {
-			culture = lusitan
-			size = 77867
+				culture = lusitan
+				size = 61556
+			}
 		}
 	}
 	s:STATE_LUSITAN_PLAINS = {
 		region_state:LUS = {
 			create_pop = {
-			culture = lusitan
-			size = 687736
+				culture = lusitan
+				size = 176194
+			}
 		}
 	}
 	s:STATE_CIV_ALENTEJO = {
 		region_state:LUS = {
 			create_pop = {
-			culture = lusitan
-			size = 113207
+				culture = lusitan
+				size = 995297
+			}
 		}
 	}
 	s:STATE_LUSITAN_PLATEAUS = {
 		region_state:LUS = {
 			create_pop = {
-			culture = lusitan
-			size = 164052
+				culture = lusitan
+				size = 866699
+			}
 		}
 	}
 	s:STATE_EBORA = {
 		region_state:LUS = {
 			create_pop = {
-			culture = lusitan
-			size = 856876
+				culture = lusitan
+				size = 433578
+			}
 		}
 	}
 	s:STATE_EAST_LAMBAT_CITY = {
 		region_state:LAM = {
 			create_pop = {
-			culture = lusitan
-			size = 426563
+				culture = lusitan
+				size = 964292
+			}
 		}
 	}
 	s:STATE_WEST_LAMBAT_CITY = {
 		region_state:LAM = {
 			create_pop = {
-			culture = lusitan
-			size = 943161
+				culture = lusitan
+				size = 801094
+			}
+		}
+	}
+	s:STATE_VALLE_OCCIDENTAL = {
+		region_state:LAM = {
+			create_pop = {
+				culture = lusitan
+				size = 452816
+			}
+		}
+	}
+	s:STATE_CHUNGIA = {
+		region_state:LAM = {
+			create_pop = {
+				culture = lusitan
+				size = 87366
+			}
+		}
+	}
+	s:STATE_BLANCO_STRAIT = {
+		region_state:LAM = {
+			create_pop = {
+				culture = lusitan
+				size = 521122
+			}
+		}
+	}
+	s:STATE_MERCADO_STRAIT = {
+		region_state:LAM = {
+			create_pop = {
+				culture = lusitan
+				size = 562038
+			}
+		}
+	}
+	s:STATE_PAMPANG = {
+		region_state:LAM = {
+			create_pop = {
+				culture = lusitan
+				size = 111162
+			}
+		}
+	}
+	s:STATE_PARFAIT_KAWAYAN = {
+		region_state:LAM = {
+			create_pop = {
+				culture = lusitan
+				size = 147147
+			}
+		}
+	}
+	s:STATE_PROVINCE_OF_NEW_DANZILONA = {
+		region_state:DAN = {
+			create_pop = {
+				culture = lusitan
+				size = 286462
+			}
+		}
+	}
+	s:STATE_SOPHIA = {
+		region_state:DAN = {
+			create_pop = {
+				culture = lusitan
+				size = 34831
+			}
+		}
+	}
+	s:STATE_MELIA = {
+		region_state:DAN = {
+			create_pop = {
+				culture = lusitan
+				size = 651414
+			}
+		}
+	}
+	s:STATE_NEW_SWISSTON = {
+		region_state:DAN = {
+			create_pop = {
+				culture = lusitan
+				size = 110959
+			}
+		}
+	}
+	s:STATE_SOUTHERN_PROVINCE = {
+		region_state:DAN = {
+			create_pop = {
+				culture = lusitan
+				size = 522124
+			}
+		}
+	}
+	s:STATE_WEST_DANZILONA = {
+		region_state:DAN = {
+			create_pop = {
+				culture = lusitan
+				size = 171097
+			}
+		}
+	}
+	s:STATE_PETERSKOGUR = {
+		region_state:DAN = {
+			create_pop = {
+				culture = lusitan
+				size = 452383
+			}
+		}
+	}
+	s:STATE_WOLKEN = {
+		region_state:DAN = {
+			create_pop = {
+				culture = lusitan
+				size = 325522
+			}
+		}
+	}
+	s:STATE_SOUTH_MELIA = {
+		region_state:DAN = {
+			create_pop = {
+				culture = lusitan
+				size = 77527
+			}
+		}
+	}
+	s:STATE_WOLKEN_ISLANDS = {
+		region_state:DAN = {
+			create_pop = {
+				culture = lusitan
+				size = 681503
+			}
+		}
+	}
+	s:STATE_EASTERN_SHINING_ISLES = {
+		region_state:DAN = {
+			create_pop = {
+				culture = lusitan
+				size = 855309
+			}
 		}
 	}
 	s:STATE_DEBUG = {
 		region_state:EXA = {
 			create_pop = {
-			culture = examplish
-			size = 10
+				culture = examplish
+				size = 10
+			}
 		}
 	}
 }

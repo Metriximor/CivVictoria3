@@ -42,3 +42,11 @@ LAM = {
 	cultures = { examplish }
 	capital = STATE_EAST_LAMBAT_CITY
 }
+
+DAN = {
+	color = "full_black"
+	country_type = recognized
+	tier = kingdom
+	cultures = { examplish }
+	capital = STATE_PROVINCE_OF_NEW_DANZILONA
+}

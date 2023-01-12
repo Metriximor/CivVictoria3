@@ -39,7 +39,7 @@
 		region_state:GEN = {
 		}
 	}
-	s:STATE_DAISHINREIBAU = {
+	s:STATE_DAISHIREIBOU = {
 		region_state:GEN = {
 		}
 	}
@@ -48,6 +48,10 @@
 		}
 	}
 	s:STATE_NUMBER'S_LAWN = {
+		region_state:GEN = {
+		}
+	}
+	s:STATE_YAMATO_KEN = {
 		region_state:GEN = {
 		}
 	}
@@ -93,6 +97,86 @@
 	}
 	s:STATE_LUSITAN_PLATEAUS = {
 		region_state:LUS = {
+		}
+	}
+	s:STATE_EBORA = {
+		region_state:LUS = {
+		}
+	}
+	s:STATE_EAST_LAMBAT_CITY = {
+		region_state:LAM = {
+		}
+	}
+	s:STATE_WEST_LAMBAT_CITY = {
+		region_state:LAM = {
+		}
+	}
+	s:STATE_VALLE_OCCIDENTAL = {
+		region_state:LAM = {
+		}
+	}
+	s:STATE_CHUNGIA = {
+		region_state:LAM = {
+		}
+	}
+	s:STATE_BLANCO_STRAIT = {
+		region_state:LAM = {
+		}
+	}
+	s:STATE_MERCADO_STRAIT = {
+		region_state:LAM = {
+		}
+	}
+	s:STATE_PAMPANG = {
+		region_state:LAM = {
+		}
+	}
+	s:STATE_PARFAIT_KAWAYAN = {
+		region_state:LAM = {
+		}
+	}
+	s:STATE_PROVINCE_OF_NEW_DANZILONA = {
+		region_state:DAN = {
+		}
+	}
+	s:STATE_SOPHIA = {
+		region_state:DAN = {
+		}
+	}
+	s:STATE_MELIA = {
+		region_state:DAN = {
+		}
+	}
+	s:STATE_NEW_SWISSTON = {
+		region_state:DAN = {
+		}
+	}
+	s:STATE_SOUTHERN_PROVINCE = {
+		region_state:DAN = {
+		}
+	}
+	s:STATE_WEST_DANZILONA = {
+		region_state:DAN = {
+		}
+	}
+	s:STATE_PETERSKOGUR = {
+		region_state:DAN = {
+		}
+	}
+	s:STATE_WOLKEN = {
+		region_state:DAN = {
+		}
+	}
+	s:STATE_SOUTH_MELIA = {
+		region_state:DAN = {
+		}
+	}
+	s:STATE_WOLKEN_ISLANDS = {
+		region_state:DAN = {
+		}
+	}
+	s:STATE_EASTERN_SHINING_ISLES = {
+		region_state:DAN = {
 		}
 	}
 	s:STATE_EBORA = {

@@ -4,6 +4,6 @@
 	traits = { medi_sea_heritage medi_sea_culture_group english portuguese filipino }
 	graphics = european
 	ethnicities = {
-		1 = caucasian
+		1 = minecrafter
 	}
 }

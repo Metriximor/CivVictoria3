@@ -16,20 +16,22 @@ Ragnild
 Generica
 }
 	noble_last_names = {
-of_Nidaros of_Hyldor of_Snowpeak av_Rodskjegg
+av_Rodskjegg of_Snowpeak of_Hyldor of_Nidaros 
 }	
 	common_last_names={
 Nidgard 
-of_Bezengard of_Nid of_ of_Fox'_Landing
+of_Bezengard of_Nid of_Fox'_Landing
 Revrud 
-Hylian
+Hylian The_Hyldorian
+
 }
 
 	male_regal_first_names = {
 Obtainius_Bez
 Zeldronicus_Bez
-Zeldryn_Bez
 Besius_Bez
+
+
 
 }
 	female_regal_first_names = {

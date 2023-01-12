@@ -8,9 +8,16 @@
  of_Snowpeak:0 "of Snowpeak"
  of_Nidaros:0 "of Nidaros"
  of_Hyldor:0 "of Hyldor"
- of_Fox'_Landing:0 "of Fox' Landing"
+ of_Fox'_Landing:0 "of Fox's Landing"
  of_Bezengard:0 "of Bezengard"
- av_Rodskjegg:0 "av Rødskjegg"
+ av_Rodskjegg:0 "Redbeard"
+ of_Truidencia:0 "av_Trydensia"
+ Hylian:0 "Hylian"
+ Nidgard:0 "Nidgard"
+ Revrud:0 "Revrud"
+ The_Fox:0 "The Fox"
+ of_Soria_Moria:0 "of Soria Moria
+ 
  
   # First names
  Zeldrin:0 "Zeldrin"
@@ -24,3 +31,7 @@
  Zeldronicus_Bez:0 "Zeldronicus Bez"
  Besius_Bez:0 "Besius Bez"
  Zeldryn_Bez:0 "Zeldryn Bez"
+ Maud:0 "Maud"
+ Margrete:0 "Margrete"
+ Ragnhild:0 "Ragnhild"
+ 

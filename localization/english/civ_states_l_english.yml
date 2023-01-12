@@ -11,7 +11,7 @@
 # Gensokyo
  STATE_TENSEIMIYA:0 "Tenseimiya"
  STATE_MORINOYARI:0 "Morinoyari"
- STATE_DAISHINREIBAU:0 "Daishinreibau"
+ STATE_DAISHIREIBOU:0 "Daishireibou"
  STATE_MUMEITA:0 "Mumeita"
  STATE_NUMBER:0 "Number"
 # Lusitania
@@ -30,3 +30,8 @@
 # Seas
  STATE_DREAMLAND_LAKE:0 "Lake of Dreamland"
  STATE_MEDI_SEA:0 "Medi Sea"
+# Wolken
+ STATE_WOLKEN:0 "Wolken"
+ STATE_WOLKEN_ISLANDS:0 "Wolken Islands"
+ STATE_SOUTH_MELIA:0 "South Melia"
+# Danzilona

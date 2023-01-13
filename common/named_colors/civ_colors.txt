@@ -20,7 +20,7 @@ colors = {
 	danzilonan_cyan = rgb { 11 127 71 }
 
 	# Wolken
-	wolken_green = rgb { 37 137 107 }
+	wolken_green = rgb { 117 171 217 }
 	
 	# Misc colors
 	bizantine_purple = rgb { 112 41 99 }

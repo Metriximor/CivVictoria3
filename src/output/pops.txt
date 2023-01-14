@@ -30,7 +30,7 @@ s:STATE_FLATAGRAS = {
         }
     }
 }
-s:STATE_SØRLAND = {
+s:STATE_SORLAND = {
     region_state:TRU = {
         create_pop = {
             culture = lusitan

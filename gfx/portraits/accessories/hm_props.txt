@@ -1,0 +1,3 @@
+﻿steve = {
+	entity = { required_tags = "" shared_pose_entity = head entity = "steve_entity" }
+}

@@ -1,0 +1,164 @@
+﻿accessory_genes = {
+	#####################################
+	#									#
+	# 			 MISC					#
+	#									#
+	#####################################
+	# #####################################
+	# #									#
+	# # 		    Props       	    #
+	# #									#
+	# #####################################
+	props = {
+		inheritable = no
+		no_prop = {
+			index = 0
+			male = {
+			}
+			female = {
+			}
+			boy = {
+			}
+			girl = {
+			}
+		}
+	}
+	#####################################
+	#									#
+	# 		    EYE ACCESSORY 		    #
+	#									#
+	#####################################
+	eye_accessory = {
+		inheritable = no
+		normal_eyes = {
+			index = 0
+			male = {
+				1 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
+		no_eyes = {
+			index = 1
+			male = {
+				1 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
+	}
+	eye_lashes_accessory = {
+		inheritable = no
+		normal_eyelashes = {
+			index = 0
+			male = {
+				1 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
+		no_eyelashes = {
+			index = 1
+			male = {
+				1 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
+	}
+	# #####################################
+	# #									#
+	# # 		    TEETH ACCESSORY 	    #
+	# #									#
+	# #####################################
+	teeth_accessory = {
+		inheritable = no
+		normal_teeth = {
+			index = 0
+			male = {
+			}
+			female = {
+			}
+			boy = {
+			}
+			girl = {
+			}
+		}
+		no_teeth = {
+			index = 1
+			male = {
+			}
+			female = {
+			}
+			boy = {
+			}
+			girl = {
+			}
+		}
+	}
+	# #####################################
+	# #									#
+	# # 		 EYELASHES ACCESSORY 	   #
+	# #									#
+	# #####################################
+	# 	eyelashes_accessory = {
+	# 		inheritable = no
+	# 		# inheritable = no
+	# 		no_eyelashes = {
+	# 			index = 0
+	# 			male = {
+	#                 1 = empty
+	# 			}
+	# 			female = {
+	# 			    1 = empty
+	# 			}
+	# 			boy = {
+	# 			}
+	# 			girl = {
+	# 			}
+	# 		}
+	# 		normal_eyelashes = {
+	# 			index = 1
+	# 			male = {
+	#                 1 = "male_eyelashes_normal"
+	# 			}
+	# 			female = {
+	# 			    1 = "female_eyelashes_normal"
+	# 			}
+	# 			boy = {
+	# 			}
+	# 			girl = {
+	# 			}
+	# 		}
+	# 		asian_eyelashes = {
+	# 			index = 2
+	# 			male = {
+	#                 1 = "male_eyelashes_asian"
+	# 			}
+	# 			female = {
+	# 			    1 = "female_eyelashes_asian"
+	# 			}
+	# 			boy = {
+	# 			}
+	# 			girl = {
+	# 			}
+	# 		}
+	# 	}
+	# #####################################
+	# #									#
+	# # 		 NUDITY ACCESSORY 	    #
+	# #									#
+	# #####################################
+}

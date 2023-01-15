@@ -6,9 +6,8 @@
 			noble = yes
 			ruler = yes
 			culture = cu:lusitan
-			age = 21
-			dna = dna_metriximor
-			interest_group = ig_roleplayers
+			age = { 18 25 }
+			interest_group = ig_buildfriends
 			ideology = ideology_pacifist
 			traits = {
 				experienced_diplomat

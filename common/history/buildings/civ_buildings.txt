@@ -15,7 +15,7 @@
 		region_state:TRU = {
 		}
 	}
-	s:STATE_SØRLAND = {
+	s:STATE_SORLAND = {
 		region_state:TRU = {
 		}
 	}

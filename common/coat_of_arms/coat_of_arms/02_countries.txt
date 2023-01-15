@@ -6,11 +6,6 @@
 @canton_scale_cross_x = @[ ( 333 / 768 ) + 0.001 ]
 @canton_scale_cross_y = @[ ( 205 / 512 ) + 0.001 ]
 
-@canton_scale_sweden_x = @[ ( 255 / 768 ) + 0.001 ]
-@canton_scale_sweden_y = @[ ( 204 / 512 ) + 0.001 ]
-
-@uru_canton_height = 0.556
-@NZL_coa_offset = @[3/16] 
 0.3 = 0.16
 
 TRU = {

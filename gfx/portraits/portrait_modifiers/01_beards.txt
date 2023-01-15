@@ -1,0 +1,25 @@
+﻿beards = {
+    	usage = game
+    	selection_behavior = weighted_random
+    	fallback = no_beard
+    
+    no_beard = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = no_beard
+                value = 1
+            }
+        }   
+    
+         weight = {
+            base = 0
+
+            modifier = {
+                add = 10000
+                no_portrait_trigger = yes
+            }
+        }
+    }
+}

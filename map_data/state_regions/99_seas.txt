@@ -64,19 +64,19 @@ STATE_AZURE_SEA = {
 # Lakes
 
 STATE_DREAMLAND_LAKE = {
-    id = 3002
+    id = 3014
     provinces = { "x440610" }
     impassable = { "x440610" }
 }
 
 STATE_ERIE_LAKE = {
-    id = 3010
+    id = 3015
     provinces = { "x020D54" "x03540C" "x09331F" "x0B1B08" "x12F1FC" "x133C0E" "x180111" "x1D1B23" "x1F010B" "x21072D" "x222809" "x232305" "x250531" "x2C0B01" "x301401" "x3F021D" "x401B01" "x4C0608" "x93A0CA" "x9EFC71" }
-    impassable = {}
+    impassable = { "x020D54" "x03540C" "x09331F" "x0B1B08" "x12F1FC" "x133C0E" "x180111" "x1D1B23" "x1F010B" "x21072D" "x222809" "x232305" "x250531" "x2C0B01" "x301401" "x3F021D" "x401B01" "x4C0608" "x93A0CA" "x9EFC71" }
 }
 
 STATE_IZANAGI_LAKE = {
-    id = 3013
+    id = 3016
     provinces = { "x040F37" "x580302" }
     impassable = { "x040F37" "x580302" }
 }

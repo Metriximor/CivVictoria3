@@ -118,10 +118,6 @@ struggling_pop_trigger = {
 	}
 }
 
-## Can only be checked in the interface since the setting isn't synced
-should_be_fully_naked_portrait_trigger = {
-	should_show_nudity = yes
-}
 #
 #should_be_topless_portrait_trigger = {
 #	exists = scope:pop

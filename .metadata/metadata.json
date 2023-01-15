@@ -32,8 +32,10 @@
       "common/diplomatic_actions",
       "common/diplomatic_plays",
       "common/discrimination_traits",
+      "common/dna_data",
       "common/dynamic_country_map_colors",
       "common/dynamic_country_names",
+      "common/ethnicities",
       "common/flag_definitions",
       "common/goods",
       "common/history",
@@ -82,8 +84,13 @@
       "gfx/map/city_data/city_vfx",
       "gfx/map/spline_network/route_graphics",
       "gfx/map/naval_graphics",
-      "gfx/portraits/portrait_modifiers",
-      "gfx/portraits/portrait_animations"
+      "gfx/portraits/attachments",
+      "gfx/portraits/decals",
+      "gfx/portraits/accessories",
+      "gfx/portraits/accessory_variations",
+      "gfx/portraits/cameras",
+      "gfx/portraits/portrait_animations",
+      "gfx/portraits/portrait_modifiers"
     ]
   }
 }

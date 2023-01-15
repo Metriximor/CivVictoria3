@@ -1,0 +1,47 @@
+pdxmesh = {
+	name = "female_head_mesh"
+	file = "female_head.mesh"
+	scale = 1.0
+
+	#### Blend Shapes ####
+
+	blend_shape = { id = "female_head_bs_no_portrait"	type = "blendshapes/female_head_no_portrait.mesh"  }
+	
+	animation = { id = "head_bind_pose"					type = "female_head_bind_pose.anim" }
+
+	meshsettings = {
+		name = "female_headShape"
+		index = 0
+		texture_diffuse = "female_head_01_diffuse.dds"
+		texture_normal = "female_head_01_normal.dds"
+		texture_specular = "female_head_01_properties.dds"
+		texture = { file = "female_head_01_ssao_color.dds" index = 3 }
+		
+		shader = "portrait_skin_face"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+
+entity = {
+	name = "female_head_entity"
+	pdxmesh = "female_head_mesh"
+    game_data = {
+        portrait_entity_user_data = {
+            color_mask_remap_interval = {
+                interval = {0.0 1.0}
+            }
+	        portrait_decal = {
+	            body_part = head
+	        }
+        }
+    }		
+
+	#### BLEND SHAPES ####
+
+	attribute = { name = "head_bs_no_portrait"					blend_shape = "female_head_bs_no_portrait" }
+
+	default_state = "none"
+    state = {	name = "none"					animation = "head_bind_pose" }
+}
+

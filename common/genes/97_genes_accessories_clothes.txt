@@ -1,0 +1,379 @@
+﻿special_genes = {
+	accessory_genes = {
+		#####################################
+		#									#
+		# 			   OUTFITS			    #
+		#									#
+		#####################################
+		gene_nudity = {
+			nudity = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			hide_nudity = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		misc = {
+			inheritable = no
+			all_misc = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		outfits = {
+			inheritable = no
+			all_outfits = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			no_outfit = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		#####################################
+		#									#
+		# 			   COATS 			    #
+		#									#
+		#####################################
+		coats = {
+			inheritable = no
+			all_coats = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			no_coat = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		#####################################
+		#									#
+		# 		   CIVILIAN COATS	    	#
+		#									#
+		#####################################
+		civilian_coats = {
+			inheritable = no
+			all_civilian_coats = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			no_civilian_coat = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		#####################################
+		#									#
+		# 			   EPAULETTES			#
+		#									#
+		#####################################
+		epaulettes = {
+			inheritable = no
+			all_epaulettes = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			no_epaulette = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		#####################################
+		#									#
+		# 			   SASHES 			    #
+		#									#
+		#####################################
+		sashes = {
+			inheritable = no
+			all_sashes = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			no_sash = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		#####################################
+		#									#
+		# 			   MEDALS 			    #
+		#									#
+		#####################################
+		medals = {
+			inheritable = no
+			all_medals = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			no_medals = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		#####################################
+		#									#
+		# 			   BELTS 			    #
+		#									#
+		#####################################
+		belts = {
+			inheritable = no
+			all_belts = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			no_belt = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		#####################################
+		#									#
+		# 			   WAISTCOATS		    #
+		#									#
+		#####################################
+		waistcoats = {
+			inheritable = no
+			all_waistcoats = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			no_waistcoat = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		#####################################
+		#									#
+		# 			   TOP LAYER			#
+		#									#
+		#####################################
+		top_layer = {
+			inheritable = no
+			all_top_layers = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			no_top_layer = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		#####################################
+		#									#
+		# 			   NECKLACES			#
+		#									#
+		#####################################
+		necklaces = {
+			inheritable = no
+			## ALL ##		
+			all_necklaces = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			no_necklace = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		#####################################
+		#									#
+		# 			 AIGUILLETTES			#
+		#									#
+		#####################################
+		aiguillettes = {
+			inheritable = no
+			## ALL ##		
+			all_aiguillettes = {
+				index = 0
+				male = {
+					1 = male_aiguillettes_01
+					1 = empty
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+			no_aiguillettes = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		#####################################
+		#									#
+		# 			   LEGWEAR			    #
+		#									#
+		#####################################
+		legwear = {
+			inheritable = no
+			all_legwear = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			no_legwear = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		#####################################
+		#									#
+		# 			   SHIRT			    #
+		#									#
+		#####################################
+		shirt = {
+			inheritable = no
+			all_shirts = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			no_shirts = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+	}
+}

@@ -6,8 +6,8 @@ male = {
 }
 
 female = {
-	head = "female_head_entity"
-	torso = "female_body_entity"
+	head = "male_head_entity"
+	torso = "male_body_entity"
 }
 
 boy = {
@@ -16,8 +16,8 @@ boy = {
 }
 
 girl = {
-	head = "female_head_entity"
-	torso = "female_body_entity"
+	head = "male_head_entity"
+	torso = "male_body_entity"
 }
 
 attach = {

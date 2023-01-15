@@ -3,8 +3,22 @@ thruitt = {
 	religion = examplian 
 	traits = { udf_heritage medi_sea_culture_group norwegian }
 	male_common_first_names={
+		Loke Lodur
+		Odin Od
+		Tor
+		Froy
+		Balder
+		Hod Hermod
+		Mode
+		
 	}
 	female_common_first_names = {
+		Froya Frigga
+		Idunn
+		Sigyn Siv Syn
+		Nanna
+		Rind
+		
 	}
 	noble_last_names = {
 		of_Soria_Moria of_Truidencia

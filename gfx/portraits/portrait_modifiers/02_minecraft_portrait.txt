@@ -10,13 +10,22 @@
 				range = { 0 1 }
             }
         }
-
-        weight = {
-            base = 0
-            modifier = {
-                add = 10000
-                no_portrait_trigger = yes
-            }
-        }
+		weight = {
+			base = 0
+		}
     }
+
+	thruittt_portrait = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = base_skins
+				template = gene_thruitt
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+		}
+	}
 }

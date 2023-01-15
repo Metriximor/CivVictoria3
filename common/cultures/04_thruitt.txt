@@ -3,34 +3,24 @@ thruitt = {
 	religion = examplian 
 	traits = { udf_heritage medi_sea_culture_group norwegian }
 	male_common_first_names={
-
-
-}
-female_common_first_names = {
-
-
-}
+	}
+	female_common_first_names = {
+	}
 	noble_last_names = {
-of_Soria_Moria of_Truidencia
-}	
+		of_Soria_Moria of_Truidencia
+	}	
 	common_last_names={
-The_Fox
-
-}
-
+		The_Fox
+	}
 	male_regal_first_names = {
-Zeldrin
-Zeldronix
-
-
-
-}
+		Zeldrin
+		Zeldronix
+	}
 	female_regal_first_names = {
-
-}
+	}
 
 	graphics = european
 	ethnicities = {
-		1 = minecrafter
+		1 = thruittan
 	}
 }

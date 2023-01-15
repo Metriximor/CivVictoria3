@@ -1,7 +1,9 @@
+@scale = 1.6
+
 pdxmesh = {
 	name = "steve_mesh"
 	file = "hm_prophet.mesh"
-	scale = 1.6
+	scale = @scale
 	meshsettings = {
 		name = "prophet_shieldShape"
 		index = 0
@@ -18,7 +20,7 @@ entity = {
 pdxmesh = {
 	name = "zuri_mesh"
 	file = "hm_prophet.mesh"
-	scale = 1.6
+	scale = @scale
 	meshsettings = {
 		name = "prophet_shieldShape"
 		index = 0
@@ -30,4 +32,21 @@ pdxmesh = {
 entity = {
 	name = "zuri_entity"
 	pdxmesh = "zuri_mesh"
+}
+
+pdxmesh = {
+	name = "thruitt_mesh"
+	file = "hm_prophet.mesh"
+	scale = @scale
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "skins_textures/body/body_thruitt.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/models/skins/hmportrait.shader"
+	}
+}
+entity = {
+	name = "thruitt_entity"
+	pdxmesh = "thruitt_mesh"
 }

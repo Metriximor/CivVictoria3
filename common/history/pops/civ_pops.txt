@@ -26,7 +26,7 @@
 	s:STATE_FLATAGRAS = {
 		region_state:TRU = {
 			create_pop = {
-				culture = lusitan
+				culture = truidencian
 				size = 75472
 			}
 		}
@@ -34,7 +34,7 @@
 	s:STATE_SORLAND = {
 		region_state:TRU = {
 			create_pop = {
-				culture = lusitan
+				culture = thruitt
 				size = 701414
 			}
 		}
@@ -42,7 +42,7 @@
 	s:STATE_SIX_COLONIES = {
 		region_state:TRU = {
 			create_pop = {
-				culture = lusitan
+				culture = truidencian
 				size = 129456
 			}
 		}

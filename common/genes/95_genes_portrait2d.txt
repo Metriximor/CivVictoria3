@@ -10,6 +10,16 @@
 			boy = male
 			girl = male
 		}
+
+		gene_thruitt = {
+			index = 1
+			male = {
+				1 = "thruitt"
+			}
+			female = male
+			boy = male
+			girl = male
+		}
 	}
 }
 

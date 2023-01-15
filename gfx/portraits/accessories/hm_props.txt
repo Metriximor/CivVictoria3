@@ -5,3 +5,7 @@
 zuri = {
 	entity = { required_tags = "" shared_pose_entity = head entity = "zuri_entity" }
 }
+
+thruitt = {
+	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_entity" }
+}

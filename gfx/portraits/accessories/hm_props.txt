@@ -9,3 +9,19 @@ zuri = {
 thruitt = {
 	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_entity" }
 }
+
+###################
+#  UNIQUE PLAYERS #
+###################
+
+metriximor = {
+	entity = { required_tags = "" shared_pose_entity = head entity = "metriximor_entity" }
+}
+
+kaprediem = {
+	entity = { required_tags = "" shared_pose_entity = head entity = "kaprediem_entity" }
+}
+
+topaz4293 = {
+	entity = { required_tags = "" shared_pose_entity = head entity = "topaz4293_entity" }
+}

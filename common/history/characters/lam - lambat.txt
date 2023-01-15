@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:LAM = {
+		create_character = {
+			first_name = Kaprediem
+			last_name = no_last_name
+			noble = yes
+			ruler = yes
+			culture = cu:lambatan
+			dna = dna_kaprediem
+			age = { 25 35 }
+			interest_group = ig_roleplayers
+			ideology = ideology_patriotic
+			traits = {
+				experienced_diplomat
+				reserved
+			}
+		}
+	}
+}

@@ -21,11 +21,19 @@
 				mode = replace
 				gene = base_skins
 				template = gene_thruitt
-				value = 1
+				range = { 0 1 }
 			}
 		}
 		weight = {
 			base = 0
+		}
+	}
+
+	unique_portraits = {
+		dna_modifiers = {
+			mode = replace
+			gene = base_skins
+			template = 
 		}
 	}
 }

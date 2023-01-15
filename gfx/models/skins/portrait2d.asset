@@ -50,3 +50,57 @@ entity = {
 	name = "thruitt_entity"
 	pdxmesh = "thruitt_mesh"
 }
+
+###################
+#  UNIQUE PLAYERS #
+###################
+pdxmesh = {
+	name = "metriximor_mesh"
+	file = "hm_prophet.mesh"
+	scale = @scale
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "skins_textures/players/body_metriximor.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/models/skins/hmportrait.shader"
+	}
+}
+entity = {
+	name = "metriximor_entity"
+	pdxmesh = "metriximor_mesh"
+}
+
+pdxmesh = {
+	name = "kaprediem_mesh"
+	file = "hm_prophet.mesh"
+	scale = @scale
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "skins_textures/players/body_kaprediem.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/models/skins/hmportrait.shader"
+	}
+}
+entity = {
+	name = "kaprediem_entity"
+	pdxmesh = "kaprediem_mesh"
+}
+
+pdxmesh = {
+	name = "topaz4293_mesh"
+	file = "hm_prophet.mesh"
+	scale = @scale
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "skins_textures/players/body_topaz4293.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/models/skins/hmportrait.shader"
+	}
+}
+entity = {
+	name = "topaz4293_entity"
+	pdxmesh = "topaz4293_mesh"
+}

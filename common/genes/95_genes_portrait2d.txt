@@ -11,8 +11,20 @@
 			girl = male
 		}
 
-		gene_thruitt = {
+		gene_unique_skin= {
 			index = 1
+			male = {
+				1 = kaprediem
+				1 = metriximor
+				1 = topaz4293
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+
+		gene_thruitt = {
+			index = 2
 			male = {
 				1 = "thruitt"
 			}

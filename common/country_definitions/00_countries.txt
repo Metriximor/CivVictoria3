@@ -31,7 +31,7 @@ GEN = {
 	color = "red"
 	country_type = recognized
 	tier = kingdom
-	cultures = { examplish }
+	cultures = { gensokyojin }
 	capital = STATE_TENSEIMIYA
 }
 
@@ -39,7 +39,7 @@ LAM = {
 	color = "lambatan_yellow"
 	country_type = recognized
 	tier = kingdom
-	cultures = { examplish }
+	cultures = { lambatan }
 	capital = STATE_EAST_LAMBAT_CITY
 }
 

@@ -1,0 +1,20 @@
+﻿CHARACTERS = {
+	c:GEN = {
+		create_character = {
+			first_name = Topaz
+			last_name = no_last_name
+			noble = yes
+			female = yes
+			ruler = yes
+			culture = cu:gensokyojin
+			dna = dna_topaz
+			age = { 20 35 } 
+			interest_group = ig_buildfriends
+			ideology = ideology_confucian
+			traits = {
+				experienced_diplomat
+				reserved
+			}
+		}
+	}
+}

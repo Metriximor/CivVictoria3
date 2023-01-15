@@ -3,7 +3,6 @@
 		create_character = {
 			first_name = Kaprediem
 			last_name = no_last_name
-			noble = yes
 			ruler = yes
 			culture = cu:lambatan
 			dna = dna_kaprediem

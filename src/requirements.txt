@@ -1,1 +1,3 @@
 ﻿wand
+glob
+pathlib

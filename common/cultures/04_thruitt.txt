@@ -31,6 +31,6 @@ Zeldronix
 
 	graphics = european
 	ethnicities = {
-		1 = fox
+		1 = minecrafter
 	}
 }

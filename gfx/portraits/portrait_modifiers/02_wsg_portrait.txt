@@ -7,7 +7,7 @@
                 mode = replace
                 gene = base_skins
                 template = gene_base_skin
-                value = 1
+				range = { 0 1 }
             }
         }
 

@@ -1,10 +1,10 @@
 ﻿accessory_genes = {
-
 	base_skins = {
 		gene_base_skin = {
 			index = 0
 			male = {
 				1 = "steve"
+				1 = "zuri"
 			}
 			female = male
 			boy = male

@@ -4,6 +4,6 @@ gensokyojin = {
 	traits = { example_heritage examplian }
 	graphics = asian
 	ethnicities = {
-		1 = asian
+		1 = minecrafter
 	}
 }

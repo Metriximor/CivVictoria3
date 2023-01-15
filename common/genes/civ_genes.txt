@@ -1,0 +1,14 @@
+﻿# accessory_genes = {
+# 	skins = {
+# 		inheritable = no
+# 		unique_skins = {
+# 			index = 0
+# 			male = {
+# 				1 = "metriximor"
+# 			}
+# 			female = male
+# 			boy = male
+# 			girl = male
+# 		}
+# 	}
+# }

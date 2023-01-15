@@ -41,7 +41,6 @@ Ragnhild
 
 graphics = european
 	ethnicities = {
-		50 = caucasian
-		50 = african
+		1 = minecrafter
 	}
 }

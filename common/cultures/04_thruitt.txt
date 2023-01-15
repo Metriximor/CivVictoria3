@@ -21,7 +21,7 @@ thruitt = {
 		
 	}
 	noble_last_names = {
-		of_Soria_Moria of_Truidencia
+		av_Soria_Moria av_Trydensia
 	}	
 	common_last_names={
 		The_Fox

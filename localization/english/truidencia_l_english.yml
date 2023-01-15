@@ -10,15 +10,15 @@
  of_Fox'_Landing:0 "of Fox's Landing"
  of_Bezengard:0 "of Bezengard"
  av_Rodskjegg:0 "Redbeard"
- of_Truidencia:0 "av_Trydensia"
+ av_Trydensia:0 "av Trydensia"
  of_Nid:0 "of Nid"
  Hylian:0 "Hylian"
  Nidgard:0 "Nidgard"
  Revrud:0 "Revrud"
  The_Fox:0 "The Fox"
- of_Soria_Moria:0 "of Soria Moria
+ av_Soria_Moria:0 "av Soria Moria
  of_Dol_Morhen:0 "of Dol Morhen"
- the_hyldorian:0 "The Hyldorian"
+ The_Hyldorian:0 "The Hyldorian"
  
  
   # First names
@@ -37,4 +37,6 @@
  Maud:0 "Maud"
  Margrete:0 "Margrete"
  Ragnhild:0 "Ragnhild"
+ Froy:0 "Frøy"
+ Froya:0 "Frøya"
  

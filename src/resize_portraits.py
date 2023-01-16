@@ -12,6 +12,6 @@ def resize_and_save_as_dds(png_image: str, open_image: Image):
         bg.compression='dxt5'
         bg.save(filename=path.with_suffix('.dds'))
 
-for png_image in glob.iglob(root_dir + "gfx/models/skins/skins_textures/**/*.png"):
+for png_image in glob.iglob(root_dir + "gfx/models/skins/skins_textures/**/*.png", recursive=True):
     with Image(filename=png_image) as open_image:
         resize_and_save_as_dds(png_image, open_image)

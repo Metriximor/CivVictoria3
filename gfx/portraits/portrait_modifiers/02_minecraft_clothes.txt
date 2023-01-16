@@ -1,0 +1,17 @@
+﻿flat_clothes = {
+	usage = game
+
+	flat_thruittan_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = flat_clothes
+				template = gene_thruitt_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+		}
+	}
+}

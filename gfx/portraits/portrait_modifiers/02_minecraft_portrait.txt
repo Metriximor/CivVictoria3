@@ -29,11 +29,11 @@
 		}
 	}
 
-	unique_portraits = {
-		dna_modifiers = {
-			mode = replace
-			gene = base_skins
-			template = 
-		}
-	}
+	# unique_portraits = {
+	# 	dna_modifiers = {
+	# 		mode = replace
+	# 		gene = base_skins
+	# 		template = 
+	# 	}
+	# }
 }

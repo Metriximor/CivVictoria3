@@ -18,6 +18,23 @@ entity = {
 }
 
 pdxmesh = {
+	name = "alex_mesh"
+	file = "hm_prophet.mesh"
+	scale = @scale
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "skins_textures/body/slim/body_alex.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/models/skins/hmportrait.shader"
+	}
+}
+entity = {
+	name = "alex_entity"
+	pdxmesh = "alex_mesh"
+}
+
+pdxmesh = {
 	name = "zuri_mesh"
 	file = "hm_prophet.mesh"
 	scale = @scale
@@ -49,6 +66,142 @@ pdxmesh = {
 entity = {
 	name = "thruitt_entity"
 	pdxmesh = "thruitt_mesh"
+}
+
+pdxmesh = {
+	name = "thruitt_slim_mesh"
+	file = "hm_prophet.mesh"
+	scale = @scale
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "skins_textures/body/slim/body_thruitt_slim.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/models/skins/hmportrait.shader"
+	}
+}
+entity = {
+	name = "thruitt_slim_entity"
+	pdxmesh = "thruitt_slim_mesh"
+}
+
+pdxmesh = {
+	name = "thruitt_f_mesh"
+	file = "hm_prophet.mesh"
+	scale = @scale
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "skins_textures/body/body_f_thruitt.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/models/skins/hmportrait.shader"
+	}
+}
+entity = {
+	name = "thruitt_f_entity"
+	pdxmesh = "thruitt_f_mesh"
+}
+
+pdxmesh = {
+	name = "thruitt_arctic_mesh"
+	file = "hm_prophet.mesh"
+	scale = @scale
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "skins_textures/body/body_thruitt_arctic.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/models/skins/hmportrait.shader"
+	}
+}
+entity = {
+	name = "thruitt_arctic_entity"
+	pdxmesh = "thruitt_arctic_mesh"
+}
+
+pdxmesh = {
+	name = "thruitt_arctic_f_mesh"
+	file = "hm_prophet.mesh"
+	scale = @scale
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "skins_textures/body/body_thruitt_arctic_f.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/models/skins/hmportrait.shader"
+	}
+}
+entity = {
+	name = "thruitt_arctic_f_entity"
+	pdxmesh = "thruitt_arctic_f_mesh"
+}
+
+pdxmesh = {
+	name = "thruitt_arctic_slim_mesh"
+	file = "hm_prophet.mesh"
+	scale = @scale
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "skins_textures/body/slim/body_thruitt_arctic_slim.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/models/skins/hmportrait.shader"
+	}
+}
+entity = {
+	name = "thruitt_arctic_slim_entity"
+	pdxmesh = "thruitt_arctic_slim_mesh"
+}
+
+pdxmesh = {
+	name = "thruitt_blond_mesh"
+	file = "hm_prophet.mesh"
+	scale = @scale
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "skins_textures/body/body_thruitt_blond.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/models/skins/hmportrait.shader"
+	}
+}
+entity = {
+	name = "thruitt_blond_entity"
+	pdxmesh = "thruitt_blond_mesh"
+}
+
+pdxmesh = {
+	name = "thruitt_blond_f_mesh"
+	file = "hm_prophet.mesh"
+	scale = @scale
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "skins_textures/body/body_thruitt_blond_f.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/models/skins/hmportrait.shader"
+	}
+}
+entity = {
+	name = "thruitt_blond_f_entity"
+	pdxmesh = "thruitt_blond_f_mesh"
+}
+
+pdxmesh = {
+	name = "thruitt_blond_slim_mesh"
+	file = "hm_prophet.mesh"
+	scale = @scale
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "skins_textures/body/slim/body_thruitt_blond_slim.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/models/skins/hmportrait.shader"
+	}
+}
+entity = {
+	name = "thruitt_blond_slim_entity"
+	pdxmesh = "thruitt_blond_slim_mesh"
 }
 
 ###################

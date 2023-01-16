@@ -6,9 +6,11 @@
 				1 = "steve"
 				1 = "zuri"
 			}
-			female = male
+			female = {
+				1 = "alex"
+			}
 			boy = male
-			girl = male
+			girl = female
 		}
 
 		gene_unique_skin= {
@@ -27,10 +29,16 @@
 			index = 2
 			male = {
 				1 = "thruitt"
+				1 = "thruitt_arctic"
+				1 = "thruitt_blond"
 			}
-			female = male
+			female = {
+				1 = "thruitt_slim"
+				1 = "thruitt_arctic_slim"
+				1 = "thruitt_blond_slim"
+			}
 			boy = male
-			girl = male
+			girl = female
 		}
 	}
 }

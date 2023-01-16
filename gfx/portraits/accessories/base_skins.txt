@@ -1,0 +1,80 @@
+﻿steve = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "steve_entity" }
+}
+
+alex = {
+	set_tags = "base_slim"
+	entity = { required_tags = "" shared_pose_entity = head entity = "alex_entity" }
+}
+
+zuri = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "zuri_entity" }
+}
+
+## Thruitts ##
+
+thruitt = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_entity" }
+}
+
+thruitt_f = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_f_entity" }
+}
+
+thruitt_slim = {
+	set_tags = "base_slim"
+	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_slim_entity" }
+}
+
+thruitt_arctic = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_arctic_entity" }
+}
+
+thruitt_arctic_f = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_arctic_f_entity" }
+}
+
+thruitt_arctic_slim = {
+	set_tags = "base_slim"
+	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_arctic_slim_entity" }
+}
+
+thruitt_blond = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_blond_entity" }
+}
+
+thruitt_blond_f = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_blond_f_entity" }
+}
+
+thruitt_blond_slim = {
+	set_tags = "base_slim"
+	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_blond_slim_entity" }
+}
+
+###################
+#  UNIQUE PLAYERS #
+###################
+
+metriximor = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "metriximor_entity" }
+}
+
+kaprediem = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "kaprediem_entity" }
+}
+
+topaz4293 = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "topaz4293_entity" }
+}

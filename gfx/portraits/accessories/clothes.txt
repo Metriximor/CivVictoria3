@@ -1,0 +1,3 @@
+﻿top_thruitt_black_tailcoat_slim = {
+	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_thruitt_black_tailcoat_slim_entity" }
+}

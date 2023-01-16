@@ -1,0 +1,18 @@
+@scale = 1.6
+
+pdxmesh = {
+	name = "top_thruitt_black_tailcoat_slim_mesh"
+	file = "hm_prophet.mesh"
+	scale = @scale
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "skins_textures/top_layer/thruitt_clothes/slim/top_thruitt_black_tailcoat_slim.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/models/skins/clothes.shader"
+	}
+}
+entity = {
+	name = "top_thruitt_black_tailcoat_slim_entity"
+	pdxmesh = "top_thruitt_black_tailcoat_slim_mesh"
+}

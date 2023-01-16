@@ -5,14 +5,16 @@
 	male_common_first_names={
 		August
 		Bjorn
-		Olav 
-		Harald Haavard Haakon Handrane
-		Magnus 
+		Olav Orhint
+		Harald Haavard Haakon Handrane Hereweald
+		Magnus
+		Ludwig
 	}
 	female_common_first_names = {
 		Adrianne Anna Augustina
 		Ragnild
 		Generica
+		Eluwin
 	}
 	noble_last_names = {
 		av_Rodskjegg of_Snowpeak of_Hyldor of_Nidaros of_Dol_Morhen
@@ -22,6 +24,7 @@
 		of_Bezengard of_Nid of_Fox'_Landing
 		Revrud 
 		Hylian The_Hyldorian
+		
 	}
 	male_regal_first_names = {
 		Obtainius_Bez

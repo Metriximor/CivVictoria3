@@ -40,6 +40,16 @@ Each culture should have:
 * Cultural heritages (shared cultural values with other nations) (e.g. Lusitan has a medi sea heritage cause in the past it was part of the medi sea) (this is optional)
 * Languages spoken by said culture (e.g. Lusitan is english and portuguese)
 * Culture groups (shared cultures at the moment, e.g. CDM may have a alenaryth culture group with other alenaryth nations)
+* Names used by said culture, for example:
+   * Lambatan has Filipino names
+   * Lusitan has portuguese names
+   * Truidencian has norwegian names
+   * Make up your own stuff anything is fine
+* Last names
+* Noble/Wealthy last names
+* Cultural skins/clothes
+   * Does this culture have a specific ethnicity? (e.g. Thruittans are a minority in Truidencia that are all foxes, 20% of Truidencians are of this ethnicity)
+   * Does this culture have specific clothes? Medieval-er countries like Lusitania and Truidencia have medieval clothes. A modern nation like Lambat wears suits and modern clothes. 
 
 ## Religions
 
@@ -52,6 +62,8 @@ Each culture should have:
 * Ruler names
 * What interest group(ig) the ruler belongs to
 * Commander names and their interest group
+* Main character ideology
+   * Doesn't have to be a political ideology, can be stuff like pacifism, republicanism, patriotism, jingoism, etc.
 * Interest group leader names (existing igs are listed below, more may be added or removed in the future)
     * Buildfriends (try to pass laws that tend to be pacifist and focus on building more cultural buildings and lower cost of building materials)
     * Industrialists (try to to pass laws that make factories more profitable, lower economic taxes)
@@ -60,6 +72,9 @@ Each culture should have:
     * Roleplayers (this might split into roleplayer and politician)(wildcard ig, depending on the ideology of the leader, a communist roleplayer will attempt to pass communist laws, etc, think of this as discord players)
 * Generic name lists for random name generation, both first names and surnames
     * Lusitania might use a portuguese name list, Lambat a filipino one and Gensokyo a japanese one, or you can make up your own names.
+ * Skill traits (are they good at building, diplomacy, pvping, etc)
+ * Personality traits
+ * Vague age range (should the character spawn as any age from 20 to 25? 30 to 35?)
 
 ## Government layout
 

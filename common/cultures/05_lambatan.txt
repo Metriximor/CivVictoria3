@@ -1,5 +1,5 @@
 ﻿lambatan = { 
-	color = rgb { 207 0 0 } 
+	color = rgb { 248 239 0 } 
 	religion = examplian 
 	traits = { medi_sea_heritage medi_sea_culture_group english filipino }
 	male_common_first_names={

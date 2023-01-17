@@ -40,4 +40,18 @@ LUS = {
 	}
 }
 
+LAM = {
+	pattern = "pattern_solid.tga"
+	color1 = "lambatan_civmc_yellow"
+	colored_emblem = {
+		texture = "ce_stripes_05.dds"
+		color1 = "lambatan_civmc_blue"
+	}
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "lambatan_civmc_red"
+		instance = { position = { 0 0.5 } scale = { 1 1 } }
+	}
+}
+
 #####################

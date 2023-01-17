@@ -13,6 +13,9 @@ colors = {
 	lambatan_yellow = rgb { 248 239 0 }
 	lambatan_blue = rgb { 43 53 148 }
 	lambatan_red = rgb { 239 54 36 }
+	lambatan_civmc_yellow = rgb {252 209 22 }
+	lambatan_civmc_blue = rgb { 0 68 106 }
+	lambatan_civmc_red = rgb { 206 17 38 }
 
 	# Gensokyo
 

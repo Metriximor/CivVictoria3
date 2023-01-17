@@ -1,11 +1,46 @@
 ﻿accessory_genes = {
 	flat_clothes = {
-		gene_thruitt_clothes = {
+		gene_no_clothes = {
 			index = 0
 			male = {
-				1 = "top_thruitt_black_tailcoat_slim"
+				1 = empty
 			}
 			female = male
+			boy = male
+			girl = male
+		}
+
+		gene_thruitt_clothes = {
+			index = 1
+			male = {
+				1 = "top_thruitt_black_tailcoat_slim"
+				1 = "top_thruitt_black_tailcoat"
+				1 = "top_thruitt_white_bunad"
+			}
+			female = {
+				1 = "top_thruitt_black_tailcoat_slim"
+				1 = "top_thruitt_white_bunad_slim"
+				1 = "top_dress_green"
+			}
+			boy = male
+			girl = male
+		}
+
+		gene_truidencian_clothes = {
+			index = 2
+			male = {
+				1 = "top_red_soldier"
+				1 = "top_green_soldier"
+				1 = "top_blue_soldier"
+				1 = "top_hte_soldier"
+				1 = "top_redcoat"
+				1 = "top_white_bunad"
+			}
+			female = {
+				1 = "top_black_tailcoat_slim"
+				1 = "top_white_bunad_slim"
+				1 = "top_dress_green"
+			}
 			boy = male
 			girl = male
 		}

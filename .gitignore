@@ -270,3 +270,5 @@ gfx/editor_terrain/*
 mapeditor*
 Civ Mod.zip
 tools/*
+src/input/*
+src/output/*

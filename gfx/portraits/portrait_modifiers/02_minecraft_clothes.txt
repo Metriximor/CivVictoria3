@@ -14,4 +14,35 @@
 			base = 0
 		}
 	}
+
+	flat_truidencian_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = flat_clothes
+				template = gene_truidencian_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				OR = {
+					AND = {
+						exists = scope:pop
+						scope:pop = {
+							culture = cu:truidencian
+						}
+					}
+					AND = {
+						exists = scope:pop
+						scope:pop = {
+							culture = cu:truidencian
+						}
+					}
+				}
+			}
+		}
+	}
 }

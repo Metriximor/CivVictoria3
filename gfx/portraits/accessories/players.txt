@@ -1,0 +1,30 @@
+
+britishwanderer = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "britishwanderer_entity" }
+}
+
+gobblin = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "gobblin_entity" }
+}
+
+kaprediem = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "kaprediem_entity" }
+}
+
+metriximor = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "metriximor_entity" }
+}
+
+topaz4293 = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "topaz4293_entity" }
+}
+
+zeldronix = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "zeldronix_entity" }
+}

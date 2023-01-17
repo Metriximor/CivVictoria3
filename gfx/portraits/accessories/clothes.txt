@@ -1,3 +1,75 @@
-﻿top_thruitt_black_tailcoat_slim = {
+
+top_black_tailcoat = {
+	set_tags = ""
+	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_black_tailcoat_entity" }
+}
+
+top_blue_soldier = {
+	set_tags = ""
+	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_blue_soldier_entity" }
+}
+
+top_diamond_full = {
+	set_tags = ""
+	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_diamond_full_entity" }
+}
+
+top_green_soldier = {
+	set_tags = ""
+	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_green_soldier_entity" }
+}
+
+top_hte_soldier = {
+	set_tags = ""
+	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_hte_soldier_entity" }
+}
+
+top_redcoat = {
+	set_tags = ""
+	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_redcoat_entity" }
+}
+
+top_red_soldier = {
+	set_tags = ""
+	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_red_soldier_entity" }
+}
+
+top_thruitt_black_tailcoat = {
+	set_tags = ""
+	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_thruitt_black_tailcoat_entity" }
+}
+
+top_thruitt_white_bunad = {
+	set_tags = ""
+	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_thruitt_white_bunad_entity" }
+}
+
+top_white_bunad = {
+	set_tags = ""
+	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_white_bunad_entity" }
+}
+
+top_black_tailcoat_slim = {
+	set_tags = ""
+	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_black_tailcoat_slim_entity" }
+}
+
+top_dress_green = {
+	set_tags = ""
+	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_dress_green_entity" }
+}
+
+top_thruitt_black_tailcoat_slim = {
+	set_tags = ""
 	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_thruitt_black_tailcoat_slim_entity" }
+}
+
+top_thruitt_white_bunad_slim = {
+	set_tags = ""
+	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_thruitt_white_bunad_slim_entity" }
+}
+
+top_white_bunad_slim = {
+	set_tags = ""
+	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_white_bunad_slim_entity" }
 }

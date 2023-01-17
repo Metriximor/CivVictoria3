@@ -8,6 +8,7 @@
 			}
 			female = {
 				1 = "alex"
+				1 = "makena"
 			}
 			boy = male
 			girl = female
@@ -16,13 +17,17 @@
 		gene_unique_skin= {
 			index = 1
 			male = {
-				1 = kaprediem
+				1 = britishwanderer
+				1 = gobblin1
+				1 = kaprediem  # 3
 				1 = metriximor
+				1 = zeldronix  # 6
+			}
+			female = {
 				1 = topaz4293
 			}
-			female = male
 			boy = male
-			girl = male
+			girl = female
 		}
 
 		gene_thruitt = {

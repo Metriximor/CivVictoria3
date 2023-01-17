@@ -122,9 +122,13 @@
 	s:STATE_BLANCO_STRAIT = {
 		region_state:LAM = {
 		}
+		region_state:EXA = {
+		}
 	}
 	s:STATE_MERCADO_STRAIT = {
 		region_state:LAM = {
+		}
+		region_state:EXA = {
 		}
 	}
 	s:STATE_PAMPANG = {
@@ -181,10 +185,6 @@
 	}
 	s:STATE_WOLKEN_ISLANDS = {
 		region_state:WOL = {
-		}
-	}
-	s:STATE_DEBUG = {
-		region_STATE:EXA = {
 		}
 	}
 }

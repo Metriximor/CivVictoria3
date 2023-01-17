@@ -15,7 +15,7 @@ LUS = {
 	color = "lusitan_red"
 	country_type = recognized
 	tier = kingdom
-	cultures = { lusitan }
+	cultures = { lusitan lambatan }
 	capital = STATE_PORTUCALE
 }
 

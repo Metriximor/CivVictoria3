@@ -15,4 +15,5 @@ sea_starts = {
 lakes = {
 	x440610 # Dreamland lake
 	x1F010B # Lake erie
+	x040F37 x580302 # Izanagi Lake
 }

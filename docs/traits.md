@@ -18,9 +18,13 @@ When a commander loses a battle they have a random chance of being pearled. If p
 
 ## Personality Traits
 
+### E-lawyer
+
+This person uses the rules and the existing legal systems to their advantage, often arguing and being very passionate about them.
+
 ### Dramatic
 
-This person is often involved in drama and political intrigue.
+This person is often involved in drama.
 
 ### Wholesome/HSM
 

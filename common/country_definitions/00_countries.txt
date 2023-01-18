@@ -15,7 +15,7 @@ LUS = {
 	color = "lusitan_red"
 	country_type = recognized
 	tier = kingdom
-	cultures = { lusitan lambatan }
+	cultures = { lusitan }
 	capital = STATE_PORTUCALE
 }
 
@@ -23,7 +23,7 @@ TRU = {
 	color = "full_white"
 	country_type = recognized
 	tier = empire
-	cultures = { truidencian thruitt }
+	cultures = { thruitt truidencian }
 	capital = STATE_NIDAROS
 }
 

@@ -14,5 +14,21 @@
 				reserved
 			}
 		}
+
+		create_character = {
+			first_name = AKJanklin
+			last_name = no_last_name
+			culture = cu:lambatan
+			ig_leader = yes
+			dna = dna_akjanklin
+			age = { 18 25 }
+			ideology = ideology_republican
+			interest_group = ig_buildfriends
+			traits = {
+				reserved
+				direct
+				experienced_political_operator
+			}
+		}
 	}
 }

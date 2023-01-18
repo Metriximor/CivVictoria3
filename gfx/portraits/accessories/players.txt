@@ -29,6 +29,11 @@ zeldronix = {
 	entity = { required_tags = "" shared_pose_entity = head entity = "zeldronix_entity" }
 }
 
+AKJanklin = {
+	set_tags = "base_slim"
+	entity = { required_tags = "" shared_pose_entity = head entity = "AKJanklin_entity" }
+}
+
 banyough = {
 	set_tags = "base_slim"
 	entity = { required_tags = "" shared_pose_entity = head entity = "banyough_entity" }

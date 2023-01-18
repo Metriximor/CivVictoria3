@@ -18,10 +18,11 @@
 			index = 1
 			male = {
 				1 = britishwanderer
-				1 = gobblin1
+				1 = gobblin
 				1 = kaprediem  # 3
 				1 = metriximor
 				1 = zeldronix  # 6
+				1 = AKJanklin
 			}
 			female = {
 				1 = topaz4293

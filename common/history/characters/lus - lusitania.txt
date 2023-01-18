@@ -25,6 +25,7 @@
 			ig_leader = yes
 			dna = dna_banyough
 			age = { 18 25 }
+			ideology = ideology_pacifist
 			interest_group = ig_grinders
 			traits = {
 				reserved

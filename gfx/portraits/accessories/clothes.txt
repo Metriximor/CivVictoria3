@@ -49,16 +49,6 @@ top_thruitt_black_tailcoat = {
 	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_thruitt_black_tailcoat_entity" }
 }
 
-top_thruitt_white_bunad = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_thruitt_white_bunad_entity" }
-}
-
-top_white_bunad = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_white_bunad_entity" }
-}
-
 top_black_tailcoat_slim = {
 	set_tags = ""
 	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_black_tailcoat_slim_entity" }

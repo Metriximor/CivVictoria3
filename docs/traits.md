@@ -1,6 +1,38 @@
 # Traits
 
+## Conditional Traits
+
+Conditional traits are traits that are applied on specific conditions, like "pearled" after a battle.
+
+### Inactive
+
+When a player goes inactive the nation gets zero bonuses from them. If the inactive player is the ruler then the nation gets large negative malus.
+Conditions for being applied:
+
+* Events
+* Possible burnout system where after it reaches a threshold it happens
+
+### Pearled
+
+When a commander loses a battle they have a random chance of being pearled. If pearled they can't command any armies. Pearls are only freed upon the end of the war.
+
 ## Personality Traits
+
+### Dramatic
+
+This person is often involved in drama and political intrigue.
+
+### Wholesome/HSM
+
+This person often shares positive messages widely enjoyed by the whole community.
+
+### Verbose
+
+This person's manner of communication is at often times verbose.
+
+### Witty
+
+This person cracks jokes very often and makes people around them have silly fun.
 
 ## Skill Traits
 

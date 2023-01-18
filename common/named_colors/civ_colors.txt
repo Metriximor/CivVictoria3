@@ -25,8 +25,12 @@ colors = {
 	# Wolken
 	wolken_green = rgb { 117 171 217 }
 	
+	# Mery
+	dark_grey = rgb { 36 46 46 }
+
 	# Misc colors
 	bizantine_purple = rgb { 112 41 99 }
+
 
 	# Base Colors
 	cobblestone = rgb { 173 167 169 }

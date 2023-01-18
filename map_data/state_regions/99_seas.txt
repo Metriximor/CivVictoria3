@@ -80,3 +80,9 @@ STATE_IZANAGI_LAKE = {
     provinces = { "x040F37" }
     impassable = { "x040F37" }
 }
+
+STATE_LAMAO_LAKE = {
+	id = 3017
+	provinces = { "xF0F8C2" }
+	impassable = { "xF0F8C2" }
+}

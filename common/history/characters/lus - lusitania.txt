@@ -11,8 +11,12 @@
 			interest_group = ig_buildfriends
 			ideology = ideology_pacifist
 			traits = {
-				experienced_diplomat
+				alcoholic
+				wholesome
 				reserved
+				advanced_diplomat
+				advanced_builder
+				intermediate_botter
 			}
 		}
 
@@ -28,8 +32,11 @@
 			ideology = ideology_pacifist
 			interest_group = ig_grinders
 			traits = {
+				wholesome
 				reserved
 				expensive_tastes
+				advanced_builder
+				beginner_pvper
 			}
 		}
 	}

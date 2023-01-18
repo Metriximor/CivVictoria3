@@ -1,0 +1,1269 @@
+﻿# TODO builder modifiers
+# TODO artist modifiers
+# TODO pvper modifiers
+# TODO botter modifiers
+
+# Diplomat
+
+beginner_diplomat = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_diplomat.dds"
+	
+	character_modifier = {
+		character_popularity_add = 10
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.25
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.05
+	}
+
+	possible = {
+		NOR = {
+			has_trait = intermediate_diplomat
+			has_trait = advanced_diplomat
+			has_trait = expert_diplomat
+		}
+	}
+	
+	weight = {
+		value = 5
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+	}
+	
+	value = 1
+}
+
+intermediate_diplomat = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_diplomat.dds"
+	
+	character_modifier = {
+		character_popularity_add = 20
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.30
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.1
+	}
+
+	possible = {
+		NOR = {
+			has_trait = beginner_diplomat
+			has_trait = advanced_diplomat
+			has_trait = expert_diplomat
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+		beginner_diplomat
+	}
+	
+	value = 2
+}
+
+advanced_diplomat = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_diplomat.dds"
+	
+	character_modifier = {
+		character_popularity_add = 35
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.35
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.15
+	}
+
+	possible = {
+		NOR = {
+			has_trait = beginner_diplomat
+			has_trait = intermediate_diplomat
+			has_trait = expert_diplomat
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+		intermediate_diplomat
+	}
+	
+	value = 3
+}
+
+expert_diplomat = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_diplomat.dds"
+	
+	character_modifier = {
+		character_popularity_add = 10
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.25
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.05
+	}
+
+	possible = {
+		NOR = {
+			has_trait = beginner_diplomat
+			has_trait = intermediate_diplomat
+			has_trait = advanced_diplomat
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+		advanced_diplomat
+	}
+	
+	value = 4
+}
+
+# Builder
+
+beginner_builder = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_builder.dds"
+	
+	character_modifier = {
+		character_popularity_add = 10
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.25
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.05
+	}
+
+	possible = {
+		NOR = {
+			has_trait = intermediate_builder
+			has_trait = advanced_builder
+			has_trait = expert_builder
+		}
+	}
+	
+	weight = {
+		value = 5
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+	}
+	
+	value = 1
+}
+
+intermediate_builder = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_builder.dds"
+	
+	character_modifier = {
+		character_popularity_add = 20
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.30
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.1
+	}
+
+	possible = {
+		NOR = {
+			has_trait = beginner_builder
+			has_trait = advanced_builder
+			has_trait = expert_builder
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+		beginner_builder
+	}
+	
+	value = 2
+}
+
+advanced_builder = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_builder.dds"
+	
+	character_modifier = {
+		character_popularity_add = 35
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.35
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.15
+	}
+
+	possible = {
+		NOR = {
+			has_trait = beginner_builder
+			has_trait = intermediate_builder
+			has_trait = expert_builder
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+		intermediate_builder
+	}
+	
+	value = 3
+}
+
+expert_builder = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_builder.dds"
+	
+	character_modifier = {
+		character_popularity_add = 10
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.25
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.05
+	}
+
+	possible = {
+		NOR = {
+			has_trait = beginner_builder
+			has_trait = intermediate_builder
+			has_trait = advanced_builder
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+		advanced_builder
+	}
+	
+	value = 4
+}
+
+# Artist
+
+beginner_artist = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_artist.dds"
+	
+	character_modifier = {
+		character_popularity_add = 10
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.25
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.05
+	}
+
+	possible = {
+		NOR = {
+			has_trait = intermediate_artist
+			has_trait = advanced_artist
+			has_trait = expert_artist
+		}
+	}
+	
+	weight = {
+		value = 5
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+	}
+	
+	value = 1
+}
+
+intermediate_artist = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_artist.dds"
+	
+	character_modifier = {
+		character_popularity_add = 20
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.30
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.1
+	}
+
+	possible = {
+		NOR = {
+			has_trait = beginner_artist
+			has_trait = advanced_artist
+			has_trait = expert_artist
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+		beginner_artist
+	}
+	
+	value = 2
+}
+
+advanced_artist = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_artist.dds"
+	
+	character_modifier = {
+		character_popularity_add = 35
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.35
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.15
+	}
+
+	possible = {
+		NOR = {
+			has_trait = beginner_artist
+			has_trait = intermediate_artist
+			has_trait = expert_artist
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+		intermediate_artist
+	}
+	
+	value = 3
+}
+
+expert_artist = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_artist.dds"
+	
+	character_modifier = {
+		character_popularity_add = 10
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.25
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.05
+	}
+
+	possible = {
+		NOR = {
+			has_trait = beginner_artist
+			has_trait = intermediate_artist
+			has_trait = advanced_artist
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+		advanced_artist
+	}
+	
+	value = 4
+}
+
+# Pvper
+
+beginner_pvper = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_pvper.dds"
+	
+	character_modifier = {
+		character_popularity_add = 10
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.25
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.05
+	}
+
+	possible = {
+		NOR = {
+			has_trait = intermediate_pvper
+			has_trait = advanced_pvper
+			has_trait = expert_pvper
+		}
+	}
+	
+	weight = {
+		value = 5
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+	}
+	
+	value = 1
+}
+
+intermediate_pvper = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_pvper.dds"
+	
+	character_modifier = {
+		character_popularity_add = 20
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.30
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.1
+	}
+
+	possible = {
+		NOR = {
+			has_trait = beginner_pvper
+			has_trait = advanced_pvper
+			has_trait = expert_pvper
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+		beginner_pvper
+	}
+	
+	value = 2
+}
+
+advanced_pvper = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_pvper.dds"
+	
+	character_modifier = {
+		character_popularity_add = 35
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.35
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.15
+	}
+
+	possible = {
+		NOR = {
+			has_trait = beginner_pvper
+			has_trait = intermediate_pvper
+			has_trait = expert_pvper
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+		intermediate_pvper
+	}
+	
+	value = 3
+}
+
+expert_pvper = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_pvper.dds"
+	
+	character_modifier = {
+		character_popularity_add = 10
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.25
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.05
+	}
+
+	possible = {
+		NOR = {
+			has_trait = beginner_pvper
+			has_trait = intermediate_pvper
+			has_trait = advanced_pvper
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+		advanced_pvper
+	}
+	
+	value = 4
+}
+
+# Botter
+
+beginner_botter = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_botter.dds"
+	
+	character_modifier = {
+		character_popularity_add = 10
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.25
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.05
+	}
+
+	possible = {
+		NOR = {
+			has_trait = intermediate_botter
+			has_trait = advanced_botter
+			has_trait = expert_botter
+		}
+	}
+	
+	weight = {
+		value = 5
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+	}
+	
+	value = 1
+}
+
+intermediate_botter = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_botter.dds"
+	
+	character_modifier = {
+		character_popularity_add = 20
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.30
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.1
+	}
+
+	possible = {
+		NOR = {
+			has_trait = beginner_botter
+			has_trait = advanced_botter
+			has_trait = expert_botter
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+		beginner_botter
+	}
+	
+	value = 2
+}
+
+advanced_botter = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_botter.dds"
+	
+	character_modifier = {
+		character_popularity_add = 35
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.35
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.15
+	}
+
+	possible = {
+		NOR = {
+			has_trait = beginner_botter
+			has_trait = intermediate_botter
+			has_trait = expert_botter
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+		intermediate_botter
+	}
+	
+	value = 3
+}
+
+expert_botter = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/beginner_botter.dds"
+	
+	character_modifier = {
+		character_popularity_add = 10
+	}
+	
+	command_modifier = {
+		unit_morale_recovery_mult = 0.25
+	}
+
+	country_modifier = {
+		country_influence_mult = 0.05
+	}
+
+	possible = {
+		NOR = {
+			has_trait = beginner_botter
+			has_trait = intermediate_botter
+			has_trait = advanced_botter
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = {
+				has_role = politician
+			}
+			multiply = 4
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+					has_trait = elawyer
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = imperious
+					has_trait = wrathful
+					has_trait = reckless
+					has_trait = dramatic
+				}
+			}
+			divide = 4
+		}
+	}
+	
+	replace = {
+		advanced_botter
+	}
+	
+	value = 4
+}

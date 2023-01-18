@@ -10,7 +10,7 @@
 			interest_group = ig_roleplayers
 			ideology = ideology_patriotic
 			traits = {
-				experienced_diplomat
+				advanced_diplomat
 				reserved
 			}
 		}
@@ -25,7 +25,7 @@
 			ideology = ideology_republican
 			interest_group = ig_buildfriends
 			traits = {
-				reserved
+				wholesome
 				direct
 				experienced_political_operator
 			}

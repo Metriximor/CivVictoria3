@@ -58,3 +58,11 @@ WOL = {
 	cultures = { examplish }
 	capital = STATE_WOLKEN
 }
+
+MER = {
+	color = "dark_grey"
+	country_type = recognized
+	tier = principality
+	cultures = { examplish }
+	capital = STATE_CENTRAL_MERY
+}

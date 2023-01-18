@@ -187,4 +187,16 @@
 		region_state:WOL = {
 		}
 	}
+	s:STATE_NORTHERN_MERY = {
+		region_state:MER = {
+		}
+	}
+	s:STATE_CENTRAL_MERY = {
+		region_state:MER = {
+		}
+	}
+	s:STATE_SOUTHERN_MERY = {
+		region_state:MER = {
+		}
+	}
 }

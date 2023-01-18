@@ -371,6 +371,30 @@
 			}
 		}
 	}
+	s:STATE_NORTHERN_MERY = {
+		region_state:MER = {
+			create_pop = {
+				culture = lusitan
+				size = 286665
+			}
+		}
+	}
+	s:STATE_CENTRAL_MERY = {
+		region_state:MER = {
+			create_pop = {
+				culture = lusitan
+				size = 776685
+			}
+		}
+	}
+	s:STATE_SOUTHERN_MERY = {
+		region_state:MER = {
+			create_pop = {
+				culture = lusitan
+				size = 166172
+			}
+		}
+	}
 	
 	s:STATE_DEBUG = {
 		region_state:EXA = {

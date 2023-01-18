@@ -69,7 +69,7 @@ beginner_diplomat = {
 
 intermediate_diplomat = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/beginner_diplomat.dds"
+	texture = "gfx/interface/icons/character_trait_icons/intermediate_diplomat.dds"
 	
 	character_modifier = {
 		character_popularity_add = 20
@@ -132,7 +132,7 @@ intermediate_diplomat = {
 
 advanced_diplomat = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/beginner_diplomat.dds"
+	texture = "gfx/interface/icons/character_trait_icons/advanced_diplomat.dds"
 	
 	character_modifier = {
 		character_popularity_add = 35
@@ -195,7 +195,7 @@ advanced_diplomat = {
 
 expert_diplomat = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/beginner_diplomat.dds"
+	texture = "gfx/interface/icons/character_trait_icons/expert_diplomat.dds"
 	
 	character_modifier = {
 		character_popularity_add = 10
@@ -322,7 +322,7 @@ beginner_builder = {
 
 intermediate_builder = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/beginner_builder.dds"
+	texture = "gfx/interface/icons/character_trait_icons/intermediate_builder.dds"
 	
 	character_modifier = {
 		character_popularity_add = 20
@@ -385,7 +385,7 @@ intermediate_builder = {
 
 advanced_builder = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/beginner_builder.dds"
+	texture = "gfx/interface/icons/character_trait_icons/advanced_builder.dds"
 	
 	character_modifier = {
 		character_popularity_add = 35
@@ -448,7 +448,7 @@ advanced_builder = {
 
 expert_builder = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/beginner_builder.dds"
+	texture = "gfx/interface/icons/character_trait_icons/expert_builder.dds"
 	
 	character_modifier = {
 		character_popularity_add = 10
@@ -575,7 +575,7 @@ beginner_artist = {
 
 intermediate_artist = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/beginner_artist.dds"
+	texture = "gfx/interface/icons/character_trait_icons/intermediate_artist.dds"
 	
 	character_modifier = {
 		character_popularity_add = 20
@@ -638,7 +638,7 @@ intermediate_artist = {
 
 advanced_artist = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/beginner_artist.dds"
+	texture = "gfx/interface/icons/character_trait_icons/advanced_artist.dds"
 	
 	character_modifier = {
 		character_popularity_add = 35
@@ -701,7 +701,7 @@ advanced_artist = {
 
 expert_artist = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/beginner_artist.dds"
+	texture = "gfx/interface/icons/character_trait_icons/expert_artist.dds"
 	
 	character_modifier = {
 		character_popularity_add = 10
@@ -828,7 +828,7 @@ beginner_pvper = {
 
 intermediate_pvper = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/beginner_pvper.dds"
+	texture = "gfx/interface/icons/character_trait_icons/intermediate_pvper.dds"
 	
 	character_modifier = {
 		character_popularity_add = 20
@@ -891,7 +891,7 @@ intermediate_pvper = {
 
 advanced_pvper = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/beginner_pvper.dds"
+	texture = "gfx/interface/icons/character_trait_icons/advanced_pvper.dds"
 	
 	character_modifier = {
 		character_popularity_add = 35
@@ -954,7 +954,7 @@ advanced_pvper = {
 
 expert_pvper = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/beginner_pvper.dds"
+	texture = "gfx/interface/icons/character_trait_icons/expert_pvper.dds"
 	
 	character_modifier = {
 		character_popularity_add = 10
@@ -1081,7 +1081,7 @@ beginner_botter = {
 
 intermediate_botter = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/beginner_botter.dds"
+	texture = "gfx/interface/icons/character_trait_icons/intermediate_botter.dds"
 	
 	character_modifier = {
 		character_popularity_add = 20
@@ -1144,7 +1144,7 @@ intermediate_botter = {
 
 advanced_botter = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/beginner_botter.dds"
+	texture = "gfx/interface/icons/character_trait_icons/advanced_botter.dds"
 	
 	character_modifier = {
 		character_popularity_add = 35
@@ -1207,7 +1207,7 @@ advanced_botter = {
 
 expert_botter = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/beginner_botter.dds"
+	texture = "gfx/interface/icons/character_trait_icons/expert_botter.dds"
 	
 	character_modifier = {
 		character_popularity_add = 10

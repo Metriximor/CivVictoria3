@@ -63,4 +63,36 @@ MER = {
 	}
 }
 
+DAN = {
+	pattern = "pattern_solid.tga"
+	color1 = "danzilonan_cyan"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "full_white"
+		color2 = "danzilonan_grey"
+	}
+}
+
+WOL = {
+	pattern = "pattern_solid.tga"
+	color1 = "full_white"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "wolken_blue"
+		color2 = "wolken_green"
+	}
+}
+
+GEN = {
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "gensokyojin_red"
+	color2 = "full_white"
+	colored_emblem = {
+		texture = "ce_gensokyo.dds"
+		color2 = "full_white"
+		color3 = "gensokyojin_red"
+		instance = { rotation = 90 scale = { 1 1.5 }}
+	}
+}
+
 #####################

@@ -60,6 +60,7 @@ verbose = {
 
 wholesome = {
 	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/wholesome.dds"
 
 	character_modifier = {	
 		character_health_add = 0.1

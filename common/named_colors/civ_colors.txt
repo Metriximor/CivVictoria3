@@ -18,19 +18,21 @@ colors = {
 	lambatan_civmc_red = rgb { 206 17 38 }
 
 	# Gensokyo
+	gensokyojin_red = rgb { 196 23 23 }
 
 	# Danzilona
-	danzilonan_cyan = rgb { 11 127 71 }
+	danzilonan_cyan = rgb { 24 165 165 }
+	danzilonan_grey = rgb { 56 62 63 }
 
 	# Wolken
-	wolken_green = rgb { 117 171 217 }
+	wolken_blue = rgb { 117 171 217 }
+	wolken_green = rgb { 11 127 71 }
 	
 	# Mery
 	dark_grey = rgb { 36 46 46 }
 
 	# Misc colors
 	bizantine_purple = rgb { 112 41 99 }
-
 
 	# Base Colors
 	cobblestone = rgb { 173 167 169 }

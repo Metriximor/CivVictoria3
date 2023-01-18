@@ -28,7 +28,7 @@ TRU = {
 }
 
 GEN = {
-	color = "red"
+	color = "gensokyojin_red"
 	country_type = recognized
 	tier = kingdom
 	cultures = { gensokyojin }

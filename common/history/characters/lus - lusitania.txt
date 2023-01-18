@@ -15,5 +15,21 @@
 				reserved
 			}
 		}
+
+		create_character = {
+			first_name = banyough
+			last_name = no_last_name
+			noble = yes
+			female = yes
+			culture = cu:lusitan
+			ig_leader = yes
+			dna = dna_banyough
+			age = { 18 25 }
+			interest_group = ig_grinders
+			traits = {
+				reserved
+				expensive_tastes
+			}
+		}
 	}
 }

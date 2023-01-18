@@ -50,6 +50,40 @@ entity = {
 }
 
 pdxmesh = {
+    name = "top_genso_blue_mesh"
+    file = "hm_prophet.mesh"
+    scale = 1.6
+    meshsettings = {
+        name = "prophet_shieldShape"
+        index = 0
+        texture_diffuse = "skins_textures/clothes/top_genso_blue.dds"
+        shader = "portrait_attachment_alpha_to_coverage"
+        shader_file = "gfx/models/skins/clothes.shader"
+    }
+}
+entity = {
+    name = "top_genso_blue_entity"
+    pdxmesh = "top_genso_blue_mesh"
+}
+
+pdxmesh = {
+    name = "top_genso_red_mesh"
+    file = "hm_prophet.mesh"
+    scale = 1.6
+    meshsettings = {
+        name = "prophet_shieldShape"
+        index = 0
+        texture_diffuse = "skins_textures/clothes/top_genso_red.dds"
+        shader = "portrait_attachment_alpha_to_coverage"
+        shader_file = "gfx/models/skins/clothes.shader"
+    }
+}
+entity = {
+    name = "top_genso_red_entity"
+    pdxmesh = "top_genso_red_mesh"
+}
+
+pdxmesh = {
     name = "top_green_soldier_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6
@@ -220,36 +254,36 @@ entity = {
 }
 
 pdxmesh = {
-    name = "top_thruitt_white_bunad_slim_mesh"
+    name = "top_touhou_1_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6
     meshsettings = {
         name = "prophet_shieldShape"
         index = 0
-        texture_diffuse = "skins_textures/clothes/slim/top_thruitt_white_bunad_slim.dds"
+        texture_diffuse = "skins_textures/clothes/slim/top_touhou_1.dds"
         shader = "portrait_attachment_alpha_to_coverage"
         shader_file = "gfx/models/skins/clothes.shader"
     }
 }
 entity = {
-    name = "top_thruitt_white_bunad_slim_entity"
-    pdxmesh = "top_thruitt_white_bunad_slim_mesh"
+    name = "top_touhou_1_entity"
+    pdxmesh = "top_touhou_1_mesh"
 }
 
 pdxmesh = {
-    name = "top_white_bunad_slim_mesh"
+    name = "top_touhou_2_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6
     meshsettings = {
         name = "prophet_shieldShape"
         index = 0
-        texture_diffuse = "skins_textures/clothes/slim/top_white_bunad_slim.dds"
+        texture_diffuse = "skins_textures/clothes/slim/top_touhou_2.dds"
         shader = "portrait_attachment_alpha_to_coverage"
         shader_file = "gfx/models/skins/clothes.shader"
     }
 }
 entity = {
-    name = "top_white_bunad_slim_entity"
-    pdxmesh = "top_white_bunad_slim_mesh"
+    name = "top_touhou_2_entity"
+    pdxmesh = "top_touhou_2_mesh"
 }
 

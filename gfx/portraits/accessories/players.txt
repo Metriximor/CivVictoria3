@@ -28,3 +28,8 @@ zeldronix = {
 	set_tags = "base_model"
 	entity = { required_tags = "" shared_pose_entity = head entity = "zeldronix_entity" }
 }
+
+banyough = {
+	set_tags = "base_slim"
+	entity = { required_tags = "" shared_pose_entity = head entity = "banyough_entity" }
+}

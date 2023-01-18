@@ -10,10 +10,17 @@ sea_starts = {
 	x000C4A # Lyrean sea
 	x082334 # Fareastern ocean
 	x031D2A # Middle ocean
+	x002F2A # Southern sea
+	x035003 # Leona sea
+	x02092D # Meridiem sea
+	x123C0F # Northlandic ocean
+	x003A17 # Sea of sneed
+	x074E0E # Lake Michigan
+	x4C0C05 # Azure sea
 }
 
 lakes = {
 	x440610 # Dreamland lake
 	x1F010B # Lake erie
-	x040F37 x580302 # Izanagi Lake
+	x040F37 # Izanagi Lake
 }

@@ -14,6 +14,16 @@ top_diamond_full = {
 	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_diamond_full_entity" }
 }
 
+top_genso_blue = {
+	set_tags = ""
+	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_genso_blue_entity" }
+}
+
+top_genso_red = {
+	set_tags = ""
+	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_genso_red_entity" }
+}
+
 top_green_soldier = {
 	set_tags = ""
 	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_green_soldier_entity" }
@@ -64,12 +74,12 @@ top_thruitt_black_tailcoat_slim = {
 	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_thruitt_black_tailcoat_slim_entity" }
 }
 
-top_thruitt_white_bunad_slim = {
+top_touhou_1 = {
 	set_tags = ""
-	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_thruitt_white_bunad_slim_entity" }
+	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_touhou_1_entity" }
 }
 
-top_white_bunad_slim = {
+top_touhou_2 = {
 	set_tags = ""
-	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_white_bunad_slim_entity" }
+	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_touhou_2_entity" }
 }

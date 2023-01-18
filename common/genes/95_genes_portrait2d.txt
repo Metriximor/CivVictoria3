@@ -25,6 +25,7 @@
 			}
 			female = {
 				1 = topaz4293
+				1 = banyough
 			}
 			boy = male
 			girl = female

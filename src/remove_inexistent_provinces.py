@@ -16,8 +16,8 @@ with open(Path("src/input/inexistent_provinces.txt"), encoding=UTF_8_BOM) as f:
     inexistent_provinces = [f"\"{s}\"" for s in extract_provinces(f.read())]
 print(inexistent_provinces)
 
-state_file_name = "00_states"
-# state_file_name = "01_debug_state"
+# state_file_name = "00_states"
+state_file_name = "01_debug_state"
 # state_file_name = "99_seas"
 states = ""
 with open(Path(f"map_data/state_regions/{state_file_name}.txt"), encoding=UTF_8_BOM) as f:

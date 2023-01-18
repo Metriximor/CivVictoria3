@@ -21,9 +21,9 @@
 			culture = cu:thruitt
 			age = 22
 			interest_group = ig_roleplayers
-			ideology = ideology_royalists
+			ideology = ideology_royalist
 			traits = {
-				reserved
+				reserved pious
 			}
 				}
 

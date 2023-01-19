@@ -1,18 +1,5 @@
 ﻿CHARACTERS = {
 	c:TRU = {
-
-		create_character = {
-			#role = politician # Remove this line
-			culture = truidencian
-			 
-			ig_leader = yes
-			interest_group = ig_roleplayers # TODO: change this to roleplayers
-			ideology = ideology_royalist
-			traits = {
-				brave
-			}
-		}
-
 		create_character = {
 			first_name = Zeldronix
 			last_name = of_Dol_Morhen

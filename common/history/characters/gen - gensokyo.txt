@@ -12,7 +12,7 @@
 			interest_group = ig_buildfriends
 			ideology = ideology_confucian
 			traits = {
-				experienced_diplomat
+				advanced_diplomat
 				reserved
 			}
 		}

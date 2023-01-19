@@ -23,9 +23,10 @@
 			interest_group = ig_roleplayers
 			ideology = ideology_royalist
 			traits = {
-				reserved pious
+				reserved 
+				pious
 			}
-				}
+		}
 
 		create_character = { # General
 			is_general = yes

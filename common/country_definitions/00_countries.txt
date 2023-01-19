@@ -60,7 +60,7 @@ WOL = {
 }
 
 MER = {
-	color = "dark_grey"
+	color = "mery_black"
 	country_type = recognized
 	tier = principality
 	cultures = { examplish }

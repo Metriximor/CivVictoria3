@@ -27,10 +27,10 @@ colors = {
 	# Wolken
 	wolken_blue = rgb { 117 171 217 }
 	wolken_green = rgb { 11 127 71 }
-	
-	# Mery
-	dark_grey = rgb { 36 46 46 }
 
+	# Mery
+	mery_black = rgb { 0 0 9 }
+	
 	# Misc colors
 	bizantine_purple = rgb { 112 41 99 }
 

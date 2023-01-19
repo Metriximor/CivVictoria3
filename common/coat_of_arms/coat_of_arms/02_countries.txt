@@ -91,7 +91,6 @@ GEN = {
 		texture = "ce_gensokyo.dds"
 		color2 = "full_white"
 		color3 = "gensokyojin_red"
-		instance = { rotation = 90 scale = { 1 1.5 }}
 	}
 }
 

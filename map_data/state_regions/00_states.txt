@@ -1,4 +1,4 @@
-﻿# highest id used 50
+﻿# highest id used 51
 # Truidencia
 
 STATE_NIDAROS = {
@@ -121,12 +121,22 @@ STATE_MUMEITA = {
 
 STATE_NUMBER'S_LAWN = {
     id = 12
-    provinces = { "x41D6F1" "x43E5F3" "x4FCBDB" "x51CEE6" "x79C9B5" "x81C1E2" "x8686FA" "x8AFB80" "x9AF6F5" "x9BA7C4" "x9DE7D2" "x9EB6F2" "xA07BFB" "xA0CFF5" "xA4B8DD" "xA9CCD3" "xABE8DB" "xB7D0C0" "xB7F15B" "xBD61FE" "xC0B9A9" "xC1F9FE" "xC4EDE8" "xC6EBAE" "xC7B8B6" "xC7CCC5" "xC8E9C7" "xC8F0FE" "xC9E9FD" "xCC70E1" "xD4C668" "xD4D5B8" "xD5D955" "xD6A8E1" "xD6CB7C" "xD7B284" "xDB87DE" "xDD61E2" "xE1978C" "xE33CDC" "xE341F0" "xE359E9" "xE99CF9" "xECE0DB" "xF0C1D6" "xF1DBB1" "xF5D28C" "xF6CF84" "xF7F79D" "xFD9A99" "xFE13E5" "xFE679A" }
+    provinces = { "x41D6F1" "x43E5F3" "x51CEE6" "x79C9B5" "x81C1E2" "x8686FA" "x8AFB80" "x9AF6F5" "x9BA7C4" "x9EB6F2" "xA07BFB" "xA4B8DD" "xA9CCD3" "xB7D0C0" "xBD61FE" "xC6EBAE" "xC7B8B6" "xC8E9C7" "xC8F0FE" "xC9E9FD" "xCC70E1" "xD4C668" "xD6CB7C" "xD7B284" "xDB87DE" "xDD61E2" "xE1978C" "xE33CDC" "xE341F0" "xE359E9" "xE99CF9" "xF0C1D6" "xF1DBB1" "xF6CF84" "xF7F79D" "xFD9A99" "xFE13E5" "xFE679A" }
     capped_resources = {
         bg_tree_farming = 10
         bg_mine = 20
     }
 }
+
+STATE_AMATERASU_SHORES = {
+    id = 51
+    provinces = { "x4FCBDB" "x9DE7D2" "xA0CFF5" "xABE8DB" "xB7F15B" "xC0B9A9" "xC1F9FE" "xC4EDE8" "xC7CCC5" "xD4D5B8" "xD5D955" "xD6A8E1" "xECE0DB" "xF5D28C" }
+    capped_resources = {
+        bg_tree_farming = 10
+        bg_mine = 20
+    }
+}
+
 
 STATE_YAMATO_KEN = {
     id = 45

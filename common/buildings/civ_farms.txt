@@ -1,8 +1,27 @@
 ﻿building_tree_farm = {
 	building_group = bg_tree_farming
+	city_type = wood
 	texture = "gfx/interface/icons/building_icons/wood_farm.dds"
 	
 	production_method_groups = {
 		pmg_base_building_tree_farm
+	}
+}
+
+building_wheat_farm = {
+	building_group = bg_agriculture
+	city_type = farm
+	texture = "gfx/interface/icons/building_icons/village_farm.dds"
+
+	production_method_groups = {
+	}
+}
+
+building_mine = {
+	building_group = bg_mine
+	city_type = mine
+	texture = "gfx/interface/icons/building_icons/mine.dds"
+
+	production_method_groups = {
 	}
 }

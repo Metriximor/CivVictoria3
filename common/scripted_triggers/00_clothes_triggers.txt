@@ -1,4 +1,8 @@
-﻿slightly_underweight_pop_trigger = {
+﻿no_portrait_trigger = {
+	always = yes
+}
+
+slightly_underweight_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
 		OR = {

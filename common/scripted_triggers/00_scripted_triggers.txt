@@ -18,7 +18,7 @@ country_has_voting_franchise = {
 		modifier:country_voting_power_base_add > 0
 		modifier:country_voting_power_from_literacy_add > 0
 		modifier:country_voting_power_wealth_threshold_add > 0
-		modifier:country_oldfriends_voting_power_add > 0
+		# modifier:country_oldfriends_voting_power_add > 0
 	}
 }
 
@@ -238,8 +238,6 @@ is_non_customs_union_subject = {
 has_addiction = {
 	OR = {
 		has_trait = alcoholic
-		has_trait = opium_addiction
-		has_trait = cocaine_addiction
 	}
 }
 
@@ -264,7 +262,7 @@ has_colonial_growth = {
 default_auto_expand_rule = { 
 	cash_reserves_ratio > 0.95
 	state.market_access > 0.5
-	owner.construction_queue_duration < max_autoexpand_queue_weeks
+	# owner.construction_queue_duration < max_autoexpand_queue_weeks
 }
 
 is_in_civil_war = {

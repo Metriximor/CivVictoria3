@@ -7,7 +7,7 @@
 	
 	economy_of_scale = yes
 	
-	can_use_slaves = yes
+	can_use_slaves = no
 	
 	urbanization = 5
 	infrastructure_usage_per_level = 1

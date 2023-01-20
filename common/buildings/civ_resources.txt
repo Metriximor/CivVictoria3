@@ -1,5 +1,6 @@
 ﻿building_mine = {
 	building_group = bg_mine
+	city_type = mine
 	texture = "gfx/interface/icons/building_icons/mine.dds"
 	
 	production_method_groups = {

@@ -253,7 +253,7 @@ STATE_MELIA = {
 
 STATE_NEW_SWISSTON = {
     id = 38
-    provinces = {  }
+    provinces = {}
 }
 
 STATE_SOUTHERN_PROVINCE = {

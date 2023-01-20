@@ -1,7 +1,7 @@
 gensokyojin = { 
 	color = rgb { 196 23 23 } 
 	religion = examplian 
-	traits = { example_heritage medi_sea_culture_group english japanese }
+	traits = { entente_heritage medi_sea_culture_group english japanese }
 	male_common_first_names={
 		Sukeie Sadakata
 		Toshiatsu Takemichi Tanemasa Terumochi

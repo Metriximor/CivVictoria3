@@ -70,7 +70,7 @@ MER = {
 KOV = {
 	color = "full_white"
 	country_type = recognized
-	tier = empire
+	tier = hegemony
 	cultures = { thruitt truidencian gensokyojin }
 	capital = STATE_NIDAROS
 }

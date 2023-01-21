@@ -47,8 +47,12 @@
 		region_state:GEN = {
 		}
 	}
-	s:STATE_NUMBER'S_LAWN = {
+	s:STATE_NUMBERS_LAWN = {
 		region_state:GEN = {
+		}
+	}
+	s:STATE_AMATERASU_SHORES = {
+		region_state: = {
 		}
 	}
 	s:STATE_YAMATO_KEN = {

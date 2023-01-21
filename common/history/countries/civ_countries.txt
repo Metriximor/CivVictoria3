@@ -23,11 +23,4 @@
 	c:EXA = {
 		effect_starting_technology_tier_5_tech = yes
 	}
-	c:KOV = {
-		effect_starting_technology_tier_2_tech = yes
-
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_no_migration_controls
-		activate_law = law_type:law_oligarchy
-	}
 }

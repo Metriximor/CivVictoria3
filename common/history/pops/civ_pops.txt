@@ -95,7 +95,7 @@
 			}
 		}
 	}
-	s:STATE_NUMBER'S_LAWN = {
+	s:STATE_NUMBERS_LAWN = {
 		region_state:GEN = {
 			create_pop = {
 				culture = lusitan

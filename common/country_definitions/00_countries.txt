@@ -66,3 +66,11 @@ MER = {
 	cultures = { examplish }
 	capital = STATE_CENTRAL_MERY
 }
+
+KOV = {
+	color = "full_white"
+	country_type = recognized
+	tier = empire
+	cultures = { thruitt truidencian gensokyojin }
+	capital = STATE_NIDAROS
+}

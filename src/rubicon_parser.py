@@ -166,7 +166,7 @@ def _parse_data(data_stack):
     return data_dict
 
 
-def loads(file_path):
+def loads(file_path) -> dict:
     """Parses file and returns dictionary
 
     This function reads file in the provided path and formats it into a flat
@@ -227,5 +227,5 @@ def _serialize(val, dump, indent_lvl=0):
         raise Exception("Unknown operation")
     return dump
 
-def dumps(list):
-    return _serialize(list, "")
+def dumps(dict):
+    return _serialize(dict, "")

@@ -38,17 +38,20 @@ for hub_type in hub_types:
         del v["state_id"]
 
 # Update existing entries
-file_string = load_file_into_string("map_data/state_regions/00_states.txt")
-for line in file_string.splitlines():
-    if line.startswith("#"):
+file_string = load_file_into_string("map_data/state_regions/00_states.txt").splitlines()
+new_file = []
+delete_flag = False
+for line in file_string:
+    state_match = re.match(r"^([\w_]+)", line)
+    if state_match is None and delete_flag is False:
+        if line.startswith("#"):
+            new_file.append(line)
         continue
-regex = r"STATE_([\w_]+) = \{[\s\S]*?(?=\bSTATE_|\Z)"
-matches = re.finditer(regex, file_string)
-for match in matches:
-    state = match.group(0)
-    state_name = match.group(1)
-    print(f"State: {state}")
-    print(f"State name: {state_name}")
+    if state_match is not None:
+        state = state_match.group(0)
+        line = line.replace(f"{state} = {{", '')
+        new_file.append(paradox.dumps({state: states_map_data_set[state]}))
+new_string = '\n'.join(new_file) 
 
 # Output to file
-write_to_file("src/output/00_states.txt", paradox.dumps(states_map_data_set))
+write_to_file("src/output/00_states.txt", new_string)

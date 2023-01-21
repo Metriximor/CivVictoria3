@@ -31,6 +31,7 @@ color_map = {}
 # Provinces colors is a dict where the key is a tuple (r,g,b) and the values are the (x,y) locations
 provinces_path = "src/output/provinces_colors"
 if file_exists(provinces_path):
+  print("Loading existing province color terrains file")
   with bz2.BZ2File(provinces_path, 'rb') as provinces_colors:
     color_map = pickle.load(provinces_colors)
 else:
@@ -41,8 +42,7 @@ else:
         pickle.dump(color_map, config_dictionary_file)
 
 output = "#This is a generated file, do not modify unless you know what you are doing!\n"
-rgb_to_hex = lambda r,g,b: 'x%02X%02X%02X' %(r,g,b)
-for hex in [ rgb_to_hex(r, g, b) for r, g, b in color_map ]:
+for hex in [ f"x{hex}" for hex in color_map ]:
     output += f'{hex}="plains"\n'
 
 write_to_file("src/output/province_terrains.txt", output)

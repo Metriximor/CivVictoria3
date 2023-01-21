@@ -1,15 +1,7 @@
 ﻿import json
 from pathlib import Path
 from random import randint
-
-UTF_8_BOM = 'utf-8-sig'
-
-def load_file_into_string(path: str):
-    string = ""
-    file = Path(path)
-    with file.open(encoding=UTF_8_BOM) as f:
-        string = f.read()
-    return string
+from utils import load_file_into_string, write_to_file
 
 # Loads Files
 states = json.loads(load_file_into_string("src/input/states.json"))
@@ -19,11 +11,8 @@ state_data = load_file_into_string("map_data/state_regions/00_states.txt")
 
 # Prepares Outputs
 output = ""
-output_file = Path("src/output/state_history.txt")
 pops = ""
-pops_file = Path("src/output/pops.txt")
 buildings = ""
-buildings_file = Path("src/output/buildings.txt")
 
 # Does the thing
 state_name = ""
@@ -78,11 +67,6 @@ for string in state_data.split("\n"):
             countries = {}
 
 # Outputs stuff
-with open(output_file, 'w+', encoding=UTF_8_BOM) as output_file:
-    output_file.write(output)
-
-with open(pops_file, 'w+', encoding=UTF_8_BOM) as pops_file:
-    pops_file.write(pops)
-
-with open(buildings_file, 'w+', encoding=UTF_8_BOM) as buildings_file:
-    buildings_file.write(buildings)
+write_to_file("src/output/state_history.txt", output)
+write_to_file("src/output/pops.txt", pops)
+write_to_file("src/output/buildings.txt", buildings)

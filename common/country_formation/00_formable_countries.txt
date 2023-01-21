@@ -1,1 +1,9 @@
-﻿
+﻿KOV = {
+	use_culture_states = yes
+		states = { 
+		STATE_NIDAROS 
+		STATE_TENSEIMIYA 
+		STATE_PROVINCE_OF_NEW_DANZILONA 
+
+}
+	

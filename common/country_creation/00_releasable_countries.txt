@@ -1,1 +1,6 @@
-﻿
+﻿KOV = {
+	use_culture_states = yes
+	
+	required_num_states = 3
+
+}

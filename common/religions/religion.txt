@@ -10,4 +10,14 @@ examplian = {
 	color = { 0.8 0.6 0.4 }
 }
 
+bezism = {
+	texture = "gfx/interface/icons/religion_icons/bezist.dds"
+	color = { 255 140 0 }
+}
+
+rhayatshola = {
+	texture = "gfx/interface/icons/religion_icons/rhayatshola.dds"
+	color = { 0 0 0 }
+}
+
 #####################

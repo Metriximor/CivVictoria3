@@ -1,6 +1,6 @@
 thruitt = { 
 	color = rgb { 153 58 134 } 
-	religion = examplian 
+	religion = bezism 
 	traits = { udf_heritage medi_sea_culture_group norwegian }
 	male_common_first_names={
 		Loke Lodur
@@ -10,7 +10,6 @@ thruitt = {
 		Balder
 		Hod Hermod
 		Mode
-		
 	}
 	female_common_first_names = {
 		Froya Frigga

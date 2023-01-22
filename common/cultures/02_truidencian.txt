@@ -1,6 +1,6 @@
 ﻿truidencian = { 
 	color = rgb { 192 29 56 } 
-	religion = examplian 
+	religion = bezism 
 	traits = { udf_heritage medi_sea_culture_group english norwegian }
 	male_common_first_names={
 		August
@@ -36,7 +36,6 @@
 		Margrete Maud
 		Ragnhild 
 	}
-
 	graphics = european
 	ethnicities = {
 		80 = minecrafter

@@ -1,6 +1,6 @@
 ﻿mery_culture = {
 	color = { 0 0 0 }
-	religion = examplian
+	religion = rhayatshola
 	traits = {
 		lyrean_sea_culture_group
 		english
@@ -14,10 +14,19 @@
 		
 	}
 	noble_last_names = {
-		
+		Tawiga
 	}
 	common_last_names = {
-		
+		krhacharh
+		chatalatarh
+		tawirashal
+		tsholateht
+		dehnehtshihvashal
+		niyprang
+		thijorvrilateht
+		niratarh
+		vheulehtarh
+		tarhkozateht
 	}
 	graphics = european
 	ethnicities = {

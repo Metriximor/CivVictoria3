@@ -1,8 +1,7 @@
 ﻿{
     "STATE_SORLAND": {
         "pops": [
-            { "culture": "thruitt", "religion": "examplian", "ratio": 1 },
-            { "culture": "truidencian", "ratio": 1}
+            { "culture": "thruitt", "religion": "bezism", "ratio": 1 }
         ]
     },
     "STATE_BLANCO_STRAIT": {

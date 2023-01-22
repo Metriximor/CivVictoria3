@@ -67,20 +67,20 @@ entity = {
 }
 
 pdxmesh = {
-    name = "topaz4293_mesh"
+    name = "topaz_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6
     meshsettings = {
         name = "prophet_shieldShape"
         index = 0
-        texture_diffuse = "skins_textures/players/topaz4293.dds"
+        texture_diffuse = "skins_textures/players/topaz.dds"
         shader = "portrait_attachment_alpha_to_coverage"
         shader_file = "gfx/models/skins/body.shader"
     }
 }
 entity = {
-    name = "topaz4293_entity"
-    pdxmesh = "topaz4293_mesh"
+    name = "topaz_entity"
+    pdxmesh = "topaz_mesh"
 }
 
 pdxmesh = {

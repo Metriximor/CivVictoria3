@@ -19,9 +19,9 @@ metriximor = {
 	entity = { required_tags = "" shared_pose_entity = head entity = "metriximor_entity" }
 }
 
-topaz4293 = {
+topaz = {
 	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "topaz4293_entity" }
+	entity = { required_tags = "" shared_pose_entity = head entity = "topaz_entity" }
 }
 
 zeldronix = {

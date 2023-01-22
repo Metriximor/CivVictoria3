@@ -1,0 +1,26 @@
+﻿mery_culture = {
+	color = { 0 0 0 }
+	religion = examplian
+	traits = {
+		lyrean_sea_culture_group
+		english
+		portuguese
+		conlang
+	}
+	male_common_first_names = {
+		
+	}
+	female_common_first_names = {
+		
+	}
+	noble_last_names = {
+		
+	}
+	common_last_names = {
+		
+	}
+	graphics = european
+	ethnicities = {
+		1 = minecrafter
+	}
+}

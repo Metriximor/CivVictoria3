@@ -59,7 +59,7 @@ MER = {
 	color1 = "full_black"
 	colored_emblem = {
 		texture = "ce_mehri.dds"
-		color2 = "full_white"
+		color1 = "full_white"
 	}
 }
 

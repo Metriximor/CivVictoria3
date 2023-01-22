@@ -50,9 +50,9 @@
  STATE_WOLKEN:0 "Wolken"
  STATE_WOLKEN_ISLANDS:0 "Wolken Islands"
 # Mery
- STATE_NORTHERN_MERY:0 "Mery norte"
- STATE_CENTRAL_MERY:0 "Mery centro"
- STATE_SOUTHERN_MERY:0 "Mery sul"
+ STATE_NORTHERN_MERY:0 "mneh'hweh"
+ STATE_CENTRAL_MERY:0 "mnehmehr"
+ STATE_SOUTHERN_MERY:0 "mnehdvhweh"
 # Seas
  STATE_DREAMLAND_LAKE:0 "Lake of Dreamland"
  STATE_MEDI_SEA:0 "Medi Sea"

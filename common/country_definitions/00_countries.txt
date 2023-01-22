@@ -63,7 +63,7 @@ MER = {
 	color = "mery_black"
 	country_type = recognized
 	tier = principality
-	cultures = { examplish }
+	cultures = { mery_culture }
 	capital = STATE_CENTRAL_MERY
 }
 

@@ -1,13 +1,45 @@
 ﻿import json
+import rubicon_parser as paradox
 from pathlib import Path
 from random import randint
 from utils import load_file_into_string, write_to_file
 
+def create_pops(country_abrev, state_name):
+    result = ""
+    pops = {}
+    state_population: int = randint(500, 1_000_000)
+    # Initialize pops with pop culture
+    pops[country_data[country_abrev]["cultures"][-1]] = {
+        "quantity": state_population
+    }
+    if state_name in state_details and "pops" in state_details[state_name]:
+        # Delete existing data about pops
+        pops = {}
+        total_ratios: int = sum([int(pop["ratio"]) for pop in state_details[state_name]["pops"]])
+        for pop in state_details[state_name]["pops"]:
+            pops[pop["culture"]] = {
+                "quantity": state_population/total_ratios
+            }
+            if "religion" in pop:
+                pops[pop["culture"]]["religion"] = pop["religion"]
+    for culture, pop in pops.items():
+        result +=  "        create_pop = {\n"
+        result += f'            culture = {culture}\n'
+        if "religion" in pop:
+            result += f'            religion = {pop["religion"]}\n'
+        result += f'            size = {int(pop["quantity"])}\n'
+        result +=  "        }\n"
+    return result
+
 # Loads Files
 states = json.loads(load_file_into_string("src/input/states.json"))
-states = {state: country  for country, state_names in states.items() for state in state_names}
 split_states: dict = json.loads(load_file_into_string("src/input/split_states.json"))
 state_data = load_file_into_string("map_data/state_regions/00_states.txt")
+state_details = json.loads(load_file_into_string("src/input/state_data.json"))
+country_data = paradox.loads("common/country_definitions/00_countries.txt")
+
+# Prepare the data
+states = {state: country  for country, state_names in states.items() for state in state_names}
 
 # Prepares Outputs
 output = ""
@@ -27,16 +59,15 @@ for string in state_data.split("\n"):
         else:
             countries = {states.get(state_name, ""):[]}
 
+        # Generates pops file
         pops += f"s:{state_name} = {{\n"
         for country_abbreviation in countries:
             pops += f"    region_state:{country_abbreviation} = {{\n"
-            pops +=  "        create_pop = {\n"
-            pops +=  "            culture = lusitan\n"
-            pops +=	f"            size = {randint(500, 1_000_000)}\n"
-            pops +=  "        }\n"
+            pops += create_pops(country_abbreviation, state_name)
             pops +=  "    }\n"
         pops +=  "}\n"
 
+        # Generates buildings file
         buildings += f"s:{state_name} = {{\n"
         for country_abbreviation in countries:
             buildings += f"    region_state:{country_abbreviation} = {{\n"
@@ -56,7 +87,8 @@ for string in state_data.split("\n"):
                 country = next(iter(countries.items()))[0]
                 provinces = {}
                 provinces[country] = map(lambda p: p.strip('"'), value.strip("{}").split())
-            # Construct the output string for this state
+
+            # Generates provinces file
             output += f"s:{state_name} = {{\n"
             for country in countries:
                 output += "    create_state = {\n"

@@ -253,3 +253,20 @@ entity = {
     pdxmesh = "smal_mesh"
 }
 
+pdxmesh = {
+    name = "tshola_mesh"
+    file = "hm_prophet.mesh"
+    scale = 1.6
+    meshsettings = {
+        name = "prophet_shieldShape"
+        index = 0
+        texture_diffuse = "skins_textures/players/slim/tshola.dds"
+        shader = "portrait_attachment_alpha_to_coverage"
+        shader_file = "gfx/models/skins/body.shader"
+    }
+}
+entity = {
+    name = "tshola_entity"
+    pdxmesh = "tshola_mesh"
+}
+

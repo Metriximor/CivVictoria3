@@ -27,6 +27,7 @@
 				1 = sambonusg
 				1 = magnileve
 				1 = chocchips
+				1 = tshola
 			}
 			female = {
 				1 = topaz

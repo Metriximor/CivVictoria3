@@ -2,6 +2,19 @@
 CHARACTERS = {
 	c:MER = {
 		create_character = {
+			first_name = Tshola
+			last_name = the_demonic_god
+			culture = cu:mery_culture
+			ruler = yes
+			dna = dna_tshola
+			age = { 100 1000 }
+			ideology = ideology_republican
+			interest_group = ig_buildfriends
+			traits = {
+			}
+		}
+
+		create_character = {
 			first_name = ChocChips
 			last_name = Tawiga
 			culture = cu:mery_culture

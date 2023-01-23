@@ -73,3 +73,8 @@ smal = {
 	set_tags = "base_slim"
 	entity = { required_tags = "" shared_pose_entity = head entity = "smal_entity" }
 }
+
+tshola = {
+	set_tags = "base_slim"
+	entity = { required_tags = "" shared_pose_entity = head entity = "tshola_entity" }
+}

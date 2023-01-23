@@ -12,8 +12,8 @@ for gene_gender in gene_genders:
     total_players = len(unique_players)
     for i, unique_player in enumerate(unique_players):
         value = (i/total_players)
-        if total_players % 2 != 0:
-            value += 0.01
+        if total_players % 2 != 0: # the game makes it so if you have odd amount of genes, the boundaries are inclusive, and even, the boundaries are not inclusive
+            value += 0.01 # paradox you owe me one hour that it took me to figure this out
         unique_player_skin_value[unique_player.lower()] = ceil(value * 255)
 
 # Load all files in dna_data folder and update them

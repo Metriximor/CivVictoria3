@@ -13,6 +13,9 @@
 			traits = {
 				reserved 
 				pious
+				advanced_builder
+				intermediate_diplomat
+				intermediate_artist
 			}
 		}
 

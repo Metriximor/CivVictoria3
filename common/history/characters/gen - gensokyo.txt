@@ -14,6 +14,7 @@
 			traits = {
 				advanced_diplomat
 				reserved
+				expert_builder
 			}
 		}
 	}

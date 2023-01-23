@@ -51,7 +51,7 @@
 	s:STATE_OUTLAND = {
 		region_state:TRU = {
 			create_pop = {
-				culture = truidencian
+				culture = thruitt
 				size = 414180
 			}
 		}
@@ -75,7 +75,7 @@
 	s:STATE_MORINOYARI = {
 		region_state:GEN = {
 			create_pop = {
-				culture = gensokyojin
+				culture = thruitt
 				size = 729781
 			}
 		}

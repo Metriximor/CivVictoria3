@@ -92,7 +92,6 @@ STATE_OUTER_NIDAROS = {
     city = xB2F2BD
 }
 
-
 # Gensokyo
 STATE_TENSEIMIYA = {
     id = 8
@@ -165,7 +164,6 @@ STATE_YAMATO_KEN = {
     provinces = { x3FC9ED x59EAD5 x699DF8 x8FE0B7 x90D9B2 xB658EC xC49DEC xD772D2 xE0D0CE xE4F374 xE659DA xE680BE xE967F1 xEC64B8 xF2D1B6 xF4C6FD xF637CC }
     city = xF2D1B6
 }
-
 
 # Lusitania
 STATE_PORTUCALE = {
@@ -259,7 +257,6 @@ STATE_EBORA = {
     city = xE4D14F
 }
 
-
 # Lambat
 STATE_EAST_LAMBAT_CITY = {
     id = 27
@@ -323,7 +320,6 @@ STATE_PARFAIT_KAWAYAN = {
     city = xAAECFB
 }
 
-
 # Danzilona
 STATE_PROVINCE_OF_NEW_DANZILONA = {
     id = 35
@@ -350,8 +346,7 @@ STATE_MELIA = {
 
 STATE_NEW_SWISSTON = {
     id = 38
-    provinces = {
-    }
+    provinces = {}
 }
 
 
@@ -393,7 +388,6 @@ STATE_SOUTH_MELIA = {
     city = x2CE2FE
 }
 
-
 # Wolken 
 STATE_WOLKEN = {
     id = 42
@@ -409,7 +403,6 @@ STATE_WOLKEN_ISLANDS = {
     port = xC778CB
     city = xEA25F5
 }
-
 
 # Mehry
 STATE_NORTHERN_MERY = {

@@ -34,6 +34,11 @@ top_hte_soldier = {
 	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_hte_soldier_entity" }
 }
 
+top_kapresuit = {
+	set_tags = ""
+	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_kapresuit_entity" }
+}
+
 top_redcoat = {
 	set_tags = ""
 	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_redcoat_entity" }

@@ -15,9 +15,9 @@
  ig_roleplayers_only_icon:0 "@roleplayers!"
  ig_roleplayers_desc:0 ""
 
- ig_civindustrialists:0 "Industrialists"
- ig_civindustrialists_only_icon:0 "@industrialists!"
- ig_civindustrialists_desc:0 ""
+ ig_civ_industrialists:0 "Industrialists"
+ ig_civ_industrialists_only_icon:0 "@industrialists!"
+ ig_civ_industrialists_desc:0 ""
 # Custom IG names
  ig_tru_imperial_army:0 "Truidencian Imperial Army"
 #  ig_tru_imperial_army_desc:0 ""

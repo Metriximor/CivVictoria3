@@ -19,14 +19,21 @@
 			male = {
 				1 = britishwanderer
 				1 = gobblin
-				1 = kaprediem  # 3
+				1 = kaprediem
 				1 = metriximor
-				1 = zeldronix  # 6
+				1 = zeldronix
 				1 = AKJanklin
+				1 = orhint
+				1 = sambonusg
+				1 = magnileve
+				1 = chocchips
 			}
 			female = {
 				1 = topaz
 				1 = banyough
+				1 = smal
+				1 = amandacc
+				1 = redsteel
 			}
 			boy = male
 			girl = female

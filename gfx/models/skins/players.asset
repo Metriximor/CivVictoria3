@@ -50,6 +50,23 @@ entity = {
 }
 
 pdxmesh = {
+    name = "magnileve_mesh"
+    file = "hm_prophet.mesh"
+    scale = 1.6
+    meshsettings = {
+        name = "prophet_shieldShape"
+        index = 0
+        texture_diffuse = "skins_textures/players/magnileve.dds"
+        shader = "portrait_attachment_alpha_to_coverage"
+        shader_file = "gfx/models/skins/body.shader"
+    }
+}
+entity = {
+    name = "magnileve_entity"
+    pdxmesh = "magnileve_mesh"
+}
+
+pdxmesh = {
     name = "metriximor_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6
@@ -64,6 +81,40 @@ pdxmesh = {
 entity = {
     name = "metriximor_entity"
     pdxmesh = "metriximor_mesh"
+}
+
+pdxmesh = {
+    name = "redsteel_mesh"
+    file = "hm_prophet.mesh"
+    scale = 1.6
+    meshsettings = {
+        name = "prophet_shieldShape"
+        index = 0
+        texture_diffuse = "skins_textures/players/redsteel.dds"
+        shader = "portrait_attachment_alpha_to_coverage"
+        shader_file = "gfx/models/skins/body.shader"
+    }
+}
+entity = {
+    name = "redsteel_entity"
+    pdxmesh = "redsteel_mesh"
+}
+
+pdxmesh = {
+    name = "sambonusg_mesh"
+    file = "hm_prophet.mesh"
+    scale = 1.6
+    meshsettings = {
+        name = "prophet_shieldShape"
+        index = 0
+        texture_diffuse = "skins_textures/players/sambonusg.dds"
+        shader = "portrait_attachment_alpha_to_coverage"
+        shader_file = "gfx/models/skins/body.shader"
+    }
+}
+entity = {
+    name = "sambonusg_entity"
+    pdxmesh = "sambonusg_mesh"
 }
 
 pdxmesh = {
@@ -118,6 +169,23 @@ entity = {
 }
 
 pdxmesh = {
+    name = "amandacc_mesh"
+    file = "hm_prophet.mesh"
+    scale = 1.6
+    meshsettings = {
+        name = "prophet_shieldShape"
+        index = 0
+        texture_diffuse = "skins_textures/players/slim/amandacc.dds"
+        shader = "portrait_attachment_alpha_to_coverage"
+        shader_file = "gfx/models/skins/body.shader"
+    }
+}
+entity = {
+    name = "amandacc_entity"
+    pdxmesh = "amandacc_mesh"
+}
+
+pdxmesh = {
     name = "banyough_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6
@@ -132,5 +200,56 @@ pdxmesh = {
 entity = {
     name = "banyough_entity"
     pdxmesh = "banyough_mesh"
+}
+
+pdxmesh = {
+    name = "chocchips_mesh"
+    file = "hm_prophet.mesh"
+    scale = 1.6
+    meshsettings = {
+        name = "prophet_shieldShape"
+        index = 0
+        texture_diffuse = "skins_textures/players/slim/chocchips.dds"
+        shader = "portrait_attachment_alpha_to_coverage"
+        shader_file = "gfx/models/skins/body.shader"
+    }
+}
+entity = {
+    name = "chocchips_entity"
+    pdxmesh = "chocchips_mesh"
+}
+
+pdxmesh = {
+    name = "orhint_mesh"
+    file = "hm_prophet.mesh"
+    scale = 1.6
+    meshsettings = {
+        name = "prophet_shieldShape"
+        index = 0
+        texture_diffuse = "skins_textures/players/slim/orhint.dds"
+        shader = "portrait_attachment_alpha_to_coverage"
+        shader_file = "gfx/models/skins/body.shader"
+    }
+}
+entity = {
+    name = "orhint_entity"
+    pdxmesh = "orhint_mesh"
+}
+
+pdxmesh = {
+    name = "smal_mesh"
+    file = "hm_prophet.mesh"
+    scale = 1.6
+    meshsettings = {
+        name = "prophet_shieldShape"
+        index = 0
+        texture_diffuse = "skins_textures/players/slim/smal.dds"
+        shader = "portrait_attachment_alpha_to_coverage"
+        shader_file = "gfx/models/skins/body.shader"
+    }
+}
+entity = {
+    name = "smal_entity"
+    pdxmesh = "smal_mesh"
 }
 

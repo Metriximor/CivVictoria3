@@ -14,9 +14,24 @@ kaprediem = {
 	entity = { required_tags = "" shared_pose_entity = head entity = "kaprediem_entity" }
 }
 
+magnileve = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "magnileve_entity" }
+}
+
 metriximor = {
 	set_tags = "base_model"
 	entity = { required_tags = "" shared_pose_entity = head entity = "metriximor_entity" }
+}
+
+redsteel = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "redsteel_entity" }
+}
+
+sambonusg = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "sambonusg_entity" }
 }
 
 topaz = {
@@ -34,7 +49,27 @@ AKJanklin = {
 	entity = { required_tags = "" shared_pose_entity = head entity = "AKJanklin_entity" }
 }
 
+amandacc = {
+	set_tags = "base_slim"
+	entity = { required_tags = "" shared_pose_entity = head entity = "amandacc_entity" }
+}
+
 banyough = {
 	set_tags = "base_slim"
 	entity = { required_tags = "" shared_pose_entity = head entity = "banyough_entity" }
+}
+
+chocchips = {
+	set_tags = "base_slim"
+	entity = { required_tags = "" shared_pose_entity = head entity = "chocchips_entity" }
+}
+
+orhint = {
+	set_tags = "base_slim"
+	entity = { required_tags = "" shared_pose_entity = head entity = "orhint_entity" }
+}
+
+smal = {
+	set_tags = "base_slim"
+	entity = { required_tags = "" shared_pose_entity = head entity = "smal_entity" }
 }

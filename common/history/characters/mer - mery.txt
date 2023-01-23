@@ -1,0 +1,71 @@
+﻿# TODO finish traits and ideologies
+CHARACTERS = {
+	c:MER = {
+		create_character = {
+			first_name = ChocChips
+			last_name = Tawiga
+			culture = cu:mery_culture
+			ig_leader = yes
+			dna = dna_chocchips
+			age = { 18 25 }
+			ideology = ideology_republican
+			interest_group = ig_buildfriends
+			traits = {
+				wholesome
+				direct
+				experienced_political_operator
+			}
+		}
+
+		create_character = {
+			first_name = amandacc
+			last_name = Tawiga
+			female = yes
+			culture = cu:mery_culture
+			ig_leader = yes
+			dna = dna_amandacc
+			age = { 18 25 }
+			ideology = ideology_republican
+			interest_group = ig_roleplayers
+			traits = {
+				wholesome
+				direct
+				experienced_political_operator
+			}
+		}
+
+		create_character = {
+			first_name = redsteel
+			last_name = Tawiga
+			female = yes
+			culture = cu:mery_culture
+			ig_leader = yes
+			dna = dna_redsteel
+			age = { 18 25 }
+			ideology = ideology_republican
+			interest_group = ig_pvpers
+			traits = {
+				wholesome
+				direct
+				experienced_political_operator
+			}
+		}
+
+		create_character = {
+			first_name = smal
+			last_name = Tawiga
+			female = yes
+			culture = cu:mery_culture
+			ig_leader = yes
+			dna = dna_smal
+			age = { 18 25 }
+			ideology = ideology_republican
+			interest_group = ig_grinders
+			traits = {
+				wholesome
+				direct
+				experienced_political_operator
+			}
+		}
+	}
+}

@@ -11,7 +11,10 @@ for gene_gender in gene_genders:
     unique_players = paradox.loads("common/genes/95_genes_portrait2d.txt")['accessory_genes']['base_skins']['gene_unique_skin'][gene_gender]['1']
     total_players = len(unique_players)
     for i, unique_player in enumerate(unique_players):
-        unique_player_skin_value[unique_player.lower()] = ceil((i/total_players)*255)
+        value = (i/total_players)
+        if total_players % 2 != 0:
+            value += 0.01
+        unique_player_skin_value[unique_player.lower()] = ceil(value * 255)
 
 # Load all files in dna_data folder and update them
 for player, unique_skin_value in unique_player_skin_value.items():
@@ -39,3 +42,9 @@ for player, unique_skin_value in unique_player_skin_value.items():
     enabled = yes
 }}"""
     write_to_file(f"common/dna_data/00_{player}.txt", string)
+
+# 0-20 - topaz (0)
+# 20-40 - banyough (51)
+# 40-60 - smal (102)
+# 60-80 - amandacc (153)
+# 80-100 - redsteel (204)

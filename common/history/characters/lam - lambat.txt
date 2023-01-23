@@ -30,5 +30,54 @@
 				experienced_political_operator
 			}
 		}
+
+		# TODO finish traits and ideologies
+		create_character = {
+			first_name = Orhint
+			last_name = no_last_name
+			culture = cu:lambatan
+			ig_leader = yes
+			dna = dna_orhint
+			age = { 18 25 }
+			ideology = ideology_republican
+			interest_group = ig_roleplayers
+			traits = {
+				wholesome
+				direct
+				experienced_political_operator
+			}
+		}
+
+		create_character = {
+			first_name = Magnileve
+			last_name = no_last_name
+			culture = cu:lambatan
+			ig_leader = yes
+			dna = dna_magnileve
+			age = { 18 25 }
+			ideology = ideology_republican
+			interest_group = ig_grinders
+			traits = {
+				wholesome
+				direct
+				experienced_political_operator
+			}
+		}
+
+		create_character = {
+			first_name = SamBonusG
+			last_name = no_last_name
+			culture = cu:lambatan
+			ig_leader = yes
+			dna = dna_sambonusg
+			age = { 18 25 }
+			ideology = ideology_republican
+			interest_group = ig_civ_industrialists
+			traits = {
+				wholesome
+				direct
+				experienced_political_operator
+			}
+		}
 	}
 }

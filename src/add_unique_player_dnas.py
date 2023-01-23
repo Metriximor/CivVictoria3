@@ -42,9 +42,3 @@ for player, unique_skin_value in unique_player_skin_value.items():
     enabled = yes
 }}"""
     write_to_file(f"common/dna_data/00_{player}.txt", string)
-
-# 0-20 - topaz (0)
-# 20-40 - banyough (51)
-# 40-60 - smal (102)
-# 60-80 - amandacc (153)
-# 80-100 - redsteel (204)

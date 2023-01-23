@@ -6,5 +6,15 @@
     },
     "STATE_BLANCO_STRAIT": {
         "homelands": ["LAM", "MER"]
+    },
+    "STATE_MORINOYARI": {
+        "pops": [
+            { "culture": "thruitt", "religion": "bezism", "ratio": 1 }
+        ]
+    },
+    "STATE_OUTLAND": {
+        "pops": [
+            { "culture": "thruitt", "religion": "bezism", "ratio": 1 }
+        ]
     }
 }

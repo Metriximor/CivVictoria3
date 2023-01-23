@@ -24,6 +24,11 @@ metriximor = {
 	entity = { required_tags = "" shared_pose_entity = head entity = "metriximor_entity" }
 }
 
+pythius = {
+	set_tags = "base_model"
+	entity = { required_tags = "" shared_pose_entity = head entity = "pythius_entity" }
+}
+
 redsteel = {
 	set_tags = "base_model"
 	entity = { required_tags = "" shared_pose_entity = head entity = "redsteel_entity" }

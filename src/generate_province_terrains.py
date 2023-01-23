@@ -20,8 +20,8 @@ def extract_colors(image_file):
             mapped_colors[hex_val].append([x, y])
             processed_pixels += 1
             if processed_pixels % (total_pixels // 100) == 0:
-                print(f"{processed_pixels / total_pixels * 100:.0f}% completed")
-    print("Processing complete!")
+                print(f"\r{processed_pixels / total_pixels * 100:.0f}% completed", end='')
+    print("\nProcessing complete!")
     return mapped_colors
 
 def file_exists(path):

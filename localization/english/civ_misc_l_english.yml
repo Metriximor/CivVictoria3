@@ -33,7 +33,7 @@
  WOL:0 "Wolken"
  WOL_ADJ:0 "$wolken$"
  MER:0 "djani'hweh"
- MER_ADJ:0 "mehri"
+ MER_ADJ:0 "$mery_culture$"
 #  NRA:0 "Nara"
 #  NRA_ADJ:0 "$naran$"
 #  DLG:0 "Dalgon"

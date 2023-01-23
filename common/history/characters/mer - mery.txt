@@ -3,7 +3,7 @@ CHARACTERS = {
 	c:MER = {
 		create_character = {
 			first_name = Tshola
-			last_name = the_demonic_god
+			last_name = the_mery_god
 			culture = cu:mery_culture
 			ruler = yes
 			dna = dna_tshola
@@ -23,6 +23,22 @@ CHARACTERS = {
 			age = { 18 25 }
 			ideology = ideology_republican
 			interest_group = ig_buildfriends
+			traits = {
+				wholesome
+				direct
+				experienced_political_operator
+			}
+		}
+
+		create_character = {
+			first_name = Pythius
+			last_name = Tawiga
+			culture = cu:mery_culture
+			ig_leader = yes
+			dna = dna_pythius
+			age = { 18 25 }
+			ideology = ideology_republican
+			interest_group = ig_civ_industrialists
 			traits = {
 				wholesome
 				direct
@@ -56,7 +72,7 @@ CHARACTERS = {
 			dna = dna_redsteel
 			age = { 18 25 }
 			ideology = ideology_republican
-			interest_group = ig_pvpers
+			interest_group = ig_grinders
 			traits = {
 				wholesome
 				direct
@@ -73,7 +89,7 @@ CHARACTERS = {
 			dna = dna_smal
 			age = { 18 25 }
 			ideology = ideology_republican
-			interest_group = ig_grinders
+			interest_group = ig_pvper
 			traits = {
 				wholesome
 				direct

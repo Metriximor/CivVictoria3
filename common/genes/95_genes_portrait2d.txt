@@ -28,6 +28,7 @@
 				1 = magnileve
 				1 = chocchips
 				1 = tshola
+				1 = pythius
 			}
 			female = {
 				1 = topaz

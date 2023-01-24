@@ -26,3 +26,10 @@ STATE_BLANCO_STRAIT:
   city: Bazariskes
   port: Blanco Strait
   mine: Mt. Pico de Blanco
+STATE_PORTUCALE:
+  port: São Bento
+STATE_NIDAROS:
+  mine: Fox's Landing
+  farm: Soria Moria
+STATE_HYLDOR:
+  city: Andeon

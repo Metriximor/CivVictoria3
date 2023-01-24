@@ -1,0 +1,28 @@
+﻿STATE_EAST_LAMBAT_CITY:
+  city: Poblacion
+  wood: Katipan
+  port: Pioneer Village
+STATE_WEST_LAMBAT_CITY:
+  city: Progreso
+  wood: Timberbourg
+  port: Stoneport
+STATE_VALLE_OCCIDENTAL:
+  city: Heavensroost
+  wood: Mt. Abedul
+  port: Broa Cay
+  mine: Hikari's Castle
+STATE_PAMPANG:
+  city: Pampang
+STATE_PARFAIT_KAWAYAN:
+  city: Kota Habagatan
+  wood: Parfait Bay
+  port: United Fruit Company
+STATE_CHUNGIA:
+  city: Cape Cocoa
+  wood: Bulaclan Tree Farm
+  port: Cape Cocoa Nether Portal
+  mine: Magfarm
+STATE_BLANCO_STRAIT:
+  city: Bazariskes
+  port: Blanco Strait
+  mine: Mt. Pico de Blanco

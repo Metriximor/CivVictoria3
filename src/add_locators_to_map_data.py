@@ -3,14 +3,14 @@ import re
 from utils import rgb_to_hex, load_file_into_string, write_to_file, zip_on
 import cv2
 
-states_map_data_set: dict = paradox.loads("map_data/state_regions/00_states.txt")
+states_map_data_set: dict = paradox.load("map_data/state_regions/00_states.txt")
 provinces_array = cv2.imread("map_data/provinces.png")
 height, _, _ = provinces_array.shape
 
 hub_types = ['port', 'city']
 for hub_type in hub_types:
     # Load required stuff
-    port_instances = paradox.loads(f"gfx/map/map_object_data/generated_map_object_locators_{hub_type}.txt")['game_object_locator']['instances']
+    port_instances = paradox.load(f"gfx/map/map_object_data/generated_map_object_locators_{hub_type}.txt")['game_object_locator']['instances']
 
     # Save the state for logging purposes
     for state, state_map_data in states_map_data_set.items():

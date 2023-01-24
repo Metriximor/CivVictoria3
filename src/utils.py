@@ -5,11 +5,11 @@ import pickle
 
 UTF_8_BOM = 'utf-8-sig'
 
-def load_file_into_string(path: str):
+def load_file_into_string(path: str, encoding: str | None=UTF_8_BOM):
     print(f"Loading from {path}")
     string = ""
     file = Path(path)
-    with file.open(encoding=UTF_8_BOM) as f:
+    with file.open(encoding=encoding) as f:
         string = f.read()
     return string
 

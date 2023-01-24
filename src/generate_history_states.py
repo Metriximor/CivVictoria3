@@ -36,7 +36,7 @@ states = json.loads(load_file_into_string("src/input/states.json"))
 split_states: dict = json.loads(load_file_into_string("src/input/split_states.json"))
 state_data = load_file_into_string("map_data/state_regions/00_states.txt")
 state_details = json.loads(load_file_into_string("src/input/state_data.json"))
-country_data = paradox.loads("common/country_definitions/00_countries.txt")
+country_data = paradox.load("common/country_definitions/00_countries.txt")
 
 # Prepare the data
 states = {state: country  for country, state_names in states.items() for state in state_names}

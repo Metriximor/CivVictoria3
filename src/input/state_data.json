@@ -9,7 +9,8 @@
     },
     "STATE_MORINOYARI": {
         "pops": [
-            { "culture": "thruitt", "religion": "bezism", "ratio": 1 }
+            { "culture": "thruitt", "religion": "bezism", "ratio": 9 },
+            { "culture": "gensokyojin", "religion": "bezism", "ratio": 1 }
         ]
     },
     "STATE_OUTLAND": {

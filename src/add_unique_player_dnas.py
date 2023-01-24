@@ -8,7 +8,7 @@ gene_genders = [ 'male', 'female']
 # Determine unique skin gene value
 unique_player_skin_value = {}
 for gene_gender in gene_genders:
-    unique_players = paradox.loads("common/genes/95_genes_portrait2d.txt")['accessory_genes']['base_skins']['gene_unique_skin'][gene_gender]['1']
+    unique_players = paradox.load("common/genes/95_genes_portrait2d.txt")['accessory_genes']['base_skins']['gene_unique_skin'][gene_gender]['1']
     total_players = len(unique_players)
     for i, unique_player in enumerate(unique_players):
         value = (i/total_players)

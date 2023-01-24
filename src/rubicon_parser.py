@@ -166,7 +166,7 @@ def _parse_data(data_stack):
     return data_dict
 
 
-def loads(file_path) -> dict:
+def load(file_path) -> dict:
     """Parses file and returns dictionary
 
     This function reads file in the provided path and formats it into a flat

@@ -1,15 +1,12 @@
-
 hat_thruitt = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "hat_thruitt_entity" }
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "hat_thruitt_entity" }
 }
 
 hat_thruitt_arctic = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "hat_thruitt_arctic_entity" }
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "hat_thruitt_arctic_entity" }
 }
 
 hat_thruitt_blond = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "hat_thruitt_blond_entity" }
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "hat_thruitt_blond_entity" }
 }
+

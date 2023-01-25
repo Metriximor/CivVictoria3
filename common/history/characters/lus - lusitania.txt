@@ -37,6 +37,7 @@
 				expensive_tastes
 				advanced_builder
 				beginner_pvper
+				expert_artist
 			}
 		}
 	}

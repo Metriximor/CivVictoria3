@@ -1,85 +1,85 @@
-
 britishwanderer = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "britishwanderer_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "britishwanderer_entity" }
 }
 
 gobblin = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "gobblin_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "gobblin_entity" }
 }
 
 kaprediem = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "kaprediem_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "kaprediem_entity" }
 }
 
 magnileve = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "magnileve_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "magnileve_entity" }
 }
 
 metriximor = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "metriximor_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "metriximor_entity" }
 }
 
 pythius = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "pythius_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "pythius_entity" }
 }
 
 redsteel = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "redsteel_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "redsteel_entity" }
 }
 
 sambonusg = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "sambonusg_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "sambonusg_entity" }
 }
 
 topaz = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "topaz_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "topaz_entity" }
 }
 
 zeldronix = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "zeldronix_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "zeldronix_entity" }
 }
 
 AKJanklin = {
-	set_tags = "base_slim"
-	entity = { required_tags = "" shared_pose_entity = head entity = "AKJanklin_entity" }
+    set_tags = "base_slim"
+    entity = { required_tags = "" shared_pose_entity = head entity = "AKJanklin_entity" }
 }
 
 amandacc = {
-	set_tags = "base_slim"
-	entity = { required_tags = "" shared_pose_entity = head entity = "amandacc_entity" }
+    set_tags = "base_slim"
+    entity = { required_tags = "" shared_pose_entity = head entity = "amandacc_entity" }
 }
 
 banyough = {
-	set_tags = "base_slim"
-	entity = { required_tags = "" shared_pose_entity = head entity = "banyough_entity" }
+    set_tags = "base_slim"
+    entity = { required_tags = "" shared_pose_entity = head entity = "banyough_entity" }
 }
 
 chocchips = {
-	set_tags = "base_slim"
-	entity = { required_tags = "" shared_pose_entity = head entity = "chocchips_entity" }
+    set_tags = "base_slim"
+    entity = { required_tags = "" shared_pose_entity = head entity = "chocchips_entity" }
 }
 
 orhint = {
-	set_tags = "base_slim"
-	entity = { required_tags = "" shared_pose_entity = head entity = "orhint_entity" }
+    set_tags = "base_slim"
+    entity = { required_tags = "" shared_pose_entity = head entity = "orhint_entity" }
 }
 
 smal = {
-	set_tags = "base_slim"
-	entity = { required_tags = "" shared_pose_entity = head entity = "smal_entity" }
+    set_tags = "base_slim"
+    entity = { required_tags = "" shared_pose_entity = head entity = "smal_entity" }
 }
 
 tshola = {
-	set_tags = "base_slim"
-	entity = { required_tags = "" shared_pose_entity = head entity = "tshola_entity" }
+    set_tags = "base_slim"
+    entity = { required_tags = "" shared_pose_entity = head entity = "tshola_entity" }
 }
+

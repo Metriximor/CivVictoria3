@@ -36,9 +36,71 @@
 						}
 					}
 					AND = {
+						exists = scope:character
+						scope:character = {
+							culture = cu:truidencian
+						}
+					}
+				}
+			}
+		}
+	}
+
+	flat_gensokyojin_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = flat_clothes
+				template = gene_gensokyojin_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				OR = {
+					AND = {
 						exists = scope:pop
 						scope:pop = {
-							culture = cu:truidencian
+							culture = cu:gensokyojin
+						}
+					}
+					AND = {
+						exists = scope:character
+						scope:character = {
+							culture = cu:gensokyojin
+						}
+					}
+				}
+			}
+		}
+	}
+
+	flat_lambatan_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = flat_clothes
+				template = gene_lambatan_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				OR = {
+					AND = {
+						exists = scope:pop
+						scope:pop = {
+							culture = cu:lambatan
+						}
+					}
+					AND = {
+						exists = scope:character
+						scope:character = {
+							culture = cu:lambatan
 						}
 					}
 				}

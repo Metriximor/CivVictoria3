@@ -33,3 +33,9 @@ STATE_NIDAROS:
   farm: Soria Moria
 STATE_HYLDOR:
   city: Andeon
+STATE_AZORES:
+  city: Ponta Delgada
+  wood: Laurissilva
+  port: Portas do Mar
+  mine: Algar do Carvão
+  farm: Quinta das vacas

@@ -18,6 +18,7 @@ def localization_yaml_to_dict(states: str):
 # Declare consts
 yaml = YAML(typ='rt')
 yaml.default_flow_style = False
+random.seed(1)
 hub_types = ["city", "wood", "port", "mine", "farm"]
 hub_suffixes = {
     "city": [''],

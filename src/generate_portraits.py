@@ -22,17 +22,25 @@ def determineTags(is_slim: bool, empty_override: bool = False):
     else:
         return "base_model"
 
+def check_slim_file_exists(file_path: str) -> bool:
+    slim_path = Path(file_path).parent / 'slim' / (Path(file_path).stem + '_slim' + Path(file_path).suffix)
+    return slim_path.exists()
+
 for pathToDelete in PATHS_TO_DELETE:
     Path(pathToDelete).mkdir(parents=True, exist_ok=True)
     for file in Path(pathToDelete).iterdir():
         file.unlink()
 
+stored_clothes = {}
 for dds_path in glob.iglob(root_dir + "gfx/models/skins/skins_textures/**/*.dds", recursive=True):
     parent_dir = Path(dds_path).parent.name
     is_slim = False
+    has_other_version_equivalent = False
     if parent_dir == "slim":
         parent_dir = Path(dds_path).parent.parent.name
         is_slim = True
+    else:
+        has_other_version_equivalent = check_slim_file_exists(dds_path)
     if parent_dir == "players":
         shader_dir = "body"
     else:
@@ -58,12 +66,19 @@ entity = {{
 }}
 
 """
-    entity_registration = f"""
-{filename} = {{
-	set_tags = "{determineTags(is_slim, not inPath(["body", "players"], dds_path))}"
-	entity = {{ required_tags = "{determineTags(is_slim, inPath(["body", "players"], dds_path))}" shared_pose_entity = head entity = "{filename}_entity" }}
-}}
+    if inPath(["body", "players"], dds_path):
+        entity_registration = \
+f"""{filename} = {{
+    set_tags = "{determineTags(is_slim)}"
+    entity = {{ required_tags = "" shared_pose_entity = head entity = "{filename}_entity" }}
 """
+    else:
+        entity_registration = f"""{filename} = {{
+    entity = {{ required_tags = "{determineTags(is_slim)}" shared_pose_entity = head entity = "{filename}_entity" }}
+"""
+        if has_other_version_equivalent:
+            entity_registration += f"""    entity = {{ required_tags = "base_slim" shared_pose_entity = head entity = "{filename}_slim_entity" }}\n"""
+    entity_registration += "}\n\n"
 
     # Create a new file with the parent directory name
     with open(f"{ASSETS_PATH}/{parent_dir}.asset", "a") as f:

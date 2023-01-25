@@ -1,70 +1,70 @@
-
 steve = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "steve_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "steve_entity" }
 }
 
 steve_ghost = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "steve_ghost_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "steve_ghost_entity" }
 }
 
 thruitt = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_entity" }
 }
 
 thruitt_arctic = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_arctic_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_arctic_entity" }
 }
 
 thruitt_arctic_f = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_arctic_f_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_arctic_f_entity" }
 }
 
 thruitt_blond = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_blond_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_blond_entity" }
 }
 
 thruitt_blond_f = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_blond_f_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_blond_f_entity" }
 }
 
 thruitt_f = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_f_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_f_entity" }
 }
 
 zuri = {
-	set_tags = "base_model"
-	entity = { required_tags = "" shared_pose_entity = head entity = "zuri_entity" }
+    set_tags = "base_model"
+    entity = { required_tags = "" shared_pose_entity = head entity = "zuri_entity" }
 }
 
 alex = {
-	set_tags = "base_slim"
-	entity = { required_tags = "" shared_pose_entity = head entity = "alex_entity" }
+    set_tags = "base_slim"
+    entity = { required_tags = "" shared_pose_entity = head entity = "alex_entity" }
 }
 
 makena = {
-	set_tags = "base_slim"
-	entity = { required_tags = "" shared_pose_entity = head entity = "makena_entity" }
+    set_tags = "base_slim"
+    entity = { required_tags = "" shared_pose_entity = head entity = "makena_entity" }
 }
 
 thruitt_arctic_slim = {
-	set_tags = "base_slim"
-	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_arctic_slim_entity" }
+    set_tags = "base_slim"
+    entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_arctic_slim_entity" }
 }
 
 thruitt_blond_slim = {
-	set_tags = "base_slim"
-	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_blond_slim_entity" }
+    set_tags = "base_slim"
+    entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_blond_slim_entity" }
 }
 
 thruitt_slim = {
-	set_tags = "base_slim"
-	entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_slim_entity" }
+    set_tags = "base_slim"
+    entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_slim_entity" }
 }
+

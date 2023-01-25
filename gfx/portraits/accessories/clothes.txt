@@ -1,80 +1,110 @@
+top_baroque_blue = {
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_baroque_blue_entity" }
+}
+
+top_baroque_gray = {
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_baroque_gray_entity" }
+}
+
+top_baroque_sand = {
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_baroque_sand_entity" }
+}
 
 top_black_tailcoat = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_black_tailcoat_entity" }
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_black_tailcoat_entity" }
+    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_black_tailcoat_slim_entity" }
 }
 
 top_blue_soldier = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_blue_soldier_entity" }
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_blue_soldier_entity" }
 }
 
 top_diamond_full = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_diamond_full_entity" }
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_diamond_full_entity" }
 }
 
 top_genso_blue = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_genso_blue_entity" }
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_genso_blue_entity" }
 }
 
 top_genso_red = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_genso_red_entity" }
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_genso_red_entity" }
 }
 
 top_green_soldier = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_green_soldier_entity" }
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_green_soldier_entity" }
 }
 
 top_hte_soldier = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_hte_soldier_entity" }
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_hte_soldier_entity" }
 }
 
 top_kapresuit = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_kapresuit_entity" }
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_kapresuit_entity" }
 }
 
 top_redcoat = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_redcoat_entity" }
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_redcoat_entity" }
 }
 
 top_red_soldier = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_red_soldier_entity" }
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_red_soldier_entity" }
 }
 
 top_thruitt_black_tailcoat = {
-	set_tags = ""
-	entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_thruitt_black_tailcoat_entity" }
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_thruitt_black_tailcoat_entity" }
+    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_thruitt_black_tailcoat_slim_entity" }
+}
+
+top_victorian_tailcoat = {
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_victorian_tailcoat_entity" }
 }
 
 top_black_tailcoat_slim = {
-	set_tags = ""
-	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_black_tailcoat_slim_entity" }
+    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_black_tailcoat_slim_entity" }
+}
+
+top_brown_jacket_slim = {
+    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_brown_jacket_slim_entity" }
+}
+
+top_coat_blue_nohat_slim = {
+    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_coat_blue_nohat_slim_entity" }
+}
+
+top_coat_blue_slim = {
+    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_coat_blue_slim_entity" }
+}
+
+top_dress_blue_nohat_slim = {
+    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_dress_blue_nohat_slim_entity" }
+}
+
+top_dress_blue_slim = {
+    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_dress_blue_slim_entity" }
 }
 
 top_dress_green = {
-	set_tags = ""
-	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_dress_green_entity" }
+    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_dress_green_entity" }
+}
+
+top_red_jacket_slim = {
+    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_red_jacket_slim_entity" }
 }
 
 top_thruitt_black_tailcoat_slim = {
-	set_tags = ""
-	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_thruitt_black_tailcoat_slim_entity" }
+    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_thruitt_black_tailcoat_slim_entity" }
 }
 
 top_touhou_1 = {
-	set_tags = ""
-	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_touhou_1_entity" }
+    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_touhou_1_entity" }
 }
 
 top_touhou_2 = {
-	set_tags = ""
-	entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_touhou_2_entity" }
+    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_touhou_2_entity" }
 }
+
+top_touhou_2_nohat = {
+    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_touhou_2_nohat_entity" }
+}
+

@@ -13,11 +13,17 @@
 		gene_thruitt_clothes = {
 			index = 1
 			male = {
-				1 = top_thruitt_black_tailcoat
+				1 = top_baroque_blue
+				1 = top_baroque_sand
+				1 = top_baroque_gray
+				1 = top_victorian_tailcoat
 			}
 			female = {
-				1 = top_thruitt_black_tailcoat
+				1 = top_brown_jacket_slim
+				1 = top_coat_blue_nohat_slim
+				1 = top_dress_blue_nohat_slim
 				1 = top_dress_green
+				1 = top_red_jacket_slim
 			}
 			boy = male
 			girl = male
@@ -27,21 +33,14 @@
 			index = 2
 			male = {
 				1 = top_baroque_blue
-				1 = top_baroque_gray
 				1 = top_baroque_sand
-				1 = top_black_tailcoat
-				1 = top_blue_soldier
-				1 = top_green_soldier
-				1 = top_hte_soldier
-				1 = top_red_soldier
-				1 = top_redcoat
+				1 = top_baroque_gray
 				1 = top_victorian_tailcoat
 			}
 			female = {
-				1 = top_black_tailcoat
 				1 = top_brown_jacket_slim
-				1 = top_coat_blue_nohat_slim
 				1 = top_coat_blue_slim
+				1 = top_coat_blue_nohat_slim
 				1 = top_dress_blue_nohat_slim
 				1 = top_dress_blue_slim
 				1 = top_dress_green
@@ -68,12 +67,12 @@
 
 		gene_lambatan_clothes = {
 			index = 4
-			male = {
+			male = {}
+			female = {
 				1 = top_kapresuit
 			}
-			female = male
 			boy = male
-			girl = female
+			girl = male
 		}
 	}
 }

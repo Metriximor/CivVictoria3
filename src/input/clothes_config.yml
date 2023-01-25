@@ -1,0 +1,36 @@
+truidencian_clothes:
+  male:
+    - top_baroque_blue
+    - top_baroque_sand
+    - top_baroque_gray
+    - top_victorian_tailcoat
+  female:
+    - top_brown_jacket_slim
+    - top_coat_blue_nohat_slim
+    - top_coat_blue_slim
+    - top_dress_blue_nohat_slim
+    - top_dress_blue_slim
+    - top_dress_green
+    - top_red_jacket_slim
+truidencian_military_clothes:
+  male:
+    - top_hte_soldier
+    - top_red_soldier
+    - top_redcoat
+  female:  
+    - thing
+gensokyojin_clothes:
+  male:
+    - top_genso_red
+    - top_genso_blue
+  female:
+    - top:touhou_1
+    - top:touhou_2
+    - top:touhou_2_nohat
+gensokyojin_military_clothes:
+  male:
+    - top_diamond_full
+    - top_red_soldier
+  female:  
+    - thing
+  ....

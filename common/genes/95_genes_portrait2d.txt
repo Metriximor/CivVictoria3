@@ -5,10 +5,22 @@
 			male = {
 				1 = "steve"
 				1 = "zuri"
+				1 = "noor"
+				1 = "kai"
+				1 = "digni"
+				1 = "doctor"
+				1 = "tyler"
+				1 = "vali"
 			}
 			female = {
 				1 = "alex"
 				1 = "makena"
+				1 = "ari"
+				1 = "efe"
+				1 = "flannel"
+				1 = "hazel"
+				1 = "lunar"
+				1 = "rose"
 			}
 			boy = male
 			girl = female

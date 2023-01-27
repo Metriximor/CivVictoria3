@@ -7,20 +7,20 @@
 				1 = zuri
 				1 = noor
 				1 = kai
-				1 = digni
-				1 = doctor
-				1 = tyler
-				1 = vali
+				1 = non_official_digni
+				1 = non_official_doctor
+				1 = non_official_tyler
+				1 = non_official_vali
 			}
 			female = {
 				1 = alex
 				1 = makena
 				1 = ari
 				1 = efe
-				1 = flannel
-				1 = hazel
-				1 = lunar
-				1 = rose
+				1 = non_official_flannel
+				1 = non_official_hazel
+				1 = non_official_lunar
+				1 = non_official_rose
 			}
 			boy = male
 			girl = female

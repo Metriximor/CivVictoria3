@@ -3,24 +3,24 @@
 		gene_base_skin = {
 			index = 0
 			male = {
-				1 = "steve"
-				1 = "zuri"
-				1 = "noor"
-				1 = "kai"
-				1 = "digni"
-				1 = "doctor"
-				1 = "tyler"
-				1 = "vali"
+				1 = steve
+				1 = zuri
+				1 = noor
+				1 = kai
+				1 = digni
+				1 = doctor
+				1 = tyler
+				1 = vali
 			}
 			female = {
-				1 = "alex"
-				1 = "makena"
-				1 = "ari"
-				1 = "efe"
-				1 = "flannel"
-				1 = "hazel"
-				1 = "lunar"
-				1 = "rose"
+				1 = alex
+				1 = makena
+				1 = ari
+				1 = efe
+				1 = flannel
+				1 = hazel
+				1 = lunar
+				1 = rose
 			}
 			boy = male
 			girl = female
@@ -56,14 +56,14 @@
 		gene_thruitt = {
 			index = 2
 			male = {
-				1 = "thruitt"
-				1 = "thruitt_arctic"
-				1 = "thruitt_blond"
+				1 = thruitt
+				1 = thruitt_arctic
+				1 = thruitt_blond
 			}
 			female = {
-				1 = "thruitt_slim"
-				1 = "thruitt_arctic_slim"
-				1 = "thruitt_blond_slim"
+				1 = thruitt_slim
+				1 = thruitt_arctic_slim
+				1 = thruitt_blond_slim
 			}
 			boy = male
 			girl = female

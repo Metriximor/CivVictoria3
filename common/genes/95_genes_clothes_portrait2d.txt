@@ -69,7 +69,7 @@
 			index = 4
 			male = {}
 			female = {
-				1 = top_kapresuit
+				1 = top_kapresuit_slim
 			}
 			boy = male
 			girl = male

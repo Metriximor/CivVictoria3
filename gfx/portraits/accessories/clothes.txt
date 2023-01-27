@@ -39,10 +39,6 @@ top_hte_soldier = {
     entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_hte_soldier_entity" }
 }
 
-top_kapresuit = {
-    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_kapresuit_entity" }
-}
-
 top_redcoat = {
     entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_redcoat_entity" }
 }
@@ -86,6 +82,10 @@ top_dress_blue_slim = {
 
 top_dress_green = {
     entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_dress_green_entity" }
+}
+
+top_kapresuit_slim = {
+    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_kapresuit_slim_entity" }
 }
 
 top_red_jacket_slim = {

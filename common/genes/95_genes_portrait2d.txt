@@ -17,10 +17,10 @@
 				1 = makena
 				1 = ari
 				1 = efe
-				1 = non_official_flannel
-				1 = non_official_hazel
-				1 = non_official_lunar
-				1 = non_official_rose
+				1 = non_official_flannel_slim
+				1 = non_official_hazel_slim
+				1 = non_official_lunar_slim
+				1 = non_official_rose_slim
 			}
 			boy = male
 			girl = female

@@ -1,8 +1,7 @@
 ﻿import json
 import rubicon_parser as paradox
-from pathlib import Path
 from random import randint
-from utils import load_file_into_string, write_to_file
+from utils import load_file_into_string, write_to_file, yaml
 
 def create_pops(country_abrev, state_name):
     result = ""
@@ -35,7 +34,7 @@ def create_pops(country_abrev, state_name):
 states = json.loads(load_file_into_string("src/input/states.json"))
 split_states: dict = json.loads(load_file_into_string("src/input/split_states.json"))
 state_data = load_file_into_string("map_data/state_regions/00_states.txt")
-state_details = json.loads(load_file_into_string("src/input/state_data.json"))
+state_details = yaml.load(load_file_into_string("src/input/state_data.yml"))
 country_data = paradox.load("common/country_definitions/00_countries.txt")
 
 # Prepare the data

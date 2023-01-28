@@ -44,10 +44,10 @@ building_output_{goods}_mult = {{
             for goods in generated_goods:
                 print(f"Generating building inputs and outputs localization for {goods}")
                 # TODO Sanitize the second goods in each line for user readable text
-                localization_file.write(f''' modifier_building_input_{goods}_add:0 "@{goods}! {goods} input per level"
- modifier_building_input_{goods}_add_desc:0 "The amount of @{goods}! {goods} consumed by buildings"
- modifier_building_output_{goods}_add:0 "@{goods}! {goods} output per level"
- modifier_building_output_{goods}_add_desc:0 "The amount of @{goods}! {goods} produced by buildings"
- modifier_building_output_{goods}_mult:0 "Building @{goods}! {goods} output"
- modifier_building_output_{goods}_mult_desc:0 "A bonus or penalty to the amount of @{goods}! {goods} produced by buildings"
+                localization_file.write(f''' modifier_building_input_{goods}_add: "@{goods}! ${goods}$ input per level"
+ modifier_building_input_{goods}_add_desc: "The amount of @{goods}! ${goods}$ consumed by buildings"
+ modifier_building_output_{goods}_add: "@{goods}! {goods} output per level"
+ modifier_building_output_{goods}_add_desc: "The amount of @{goods}! ${goods}$ produced by buildings"
+ modifier_building_output_{goods}_mult: "Building @{goods}! ${goods}$ output"
+ modifier_building_output_{goods}_mult_desc: "A bonus or penalty to the amount of @{goods}! ${goods}$ produced by buildings"
 ''')

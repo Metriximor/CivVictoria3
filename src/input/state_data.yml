@@ -1,0 +1,92 @@
+﻿STATE_NIDAROS:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_HYLDOR:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_FLATAGRAS:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_SIX_COLONIES:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_OUTER_NIDAROS:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_NUMBERS_LAWN:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_CIV_PROVENCE:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_AMATERASU_SHORES:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_PORTUCALE:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_CASCAIS:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_OLIMPIA:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_ATLAS:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_AZORES:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_CLASSICALE:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_CIV_ALENTEJO:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_WEST_LAMBAT_CITY:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_VALLE_OCCIDENTAL:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_CHUNGIA:
+  naval_exit_id: STATE_LYREAN_SEA
+STATE_MERCADO_STRAIT:
+  naval_exit_id: STATE_STONY_SEA
+STATE_PARFAIT_KAWAYAN:
+  naval_exit_id: STATE_STONY_SEA
+STATE_PROVINCE_OF_NEW_DANZILONA:
+  naval_exit_id: STATE_MEDI_SEA 
+STATE_PAMPANG:
+  naval_exit_id: STATE_LYREAN_SEA
+STATE_MELIA:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_PETERSKOGUR:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_SOUTH_MELIA:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_WOLKEN:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_SOUTHERN_PROVINCE:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_EASTERN_SHINING_ISLES:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_WOLKEN_ISLANDS:
+  naval_exit_id: STATE_MEDI_SEA
+STATE_NORTHERN_MERY:
+  naval_exit_id: STATE_LYREAN_SEA
+STATE_CENTRAL_MERY:
+  naval_exit_id: STATE_MIDDLE_OCEAN
+STATE_SOUTHERN_MERY:
+  naval_exit_id: STATE_MIDDLE_OCEAN
+STATE_SORLAND:
+  pops:
+  - culture: thruitt
+    religion: bezism
+    ratio: 1
+  - culture: gensokyojin
+    religion: bezism
+    ratio: 9
+STATE_MORINOYARI:
+  pops:
+  - culture: thruitt
+    religion: bezism
+    ratio: 9
+  - culture: gensokyojin
+    religion: bezism
+    ratio: 1
+  homelands:
+  - thruittans
+STATE_BLANCO_STRAIT:
+  homelands:
+  - lambatan
+  - mery_culture
+  naval_exit_id: STATE_STONY_SEA
+STATE_OUTLAND:
+  pops:
+  - culture: thruitt
+    religion: bezism
+    ratio: 1

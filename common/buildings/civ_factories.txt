@@ -4,6 +4,7 @@
 	building_group = bg_factories
 	production_method_groups = {
 		pmg_base_building_tool_factory
+		pmg_buildings_employment
 	}
 }
 
@@ -14,6 +15,7 @@ building_ore_smelter = {
 	production_method_groups = {
 		pmg_base_iron_ore_smelter
 		pmg_base_gold_ore_smelter
+		pmg_buildings_employment
 	}
 }
 
@@ -23,6 +25,7 @@ building_charcoal_smelter = {
 	building_group = bg_factories
 	production_method_groups = {
 		pmg_base_charcoal_smelter
+		pmg_buildings_employment
 	}
 }
 
@@ -33,5 +36,6 @@ building_glass_smelter = {
 	production_method_groups = {
 		pmg_base_refine_sand
 		pmg_base_make_bottles
+		pmg_buildings_employment
 	}
 }

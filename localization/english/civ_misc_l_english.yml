@@ -31,9 +31,15 @@
  pm_craft_iron_tools: "Craft Iron Tools"
  pm_craft_gold_tools: "Craft Gold Tools"
  pm_craft_diamond_tools: "Craft Diamond Tools"
+
  pm_convert_log: "Convert Log to Charcoal"
+
  pm_basic_iron_smelting: "Basic Iron Smelting"
  pm_basic_gold_smelting: "Basic Gold Smelting"
+
+ pm_employ_newfriends: "Employ Newfriends"
+ pm_employ_midfriends: "Employ Midfriends"
+ pm_employ_oldfriends: "Employ Oldfriends"
 
  building_tool_factory: "Tool Factory"
  building_tree_farm: "Tree Farm"
@@ -42,6 +48,16 @@
  building_charcoal_smelter: "Charcoal Smelter"
  building_glass_smelter: "Glass Smelter"
  building_sand_pit: "Sand Pit"
+ building_mushroom_farm: "Mushroom Farm"
+ building_sugar_cane_farm: "Sugar Cane Farm"
+ building_cactus_farm: "Cactus Farm"
+ building_melon_farm: "Melon Farm"
+ building_pumpkin_farm: "Pumpkin Farm"
+ building_potato_farm: "Potato Farm"
+ building_cocoa_farm: "Cocoa Farm"
+ building_carrot_farm: "Carrot Farm"
+ building_beetroot_farm: "Beetroot Farm"
+ building_wheat_farm: "Wheat Farm"
 
  LUS: "Lusitania"
  LUS_ADJ: "$lusitan$"

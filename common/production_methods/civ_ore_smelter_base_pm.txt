@@ -10,9 +10,6 @@ pm_basic_iron_smelting = {
 			building_input_charcoal_add = 1
 			building_output_iron_ingot_add = 20
 		}
-		level_scaled = {
-			building_employment_newfriends_add = 20
-		}
 	}
 }
 

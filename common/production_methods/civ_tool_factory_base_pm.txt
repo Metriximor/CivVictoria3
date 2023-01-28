@@ -6,10 +6,6 @@
 
 			building_output_wood_tools_add = 5
 		}
-
-		level_scaled = {
-			building_employment_newfriends_add = 20
-		}
 	}
 }
 

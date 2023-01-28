@@ -71,3 +71,48 @@ bg_wheat_farms = {
 	parent_group = bg_agriculture
 	default_building = building_wheat_farm
 }
+
+bg_beetroot_farms = {
+	parent_group = bg_agriculture
+	default_building = building_beetroot_farm
+}
+
+bg_carrot_farms = {
+	parent_group = bg_agriculture
+	default_building = building_carrot_farm
+}
+
+bg_cocoa_farm = {
+	parent_group = bg_agriculture
+	default_building = building_cocoa_farm
+}
+
+bg_potato_farms = {
+	parent_group = bg_agriculture
+	default_building = building_potato_farm
+}
+
+bg_pumpkin_farms = {
+	parent_group = bg_agriculture
+	default_building = building_pumpkin_farm
+}
+
+bg_melon_farms = {
+	parent_group = bg_agriculture
+	default_building = building_melon_farm
+}
+
+bg_cactus_farms = {
+	parent_group = bg_agriculture
+	default_building = building_cactus_farm
+}
+
+bg_sugar_cane_farms = {
+	parent_group = bg_agriculture
+	default_building = building_sugar_cane_farm
+}
+
+bg_mushroom_farms = {
+	parent_group = bg_agriculture
+	default_building = building_mushroom_farm
+}

@@ -5,10 +5,6 @@
 			building_input_wood_tools_add = 16
 			building_output_stone_add = 64
 		}
-
-		level_scaled = {
-			building_employment_newfriends_add = 16
-		}
 	}
 }
 

@@ -28,6 +28,51 @@ building_output_stone_mult = {
     percent = yes
 }
 
+building_output_sand_add = {
+    good = yes
+    percent = no
+}
+
+building_input_sand_add = {
+    good = no
+    percent = no
+}
+
+building_output_sand_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_glass_add = {
+    good = yes
+    percent = no
+}
+
+building_input_glass_add = {
+    good = no
+    percent = no
+}
+
+building_output_glass_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_glass_bottle_add = {
+    good = yes
+    percent = no
+}
+
+building_input_glass_bottle_add = {
+    good = no
+    percent = no
+}
+
+building_output_glass_bottle_mult = {
+    good = yes
+    percent = yes
+}
+
 building_output_charcoal_add = {
     good = yes
     percent = no
@@ -43,32 +88,62 @@ building_output_charcoal_mult = {
     percent = yes
 }
 
-building_output_ironOre_add = {
+building_output_iron_ore_add = {
     good = yes
     percent = no
 }
 
-building_input_ironOre_add = {
+building_input_iron_ore_add = {
     good = no
     percent = no
 }
 
-building_output_ironOre_mult = {
+building_output_iron_ore_mult = {
     good = yes
     percent = yes
 }
 
-building_output_ironIngot_add = {
+building_output_iron_ingot_add = {
     good = yes
     percent = no
 }
 
-building_input_ironIngot_add = {
+building_input_iron_ingot_add = {
     good = no
     percent = no
 }
 
-building_output_ironIngot_mult = {
+building_output_iron_ingot_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_gold_ore_add = {
+    good = yes
+    percent = no
+}
+
+building_input_gold_ore_add = {
+    good = no
+    percent = no
+}
+
+building_output_gold_ore_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_gold_ingot_add = {
+    good = yes
+    percent = no
+}
+
+building_input_gold_ingot_add = {
+    good = no
+    percent = no
+}
+
+building_output_gold_ingot_mult = {
     good = yes
     percent = yes
 }
@@ -99,6 +174,81 @@ building_input_stone_tools_add = {
 }
 
 building_output_stone_tools_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_iron_tools_add = {
+    good = yes
+    percent = no
+}
+
+building_input_iron_tools_add = {
+    good = no
+    percent = no
+}
+
+building_output_iron_tools_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_gold_tools_add = {
+    good = yes
+    percent = no
+}
+
+building_input_gold_tools_add = {
+    good = no
+    percent = no
+}
+
+building_output_gold_tools_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_diamond_tools_add = {
+    good = yes
+    percent = no
+}
+
+building_input_diamond_tools_add = {
+    good = no
+    percent = no
+}
+
+building_output_diamond_tools_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_redstone_add = {
+    good = yes
+    percent = no
+}
+
+building_input_redstone_add = {
+    good = no
+    percent = no
+}
+
+building_output_redstone_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_diamond_add = {
+    good = yes
+    percent = no
+}
+
+building_input_diamond_add = {
+    good = no
+    percent = no
+}
+
+building_output_diamond_mult = {
     good = yes
     percent = yes
 }

@@ -1,9 +1,5 @@
-﻿pmg_base_mine = {
+﻿pmg_base_building_sand_pit = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_wood_pickaxe
-		pm_stone_pickaxe
-		pm_iron_pickaxe
-		pm_gold_pickaxe
 	}
 }

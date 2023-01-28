@@ -1,6 +1,7 @@
 ﻿building_tool_factory = {
 	texture = "gfx/interface/icons/building_icons/tooling_factory.dds"
-	building_group = bg_factory
+	levels_per_mesh = 5
+	building_group = bg_factories
 	production_method_groups = {
 		pmg_base_building_tool_factory
 	}
@@ -8,16 +9,29 @@
 
 building_ore_smelter = {
 	texture = "gfx/interface/icons/building_icons/ore_smelter.dds"
-	building_group = bg_factory
+	levels_per_mesh = 5
+	building_group = bg_factories
 	production_method_groups = {
-		pmg_base_ore_smelter
+		pmg_base_iron_ore_smelter
+		pmg_base_gold_ore_smelter
 	}
 }
 
 building_charcoal_smelter = {
 	texture = "gfx/interface/icons/building_icons/charcoal_smelter.dds"
-	building_group = bg_factory
+	levels_per_mesh = 5
+	building_group = bg_factories
 	production_method_groups = {
 		pmg_base_charcoal_smelter
+	}
+}
+
+building_glass_smelter = {
+	texture = "gfx/interface/icons/building_icons/glass_smelter.dds"
+	building_group = bg_factories
+	levels_per_mesh = 5
+	production_method_groups = {
+		pmg_base_refine_sand
+		pmg_base_make_bottles
 	}
 }

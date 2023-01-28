@@ -1,15 +1,32 @@
-﻿pm_basic_smelting = {
-	texture = "gfx/interface/icons/production_method_icons/basic_smelting.dds"
+﻿pm_no_iron_smelting = {
+	texture = "gfx/interface/icons/production_method_icons/furnance.dds"
+}
+
+pm_basic_iron_smelting = {
+	texture = "gfx/interface/icons/production_method_icons/basic_iron_smelting.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_ironOre_add = 10
+			building_input_iron_ore_add = 10
 			building_input_charcoal_add = 1
-
-			building_output_ironIngot_add = 20
+			building_output_iron_ingot_add = 20
 		}
-
 		level_scaled = {
 			building_employment_newfriends_add = 20
+		}
+	}
+}
+
+pm_no_iron_smelting = {
+	texture = "gfx/interface/icons/production_method_icons/furnance.dds"
+}
+
+pm_basic_gold_smelting = {
+	texture = "gfx/interface/icons/production_method_icons/basic_gold_smelting.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_gold_ore_add = 10
+			building_input_charcoal_add = 1
+			building_output_gold_ingot_add = 20
 		}
 	}
 }

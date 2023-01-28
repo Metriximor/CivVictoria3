@@ -20,8 +20,46 @@ pm_wood_axe = {
 		}
 
 		level_scaled = {
-			building_employment_newfriends_add = 16
+			building_employment_newfriends_add = 64
 		}
 	}
 }
 
+pm_stone_axe = {
+	texture = "gfx/interface/icons/production_method_icons/stone_axe.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_stone_tools_add = 16
+			building_output_oak_log_add = 256 # stone has 4 multiplier
+		}
+		level_scaled = {
+			building_employment_newfriends_add = 64
+		}
+	}
+}
+
+pm_iron_axe = {
+	texture = "gfx/interface/icons/production_method_icons/iron_axe.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_iron_tools_add = 16
+			building_output_oak_log_add = 384 # iron has 6 multiplier
+		}
+		level_scaled = {
+			building_employment_newfriends_add = 64
+		}
+	}
+}
+
+pm_gold_axe = {
+	texture = "gfx/interface/icons/production_method_icons/gold_axe.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_gold_tools_add = 16
+			building_output_oak_log_add = 781 # gold has 12 multiplier + base efficiency speed up averaged out
+		}
+		level_scaled = {
+			building_employment_newfriends_add = 64
+		}
+	}
+}

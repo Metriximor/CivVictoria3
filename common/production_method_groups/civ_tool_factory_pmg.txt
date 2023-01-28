@@ -3,5 +3,8 @@
 	production_methods = {
 		pm_craft_wood_tools
 		pm_craft_stone_tools
+		pm_craft_iron_tools
+		pm_craft_gold_tools
+		pm_craft_diamond_tools
 	}
 }

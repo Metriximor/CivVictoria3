@@ -37,4 +37,12 @@
  intermediate_botter_desc: "This player has advanced their botting skills, using more advanced tools and frameworks like Mineflayer to automate tasks."
  advanced_botter: "Advanced Botter"
  advanced_botter_desc: "This player is a master of automation, their skills having a significant impact on the community."
+ expert_botter: "Expert Botter"
  expert_botter_desc: "This player is considered one of the most influential programmers in the community, their abilities influencing the community through the creation of new web apps or server plugins."
+
+ elawyer: "E-Lawyer"
+ dramatic: "Dramatic"
+ verbose: "Verbose"
+ wholesome: "Wholesom"
+ witty: "Witty"
+ 

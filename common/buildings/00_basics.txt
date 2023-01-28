@@ -1,8 +1,8 @@
 ﻿# All of these buildings are required by the vanilla game so they cannot be removed
 
 building_subsistence_farms = {
+	texture = "gfx/interface/icons/building_icons/subsistence_farm.dds"
 	building_group = bg_subsistence_agriculture
-	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
 
 	production_method_groups = {
 	}
@@ -23,8 +23,7 @@ building_construction_sector = {
 	has_max_level = yes
 	
 	required_construction = construction_cost_very_low
-	unlocking_technologies = {
-	}
+	
 	production_method_groups = {
 	}
 	
@@ -39,10 +38,7 @@ building_barracks = {
 	
 	has_max_level = yes
 	
-	levels_per_mesh = 25
-
-	unlocking_technologies = {
-	}
+	levels_per_mesh = 10
 
 	production_method_groups = {
 	}
@@ -54,14 +50,12 @@ building_naval_base = {
 	building_group = bg_navy
 	# recruits_combat_unit = combat_unit_flotilla
 	city_type = port
-	levels_per_mesh = 25
+	levels_per_mesh = 10
 	
 	has_max_level = yes
 	
 	texture = "gfx/interface/icons/building_icons/naval_base.dds"
 	naval = yes
-	unlocking_technologies = { 
-	}
 	
 	production_method_groups = {
 	}
@@ -79,12 +73,9 @@ building_naval_base = {
 
 building_urban_center = {
 	building_group = bg_service
-	texture = "gfx/interface/icons/building_icons/urban_center.dds"
+	texture = "gfx/interface/icons/building_icons/village.dds"
 	city_type = city
 	residence_points_per_level = 0
-	
-	unlocking_technologies = { 
-	}
 	
 	production_method_groups = {
 	}

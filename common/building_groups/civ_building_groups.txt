@@ -19,6 +19,17 @@
 	}
 }
 
+bg_sand_pit = {
+	category = rural
+	capped_by_resources = yes
+	economy_of_scale = yes
+	default_building = building_sand_pit
+	lens = plantation
+	cash_reserves_max = 25000
+	urbanization = 3
+	infrastructure_usage_per_level = 1
+}
+
 bg_mine = {
 	category = rural
 
@@ -40,7 +51,7 @@ bg_mine = {
 	}
 }
 
-bg_factory = {
+bg_factories = {
 	category = urban
     always_possible = yes
     economy_of_scale = yes
@@ -53,5 +64,10 @@ bg_factory = {
 	}
 
 	urbanization = 20
-	infrastructure_usage_per_level = 2
+	infrastructure_usage_per_level = 1
+}
+
+bg_wheat_farms = {
+	parent_group = bg_agriculture
+	default_building = building_wheat_farm
 }

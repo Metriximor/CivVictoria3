@@ -1,0 +1,36 @@
+﻿bg_government = {
+	category = urban
+
+	always_possible = yes
+	
+	is_government_funded = yes
+	
+	economy_of_scale = yes
+	
+	lens = government
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 1
+}
+
+bg_bureaucracy = {
+	parent_group = bg_government
+}
+
+bg_infrastructure = {
+	category = development
+
+	always_possible = yes
+
+	lens = infrastructure
+	
+	stateregion_max_level = yes
+}
+
+bg_public_infrastructure = {
+	parent_group = bg_infrastructure
+
+	is_government_funded = yes
+	
+	urbanization = 5
+}

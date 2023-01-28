@@ -90,7 +90,9 @@
       "gfx/portraits/accessory_variations",
       "gfx/portraits/cameras",
       "gfx/portraits/portrait_animations",
-      "gfx/portraits/portrait_modifiers"
+      "gfx/portraits/portrait_modifiers",
+      "localization/english/hub_names_l_english.yml",
+      "localization/english/names_l_english.yml"
     ]
   }
 }

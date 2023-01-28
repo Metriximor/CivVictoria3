@@ -1,15 +1,13 @@
-﻿pmg_base_iron_ore_smelter = {
+﻿pmg_base_refine_sand = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_no_iron_smelting
-		pm_basic_iron_smelting
+		pm_no_smelting
 	}
 }
 
-pmg_base_gold_ore_smelter = {
+pmg_base_make_bottles = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_no_gold_smelting
-		pm_basic_gold_smelting
+		pm_no_smelting
 	}
 }

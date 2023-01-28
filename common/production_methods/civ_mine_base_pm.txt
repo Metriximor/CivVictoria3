@@ -19,7 +19,34 @@ pm_stone_pickaxe = {
 			building_input_stone_tools_add = 16
 		
 			building_output_stone_add = 128
-			building_output_ironOre_add = 16
+			building_output_iron_ore_add = 16
+		}
+	}
+}
+
+pm_iron_pickaxe = {
+	texture = "gfx/interface/icons/production_method_icons/iron_pickaxe.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_iron_tools_add = 16
+		
+			building_output_iron_ore_add = 32
+			building_output_gold_ore_add = 16
+			building_output_redstone_add = 16
+			building_output_diamond_add = 1
+		}
+	}
+}
+
+pm_gold_pickaxe = {
+	texture = "gfx/interface/icons/production_method_icons/gold_pickaxe.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_gold_tools_add = 16
+		
+			building_output_stone_add = 64
+			building_output_iron_ore_add = 16
+			building_output_gold_ore_add = 16
 		}
 	}
 }

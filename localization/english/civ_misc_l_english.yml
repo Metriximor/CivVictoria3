@@ -41,6 +41,16 @@
  pm_employ_midfriends: "Employ Midfriends"
  pm_employ_oldfriends: "Employ Oldfriends"
 
+ pm_experience_1: "Basic Experience 1"
+ pm_experience_2: "Basic Experience 2"
+ pm_experience_3: "Basic Experience 3"
+ pm_experience_4: "Basic Experience 4"
+ pm_experience_5: "Basic Experience 5"
+ pm_advanced_experience_1: "Advanced Experience 1"
+ pm_advanced_experience_2: "Advanced Experience 2"
+ pm_advanced_experience_3: "Advanced Experience 3"
+ pm_advanced_experience_4: "Advanced Experience 4"
+
  building_tool_factory: "Tool Factory"
  building_tree_farm: "Tree Farm"
  building_mine: "Mines"
@@ -58,6 +68,7 @@
  building_carrot_farm: "Carrot Farm"
  building_beetroot_farm: "Beetroot Farm"
  building_wheat_farm: "Wheat Farm"
+ building_experience_cauldron: "Experience Cauldron"
 
  LUS: "Lusitania"
  LUS_ADJ: "$lusitan$"

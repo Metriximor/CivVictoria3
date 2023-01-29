@@ -39,3 +39,13 @@ building_glass_smelter = {
 		pmg_buildings_employment
 	}
 }
+
+building_experience_cauldron = {
+	texture = "gfx/interface/icons/building_icons/experience_cauldron.dds"
+	building_group = bg_factories
+	levels_per_mesh = 5
+	production_method_groups = {
+		pmg_base_experience_cauldron
+		pmg_buildings_employment
+	}
+}

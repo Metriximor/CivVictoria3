@@ -157,3 +157,112 @@ diamond = {
 	convoy_cost_multiplier = @stackable_64_ccm
 	traded_quantity = 64
 }
+
+wheat = {
+	texture = "gfx/interface/icons/goods_icons/wheat.dds"
+	cost = 50
+	category = staple
+	consumption_tax_cost = 500
+	convoy_cost_multiplier = @stackable_64_ccm
+	traded_quantity = 64
+}
+
+beetroot = {
+	texture = "gfx/interface/icons/goods_icons/beetroot.dds"
+	cost = 50
+	category = staple
+	consumption_tax_cost = 500
+	convoy_cost_multiplier = @stackable_64_ccm
+	traded_quantity = 64
+}
+
+carrot = {
+	texture = "gfx/interface/icons/goods_icons/carrot.dds"
+	cost = 50
+	category = staple
+	consumption_tax_cost = 500
+	convoy_cost_multiplier = @stackable_64_ccm
+	traded_quantity = 64
+}
+
+
+potato = {
+	texture = "gfx/interface/icons/goods_icons/potato.dds"
+	cost = 50
+	category = staple
+	consumption_tax_cost = 500
+	convoy_cost_multiplier = @stackable_64_ccm
+	traded_quantity = 64
+}
+
+pumpkin = {
+	texture = "gfx/interface/icons/goods_icons/pumpkin.dds"
+	cost = 50
+	category = staple
+	consumption_tax_cost = 500
+	convoy_cost_multiplier = @stackable_64_ccm
+	traded_quantity = 64
+}
+
+melon = {
+	texture = "gfx/interface/icons/goods_icons/melon.dds"
+	cost = 50
+	category = staple
+	consumption_tax_cost = 500
+	convoy_cost_multiplier = @stackable_64_ccm
+	traded_quantity = 64
+}
+
+cactus = {
+	texture = "gfx/interface/icons/goods_icons/cactus.dds"
+	cost = 50
+	category = staple
+	consumption_tax_cost = 500
+	convoy_cost_multiplier = @stackable_64_ccm
+	traded_quantity = 64
+}
+
+sugar = {
+	texture = "gfx/interface/icons/goods_icons/sugar.dds"
+	cost = 50
+	category = staple
+	consumption_tax_cost = 500
+	convoy_cost_multiplier = @stackable_64_ccm
+	traded_quantity = 64
+}
+
+mushroom = {
+	texture = "gfx/interface/icons/goods_icons/mushroom.dds"
+	cost = 50
+	category = staple
+	consumption_tax_cost = 500
+	convoy_cost_multiplier = @stackable_64_ccm
+	traded_quantity = 64
+}
+
+experience_bottle = {
+	texture = "gfx/interface/icons/goods_icons/experience_bottle.dds"
+	cost = 350
+	category = luxury
+	consumption_tax_cost = 50
+	convoy_cost_multiplier = @stackable_64_ccm
+	traded_quantity = 64
+}
+
+tree_sapling = {
+	texture = "gfx/interface/icons/goods_icons/oak_saplings.dds"
+	cost = 50
+	category = industrial
+	consumption_tax_cost = 500
+	convoy_cost_multiplier = @stackable_64_ccm
+	traded_quantity = 64
+}
+
+mob_drop = {
+	texture = "gfx/interface/icons/goods_icons/mob_drops.dds"
+	cost = 300
+	category = industrial
+	consumption_tax_cost = 200
+	convoy_cost_multiplier = @stackable_64_ccm
+	traded_quantity = 64
+}

@@ -1,10 +1,11 @@
 ﻿import pickle
-import bz2
-from pathlib import Path
-from utils import write_to_file, rgb_to_hex
-
 import cv2
+from bz2 import BZ2File
+from utils import write_to_file, rgb_to_hex, file_exists, yaml, load_file_into_string
 
+
+# Generates province_colors if it doesn't exist yet
+# Provinces colors is a dict where the key is a tuple (r,g,b) and the values are the (x,y) locations
 def extract_colors(image_file):
     img = cv2.imread(image_file)
     height, width, _ = img.shape
@@ -24,25 +25,27 @@ def extract_colors(image_file):
     print("\nProcessing complete!")
     return mapped_colors
 
-def file_exists(path):
-  return Path(path).is_file()
-
+# Prepares Inputs
 color_map = {}
-# Provinces colors is a dict where the key is a tuple (r,g,b) and the values are the (x,y) locations
 provinces_path = "src/output/provinces_colors"
 if file_exists(provinces_path):
   print("Loading existing province color terrains file")
-  with bz2.BZ2File(provinces_path, 'rb') as provinces_colors:
+  with BZ2File(provinces_path, 'rb') as provinces_colors:
     color_map = pickle.load(provinces_colors)
 else:
     color_map = extract_colors("map_data/provinces.png")
     print("Color map generated, zipping into file\n")
     print(len(color_map))
-    with bz2.BZ2File(provinces_path, 'wb') as config_dictionary_file:
+    with BZ2File(provinces_path, 'wb') as config_dictionary_file:
         pickle.dump(color_map, config_dictionary_file)
 
+biome_data = yaml.load(load_file_into_string("src/input/biomes_mapping.yml"))
+biomes_map = cv2.imread("map_data/provinces.png")
+
+# Temporary
 output = "#This is a generated file, do not modify unless you know what you are doing!\n"
 for hex in [ f"x{hex}" for hex in color_map ]:
     output += f'{hex}="plains"\n'
 
+# Final output
 write_to_file("src/output/province_terrains.txt", output)

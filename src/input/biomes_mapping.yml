@@ -1,0 +1,39 @@
+﻿input_biomes:
+  mountains_with_no_trees: 404040
+  mountains_with_snow: 808080
+  island: ffd800
+  snowy_tundra: e8e8e8
+  plains_hills: 8ac100
+  plains: b6ff00
+  jungle_hills: 00b214
+  sparse_jungle: 4cff00
+  jungle: 00db12
+  mushroom_island: ff6a00
+  dark_forest: 3c6615
+  dry_hills: 7f9300
+  dry_plains: b3ce00
+  swamp: 7f3300
+  forest: 007f0e
+  taiga_forest: 567c5a
+  arid_hills: a3953e
+  savanna_hills: afab80
+  mesa_mountain: b2571a
+  mesa_desert: dba36f
+  mesa: ff9651
+  savanna: 83953e
+  desert: ffec60
+# biomes_converter:
+#   swampland:
+#   sunflower_plains:
+#   plains:
+#   savanna:
+#   extreme_hills:
+#   desert:
+#   mesa_plateau:
+#   jungle:
+#   forest:
+#   roofed_forest:
+#   mushroom_island:
+#   taiga_cold_mega_spruce:
+#   taiga:
+#   beach:

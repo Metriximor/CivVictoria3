@@ -1,0 +1,14 @@
+﻿pmg_base_experience_cauldron = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_experience_1
+		pm_experience_2
+		pm_experience_3
+		pm_experience_4
+		pm_experience_5
+		pm_advanced_experience_1
+		pm_advanced_experience_2
+		pm_advanced_experience_3
+		pm_advanced_experience_4
+	}
+}

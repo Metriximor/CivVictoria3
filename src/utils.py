@@ -10,6 +10,9 @@ UTF_8_BOM = 'utf-8-sig'
 yaml = YAML(typ='rt')
 yaml.default_flow_style = False
 
+def file_exists(path):
+  return Path(path).is_file()
+
 def load_file_into_string(path: str, encoding: str | None=UTF_8_BOM):
     print(f"Loading from {path}")
     string = ""

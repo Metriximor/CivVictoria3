@@ -253,3 +253,183 @@ building_output_diamond_mult = {
     percent = yes
 }
 
+building_output_wheat_add = {
+    good = yes
+    percent = no
+}
+
+building_input_wheat_add = {
+    good = no
+    percent = no
+}
+
+building_output_wheat_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_beetroot_add = {
+    good = yes
+    percent = no
+}
+
+building_input_beetroot_add = {
+    good = no
+    percent = no
+}
+
+building_output_beetroot_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_carrot_add = {
+    good = yes
+    percent = no
+}
+
+building_input_carrot_add = {
+    good = no
+    percent = no
+}
+
+building_output_carrot_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_potato_add = {
+    good = yes
+    percent = no
+}
+
+building_input_potato_add = {
+    good = no
+    percent = no
+}
+
+building_output_potato_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_pumpkin_add = {
+    good = yes
+    percent = no
+}
+
+building_input_pumpkin_add = {
+    good = no
+    percent = no
+}
+
+building_output_pumpkin_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_melon_add = {
+    good = yes
+    percent = no
+}
+
+building_input_melon_add = {
+    good = no
+    percent = no
+}
+
+building_output_melon_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_cactus_add = {
+    good = yes
+    percent = no
+}
+
+building_input_cactus_add = {
+    good = no
+    percent = no
+}
+
+building_output_cactus_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_sugar_add = {
+    good = yes
+    percent = no
+}
+
+building_input_sugar_add = {
+    good = no
+    percent = no
+}
+
+building_output_sugar_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_mushroom_add = {
+    good = yes
+    percent = no
+}
+
+building_input_mushroom_add = {
+    good = no
+    percent = no
+}
+
+building_output_mushroom_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_experience_bottle_add = {
+    good = yes
+    percent = no
+}
+
+building_input_experience_bottle_add = {
+    good = no
+    percent = no
+}
+
+building_output_experience_bottle_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_tree_sapling_add = {
+    good = yes
+    percent = no
+}
+
+building_input_tree_sapling_add = {
+    good = no
+    percent = no
+}
+
+building_output_tree_sapling_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_mob_drop_add = {
+    good = yes
+    percent = no
+}
+
+building_input_mob_drop_add = {
+    good = no
+    percent = no
+}
+
+building_output_mob_drop_mult = {
+    good = yes
+    percent = yes
+}
+

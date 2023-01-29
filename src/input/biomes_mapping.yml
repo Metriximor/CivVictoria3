@@ -5,15 +5,15 @@
   snowy_tundra: e8e8e8
   plains_hills: 8ac100
   plains: b6ff00
-  jungle_hills: 00b214
+  jungle_hills: '00b214'
   sparse_jungle: 4cff00
-  jungle: 00db12
+  jungle: '00db12'
   mushroom_island: ff6a00
   dark_forest: 3c6615
   dry_hills: 7f9300
   dry_plains: b3ce00
   swamp: 7f3300
-  forest: 007f0e
+  forest: '007f0e'
   taiga_forest: 567c5a
   arid_hills: a3953e
   savanna_hills: afab80
@@ -22,18 +22,198 @@
   mesa: ff9651
   savanna: 83953e
   desert: ffec60
-# biomes_converter:
-#   swampland:
-#   sunflower_plains:
-#   plains:
-#   savanna:
-#   extreme_hills:
-#   desert:
-#   mesa_plateau:
-#   jungle:
-#   forest:
-#   roofed_forest:
-#   mushroom_island:
-#   taiga_cold_mega_spruce:
-#   taiga:
+  ocean: '051412'
+  lake: '001696'
+minecraft_biomes:
+  swampland:
+    input_biomes:
+      - swamp
+    valid_farms:
+      - bg_carrot_farms
+      - bg_cocoa_farms
+      - bg_wheat_farms
+      - bg_melon_farms
+      - bg_sugar_cane_farms
+      - bg_mushroom_farms
+      - bg_tree_farming
+  sunflower_plains:
+    input_biomes:
+      - dry_plains
+      - dry_hills
+    valid_farms:
+      - bg_beetroot_farms
+      - bg_carrot_farms
+      - bg_potato_farms
+      - bg_pumpkin_farms
+      - bg_wheat_farms
+      - bg_melon_farms
+      - bg_mushroom_farms
+      - bg_tree_farming
+  plains:
+    input_biomes:
+      - island
+      - plains_hills
+      - plains
+    valid_farms:
+      - bg_beetroot_farms
+      - bg_carrot_farms
+      - bg_potato_farms
+      - bg_pumpkin_farms
+      - bg_wheat_farms
+      - bg_melon_farms
+      - bg_mushroom_farms
+      - bg_tree_farming
+  savanna:
+    input_biomes:
+      - savanna_hills
+      - savanna
+    valid_farms:
+      - bg_beetroot_farms
+      - bg_carrot_farms
+      - bg_potato_farms
+      - bg_pumpkin_farms
+      - bg_wheat_farms
+      - bg_melon_farms
+      - bg_mushroom_farms
+      - bg_tree_farming
+  extreme_hills:
+    input_biomes:
+      - mountains_with_no_trees
+      - mountains_with_snow
+    valid_farms:
+      - bg_beetroot_farms
+      - bg_potato_farms
+      - bg_pumpkin_farms
+      - bg_wheat_farms
+      - bg_tree_farming
+  desert:
+    input_biomes:
+      - desert
+      - mesa_desert
+    valid_farms:
+      - bg_beetroot_farms
+      - bg_carrot_farms
+      - bg_potato_farms
+      - bg_pumpkin_farms
+      - bg_wheat_farms
+      - bg_cactus_farms
+      - bg_tree_farming
+  mesa_plateau:
+    input_biomes:
+      - arid_hills
+      - mesa_mountain
+      - mesa
+    valid_farms:
+      - bg_beetroot_farms
+      - bg_carrot_farms
+      - bg_wheat_farms
+      - bg_cactus_farms
+  jungle:
+    input_biomes:
+      - jungle_hills
+      - sparse_jungle
+      - jungle
+    valid_farms:
+      - bg_beetroot_farms
+      - bg_carrot_farms
+      - bg_cocoa_farms
+      - bg_wheat_farms
+      - bg_melon_farms
+      - bg_sugar_cane_farms
+      - bg_mushroom_farms
+      - bg_tree_farming
+  forest:
+    input_biomes:
+      - forest
+    valid_farms:
+      - bg_beetroot_farms
+      - bg_wheat_farms
+      - bg_tree_farming
+  roofed_forest:
+    input_biomes:
+      - dark_forest
+    valid_farms:
+      - bg_beetroot_farms
+      - bg_wheat_farms
+      - bg_tree_farming
+  mushroom_island:
+    input_biomes:
+      - mushroom_island
+    valid_farms:
+      - bg_beetroot_farms
+      - bg_wheat_farms
+      - bg_mushroom_farms
+  taiga:
+    input_biomes:
+      - taiga_forest
+    valid_farms:
+      - bg_beetroot_farms
+      - bg_potato_farms
+      - bg_pumpkin_farms
+      - bg_tree_farming
+  snowy_plains:
+    input_biomes:
+      - snowy_tundra
+    valid_farms:
+      - bg_beetroot_farms 
+      - bg_pumpkin_farms
+      - bg_tree_farming
+  river:
+    input_biomes:
+      - lake
+    valid_farms:
+      - bg_wheat_farms
+      - bg_sugar_cane_farms
+      - bg_mushroom_farms
+      - bg_tree_farming
+  ocean:
+    input_biomes:
+      - ocean
+    valid_farms:
+      - bg_wheat_farms
+      - bg_sugar_cane_farms
+      - bg_mushroom_farm
+  #   - desert
+  # plains:
+  #   - island
+  #   - plains
+  #   - dry_plains
+  # wetland:
+  #   - swamp
+  #   - mushroom_island
+  # mountain:
+  #   - mountains_with_no_trees
+  # ocean:
+  # savanna:
+  #   - savanna
+  #   - savanna_hills
+  # jungle:
+  #   - sparse_jungle
+  #   - jungle
+  #   - jungle_hills
+  # hills:
+  #   - plains_hills
+  #   - arid_hills
+  #   - dry_hills
+  # forest:
+  #   - forest
+  #   - dark_forest
+  #   - taiga_forest
+  # tundra:
+  #   - snowy_tundra
+  # snow:
+  #   - mountains_with_snow
+  # lakes:
 #   beach:
+# 
+# - bg_beetroot_farms
+# - bg_carrot_farms
+# - bg_cocoa_farms
+# - bg_potato_farms
+# - bg_pumpkin_farms
+# - bg_wheat_farms
+# - bg_melon_farms
+# - bg_cactus_farms
+# - bg_sugar_cane_farms
+# - bg_mushroom_farms
+# - bg_tree_farming

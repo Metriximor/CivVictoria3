@@ -86,3 +86,9 @@ STATE_LAMAO_LAKE = {
     provinces = { "xF0F8C2" }
     impassable = { "xF0F8C2" }
 }
+
+STATE_MELVIN_LAKE = {
+	id = 3018
+	provinces = { "x0A0250" }
+	impassable = { "0A0250" }
+}

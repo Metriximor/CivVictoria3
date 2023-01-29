@@ -1,10 +1,6 @@
 ﻿bg_tree_farming = {
 	category = rural
-
-	capped_by_resources = yes
-	
 	economy_of_scale = yes
-	
 	default_building = building_tree_farm
 	
 	lens = forestry	
@@ -32,11 +28,8 @@ bg_sand_pit = {
 
 bg_mine = {
 	category = rural
-
+	always_possible = yes
 	economy_of_scale = yes
-	
-	capped_by_resources = yes
-	
 	default_building = building_mine
 
 	lens = mine
@@ -82,7 +75,7 @@ bg_carrot_farms = {
 	default_building = building_carrot_farm
 }
 
-bg_cocoa_farm = {
+bg_cocoa_farms = {
 	parent_group = bg_agriculture
 	default_building = building_cocoa_farm
 }

@@ -57,7 +57,7 @@ building_carrot_farm = {
 
 building_cocoa_farm = {
 	texture = "gfx/interface/icons/building_icons/cocoa_farm.dds"
-	building_group = bg_cocoa_farms
+	building_group = bg_cocoa_farmss
 	city_type = farm
 	levels_per_mesh = 5
 	production_method_groups = {

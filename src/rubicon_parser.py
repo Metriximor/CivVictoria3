@@ -222,6 +222,8 @@ def _serialize(val, dump, indent_lvl=0):
             dump += f"{v_str} "
     elif isinstance(val, str):
         dump += f"{val}"
+    elif isinstance(val, int):
+        dump += f"{str(val)}"
     else:
         print(val)
         raise Exception("Unknown operation")

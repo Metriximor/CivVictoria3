@@ -1,4 +1,5 @@
 ﻿from collections import defaultdict
+from pathlib import Path
 import re
 import rubicon_parser as paradox
 import pickle
@@ -28,8 +29,32 @@ def extract_colors(image_file):
     print("\nProcessing complete!")
     return mapped_colors
 
+
+def calculate_state_population(state_biomes: list[tuple[str, int]], biome_data: dict) -> int:
+    pop_count = 0
+    total_state_pixels = 0
+    unknown_size = 0
+    for biome, size in state_biomes:
+        if biome == 'unknown':
+            unknown_size = size
+        if biome not in biome_data['minecraft_biomes']:
+            continue
+        populational_density = biome_data['minecraft_biomes'][biome]['populational_density']
+        pop_count += size * populational_density
+        total_state_pixels += size
+    if 'unknown' in biome_data['minecraft_biomes']:
+        for biome, size in state_biomes:
+            if biome not in biome_data['minecraft_biomes']:
+                continue
+            ratio = size / total_state_pixels
+            populational_density = biome_data['minecraft_biomes'][biome]['populational_density']
+            pop_count += int(ratio * unknown_size) * populational_density
+    return pop_count
+
+
 # Prepares Inputs
 biome_data = yaml.load(load_file_into_string("src/input/biomes_mapping.yml"))
+state_data = yaml.load(load_file_into_string("src/input/state_data.yml"))
 minecraft_biomes_map = {str(biome_data['input_biomes'][input_biome]).upper(): minecraft_biome for minecraft_biome, input_biomes in biome_data['minecraft_biomes'].items() for input_biome in input_biomes['input_biomes']}
 
 province_map = {}
@@ -50,8 +75,8 @@ biomes_map = cv2.imread("src/input/biomes.png")
 states_data = paradox.load("map_data/state_regions/00_states.txt")
 
 # Calculate arable land resources
-for state_name, state_data in states_data.items():
-    provinces = state_data['provinces']
+for state_name, map_state_data in states_data.items():
+    provinces = map_state_data['provinces']
     state_resources = defaultdict(lambda: 0, {})
     for province in provinces:
         province = province[1:] # remove the x from the province id
@@ -63,14 +88,18 @@ for state_name, state_data in states_data.items():
                 state_resources['unknown'] += 1
             else:
                 state_resources[minecraft_biomes_map[hex]] += 1
-    state_data['capped_resources'] = {}
-    state_data['capped_resources']['bg_sand_pit'] = 5
+    map_state_data['capped_resources'] = {}
+    map_state_data['capped_resources']['bg_sand_pit'] = 5
     if len(state_resources) > 0:
         state_resources = sorted(dict(state_resources).items(), key=lambda x: x[1], reverse=True)
+        pop_count = calculate_state_population(state_resources, biome_data)
+        if state_name not in state_data:
+            state_data[state_name] = {}
+        state_data[state_name]['population'] = pop_count
         biggest_biome, biome_size = state_resources[0]
         if biggest_biome == 'desert':
-            state_data['capped_resources']['bg_sand_pit'] = 80
-        state_data['arable_resources'] = [f'"{valid_farm}"' for valid_farm in biome_data['minecraft_biomes'][biggest_biome]['valid_farms']]
+            map_state_data['capped_resources']['bg_sand_pit'] = 80
+        map_state_data['arable_resources'] = [f'"{valid_farm}"' for valid_farm in biome_data['minecraft_biomes'][biggest_biome]['valid_farms']]
 
 # Update existing entries
 file_string = load_file_into_string("map_data/state_regions/00_states.txt").splitlines()
@@ -88,6 +117,8 @@ for line in file_string:
         new_file.append(paradox.dumps({state: states_data[state]}))
 new_string = '\n'.join(new_file) 
 write_to_file("src/output/00_states.txt", new_string)
+
+yaml.dump(state_data,  Path("src/output/state_data.yml"))
 
 # Temporary province terrain
 output = "#This is a generated file, do not modify unless you know what you are doing!\n"

@@ -6,7 +6,10 @@ from utils import load_file_into_string, write_to_file, yaml
 def create_pops(country_abrev, state_name):
     result = ""
     pops = {}
-    state_population: int = randint(500, 1_000_000)
+    # Define population size based on pre-set data
+    state_population: int = randint(500, 50_000)
+    if state_name in state_details and 'population' in state_details[state_name]:
+        state_population = state_details[state_name]['population']
     # Initialize pops with pop culture
     pops[country_data[country_abrev]["cultures"][-1]] = {
         "quantity": state_population
@@ -33,7 +36,7 @@ def create_pops(country_abrev, state_name):
 # Loads Files
 states = json.loads(load_file_into_string("src/input/states.json"))
 split_states: dict = json.loads(load_file_into_string("src/input/split_states.json"))
-state_data = load_file_into_string("map_data/state_regions/00_states.txt")
+map_state_data = load_file_into_string("map_data/state_regions/00_states.txt")
 state_details = yaml.load(load_file_into_string("src/input/state_data.yml"))
 country_data = paradox.load("common/country_definitions/00_countries.txt")
 
@@ -48,7 +51,7 @@ buildings = ""
 # Does the thing
 state_name = ""
 countries: dict = {}
-for string in state_data.split("\n"):
+for string in map_state_data.split("\n"):
     if string.startswith("#"):
         continue
     if string.startswith("STATE_"):

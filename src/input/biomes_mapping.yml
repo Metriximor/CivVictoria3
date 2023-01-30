@@ -1,8 +1,8 @@
 ﻿input_biomes:
-  mountains_with_no_trees: 404040
-  mountains_with_snow: 808080
-  island: ffd800
-  snowy_tundra: e8e8e8
+  mountains_with_no_trees: '404040'
+  mountains_with_snow: '808080'
+  island: 'ffd800'
+  snowy_tundra: 'e8e8e8'
   plains_hills: 8ac100
   plains: b6ff00
   jungle_hills: '00b214'
@@ -36,6 +36,7 @@ minecraft_biomes:
       - bg_sugar_cane_farms
       - bg_mushroom_farms
       - bg_tree_farming
+    populational_density: 30
   sunflower_plains:
     input_biomes:
       - dry_plains
@@ -49,6 +50,7 @@ minecraft_biomes:
       - bg_melon_farms
       - bg_mushroom_farms
       - bg_tree_farming
+    populational_density: 20
   plains:
     input_biomes:
       - island
@@ -63,6 +65,7 @@ minecraft_biomes:
       - bg_melon_farms
       - bg_mushroom_farms
       - bg_tree_farming
+    populational_density: 25
   savanna:
     input_biomes:
       - savanna_hills
@@ -76,6 +79,7 @@ minecraft_biomes:
       - bg_melon_farms
       - bg_mushroom_farms
       - bg_tree_farming
+    populational_density: 12
   extreme_hills:
     input_biomes:
       - mountains_with_no_trees
@@ -86,6 +90,7 @@ minecraft_biomes:
       - bg_pumpkin_farms
       - bg_wheat_farms
       - bg_tree_farming
+    populational_density: 12
   desert:
     input_biomes:
       - desert
@@ -98,6 +103,7 @@ minecraft_biomes:
       - bg_wheat_farms
       - bg_cactus_farms
       - bg_tree_farming
+    populational_density: 5
   mesa_plateau:
     input_biomes:
       - arid_hills
@@ -108,6 +114,7 @@ minecraft_biomes:
       - bg_carrot_farms
       - bg_wheat_farms
       - bg_cactus_farms
+    populational_density: 8
   jungle:
     input_biomes:
       - jungle_hills
@@ -122,6 +129,7 @@ minecraft_biomes:
       - bg_sugar_cane_farms
       - bg_mushroom_farms
       - bg_tree_farming
+    populational_density: 22
   forest:
     input_biomes:
       - forest
@@ -129,6 +137,7 @@ minecraft_biomes:
       - bg_beetroot_farms
       - bg_wheat_farms
       - bg_tree_farming
+    populational_density: 26
   roofed_forest:
     input_biomes:
       - dark_forest
@@ -136,6 +145,7 @@ minecraft_biomes:
       - bg_beetroot_farms
       - bg_wheat_farms
       - bg_tree_farming
+    populational_density: 23
   mushroom_island:
     input_biomes:
       - mushroom_island
@@ -143,6 +153,7 @@ minecraft_biomes:
       - bg_beetroot_farms
       - bg_wheat_farms
       - bg_mushroom_farms
+    populational_density: 3
   taiga:
     input_biomes:
       - taiga_forest
@@ -151,6 +162,7 @@ minecraft_biomes:
       - bg_potato_farms
       - bg_pumpkin_farms
       - bg_tree_farming
+    populational_density: 20
   snowy_plains:
     input_biomes:
       - snowy_tundra
@@ -158,6 +170,7 @@ minecraft_biomes:
       - bg_beetroot_farms 
       - bg_pumpkin_farms
       - bg_tree_farming
+    populational_density: 5
   river:
     input_biomes:
       - lake
@@ -166,6 +179,7 @@ minecraft_biomes:
       - bg_sugar_cane_farms
       - bg_mushroom_farms
       - bg_tree_farming
+    populational_density: 30
   ocean:
     input_biomes:
       - ocean
@@ -173,6 +187,7 @@ minecraft_biomes:
       - bg_wheat_farms
       - bg_sugar_cane_farms
       - bg_mushroom_farm
+    populational_density: 21
   #   - desert
   # plains:
   #   - island

@@ -1,0 +1,31 @@
+﻿pmg_base_civ_construction_sector = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_wooden_buildings
+		pm_stone_buildings
+		pm_brick_buildings
+	}
+}
+
+pmg_construction_tool_usage = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_tools
+		pm_wooden_tools
+		pm_stone_tools
+		pm_iron_tools
+		pm_gold_tools
+		pm_diamond_tools
+	}
+}
+
+pmg_reinforcement_type = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_reinforcement
+		pm_stone_reinforcement
+		pm_iron_reinforcement
+		# pm_diamond_reinforcement
+	}
+}

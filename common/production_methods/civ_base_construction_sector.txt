@@ -1,0 +1,70 @@
+﻿pm_wooden_buildings = {
+	texture = "gfx/interface/icons/production_method_icons/wooden_buildings.dds"
+	is_default = yes
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 1
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_oak_log_add = 100
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.005
+		}
+	}
+}
+
+pm_stone_buildings = {
+	texture = "gfx/interface/icons/production_method_icons/stone_buildings.dds"
+		
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 4
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_oak_log_add = 35	
+			building_input_stone_add = 80
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.01
+		}
+	}
+}
+
+pm_brick_buildings = {
+	texture = "gfx/interface/icons/production_method_icons/brick_buildings.dds"
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 8
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_iron_ingots_add = 40
+			building_gold_ingots_add = 2
+			building_stone_add = 50
+			building_oak_log_add = 35
+			# TODO add luxury blocks to build at this level
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.015
+		}
+	}
+}

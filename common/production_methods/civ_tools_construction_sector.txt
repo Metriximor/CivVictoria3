@@ -1,0 +1,79 @@
+﻿pm_no_tools = {
+	texture = "gfx/interface/icons/production_method_icons/manual.dds"
+	is_default = yes
+}
+
+pm_wooden_tools = {
+	texture = "gfx/interface/icons/production_method_icons/wood_tools.dds"
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 1
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_wood_tools_add = 30
+		}
+	}
+}
+
+pm_stone_tools = {
+	texture = "gfx/interface/icons/production_method_icons/stone_tools.dds"
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 2
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_stone_tools_add = 20
+		}
+	}
+}
+
+pm_iron_tools = {
+	texture = "gfx/interface/icons/production_method_icons/iron_tools.dds"
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 3
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_iron_tools_add = 20
+		}
+	}
+}
+
+pm_gold_tools = {
+	texture = "gfx/interface/icons/production_method_icons/gold_tools.dds"
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 6
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_gold_tools_add = 35
+		}
+	}
+}
+
+pm_diamond_tools = {
+	texture = "gfx/interface/icons/production_method_icons/diamond_tools.dds"
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 4
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_stone_tools_add = 15
+		}
+	}
+}

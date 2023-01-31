@@ -2,7 +2,7 @@
 	texture = "gfx/interface/icons/pops_icons/newfriend.dds"
 	building_modifiers = {
 		level_scaled = {
-			building_employment_newfriends_add = 20
+			building_employment_newfriends_add = 5000
 		}
 	}
 }
@@ -11,7 +11,7 @@ pm_employ_midfriends = {
 	texture = "gfx/interface/icons/pops_icons/midfriend.dds"
 	building_modifiers = {
 		level_scaled = {
-			building_employment_midfriends_add = 20
+			building_employment_midfriends_add = 5000
 		}
 	}
 }
@@ -20,7 +20,7 @@ pm_employ_oldfriends = {
 	texture = "gfx/interface/icons/pops_icons/oldfriend.dds"
 	building_modifiers = {
 		level_scaled = {
-			building_employment_oldfriends_add = 20
+			building_employment_oldfriends_add = 5000
 		}
 	}
 }

@@ -35,7 +35,7 @@ building_output_{goods}_mult = {{
             else:
                 continue
     for language in languages:
-        localization_file_path = Path(f"localization/{language}/modifiers_l_{language}.yml")
+        localization_file_path = Path(f"localization/{language}/civ_modifiers_l_{language}.yml")
         localization_file_path.parent.mkdir(exist_ok=True, parents=True)
         with open(localization_file_path, 'w+', encoding=UTF_8_BOM) as localization_file:
             if generated_goods:

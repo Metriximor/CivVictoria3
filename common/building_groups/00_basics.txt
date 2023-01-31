@@ -48,8 +48,6 @@ bg_construction = {
 
 	is_government_funded = yes
 	
-	can_use_slaves = yes
-	
 	urbanization = 5
 }
 

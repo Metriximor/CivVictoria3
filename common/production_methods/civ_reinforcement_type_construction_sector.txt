@@ -24,7 +24,7 @@ pm_stone_reinforcement = {
 }
 
 pm_iron_reinforcement = {
-	texture = "gfx/interface/icons/production_method_icons/stone_reinforcement.dds"
+	texture = "gfx/interface/icons/production_method_icons/iron_reinforcement.dds"
 	country_modifiers = {
 		unscaled = {
 			country_prestige_mult = 0.1

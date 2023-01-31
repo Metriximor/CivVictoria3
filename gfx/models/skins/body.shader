@@ -723,9 +723,6 @@ PixelShader =
 					Out.Color = float4( Color, 1.0f );
 				#else
 					#ifdef HAIR_TRANSPARENCY_HACK
-						// TODO [HL]: Hack to stop clothing fragments from being discarded by transparent hair,
-						// proper fix is to ensure that hair is drawn after clothes
-						// https://beta.paradoxplaza.com/browse/PSGE-3103
 						clip( Diffuse.a - 0.5f );
 					#endif
 

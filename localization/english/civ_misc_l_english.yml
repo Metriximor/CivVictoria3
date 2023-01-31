@@ -8,6 +8,9 @@
  pmg_base_refine_sand: "Smelt Sand into Glass"
  pmg_base_make_bottles: "Glass Bottle Smelting"
  pmg_buildings_employment: "Employment Type"
+ pmg_base_civ_construction_sector: "Building Type"
+ pmg_construction_tool_usage: "Construction Tools"
+ pmg_reinforcement_type: "Block Reinforcement Type"
 
  pm_punch_wood: "Punch wood"
  pm_wood_axe: "Wood Axes"
@@ -40,6 +43,20 @@
  pm_employ_newfriends: "Employ Newfriends"
  pm_employ_midfriends: "Employ Midfriends"
  pm_employ_oldfriends: "Employ Oldfriends"
+
+ pm_stone_buildings: "Stone Buildings"
+ pm_brick_buildings: "Elaborate Buildings"
+
+ pm_no_tools: "Building with no tools"
+ pm_wooden_tools: "Building with Wooden tools"
+ pm_stone_tools: "Building with Stone tools"
+ pm_iron_tools: "Building with Iron tools"
+ pm_gold_tools: "Building with Gold tools"
+ pm_diamond_tools: "Building with Diamond tools"
+
+ pm_no_reinforcement: "No block reinforcement"
+ pm_stone_reinforcement: "Reinforce with Stone"
+ pm_iron_reinforcement: "Reinforce with Iron and Stone"
 
  pm_experience_1: "Basic Experience 1"
  pm_experience_2: "Basic Experience 2"

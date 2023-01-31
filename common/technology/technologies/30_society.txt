@@ -9,6 +9,7 @@ urbanization = {
 	modifier = {
 		state_infrastructure_from_population_add = 0.2
 		state_infrastructure_from_population_max_add = 40	
+		state_building_construction_sector_max_level_add = 10
 	}
 }
 
@@ -20,6 +21,7 @@ urban_planning = {
 	modifier = {
 		state_infrastructure_from_population_add = 0.05
 		state_infrastructure_from_population_max_add = 10
+		state_building_construction_sector_max_level_add = 5
 	}
 	
 	unlocking_technologies = {

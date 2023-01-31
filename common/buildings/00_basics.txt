@@ -12,7 +12,6 @@ building_subsistence_farms = {
 	expandable = no
 	downsizeable = no
 	min_raise_to_hire = 0.30
-	slaves_role = peasants
 }
 
 building_construction_sector = {

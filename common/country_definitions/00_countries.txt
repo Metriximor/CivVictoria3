@@ -22,7 +22,7 @@ LUS = {
 TRU = {
 	color = "full_white"
 	country_type = recognized
-	tier = empire
+	tier = kingdom
 	cultures = { thruitt truidencian }
 	capital = STATE_NIDAROS
 }

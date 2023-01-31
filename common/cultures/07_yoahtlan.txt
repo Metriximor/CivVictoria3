@@ -1,0 +1,16 @@
+﻿yoahtlan = {
+	color = { 244 13 44 }
+	religion = examplian
+	traits = {
+		english
+		nahuatl
+		spanish
+	}
+	noble_last_names = {
+		Quauhtli
+	}
+	graphics = european
+	ethnicities = {
+		1 = minecrafter
+	}
+}

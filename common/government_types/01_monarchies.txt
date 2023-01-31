@@ -243,6 +243,22 @@
 #	}
 #}
 
+gov_truidencian = {
+	transfer_of_power = hereditary
+	male_ruler = RULER_TITLE_TRUIDENCIAN
+	female_ruler = RULER_TITLE_TRUIDENCIAN_F
+
+	male_heir = RULER_HEIR_TRUIDENCIAN
+	female_heir = RULER_HEIR_TRUIDENCIAN_F
+
+	possible = {
+		has_law = law_type:law_monarchy
+		exists = c:TRU
+		c:TRU = ROOT
+		# TODO make Bezism be obligatory
+	}
+}
+
 gov_kaiser = {
 	transfer_of_power = hereditary
 	

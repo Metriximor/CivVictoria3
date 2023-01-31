@@ -1,0 +1,119 @@
+﻿state_trait_swampland = {
+	icon = "gfx/interface/icons/state_trait_icons/swampland.dds"
+
+	modifier = {
+
+	}
+}
+
+state_trait_sunflower_plains = {
+	icon = "gfx/interface/icons/state_trait_icons/sunflower_plains.dds"
+
+	modifier = {
+
+	}
+}
+
+state_trait_plains = {
+	icon = "gfx/interface/icons/state_trait_icons/plains.dds"
+
+	modifier = {
+
+	}
+}
+
+state_trait_savanna = {
+	icon = "gfx/interface/icons/state_trait_icons/savanna.dds"
+
+	modifier = {
+
+	}
+}
+
+state_trait_extreme_hills = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+
+	modifier = {
+
+	}
+}
+
+state_trait_desert = {
+	icon = "gfx/interface/icons/state_trait_icons/desert.dds"
+
+	modifier = {
+
+	}
+}
+
+state_trait_mesa_plateau = {
+	icon = "gfx/interface/icons/state_trait_icons/mesa.dds"
+
+	modifier = {
+
+	}
+}
+
+state_trait_jungle = {
+	icon = "gfx/interface/icons/state_trait_icons/jungle.dds"
+
+	modifier = {
+
+	}
+}
+
+state_trait_forest = {
+	icon = "gfx/interface/icons/state_trait_icons/forest.dds"
+
+	modifier = {
+
+	}
+}
+
+state_trait_roofed_forest = {
+	icon = "gfx/interface/icons/state_trait_icons/roofed_forest.dds"
+
+	modifier = {
+
+	}
+}
+
+state_trait_mushroom_island: = {
+	icon = "gfx/interface/icons/state_trait_icons/mushroom_island.dds"
+
+	modifier = {
+
+	}
+}
+
+state_trait_taiga = {
+	icon = "gfx/interface/icons/state_trait_icons/taiga.dds"
+
+	modifier = {
+
+	}
+}
+
+state_trait_snowy_plains = {
+	icon = "gfx/interface/icons/state_trait_icons/snowy_plains.dds"
+
+	modifier = {
+
+	}
+}
+
+state_trait_river = {
+	icon = "gfx/interface/icons/state_trait_icons/.dds"
+
+	modifier = {
+
+	}
+}
+
+state_trait_ocean = {
+	icon = "gfx/interface/icons/state_trait_icons/.dds"
+
+	modifier = {
+
+	}
+}

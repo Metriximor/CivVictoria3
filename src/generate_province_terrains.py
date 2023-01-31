@@ -99,6 +99,7 @@ for state_name, map_state_data in states_data.items():
         biggest_biome, biome_size = state_resources[0]
         if biggest_biome == 'desert':
             map_state_data['capped_resources']['bg_sand_pit'] = 80
+        map_state_data['traits'] = [f'"state_trait_{state_resources[0][0]}"']
         map_state_data['arable_resources'] = [f'"{valid_farm}"' for valid_farm in biome_data['minecraft_biomes'][biggest_biome]['valid_farms']]
 
 # Update existing entries

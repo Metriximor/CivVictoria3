@@ -2,7 +2,11 @@
 	icon = "gfx/interface/icons/state_trait_icons/swampland.dds"
 
 	modifier = {
-
+		building_group_bg_cocoa_farms_throughput_mult = 0.2
+		building_group_bg_melon_farms_throughput_mult = 0.2
+		building_group_bg_sugar_cane_farms_throughput_mult = 0.2
+		building_group_bg_wheat_farms_throughput_mult = -0.5
+		building_group_bg_mushroom_farms_throughput_mult = -0.9
 	}
 }
 
@@ -10,7 +14,8 @@ state_trait_sunflower_plains = {
 	icon = "gfx/interface/icons/state_trait_icons/sunflower_plains.dds"
 
 	modifier = {
-
+		building_group_bg_beetroot_farms_throughput_mult = 0.2
+		building_group_bg_carrot_farms_throughput_mult = -0.2
 	}
 }
 

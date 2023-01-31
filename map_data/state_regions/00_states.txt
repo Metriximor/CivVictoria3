@@ -10,6 +10,7 @@ STATE_NIDAROS = {
     city = x8CE7B9
     naval_exit_id = 3001
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_tree_farming" }
+    traits = { "state_trait_taiga" }
 }
 
 
@@ -23,6 +24,7 @@ STATE_HYLDOR = {
     city = xABE88E
     naval_exit_id = 3001
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_tree_farming" }
+    traits = { "state_trait_taiga" }
 }
 
 
@@ -34,6 +36,7 @@ STATE_SNOWPEAK = {
     }
     city = xD864FE
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_tree_farming" }
+    traits = { "state_trait_taiga" }
 }
 
 
@@ -47,6 +50,7 @@ STATE_FLATAGRAS = {
     city = xFBEAB7
     naval_exit_id = 3001
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_tree_farming" }
+    traits = { "state_trait_extreme_hills" }
 }
 
 
@@ -58,6 +62,7 @@ STATE_SORLAND = {
     }
     city = x9FF39E
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_tree_farming" }
+    traits = { "state_trait_taiga" }
 }
 
 
@@ -71,6 +76,7 @@ STATE_SIX_COLONIES = {
     city = xE855E9
     naval_exit_id = 3001
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -82,6 +88,7 @@ STATE_OUTLAND = {
     }
     city = xE851E5
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_tree_farming" }
+    traits = { "state_trait_extreme_hills" }
 }
 
 
@@ -95,6 +102,7 @@ STATE_OUTER_NIDAROS = {
     city = xB2F2BD
     naval_exit_id = 3001
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_tree_farming" }
+    traits = { "state_trait_taiga" }
 }
 
 
@@ -107,6 +115,7 @@ STATE_TENSEIMIYA = {
     }
     city = xA791C8
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_tree_farming" }
+    traits = { "state_trait_taiga" }
 }
 
 
@@ -118,6 +127,7 @@ STATE_MORINOYARI = {
     }
     city = x50B8FB
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_tree_farming" }
+    traits = { "state_trait_taiga" }
 }
 
 
@@ -129,6 +139,7 @@ STATE_DAISHIREIBOU = {
     }
     city = x91EE98
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_tree_farming" }
+    traits = { "state_trait_taiga" }
 }
 
 
@@ -140,6 +151,7 @@ STATE_MUMEITA = {
     }
     city = x7FE09A
     arable_resources = { "bg_beetroot_farms" "bg_pumpkin_farms" "bg_tree_farming" }
+    traits = { "state_trait_snowy_plains" }
 }
 
 
@@ -153,6 +165,7 @@ STATE_NUMBERS_LAWN = {
     city = xDB87DE
     naval_exit_id = 3001
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_tree_farming" }
+    traits = { "state_trait_taiga" }
 }
 
 
@@ -164,6 +177,7 @@ STATE_AMATERASU_SHORES = {
     }
     naval_exit_id = 3001
     arable_resources = { "bg_beetroot_farms" "bg_wheat_farms" "bg_tree_farming" }
+    traits = { "state_trait_forest" }
 }
 
 
@@ -175,6 +189,7 @@ STATE_YAMATO_KEN = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_jungle" }
 }
 
 
@@ -189,6 +204,7 @@ STATE_PORTUCALE = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_sunflower_plains" }
 }
 
 
@@ -202,6 +218,7 @@ STATE_CIV_PROVENCE = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_sunflower_plains" }
 }
 
 
@@ -215,6 +232,7 @@ STATE_CASCAIS = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_wheat_farms" "bg_tree_farming" }
+    traits = { "state_trait_forest" }
 }
 
 
@@ -228,6 +246,7 @@ STATE_OLIMPIA = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_wheat_farms" "bg_tree_farming" }
+    traits = { "state_trait_forest" }
 }
 
 
@@ -241,6 +260,7 @@ STATE_ATLAS = {
         bg_sand_pit = 80
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_cactus_farms" "bg_tree_farming" }
+    traits = { "state_trait_desert" }
 }
 
 
@@ -254,6 +274,7 @@ STATE_AZORES = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -267,6 +288,7 @@ STATE_CLASSICALE = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -278,6 +300,7 @@ STATE_DREAMLAND = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_sunflower_plains" }
 }
 
 
@@ -289,6 +312,7 @@ STATE_LUSITAN_PLAINS = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_sunflower_plains" }
 }
 
 
@@ -302,6 +326,7 @@ STATE_CIV_ALENTEJO = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_wheat_farms" "bg_cactus_farms" }
+    traits = { "state_trait_mesa_plateau" }
 }
 
 
@@ -313,6 +338,7 @@ STATE_LUSITAN_PLATEAUS = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_sunflower_plains" }
 }
 
 
@@ -324,6 +350,7 @@ STATE_EBORA = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_wheat_farms" "bg_cactus_farms" }
+    traits = { "state_trait_mesa_plateau" }
 }
 
 
@@ -336,6 +363,7 @@ STATE_EAST_LAMBAT_CITY = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_wheat_farms" "bg_tree_farming" }
+    traits = { "state_trait_forest" }
 }
 
 
@@ -349,6 +377,7 @@ STATE_WEST_LAMBAT_CITY = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -362,6 +391,7 @@ STATE_VALLE_OCCIDENTAL = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -375,6 +405,7 @@ STATE_CHUNGIA = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -388,6 +419,7 @@ STATE_BLANCO_STRAIT = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -401,6 +433,7 @@ STATE_MERCADO_STRAIT = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_jungle" }
 }
 
 
@@ -414,6 +447,7 @@ STATE_PAMPANG = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -427,6 +461,7 @@ STATE_PARFAIT_KAWAYAN = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_jungle" }
 }
 
 
@@ -441,6 +476,7 @@ STATE_PROVINCE_OF_NEW_DANZILONA = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -452,6 +488,7 @@ STATE_SOPHIA = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -465,6 +502,7 @@ STATE_MELIA = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_wheat_farms" "bg_tree_farming" }
+    traits = { "state_trait_forest" }
 }
 
 
@@ -488,6 +526,7 @@ STATE_SOUTHERN_PROVINCE = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -499,6 +538,7 @@ STATE_WEST_DANZILONA = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_tree_farming" }
+    traits = { "state_trait_extreme_hills" }
 }
 
 
@@ -512,6 +552,7 @@ STATE_PETERSKOGUR = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -525,6 +566,7 @@ STATE_EASTERN_SHINING_ISLES = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -538,6 +580,7 @@ STATE_SOUTH_MELIA = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_wheat_farms" "bg_tree_farming" }
+    traits = { "state_trait_forest" }
 }
 
 
@@ -552,6 +595,7 @@ STATE_WOLKEN = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -565,6 +609,7 @@ STATE_WOLKEN_ISLANDS = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -579,6 +624,7 @@ STATE_NORTHERN_MERY = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_tree_farming" }
+    traits = { "state_trait_extreme_hills" }
 }
 
 
@@ -592,6 +638,7 @@ STATE_CENTRAL_MERY = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_plains" }
 }
 
 
@@ -603,5 +650,6 @@ STATE_SOUTHERN_MERY = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
+    traits = { "state_trait_jungle" }
 }
 

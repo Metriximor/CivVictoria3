@@ -17,6 +17,39 @@ sea_starts = {
 	x003A17 # Sea of sneed
 	x074E0E # Lake Michigan
 	x4C0C05 # Azure sea
+	# Out of bounds
+	x02063F
+	x170635
+	x05332A
+	x133400
+	x171C12
+	x1F182B
+	x2B0A1E
+	x080F4C
+	x0C1D38
+	x330402
+	x43030F
+	x060057
+	x0D0824
+	x2E190F
+	x1C3E02
+	x0C1909
+	x16120D
+	x080E4D
+	x0A1207
+	x301011
+	x13251C
+	x1A1023
+	x322809
+	x2E250E
+	x112514
+	x0B2D2A
+	x11231A
+	x230C04
+	x010B45
+	x109766
+	x26042E
+	x3E0109
 }
 
 lakes = {

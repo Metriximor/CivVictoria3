@@ -1,0 +1,191 @@
+﻿OUT_OF_BOUNDS_1 = {
+    id = 5000
+    provinces = { "x02063F" }
+    impassable = {"x02063F" }
+}
+
+OUT_OF_BOUNDS_2 = {
+    id = 5001
+    provinces = { "x170635" }
+    impassable = {"x170635" }
+}
+
+OUT_OF_BOUNDS_3 = {
+    id = 5002
+    provinces = { "x05332A" }
+    impassable = {"x05332A" }
+}
+
+OUT_OF_BOUNDS_4 = {
+    id = 5003
+    provinces = { "x133400" }
+    impassable = {"x133400" }
+}
+
+OUT_OF_BOUNDS_5 = {
+    id = 5004
+    provinces = { "x171C12" }
+    impassable = {"x171C12" }
+}
+
+OUT_OF_BOUNDS_6 = {
+    id = 5005
+    provinces = { "x1F182B" }
+    impassable = {"x1F182B" }
+}
+
+OUT_OF_BOUNDS_7 = {
+    id = 5006
+    provinces = { "x2B0A1E" }
+    impassable = {"x2B0A1E" }
+}
+
+OUT_OF_BOUNDS_8 = {
+    id = 5007
+    provinces = { "x080F4C" }
+    impassable = {"x080F4C" }
+}
+
+OUT_OF_BOUNDS_9 = {
+    id = 5008
+    provinces = { "x0C1D38" }
+    impassable = {"x0C1D38" }
+}
+
+OUT_OF_BOUNDS_10 = {
+    id = 5009
+    provinces = { "x330402" }
+    impassable = {"x330402" }
+}
+
+OUT_OF_BOUNDS_11 = {
+    id = 5010
+    provinces = { "x43030F" }
+    impassable = {"x43030F" }
+}
+
+OUT_OF_BOUNDS_12 = {
+    id = 5011
+    provinces = { "x060057" }
+    impassable = {"x060057" }
+}
+
+OUT_OF_BOUNDS_13 = {
+    id = 5012
+    provinces = { "x0D0824" }
+    impassable = {"x0D0824" }
+}
+
+OUT_OF_BOUNDS_14 = {
+    id = 5013
+    provinces = { "x2E190F" }
+    impassable = {"x2E190F" }
+}
+
+OUT_OF_BOUNDS_15 = {
+    id = 5014
+    provinces = { "x1C3E02" }
+    impassable = {"x1C3E02" }
+}
+
+OUT_OF_BOUNDS_16 = {
+    id = 5015
+    provinces = { "x0C1909" }
+    impassable = {"x0C1909" }
+}
+
+OUT_OF_BOUNDS_17 = {
+    id = 5016
+    provinces = { "x16120D" }
+    impassable = {"x16120D" }
+}
+
+OUT_OF_BOUNDS_18 = {
+    id = 5017
+    provinces = { "x080E4D" }
+    impassable = {"x080E4D" }
+}
+
+OUT_OF_BOUNDS_19 = {
+    id = 5018
+    provinces = { "x0A1207" }
+    impassable = {"x0A1207" }
+}
+
+OUT_OF_BOUNDS_20 = {
+    id = 5019
+    provinces = { "x301011" }
+    impassable = {"x301011" }
+}
+
+OUT_OF_BOUNDS_21 = {
+    id = 5020
+    provinces = { "x13251C" }
+    impassable = {"x13251C" }
+}
+
+OUT_OF_BOUNDS_22 = {
+    id = 5021
+    provinces = { "x1A1023" }
+    impassable = {"x1A1023" }
+}
+
+OUT_OF_BOUNDS_23 = {
+    id = 5022
+    provinces = { "x322809" }
+    impassable = {"x322809" }
+}
+
+OUT_OF_BOUNDS_24 = {
+    id = 5023
+    provinces = { "x2E250E" }
+    impassable = {"x2E250E" }
+}
+
+OUT_OF_BOUNDS_25 = {
+    id = 5024
+    provinces = { "x112514" }
+    impassable = {"x112514" }
+}
+
+OUT_OF_BOUNDS_26 = {
+    id = 5025
+    provinces = { "x0B2D2A" }
+    impassable = {"x0B2D2A" }
+}
+
+OUT_OF_BOUNDS_27 = {
+    id = 5026
+    provinces = { "x11231A" }
+    impassable = {"x11231A" }
+}
+
+OUT_OF_BOUNDS_28 = {
+    id = 5027
+    provinces = { "x230C04" }
+    impassable = {"x230C04" }
+}
+
+OUT_OF_BOUNDS_29 = {
+    id = 5028
+    provinces = { "x010B45" }
+    impassable = {"x010B45" }
+}
+
+OUT_OF_BOUNDS_30 = {
+    id = 5029
+    provinces = { "x109766" }
+    impassable = {"x109766" }
+}
+
+OUT_OF_BOUNDS_31 = {
+    id = 5030
+    provinces = { "x26042E" }
+    impassable = {"x26042E" }
+}
+
+OUT_OF_BOUNDS_32 = {
+	id = 5031
+	provinces = { "x3E0109" }
+	impassable = { "x3E0109" }
+}

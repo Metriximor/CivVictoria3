@@ -13,7 +13,7 @@ pm_basic_iron_smelting = {
 	}
 }
 
-pm_no_iron_smelting = {
+pm_no_gold_smelting = {
 	texture = "gfx/interface/icons/production_method_icons/furnance.dds"
 }
 

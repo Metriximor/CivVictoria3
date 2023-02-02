@@ -4,7 +4,7 @@
 		workforce_scaled = {
 			building_input_oak_log_add = 10
 
-			building_output_wood_tools_add = 5
+			building_output_wood_tools_add = 30
 		}
 	}
 }
@@ -16,7 +16,7 @@ pm_craft_stone_tools = {
 			building_input_oak_log_add = 5
 			building_input_stone_add = 5
 
-			building_output_stone_tools_add = 5
+			building_output_stone_tools_add = 30
 		}
 	}
 }
@@ -26,9 +26,9 @@ pm_craft_iron_tools = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_oak_log_add = 5
-			building_input_iron_add = 5
+			building_input_iron_ingot_add = 5
 
-			building_output_iron_tools_add = 5
+			building_output_iron_tools_add = 30
 		}
 	}
 }
@@ -40,7 +40,7 @@ pm_craft_gold_tools = {
 			building_input_oak_log_add = 5
 			building_input_gold_add = 5
 
-			building_output_gold_tools_add = 5
+			building_output_gold_tools_add = 30
 		}
 	}
 }
@@ -52,7 +52,7 @@ pm_craft_diamond_tools = {
 			building_input_oak_log_add = 5
 			building_input_diamond_add = 5
 
-			building_output_diamond_tools_add = 5
+			building_output_diamond_tools_add = 30
 		}
 	}
 }

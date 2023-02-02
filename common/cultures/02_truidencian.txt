@@ -1,20 +1,52 @@
 ﻿truidencian = { 
 	color = rgb { 192 29 56 } 
 	religion = bezism 
-	traits = { udf_heritage medi_sea_culture_group english norwegian }
+	traits = { udf_heritage medi_sea_culture_group english scandinavian }
 	male_common_first_names={
-		August
-		Bjorn
-		Olav Orhint
-		Harald Haavard Haakon Handrane Hereweald
-		Magnus
-		Ludwig
+		August Anders Andre Aksel Arne Andreas Are
+		Bjorn Bjornar Balder
+		Olav Orhint Odin Oliver Oskar Olaf Ole Odd
+		Harald Haavard Haakon Handrane Hereweald Hermod Henrik Hermann Hans Halvor
+		Magnus Markus Matias Mikkel Martin Morten Mats Marius
+		Nils 
+		Ludvik Lars Lukas Liam
+		Tor Teodor Tobias Leif Terje Trond Torstein Tomas
+		Froy Felix Filip
+		Valdemar Viktor
+		Emil Elias Einar Erling Erlend Espen Eirik Erik Elling
+		Isak Iver
+		Filip
+		Jakob Johannes Jens Johan Jan Joakim Jonas Jon
+		Ulrik
+		Gustav Gunnar Geir
+		Sander Sebastian Sverre Svein Stian Steinar
+		Kristian Karl Knut Kjell Kristoffer
+		Harald-Andre Lars-Emil 
+		Peder Peter Petter Per
+		Rolf Reinar Rune Rudolf Reidar Rasmus
+		Daniel Dagmar
+		
 	}
 	female_common_first_names = {
-		Adrianne Anna Augustina
-		Ragnild
-		Generica
-		Eluwin
+		Adrianne Anna Augustina Agnete Astrid Aurora Agnes Anne Anita Anette Anne-Karin Albertine
+		Ragnild Randi Ragne
+		Generica Gudrun Grete
+		Eluwin Ella Emma Ellinor Eva Elin Elisabett Emilie Ella
+		Froya Frida
+		Idunn Ingrid Ida Ingeborg Inga Inger 
+		Siv Sofie Sara Solveig Signe Sigrid Silje Stine
+		Nanna Nora Nina Natalie
+		Maja Matilde Marie Marta Margrit Marianne Monika Malin 
+		Hedda Hilde Heidi Hege Hellene
+		Vilde 
+		Julie Josefine
+		Tuva Torill Tone
+		Ylva
+		Olga Olivia 
+		Borghild Berit Bente
+		Liv Linda Linn Linnea
+		Kari Kristi Kari-Anne Kamilla Katrine Kristin Karoline Karin
+		
 	}
 	noble_last_names = {
 		av_Rodskjegg of_Snowpeak of_Hyldor of_Nidaros of_Dol_Morhen
@@ -23,22 +55,41 @@
 		Nidgard 
 		of_Bezengard of_Nid of_Fox'_Landing
 		Revrud 
-		Hylian The_Hyldorian
+		Odegard Olsen
+		Andersen Aas
+		Nilsen Nielsen Nygard
+		Kristiansen Karlsen Knutsen Kristoffersen Kristensen
+		Pedersen Pettersen Paulsen
+		Hansen Helland
+		Johansen Johannessen Jakobsen Jenssen
+		Larsen Lie
+		Eriksen Eide Eliassen Evensen Eliassen Engen Ellingsen
+		Haugen Hanen
+		Dahl Danielsen
+		Lund Lien
+		Moen Myhre Mikkelsen Madsen Moe
+		Strand Solberg Solheim Sether Sandvik
+		Iversen Isaksen
+		Berg Bakken Berge Berntsen Birkeland Brekke
+		Halvorsen Holm Hauge Haugeland Haug
+		Rasmussen Ruud
+		Arnesen Antonsen Andersen
+		Vik
+		Gulbrandsen
 		
 	}
 	male_regal_first_names = {
 		Obtainius_Bez
-		Zeldronicus_Bez
+		Zeldronicus_Bez Zeldryn_Bez
 		Besius_Bez
-		Zeldryn_Bez
 	}
 	female_regal_first_names = {
-		Margrete Maud
-		Ragnhild 
+		Margrete_Bez Maud_Bez
+		Ragnhild_Bez
 	}
 	graphics = european
 	ethnicities = {
-		80 = minecrafter
-		20 = thruittan
+		90 = minecrafter
+		10 = thruittan
 	}
 }

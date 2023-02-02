@@ -1,7 +1,7 @@
 thruitt = { 
 	color = rgb { 153 58 134 } 
 	religion = bezism 
-	traits = { udf_heritage medi_sea_culture_group norwegian }
+	traits = { udf_heritage medi_sea_culture_group scandinavian }
 	male_common_first_names={
 		Loke Lodur
 		Odin Od
@@ -31,6 +31,8 @@ thruitt = {
 	}
 	female_regal_first_names = {
 		Ragnhild
+		Froya
+		Margrete
 	}
 
 	graphics = european

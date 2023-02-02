@@ -97,7 +97,7 @@ gold_ingot = {
 
 wood_tools = {
 	texture = "gfx/interface/icons/goods_icons/wood_tools.dds"
-	cost = 80
+	cost = 10
 	category = industrial
 	consumption_tax_cost = 200
 	convoy_cost_multiplier = @non_stackable_ccm
@@ -106,7 +106,7 @@ wood_tools = {
 
 stone_tools = {
 	texture = "gfx/interface/icons/goods_icons/stone_tools.dds"
-	cost = 100
+	cost = 20
 	category = industrial
 	consumption_tax_cost = 205
 	convoy_cost_multiplier = @non_stackable_ccm
@@ -115,7 +115,7 @@ stone_tools = {
 
 iron_tools = {
 	texture = "gfx/interface/icons/goods_icons/iron_tools.dds"
-	cost = 250
+	cost = 30
 	category = industrial
 	consumption_tax_cost = 200
 	convoy_cost_multiplier = @non_stackable_ccm
@@ -124,7 +124,7 @@ iron_tools = {
 
 gold_tools = {
 	texture = "gfx/interface/icons/goods_icons/gold_tools.dds"
-	cost = 180
+	cost = 25
 	category = industrial
 	consumption_tax_cost = 200
 	convoy_cost_multiplier = @non_stackable_ccm
@@ -133,7 +133,7 @@ gold_tools = {
 
 diamond_tools = {
 	texture =  "gfx/interface/icons/goods_icons/diamond_tools.dds"
-	cost = 350
+	cost = 80
 	category = luxury
 	consumption_tax_cost = 50
 	convoy_cost_multiplier = @non_stackable_ccm

@@ -6,6 +6,7 @@
 		pmg_base_building_tool_factory
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_high
 }
 
 building_ore_smelter = {
@@ -17,6 +18,7 @@ building_ore_smelter = {
 		pmg_base_gold_ore_smelter
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_high
 }
 
 building_charcoal_smelter = {
@@ -27,6 +29,7 @@ building_charcoal_smelter = {
 		pmg_base_charcoal_smelter
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_medium
 }
 
 building_glass_smelter = {
@@ -38,6 +41,7 @@ building_glass_smelter = {
 		pmg_base_make_bottles
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_medium
 }
 
 building_experience_cauldron = {
@@ -48,4 +52,5 @@ building_experience_cauldron = {
 		pmg_base_experience_cauldron
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_very_high
 }

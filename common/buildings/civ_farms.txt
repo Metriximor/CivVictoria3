@@ -9,6 +9,7 @@
 		pmg_base_building_tree_farm
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_medium
 }
 
 building_wheat_farm = {
@@ -20,6 +21,7 @@ building_wheat_farm = {
 	production_method_groups = {
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_low
 }
 
 building_beetroot_farm = {
@@ -30,6 +32,7 @@ building_beetroot_farm = {
 	production_method_groups = {
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_low
 }
 
 building_carrot_farm = {
@@ -40,6 +43,7 @@ building_carrot_farm = {
 	production_method_groups = {
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_low
 }
 
 building_cocoa_farm = {
@@ -50,6 +54,7 @@ building_cocoa_farm = {
 	production_method_groups = {
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_low
 }
 
 building_potato_farm = {
@@ -60,6 +65,7 @@ building_potato_farm = {
 	production_method_groups = {
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_low
 }
 
 building_pumpkin_farm = {
@@ -70,6 +76,7 @@ building_pumpkin_farm = {
 	production_method_groups = {
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_low
 }
 
 building_melon_farm = {
@@ -80,6 +87,7 @@ building_melon_farm = {
 	production_method_groups = {
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_low
 }
 
 building_cactus_farm = {
@@ -90,6 +98,7 @@ building_cactus_farm = {
 	production_method_groups = {
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_low
 }
 
 building_sugar_cane_farm = {
@@ -100,6 +109,7 @@ building_sugar_cane_farm = {
 	production_method_groups = {
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_low
 }
 
 building_mushroom_farm = {
@@ -110,4 +120,5 @@ building_mushroom_farm = {
 	production_method_groups = {
 		pmg_buildings_employment
 	}
+	required_construction = construction_cost_low
 }

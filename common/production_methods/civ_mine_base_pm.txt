@@ -26,6 +26,7 @@ pm_iron_pickaxe = {
 		workforce_scaled = {
 			building_input_iron_tools_add = 16
 		
+			building_output_stone_add = 128
 			building_output_iron_ore_add = 32
 			building_output_gold_ore_add = 16
 			building_output_redstone_add = 16

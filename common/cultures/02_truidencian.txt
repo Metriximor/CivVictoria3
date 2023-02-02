@@ -4,18 +4,17 @@
 	traits = { udf_heritage medi_sea_culture_group english scandinavian }
 	male_common_first_names={
 		August Anders Andre Aksel Arne Andreas Are
-		Bjorn Bjornar Balder
-		Olav Orhint Odin Oliver Oskar Olaf Ole Odd
-		Harald Haavard Haakon Handrane Hereweald Hermod Henrik Hermann Hans Halvor
+		Bjorn Bjornar Balder Bertil Bjarne 
+		Olav Odin Oliver Oskar Olaf Ole Odd
+		Harald Haavard Haakon Hermod Henrik Hermann Hans Halvor
 		Magnus Markus Matias Mikkel Martin Morten Mats Marius
-		Nils 
+		Nils Nathaniel
 		Ludvik Lars Lukas Liam
 		Tor Teodor Tobias Leif Terje Trond Torstein Tomas
-		Froy Felix Filip
+		Frei Felix Filip Fredrik
 		Valdemar Viktor
 		Emil Elias Einar Erling Erlend Espen Eirik Erik Elling
-		Isak Iver
-		Filip
+		Isak Iver 
 		Jakob Johannes Jens Johan Jan Joakim Jonas Jon
 		Ulrik
 		Gustav Gunnar Geir

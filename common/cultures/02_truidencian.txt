@@ -4,7 +4,7 @@
 	traits = { udf_heritage medi_sea_culture_group english scandinavian }
 	male_common_first_names={
 		August Anders Andre Aksel Arne Andreas Are
-		Bjorn Bjornar Balder Bertil Bjarne 
+		Bjorn Bjornar Balder Bertil Bjarne
 		Olav Odin Oliver Oskar Olaf Ole Odd
 		Harald Haavard Haakon Hermod Henrik Hermann Hans Halvor
 		Magnus Markus Matias Mikkel Martin Morten Mats Marius
@@ -20,7 +20,7 @@
 		Gustav Gunnar Geir
 		Sander Sebastian Sverre Svein Stian Steinar
 		Kristian Karl Knut Kjell Kristoffer
-		Harald-Andre Lars-Emil 
+		Harald-Andre Lars-Emil
 		Peder Peter Petter Per
 		Rolf Reinar Rune Rudolf Reidar Rasmus
 		Daniel Dagmar
@@ -32,16 +32,16 @@
 		Generica Gudrun Grete
 		Eluwin Ella Emma Ellinor Eva Elin Elisabett Emilie Ella
 		Froya Frida
-		Idunn Ingrid Ida Ingeborg Inga Inger 
+		Idunn Ingrid Ida Ingeborg Inga Inger
 		Siv Sofie Sara Solveig Signe Sigrid Silje Stine
 		Nanna Nora Nina Natalie
-		Maja Matilde Marie Marta Margrit Marianne Monika Malin 
+		Maja Matilde Marie Marta Margrit Marianne Monika Malin
 		Hedda Hilde Heidi Hege Hellene
-		Vilde 
+		Vilde
 		Julie Josefine
 		Tuva Torill Tone
 		Ylva
-		Olga Olivia 
+		Olga Olivia
 		Borghild Berit Bente
 		Liv Linda Linn Linnea
 		Kari Kristi Kari-Anne Kamilla Katrine Kristin Karoline Karin

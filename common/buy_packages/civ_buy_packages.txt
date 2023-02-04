@@ -1,6 +1,497 @@
 ﻿wealth_1 = {
 	political_strength = 0.03
 	goods = {
-		popneed_tools = 2
+		popneed_tools = 30
 	}
 }
+wealth_2 = {
+	political_strength = 0.04
+	goods = {
+	}
+}
+wealth_3 = {
+	political_strength = 0.05
+	goods = {
+	}
+}
+wealth_4 = {
+	political_strength = 0.1
+	goods = {
+	}
+}
+wealth_5 = {
+	political_strength = 0.15
+	goods = {
+	}
+}
+wealth_6 = {
+	political_strength = 0.25
+	goods = {
+	}
+}
+wealth_7 = {
+	political_strength = 0.35
+	goods = {
+	}
+}
+wealth_8 = {
+	political_strength = 0.45
+	goods = {
+	}
+}
+wealth_9 = {
+	political_strength = 0.6
+	goods = {
+	}
+}
+wealth_10 = {
+	political_strength = 0.75
+	goods = {
+	}
+}
+wealth_11 = {
+	political_strength = 0.9
+	goods = {
+	}
+}
+wealth_12 = {
+	political_strength = 1.4
+	goods = {
+	}
+}
+wealth_13 = {
+	political_strength = 1.9
+	goods = {
+	}
+}
+wealth_14 = {
+	political_strength = 2.4
+	goods = {
+	}
+}
+wealth_15 = {
+	political_strength = 4.6
+	goods = {
+	}
+}
+wealth_16 = {
+	political_strength = 6.8
+	goods = {
+	}
+}
+wealth_17 = {
+	political_strength = 9
+	goods = {
+	}
+}
+wealth_18 = {
+	political_strength = 12
+	goods = {
+	}
+}
+wealth_19 = {
+	political_strength = 15
+	goods = {
+	}
+}
+wealth_20 = {
+	political_strength = 18
+	goods = {
+	}
+}
+wealth_21 = {
+	political_strength = 22
+	goods = {
+	}
+}
+wealth_22 = {
+	political_strength = 26
+	goods = {
+	}
+}
+wealth_23 = {
+	political_strength = 30
+	goods = {
+	}
+}
+wealth_24 = {
+	political_strength = 34
+	goods = {
+	}
+}
+wealth_25 = {
+	political_strength = 39
+	goods = {
+	}
+}
+wealth_26 = {
+	political_strength = 44
+	goods = {
+	}
+}
+wealth_27 = {
+	political_strength = 49
+	goods = {
+	}
+}
+wealth_28 = {
+	political_strength = 54
+	goods = {
+	}
+}
+wealth_29 = {
+	political_strength = 59
+	goods = {
+	}
+}
+wealth_30 = {
+	political_strength = 65
+	goods = {
+	}
+}
+wealth_31 = {
+	political_strength = 71
+	goods = {
+	}
+}
+wealth_32 = {
+	political_strength = 77
+	goods = {
+	}
+}
+wealth_33 = {
+	political_strength = 83
+	goods = {
+	}
+}
+wealth_34 = {
+	political_strength = 89
+	goods = {
+	}
+}
+wealth_35 = {
+	political_strength = 95
+	goods = {
+	}
+}
+wealth_36 = {
+	political_strength = 102
+	goods = {
+	}
+}
+wealth_37 = {
+	political_strength = 109
+	goods = {
+	}
+}
+wealth_38 = {
+	political_strength = 116
+	goods = {
+	}
+}
+wealth_39 = {
+	political_strength = 123
+	goods = {
+	}
+}
+wealth_40 = {
+	political_strength = 130
+	goods = {
+	}
+}
+wealth_41 = {
+	political_strength = 140
+	goods = {
+	}
+}
+	wealth_42 = {
+political_strength = 150
+	goods = {
+	}
+}
+wealth_43 = {
+	political_strength = 160
+	goods = {
+	}
+}
+wealth_44 = {
+	political_strength = 170
+	goods = {
+	}
+}
+wealth_45 = {
+	political_strength = 185
+	goods = {
+	}
+}
+wealth_46 = {
+	political_strength = 200
+	goods = {
+	}
+}
+wealth_47 = {
+	political_strength = 215
+	goods = {
+	}
+}
+wealth_48 = {
+	political_strength = 230
+	goods = {
+	}
+}
+wealth_49 = {
+	political_strength = 250
+	goods = {
+	}
+}
+wealth_50 = {
+	political_strength = 275
+	goods = {
+	}
+}
+wealth_51 = {
+	political_strength = 300
+	goods = {
+	}
+}
+wealth_52 = {
+	political_strength = 325
+	goods = {
+	}
+}
+wealth_53 = {
+	political_strength = 350
+	goods = {
+	}
+}
+wealth_54 = {
+	political_strength = 375
+	goods = {
+	}
+}
+wealth_55 = {
+	political_strength = 400
+	goods = {
+	}
+}
+wealth_56 = {
+	political_strength = 425
+	goods = {
+	}
+}
+wealth_57 = {
+	political_strength = 450
+	goods = {
+	}
+}
+wealth_58 = {
+	political_strength = 475
+	goods = {
+	}
+}
+wealth_59 = {
+	political_strength = 500
+	goods = {
+	}
+}
+wealth_60 = {
+	political_strength = 525
+	goods = {
+	}
+}
+wealth_61 = {
+	political_strength = 550
+	goods = {
+	}
+}
+wealth_62 = {
+	political_strength = 575
+	goods = {
+	}
+}
+wealth_63 = {
+	political_strength = 600
+	goods = {
+	}
+}
+wealth_64 = {
+	political_strength = 625
+	goods = {
+	}
+}
+wealth_65 = {
+	political_strength = 650
+	goods = {
+	}
+}
+wealth_66 = {
+	political_strength = 675
+	goods = {
+	}
+}
+wealth_67 = {
+	political_strength = 700
+	goods = {
+	}
+}
+wealth_68 = {
+	political_strength = 725
+	goods = {
+	}
+}
+wealth_69 = {
+	political_strength = 750
+	goods = {
+	}
+}
+wealth_70 = {
+	political_strength = 775
+	goods = {
+	}
+}
+wealth_71 = {
+	political_strength = 800
+	goods = {
+	}
+}
+wealth_72 = {
+	political_strength = 825
+	goods = {
+	}
+}
+wealth_73 = {
+	political_strength = 850
+	goods = {
+	}
+}
+wealth_74 = {
+	political_strength = 875
+	goods = {
+	}
+}
+wealth_75 = {
+	political_strength = 900
+	goods = {
+	}
+}
+wealth_76 = {
+	political_strength = 925
+	goods = {
+	}
+}
+wealth_77 = {
+	political_strength = 950
+	goods = {
+	}
+}
+wealth_78 = {
+	political_strength = 975
+	goods = {
+	}
+}
+wealth_79 = {
+	political_strength = 1000
+	goods = {
+	}
+}
+wealth_80 = {
+	political_strength = 1025
+	goods = {
+	}
+}
+wealth_81 = {
+	political_strength = 1050
+	goods = {
+	}
+}
+wealth_82 = {
+	political_strength = 1075
+	goods = {
+	}
+}
+wealth_83 = {
+	political_strength = 1100
+	goods = {
+	}
+}
+wealth_84 = {
+	political_strength = 1125
+	goods = {
+	}
+}
+wealth_85 = {
+	political_strength = 1150
+	goods = {
+	}
+}
+wealth_86 = {
+	political_strength = 1175
+	goods = {
+	}
+}
+wealth_87 = {
+	political_strength = 1200
+	goods = {
+	}
+}
+wealth_88 = {
+	political_strength = 1225
+	goods = {
+	}
+}
+wealth_89 = {
+	political_strength = 1250
+	goods = {
+	}
+}
+wealth_90 = {
+	political_strength = 1275
+	goods = {
+	}
+}
+wealth_91 = {
+	political_strength = 1300
+	goods = {
+	}
+}
+wealth_92 = {
+	political_strength = 1325
+	goods = {
+	}
+}
+wealth_93 = {
+	political_strength = 1350
+	goods = {
+	}
+}
+wealth_94 = {
+	political_strength = 1375
+	goods = {
+	}
+}
+wealth_95 = {
+	political_strength = 1400
+	goods = {
+	}
+}
+wealth_96 = {
+	political_strength = 1425
+	goods = {
+	}
+}
+wealth_97 = {
+	political_strength = 1450
+	goods = {
+	}
+}
+wealth_98 = {
+	political_strength = 1475
+	goods = {
+	}
+}
+wealth_99 = {
+	political_strength = 1500
+	goods = {
+	}
+}
+

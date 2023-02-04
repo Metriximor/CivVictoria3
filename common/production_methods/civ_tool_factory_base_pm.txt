@@ -38,7 +38,7 @@ pm_craft_gold_tools = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_oak_log_add = 5
-			building_input_gold_add = 5
+			building_input_gold_ingot_add = 5
 
 			building_output_gold_tools_add = 30
 		}

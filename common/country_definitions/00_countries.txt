@@ -73,3 +73,19 @@ KOV = {
 	cultures = { thruitt truidencian gensokyojin }
 	capital = STATE_NIDAROS
 }
+
+YOA = {
+	color = "yoahtlan_yellow"
+	country_type = recognized
+	tier = empire
+	cultures = { resimerian, yoahtlan }
+	capital = STATE_YOAHTL_HOMELANDS
+}
+
+ROZ = {
+	color = "rozian_pink"
+	country_type = recognized
+	tier = principality
+	cultures = { examplish }
+	capital = STATE_ROZIA
+}

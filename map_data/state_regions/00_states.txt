@@ -1,4 +1,4 @@
-﻿# highest id used 51
+﻿# highest id used 66
 # Truidencia
 STATE_NIDAROS = {
     id = 1
@@ -104,6 +104,8 @@ STATE_OUTER_NIDAROS = {
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_tree_farming" }
     traits = { "state_trait_taiga" }
 }
+
+
 # Gensokyo
 STATE_TENSEIMIYA = {
     id = 8
@@ -181,7 +183,7 @@ STATE_AMATERASU_SHORES = {
 
 STATE_YAMATO_KEN = {
     id = 45
-    provinces = { x3FC9ED x59EAD5 x699DF8 x8FE0B7 x90D9B2 xB658EC xC49DEC xD772D2 xE0D0CE xE4F374 xE659DA xE680BE xE967F1 xEC64B8 xF2D1B6 xF35BF6 xF4C6FD "xF54E84" "xF637CC" "xFD46F3" }
+    provinces = { x3FC9ED x59EAD5 x699DF8 x8FE0B7 x90D9B2 xB658EC xC49DEC xD772D2 xE0D0CE xE4F374 xE659DA xE680BE xE967F1 xEC64B8 xF2D1B6 xF35BF6 xF4C6FD xF54E84 xF637CC xFD46F3 }
     city = xF2D1B6
     capped_resources = {
         bg_sand_pit = 5
@@ -189,10 +191,12 @@ STATE_YAMATO_KEN = {
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
     traits = { "state_trait_jungle" }
 }
+
+
 # Lusitania
 STATE_PORTUCALE = {
     id = 13
-    provinces = { x047049 x7FDEA5 x838516 x90CCEF x97C2DD xABBED1 xADCC8C xB06EF7 xB7ABD6 xBE9CC4 xCEDFD8 xD1BDED xD279D1 xD3E158 xD7FC32 xDBEEA0 xDC4BFD xDEFD52 xE4E6C8 xE583BC xF2F389 "xF9D963" "xFBA660" }
+    provinces = { x047049 x7FDEA5 x838516 x90CCEF x97C2DD xABBED1 xADCC8C xB06EF7 xB7ABD6 xBE9CC4 xCEDFD8 xD1BDED xD279D1 xD3E158 xD7FC32 xDBEEA0 xDC4BFD xDEFD52 xE4E6C8 xE583BC xF2F389 xF9D963 xFBA660 }
     port = xE583BC
     city = xB06EF7
     naval_exit_id = 3001
@@ -248,7 +252,7 @@ STATE_OLIMPIA = {
 
 STATE_ATLAS = {
     id = 17
-    provinces = { x047048 x30D7F1 x6CB1EA x88C5DE x8BD3DC x9CBFB8 xA0DFF6 xB9F2C7 xBAFA7A xCE999F xD2F9A9 xD3C3D3 xD4C989 xD844E3 xDE93C0 xDF88A7 xDFDCB2 xE59BAF xE64EF7 xEDA9BD xF3A5AD xF5C96C xF7B795 xF8A08D xFCA961 xFD57ED }
+    provinces = { x047048 x30D7F1 x6CB1EA x88C5DE x8BD3DC x8CDAB2 x9CBFB8 xA0DFF6 xB9F2C7 xBAFA7A xCE999F xD2F9A9 xD3C3D3 xD4C989 xD844E3 xDE93C0 xDF88A7 xDFDCB2 xE59BAF xE64EF7 xEDA9BD xF3A5AD xF5C96C xF7B795 xF8A08D xFCA961 xFD57ED }
     port = xE59BAF
     city = xA0DFF6
     naval_exit_id = 3001
@@ -276,7 +280,7 @@ STATE_AZORES = {
 
 STATE_CLASSICALE = {
     id = 19
-    provinces = { x41E6EF x93F3CE xAEE28B xB5F283 xB6FECC xB8BFDA xBEE7F9 xD6C49B xDCD0A5 xDE82B6 xDE8A9D xE1C4B6 "xF07697" "xF2EDBB" "xF2F9EB" "xF468A9" "xFD878B" "xFE43E5" }
+    provinces = { x41E6EF x93F3CE xAEE28B xB5F283 xB6FECC xB8BFDA xBEE7F9 xD6C49B xDCD0A5 xDE82B6 xDE8A9D xE1C4B6 xF07697 xF2EDBB xF2F9EB xF468A9 xFD878B xFE43E5 }
     port = xFE43E5
     city = xB8BFDA
     naval_exit_id = 3001
@@ -284,7 +288,7 @@ STATE_CLASSICALE = {
         bg_sand_pit = 5
     }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
-    traits = { "state_trait_plains" }
+    traits = { "state_trait_sunflower_plains" }
 }
 
 
@@ -302,7 +306,7 @@ STATE_DREAMLAND = {
 
 STATE_LUSITAN_PLAINS = {
     id = 21
-    provinces = { x26F3F0 x2D75E7 x5BEBE0 x83BCFD x98B5C7 x9DEDEF xA0F97C xDDFC3B xE4DF7D xE7C4EE xEA99CF xEDBECA xEEDA55 "xFA4ACB" }
+    provinces = { x26F3F0 x2D75E7 x5BEBE0 x83BCFD x98B5C7 x9DEDEF xA0F97C xDDFC3B xE4DF7D xE7C4EE xEA99CF xEDBECA xEEDA55 xFA4ACB }
     city = xEDBECA
     capped_resources = {
         bg_sand_pit = 5
@@ -314,7 +318,7 @@ STATE_LUSITAN_PLAINS = {
 
 STATE_CIV_ALENTEJO = {
     id = 22
-    provinces = { x32D9EA x58EFF4 x5DD1DC x6EE6D7 x78F5E9 x7BC4CD x8CDAB2 x8FACDF x8FCEC4 x9394D7 xB456F5 xC391C5 xDAB573 xE1B19B xEA909F xEAF818 xF1FD65 xF6E868 xF7E56C xFA77AA xFDF4B6 xFEE35B }
+    provinces = { x32D9EA x58EFF4 x5DD1DC x6EE6D7 x78F5E9 x7BC4CD x8FACDF x8FCEC4 x9394D7 x9D6548 xA366F7 xB456F5 xC391C5 xDAB573 xE1B19B xEA909F xEAF818 xF1FD65 xF6E868 xF7E56C xFA77AA xFDF4B6 xFEE35B }
     port = xF1FD65
     city = x7BC4CD
     naval_exit_id = 3001
@@ -328,7 +332,7 @@ STATE_CIV_ALENTEJO = {
 
 STATE_LUSITAN_PLATEAUS = {
     id = 23
-    provinces = { x13D0FE x53F9E8 x67D8FD x6CD9E7 x79B3CE x79EAF1 x7AE4E4 x7CD3AC x81E8A9 x8CF5F5 x8CFBCB xB19FCD xB7C4A4 xB8C8EF xBEC5F4 xBEC9EE xC3FB41 xC9C2C7 xCDF4C2 xD36CC3 xD798F1 xD8D2A2 xDDA1E8 xDEDAC0 xE1D0B6 xED78F6 xF29E8B xF660B6 xF7BBDC xF8FD1C xFCD2FE xFE42D7 "xFEB379" }
+    provinces = { x13D0FE x53F9E8 x67D8FD x6CD9E7 x79B3CE x79EAF1 x7AE4E4 x7CD3AC x81E8A9 x8CF5F5 x8CFBCB xB19FCD xB7C4A4 xB8C8EF xBEC5F4 xBEC9EE xC3FB41 xC9C2C7 xCDF4C2 xD36CC3 xD798F1 xD8D2A2 xDDA1E8 xDEDAC0 xE1D0B6 xED78F6 xF29E8B xF660B6 xF7BBDC xF8FD1C xFCD2FE xFE42D7 xFEB379 }
     city = xF29E8B
     capped_resources = {
         bg_sand_pit = 5
@@ -348,6 +352,8 @@ STATE_EBORA = {
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_wheat_farms" "bg_cactus_farms" }
     traits = { "state_trait_mesa_plateau" }
 }
+
+
 # Lambat
 STATE_EAST_LAMBAT_CITY = {
     id = 27
@@ -457,6 +463,8 @@ STATE_PARFAIT_KAWAYAN = {
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
     traits = { "state_trait_jungle" }
 }
+
+
 # Danzilona
 STATE_PROVINCE_OF_NEW_DANZILONA = {
     id = 35
@@ -500,7 +508,8 @@ STATE_MELIA = {
 
 STATE_NEW_SWISSTON = {
     id = 38
-    provinces = {}
+    provinces = {
+    }
     capped_resources = {
         bg_sand_pit = 5
     }
@@ -573,6 +582,8 @@ STATE_SOUTH_MELIA = {
     arable_resources = { "bg_beetroot_farms" "bg_wheat_farms" "bg_tree_farming" }
     traits = { "state_trait_forest" }
 }
+
+
 # Wolken 
 STATE_WOLKEN = {
     id = 42
@@ -600,6 +611,8 @@ STATE_WOLKEN_ISLANDS = {
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
     traits = { "state_trait_plains" }
 }
+
+
 # Mehry
 STATE_NORTHERN_MERY = {
     id = 48
@@ -639,74 +652,171 @@ STATE_SOUTHERN_MERY = {
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
     traits = { "state_trait_jungle" }
 }
-# Yoahtl
 
+
+# Yoahtl
 STATE_YOAHTL_HOMELANDS = {
     id = 52
-    provinces = { "x75FBFE" "x80E8B7" "xA198BD" "xC9CCDC" "xD4D15D" "xE9DA78" }
+    provinces = { x75FBFE x80E8B7 xA198BD xC9CCDC xD4D15D xE9DA78 }
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = { "state_trait_plains" }
+    arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
 }
+
 
 STATE_KOBYLINSKI = {
     id = 53
-    provinces = { "x38CEFC" "x7DF092" "xAB99F8" "xC769C5" "xC8B0F9" "xD181F0" "xD1C2F9" "xDE58E3" "xE1D293" "xE279A0" "xE4A4EF" "xE559D2" "xEFB985" "xF162BA" "xF287B5" "xF5B287" "xF77A9C" "xF839DD" "xF8BBB4" "xFB57D1" "xFCD773" }
+    provinces = { x38CEFC x7DF092 xAB99F8 xC769C5 xC8B0F9 xD181F0 xD1C2F9 xDE58E3 xE1D293 xE279A0 xE4A4EF xE559D2 xEFB985 xF162BA xF287B5 xF5B287 xF77A9C xF839DD xF8BBB4 xFB57D1 xFCD773 }
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = { "state_trait_plains" }
+    arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
 }
+
 
 STATE_CZECHIA = {
     id = 54
-    provinces = { "x36DEF3" "x53B7F9" "x91DEC7" "x9398E1" "x96CEF6" "x9A87DC" "xA69AC0" "xB791C1" "xB8AFE8" "xBD89DA" "xBDB9E8" "xC0B7B5" "xC36BC8" "xC3CF78" "xC7B592" "xCAECCC" "xCEFA63" "xD2BEEF" "xDE63C5" "xE36AB6" "xE66AEB" "xEC87EC" "xEECAA5" "xF0D7C0" "xF760BA" "xFB51CC" "xFC54F0" "xFE5FB1" "xFE9098" }
+    provinces = { x36DEF3 x53B7F9 x91DEC7 x9398E1 x96CEF6 x9A87DC xA69AC0 xB791C1 xB8AFE8 xBD89DA xBDB9E8 xC0B7B5 xC36BC8 xC3CF78 xC7B592 xCAECCC xCEFA63 xD2BEEF xDE63C5 xE36AB6 xE66AEB xEC87EC xEECAA5 xF0D7C0 xF760BA xFB51CC xFC54F0 xFE5FB1 xFE9098 }
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = { "state_trait_plains" }
+    arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
 }
+
 
 STATE_WESTBURY = {
     id = 55
-    provinces = { "x2D75E8" "x4610B5" "x4FD2F3" "x56FCAD" "x59EDBA" "x5C1A10" "x60E4D1" "x74F6B7" "x88FBA4" "x8AD4C8" "x8BC2D3" "x97DD92" "x9CF0AA" "xA4A5B4" "xBAABA9" "xBBFDBA" "xBECEFE" "xC29BA6" "xC4D89E" "xC5D9DD" "xC6DFEC" "xC79DB9" "xC7C2B0" "xCB84E7" "xCBD4E8" "xCED6D0" "xD6F8B8" "xDD25F3" "xE193FB" "xE26FDB" "xE2D8F6" "xE480BF" "xEAE39A" "xF2ABDE" "xF8CAD2" "xF93AC9" "xF995DA" "xFC3EF3" }
+    provinces = { x2D75E8 x4610B5 x4FD2F3 x56FCAD x59EDBA x5C1A10 x60E4D1 x74F6B7 x88FBA4 x8AD4C8 x8BC2D3 x97DD92 x9CF0AA xA4A5B4 xBAABA9 xBBFDBA xBECEFE xC29BA6 xC4D89E xC5D9DD xC6DFEC xC79DB9 xC7C2B0 xCB84E7 xCBD4E8 xCED6D0 xD6F8B8 xDD25F3 xE193FB xE26FDB xE2D8F6 xE480BF xEAE39A xF2ABDE xF8CAD2 xF93AC9 xF995DA xFC3EF3 }
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = { "state_trait_savanna" }
+    arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
 }
+
 
 STATE_EASTBURY = {
     id = 56
-    provinces = { "x0C6172" "x3AF5E0" "x3DE2FD" "x65FCA3" "x8BE7F0" "x98F26D" "xAFDECF" "xB87CCA" "xBCE278" "xBED2B6" "xC1B4E7" "xD6D8A5" "xD7C3A3" "xDEDD98" "xE49BDF" "xEDCD94" "xEF72E2" "xEF8534" "xF29FD7" "xF2E7B0" "xF9C244" "xF9D439" "xFE42D8" }
+    provinces = { x0C6172 x3AF5E0 x3DE2FD x65FCA3 x8BE7F0 x98F26D xAFDECF xB87CCA xBCE278 xBED2B6 xC1B4E7 xD6D8A5 xD7C3A3 xDEDD98 xE49BDF xEDCD94 xEF72E2 xEF8534 xF29FD7 xF2E7B0 xF9C244 xF9D439 xFE42D8 }
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = { "state_trait_roofed_forest" }
+    arable_resources = { "bg_beetroot_farms" "bg_wheat_farms" "bg_tree_farming" }
 }
+
 
 STATE_YOAHTL_WESTERN_FRONTIER = {
     id = 57
-    provinces = { "x3C31A6" "x54DFA0" "x56F9DB" "x63B8DB" "x756466" "x83BAD6" "x86D5CC" "x8DCED3" "x9AF8A5" "x9BFDF3" "xA1DA7F" "xA4B1B1" "xA8B8C9" "xAEC1CE" "xAFE16F" "xAFF56C" "xC16ACE" "xC1AADE" "xC1ADA3" "xC1DCE7" "xC4E3E8" "xC8AAAB" "xCCD0C4" "xCD38F5" "xCFF0EC" "xD3FEBA" "xD46ACC" "xE1979E" "xE574F3" "xE7E9B0" "xEEB26B" "xEF77A8" "xF062FC" "xF23DD9" "xF2D743" "xF3CB4F" "xF5D332" "xFAB6A3" "xFAD4D6" "xFBD8D6" }
+    provinces = { x3C31A6 x54DFA0 x56F9DB x63B8DB x756466 x83BAD6 x86D5CC x8DCED3 x9AF8A5 x9BFDF3 xA1DA7F xA4B1B1 xA8B8C9 xAEC1CE xAFE16F xAFF56C xC16ACE xC1AADE xC1ADA3 xC1DCE7 xC4E3E8 xC8AAAB xCCD0C4 xCD38F5 xCFF0EC xD3FEBA xD46ACC xE1979E xE574F3 xE7E9B0 xEEB26B xEF77A8 xF062FC xF23DD9 xF2D743 xF3CB4F xF5D332 xFAB6A3 xFAD4D6 xFBD8D6 }
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = { "state_trait_jungle" }
+    arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
 }
 
-STATES_ALTEPETL = {
+
+STATE_ALTEPETL = {
     id = 58
-    provinces = { "x55F4E7" "x72D3CF" "xAAD7F1" "xBAAFF5" "xBECDC5" "xBFC6F3" "xDCF928" "xE1EFF1" "xE1F43A" "xE534FC" "xEB88F7" "xF0A983" "xF5F481" "xF7889C" }
+    provinces = { x55F4E7 x72D3CF xAAD7F1 xBAAFF5 xBECDC5 xBFC6F3 xDCF928 xE1EFF1 xE1F43A xE534FC xEB88F7 xF0A983 xF5F481 xF7889C }
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = { "state_trait_jungle" }
+    arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
 }
 
-STATES_SOUTHBURY = {
+
+STATE_SOUTHBURY = {
     id = 59
-    provinces = { "x4FE1EA" "x6FFB9F" "x8196ED" "x85DECF" "x969CF9" "x96EECC" "xA0DCFC" "xACE6A5" "xADC8B2" "xB5D3EF" "xB8E3CF" "xB9DE8F" "xBACA77" "xBFC1D6" "xC0A0C3" "xC2DB8F" "xCCB89B" "xCEE473" "xCFF7F9" "xD6FEA9" "xD8F19F" "xDF91C6" "xDFB3BD" "xE160CE" "xE2029F" "xE69DCE" "xE9CFB1" "xEB6CAD" "xEB9DF9" "xF0A493" "xF452F8" "xFB689B" "xFCBF57" "xFD32F3" }
+    provinces = { x4FE1EA x6FFB9F x8196ED x85DECF x969CF9 x96EECC xA0DCFC xACE6A5 xADC8B2 xB5D3EF xB8E3CF xB9DE8F xBACA77 xBFC1D6 xC0A0C3 xC2DB8F xCCB89B xCEE473 xCFF7F9 xD6FEA9 xD8F19F xDF91C6 xDFB3BD xE160CE xE2029F xE69DCE xE9CFB1 xEB6CAD xEB9DF9 xF0A493 xF452F8 xFB689B xFCBF57 xFD32F3 }
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = { "state_trait_jungle" }
+    arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
 }
+
 
 STATE_KAXITL = {
     id = 60
-    provinces = { "x08FAF5" "x1ADFE0" "x2BD9F3" "x43F1F1" "x64F0AF" "x73F698" "x87E38E" "x90ADC6" "x93B6FE" "x96EA85" "x9E8DCE" "x9E8DD2" "xA7FEC1" "xAC91F5" "xAFE6A6" "xB488D9" "xB5E2F3" "xB688F6" "xBBCEE2" "xBEEB81" "xBFA2CD" "xC0FDF6" "xC34D0A" "xC9B9BF" "xCEB7D9" "xD12BFE" "xD1C171" "xD5ABFC" "xDA919F" "xE0DCEC" "xE4AA68" "xE4B075" "xE8CAB5" "xE942DD" "xEB8992" "xECEAFE" "xEFD7AE" "xF268D3" "xF64BF2" "xF9BC5E" "xF9ECB2" "xFA8989" "xFC99F1" }
+    provinces = { x08FAF5 x1ADFE0 x2BD9F3 x43F1F1 x64F0AF x73F698 x87E38E x90ADC6 x93B6FE x96EA85 x9E8DCE x9E8DD2 xA7FEC1 xAC91F5 xAFE6A6 xB488D9 xB5E2F3 xB688F6 xBBCEE2 xBEEB81 xBFA2CD xC0FDF6 xC34D0A xC9B9BF xCEB7D9 xD12BFE xD1C171 xD5ABFC xDA919F xE0DCEC xE4AA68 xE4B075 xE8CAB5 xE942DD xEB8992 xECEAFE xEFD7AE xF268D3 xF64BF2 xF9BC5E xF9ECB2 xFA8989 xFC99F1 }
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = { "state_trait_jungle" }
+    arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
 }
+
 
 STATE_YOAHTL_EASTERN_FRONTIER = {
     id = 61
-    provinces = { "x20DD66" "x4BC8EF" "x818BFA" "x96C3FC" "x9BEC92" "x9CBEAF" "xA1B5AE" "xABA8DE" "xB7A5FE" "xBBC0A0" "xBBD5EF" "xBCBAB7" "xC1DDD6" "xCD516B" "xD148FC" "xD277DB" "xD4D519" "xD4E581" "xDEF94A" "xDF7FE9" "xDFC48F" "xE1D2AD" "xE4E8A1" "xEDF6AF" "xEDF9F9" "xF1A3F8" "xF5BBBE" "xF943C5" "xFBF1C6" "xFDBBC7" }
+    provinces = { x20DD66 x4BC8EF x818BFA x96C3FC x9BEC92 x9CBEAF xA1B5AE xABA8DE xB7A5FE xBBC0A0 xBBD5EF xBCBAB7 xC1DDD6 xCD516B xD148FC xD277DB xD4D519 xD4E581 xDEF94A xDF7FE9 xDFC48F xE1D2AD xE4E8A1 xEDF6AF xEDF9F9 xF1A3F8 xF5BBBE xF943C5 xFBF1C6 xFDBBC7 }
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = { "state_trait_jungle" }
+    arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
 }
+
 
 STATE_RESIMERE = {
     id = 62
-    provinces = {}
+    provinces = { x56CDDC x6BF7B6 xAAB9B4 xC9E093 xE03BDD xEABD62 xF4FB92 }
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = { "state_trait_taiga" }
+    arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_tree_farming" }
 }
+
 
 STATE_RESIMERIAN_FRONTIER = {
     id = 63
-    provinces = {}
+    provinces = { x23FBF9 x2AE0FB x4EFBB0 x576CCE x60E0DD x630D77 x6454DD x6E93F7 x77C19D x7A0268 x7FB8C1 x87FDBB x9338E0 x93F3F2 x94C1AD xA4EEB4 xA683F3 xA786CC xA7CCDB xAA89CA xABABDD xB2D8B0 xB6EBD9 xBA91B9 xBBEFF6 xBEC2B8 xBFD89D xC34FF1 xC4A8E9 xC5DCA5 xC7FEC4 xC89DC1 xCAC17C xCAFBD0 xCED4CC xD5E842 xD99BBD xDB83F4 xDBE78B xDCF2FB xDF819F xE0D859 xE2DEF8 xE70997 xE7F449 xEAF5E0 xEF8AAA xF1EAD6 xF2D4BD xF3EBD3 xF461AA xF650DD xF7DFE3 xFBF0E8 xFDE9E7 }
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = { "state_trait_taiga" }
+    arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_tree_farming" }
 }
+
 
 STATE_MINI_YOAHTL = {
     id = 64
-    provinces = { "x18F4F2" "x49D9D7" "x80FB91" "xA366F7" "xA4CDB2" "xA8BEB7" "xC1F0AE" "xDDD2BA" "xE6FE5F" "xEFBD94" }
+    provinces = { x18F4F2 x49D9D7 xC1F0AE xDDD2BA xE6FE5F xEFBD94 xF7C5C8 xFC7DEA }
+    capped_resources = {
+        bg_sand_pit = 80
+    }
+    traits = { "state_trait_desert" }
+    arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_cactus_farms" "bg_tree_farming" }
 }
+
 
 STATE_MINI_YOAHTL_FRONTIER = {
     id = 65
-    provinces = { "x6EFD96" "x7AE5ED" "x82BDEE" "x8CCFC3" "x8DEF92" "x9687F5" "x99E7E2" "x9EE885" "x9F9CF6" "xA4EE69" "xA6BDC7" "xA6E787" "xAAD2B5" "xAB6A8C" "xB4E9FB" "xB96BF5" "xB989E0" "xC375E5" "xC4DD8D" "xC7E8AC" "xCE8BF6" "xCFEFA6" "xD18EBE" "xD1C2E6" "xD24EF8" "xD27EA5" "xD4B177" "xD576B2" "xD7D87E" "xD9DE9F" "xDCADCB" "xE0E5AA" "xE496D4" "xE8F4D2" "xEEEBDB" "xEF55E2" "xF44CC7" "xF7C5C8" "xF8FA7C" "xFBCD47" }
+    provinces = { x6848B1 x6EC4D4 x6EFD96 x7AE5ED x82BDEE x8DEF92 x9687F5 x99E7E2 x9EE885 x9F9CF6 xA31767 xA4EE69 xA6BDC7 xA6E787 xAAD2B5 xAB6A8C xB4E9FB xB96BF5 xB989E0 xC375E5 xC4DD8D xC7E8AC xCE8BF6 xCFEFA6 xCFF657 xD18EBE xD1C2E6 xD24EF8 xD27EA5 xD4B177 xD576B2 xD7D87E xD9DE9F xDCADCB xE0E5AA xE496D4 xE8F4D2 xEA18F1 xEEEBDB xEF55E2 xF1DA86 xF44CC7 xF8FA7C xFBCD47 }
+    capped_resources = {
+        bg_sand_pit = 80
+    }
+    traits = { "state_trait_desert" }
+    arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_cactus_farms" "bg_tree_farming" }
 }
+
+
+# Rozia
+STATE_ROZIA = {
+    id = 66
+    provinces = { x051A48 x21B44B x3FF2DF x41FAE4 x54E4CF x72E9E2 x79DCAD xA3D3CF xCDABA8 xD1BB7A xDF4CEC xE6AD8D xE944FE xEAE690 xEB89A3 xEBAFBD xF1ADB0 xF41414 }
+    capped_resources = {
+        bg_sand_pit = 80
+    }
+    traits = { "state_trait_desert" }
+    arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_cactus_farms" "bg_tree_farming" }
+}
+

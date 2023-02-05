@@ -19,8 +19,9 @@ def create_pops(country_abrev, state_name):
         pops = {}
         total_ratios: int = sum([int(pop["ratio"]) for pop in state_details[state_name]["pops"]])
         for pop in state_details[state_name]["pops"]:
+            ratio = pop["ratio"]
             pops[pop["culture"]] = {
-                "quantity": state_population/total_ratios
+                "quantity": (ratio/total_ratios) * state_population
             }
             if "religion" in pop:
                 pops[pop["culture"]]["religion"] = pop["religion"]

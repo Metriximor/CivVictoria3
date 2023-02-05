@@ -1,497 +1,693 @@
 ﻿wealth_1 = {
-	political_strength = 0.03
-	goods = {
-		popneed_tools = 30
-	}
+    political_strength = 0.03
+    goods = {
+        popneed_tools = 33
+    }
 }
+
 wealth_2 = {
-	political_strength = 0.04
-	goods = {
-	}
+    political_strength = 0.04
+    goods = {
+        popneed_tools = 35
+    }
 }
+
 wealth_3 = {
-	political_strength = 0.05
-	goods = {
-	}
+    political_strength = 0.05
+    goods = {
+        popneed_tools = 36
+    }
 }
+
 wealth_4 = {
-	political_strength = 0.1
-	goods = {
-	}
+    political_strength = 0.1
+    goods = {
+        popneed_tools = 38
+    }
 }
+
 wealth_5 = {
-	political_strength = 0.15
-	goods = {
-	}
+    political_strength = 0.15
+    goods = {
+        popneed_tools = 41
+    }
 }
+
 wealth_6 = {
-	political_strength = 0.25
-	goods = {
-	}
+    political_strength = 0.25
+    goods = {
+        popneed_tools = 43
+    }
 }
+
 wealth_7 = {
-	political_strength = 0.35
-	goods = {
-	}
+    political_strength = 0.35
+    goods = {
+        popneed_tools = 46
+    }
 }
+
 wealth_8 = {
-	political_strength = 0.45
-	goods = {
-	}
+    political_strength = 0.45
+    goods = {
+        popneed_tools = 48
+    }
 }
+
 wealth_9 = {
-	political_strength = 0.6
-	goods = {
-	}
+    political_strength = 0.6
+    goods = {
+        popneed_tools = 52
+    }
 }
+
 wealth_10 = {
-	political_strength = 0.75
-	goods = {
-	}
+    political_strength = 0.75
+    goods = {
+        popneed_tools = 55
+    }
 }
+
 wealth_11 = {
-	political_strength = 0.9
-	goods = {
-	}
+    political_strength = 0.9
+    goods = {
+        popneed_tools = 59
+    }
 }
+
 wealth_12 = {
-	political_strength = 1.4
-	goods = {
-	}
+    political_strength = 1.4
+    goods = {
+        popneed_tools = 63
+    }
 }
+
 wealth_13 = {
-	political_strength = 1.9
-	goods = {
-	}
+    political_strength = 1.9
+    goods = {
+        popneed_tools = 67
+    }
 }
+
 wealth_14 = {
-	political_strength = 2.4
-	goods = {
-	}
+    political_strength = 2.4
+    goods = {
+        popneed_tools = 72
+    }
 }
+
 wealth_15 = {
-	political_strength = 4.6
-	goods = {
-	}
+    political_strength = 4.6
+    goods = {
+        popneed_tools = 77
+    }
 }
+
 wealth_16 = {
-	political_strength = 6.8
-	goods = {
-	}
+    political_strength = 6.8
+    goods = {
+        popneed_tools = 83
+    }
 }
+
 wealth_17 = {
-	political_strength = 9
-	goods = {
-	}
+    political_strength = 9
+    goods = {
+        popneed_tools = 90
+    }
 }
+
 wealth_18 = {
-	political_strength = 12
-	goods = {
-	}
+    political_strength = 12
+    goods = {
+        popneed_tools = 97
+    }
 }
+
 wealth_19 = {
-	political_strength = 15
-	goods = {
-	}
+    political_strength = 15
+    goods = {
+        popneed_tools = 104
+    }
 }
+
 wealth_20 = {
-	political_strength = 18
-	goods = {
-	}
+    political_strength = 18
+    goods = {
+        popneed_tools = 113
+    }
 }
+
 wealth_21 = {
-	political_strength = 22
-	goods = {
-	}
+    political_strength = 22
+    goods = {
+        popneed_tools = 122
+    }
 }
+
 wealth_22 = {
-	political_strength = 26
-	goods = {
-	}
+    political_strength = 26
+    goods = {
+        popneed_tools = 132
+    }
 }
+
 wealth_23 = {
-	political_strength = 30
-	goods = {
-	}
+    political_strength = 30
+    goods = {
+        popneed_tools = 143
+    }
 }
+
 wealth_24 = {
-	political_strength = 34
-	goods = {
-	}
+    political_strength = 34
+    goods = {
+        popneed_tools = 155
+    }
 }
+
 wealth_25 = {
-	political_strength = 39
-	goods = {
-	}
+    political_strength = 39
+    goods = {
+        popneed_tools = 168
+    }
 }
+
 wealth_26 = {
-	political_strength = 44
-	goods = {
-	}
+    political_strength = 44
+    goods = {
+        popneed_tools = 182
+    }
 }
+
 wealth_27 = {
-	political_strength = 49
-	goods = {
-	}
+    political_strength = 49
+    goods = {
+        popneed_tools = 198
+    }
 }
+
 wealth_28 = {
-	political_strength = 54
-	goods = {
-	}
+    political_strength = 54
+    goods = {
+        popneed_tools = 215
+    }
 }
+
 wealth_29 = {
-	political_strength = 59
-	goods = {
-	}
+    political_strength = 59
+    goods = {
+        popneed_tools = 234
+    }
 }
+
 wealth_30 = {
-	political_strength = 65
-	goods = {
-	}
+    political_strength = 65
+    goods = {
+        popneed_tools = 254
+    }
 }
+
 wealth_31 = {
-	political_strength = 71
-	goods = {
-	}
+    political_strength = 71
+    goods = {
+        popneed_tools = 277
+    }
 }
+
 wealth_32 = {
-	political_strength = 77
-	goods = {
-	}
+    political_strength = 77
+    goods = {
+        popneed_tools = 302
+    }
 }
+
 wealth_33 = {
-	political_strength = 83
-	goods = {
-	}
+    political_strength = 83
+    goods = {
+        popneed_tools = 328
+    }
 }
+
 wealth_34 = {
-	political_strength = 89
-	goods = {
-	}
+    political_strength = 89
+    goods = {
+        popneed_tools = 358
+    }
 }
+
 wealth_35 = {
-	political_strength = 95
-	goods = {
-	}
+    political_strength = 95
+    goods = {
+        popneed_tools = 390
+    }
 }
+
 wealth_36 = {
-	political_strength = 102
-	goods = {
-	}
+    political_strength = 102
+    goods = {
+        popneed_tools = 426
+    }
 }
+
 wealth_37 = {
-	political_strength = 109
-	goods = {
-	}
+    political_strength = 109
+    goods = {
+        popneed_tools = 464
+    }
 }
+
 wealth_38 = {
-	political_strength = 116
-	goods = {
-	}
+    political_strength = 116
+    goods = {
+        popneed_tools = 507
+    }
 }
+
 wealth_39 = {
-	political_strength = 123
-	goods = {
-	}
+    political_strength = 123
+    goods = {
+        popneed_tools = 553
+    }
 }
+
 wealth_40 = {
-	political_strength = 130
-	goods = {
-	}
+    political_strength = 130
+    goods = {
+        popneed_tools = 604
+    }
 }
+
 wealth_41 = {
-	political_strength = 140
-	goods = {
-	}
+    political_strength = 140
+    goods = {
+        popneed_tools = 659
+    }
 }
-	wealth_42 = {
-political_strength = 150
-	goods = {
-	}
+
+wealth_42 = {
+    political_strength = 150
+    goods = {
+        popneed_tools = 720
+    }
 }
+
 wealth_43 = {
-	political_strength = 160
-	goods = {
-	}
+    political_strength = 160
+    goods = {
+        popneed_tools = 786
+    }
 }
+
 wealth_44 = {
-	political_strength = 170
-	goods = {
-	}
+    political_strength = 170
+    goods = {
+        popneed_tools = 859
+    }
 }
+
 wealth_45 = {
-	political_strength = 185
-	goods = {
-	}
+    political_strength = 185
+    goods = {
+        popneed_tools = 938
+    }
 }
+
 wealth_46 = {
-	political_strength = 200
-	goods = {
-	}
+    political_strength = 200
+    goods = {
+        popneed_tools = 1025
+    }
 }
+
 wealth_47 = {
-	political_strength = 215
-	goods = {
-	}
+    political_strength = 215
+    goods = {
+        popneed_tools = 1121
+    }
 }
+
 wealth_48 = {
-	political_strength = 230
-	goods = {
-	}
+    political_strength = 230
+    goods = {
+        popneed_tools = 1225
+    }
 }
+
 wealth_49 = {
-	political_strength = 250
-	goods = {
-	}
+    political_strength = 250
+    goods = {
+        popneed_tools = 1339
+    }
 }
+
 wealth_50 = {
-	political_strength = 275
-	goods = {
-	}
+    political_strength = 275
+    goods = {
+        popneed_tools = 1464
+    }
 }
+
 wealth_51 = {
-	political_strength = 300
-	goods = {
-	}
+    political_strength = 300
+    goods = {
+        popneed_tools = 1600
+    }
 }
+
 wealth_52 = {
-	political_strength = 325
-	goods = {
-	}
+    political_strength = 325
+    goods = {
+        popneed_tools = 1750
+    }
 }
+
 wealth_53 = {
-	political_strength = 350
-	goods = {
-	}
+    political_strength = 350
+    goods = {
+        popneed_tools = 1913
+    }
 }
+
 wealth_54 = {
-	political_strength = 375
-	goods = {
-	}
+    political_strength = 375
+    goods = {
+        popneed_tools = 2092
+    }
 }
+
 wealth_55 = {
-	political_strength = 400
-	goods = {
-	}
+    political_strength = 400
+    goods = {
+        popneed_tools = 2288
+    }
 }
+
 wealth_56 = {
-	political_strength = 425
-	goods = {
-	}
+    political_strength = 425
+    goods = {
+        popneed_tools = 2502
+    }
 }
+
 wealth_57 = {
-	political_strength = 450
-	goods = {
-	}
+    political_strength = 450
+    goods = {
+        popneed_tools = 2737
+    }
 }
+
 wealth_58 = {
-	political_strength = 475
-	goods = {
-	}
+    political_strength = 475
+    goods = {
+        popneed_tools = 2993
+    }
 }
+
 wealth_59 = {
-	political_strength = 500
-	goods = {
-	}
+    political_strength = 500
+    goods = {
+        popneed_tools = 3274
+    }
 }
+
 wealth_60 = {
-	political_strength = 525
-	goods = {
-	}
+    political_strength = 525
+    goods = {
+        popneed_tools = 3581
+    }
 }
+
 wealth_61 = {
-	political_strength = 550
-	goods = {
-	}
+    political_strength = 550
+    goods = {
+        popneed_tools = 3918
+    }
 }
+
 wealth_62 = {
-	political_strength = 575
-	goods = {
-	}
+    political_strength = 575
+    goods = {
+        popneed_tools = 4285
+    }
 }
+
 wealth_63 = {
-	political_strength = 600
-	goods = {
-	}
+    political_strength = 600
+    goods = {
+        popneed_tools = 4688
+    }
 }
+
 wealth_64 = {
-	political_strength = 625
-	goods = {
-	}
+    political_strength = 625
+    goods = {
+        popneed_tools = 5129
+    }
 }
+
 wealth_65 = {
-	political_strength = 650
-	goods = {
-	}
+    political_strength = 650
+    goods = {
+        popneed_tools = 5611
+    }
 }
+
 wealth_66 = {
-	political_strength = 675
-	goods = {
-	}
+    political_strength = 675
+    goods = {
+        popneed_tools = 6138
+    }
 }
+
 wealth_67 = {
-	political_strength = 700
-	goods = {
-	}
+    political_strength = 700
+    goods = {
+        popneed_tools = 6716
+    }
 }
+
 wealth_68 = {
-	political_strength = 725
-	goods = {
-	}
+    political_strength = 725
+    goods = {
+        popneed_tools = 7348
+    }
 }
+
 wealth_69 = {
-	political_strength = 750
-	goods = {
-	}
+    political_strength = 750
+    goods = {
+        popneed_tools = 8039
+    }
 }
+
 wealth_70 = {
-	political_strength = 775
-	goods = {
-	}
+    political_strength = 775
+    goods = {
+        popneed_tools = 8795
+    }
 }
+
 wealth_71 = {
-	political_strength = 800
-	goods = {
-	}
+    political_strength = 800
+    goods = {
+        popneed_tools = 9623
+    }
 }
+
 wealth_72 = {
-	political_strength = 825
-	goods = {
-	}
+    political_strength = 825
+    goods = {
+        popneed_tools = 10529
+    }
 }
+
 wealth_73 = {
-	political_strength = 850
-	goods = {
-	}
+    political_strength = 850
+    goods = {
+        popneed_tools = 11521
+    }
 }
+
 wealth_74 = {
-	political_strength = 875
-	goods = {
-	}
+    political_strength = 875
+    goods = {
+        popneed_tools = 12606
+    }
 }
+
 wealth_75 = {
-	political_strength = 900
-	goods = {
-	}
+    political_strength = 900
+    goods = {
+        popneed_tools = 13793
+    }
 }
+
 wealth_76 = {
-	political_strength = 925
-	goods = {
-	}
+    political_strength = 925
+    goods = {
+        popneed_tools = 15092
+    }
 }
+
 wealth_77 = {
-	political_strength = 950
-	goods = {
-	}
+    political_strength = 950
+    goods = {
+        popneed_tools = 16513
+    }
 }
+
 wealth_78 = {
-	political_strength = 975
-	goods = {
-	}
+    political_strength = 975
+    goods = {
+        popneed_tools = 18069
+    }
 }
+
 wealth_79 = {
-	political_strength = 1000
-	goods = {
-	}
+    political_strength = 1000
+    goods = {
+        popneed_tools = 19771
+    }
 }
+
 wealth_80 = {
-	political_strength = 1025
-	goods = {
-	}
+    political_strength = 1025
+    goods = {
+        popneed_tools = 21634
+    }
 }
+
 wealth_81 = {
-	political_strength = 1050
-	goods = {
-	}
+    political_strength = 1050
+    goods = {
+        popneed_tools = 23673
+    }
 }
+
 wealth_82 = {
-	political_strength = 1075
-	goods = {
-	}
+    political_strength = 1075
+    goods = {
+        popneed_tools = 25904
+    }
 }
+
 wealth_83 = {
-	political_strength = 1100
-	goods = {
-	}
+    political_strength = 1100
+    goods = {
+        popneed_tools = 28345
+    }
 }
+
 wealth_84 = {
-	political_strength = 1125
-	goods = {
-	}
+    political_strength = 1125
+    goods = {
+        popneed_tools = 31016
+    }
 }
+
 wealth_85 = {
-	political_strength = 1150
-	goods = {
-	}
+    political_strength = 1150
+    goods = {
+        popneed_tools = 33939
+    }
 }
+
 wealth_86 = {
-	political_strength = 1175
-	goods = {
-	}
+    political_strength = 1175
+    goods = {
+        popneed_tools = 37138
+    }
 }
+
 wealth_87 = {
-	political_strength = 1200
-	goods = {
-	}
+    political_strength = 1200
+    goods = {
+        popneed_tools = 40638
+    }
 }
+
 wealth_88 = {
-	political_strength = 1225
-	goods = {
-	}
+    political_strength = 1225
+    goods = {
+        popneed_tools = 44469
+    }
 }
+
 wealth_89 = {
-	political_strength = 1250
-	goods = {
-	}
+    political_strength = 1250
+    goods = {
+        popneed_tools = 48660
+    }
 }
+
 wealth_90 = {
-	political_strength = 1275
-	goods = {
-	}
+    political_strength = 1275
+    goods = {
+        popneed_tools = 53247
+    }
 }
+
 wealth_91 = {
-	political_strength = 1300
-	goods = {
-	}
+    political_strength = 1300
+    goods = {
+        popneed_tools = 58267
+    }
 }
+
 wealth_92 = {
-	political_strength = 1325
-	goods = {
-	}
+    political_strength = 1325
+    goods = {
+        popneed_tools = 63759
+    }
 }
+
 wealth_93 = {
-	political_strength = 1350
-	goods = {
-	}
+    political_strength = 1350
+    goods = {
+        popneed_tools = 69770
+    }
 }
+
 wealth_94 = {
-	political_strength = 1375
-	goods = {
-	}
+    political_strength = 1375
+    goods = {
+        popneed_tools = 76347
+    }
 }
+
 wealth_95 = {
-	political_strength = 1400
-	goods = {
-	}
+    political_strength = 1400
+    goods = {
+        popneed_tools = 83545
+    }
 }
+
 wealth_96 = {
-	political_strength = 1425
-	goods = {
-	}
+    political_strength = 1425
+    goods = {
+        popneed_tools = 91421
+    }
 }
+
 wealth_97 = {
-	political_strength = 1450
-	goods = {
-	}
+    political_strength = 1450
+    goods = {
+        popneed_tools = 100040
+    }
 }
+
 wealth_98 = {
-	political_strength = 1475
-	goods = {
-	}
+    political_strength = 1475
+    goods = {
+        popneed_tools = 109472
+    }
 }
+
 wealth_99 = {
-	political_strength = 1500
-	goods = {
-	}
+    political_strength = 1500
+    goods = {
+        popneed_tools = 119793
+    }
 }
 

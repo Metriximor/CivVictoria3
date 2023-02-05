@@ -14,3 +14,15 @@
 		1 = minecrafter
 	}
 }
+
+resimerian = {
+	color = { 146 20 84 }
+	religion = examplian
+	traits = {
+		english
+	}
+	graphics = european
+	ethnicities = {
+		1 = minecrafter
+	}
+}

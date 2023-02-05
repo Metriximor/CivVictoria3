@@ -30,6 +30,13 @@ colors = {
 
 	# Mery
 	mery_black = rgb { 0 0 9 }
+
+	# Yoahtl
+	yoahtlan_yellow = rgb { 255 204 51 }
+	yoahtlan_red = rgb { 198 3 31 }
+
+	# Rozia
+	rozian_blue = rgb { 64 224 208 }
 	
 	# Misc colors
 	bizantine_purple = rgb { 112 41 99 }

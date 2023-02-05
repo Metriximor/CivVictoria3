@@ -1,4 +1,4 @@
-﻿STATE_NIDAROS:
+STATE_NIDAROS:
   naval_exit_id: STATE_MEDI_SEA
   population: 191407
 STATE_HYLDOR:
@@ -24,7 +24,7 @@ STATE_AMATERASU_SHORES:
   population: 122281
 STATE_PORTUCALE:
   naval_exit_id: STATE_MEDI_SEA
-  population: 173874
+  population: 188429
 STATE_CASCAIS:
   naval_exit_id: STATE_MEDI_SEA
   population: 216600
@@ -33,16 +33,16 @@ STATE_OLIMPIA:
   population: 166232
 STATE_ATLAS:
   naval_exit_id: STATE_MEDI_SEA
-  population: 55650
+  population: 58379
 STATE_AZORES:
   naval_exit_id: STATE_MEDI_SEA
   population: 5999
 STATE_CLASSICALE:
   naval_exit_id: STATE_MEDI_SEA
-  population: 111008
+  population: 147978
 STATE_CIV_ALENTEJO:
   naval_exit_id: STATE_MEDI_SEA
-  population: 87524
+  population: 88983
 STATE_WEST_LAMBAT_CITY:
   naval_exit_id: STATE_MEDI_SEA
   population: 190582
@@ -98,19 +98,19 @@ STATE_SORLAND:
   pops:
   - culture: thruitt
     religion: bezism
-    ratio: 1
+    ratio: 9
   - culture: gensokyojin
     religion: bezism
-    ratio: 9
+    ratio: 1
   population: 476183
 STATE_MORINOYARI:
   pops:
   - culture: thruitt
     religion: bezism
-    ratio: 9
+    ratio: 1
   - culture: gensokyojin
     religion: bezism
-    ratio: 1
+    ratio: 9
   homelands:
   - thruittans
   population: 124396
@@ -135,13 +135,13 @@ STATE_DAISHIREIBOU:
 STATE_MUMEITA:
   population: 559719
 STATE_YAMATO_KEN:
-  population: 152344
+  population: 171968
 STATE_DREAMLAND:
-  population: 109614
+  population: 109494
 STATE_LUSITAN_PLAINS:
-  population: 146645
+  population: 94200
 STATE_LUSITAN_PLATEAUS:
-  population: 188088
+  population: 189128
 STATE_EBORA:
   population: 34092
 STATE_EAST_LAMBAT_CITY:
@@ -150,3 +150,44 @@ STATE_SOPHIA:
   population: 457284
 STATE_WEST_DANZILONA:
   population: 405218
+STATE_YOAHTL_HOMELANDS:
+  population: 57545
+STATE_KOBYLINSKI:
+  population: 184098
+STATE_CZECHIA:
+  population: 255127
+STATE_WESTBURY:
+  population: 277959
+STATE_EASTBURY:
+  population: 151051
+STATE_YOAHTL_WESTERN_FRONTIER:
+  population: 351024
+STATE_ALTEPETL:
+  population: 118495
+  pops:
+    - culture: yoahtlan
+      ratio: 90
+    - culture: resimerian
+      ratio: 3
+STATE_SOUTHBURY:
+  population: 284658
+STATE_KAXITL:
+  population: 363660
+STATE_YOAHTL_EASTERN_FRONTIER:
+  population: 280526
+STATE_RESIMERE:
+  population: 54816
+  pops:
+  - culture: resimerian
+    ratio: 1
+STATE_RESIMERIAN_FRONTIER:
+  population: 395205
+  pops:
+  - culture: resimerian
+    ratio: 1
+STATE_MINI_YOAHTL:
+  population: 20300
+STATE_MINI_YOAHTL_FRONTIER:
+  population: 115572
+STATE_ROZIA:
+  population: 37088

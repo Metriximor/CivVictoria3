@@ -52,7 +52,7 @@
 		}
 	}
 	s:STATE_AMATERASU_SHORES = {
-		region_state: = {
+		region_state:GEN = {
 		}
 	}
 	s:STATE_YAMATO_KEN = {
@@ -201,6 +201,58 @@
 	}
 	s:STATE_SOUTHERN_MERY = {
 		region_state:MER = {
+		}
+	}
+	s:STATE_YOAHTL_HOMELANDS = {
+		region_state:YOA = {
+		}
+	}
+	s:STATE_KOBYLINSKI = {
+		region_state:YOA = {
+		}
+	}
+	s:STATE_CZECHIA = {
+		region_state:YOA = {
+		}
+	}
+	s:STATE_WESTBURY = {
+		region_state:YOA = {
+		}
+	}
+	s:STATE_EASTBURY = {
+		region_state:YOA = {
+		}
+	}
+	s:STATE_YOAHTL_WESTERN_FRONTIER = {
+		region_state:YOA = {
+		}
+	}
+	s:STATE_KAXITL = {
+		region_state:YOA = {
+		}
+	}
+	s:STATE_YOAHTL_EASTERN_FRONTIER = {
+		region_state:YOA = {
+		}
+	}
+	s:STATE_RESIMERE = {
+		region_state:YOA = {
+		}
+	}
+	s:STATE_RESIMERIAN_FRONTIER = {
+		region_state:YOA = {
+		}
+	}
+	s:STATE_MINI_YOAHTL = {
+		region_state:YOA = {
+		}
+	}
+	s:STATE_MINI_YOAHTL_FRONTIER = {
+		region_state:YOA = {
+		}
+	}
+	s:STATE_ROZIA = {
+		region_state:ROZ = {
 		}
 	}
 }

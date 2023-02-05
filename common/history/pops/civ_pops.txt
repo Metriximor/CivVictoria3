@@ -41,7 +41,7 @@
 			create_pop = {
 				culture = gensokyojin
 				religion = bezism
-				size = 47618
+				size = 428564
 			}
 		}
 	}
@@ -83,7 +83,7 @@
 			create_pop = {
 				culture = thruitt
 				religion = bezism
-				size = 12439
+				size = 111956
 			}
 			create_pop = {
 				culture = gensokyojin
@@ -128,7 +128,7 @@
 		region_state:GEN = {
 			create_pop = {
 				culture = gensokyojin
-				size = 152344
+				size = 171968
 			}
 		}
 	}
@@ -136,7 +136,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 173874
+				size = 188429
 			}
 		}
 	}
@@ -168,7 +168,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 55650
+				size = 58379
 			}
 		}
 	}
@@ -184,7 +184,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 111008
+				size = 147978
 			}
 		}
 	}
@@ -192,7 +192,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 109614
+				size = 109494
 			}
 		}
 	}
@@ -200,7 +200,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 146645
+				size = 94200
 			}
 		}
 	}
@@ -208,7 +208,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 87524
+				size = 88983
 			}
 		}
 	}
@@ -216,7 +216,7 @@
 		region_state:LUS = {
 			create_pop = {
 				culture = lusitan
-				size = 188088
+				size = 189128
 			}
 		}
 	}
@@ -332,7 +332,7 @@
 		region_state:DAN = {
 			create_pop = {
 				culture = examplish
-				size = 42739
+				size = 33821
 			}
 		}
 	}
@@ -425,6 +425,132 @@
 			create_pop = {
 				culture = mery_culture
 				size = 226531
+			}
+		}
+	}
+	s:STATE_YOAHTL_HOMELANDS = {
+		region_state:YOA = {
+			create_pop = {
+				culture = yoahtlan
+				size = 57545
+			}
+		}
+	}
+	s:STATE_KOBYLINSKI = {
+		region_state:YOA = {
+			create_pop = {
+				culture = yoahtlan
+				size = 184098
+			}
+		}
+	}
+	s:STATE_CZECHIA = {
+		region_state:YOA = {
+			create_pop = {
+				culture = yoahtlan
+				size = 255127
+			}
+		}
+	}
+	s:STATE_WESTBURY = {
+		region_state:YOA = {
+			create_pop = {
+				culture = yoahtlan
+				size = 277959
+			}
+		}
+	}
+	s:STATE_EASTBURY = {
+		region_state:YOA = {
+			create_pop = {
+				culture = yoahtlan
+				size = 151051
+			}
+		}
+	}
+	s:STATE_YOAHTL_WESTERN_FRONTIER = {
+		region_state:YOA = {
+			create_pop = {
+				culture = yoahtlan
+				size = 351024
+			}
+		}
+	}
+	s:STATE_ALTEPETL = {
+		region_state:YOA = {
+			create_pop = {
+				culture = yoahtlan
+				religion = examplian
+				size = 114672
+			}
+			create_pop = {
+				culture = resimerian
+				size = 3822
+			}
+		}
+	}
+	s:STATE_SOUTHBURY = {
+		region_state:YOA = {
+			create_pop = {
+				culture = yoahtlan
+				religion = examplian
+				size = 284658
+			}
+		}
+	}
+	s:STATE_KAXITL = {
+		region_state:YOA = {
+			create_pop = {
+				culture = yoahtlan
+				size = 363660
+			}
+		}
+	}
+	s:STATE_YOAHTL_EASTERN_FRONTIER = {
+		region_state:YOA = {
+			create_pop = {
+				culture = yoahtlan
+				size = 280526
+			}
+		}
+	}
+	s:STATE_RESIMERE = {
+		region_state:YOA = {
+			create_pop = {
+				culture = yoahtlan
+				size = 54816
+			}
+		}
+	}
+	s:STATE_RESIMERIAN_FRONTIER = {
+		region_state:YOA = {
+			create_pop = {
+				culture = yoahtlan
+				size = 395205
+			}
+		}
+	}
+	s:STATE_MINI_YOAHTL = {
+		region_state:YOA = {
+			create_pop = {
+				culture = yoahtlan
+				size = 20300
+			}
+		}
+	}
+	s:STATE_MINI_YOAHTL_FRONTIER = {
+		region_state:YOA = {
+			create_pop = {
+				culture = yoahtlan
+				size = 115572
+			}
+		}
+	}
+	s:STATE_ROZIA = {
+		region_state:ROZ = {
+			create_pop = {
+				culture = examplish
+				size = 37088
 			}
 		}
 	}

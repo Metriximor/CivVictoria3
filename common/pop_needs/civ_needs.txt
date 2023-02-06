@@ -89,11 +89,35 @@ popneed_simple_food = {
 	entry = {
         goods = mushroom 
 		weight = 1
-		max_weight = 4.0
+		max_weight = 4.0 # 80%
 		min_weight = 0.0
     }
 }
 
+popneed_ingots = {
+	default = iron_ingot
+
+	entry = {
+		goods = iron_ingot
+		weight = 2
+		max_weight = 8.0 # 80% of needs
+		min_weight = 4.0	
+	}
+	entry = {
+		goods = gold_ingot
+		weight = 1
+		max_weight = 1.0 # 20% of pop needs
+		min_weight = 0.05 # Some tiny need for gold
+	}
+}
+
+popneed_wood = {
+	default = oak_log
+
+	entry = {
+		goods = oak_log
+	}
+}
 
 # popneed_simple_clothing = {
 # 	default = fabric

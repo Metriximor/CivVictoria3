@@ -23,6 +23,7 @@ wealth_4 = {
     political_strength = 0.1
     goods = {
         popneed_simple_food = 38
+        popneed_wood = 35
     }
 }
 
@@ -30,6 +31,7 @@ wealth_5 = {
     political_strength = 0.15
     goods = {
         popneed_simple_food = 41
+        popneed_wood = 37
     }
 }
 
@@ -37,6 +39,7 @@ wealth_6 = {
     political_strength = 0.25
     goods = {
         popneed_simple_food = 43
+        popneed_wood = 39
     }
 }
 
@@ -44,6 +47,7 @@ wealth_7 = {
     political_strength = 0.35
     goods = {
         popneed_simple_food = 46
+        popneed_wood = 41
         popneed_tools = 33
     }
 }
@@ -52,6 +56,7 @@ wealth_8 = {
     political_strength = 0.45
     goods = {
         popneed_simple_food = 48
+        popneed_wood = 43
         popneed_tools = 34
     }
 }
@@ -60,6 +65,7 @@ wealth_9 = {
     political_strength = 0.6
     goods = {
         popneed_simple_food = 52
+        popneed_wood = 46
         popneed_tools = 35
     }
 }
@@ -68,6 +74,7 @@ wealth_10 = {
     political_strength = 0.75
     goods = {
         popneed_simple_food = 55
+        popneed_wood = 49
         popneed_tools = 36
     }
 }
@@ -76,6 +83,7 @@ wealth_11 = {
     political_strength = 0.9
     goods = {
         popneed_simple_food = 59
+        popneed_wood = 52
         popneed_tools = 38
     }
 }
@@ -84,6 +92,7 @@ wealth_12 = {
     political_strength = 1.4
     goods = {
         popneed_simple_food = 63
+        popneed_wood = 55
         popneed_tools = 39
     }
 }
@@ -92,6 +101,7 @@ wealth_13 = {
     political_strength = 1.9
     goods = {
         popneed_simple_food = 67
+        popneed_wood = 59
         popneed_tools = 41
     }
 }
@@ -100,7 +110,9 @@ wealth_14 = {
     political_strength = 2.4
     goods = {
         popneed_simple_food = 72
+        popneed_wood = 63
         popneed_tools = 42
+        popneed_ingots = 57
     }
 }
 
@@ -108,7 +120,9 @@ wealth_15 = {
     political_strength = 4.6
     goods = {
         popneed_simple_food = 77
+        popneed_wood = 67
         popneed_tools = 44
+        popneed_ingots = 62
     }
 }
 
@@ -116,7 +130,9 @@ wealth_16 = {
     political_strength = 6.8
     goods = {
         popneed_simple_food = 83
+        popneed_wood = 72
         popneed_tools = 45
+        popneed_ingots = 68
     }
 }
 
@@ -124,7 +140,9 @@ wealth_17 = {
     political_strength = 9
     goods = {
         popneed_simple_food = 90
+        popneed_wood = 77
         popneed_tools = 47
+        popneed_ingots = 75
     }
 }
 
@@ -132,7 +150,9 @@ wealth_18 = {
     political_strength = 12
     goods = {
         popneed_simple_food = 97
+        popneed_wood = 82
         popneed_tools = 49
+        popneed_ingots = 82
     }
 }
 
@@ -140,7 +160,9 @@ wealth_19 = {
     political_strength = 15
     goods = {
         popneed_simple_food = 104
+        popneed_wood = 88
         popneed_tools = 51
+        popneed_ingots = 89
     }
 }
 
@@ -148,7 +170,9 @@ wealth_20 = {
     political_strength = 18
     goods = {
         popneed_simple_food = 113
+        popneed_wood = 95
         popneed_tools = 53
+        popneed_ingots = 98
     }
 }
 
@@ -156,7 +180,9 @@ wealth_21 = {
     political_strength = 22
     goods = {
         popneed_simple_food = 122
+        popneed_wood = 102
         popneed_tools = 55
+        popneed_ingots = 107
     }
 }
 
@@ -164,7 +190,9 @@ wealth_22 = {
     political_strength = 26
     goods = {
         popneed_simple_food = 132
+        popneed_wood = 109
         popneed_tools = 57
+        popneed_ingots = 117
     }
 }
 
@@ -172,7 +200,9 @@ wealth_23 = {
     political_strength = 30
     goods = {
         popneed_simple_food = 143
+        popneed_wood = 117
         popneed_tools = 59
+        popneed_ingots = 128
     }
 }
 
@@ -180,7 +210,9 @@ wealth_24 = {
     political_strength = 34
     goods = {
         popneed_simple_food = 155
+        popneed_wood = 126
         popneed_tools = 62
+        popneed_ingots = 140
     }
 }
 
@@ -188,7 +220,9 @@ wealth_25 = {
     political_strength = 39
     goods = {
         popneed_simple_food = 168
+        popneed_wood = 136
         popneed_tools = 64
+        popneed_ingots = 153
     }
 }
 
@@ -196,7 +230,9 @@ wealth_26 = {
     political_strength = 44
     goods = {
         popneed_simple_food = 182
+        popneed_wood = 147
         popneed_tools = 67
+        popneed_ingots = 167
     }
 }
 
@@ -204,7 +240,9 @@ wealth_27 = {
     political_strength = 49
     goods = {
         popneed_simple_food = 198
+        popneed_wood = 158
         popneed_tools = 70
+        popneed_ingots = 183
     }
 }
 
@@ -212,7 +250,9 @@ wealth_28 = {
     political_strength = 54
     goods = {
         popneed_simple_food = 215
+        popneed_wood = 171
         popneed_tools = 73
+        popneed_ingots = 200
     }
 }
 
@@ -220,7 +260,9 @@ wealth_29 = {
     political_strength = 59
     goods = {
         popneed_simple_food = 234
+        popneed_wood = 184
         popneed_tools = 76
+        popneed_ingots = 219
     }
 }
 
@@ -228,7 +270,9 @@ wealth_30 = {
     political_strength = 65
     goods = {
         popneed_simple_food = 254
+        popneed_wood = 199
         popneed_tools = 79
+        popneed_ingots = 239
     }
 }
 
@@ -236,7 +280,9 @@ wealth_31 = {
     political_strength = 71
     goods = {
         popneed_simple_food = 277
+        popneed_wood = 214
         popneed_tools = 83
+        popneed_ingots = 262
     }
 }
 
@@ -244,7 +290,9 @@ wealth_32 = {
     political_strength = 77
     goods = {
         popneed_simple_food = 302
+        popneed_wood = 232
         popneed_tools = 86
+        popneed_ingots = 287
     }
 }
 
@@ -252,7 +300,9 @@ wealth_33 = {
     political_strength = 83
     goods = {
         popneed_simple_food = 328
+        popneed_wood = 250
         popneed_tools = 90
+        popneed_ingots = 313
     }
 }
 
@@ -260,7 +310,9 @@ wealth_34 = {
     political_strength = 89
     goods = {
         popneed_simple_food = 358
+        popneed_wood = 271
         popneed_tools = 94
+        popneed_ingots = 343
     }
 }
 
@@ -268,7 +320,9 @@ wealth_35 = {
     political_strength = 95
     goods = {
         popneed_simple_food = 390
+        popneed_wood = 293
         popneed_tools = 98
+        popneed_ingots = 375
     }
 }
 
@@ -276,7 +330,9 @@ wealth_36 = {
     political_strength = 102
     goods = {
         popneed_simple_food = 426
+        popneed_wood = 317
         popneed_tools = 102
+        popneed_ingots = 411
     }
 }
 
@@ -284,7 +340,9 @@ wealth_37 = {
     political_strength = 109
     goods = {
         popneed_simple_food = 464
+        popneed_wood = 342
         popneed_tools = 107
+        popneed_ingots = 449
     }
 }
 
@@ -292,7 +350,9 @@ wealth_38 = {
     political_strength = 116
     goods = {
         popneed_simple_food = 507
+        popneed_wood = 371
         popneed_tools = 112
+        popneed_ingots = 492
     }
 }
 
@@ -300,7 +360,9 @@ wealth_39 = {
     political_strength = 123
     goods = {
         popneed_simple_food = 553
+        popneed_wood = 401
         popneed_tools = 117
+        popneed_ingots = 538
     }
 }
 
@@ -308,7 +370,9 @@ wealth_40 = {
     political_strength = 130
     goods = {
         popneed_simple_food = 604
+        popneed_wood = 434
         popneed_tools = 122
+        popneed_ingots = 589
     }
 }
 
@@ -316,7 +380,9 @@ wealth_41 = {
     political_strength = 140
     goods = {
         popneed_simple_food = 659
+        popneed_wood = 470
         popneed_tools = 127
+        popneed_ingots = 644
     }
 }
 
@@ -324,7 +390,9 @@ wealth_42 = {
     political_strength = 150
     goods = {
         popneed_simple_food = 720
+        popneed_wood = 509
         popneed_tools = 133
+        popneed_ingots = 705
     }
 }
 
@@ -332,7 +400,9 @@ wealth_43 = {
     political_strength = 160
     goods = {
         popneed_simple_food = 786
+        popneed_wood = 551
         popneed_tools = 139
+        popneed_ingots = 771
     }
 }
 
@@ -340,7 +410,9 @@ wealth_44 = {
     political_strength = 170
     goods = {
         popneed_simple_food = 859
+        popneed_wood = 597
         popneed_tools = 146
+        popneed_ingots = 844
     }
 }
 
@@ -348,7 +420,9 @@ wealth_45 = {
     political_strength = 185
     goods = {
         popneed_simple_food = 938
+        popneed_wood = 647
         popneed_tools = 153
+        popneed_ingots = 923
     }
 }
 
@@ -356,7 +430,9 @@ wealth_46 = {
     political_strength = 200
     goods = {
         popneed_simple_food = 1025
+        popneed_wood = 701
         popneed_tools = 160
+        popneed_ingots = 1010
     }
 }
 
@@ -364,7 +440,9 @@ wealth_47 = {
     political_strength = 215
     goods = {
         popneed_simple_food = 1121
+        popneed_wood = 760
         popneed_tools = 167
+        popneed_ingots = 1106
     }
 }
 
@@ -372,7 +450,9 @@ wealth_48 = {
     political_strength = 230
     goods = {
         popneed_simple_food = 1225
+        popneed_wood = 824
         popneed_tools = 175
+        popneed_ingots = 1210
     }
 }
 
@@ -380,7 +460,9 @@ wealth_49 = {
     political_strength = 250
     goods = {
         popneed_simple_food = 1339
+        popneed_wood = 893
         popneed_tools = 183
+        popneed_ingots = 1324
     }
 }
 
@@ -388,7 +470,9 @@ wealth_50 = {
     political_strength = 275
     goods = {
         popneed_simple_food = 1464
+        popneed_wood = 968
         popneed_tools = 192
+        popneed_ingots = 1449
     }
 }
 
@@ -396,7 +480,9 @@ wealth_51 = {
     political_strength = 300
     goods = {
         popneed_simple_food = 1600
+        popneed_wood = 1049
         popneed_tools = 201
+        popneed_ingots = 1585
     }
 }
 
@@ -404,7 +490,9 @@ wealth_52 = {
     political_strength = 325
     goods = {
         popneed_simple_food = 1750
+        popneed_wood = 1138
         popneed_tools = 210
+        popneed_ingots = 1735
     }
 }
 
@@ -412,7 +500,9 @@ wealth_53 = {
     political_strength = 350
     goods = {
         popneed_simple_food = 1913
+        popneed_wood = 1234
         popneed_tools = 220
+        popneed_ingots = 1898
     }
 }
 
@@ -420,7 +510,9 @@ wealth_54 = {
     political_strength = 375
     goods = {
         popneed_simple_food = 2092
+        popneed_wood = 1338
         popneed_tools = 230
+        popneed_ingots = 2077
     }
 }
 
@@ -428,7 +520,9 @@ wealth_55 = {
     political_strength = 400
     goods = {
         popneed_simple_food = 2288
+        popneed_wood = 1451
         popneed_tools = 241
+        popneed_ingots = 2273
     }
 }
 
@@ -436,7 +530,9 @@ wealth_56 = {
     political_strength = 425
     goods = {
         popneed_simple_food = 2502
+        popneed_wood = 1573
         popneed_tools = 253
+        popneed_ingots = 2487
     }
 }
 
@@ -444,7 +540,9 @@ wealth_57 = {
     political_strength = 450
     goods = {
         popneed_simple_food = 2737
+        popneed_wood = 1706
         popneed_tools = 265
+        popneed_ingots = 2722
     }
 }
 
@@ -452,7 +550,9 @@ wealth_58 = {
     political_strength = 475
     goods = {
         popneed_simple_food = 2993
+        popneed_wood = 1851
         popneed_tools = 277
+        popneed_ingots = 2978
     }
 }
 
@@ -460,7 +560,9 @@ wealth_59 = {
     political_strength = 500
     goods = {
         popneed_simple_food = 3274
+        popneed_wood = 2007
         popneed_tools = 291
+        popneed_ingots = 3259
     }
 }
 
@@ -468,7 +570,9 @@ wealth_60 = {
     political_strength = 525
     goods = {
         popneed_simple_food = 3581
+        popneed_wood = 2177
         popneed_tools = 305
+        popneed_ingots = 3566
     }
 }
 
@@ -476,7 +580,9 @@ wealth_61 = {
     political_strength = 550
     goods = {
         popneed_simple_food = 3918
+        popneed_wood = 2362
         popneed_tools = 319
+        popneed_ingots = 3903
     }
 }
 
@@ -484,7 +590,9 @@ wealth_62 = {
     political_strength = 575
     goods = {
         popneed_simple_food = 4285
+        popneed_wood = 2562
         popneed_tools = 335
+        popneed_ingots = 4270
     }
 }
 
@@ -492,7 +600,9 @@ wealth_63 = {
     political_strength = 600
     goods = {
         popneed_simple_food = 4688
+        popneed_wood = 2779
         popneed_tools = 351
+        popneed_ingots = 4673
     }
 }
 
@@ -500,7 +610,9 @@ wealth_64 = {
     political_strength = 625
     goods = {
         popneed_simple_food = 5129
+        popneed_wood = 3015
         popneed_tools = 368
+        popneed_ingots = 5114
     }
 }
 
@@ -508,7 +620,9 @@ wealth_65 = {
     political_strength = 650
     goods = {
         popneed_simple_food = 5611
+        popneed_wood = 3271
         popneed_tools = 385
+        popneed_ingots = 5596
     }
 }
 
@@ -516,7 +630,9 @@ wealth_66 = {
     political_strength = 675
     goods = {
         popneed_simple_food = 6138
+        popneed_wood = 3549
         popneed_tools = 404
+        popneed_ingots = 6123
     }
 }
 
@@ -524,7 +640,9 @@ wealth_67 = {
     political_strength = 700
     goods = {
         popneed_simple_food = 6716
+        popneed_wood = 3850
         popneed_tools = 424
+        popneed_ingots = 6701
     }
 }
 
@@ -532,7 +650,9 @@ wealth_68 = {
     political_strength = 725
     goods = {
         popneed_simple_food = 7348
+        popneed_wood = 4177
         popneed_tools = 444
+        popneed_ingots = 7333
     }
 }
 
@@ -540,7 +660,9 @@ wealth_69 = {
     political_strength = 750
     goods = {
         popneed_simple_food = 8039
+        popneed_wood = 4532
         popneed_tools = 466
+        popneed_ingots = 8024
     }
 }
 
@@ -548,7 +670,9 @@ wealth_70 = {
     political_strength = 775
     goods = {
         popneed_simple_food = 8795
+        popneed_wood = 4917
         popneed_tools = 488
+        popneed_ingots = 8780
     }
 }
 
@@ -556,7 +680,9 @@ wealth_71 = {
     political_strength = 800
     goods = {
         popneed_simple_food = 9623
+        popneed_wood = 5335
         popneed_tools = 512
+        popneed_ingots = 9608
     }
 }
 
@@ -564,7 +690,9 @@ wealth_72 = {
     political_strength = 825
     goods = {
         popneed_simple_food = 10529
+        popneed_wood = 5789
         popneed_tools = 537
+        popneed_ingots = 10514
     }
 }
 
@@ -572,7 +700,9 @@ wealth_73 = {
     political_strength = 850
     goods = {
         popneed_simple_food = 11521
+        popneed_wood = 6281
         popneed_tools = 563
+        popneed_ingots = 11506
     }
 }
 
@@ -580,7 +710,9 @@ wealth_74 = {
     political_strength = 875
     goods = {
         popneed_simple_food = 12606
+        popneed_wood = 6816
         popneed_tools = 591
+        popneed_ingots = 12591
     }
 }
 
@@ -588,7 +720,9 @@ wealth_75 = {
     political_strength = 900
     goods = {
         popneed_simple_food = 13793
+        popneed_wood = 7396
         popneed_tools = 619
+        popneed_ingots = 13778
     }
 }
 
@@ -596,7 +730,9 @@ wealth_76 = {
     political_strength = 925
     goods = {
         popneed_simple_food = 15092
+        popneed_wood = 8025
         popneed_tools = 650
+        popneed_ingots = 15077
     }
 }
 
@@ -604,7 +740,9 @@ wealth_77 = {
     political_strength = 950
     goods = {
         popneed_simple_food = 16513
+        popneed_wood = 8708
         popneed_tools = 681
+        popneed_ingots = 16498
     }
 }
 
@@ -612,7 +750,9 @@ wealth_78 = {
     political_strength = 975
     goods = {
         popneed_simple_food = 18069
+        popneed_wood = 9449
         popneed_tools = 715
+        popneed_ingots = 18054
     }
 }
 
@@ -620,7 +760,9 @@ wealth_79 = {
     political_strength = 1000
     goods = {
         popneed_simple_food = 19771
+        popneed_wood = 10253
         popneed_tools = 750
+        popneed_ingots = 19756
     }
 }
 
@@ -628,7 +770,9 @@ wealth_80 = {
     political_strength = 1025
     goods = {
         popneed_simple_food = 21634
+        popneed_wood = 11126
         popneed_tools = 787
+        popneed_ingots = 21619
     }
 }
 
@@ -636,7 +780,9 @@ wealth_81 = {
     political_strength = 1050
     goods = {
         popneed_simple_food = 23673
+        popneed_wood = 12073
         popneed_tools = 825
+        popneed_ingots = 23658
     }
 }
 
@@ -644,7 +790,9 @@ wealth_82 = {
     political_strength = 1075
     goods = {
         popneed_simple_food = 25904
+        popneed_wood = 13101
         popneed_tools = 866
+        popneed_ingots = 25889
     }
 }
 
@@ -652,7 +800,9 @@ wealth_83 = {
     political_strength = 1100
     goods = {
         popneed_simple_food = 28345
+        popneed_wood = 14216
         popneed_tools = 908
+        popneed_ingots = 28330
     }
 }
 
@@ -660,7 +810,9 @@ wealth_84 = {
     political_strength = 1125
     goods = {
         popneed_simple_food = 31016
+        popneed_wood = 15427
         popneed_tools = 953
+        popneed_ingots = 31001
     }
 }
 
@@ -668,7 +820,9 @@ wealth_85 = {
     political_strength = 1150
     goods = {
         popneed_simple_food = 33939
+        popneed_wood = 16741
         popneed_tools = 1000
+        popneed_ingots = 33924
     }
 }
 
@@ -676,7 +830,9 @@ wealth_86 = {
     political_strength = 1175
     goods = {
         popneed_simple_food = 37138
+        popneed_wood = 18167
         popneed_tools = 1049
+        popneed_ingots = 37123
     }
 }
 
@@ -684,7 +840,9 @@ wealth_87 = {
     political_strength = 1200
     goods = {
         popneed_simple_food = 40638
+        popneed_wood = 19714
         popneed_tools = 1100
+        popneed_ingots = 40623
     }
 }
 
@@ -692,7 +850,9 @@ wealth_88 = {
     political_strength = 1225
     goods = {
         popneed_simple_food = 44469
+        popneed_wood = 21393
         popneed_tools = 1155
+        popneed_ingots = 44454
     }
 }
 
@@ -700,7 +860,9 @@ wealth_89 = {
     political_strength = 1250
     goods = {
         popneed_simple_food = 48660
+        popneed_wood = 23215
         popneed_tools = 1211
+        popneed_ingots = 48645
     }
 }
 
@@ -708,7 +870,9 @@ wealth_90 = {
     political_strength = 1275
     goods = {
         popneed_simple_food = 53247
+        popneed_wood = 25193
         popneed_tools = 1271
+        popneed_ingots = 53232
     }
 }
 
@@ -716,7 +880,9 @@ wealth_91 = {
     political_strength = 1300
     goods = {
         popneed_simple_food = 58267
+        popneed_wood = 27339
         popneed_tools = 1334
+        popneed_ingots = 58252
     }
 }
 
@@ -724,7 +890,9 @@ wealth_92 = {
     political_strength = 1325
     goods = {
         popneed_simple_food = 63759
+        popneed_wood = 29668
         popneed_tools = 1400
+        popneed_ingots = 63744
     }
 }
 
@@ -732,7 +900,9 @@ wealth_93 = {
     political_strength = 1350
     goods = {
         popneed_simple_food = 69770
+        popneed_wood = 32195
         popneed_tools = 1469
+        popneed_ingots = 69755
     }
 }
 
@@ -740,7 +910,9 @@ wealth_94 = {
     political_strength = 1375
     goods = {
         popneed_simple_food = 76347
+        popneed_wood = 34938
         popneed_tools = 1541
+        popneed_ingots = 76332
     }
 }
 
@@ -748,7 +920,9 @@ wealth_95 = {
     political_strength = 1400
     goods = {
         popneed_simple_food = 83545
+        popneed_wood = 37915
         popneed_tools = 1617
+        popneed_ingots = 83530
     }
 }
 
@@ -756,7 +930,9 @@ wealth_96 = {
     political_strength = 1425
     goods = {
         popneed_simple_food = 91421
+        popneed_wood = 41145
         popneed_tools = 1697
+        popneed_ingots = 91406
     }
 }
 
@@ -764,7 +940,9 @@ wealth_97 = {
     political_strength = 1450
     goods = {
         popneed_simple_food = 100040
+        popneed_wood = 44651
         popneed_tools = 1781
+        popneed_ingots = 100025
     }
 }
 
@@ -772,7 +950,9 @@ wealth_98 = {
     political_strength = 1475
     goods = {
         popneed_simple_food = 109472
+        popneed_wood = 48455
         popneed_tools = 1869
+        popneed_ingots = 109457
     }
 }
 
@@ -780,7 +960,9 @@ wealth_99 = {
     political_strength = 1500
     goods = {
         popneed_simple_food = 119793
+        popneed_wood = 52584
         popneed_tools = 1962
+        popneed_ingots = 119778
     }
 }
 

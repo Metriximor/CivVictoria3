@@ -6,6 +6,8 @@
 			building_output_sand_add = 1.0
 			building_output_wheat_add = 0.5
 			building_output_carrot_add = 0.5
+			building_output_charcoal_add = 0.25
+			building_output_wood_tools_add = 0.1
 		}
 
 		level_scaled = {

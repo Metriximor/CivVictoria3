@@ -4,6 +4,9 @@
 		level_scaled = {
 			building_employment_newfriends_add = 5000
 		}
+		unscaled = {
+			building_newfriends_shares_add = 5
+		}
 	}
 }
 
@@ -13,6 +16,10 @@ pm_employ_midfriends = {
 		level_scaled = {
 			building_employment_midfriends_add = 5000
 		}
+		
+		unscaled = {
+			building_midfriends_shares_add = 5
+		}
 	}
 }
 
@@ -21,6 +28,9 @@ pm_employ_oldfriends = {
 	building_modifiers = {
 		level_scaled = {
 			building_employment_oldfriends_add = 5000
+		}
+		unscaled = {
+			building_oldfriends_shares_add = 5
 		}
 	}
 }

@@ -1,3 +1,4 @@
 ﻿wand
 glob
 pathlib
+inflect

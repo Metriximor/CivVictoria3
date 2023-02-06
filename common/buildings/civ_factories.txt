@@ -6,7 +6,7 @@
 		pmg_base_building_tool_factory
 		pmg_buildings_employment
 	}
-	required_construction = construction_cost_high
+	required_construction = construction_cost_medium
 }
 
 building_ore_smelter = {

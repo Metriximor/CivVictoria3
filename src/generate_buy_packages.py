@@ -5,7 +5,7 @@ from math import pow, ceil
 # Pop needs can:
 # Grow up to a max (logarithmic function)
 # Grow exponentially (exponential function)
-def need_grow_exponentially(x: int, base = 15, exponent = 4, rate_of_growth = 0.065, horizontal_offset = 2):
+def need_grow_exponentially(x: int, base = 15.0, exponent = 4, rate_of_growth = 0.065, horizontal_offset = 2):
     return ceil(base + pow(exponent, (rate_of_growth * x) + horizontal_offset))
 
 # Grow up and then grows down (parabola)
@@ -16,8 +16,9 @@ for i in range(1, 100):
     # Access the buy_packages
     wealth_level = f"wealth_{i}"
     goods = {}
-    for pop_need in pop_needs:
-        goods[pop_need] = need_grow_exponentially(i, 15, 4, 0.065, 2)
+    goods["popneed_simple_food"] = need_grow_exponentially(i, 15, 4, 0.065, 2)
+    if i > 6:
+        goods["popneed_tools"] = max(need_grow_exponentially(i, 10, 4, 0.035, 2), 0)
     # Assign calculated goods to buy_packages
     buy_packages[wealth_level]["goods"] = goods
 

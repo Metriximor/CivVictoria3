@@ -1,0 +1,80 @@
+﻿pm_base_wheat_farm = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_wheat_add = 64
+		}
+	}
+}
+pm_base_beetroot_farm = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_beetroot_add = 64
+		}
+	}
+}
+pm_base_carrot_farm = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_carrot_add = 64
+		}
+	}
+}
+pm_base_potato_farm = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_potato_add = 64
+		}
+	}
+}
+pm_base_pumpkin_farm = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_pumpkin_add = 64
+		}
+	}
+}
+pm_base_melon_farm = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_melon_add = 64
+		}
+	}
+}
+pm_base_cactus_farm = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_cactus_add = 64
+		}
+	}
+}
+pm_base_sugar_farm = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_sugar_add = 64
+		}
+	}
+}
+pm_base_mushroom_farm = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_mushroom_add = 64
+		}
+	}
+}
+pm_base_cocoa_bean_farm = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_cocoa_bean_add = 64
+		}
+	}
+}

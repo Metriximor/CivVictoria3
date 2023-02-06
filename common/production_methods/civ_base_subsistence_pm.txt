@@ -1,8 +1,15 @@
 ﻿default_building_civ_subsistence_farms = {
 	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
-	building_modifier = {
-		building_output_oak_log_add = 2.0
-		building_ouput_sand_add = 1.0
-		building_output_wheat_add = 0.5
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_oak_log_add = 2.0
+			building_output_sand_add = 1.0
+			building_output_wheat_add = 0.5
+			building_output_carrot_add = 0.5
+		}
+
+		level_scaled = {
+			building_employment_newfriends_add = 2375
+		}
 	}
 }

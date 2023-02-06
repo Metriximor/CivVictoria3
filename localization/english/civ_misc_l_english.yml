@@ -11,6 +11,9 @@
  pmg_base_civ_construction_sector: "Building Type"
  pmg_construction_tool_usage: "Construction Tools"
  pmg_reinforcement_type: "Block Reinforcement Type"
+ pmg_base_building_civ_subsistence_farms: "Scavenging Around"
+
+ default_building_civ_subsistence_farms: "Scavenging Around"
 
  pm_punch_wood: "Punch wood"
  pm_wood_axe: "Wood Axes"

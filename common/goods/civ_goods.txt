@@ -240,6 +240,15 @@ mushroom = {
 	traded_quantity = 64
 }
 
+cocoa_bean = {
+	texture = "gfx/interface/icons/goods_icons/cocoa_bean.dds"
+	cost = 50
+	category = staple
+	consumption_tax_cost = 500	
+	convoy_cost_multiplier = @stackable_64_ccm
+	traded_quantity = 64
+}
+
 experience_bottle = {
 	texture = "gfx/interface/icons/goods_icons/experience_bottle.dds"
 	cost = 350

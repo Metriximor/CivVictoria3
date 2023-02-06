@@ -107,7 +107,7 @@ YOA = {
 		color1 = "full_white"
 	}
 	colored_emblem = {
-		texture = "te_coa_yoahtl.dds"
+		texture = "ce_coa_yoahtl.dds"
 		color1 = "full_black"
 		instance = { scale = { 0.6 0.6 } }
 	}

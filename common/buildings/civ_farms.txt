@@ -19,6 +19,7 @@ building_wheat_farm = {
 	
 	levels_per_mesh = 5
 	production_method_groups = {
+		pmg_base_wheat_farms
 		pmg_buildings_employment
 	}
 	required_construction = construction_cost_low
@@ -30,6 +31,7 @@ building_beetroot_farm = {
 	city_type = farm
 	levels_per_mesh = 5
 	production_method_groups = {
+		pmg_base_beetroot_farms
 		pmg_buildings_employment
 	}
 	required_construction = construction_cost_low
@@ -41,6 +43,7 @@ building_carrot_farm = {
 	city_type = farm
 	levels_per_mesh = 5
 	production_method_groups = {
+		pmg_base_carrot_farms
 		pmg_buildings_employment
 	}
 	required_construction = construction_cost_low
@@ -48,7 +51,7 @@ building_carrot_farm = {
 
 building_cocoa_farm = {
 	texture = "gfx/interface/icons/building_icons/cocoa_farm.dds"
-	building_group = bg_cocoa_farmss
+	building_group = bg_cocoa_farms
 	city_type = farm
 	levels_per_mesh = 5
 	production_method_groups = {
@@ -63,6 +66,7 @@ building_potato_farm = {
 	city_type = farm
 	levels_per_mesh = 5
 	production_method_groups = {
+		pmg_base_potato_farms
 		pmg_buildings_employment
 	}
 	required_construction = construction_cost_low
@@ -74,6 +78,7 @@ building_pumpkin_farm = {
 	city_type = farm
 	levels_per_mesh = 5
 	production_method_groups = {
+		pmg_base_pumpkin_farms
 		pmg_buildings_employment
 	}
 	required_construction = construction_cost_low
@@ -85,6 +90,7 @@ building_melon_farm = {
 	city_type = farm
 	levels_per_mesh = 5
 	production_method_groups = {
+		pmg_base_melon_farms
 		pmg_buildings_employment
 	}
 	required_construction = construction_cost_low
@@ -96,6 +102,7 @@ building_cactus_farm = {
 	city_type = farm
 	levels_per_mesh = 5
 	production_method_groups = {
+		pmg_base_cactus_farms
 		pmg_buildings_employment
 	}
 	required_construction = construction_cost_low
@@ -107,6 +114,7 @@ building_sugar_cane_farm = {
 	city_type = farm
 	levels_per_mesh = 5
 	production_method_groups = {
+		pmg_base_sugar_farms
 		pmg_buildings_employment
 	}
 	required_construction = construction_cost_low
@@ -118,6 +126,7 @@ building_mushroom_farm = {
 	city_type = mine
 	levels_per_mesh = 5
 	production_method_groups = {
+		pmg_base_mushroom_farms
 		pmg_buildings_employment
 	}
 	required_construction = construction_cost_low

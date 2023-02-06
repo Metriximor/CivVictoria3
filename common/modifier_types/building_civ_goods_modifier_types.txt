@@ -388,6 +388,21 @@ building_output_mushroom_mult = {
     percent = yes
 }
 
+building_output_cocoa_bean_add = {
+    good = yes
+    percent = no
+}
+
+building_input_cocoa_bean_add = {
+    good = no
+    percent = no
+}
+
+building_output_cocoa_bean_mult = {
+    good = yes
+    percent = yes
+}
+
 building_output_experience_bottle_add = {
     good = yes
     percent = no

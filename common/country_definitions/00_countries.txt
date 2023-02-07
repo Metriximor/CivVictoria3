@@ -1,13 +1,12 @@
 ﻿###### EXAMPLE ######
-
 EXA = {
 	color = { 255 255 255 } #The colour of this country on the map.
+	capital = STATE_DEBUG #Which state holds this nation's default capital
 
 	country_type = recognized #See common\country_types
 	tier = kingdom #See common\country_ranks
 
 	cultures = { examplish } #What are their primary culture/s - you can set multiple.
-	capital = STATE_DEBUG #Which state holds this nation's default capital
 }
 
 LUS = {
@@ -83,9 +82,9 @@ YOA = {
 }
 
 ROZ = {
+	capital = STATE_ROZIA
 	color = "rozian_pink"
 	country_type = recognized
 	tier = principality
 	cultures = { examplish }
-	capital = STATE_ROZIA
 }

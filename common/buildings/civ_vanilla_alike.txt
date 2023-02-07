@@ -30,6 +30,8 @@ building_government_administration = {
 	levels_per_mesh = 10
 
 	production_method_groups = {
+		pmg_government_administration_base
+		pmg_buildings_employment
 	}
 
 	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"

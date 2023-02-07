@@ -1,6 +1,7 @@
 ﻿import json
 import rubicon_parser as paradox
 from random import randint
+from models import CreateBuilding
 from utils import load_file_into_string, write_to_file, yaml
 
 def create_pops(country_abrev, state_name):
@@ -43,6 +44,7 @@ country_data = paradox.load("common/country_definitions/00_countries.txt")
 
 # Prepare the data
 states = {state: country  for country, state_names in states.items() for state in state_names}
+capital_states = {country_data[country]['capital'] for country in country_data}
 
 # Prepares Outputs
 output = ""
@@ -74,6 +76,12 @@ for string in map_state_data.split("\n"):
         buildings += f"s:{state_name} = {{\n"
         for country_abbreviation in countries:
             buildings += f"    region_state:{country_abbreviation} = {{\n"
+            if state_name in capital_states:
+                gov_admin = CreateBuilding(
+                    building='building_government_administration',
+                    level=1,
+                    activate_production_methods={"pm_simple_organization_government_administration"})
+                buildings += paradox.dumps({'create_building': dict(gov_admin)}, indent_lvl=2)
             buildings +=  "    }\n"
         buildings +=  "}\n"
         

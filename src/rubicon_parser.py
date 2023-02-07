@@ -210,13 +210,13 @@ def _serialize(val, dump, indent_lvl=0):
                 dump += f"{'    '*indent_lvl}{k} = {{\n{object_str}{'    '*indent_lvl}}}\n"
                 if indent_lvl == 0:
                     dump += "\n"
-            elif isinstance(v, list):
+            elif isinstance(v, list) or isinstance(v, set):
                 list_str = _serialize(v, "", indent_lvl)
                 dump += f"{'    '*indent_lvl}{k} = {{ {list_str}}}\n"
             else:
                 val_str = _serialize(v, "")
                 dump += f"{'    '*indent_lvl}{k} = {val_str}\n"
-    elif isinstance(val, list):
+    elif isinstance(val, list) or isinstance(val, set):
         for v in val:
             v_str = _serialize(v, "")
             dump += f"{v_str} "
@@ -229,5 +229,5 @@ def _serialize(val, dump, indent_lvl=0):
         raise Exception("Unknown operation")
     return dump
 
-def dumps(dict):
-    return _serialize(dict, "")
+def dumps(dict, indent_lvl = 0):
+    return _serialize(dict, '', indent_lvl)

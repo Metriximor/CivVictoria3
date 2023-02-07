@@ -1,6 +1,12 @@
 ﻿BUILDINGS = {
 	s:STATE_NIDAROS = {
 		region_state:TRU = {
+			create_building = {
+				building = building_government_administration
+				level = 1
+				reserves = 1
+				activate_production_methods = { pm_simple_organization_government_administration }
+			}
 		}
 	}
 	s:STATE_HYLDOR = {
@@ -33,6 +39,12 @@
 	}
 	s:STATE_TENSEIMIYA = {
 		region_state:GEN = {
+			create_building = {
+				building = building_government_administration
+				level = 1
+				reserves = 1
+				activate_production_methods = { pm_simple_organization_government_administration }
+			}
 		}
 	}
 	s:STATE_MORINOYARI = {
@@ -61,6 +73,12 @@
 	}
 	s:STATE_PORTUCALE = {
 		region_state:LUS = {
+			create_building = {
+				building = building_government_administration
+				level = 1
+				reserves = 1
+				activate_production_methods = { pm_simple_organization_government_administration }
+			}
 		}
 	}
 	s:STATE_CIV_PROVENCE = {
@@ -109,6 +127,12 @@
 	}
 	s:STATE_EAST_LAMBAT_CITY = {
 		region_state:LAM = {
+			create_building = {
+				building = building_government_administration
+				level = 1
+				reserves = 1
+				activate_production_methods = { pm_simple_organization_government_administration }
+			}
 		}
 	}
 	s:STATE_WEST_LAMBAT_CITY = {
@@ -145,6 +169,12 @@
 	}
 	s:STATE_PROVINCE_OF_NEW_DANZILONA = {
 		region_state:DAN = {
+			create_building = {
+				building = building_government_administration
+				level = 1
+				reserves = 1
+				activate_production_methods = { pm_simple_organization_government_administration }
+			}
 		}
 	}
 	s:STATE_SOPHIA = {
@@ -185,6 +215,12 @@
 	}
 	s:STATE_WOLKEN = {
 		region_state:WOL = {
+			create_building = {
+				building = building_government_administration
+				level = 1
+				reserves = 1
+				activate_production_methods = { pm_simple_organization_government_administration }
+			}
 		}
 	}
 	s:STATE_WOLKEN_ISLANDS = {
@@ -197,6 +233,12 @@
 	}
 	s:STATE_CENTRAL_MERY = {
 		region_state:MER = {
+			create_building = {
+				building = building_government_administration
+				level = 1
+				reserves = 1
+				activate_production_methods = { pm_simple_organization_government_administration }
+			}
 		}
 	}
 	s:STATE_SOUTHERN_MERY = {
@@ -205,6 +247,12 @@
 	}
 	s:STATE_YOAHTL_HOMELANDS = {
 		region_state:YOA = {
+			create_building = {
+				building = building_government_administration
+				level = 1
+				reserves = 1
+				activate_production_methods = { pm_simple_organization_government_administration }
+			}
 		}
 	}
 	s:STATE_KOBYLINSKI = {
@@ -224,6 +272,14 @@
 		}
 	}
 	s:STATE_YOAHTL_WESTERN_FRONTIER = {
+		region_state:YOA = {
+		}
+	}
+	s:STATE_ALTEPETL = {
+		region_state:YOA = {
+		}
+	}
+	s:STATE_SOUTHBURY = {
 		region_state:YOA = {
 		}
 	}
@@ -253,6 +309,12 @@
 	}
 	s:STATE_ROZIA = {
 		region_state:ROZ = {
+			create_building = {
+				building = building_government_administration
+				level = 1
+				reserves = 1
+				activate_production_methods = { pm_simple_organization_government_administration }
+			}
 		}
 	}
 }

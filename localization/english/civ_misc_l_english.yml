@@ -11,6 +11,7 @@
  pmg_base_civ_construction_sector: "Building Type"
  pmg_construction_tool_usage: "Construction Tools"
  pmg_reinforcement_type: "Block Reinforcement Type"
+ pmg_base_building_sand_pit: "Sand Digging"
  pmg_base_building_civ_subsistence_farms: "Scavenging Around"
 
  default_building_civ_subsistence_farms: "Scavenging Around"
@@ -31,6 +32,13 @@
  pm_gold_pickaxe: "Gold Pickaxes"
  pm_diamond_pickaxe: "Diamond Pickaxes"
  pm_netherite_pickaxe: "Netherite Pickaxes"
+
+ pm_no_shovel: "Dig by hand"
+ pm_wood_shovel: "Wood Shovels"
+ pm_stone_shovel: "Stone Shovels"
+ pm_iron_shovel: "Iron Shovels"
+ pm_gold_shovel: "Gold Shovel"
+ pm_diamond_shovel: "Diamond Shovel"
 
  pm_craft_wood_tools: "Craft Wood Tools"
  pm_craft_stone_tools: "Craft Stone Tools"

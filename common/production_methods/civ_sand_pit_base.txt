@@ -1,0 +1,58 @@
+﻿pm_no_shovel = {
+	texture = "gfx/interface/icons/production_method_icons/manual.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_sand_add = 32
+		}
+	}
+}
+
+pm_wood_shovel = {
+	texture = "gfx/interface/icons/production_method_icons/wood_shovel.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_wood_tools_add = 16
+			building_output_sand_add = 64 # wood has 2 multiplier
+		}
+	}
+}
+
+pm_stone_shovel = {
+	texture = "gfx/interface/icons/production_method_icons/stone_shovel.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_stone_tools_add = 16
+			building_output_sand_add = 128 # stone has 4 multiplier
+		}
+	}
+}
+
+pm_iron_shovel = {
+	texture = "gfx/interface/icons/production_method_icons/iron_shovel.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_iron_tools_add = 16
+			building_output_sand_add = 192 # iron has 6 multiplier
+		}
+	}
+}
+
+pm_gold_shovel = {
+	texture = "gfx/interface/icons/production_method_icons/gold_shovel.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_gold_tools_add = 16
+			building_output_sand_add = 384 # gold has 12 multiplier + base efficiency speed up averaged out
+		}
+	}
+}
+
+pm_diamond_shovel = {
+	texture = "gfx/interface/icons/production_method_icons/diamond_shovel.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_diamond_tools_add = 16
+			building_output_sand_add = 256 # diamond has 8 multiplier 
+		}
+	}
+}

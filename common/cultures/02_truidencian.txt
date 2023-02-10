@@ -48,11 +48,10 @@
 		
 	}
 	noble_last_names = {
-		av_Rodskjegg of_Snowpeak of_Hyldor of_Nidaros of_Dol_Morhen
+		of_Snowpeak of_Hyldor of_Nidaros of_Dol_Morhen of_Bezengard of_Nid of_Fox'_Landing
 	}	
 	common_last_names={
 		Nidgard 
-		of_Bezengard of_Nid of_Fox'_Landing
 		Revrud 
 		Odegard Olsen
 		Andersen Aas

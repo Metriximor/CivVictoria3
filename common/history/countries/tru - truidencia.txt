@@ -10,7 +10,7 @@
 
 		ig:ig_pvpers = {
 			set_interest_group_name = ig_tru_imperial_army
-		ig:ig_grinders = {
+		ig:ig_industrialists = {
 			set_interest_group_name = ig_northland_industries
 		}
 	}

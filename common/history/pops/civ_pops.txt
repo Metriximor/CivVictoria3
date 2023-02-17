@@ -83,12 +83,12 @@
 			create_pop = {
 				culture = thruitt
 				religion = bezism
-				size = 12439
+				size = 42439
 			}
 			create_pop = {
 				culture = gensokyojin
 				religion = bezism
-				size = 111956
+				size = 91956
 			}
 		}
 	}

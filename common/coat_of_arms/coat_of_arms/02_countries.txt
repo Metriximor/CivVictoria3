@@ -85,8 +85,8 @@ WOL = {
 
 GEN = {
 	pattern = "pattern_vertical_split_01.tga"
-	color1 = "gensokyojin_red"
-	color2 = "full_white"
+	color1 = "full_white"
+	color2 = "gensokyojin_red"
 	colored_emblem = {
 		texture = "ce_gensokyo.dds"
 		color2 = "full_white"
@@ -112,5 +112,22 @@ YOA = {
 		instance = { scale = { 0.6 0.6 } }
 	}
 }
+
+KOV = {
+	pattern = "pattern_solid.tga"
+	color1 = "truidencian_yellow"
+	colored_emblem = {
+		texture = "ce_chouwa_star.dds"
+		color2 = "lusitan_shield_blue"
+		color1 = "truidencian_red" 
+	}
+	colored_emblem = {
+		texture = "ce_gensokyo.dds"
+		color2 = "truidencian_red"
+		color3 = "lusitan_shield_blue"
+		instance = { position { 0.5 0.5} scale = { 0.5 0.5 } }
+	}
+}
+
 
 #####################

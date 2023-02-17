@@ -66,7 +66,7 @@ MER = {
 }
 
 KOV = {
-	color = "full_white"
+	color = "truidencian_yellow"
 	country_type = recognized
 	tier = hegemony
 	cultures = { thruitt truidencian gensokyojin }

@@ -56,6 +56,10 @@ top_victorian_tailcoat = {
     entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_victorian_tailcoat_entity" }
 }
 
+top_victorian_tailcoat_red = {
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_victorian_tailcoat_red_entity" }
+}
+
 top_black_tailcoat_slim = {
     entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_black_tailcoat_slim_entity" }
 }

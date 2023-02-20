@@ -66,7 +66,7 @@ MER = {
 }
 
 KOV = {
-	color = "truidencian_yellow"
+	color = "lusitan_shield_blue"
 	country_type = recognized
 	tier = hegemony
 	cultures = { thruitt truidencian gensokyojin }
@@ -83,6 +83,14 @@ YOA = {
 
 ROZ = {
 	capital = STATE_ROZIA
+	color = "rozian_pink"
+	country_type = recognized
+	tier = principality
+	cultures = { examplish }
+}
+
+KAL = {
+	capital = STATE_KALLOS
 	color = "rozian_pink"
 	country_type = recognized
 	tier = principality

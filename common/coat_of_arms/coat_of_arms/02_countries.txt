@@ -114,18 +114,20 @@ YOA = {
 }
 
 KOV = {
-	pattern = "pattern_solid.tga"
-	color1 = "truidencian_yellow"
+	pattern = "pattern_stripes_chouwa.dds"
+	color1 = "full_white"
+	color2 = "lusitan_shield_blue"
+	color3 = "truidencian_red"
 	colored_emblem = {
-		texture = "ce_chouwa_star.dds"
+		texture = "ce_chakra_siam.dds"
+		color1 = "truidencian_red"
 		color2 = "lusitan_shield_blue"
-		color1 = "truidencian_red" 
 	}
 	colored_emblem = {
 		texture = "ce_gensokyo.dds"
-		color2 = "truidencian_red"
-		color3 = "lusitan_shield_blue"
-		instance = { position { 0.5 0.5} scale = { 0.5 0.5 } }
+		color2 = "full_white"
+		color3 = "truidencian_red" 
+		instance = { scale = { 0.5 0.5 } }
 	}
 }
 

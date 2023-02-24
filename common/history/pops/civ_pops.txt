@@ -78,17 +78,17 @@
 			}
 		}
 	}
-	s:STATE_MORINOYARI = {
+	s:STATE_MORINOYARI-VESTLAND = {
 		region_state:GEN = {
 			create_pop = {
 				culture = thruitt
 				religion = bezism
-				size = 12439
+				size = 62439
 			}
 			create_pop = {
 				culture = gensokyojin
 				religion = bezism
-				size = 111956
+				size = 81956
 			}
 		}
 	}

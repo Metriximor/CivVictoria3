@@ -2,7 +2,7 @@
 	c:TRU = {
 		create_character = {
 			first_name = Zeldronix
-			last_name = of_Dol_Morhen
+			last_name = av_Trydensia
 			noble = yes
 			ruler = yes
 			culture = cu:thruitt

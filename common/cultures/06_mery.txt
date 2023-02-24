@@ -30,6 +30,7 @@
 	}
 	graphics = european
 	ethnicities = {
-		1 = minecrafter
+		95 = minecrafter
+		5 = thruittan
 	}
 }

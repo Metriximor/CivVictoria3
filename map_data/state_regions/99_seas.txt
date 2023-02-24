@@ -4,7 +4,7 @@
 
 STATE_MEDI_SEA = {
     id = 3001
-    provinces = { "x0A400D" }
+    provinces = { "x0A400D" "x0F410A" }
 }
 
 STATE_STONY_SEA = {

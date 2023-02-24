@@ -8,15 +8,15 @@
 		Olav Odin Oliver Oskar Olaf Ole Odd
 		Harald Haavard Haakon Hermod Henrik Hermann Hans Halvor
 		Magnus Markus Matias Mikkel Martin Morten Mats Marius
-		Nils Nathaniel
+		Nils Nathaniel Noa
 		Ludvik Lars Lukas Liam
 		Tor Teodor Tobias Leif Terje Trond Torstein Tomas
 		Frei Felix Filip Fredrik
 		Valdemar Viktor
 		Emil Elias Einar Erling Erlend Espen Eirik Erik Elling
-		Isak Iver 
+		Isak Iver
 		Jakob Johannes Jens Johan Jan Joakim Jonas Jon
-		Ulrik
+		Ulrik 
 		Gustav Gunnar Geir
 		Sander Sebastian Sverre Svein Stian Steinar
 		Kristian Karl Knut Kjell Kristoffer
@@ -48,11 +48,10 @@
 		
 	}
 	noble_last_names = {
-		av_Rodskjegg of_Snowpeak of_Hyldor of_Nidaros of_Dol_Morhen
+		of_Snowpeak of_Hyldor of_Nidaros of_Dol_Morhen of_Bezengard of_Nid of_Fox'_Landing
 	}	
 	common_last_names={
 		Nidgard 
-		of_Bezengard of_Nid of_Fox'_Landing
 		Revrud 
 		Odegard Olsen
 		Andersen Aas

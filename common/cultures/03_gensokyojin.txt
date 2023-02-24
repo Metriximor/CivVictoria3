@@ -67,6 +67,7 @@ gensokyojin = {
 	}
 	graphics = asian
 	ethnicities = {
-		1 = minecrafter
+		97 = minecrafter
+		3 = thruitt
 	}
 }

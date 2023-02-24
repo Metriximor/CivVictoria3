@@ -19,5 +19,7 @@
  ig_civ_industrialists_only_icon:0 "@industrialists!"
  ig_civ_industrialists_desc:0 ""
 # Custom IG names
- ig_tru_imperial_army:0 "Truidencian Imperial Army"
+ ig_tru_imperial_army:0 "Imperial Army"
+#  ig_tru_imperial_army_desc:0 "The Truidencian Imperial Army"
+ ig_northland_industries:0 "Northland Industries"
 #  ig_tru_imperial_army_desc:0 ""

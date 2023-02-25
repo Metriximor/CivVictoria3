@@ -37,6 +37,10 @@ colors = {
 
 	# Rozia
 	rozian_blue = rgb { 64 224 208 }
+
+	# Kallos
+	kallosian_purple = rgb { 85 43 115 }
+	kallosian_light_purple = rgb { 117 61 162 }
 	
 	# Misc colors
 	bizantine_purple = rgb { 112 41 99 }

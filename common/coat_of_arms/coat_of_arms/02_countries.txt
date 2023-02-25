@@ -85,12 +85,13 @@ WOL = {
 
 GEN = {
 	pattern = "pattern_vertical_split_01.tga"
-	color1 = "full_white"
-	color2 = "gensokyojin_red"
+	color1 = "gensokyojin_red"
+	color2 = "full_white"
 	colored_emblem = {
 		texture = "ce_gensokyo.dds"
 		color2 = "full_white"
 		color3 = "gensokyojin_red"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
 	}
 }
 
@@ -146,6 +147,25 @@ ROZ = {
 	textured_emblem = {
 		texture = "te_rose.dds"
 			
+	}
+}
+
+KAL = {
+	pattern = "pattern_gironny_16_center.dds"
+	color1 = "kallosian_purple"
+	color2 = "full_white"
+	textured_emblem = {
+		texture = "te_coa_kallos.dds"
+}
+    colored_emblem = {
+        texture = "ce_stripe_bottom.dds"
+        color1 = "kallosian_purple"
+}
+    colored_emblem = {
+        texture = "ce_waves.dds"
+        color1 = "full_white"
+        color2 = "kallosian_purple"
+        instance = { position = { 0.5 0.76 } }
 	}
 }
 

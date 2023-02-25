@@ -68,9 +68,9 @@ thruitt_f = {
     entity = { required_tags = "" shared_pose_entity = head entity = "thruitt_f_entity" }
 }
 
-zuri = {
+zuri_clothed = {
     set_tags = "base_model"
-    entity = { required_tags = "" shared_pose_entity = head entity = "zuri_entity" }
+    entity = { required_tags = "" shared_pose_entity = head entity = "zuri_clothed_entity" }
 }
 
 alex = {

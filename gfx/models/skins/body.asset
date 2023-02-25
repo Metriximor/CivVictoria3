@@ -16,23 +16,6 @@ entity = {
 }
 
 pdxmesh = {
-    name = "kai_clothed_mesh"
-    file = "hm_prophet.mesh"
-    scale = 1.6
-    meshsettings = {
-        name = "prophet_shieldShape"
-        index = 0
-        texture_diffuse = "skins_textures/body/kai_clothed.dds"
-        shader = "portrait_attachment_alpha_to_coverage"
-        shader_file = "gfx/models/skins/body.shader"
-    }
-}
-entity = {
-    name = "kai_clothed_entity"
-    pdxmesh = "kai_clothed_mesh"
-}
-
-pdxmesh = {
     name = "non_official_digni_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6
@@ -118,23 +101,6 @@ entity = {
 }
 
 pdxmesh = {
-    name = "noor_clothed_mesh"
-    file = "hm_prophet.mesh"
-    scale = 1.6
-    meshsettings = {
-        name = "prophet_shieldShape"
-        index = 0
-        texture_diffuse = "skins_textures/body/noor_clothed.dds"
-        shader = "portrait_attachment_alpha_to_coverage"
-        shader_file = "gfx/models/skins/body.shader"
-    }
-}
-entity = {
-    name = "noor_clothed_entity"
-    pdxmesh = "noor_clothed_mesh"
-}
-
-pdxmesh = {
     name = "steve_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6
@@ -149,23 +115,6 @@ pdxmesh = {
 entity = {
     name = "steve_entity"
     pdxmesh = "steve_mesh"
-}
-
-pdxmesh = {
-    name = "steve_clothed_mesh"
-    file = "hm_prophet.mesh"
-    scale = 1.6
-    meshsettings = {
-        name = "prophet_shieldShape"
-        index = 0
-        texture_diffuse = "skins_textures/body/steve_clothed.dds"
-        shader = "portrait_attachment_alpha_to_coverage"
-        shader_file = "gfx/models/skins/body.shader"
-    }
-}
-entity = {
-    name = "steve_clothed_entity"
-    pdxmesh = "steve_clothed_mesh"
 }
 
 pdxmesh = {
@@ -288,23 +237,6 @@ entity = {
 }
 
 pdxmesh = {
-    name = "zuri_mesh"
-    file = "hm_prophet.mesh"
-    scale = 1.6
-    meshsettings = {
-        name = "prophet_shieldShape"
-        index = 0
-        texture_diffuse = "skins_textures/body/zuri.dds"
-        shader = "portrait_attachment_alpha_to_coverage"
-        shader_file = "gfx/models/skins/body.shader"
-    }
-}
-entity = {
-    name = "zuri_entity"
-    pdxmesh = "zuri_mesh"
-}
-
-pdxmesh = {
     name = "zuri_clothed_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6
@@ -339,23 +271,6 @@ entity = {
 }
 
 pdxmesh = {
-    name = "alex_clothed_mesh"
-    file = "hm_prophet.mesh"
-    scale = 1.6
-    meshsettings = {
-        name = "prophet_shieldShape"
-        index = 0
-        texture_diffuse = "skins_textures/body/slim/alex_clothed.dds"
-        shader = "portrait_attachment_alpha_to_coverage"
-        shader_file = "gfx/models/skins/body.shader"
-    }
-}
-entity = {
-    name = "alex_clothed_entity"
-    pdxmesh = "alex_clothed_mesh"
-}
-
-pdxmesh = {
     name = "ari_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6
@@ -370,23 +285,6 @@ pdxmesh = {
 entity = {
     name = "ari_entity"
     pdxmesh = "ari_mesh"
-}
-
-pdxmesh = {
-    name = "ari_clothed_mesh"
-    file = "hm_prophet.mesh"
-    scale = 1.6
-    meshsettings = {
-        name = "prophet_shieldShape"
-        index = 0
-        texture_diffuse = "skins_textures/body/slim/ari_clothed.dds"
-        shader = "portrait_attachment_alpha_to_coverage"
-        shader_file = "gfx/models/skins/body.shader"
-    }
-}
-entity = {
-    name = "ari_clothed_entity"
-    pdxmesh = "ari_clothed_mesh"
 }
 
 pdxmesh = {
@@ -407,23 +305,6 @@ entity = {
 }
 
 pdxmesh = {
-    name = "efe_clothed_mesh"
-    file = "hm_prophet.mesh"
-    scale = 1.6
-    meshsettings = {
-        name = "prophet_shieldShape"
-        index = 0
-        texture_diffuse = "skins_textures/body/slim/efe_clothed.dds"
-        shader = "portrait_attachment_alpha_to_coverage"
-        shader_file = "gfx/models/skins/body.shader"
-    }
-}
-entity = {
-    name = "efe_clothed_entity"
-    pdxmesh = "efe_clothed_mesh"
-}
-
-pdxmesh = {
     name = "makena_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6
@@ -438,23 +319,6 @@ pdxmesh = {
 entity = {
     name = "makena_entity"
     pdxmesh = "makena_mesh"
-}
-
-pdxmesh = {
-    name = "makena_clothed_mesh"
-    file = "hm_prophet.mesh"
-    scale = 1.6
-    meshsettings = {
-        name = "prophet_shieldShape"
-        index = 0
-        texture_diffuse = "skins_textures/body/slim/makena_clothed.dds"
-        shader = "portrait_attachment_alpha_to_coverage"
-        shader_file = "gfx/models/skins/body.shader"
-    }
-}
-entity = {
-    name = "makena_clothed_entity"
-    pdxmesh = "makena_clothed_mesh"
 }
 
 pdxmesh = {

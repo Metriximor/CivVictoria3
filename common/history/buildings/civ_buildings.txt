@@ -185,6 +185,10 @@
 		region_state:DAN = {
 		}
 	}
+	s:STATE_UPPER_MELIA = {
+		region_state:DAN = {
+		}
+	}
 	s:STATE_NEW_SWISSTON = {
 		region_state:DAN = {
 		}
@@ -315,6 +319,48 @@
 				reserves = 1
 				activate_production_methods = { pm_simple_organization_government_administration }
 			}
+		}
+	}
+	s:STATE_KALLOS = {
+		region_state:KAL = {
+			create_building = {
+				building = building_government_administration
+				level = 1
+				reserves = 1
+				activate_production_methods = { pm_simple_organization_government_administration }
+			}
+		}
+	}
+	s:STATE_ARNEN = {
+		region_state:KAL = {
+		}
+	}
+	s:STATE_COLUMBIA = {
+		region_state:KAL = {
+		}
+	}
+	s:STATE_FLORENCE = {
+		region_state:KAL = {
+		}
+	}
+	s:STATE_DELEWARE = {
+		region_state:KAL = {
+		}
+	}
+	s:STATE_ZATOKA = {
+		region_state:KAL = {
+		}
+	}
+	s:STATE_GAZEBO = {
+		region_state:KAL = {
+		}
+	}
+	s:STATE_KROVIDENCIA = {
+		region_state:KAL = {
+		}
+	}
+	s:STATE_ARCTIC_AND_EAST_TITAN = {
+		region_state:KAL = {
 		}
 	}
 }

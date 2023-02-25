@@ -25,7 +25,8 @@ def extract_colors(image_file):
             mapped_colors[hex_val].append([x, y])
             processed_pixels += 1
             if processed_pixels % (total_pixels // 100) == 0:
-                print(f"\r{processed_pixels / total_pixels * 100:.0f}% completed", end='')
+                print(
+                    f"\r{processed_pixels / total_pixels * 100:.0f}% completed", end='')
     print("\nProcessing complete!")
     return mapped_colors
 
@@ -55,35 +56,37 @@ def calculate_state_population(state_biomes: list[tuple[str, int]], biome_data: 
 # Prepares Inputs
 biome_data = yaml.load(load_file_into_string("src/input/biomes_mapping.yml"))
 state_data = yaml.load(load_file_into_string("src/input/state_data.yml"))
-minecraft_biomes_map = {str(biome_data['input_biomes'][input_biome]).upper(): minecraft_biome for minecraft_biome, input_biomes in biome_data['minecraft_biomes'].items() for input_biome in input_biomes['input_biomes']}
+minecraft_biomes_map = {str(biome_data['input_biomes'][input_biome]).upper(): minecraft_biome for minecraft_biome,
+                        input_biomes in biome_data['minecraft_biomes'].items() for input_biome in input_biomes['input_biomes']}
 
 province_map = {}
 provinces_path = "src/output/provinces_colors"
 if file_exists(provinces_path):
-  print("Loading existing province color terrains file")
-  with BZ2File(provinces_path, 'rb') as provinces_colors:
-    province_map = pickle.load(provinces_colors)
-  print("Loaded province terrains file")
+    print("Loading existing province color terrains file")
+    with BZ2File(provinces_path, 'rb') as provinces_colors:
+        province_map = pickle.load(provinces_colors)
+    print("Loaded province terrains file")
 else:
     province_map = extract_colors("map_data/provinces.png")
-    print("Color map generated, zipping into file\n")
-    print(len(province_map))
+    print(f"Found {len(province_map)} provinces")
+    print("Color map generated, zipping into file...")
     with BZ2File(provinces_path, 'wb') as config_dictionary_file:
         pickle.dump(province_map, config_dictionary_file)
 
 biomes_map = cv2.imread("src/input/biomes.png")
-states_data = paradox.load("map_data/state_regions/00_states.txt")
+map_states_data = paradox.load("map_data/state_regions/00_states.txt")
 
 # Calculate arable land resources
-for state_name, map_state_data in states_data.items():
+for state_name, map_state_data in map_states_data.items():
     provinces = map_state_data['provinces']
     state_resources = defaultdict(lambda: 0, {})
     for province in provinces:
-        province = province[1:] # remove the x from the province id
-        province_coords = province_map[province] # load all province points
+        province = province[1:]  # remove the x from the province id
+        # load all province coordinates
+        province_coords = province_map[province]
         for x, y in province_coords:
             b, g, r = biomes_map[y][x]
-            hex = rgb_to_hex(r, g, b) 
+            hex = rgb_to_hex(r, g, b)
             if hex not in minecraft_biomes_map:
                 state_resources['unknown'] += 1
             else:
@@ -91,7 +94,8 @@ for state_name, map_state_data in states_data.items():
     map_state_data['capped_resources'] = {}
     map_state_data['capped_resources']['bg_sand_pit'] = 5
     if len(state_resources) > 0:
-        state_resources = sorted(dict(state_resources).items(), key=lambda x: x[1], reverse=True)
+        state_resources = sorted(
+            dict(state_resources).items(), key=lambda x: x[1], reverse=True)
         pop_count = calculate_state_population(state_resources, biome_data)
         if state_name not in state_data:
             state_data[state_name] = {}
@@ -100,10 +104,12 @@ for state_name, map_state_data in states_data.items():
         if biggest_biome == 'desert':
             map_state_data['capped_resources']['bg_sand_pit'] = 80
         map_state_data['traits'] = [f'"state_trait_{state_resources[0][0]}"']
-        map_state_data['arable_resources'] = [f'"{valid_farm}"' for valid_farm in biome_data['minecraft_biomes'][biggest_biome]['valid_farms']]
+        map_state_data['arable_resources'] = [
+            f'"{valid_farm}"' for valid_farm in biome_data['minecraft_biomes'][biggest_biome]['valid_farms']]
 
 # Update existing entries
-file_string = load_file_into_string("map_data/state_regions/00_states.txt").splitlines()
+file_string = load_file_into_string(
+    "map_data/state_regions/00_states.txt").splitlines()
 new_file = []
 delete_flag = False
 for line in file_string:
@@ -115,15 +121,15 @@ for line in file_string:
     if state_match is not None:
         state = state_match.group(0)
         line = line.replace(f"{state} = {{", '')
-        new_file.append(paradox.dumps({state: states_data[state]}))
-new_string = '\n'.join(new_file) 
+        new_file.append(paradox.dumps({state: map_states_data[state]}))
+new_string = '\n'.join(new_file)
 write_to_file("src/output/00_states.txt", new_string)
 
 yaml.dump(state_data,  Path("src/output/state_data.yml"))
 
 # Temporary province terrain
 output = "#This is a generated file, do not modify unless you know what you are doing!\n"
-for hex in [ f"x{hex}" for hex in province_map ]:
+for hex in [f"x{hex}" for hex in province_map]:
     output += f'{hex}="plains"\n'
 
 # Final output

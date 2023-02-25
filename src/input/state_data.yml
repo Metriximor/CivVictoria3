@@ -6,10 +6,10 @@ STATE_HYLDOR:
   population: 211165
 STATE_FLATAGRAS:
   naval_exit_id: STATE_MEDI_SEA
-  population: 193267
+  population: 194733
 STATE_SIX_COLONIES:
   naval_exit_id: STATE_MEDI_SEA
-  population: 142417
+  population: 142513
 STATE_OUTER_NIDAROS:
   naval_exit_id: STATE_MEDI_SEA
   population: 113179
@@ -66,7 +66,7 @@ STATE_PAMPANG:
   population: 192875
 STATE_MELIA:
   naval_exit_id: STATE_MEDI_SEA
-  population: 748776
+  population: 576737
 STATE_PETERSKOGUR:
   naval_exit_id: STATE_MEDI_SEA
   population: 250554
@@ -125,7 +125,7 @@ STATE_OUTLAND:
   - culture: thruitt
     religion: bezism
     ratio: 1
-  population: 98976
+  population: 99183
 STATE_SNOWPEAK:
   population: 52073
 STATE_TENSEIMIYA:
@@ -133,7 +133,7 @@ STATE_TENSEIMIYA:
 STATE_DAISHIREIBOU:
   population: 547486
 STATE_MUMEITA:
-  population: 559719
+  population: 559755
 STATE_YAMATO_KEN:
   population: 171968
 STATE_DREAMLAND:
@@ -147,9 +147,9 @@ STATE_EBORA:
 STATE_EAST_LAMBAT_CITY:
   population: 179074
 STATE_SOPHIA:
-  population: 457284
+  population: 460205
 STATE_WEST_DANZILONA:
-  population: 405218
+  population: 405093
 STATE_YOAHTL_HOMELANDS:
   population: 57545
 STATE_KOBYLINSKI:
@@ -165,10 +165,10 @@ STATE_YOAHTL_WESTERN_FRONTIER:
 STATE_ALTEPETL:
   population: 118495
   pops:
-    - culture: yoahtlan
-      ratio: 90
-    - culture: resimerian
-      ratio: 3
+  - culture: yoahtlan
+    ratio: 90
+  - culture: resimerian
+    ratio: 3
 STATE_SOUTHBURY:
   population: 284658
 STATE_KAXITL:
@@ -191,3 +191,25 @@ STATE_MINI_YOAHTL_FRONTIER:
   population: 115572
 STATE_ROZIA:
   population: 37088
+STATE_UPPER_MELIA:
+  population: 169243
+STATE_NEW_SWISSTON:
+  population: 116941
+STATE_KALLOS:
+  population: 372007
+STATE_ARNEN:
+  population: 154322
+STATE_COLUMBIA:
+  population: 495343
+STATE_FLORENCE:
+  population: 207731
+STATE_DELEWARE:
+  population: 223357
+STATE_ZATOKA:
+  population: 259765
+STATE_GAZEBO:
+  population: 211371
+STATE_KROVIDENCIA:
+  population: 190640
+STATE_ARCTIC_AND_EAST_TITAN:
+  population: 45337

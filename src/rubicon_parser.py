@@ -224,9 +224,11 @@ def _serialize(val, dump, indent_lvl=0):
         dump += f"{val}"
     elif isinstance(val, int):
         dump += f"{str(val)}"
+    elif val is None:
+        dump += ""
     else:
         print(val)
-        raise Exception("Unknown operation")
+        raise Exception(f"Unknown type to serialize: {val}")
     return dump
 
 def dumps(dict, indent_lvl = 0):

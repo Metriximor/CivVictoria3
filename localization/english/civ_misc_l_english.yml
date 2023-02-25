@@ -98,6 +98,8 @@
  building_wheat_farm: "Wheat Farm"
  building_experience_cauldron: "Experience Cauldron"
 
+ EXA: "Unclaimed"
+ EXA_ADJ: "Random Settlers"
  LUS: "Lusitania"
  LUS_ADJ: "$lusitan$"
  TRU: "Truidencia"

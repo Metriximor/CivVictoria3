@@ -27,7 +27,7 @@
 		region_state:TRU = {
 			create_pop = {
 				culture = truidencian
-				size = 193267
+				size = 194733
 			}
 		}
 	}
@@ -49,7 +49,7 @@
 		region_state:TRU = {
 			create_pop = {
 				culture = truidencian
-				size = 142417
+				size = 142513
 			}
 		}
 	}
@@ -58,7 +58,7 @@
 			create_pop = {
 				culture = thruitt
 				religion = bezism
-				size = 98976
+				size = 99183
 			}
 		}
 	}
@@ -78,17 +78,17 @@
 			}
 		}
 	}
-	s:STATE_MORINOYARI-VESTLAND = {
+	s:STATE_MORINOYARI = {
 		region_state:GEN = {
 			create_pop = {
 				culture = thruitt
 				religion = bezism
-				size = 62439
+				size = 12439
 			}
 			create_pop = {
 				culture = gensokyojin
 				religion = bezism
-				size = 81956
+				size = 111956
 			}
 		}
 	}
@@ -104,7 +104,7 @@
 		region_state:GEN = {
 			create_pop = {
 				culture = gensokyojin
-				size = 559719
+				size = 559755
 			}
 		}
 	}
@@ -316,7 +316,7 @@
 		region_state:DAN = {
 			create_pop = {
 				culture = examplish
-				size = 457284
+				size = 460205
 			}
 		}
 	}
@@ -324,7 +324,15 @@
 		region_state:DAN = {
 			create_pop = {
 				culture = examplish
-				size = 748776
+				size = 576737
+			}
+		}
+	}
+	s:STATE_UPPER_MELIA = {
+		region_state:DAN = {
+			create_pop = {
+				culture = examplish
+				size = 169243
 			}
 		}
 	}
@@ -332,7 +340,7 @@
 		region_state:DAN = {
 			create_pop = {
 				culture = examplish
-				size = 25720
+				size = 116941
 			}
 		}
 	}
@@ -348,7 +356,7 @@
 		region_state:DAN = {
 			create_pop = {
 				culture = examplish
-				size = 405218
+				size = 405093
 			}
 		}
 	}
@@ -549,6 +557,78 @@
 			create_pop = {
 				culture = examplish
 				size = 37088
+			}
+		}
+	}
+	s:STATE_KALLOS = {
+		region_state:KAL = {
+			create_pop = {
+				culture = examplish
+				size = 372007
+			}
+		}
+	}
+	s:STATE_ARNEN = {
+		region_state:KAL = {
+			create_pop = {
+				culture = examplish
+				size = 154322
+			}
+		}
+	}
+	s:STATE_COLUMBIA = {
+		region_state:KAL = {
+			create_pop = {
+				culture = examplish
+				size = 495343
+			}
+		}
+	}
+	s:STATE_FLORENCE = {
+		region_state:KAL = {
+			create_pop = {
+				culture = examplish
+				size = 207731
+			}
+		}
+	}
+	s:STATE_DELEWARE = {
+		region_state:KAL = {
+			create_pop = {
+				culture = examplish
+				size = 223357
+			}
+		}
+	}
+	s:STATE_ZATOKA = {
+		region_state:KAL = {
+			create_pop = {
+				culture = examplish
+				size = 259765
+			}
+		}
+	}
+	s:STATE_GAZEBO = {
+		region_state:KAL = {
+			create_pop = {
+				culture = examplish
+				size = 211371
+			}
+		}
+	}
+	s:STATE_KROVIDENCIA = {
+		region_state:KAL = {
+			create_pop = {
+				culture = examplish
+				size = 190640
+			}
+		}
+	}
+	s:STATE_ARCTIC_AND_EAST_TITAN = {
+		region_state:KAL = {
+			create_pop = {
+				culture = examplish
+				size = 45337
 			}
 		}
 	}

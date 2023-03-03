@@ -115,28 +115,30 @@ YOA = {
 }
 
 KOV = {
-    pattern = "pattern_stripes_chouwa.dds"
+    pattern = "pattern_tricorners.dds"
     color1 = "lusitan_shield_blue"
-    color2 = "full_white"
-    color3 = "truidencian_red"
+    color2 = "lusitan_shield_blue"
+    color3 = "lusitan_shield_blue"
     colored_emblem = {
-        texture = "ce_canton_medi.dds"
+        texture = "ce_tricolor_vertical.ddse"
         color1 = "truidencian_red"
-        color2 = "lusitan_shield_blue"
+        color2 = "full_white"
         color3 = "full_white"
-        instance = { scale = { 1 1.75 } position = { 0.5 0.85 } }
+        instance = { scale = { 1 1 } position = { 0.5 0.5 } }
     }
     colored_emblem = {
-        texture = "ce_stars_circle_13.ddse"
+        texture = "ce_fox.dds"
+        color1 = "truidencian_red"
+        color2 = "full_white"
+	  color3 = "blue"
+        instance = { scale = { 0.6 0.8 } position = { 0.5 0.5 } }
+    }
+    colored_emblem = {
+        texture = "ce_dragon_china_circle.ddse"
         color1 = "lusitan_shield_blue"
-        color2 = "lusitan_shield_blue"
-        instance = { scale = { 0.9 0.9 } }
-    }
-    colored_emblem = {
-        texture = "ce_gensokyo.ddse"
         color2 = "truidencian_red"
         color3 = "full_white" 
-        instance = { position = { 0.5 0.5 } scale = { 0.4 0.4 } }
+        instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }
     }
 }
 

@@ -459,6 +459,48 @@
 			owned_provinces = { x33DAE8 x7FE9B4 x80A5F9 x9AC1A8 xAAF9AB xF7EFD6 xFED833 }
 		}
 	}
+	s:STATE_MOUNT_AUGUSTA = {
+		create_state = {
+			country = c:MTA
+			owned_provinces = {  }
+		}
+	}
+	s:STATE_SOUTH_MOUNT_AUGUSTA = {
+		create_state = {
+			country = c:MTA
+			owned_provinces = {  }
+		}
+	}
+	s:STATE_GLATTEIS = {
+		create_state = {
+			country = c:MTA
+			owned_provinces = {  }
+		}
+	}
+	s:STATE_CALW = {
+		create_state = {
+			country = c:CLW
+			owned_provinces = {  }
+		}
+	}
+	s:STATE_CALW_EXCLAVE = {
+		create_state = {
+			country = c:CLW
+			owned_provinces = {  }
+		}
+	}
+	s:STATE_DOOM_CITY = {
+		create_state = {
+			country = c:DOM
+			owned_provinces = {  }
+		}
+	}
+	s:STATE_SYMSTEAD = {
+		create_state = {
+			country = c:DOM
+			owned_provinces = {  }
+		}
+	}
 	
 	# For the love of god don't scroll below this line
 	s:STATE_DEBUG = {

@@ -1,4 +1,4 @@
-﻿# highest id used 76
+﻿# highest id used 75
 # Truidencia
 STATE_NIDAROS = {
     id = 1
@@ -913,4 +913,3 @@ STATE_ARCTIC_AND_EAST_TITAN = {
     traits = { "state_trait_taiga" }
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_tree_farming" }
 }
-

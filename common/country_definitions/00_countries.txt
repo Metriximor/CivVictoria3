@@ -96,3 +96,26 @@ KAL = {
 	tier = principality
 	cultures = { examplish }
 }
+
+MTA = {
+	capital = STATE_MOUNT_AUGUSTA
+	color = "yoahtlan_red"
+	country_type = recognized
+	tier = kingdom
+	cultures = { examplish }
+}
+
+CLW = {
+	capital = STATE_CALW
+	color = "orange"
+	country_type = recognized
+	tier = principality
+	cultures = { examplish }
+}
+DOM = {
+	capital = STATE_DOOM_CITY
+	color = "purple"
+	country_type = recognized
+	tier = principality
+	cultures = { examplish }
+}

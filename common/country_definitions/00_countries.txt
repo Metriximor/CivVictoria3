@@ -119,3 +119,10 @@ DOM = {
 	tier = principality
 	cultures = { examplish }
 }
+PAV = {
+	capital = STATE_PAVIA_PROPER
+	color = "pavian_blue"
+	country_type = recognized
+	tier = kingdom
+	cultures = { pavian }
+}

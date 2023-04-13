@@ -501,7 +501,30 @@
 			owned_provinces = {  }
 		}
 	}
-	
+	s:STATE_PAVIA_PROPER = {
+		create_state = {
+			country = c:PAV
+			owned_provinces = {  }
+		}
+	}
+	s:STATE_GREATER_PAVIA = {
+		create_state = {
+			country = c:PAV
+			owned_provinces = {  }
+		}
+	}
+	s:STATE_AULDMARCHE = {
+		create_state = {
+			country = c:PAV
+			owned_provinces = {  }
+		}
+	}
+	s:STATE_BEDFORD = {
+		create_state = {
+			country = c:PAV
+			owned_provinces = {  }
+		}
+	}
 	# For the love of god don't scroll below this line
 	s:STATE_DEBUG = {
 		create_state = {

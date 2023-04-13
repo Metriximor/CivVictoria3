@@ -1,0 +1,23 @@
+pavian = { 
+    color = rgb { 153 255 255 } 
+    religion = examplian
+    traits = { gabonese_heritage pavian_culture_group english }
+    male_common_first_names={
+	}
+	female_common_first_names = {
+	}
+	noble_last_names = {
+	Of_Bedford Of_Windermere Of_Braemar Of_Cintra Of_Avalonna Of_Lugano Of_Vetranio
+	}
+	common_last_names={
+	Of_Lucassio Of_Solberg_Estate Of_Stonehaven Of_San_Selano Of_Bedford_Common Of_Tirana
+	}
+	male_regal_first_names = {
+	}
+	female_regal_first_names = {
+	}
+    	graphics = european
+    	ethnicities = {
+        1 = minecrafter
+    }
+}

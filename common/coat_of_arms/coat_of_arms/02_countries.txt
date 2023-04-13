@@ -169,5 +169,14 @@ KAL = {
 	}
 }
 
+PAV = {
+	pattern = "pattern_horizontal_split_01.dds"
+	color1 = "light_blue"
+	color2 = "full_white"
+	textured_emblem = {
+		texture = "te_coa_pavia.dds"
+	}
+}
+
 
 #####################

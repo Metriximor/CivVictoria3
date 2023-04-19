@@ -17,6 +17,8 @@
 				1 = top_baroque_sand
 				1 = top_baroque_gray
 				1 = top_victorian_tailcoat
+				1 = top_victorian_tailcoat_green
+				1 = top_victorian_tailcoat_red
 			}
 			female = {
 				1 = top_brown_jacket_slim
@@ -36,6 +38,8 @@
 				1 = top_baroque_sand
 				1 = top_baroque_gray
 				1 = top_victorian_tailcoat
+				1 = top_victorian_tailcoat_green
+				1 = top_victorian_tailcoat_red
 			}
 			female = {
 				1 = top_brown_jacket_slim
@@ -70,6 +74,37 @@
 			male = {}
 			female = {
 				1 = top_kapresuit_slim
+			}
+			boy = male
+			girl = male
+		}
+
+		gene_kallosian_clothes = {
+			index = 5
+			male = {
+				1 = top_diamond_full
+			}
+			female = {
+
+			}
+			boy = male
+			girl = male
+		}
+
+		gene_lusitan_clothes = {
+			index = 6
+			male = {
+				1 = top_baroque_blue
+				1 = top_baroque_sand
+				1 = top_baroque_gray
+
+			}
+			female = {
+				1 = top_brown_jacket_slim
+				1 = top_coat_blue_nohat_slim
+				1 = top_dress_blue_nohat_slim
+				1 = top_dress_green
+				1 = top_red_jacket_slim
 			}
 			boy = male
 			girl = male

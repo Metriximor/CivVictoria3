@@ -17,7 +17,7 @@
 		activate_law = law_type:law_proportional_taxation
 	}
 	c:GEN = {
-		effect_starting_technology_tier_1_tech = yes
+		effect_starting_technology_tier_2_tech = yes
 
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_oligarchy
@@ -25,7 +25,7 @@
 		activate_law = law_type:law_proportional_taxation
 	}
 	c:YOA = {
-		effect_starting_technology_tier_1_tech = yes
+		effect_starting_technology_tier_2_tech = yes
 
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_oligarchy
@@ -33,15 +33,16 @@
 		activate_law = law_type:law_proportional_taxation	
 	}
 	c:KAL = {
-		effect_starting_technology_tier_1_tech = yes
+		effect_starting_technology_tier_2_tech = yes
 
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_oligarchy
 		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_proportional_taxation
 	}
 	c:PAV = {
-		effect_starting_technology_tier_1_tech = yes
+		effect_starting_technology_tier_2_tech = yes
 
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_oligarchy
@@ -49,6 +50,35 @@
 		activate_law = law_type:law_proportional_taxation
 		activate_law = law_type:law_landed_voting
 		activate_law = law_type:law_monarchy	
+	c:GRI = {
+		effect_starting_technology_tier_2_tech = yes
+
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_proportional_taxation
+	c:MTA = {
+		effect_starting_technology_tier_2_tech = yes
+
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_proportional_taxation
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_wealth_voting
+	c:DOM = {
+		effect_starting_technology_tier_2_tech = yes
+
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_proportional_taxation
+	c:CLW = {
+		effect_starting_technology_tier_2_tech = yes
+
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_proportional_taxation
 	}
 	c:EXA = {
 		effect_starting_technology_tier_5_tech = yes

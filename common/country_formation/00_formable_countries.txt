@@ -22,6 +22,7 @@
 		OR = {
 			country_has_primary_culture = cu:gensokyojin
 			country_has_primary_culture = cu:truidencian
+			country_has_primary_culture = cu:thruittan
 		}
 	}
 }

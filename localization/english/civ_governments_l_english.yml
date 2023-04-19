@@ -3,5 +3,12 @@
   RULER_TITLE_TRUIDENCIAN_F: "Holy Empress"
   RULER_HEIR_TRUIDENCIAN: "Crown Prince"
   RULER_HEIR_TRUIDENCIAN_F: "Crown Princess"
-  gov_truidencian: "Bezist Monarchy"
+  gov_truidencian: "Bezist Empire"
   gov_truidencian_desc: "A monarchy centred around the state-religion where the clergy holds strong sway with the emperor/empress being seen as God's representative on earth, destined to carry out their will."
+
+  RULER_TITLE_PAVIAN: "Crown Prince"
+  RULER_TITLE_PAVIAN_F: "Crown Princess"
+  RULER_HEIR_PAVIAN: "Duke"
+  RULER_HEIR_PAVIAN_F: "Duchess"
+  gov_pavian: "Pavian Principality"
+  gov_pavian_desc: "A destinct form of elective monarchy where the prince/princess is elected from a pool of dukes and duchesses"

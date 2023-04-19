@@ -2,9 +2,23 @@
 	color = { 244 13 44 }
 	religion = examplian
 	traits = { udf_heritage yoahtlan_culture_group english nahuatl spanish scandinavian }
+	male_common_first_names = {
+		
+	}
+	female_common_first_names = {
+
+	}
+	common_last_names = {
+		
 	}
 	noble_last_names = {
 		Quauhtli
+	}
+	male_regal_first_names = {
+
+	}
+	female_regal_first_names = {
+	
 	}
 	graphics = european
 	ethnicities = {
@@ -16,6 +30,23 @@ resimerian = {
 	color = { 146 20 84 }
 	religion = examplian
 	traits = { udf_heritage yoahtlan_culture_group english }
+	male_common_first_names = {
+		
+	}
+	female_common_first_names = {
+
+	}
+	common_last_names = {
+		
+	}
+	noble_last_names = {
+		
+	}
+	male_regal_first_names = {
+
+	}
+	female_regal_first_names = {
+	
 	}
 	graphics = european
 	ethnicities = {

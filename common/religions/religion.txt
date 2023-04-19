@@ -20,4 +20,9 @@ rhayatshola = {
 	color = { 0 0 0 }
 }
 
+melonism = {
+	texture = "gfx/interface/icons/religion_icons/rhayatshola.dds"
+	color = { 0 0 0 }
+}
+
 #####################

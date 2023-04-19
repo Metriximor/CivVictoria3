@@ -91,10 +91,10 @@ ROZ = {
 
 KAL = {
 	capital = STATE_KALLOS
-	color = "rozian_pink"
+	color = "purple"
 	country_type = recognized
-	tier = principality
-	cultures = { examplish }
+	tier = kingdom
+	cultures = { kallosian }
 }
 
 MTA = {
@@ -121,8 +121,15 @@ DOM = {
 }
 PAV = {
 	capital = STATE_PAVIA_PROPER
-	color = "pavian_blue"
+	color = "light_blue"
 	country_type = recognized
 	tier = kingdom
 	cultures = { pavian }
+}
+GRI = {
+	capital = STATE_ADRINA
+	color = "orange"
+	country_type = recognized
+	tier = kingdom
+	cultures = { griffinian }
 }

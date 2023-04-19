@@ -563,7 +563,7 @@
 	s:STATE_KALLOS = {
 		region_state:KAL = {
 			create_pop = {
-				culture = examplish
+				culture = kallosian
 				size = 372007
 			}
 		}
@@ -571,7 +571,7 @@
 	s:STATE_ARNEN = {
 		region_state:KAL = {
 			create_pop = {
-				culture = examplish
+				culture = kallosian
 				size = 154322
 			}
 		}
@@ -579,7 +579,7 @@
 	s:STATE_COLUMBIA = {
 		region_state:KAL = {
 			create_pop = {
-				culture = examplish
+				culture = kallosian
 				size = 495343
 			}
 		}
@@ -587,7 +587,7 @@
 	s:STATE_FLORENCE = {
 		region_state:KAL = {
 			create_pop = {
-				culture = examplish
+				culture = kallosian
 				size = 207731
 			}
 		}
@@ -595,7 +595,7 @@
 	s:STATE_DELEWARE = {
 		region_state:KAL = {
 			create_pop = {
-				culture = examplish
+				culture = kallosian
 				size = 223357
 			}
 		}
@@ -603,7 +603,7 @@
 	s:STATE_ZATOKA = {
 		region_state:KAL = {
 			create_pop = {
-				culture = examplish
+				culture = kallosian
 				size = 259765
 			}
 		}
@@ -611,7 +611,7 @@
 	s:STATE_GAZEBO = {
 		region_state:KAL = {
 			create_pop = {
-				culture = examplish
+				culture = kallosian
 				size = 211371
 			}
 		}
@@ -619,7 +619,7 @@
 	s:STATE_KROVIDENCIA = {
 		region_state:KAL = {
 			create_pop = {
-				culture = examplish
+				culture = kallosian
 				size = 190640
 			}
 		}
@@ -627,7 +627,7 @@
 	s:STATE_ARCTIC_AND_EAST_TITAN = {
 		region_state:KAL = {
 			create_pop = {
-				culture = examplish
+				culture = kallosian
 				size = 45337
 			}
 		}

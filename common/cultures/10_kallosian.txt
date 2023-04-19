@@ -1,0 +1,21 @@
+kallosian = {
+	color = { 85 43 115 }
+	religion = examplian
+	traits = { pvper_heritage kallosian_culture_group english }
+	male_common_first_names = {
+		
+	}
+	female_common_first_names = {
+		
+	}
+	noble_last_names = {
+
+	}
+	common_last_names = {
+
+	}
+	graphics = asian
+	ethnicities = {
+		1 = minecrafter
+	}
+}

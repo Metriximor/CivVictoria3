@@ -3,48 +3,53 @@
 	religion = bezism 
 	traits = { udf_heritage medi_sea_culture_group english scandinavian }
 	male_common_first_names={
-		August Anders Andre Aksel Arne Andreas Are
-		Bjorn Bjornar Balder Bertil Bjarne
+		August Anders Andre Aksel Arne Andreas Are Alf Adrian 
+		Amund Abreham Aasmund Abel Adam Albert Alfred Alvin Andrej Anton
+		Bjorn Bjornar Balder Bertil Bjarne Benjanmin Bendik Benny Bernt Birger Bo Brage Brian Børre Bård 
 		Olav Odin Oliver Oskar Olaf Ole Odd
 		Harald Haavard Haakon Hermod Henrik Hermann Hans Halvor
 		Magnus Markus Matias Mikkel Martin Morten Mats Marius
-		Nils Nathaniel Noa
+		Nils Nathaniel Noa Niels
 		Ludvik Lars Lukas Liam
-		Tor Teodor Tobias Leif Terje Trond Torstein Tomas
+		Tor Teodor Tobias Leif Terje Trond Torstein Tomas 
 		Frei Felix Filip Fredrik
-		Valdemar Viktor
-		Emil Elias Einar Erling Erlend Espen Eirik Erik Elling
-		Isak Iver
-		Jakob Johannes Jens Johan Jan Joakim Jonas Jon
+		Valdemar Viktor Vegard
+		Emil Elias Einar Erling Erlend Espen Eirik Erik Elling Even Endre
+		Isak Iver Ingebrigt 
+		Jakob Johannes Jens Johan Jan Joakim Jonas Jon 
 		Ulrik 
-		Gustav Gunnar Geir
-		Sander Sebastian Sverre Svein Stian Steinar
-		Kristian Karl Knut Kjell Kristoffer
-		Harald-Andre Lars-Emil
-		Peder Peter Petter Per
+		Gustav Gunnar Geir Simon
+		Sander Sebastian Sverre Svein Stian Steinar Svend Søren Sondre Sindre
+		Kristian Karl Knut Kjell Kristoffer Knud
+		Harald-Andre Lars-Emil 
+		Peder Peter Petter Per Robin
 		Rolf Reinar Rune Rudolf Reidar Rasmus
-		Daniel Dagmar
+		Daniel Dagmar Dag Didrik
+		# civ 
+		Orhint Hylian 
 		
 	}
 	female_common_first_names = {
 		Adrianne Anna Augustina Agnete Astrid Aurora Agnes Anne Anita Anette Anne-Karin Albertine
 		Ragnild Randi Ragne
-		Generica Gudrun Grete
+		Gudrun Grete
 		Eluwin Ella Emma Ellinor Eva Elin Elisabett Emilie Ella
-		Froya Frida
+		Froya Frida 
 		Idunn Ingrid Ida Ingeborg Inga Inger
 		Siv Sofie Sara Solveig Signe Sigrid Silje Stine
 		Nanna Nora Nina Natalie
 		Maja Matilde Marie Marta Margrit Marianne Monika Malin
 		Hedda Hilde Heidi Hege Hellene
-		Vilde
-		Julie Josefine
-		Tuva Torill Tone
+		Vilde Vigdis
+		Julie Josefine 
+		Tuva Torill Tone Trine
 		Ylva
 		Olga Olivia
 		Borghild Berit Bente
 		Liv Linda Linn Linnea
 		Kari Kristi Kari-Anne Kamilla Katrine Kristin Karoline Karin
+		# civ
+		Generica 
 		
 	}
 	noble_last_names = {

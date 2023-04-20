@@ -16,6 +16,9 @@
 				1 = top_baroque_blue
 				1 = top_baroque_sand
 				1 = top_baroque_gray
+				1 = top_baroque_red
+				1 = top_baroque_blue2
+				1 = top_baroque_bluehue
 				1 = top_victorian_tailcoat
 				1 = top_victorian_tailcoat_green
 				1 = top_victorian_tailcoat_red
@@ -37,6 +40,9 @@
 				1 = top_baroque_blue
 				1 = top_baroque_sand
 				1 = top_baroque_gray
+				1 = top_baroque_red
+				1 = top_baroque_blue2
+				1 = top_baroque_bluehue
 				1 = top_victorian_tailcoat
 				1 = top_victorian_tailcoat_green
 				1 = top_victorian_tailcoat_red
@@ -97,6 +103,8 @@
 				1 = top_baroque_blue
 				1 = top_baroque_sand
 				1 = top_baroque_gray
+				1 = top_baroque_red
+				1 = top_baroque_blue2
 
 			}
 			female = {

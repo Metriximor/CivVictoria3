@@ -168,22 +168,6 @@ entity = {
     pdxmesh = "thruitt_arctic_mesh"
 }
 
-pdxmesh = {
-    name = "thruitt_arctic_f_mesh"
-    file = "hm_prophet.mesh"
-    scale = 1.6
-    meshsettings = {
-        name = "prophet_shieldShape"
-        index = 0
-        texture_diffuse = "skins_textures/body/thruitt_arctic_f.dds"
-        shader = "portrait_attachment_alpha_to_coverage"
-        shader_file = "gfx/models/skins/body.shader"
-    }
-}
-entity = {
-    name = "thruitt_arctic_f_entity"
-    pdxmesh = "thruitt_arctic_f_mesh"
-}
 
 pdxmesh = {
     name = "thruitt_blond_mesh"
@@ -203,54 +187,20 @@ entity = {
 }
 
 pdxmesh = {
-    name = "thruitt_blond_f_mesh"
+    name = "zuri_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6
     meshsettings = {
         name = "prophet_shieldShape"
         index = 0
-        texture_diffuse = "skins_textures/body/thruitt_blond_f.dds"
+        texture_diffuse = "skins_textures/body/zuri.dds"
         shader = "portrait_attachment_alpha_to_coverage"
         shader_file = "gfx/models/skins/body.shader"
     }
 }
 entity = {
-    name = "thruitt_blond_f_entity"
-    pdxmesh = "thruitt_blond_f_mesh"
-}
-
-pdxmesh = {
-    name = "thruitt_f_mesh"
-    file = "hm_prophet.mesh"
-    scale = 1.6
-    meshsettings = {
-        name = "prophet_shieldShape"
-        index = 0
-        texture_diffuse = "skins_textures/body/thruitt_f.dds"
-        shader = "portrait_attachment_alpha_to_coverage"
-        shader_file = "gfx/models/skins/body.shader"
-    }
-}
-entity = {
-    name = "thruitt_f_entity"
-    pdxmesh = "thruitt_f_mesh"
-}
-
-pdxmesh = {
-    name = "zuri_clothed_mesh"
-    file = "hm_prophet.mesh"
-    scale = 1.6
-    meshsettings = {
-        name = "prophet_shieldShape"
-        index = 0
-        texture_diffuse = "skins_textures/body/zuri_clothed.dds"
-        shader = "portrait_attachment_alpha_to_coverage"
-        shader_file = "gfx/models/skins/body.shader"
-    }
-}
-entity = {
-    name = "zuri_clothed_entity"
-    pdxmesh = "zuri_clothed_mesh"
+    name = "zuri_entity"
+    pdxmesh = "zuri_mesh"
 }
 
 pdxmesh = {

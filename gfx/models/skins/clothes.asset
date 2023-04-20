@@ -50,23 +50,6 @@ entity = {
 }
 
 pdxmesh = {
-    name = "top_black_tailcoat_mesh"
-    file = "hm_prophet.mesh"
-    scale = 1.6
-    meshsettings = {
-        name = "prophet_shieldShape"
-        index = 0
-        texture_diffuse = "skins_textures/clothes/top_black_tailcoat.dds"
-        shader = "portrait_attachment_alpha_to_coverage"
-        shader_file = "gfx/models/skins/clothes.shader"
-    }
-}
-entity = {
-    name = "top_black_tailcoat_entity"
-    pdxmesh = "top_black_tailcoat_mesh"
-}
-
-pdxmesh = {
     name = "top_blue_soldier_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6
@@ -203,23 +186,6 @@ entity = {
 }
 
 pdxmesh = {
-    name = "top_thruitt_black_tailcoat_mesh"
-    file = "hm_prophet.mesh"
-    scale = 1.6
-    meshsettings = {
-        name = "prophet_shieldShape"
-        index = 0
-        texture_diffuse = "skins_textures/clothes/top_thruitt_black_tailcoat.dds"
-        shader = "portrait_attachment_alpha_to_coverage"
-        shader_file = "gfx/models/skins/clothes.shader"
-    }
-}
-entity = {
-    name = "top_thruitt_black_tailcoat_entity"
-    pdxmesh = "top_thruitt_black_tailcoat_mesh"
-}
-
-pdxmesh = {
     name = "top_victorian_tailcoat_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6
@@ -251,23 +217,6 @@ pdxmesh = {
 entity = {
     name = "top_victorian_tailcoat_red_entity"
     pdxmesh = "top_victorian_tailcoat_red_mesh"
-}
-
-pdxmesh = {
-    name = "top_black_tailcoat_slim_mesh"
-    file = "hm_prophet.mesh"
-    scale = 1.6
-    meshsettings = {
-        name = "prophet_shieldShape"
-        index = 0
-        texture_diffuse = "skins_textures/clothes/slim/top_black_tailcoat_slim.dds"
-        shader = "portrait_attachment_alpha_to_coverage"
-        shader_file = "gfx/models/skins/clothes.shader"
-    }
-}
-entity = {
-    name = "top_black_tailcoat_slim_entity"
-    pdxmesh = "top_black_tailcoat_slim_mesh"
 }
 
 pdxmesh = {
@@ -407,23 +356,6 @@ entity = {
 }
 
 pdxmesh = {
-    name = "top_thruitt_black_tailcoat_slim_mesh"
-    file = "hm_prophet.mesh"
-    scale = 1.6
-    meshsettings = {
-        name = "prophet_shieldShape"
-        index = 0
-        texture_diffuse = "skins_textures/clothes/slim/top_thruitt_black_tailcoat_slim.dds"
-        shader = "portrait_attachment_alpha_to_coverage"
-        shader_file = "gfx/models/skins/clothes.shader"
-    }
-}
-entity = {
-    name = "top_thruitt_black_tailcoat_slim_entity"
-    pdxmesh = "top_thruitt_black_tailcoat_slim_mesh"
-}
-
-pdxmesh = {
     name = "top_touhou_1_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6
@@ -474,3 +406,53 @@ entity = {
     pdxmesh = "top_touhou_2_nohat_mesh"
 }
 
+pdxmesh = {
+    name = "top_baroque_blue2_mesh"
+    file = "hm_prophet.mesh"
+    scale = 1.6
+    meshsettings = {
+        name = "prophet_shieldShape"
+        index = 0
+        texture_diffuse = "skins_textures/clothes/top_baroque_blue2.dds"
+        shader = "portrait_attachment_alpha_to_coverage"
+        shader_file = "gfx/models/skins/clothes.shader"
+    }
+}
+entity = {
+    name = "top_baroque_blue2_entity"
+    pdxmesh = "top_baroque_blue2_mesh"
+}
+
+pdxmesh = {
+    name = "top_baroque_red_mesh"
+    file = "hm_prophet.mesh"
+    scale = 1.6
+    meshsettings = {
+        name = "prophet_shieldShape"
+        index = 0
+        texture_diffuse = "skins_textures/clothes/top_baroque_red.dds"
+        shader = "portrait_attachment_alpha_to_coverage"
+        shader_file = "gfx/models/skins/clothes.shader"
+    }
+}
+entity = {
+    name = "top_baroque_red_entity"
+    pdxmesh = "top_baroque_red_mesh"
+}
+
+pdxmesh = {
+    name = "top_baroque_bluehue_mesh"
+    file = "hm_prophet.mesh"
+    scale = 1.6
+    meshsettings = {
+        name = "prophet_shieldShape"
+        index = 0
+        texture_diffuse = "skins_textures/clothes/top_baroque_bluehue.dds"
+        shader = "portrait_attachment_alpha_to_coverage"
+        shader_file = "gfx/models/skins/clothes.shader"
+    }
+}
+entity = {
+    name = "top_baroque_bluehue_entity"
+    pdxmesh = "top_baroque_bluehue_mesh"
+}

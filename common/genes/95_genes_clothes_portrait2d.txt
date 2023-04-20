@@ -19,9 +19,9 @@
 				1 = top_baroque_red
 				1 = top_baroque_blue2
 				1 = top_baroque_bluehue
-				1 = top_victorian_tailcoat
-				1 = top_victorian_tailcoat_green
-				1 = top_victorian_tailcoat_red
+				0.5 = top_victorian_tailcoat
+				0.5 = top_victorian_tailcoat_green
+				0.5 = top_victorian_tailcoat_red
 			}
 			female = {
 				1 = top_brown_jacket_slim

@@ -33,6 +33,23 @@ entity = {
 }
 
 pdxmesh = {
+    name = "top_baroque_gray2_mesh"
+    file = "hm_prophet.mesh"
+    scale = 1.6
+    meshsettings = {
+        name = "prophet_shieldShape"
+        index = 0
+        texture_diffuse = "skins_textures/clothes/top_baroque_gray2.dds"
+        shader = "portrait_attachment_alpha_to_coverage"
+        shader_file = "gfx/models/skins/clothes.shader"
+    }
+}
+entity = {
+    name = "top_baroque_gray2_entity"
+    pdxmesh = "top_baroque_gray2_mesh"
+}
+
+pdxmesh = {
     name = "top_baroque_sand_mesh"
     file = "hm_prophet.mesh"
     scale = 1.6

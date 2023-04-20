@@ -2,17 +2,28 @@ top_baroque_blue = {
     entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_baroque_blue_entity" }
 }
 
+top_baroque_blue2 = {
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_baroque_blue2_entity" }
+}
+
+top_baroque_bluehue = {
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_baroque_bluehue_entity" }
+}
+
+top_baroque_red = {
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_baroque_red_entity" }
+}
+
 top_baroque_gray = {
     entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_baroque_gray_entity" }
 }
 
-top_baroque_sand = {
-    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_baroque_sand_entity" }
+top_baroque_gray2 = {
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_baroque_gray2_entity" }
 }
 
-top_black_tailcoat = {
-    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_black_tailcoat_entity" }
-    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_black_tailcoat_slim_entity" }
+top_baroque_sand = {
+    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_baroque_sand_entity" }
 }
 
 top_blue_soldier = {
@@ -47,21 +58,12 @@ top_red_soldier = {
     entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_red_soldier_entity" }
 }
 
-top_thruitt_black_tailcoat = {
-    entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_thruitt_black_tailcoat_entity" }
-    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_thruitt_black_tailcoat_slim_entity" }
-}
-
 top_victorian_tailcoat = {
     entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_victorian_tailcoat_entity" }
 }
 
 top_victorian_tailcoat_red = {
     entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_victorian_tailcoat_red_entity" }
-}
-
-top_black_tailcoat_slim = {
-    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_black_tailcoat_slim_entity" }
 }
 
 top_brown_jacket_slim = {
@@ -94,10 +96,6 @@ top_kapresuit_slim = {
 
 top_red_jacket_slim = {
     entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_red_jacket_slim_entity" }
-}
-
-top_thruitt_black_tailcoat_slim = {
-    entity = { required_tags = "base_slim" shared_pose_entity = head entity = "top_thruitt_black_tailcoat_slim_entity" }
 }
 
 top_touhou_1 = {

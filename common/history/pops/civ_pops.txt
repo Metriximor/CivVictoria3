@@ -389,9 +389,9 @@
 				size = 143920
 			}
 		}
-		region_state:EXA = {
+		region_state:TRA = {
 			create_pop = {
-				culture = examplish
+				culture = transylvanian
 				size = 143920
 			}
 		}

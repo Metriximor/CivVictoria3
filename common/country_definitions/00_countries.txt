@@ -133,3 +133,10 @@ GRI = {
 	tier = kingdom
 	cultures = { griffinian }
 }
+TRA = {
+	capital = STATE_SOUTH_MELIA
+	color = "yellow"
+	country_type = recognized
+	tier = kingdom
+	cultures = { transylvanian }
+}

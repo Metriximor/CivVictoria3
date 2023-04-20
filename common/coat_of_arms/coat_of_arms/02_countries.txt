@@ -170,13 +170,33 @@ KAL = {
 }
 
 PAV = {
-	pattern = "pattern_horizontal_split_01.dds"
-	color1 = "light_blue"
-	color2 = "full_white"
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "full_white"
+	color2 = "pavian_blue"
 	textured_emblem = {
 		texture = "te_coa_pavia.dds"
 	}
 }
 
-
+TRA = {
+	pattern = "pattern_solid.tga"
+	color1 = "lusitan_shield_blue"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color2 = "yellow"
+		color1 = "red"
+	}
+	textured_emblem = {
+		texture = "te_coa_transylvania.dds"
+		instance = { position { 0.5 0.5 } scale = { 0.5 0.5 } }
+	}
+	textured_emblem = {
+		texture = "te_coa_transylvania_angel.dds"
+		instance = { position { 0.24 0.5 } scale = { 0.5 0.5 } }
+	}
+	textured_emblem = {
+		texture = "te_coa_transylvania_angel.dds"
+		instance = { position { 0.75 0.5 } scale = { -0.5 0.5 } }
+	}
+}
 #####################

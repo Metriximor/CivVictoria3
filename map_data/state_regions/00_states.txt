@@ -915,7 +915,7 @@ STATE_ARCTIC_AND_EAST_TITAN = {
 }
 
 #mta
-STATE_MOUNT_AUGUSTA
+STATE_MOUNT_AUGUSTA = {
     id = 76
     provinces = {}
     capped_resources = {
@@ -926,7 +926,7 @@ STATE_MOUNT_AUGUSTA
 }
 
 
-STATE_SOUTH_MOUNT_AUGUSTA
+STATE_SOUTH_MOUNT_AUGUSTA = {
     id = 77
     provinces = {}
     capped_resources = {
@@ -937,7 +937,7 @@ STATE_SOUTH_MOUNT_AUGUSTA
 }
 
 
-STATE_GLATTEIS
+STATE_GLATTEIS = {
     id = 78
     provinces = {}
     capped_resources = {
@@ -948,7 +948,7 @@ STATE_GLATTEIS
 }
 
 
-STATE_EAST_MOUNT_AUGUSTA
+STATE_EAST_MOUNT_AUGUSTA = {
     id = 79
     provinces = {}
     capped_resources = {
@@ -959,7 +959,7 @@ STATE_EAST_MOUNT_AUGUSTA
 }
 
 #calw
-STATE_CALW
+STATE_CALW = {
     id = 80
     provinces = {}
     capped_resources = {
@@ -970,7 +970,7 @@ STATE_CALW
 }
 
 
-STATE_CAWL_EXCLAVE
+STATE_CAWL_EXCLAVE = {
     id = 81
     provinces = {}
     capped_resources = {
@@ -981,7 +981,7 @@ STATE_CAWL_EXCLAVE
 }
 
 #doomcity
-STATE_DOOM_CITY
+STATE_DOOM_CITY = {
     id = 82
     provinces = {}
     capped_resources = {
@@ -991,7 +991,7 @@ STATE_DOOM_CITY
     arable_resources = {}
 }
 
-STATE_SYMSTEAD
+STATE_SYMSTEAD = {
     id = 83
     provinces = {}
     capped_resources = {
@@ -1002,7 +1002,7 @@ STATE_SYMSTEAD
 }
 
 #griffin
-STATE_ADRINA
+STATE_ADRINA = {
     id = 84
     provinces = {}
     capped_resources = {
@@ -1012,7 +1012,7 @@ STATE_ADRINA
     arable_resources = {}
 }
 
-STATE_ISLES_OF_CUCURBITS
+STATE_ISLES_OF_CUCURBITS = {
     id = 85
     provinces = {}
     capped_resources = {
@@ -1022,7 +1022,7 @@ STATE_ISLES_OF_CUCURBITS
     arable_resources = {}
 }
 
-STATE_WYNFORD
+STATE_WYNFORD = {
     id = 86
     provinces = {}
     capped_resources = {
@@ -1032,7 +1032,7 @@ STATE_WYNFORD
     arable_resources = {}
 }
 
-STATE_LILAC
+STATE_LILAC = {
     id = 87
     provinces = {}
     capped_resources = {
@@ -1042,7 +1042,7 @@ STATE_LILAC
     arable_resources = {}
 }
 
-STATE_GRIFFIN_CROWNLANDS
+STATE_GRIFFIN_CROWNLANDS = {
     id = 88
     provinces = {}
     capped_resources = {
@@ -1053,7 +1053,7 @@ STATE_GRIFFIN_CROWNLANDS
 }
 
 #pavia
-STATE_PAVIA_PROPER
+STATE_PAVIA_PROPER = {
     id = 89
     provinces = {}
     capped_resources = {
@@ -1063,7 +1063,7 @@ STATE_PAVIA_PROPER
     arable_resources = {}
 }
 
-STATE_BEDFORD
+STATE_BEDFORD = {
     id = 90
     provinces = {}
     capped_resources = {
@@ -1073,7 +1073,7 @@ STATE_BEDFORD
     arable_resources = {}
 }
 
-STATE_GREATER_PAVIA
+STATE_GREATER_PAVIA = {
     id = 91
     provinces = {}
     capped_resources = {
@@ -1083,7 +1083,7 @@ STATE_GREATER_PAVIA
     arable_resources = {}
 }
 
-STATE_PAVIA_AULDMARCHE
+STATE_PAVIA_AULDMARCHE = {
     id = 92
     provinces = {}
     capped_resources = {

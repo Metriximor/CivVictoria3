@@ -2,6 +2,7 @@
 import pickle
 from shutil import move
 from os import remove
+from os.path import isfile
 from collections import defaultdict
 from pathlib import Path
 from ruamel.yaml import YAML
@@ -58,7 +59,10 @@ def move_file(src_path: str, dest_path: str):
     print(f"Moving {src_path} to {dest_path}")
     move(src_path, dest_path)
 
+
 def delete_file(file_path: str):
     print(f"Deleting {file_path}")
-    remove(file_path)
-    
+    if isfile(file_path):
+        remove(file_path)
+    else:
+        print(f"File {file_path} doesn't exist")

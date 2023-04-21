@@ -126,6 +126,8 @@
  PAV_ADJ: "Pavian"
  GRI: "Griffin"
  GRI_ADJ: "Griffinian"
+ TRA: "Transylvania"
+ TRA_ADJ: "Transylvanian"
 #  NRA:0 "Nara"
 #  NRA_ADJ:0 "$naran$"
 #  DLG:0 "Dalgon"

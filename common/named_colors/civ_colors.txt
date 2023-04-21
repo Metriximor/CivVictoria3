@@ -41,6 +41,9 @@ colors = {
 	# Kallos
 	kallosian_purple = rgb { 85 43 115 }
 	kallosian_light_purple = rgb { 117 61 162 }
+
+	# Pavia
+	pavian_blue = rgb { 94 182 228 }
 	
 	# Misc colors
 	bizantine_purple = rgb { 112 41 99 }

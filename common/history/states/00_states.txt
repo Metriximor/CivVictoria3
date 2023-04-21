@@ -281,7 +281,7 @@
 			owned_provinces = { xFB9BE0 x95A4FC xE1AAB7 x71B5FB xA1FCBC xB193C4 }
 		}
 		create_state = {
-			country = c:EXA
+			country = c:TRA
 			owned_provinces = { x5CCFE4 x82B3E7 x44F9D9 x2CE2FE }
 		}
 	}

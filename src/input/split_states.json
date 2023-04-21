@@ -2,7 +2,7 @@
     "STATE_SOUTH_MELIA": {
         "DAN": ["ccc9d9", "fd55c0", "d458ee", "b8f753"],
         "WOL": ["fb9be0", "95a4fc", "e1aab7", "71b5fb", "a1fcbc", "b193c4"],
-        "EXA": ["5ccfe4", "82b3e7", "44f9d9", "2ce2fe"]
+        "TRA": ["5ccfe4", "82b3e7", "44f9d9", "2ce2fe"]
     },
     "STATE_BLANCO_STRAIT": {
         "LAM": ["4DF0D3", "66EAB3", "808CF4", "8AD3CE", "8CF5A9", "91F1A1", "A29DC9", "B34272", "B3DF88", "B871D5", "B8DDC4", "BACFCD", "C28FC7", "CFB8CE", "D88BC8", "DCB3E4", "DDC0EE", "E48EE7", "EA16F7", "EA79A8", "EAA1E5", "F2D18F", "F572AE", "F6BB87", "FBDDFE", "FEE27E"],

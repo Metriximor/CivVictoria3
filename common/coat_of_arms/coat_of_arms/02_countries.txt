@@ -84,6 +84,27 @@ DAN = {
 	}
 }
 
+DAN_vanguard_state = {
+	pattern = "pattern_solid.tga"
+	color1 = "danzilonan_cyan"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "full_white"
+		color2 = "danzilonan_grey"
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "full_white"
+		instance = { scale = { 1 1 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_anarchy.dds"
+		color1 = "truidencian_red"
+		color2 = "truidencian_red"
+		instance = { scale = { 0.8 0.8 } }
+	}
+}
+
 WOL = {
 	pattern = "pattern_solid.tga"
 	color1 = "full_white"

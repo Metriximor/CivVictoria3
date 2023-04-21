@@ -273,4 +273,4 @@ tools/*
 src/output/*
 build/*
 *.spec
-*/__pycache__/*
+__pycache__

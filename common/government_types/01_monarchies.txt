@@ -1,4 +1,37 @@
-﻿#gov_shogunate = {
+﻿#civ
+gov_truidencian = {
+	transfer_of_power = hereditary
+	male_ruler = RULER_TITLE_TRUIDENCIAN
+	female_ruler = RULER_TITLE_TRUIDENCIAN_F
+
+	male_heir = RULER_HEIR_TRUIDENCIAN
+	female_heir = RULER_HEIR_TRUIDENCIAN_F
+
+	possible = {
+		has_law = law_type:law_monarchy
+		exists = c:TRU
+		c:TRU = ROOT
+		# TODO make Bezism be obligatory
+		# add kova check
+	}
+}
+
+gov_pavian = {
+	transfer_of_power = presidential_elective
+	male_ruler = RULER_TITLE_PAVIAN
+	female_ruler = RULER_TITLE_PAVIAN_F
+
+	male_heir = RULER_HEIR_PAVIAN
+	female_heir = RULER_HEIR_PAVIAN_F
+
+	possible = {
+		has_law = law_type:law_monarchy
+		exists = c:PAV
+		c:PAV = ROOT
+	}
+}
+
+#gov_shogunate = {
 #	transfer_of_power = hereditary
 #	
 #	male_ruler = "RULER_TITLE_SHOGUN"
@@ -242,22 +275,6 @@
 #		c:HDJ = ROOT
 #	}
 #}
-
-gov_truidencian = {
-	transfer_of_power = hereditary
-	male_ruler = RULER_TITLE_TRUIDENCIAN
-	female_ruler = RULER_TITLE_TRUIDENCIAN_F
-
-	male_heir = RULER_HEIR_TRUIDENCIAN
-	female_heir = RULER_HEIR_TRUIDENCIAN_F
-
-	possible = {
-		has_law = law_type:law_monarchy
-		exists = c:TRU
-		c:TRU = ROOT
-		# TODO make Bezism be obligatory
-	}
-}
 
 gov_kaiser = {
 	transfer_of_power = hereditary
@@ -756,21 +773,6 @@ gov_constitutional_grand_principality = {
 		country_has_voting_franchise = yes
 		country_tier = grand_principality
 
-	}
-}
-
-gov_pavian = {
-	transfer_of_power = presidential_elective
-	male_ruler = RULER_TITLE_PAVIAN
-	female_ruler = RULER_TITLE_PAVIAN_F
-
-	male_heir = RULER_HEIR_PAVIAN
-	female_heir = RULER_HEIR_PAVIAN_F
-
-	possible = {
-		has_law = law_type:law_monarchy
-		exists = c:PAV
-		c:PAV = ROOT
 	}
 }
 

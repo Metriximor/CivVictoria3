@@ -165,6 +165,23 @@ def _parse_data(data_stack):
 
     return data_dict
 
+def loads(ds: str) -> dict:
+    ds = re.sub(r'(#.*)', '', ds)    # remove comment
+    ds = re.sub(r'\b\s\b', ',', ds)  # newlines and whitespaces to list items
+    ds = re.sub(r'\b\s(-\w)', r',\1', ds)   # whitespace before neg to list
+    ds = re.sub(r'(")\s(")', r'\1,\2', ds)  # items between "" should form a list
+    ds = re.sub(r'\t', '', ds)  # flatten by removing tabs
+    ds = re.sub(r'(\n)*', r'\1', ds)  # remove empty lines
+    ds = re.sub(r'([^}]\s+)}\s+{', r'\1,', ds)    # remove redundant dictionary
+    ds = re.sub(r' ', '', ds)          # remove meaningless whitespace
+    ds = re.sub(r'"', '', ds)           # remove ""
+    sp = re.split(r'(\n|{|}|,|=)', ds)  # split
+    sp[:] = [x for x in sp if x]         # remove whitespace
+    sp[:] = [x for x in sp if x != '\n']  # remove newlines
+
+    ds_deque = deque(sp)
+
+    return _parse_data(data_stack=ds_deque)
 
 def load(file_path) -> dict:
     """Parses file and returns dictionary
@@ -181,24 +198,7 @@ def load(file_path) -> dict:
 
     ds = _read_file_as_string(file_path)
 
-    ds = re.sub(r'(#.*)', '', ds)    # remove comment
-    ds = re.sub(r'\b\s\b', ',', ds)  # newlines and whitespaces to list items
-    ds = re.sub(r'\b\s(-\w)', r',\1', ds)   # whitespace before neg to list
-    ds = re.sub(r'(")\s(")', r'\1,\2', ds)  # items between "" should form a list
-    ds = re.sub(r'\t', '', ds)  # flatten by removing tabs
-    ds = re.sub(r'(\n)*', r'\1', ds)  # remove empty lines
-    ds = re.sub(r'([^}]\s+)}\s+{', r'\1,', ds)    # remove redundant dictionary
-    ds = re.sub(r' ', '', ds)          # remove meaningless whitespace
-    ds = re.sub(r'"', '', ds)           # remove ""
-    ds = re.split(r'(\n|{|}|,|=)', ds)  # split
-    ds[:] = [x for x in ds if x]         # remove whitespace
-    ds[:] = [x for x in ds if x != '\n']  # remove newlines
-
-    ds_deque = deque(ds)
-
-    dictionary_from_file = _parse_data(data_stack=ds_deque)
-
-    return dictionary_from_file
+    return loads(ds)
     
 def _serialize(val, dump, indent_lvl=0):
     if isinstance(val, dict):
@@ -211,8 +211,18 @@ def _serialize(val, dump, indent_lvl=0):
                 if indent_lvl == 0:
                     dump += "\n"
             elif isinstance(v, list) or isinstance(v, set):
-                list_str = _serialize(v, "", indent_lvl)
-                dump += f"{'    '*indent_lvl}{k} = {{ {list_str}}}\n"
+                if isinstance(v, list) and all(isinstance(e, dict) for e in v):
+                    for e in v:
+                        indent_lvl += 1
+                        set_str = _serialize(e, "", indent_lvl)
+                        indent_lvl -= 1
+                        dump += f"{'    '*indent_lvl}{k} = {{\n{set_str}{'    '*indent_lvl}}}\n"
+                #         key_set = set(next(iter(v)).keys())
+                #         if all(set(d.keys) & key_set for d in v):
+                #             for item in v:
+                else:
+                    list_str = _serialize(v, "", indent_lvl)
+                    dump += f"{'    '*indent_lvl}{k} = {{ {list_str}}}\n"
             else:
                 val_str = _serialize(v, "")
                 dump += f"{'    '*indent_lvl}{k} = {val_str}\n"

@@ -271,3 +271,6 @@ mapeditor*
 Civ Mod.zip
 tools/*
 src/output/*
+build/*
+*.spec
+*/__pycache__/*

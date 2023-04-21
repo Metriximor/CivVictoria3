@@ -1,6 +1,7 @@
 ﻿from typing import Optional
 from pydantic import BaseModel, validator
 
+
 class CreateBuilding(BaseModel):
     building: str
     level: int
@@ -49,6 +50,7 @@ class CreateBuilding(BaseModel):
 #     def dict(self, *args, **kwargs):
 #         return {"POPS": self.states_pops_declarations}
 
+
 class MapDataState(BaseModel):
     id: int
     provinces: list[str]
@@ -59,3 +61,13 @@ class MapDataState(BaseModel):
     city: Optional[str]
     naval_exit_id: Optional[int]
 
+
+# class CreateState:
+
+
+# class StateHistory(BaseModel):
+#     create_states: list[CreateState]
+
+
+# class StateHistoryFile(BaseModel):
+#     STATES: dict[str, StateHistory]

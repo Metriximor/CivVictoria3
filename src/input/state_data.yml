@@ -3,10 +3,10 @@ STATE_NIDAROS:
   population: 191407
 STATE_HYLDOR:
   naval_exit_id: STATE_MEDI_SEA
-  population: 211165
+  population: 211525
 STATE_FLATAGRAS:
   naval_exit_id: STATE_MEDI_SEA
-  population: 194733
+  population: 194373
 STATE_SIX_COLONIES:
   naval_exit_id: STATE_MEDI_SEA
   population: 142513
@@ -69,7 +69,7 @@ STATE_MELIA:
   population: 576737
 STATE_PETERSKOGUR:
   naval_exit_id: STATE_MEDI_SEA
-  population: 250554
+  population: 230386
 STATE_SOUTH_MELIA:
   naval_exit_id: STATE_MEDI_SEA
   population: 143920
@@ -147,15 +147,15 @@ STATE_EBORA:
 STATE_EAST_LAMBAT_CITY:
   population: 179074
 STATE_SOPHIA:
-  population: 460205
+  population: 438377
 STATE_WEST_DANZILONA:
-  population: 405093
+  population: 377673
 STATE_YOAHTL_HOMELANDS:
   population: 57545
 STATE_KOBYLINSKI:
   population: 184098
 STATE_CZECHIA:
-  population: 255127
+  population: 253400
 STATE_WESTBURY:
   population: 277959
 STATE_EASTBURY:
@@ -196,20 +196,58 @@ STATE_UPPER_MELIA:
 STATE_NEW_SWISSTON:
   population: 116941
 STATE_KALLOS:
-  population: 372007
+  population: 354080
 STATE_ARNEN:
-  population: 154322
+  population: 296881
 STATE_COLUMBIA:
-  population: 495343
+  population: 370632
 STATE_FLORENCE:
-  population: 207731
+  population: 232613
 STATE_DELEWARE:
-  population: 223357
+  population: 185541
 STATE_ZATOKA:
-  population: 259765
+  population: 275703
 STATE_GAZEBO:
-  population: 211371
+  population: 195677
 STATE_KROVIDENCIA:
-  population: 190640
+  population: 228226
 STATE_ARCTIC_AND_EAST_TITAN:
-  population: 45337
+  population: 112402
+STATE_MOUNT_AUGUSTA:
+  population: 1204843
+STATE_SOUTH_MOUNT_AUGUSTA:
+  population: 241891
+STATE_GLATTEIS:
+  population: 92745
+STATE_EAST_MOUNT_AUGUSTA:
+  population: 469388
+STATE_EXCLAVE_MOUNT_AUGUSTA:
+  population: 525637
+STATE_CALW:
+  population: 216939
+STATE_CAWL_EXCLAVE:
+  population: 40047
+STATE_DOOM_CITY_NORTH:
+  population: 628908
+STATE_DOOM_CITY_SOUTH:
+  population: 428205
+STATE_SYMSTEAD:
+  population: 129317
+STATE_ADRINA:
+  population: 128120
+STATE_ISLES_OF_CUCURBITS:
+  population: 72420
+STATE_WYNFORD:
+  population: 82071
+STATE_LILAC:
+  population: 66755
+STATE_GRIFFIN_CROWNLANDS:
+  population: 333365
+STATE_PAVIA_PROPER:
+  population: 306801
+STATE_BEDFORD:
+  population: 141608
+STATE_GREATER_PAVIA:
+  population: 569651
+STATE_PAVIA_AULDMARCHE:
+  population: 312228

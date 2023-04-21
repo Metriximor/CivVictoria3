@@ -3,9 +3,10 @@ import rubicon_parser as paradox
 from random import randint
 from models import CreateBuilding, MapDataState
 from utils import load_file_into_string, write_to_file, yaml
+from paths import BUILDINGS_OUTPUT, POPS_OUTPUT, STATE_HISTORY_OUTPUT, STATES_MAP_DATA, SPLIT_STATES_INPUT, STATES_DATA_INPUT, STATES_INPUT, COUNTRY_DEFINITIONS
 
 
-def create_pops(country_abrev, state_name):
+def create_pops(country_abrev: str, state_name: str, state_details: dict, country_data: dict):
     result = ""
     pops = {}
     # Define population size based on pre-set data
@@ -39,76 +40,85 @@ def create_pops(country_abrev, state_name):
     return result
 
 
-# Loads Files
-states = json.loads(load_file_into_string("src/input/states.json"))
-split_states: dict = json.loads(
-    load_file_into_string("src/input/split_states.json"))
-state_details = yaml.load(load_file_into_string("src/input/state_data.yml"))
-country_data = paradox.load("common/country_definitions/00_countries.txt")
-states_data = {state: MapDataState.parse_obj(inner_state_data) for state, inner_state_data in paradox.load(
-    "map_data/state_regions/00_states.txt").items()}
+def main():
+    # Loads Files
+    states = json.loads(load_file_into_string(STATES_INPUT))
+    split_states: dict = json.loads(
+        load_file_into_string(SPLIT_STATES_INPUT))
+    state_details = yaml.load(
+        load_file_into_string(STATES_DATA_INPUT))
+    country_data = paradox.load(COUNTRY_DEFINITIONS)
+    states_data = {state: MapDataState.parse_obj(inner_state_data) for state, inner_state_data in paradox.load(
+        STATES_MAP_DATA).items()}
 
-# Prepare the data
-states = {state: country for country, state_names in states.items()
-          for state in state_names}
-capital_states = {country_data[country]['capital'] for country in country_data}
+    # Prepare the data
+    states = {state: country for country, state_names in states.items()
+              for state in state_names}
+    capital_states = {country_data[country]['capital']
+                      for country in country_data}
 
-# Prepares Outputs
-provinces = ""
-pops = ""
-buildings = ""
+    # Prepares Outputs
+    provinces = ""
+    pops = ""
+    buildings = ""
 
-for state_name, state_data in states_data.items():
-    # Determine countries that have a stake in the state
-    if state_name in split_states:
-        countries = split_states[state_name]
-    elif state_name in states:
-        countries = {states[state_name]: []}
-    else:
-        raise Exception(
-            f"{state_name} is not defined in src/input/states.json")
+    for state_name, state_data in states_data.items():
+        # Determine countries that have a stake in the state
+        if state_name in split_states:
+            countries = split_states[state_name]
+        elif state_name in states:
+            countries = {states[state_name]: []}
+        else:
+            raise Exception(
+                f"{state_name} is not defined in {STATES_INPUT}")
 
-    # Generate pops file
-    pops += f"s:{state_name} = {{\n"
-    for country_abbreviation in countries:
-        pops += f"    region_state:{country_abbreviation} = {{\n"
-        pops += create_pops(country_abbreviation, state_name)
-        pops += "    }\n"
-    pops += "}\n"
+        # Generate pops file
+        pops += f"s:{state_name} = {{\n"
+        for country_abbreviation in countries:
+            pops += f"    region_state:{country_abbreviation} = {{\n"
+            pops += create_pops(country_abbreviation,
+                                state_name, state_details, country_data)
+            pops += "    }\n"
+        pops += "}\n"
 
-    # Generate buildings file
-    buildings += f"s:{state_name} = {{\n"
-    for country_abbreviation in countries:
-        buildings += f"    region_state:{country_abbreviation} = {{\n"
-        if state_name in capital_states:
-            gov_admin = CreateBuilding(
-                building='building_government_administration',
-                level=1,
-                activate_production_methods={"pm_simple_organization_government_administration"})
-            buildings += paradox.dumps(
-                {'create_building': dict(gov_admin)}, indent_lvl=2)
-        buildings += "    }\n"
-    buildings += "}\n"
+        # Generate buildings file
+        buildings += f"s:{state_name} = {{\n"
+        for country_abbreviation in countries:
+            buildings += f"    region_state:{country_abbreviation} = {{\n"
+            if state_name in capital_states:
+                gov_admin = CreateBuilding(
+                    building='building_government_administration',
+                    level=1,
+                    activate_production_methods={"pm_simple_organization_government_administration"})
+                buildings += paradox.dumps(
+                    {'create_building': dict(gov_admin)}, indent_lvl=2)
+            buildings += "    }\n"
+        buildings += "}\n"
 
-    # Determine provinces of region states (mainly for split states)
-    state_provinces = {}
-    if len(countries) > 1:
+        # Determine provinces of region states (mainly for split states)
+        state_provinces = {}
+        if len(countries) > 1:
+            for country in countries:
+                state_provinces[country] = map(
+                    lambda p: f"x{p.upper()}", countries[country])
+        else:
+            country = next(iter(countries.items()))[0]  # Get the only country
+            state_provinces[country] = states_data[state_name].provinces
+
+        # Generate provinces file
+        provinces += f"s:{state_name} = {{\n"
         for country in countries:
-            state_provinces[country] = map(lambda p: f"x{p.upper()}", countries[country])
-    else:
-        country = next(iter(countries.items()))[0] # Get the only country
-        state_provinces[country] = states_data[state_name].provinces
+            provinces += "    create_state = {\n"
+            provinces += f"        country = c:{country}\n"
+            provinces += f"        owned_provinces = {{ {' '.join(state_provinces[country])} }}\n"
+            provinces += "    }\n"
+        provinces += "}\n"
 
-    # Generate provinces file
-    provinces += f"s:{state_name} = {{\n"
-    for country in countries:
-        provinces += "    create_state = {\n"
-        provinces += f"        country = c:{country}\n"
-        provinces += f"        owned_provinces = {{ {' '.join(state_provinces[country])} }}\n"
-        provinces += "    }\n"
-    provinces += "}\n"
+    # Outputs stuff
+    write_to_file(STATE_HISTORY_OUTPUT, provinces)
+    write_to_file(POPS_OUTPUT, pops)
+    write_to_file(BUILDINGS_OUTPUT, buildings)
 
-# Outputs stuff
-write_to_file("src/output/state_history.txt", provinces)
-write_to_file("src/output/pops.txt", pops)
-write_to_file("src/output/buildings.txt", buildings)
+
+if __name__ == '__main__':
+    main()

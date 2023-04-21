@@ -24,7 +24,7 @@ STATE_FAREASTERN_OCEAN = {
 
 STATE_MIDDLE_OCEAN = {
     id = 3005
-    provinces = { "x031D2A" "x0E161C" "x7FBDFC" "xCAC3BA" }
+    provinces = { "x031D2A" "x0E161C" "x1E2902" "x2C0709" "x7FBDFC" "xCAC3BA" }
 }
 
 STATE_SOUTHERN_SEA = {

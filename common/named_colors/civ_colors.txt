@@ -44,6 +44,9 @@ colors = {
 
 	# Pavia
 	pavian_blue = rgb { 94 182 228 }
+
+	# Griffin
+	griffin_blue = rgb { 39 131 186 }
 	
 	# Misc colors
 	bizantine_purple = rgb { 112 41 99 }

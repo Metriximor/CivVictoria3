@@ -1,5 +1,5 @@
 transylvanian = {
-	color = { 0 0 0 }
+	color = { 191 169 59 }
 	religion = examplian
 	traits = { newfriend_heritage medi_sea_culture_group english romanian }
 	male_common_first_names = {

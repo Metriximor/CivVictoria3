@@ -120,25 +120,20 @@ KOV = {
     color2 = "truidencian_red"
     color3 = "truidencian_red"
     colored_emblem = {
-        texture = "ce_shield_heater.dds"
+        texture = "ce_lotus.dds"
         color1 = "truidencian_red"
-        color2 = "truidencian_red"
-        color3 = "lusitan_shield_blue"
         instance = { position { 0.5 0.5 } scale = { 1.1 1 } }
 	}
 	colored_emblem = {
-        texture = "ce_vestfold.dds"
-        color1 = "full_white"
-        color2 = "full_white"
-        color3 = "full_white"
-        instance = { position { 0.5 0.5 } scale = { 0.7 0.7 } }
+        texture = "ce_lotus.dds"
+        color1 = "truidencian_yellow"
+        instance = { position { 0.5 0.5 } scale = { 0.8 0.8 } }
     }
     colored_emblem = {
-        texture = "ce_gensokyo.ddse"
-        color1 = "full_white"
+        texture = "ce_gensokyo.dds"
         color2 = "full_white"
         color3 = "truidencian_red"
-        instance = { position { 0.5 0.5 } scale = { 0.5 0.5 } }
+        instance = { position { 0.5 0.5 } scale = { 0.4 0.4 } rotation = { 5 } } }
 	}
 }
 
@@ -199,4 +194,11 @@ TRA = {
 		instance = { position { 0.75 0.5 } scale = { -0.5 0.5 } }
 	}
 }
+
+GRI = {
+	pattern = "pattern_solid.tga"
+	color1 = "griffin_blue"
+	colored_emblem = {
+		texture = "ce_griffin.dds"
+	}
 #####################

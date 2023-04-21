@@ -1,644 +1,796 @@
 ﻿POPS = {
-	s:STATE_NIDAROS = {
-		region_state:TRU = {
-			create_pop = {
-				culture = truidencian
-				size = 191407
-			}
-		}
-	}
-	s:STATE_HYLDOR = {
-		region_state:TRU = {
-			create_pop = {
-				culture = truidencian
-				size = 211165
-			}
-		}
-	}
-	s:STATE_SNOWPEAK = {
-		region_state:TRU = {
-			create_pop = {
-				culture = truidencian
-				size = 52073
-			}
-		}
-	}
-	s:STATE_FLATAGRAS = {
-		region_state:TRU = {
-			create_pop = {
-				culture = truidencian
-				size = 194733
-			}
-		}
-	}
-	s:STATE_SORLAND = {
-		region_state:TRU = {
-			create_pop = {
-				culture = thruitt
-				religion = bezism
-				size = 428564
-			}
-			create_pop = {
-				culture = gensokyojin
-				religion = bezism
-				size = 47618
-			}
-		}
-	}
-	s:STATE_SIX_COLONIES = {
-		region_state:TRU = {
-			create_pop = {
-				culture = truidencian
-				size = 142513
-			}
-		}
-	}
-	s:STATE_OUTLAND = {
-		region_state:TRU = {
-			create_pop = {
-				culture = thruitt
-				religion = bezism
-				size = 99183
-			}
-		}
-	}
-	s:STATE_OUTER_NIDAROS = {
-		region_state:TRU = {
-			create_pop = {
-				culture = truidencian
-				size = 113179
-			}
-		}
-	}
-	s:STATE_TENSEIMIYA = {
-		region_state:GEN = {
-			create_pop = {
-				culture = gensokyojin
-				size = 292239
-			}
-		}
-	}
-	s:STATE_MORINOYARI = {
-		region_state:GEN = {
-			create_pop = {
-				culture = thruitt
-				religion = bezism
-				size = 12439
-			}
-			create_pop = {
-				culture = gensokyojin
-				religion = bezism
-				size = 111956
-			}
-		}
-	}
-	s:STATE_DAISHIREIBOU = {
-		region_state:GEN = {
-			create_pop = {
-				culture = gensokyojin
-				size = 547486
-			}
-		}
-	}
-	s:STATE_MUMEITA = {
-		region_state:GEN = {
-			create_pop = {
-				culture = gensokyojin
-				size = 559755
-			}
-		}
-	}
-	s:STATE_NUMBERS_LAWN = {
-		region_state:GEN = {
-			create_pop = {
-				culture = gensokyojin
-				size = 275830
-			}
-		}
-	}
-	s:STATE_AMATERASU_SHORES = {
-		region_state:GEN = {
-			create_pop = {
-				culture = gensokyojin
-				size = 122281
-			}
-		}
-	}
-	s:STATE_YAMATO_KEN = {
-		region_state:GEN = {
-			create_pop = {
-				culture = gensokyojin
-				size = 171968
-			}
-		}
-	}
-	s:STATE_PORTUCALE = {
-		region_state:LUS = {
-			create_pop = {
-				culture = lusitan
-				size = 188429
-			}
-		}
-	}
-	s:STATE_CIV_PROVENCE = {
-		region_state:LUS = {
-			create_pop = {
-				culture = lusitan
-				size = 109834
-			}
-		}
-	}
-	s:STATE_CASCAIS = {
-		region_state:LUS = {
-			create_pop = {
-				culture = lusitan
-				size = 216600
-			}
-		}
-	}
-	s:STATE_OLIMPIA = {
-		region_state:LUS = {
-			create_pop = {
-				culture = lusitan
-				size = 166232
-			}
-		}
-	}
-	s:STATE_ATLAS = {
-		region_state:LUS = {
-			create_pop = {
-				culture = lusitan
-				size = 58379
-			}
-		}
-	}
-	s:STATE_AZORES = {
-		region_state:LUS = {
-			create_pop = {
-				culture = lusitan
-				size = 5999
-			}
-		}
-	}
-	s:STATE_CLASSICALE = {
-		region_state:LUS = {
-			create_pop = {
-				culture = lusitan
-				size = 147978
-			}
-		}
-	}
-	s:STATE_DREAMLAND = {
-		region_state:LUS = {
-			create_pop = {
-				culture = lusitan
-				size = 109494
-			}
-		}
-	}
-	s:STATE_LUSITAN_PLAINS = {
-		region_state:LUS = {
-			create_pop = {
-				culture = lusitan
-				size = 94200
-			}
-		}
-	}
-	s:STATE_CIV_ALENTEJO = {
-		region_state:LUS = {
-			create_pop = {
-				culture = lusitan
-				size = 88983
-			}
-		}
-	}
-	s:STATE_LUSITAN_PLATEAUS = {
-		region_state:LUS = {
-			create_pop = {
-				culture = lusitan
-				size = 189128
-			}
-		}
-	}
-	s:STATE_EBORA = {
-		region_state:LUS = {
-			create_pop = {
-				culture = lusitan
-				size = 34092
-			}
-		}
-	}
-	s:STATE_EAST_LAMBAT_CITY = {
-		region_state:LAM = {
-			create_pop = {
-				culture = lambatan
-				size = 179074
-			}
-		}
-	}
-	s:STATE_WEST_LAMBAT_CITY = {
-		region_state:LAM = {
-			create_pop = {
-				culture = lambatan
-				size = 190582
-			}
-		}
-	}
-	s:STATE_VALLE_OCCIDENTAL = {
-		region_state:LAM = {
-			create_pop = {
-				culture = lambatan
-				size = 476844
-			}
-		}
-	}
-	s:STATE_CHUNGIA = {
-		region_state:LAM = {
-			create_pop = {
-				culture = lambatan
-				size = 373038
-			}
-		}
-	}
-	s:STATE_BLANCO_STRAIT = {
-		region_state:LAM = {
-			create_pop = {
-				culture = lambatan
-				size = 239548
-			}
-		}
-		region_state:EXA = {
-			create_pop = {
-				culture = examplish
-				size = 239548
-			}
-		}
-	}
-	s:STATE_MERCADO_STRAIT = {
-		region_state:LAM = {
-			create_pop = {
-				culture = lambatan
-				size = 162382
-			}
-		}
-		region_state:EXA = {
-			create_pop = {
-				culture = examplish
-				size = 162382
-			}
-		}
-	}
-	s:STATE_PAMPANG = {
-		region_state:LAM = {
-			create_pop = {
-				culture = lambatan
-				size = 192875
-			}
-		}
-	}
-	s:STATE_PARFAIT_KAWAYAN = {
-		region_state:LAM = {
-			create_pop = {
-				culture = lambatan
-				size = 388276
-			}
-		}
-	}
-	s:STATE_PROVINCE_OF_NEW_DANZILONA = {
-		region_state:DAN = {
-			create_pop = {
-				culture = examplish
-				size = 329809
-			}
-		}
-	}
-	s:STATE_SOPHIA = {
-		region_state:DAN = {
-			create_pop = {
-				culture = examplish
-				size = 460205
-			}
-		}
-	}
-	s:STATE_MELIA = {
-		region_state:DAN = {
-			create_pop = {
-				culture = examplish
-				size = 576737
-			}
-		}
-	}
-	s:STATE_UPPER_MELIA = {
-		region_state:DAN = {
-			create_pop = {
-				culture = examplish
-				size = 169243
-			}
-		}
-	}
-	s:STATE_NEW_SWISSTON = {
-		region_state:DAN = {
-			create_pop = {
-				culture = examplish
-				size = 116941
-			}
-		}
-	}
-	s:STATE_SOUTHERN_PROVINCE = {
-		region_state:DAN = {
-			create_pop = {
-				culture = examplish
-				size = 233928
-			}
-		}
-	}
-	s:STATE_WEST_DANZILONA = {
-		region_state:DAN = {
-			create_pop = {
-				culture = examplish
-				size = 405093
-			}
-		}
-	}
-	s:STATE_PETERSKOGUR = {
-		region_state:DAN = {
-			create_pop = {
-				culture = examplish
-				size = 250554
-			}
-		}
-	}
-	s:STATE_EASTERN_SHINING_ISLES = {
-		region_state:DAN = {
-			create_pop = {
-				culture = examplish
-				size = 44847
-			}
-		}
-	}
-	s:STATE_SOUTH_MELIA = {
-		region_state:DAN = {
-			create_pop = {
-				culture = examplish
-				size = 143920
-			}
-		}
-		region_state:WOL = {
-			create_pop = {
-				culture = examplish
-				size = 143920
-			}
-		}
-		region_state:TRA = {
-			create_pop = {
-				culture = transylvanian
-				size = 143920
-			}
-		}
-	}
-	s:STATE_WOLKEN = {
-		region_state:WOL = {
-			create_pop = {
-				culture = examplish
-				size = 368126
-			}
-		}
-	}
-	s:STATE_WOLKEN_ISLANDS = {
-		region_state:WOL = {
-			create_pop = {
-				culture = examplish
-				size = 32003
-			}
-		}
-	}
-	s:STATE_NORTHERN_MERY = {
-		region_state:MER = {
-			create_pop = {
-				culture = mery_culture
-				size = 133228
-			}
-		}
-	}
-	s:STATE_CENTRAL_MERY = {
-		region_state:MER = {
-			create_pop = {
-				culture = mery_culture
-				size = 251414
-			}
-		}
-	}
-	s:STATE_SOUTHERN_MERY = {
-		region_state:MER = {
-			create_pop = {
-				culture = mery_culture
-				size = 226531
-			}
-		}
-	}
-	s:STATE_YOAHTL_HOMELANDS = {
-		region_state:YOA = {
-			create_pop = {
-				culture = yoahtlan
-				size = 57545
-			}
-		}
-	}
-	s:STATE_KOBYLINSKI = {
-		region_state:YOA = {
-			create_pop = {
-				culture = yoahtlan
-				size = 184098
-			}
-		}
-	}
-	s:STATE_CZECHIA = {
-		region_state:YOA = {
-			create_pop = {
-				culture = yoahtlan
-				size = 255127
-			}
-		}
-	}
-	s:STATE_WESTBURY = {
-		region_state:YOA = {
-			create_pop = {
-				culture = yoahtlan
-				size = 277959
-			}
-		}
-	}
-	s:STATE_EASTBURY = {
-		region_state:YOA = {
-			create_pop = {
-				culture = yoahtlan
-				size = 151051
-			}
-		}
-	}
-	s:STATE_YOAHTL_WESTERN_FRONTIER = {
-		region_state:YOA = {
-			create_pop = {
-				culture = yoahtlan
-				size = 351024
-			}
-		}
-	}
-	s:STATE_ALTEPETL = {
-		region_state:YOA = {
-			create_pop = {
-				culture = yoahtlan
-				size = 114672
-			}
-			create_pop = {
-				culture = resimerian
-				size = 3822
-			}
-		}
-	}
-	s:STATE_SOUTHBURY = {
-		region_state:YOA = {
-			create_pop = {
-				culture = yoahtlan
-				size = 284658
-			}
-		}
-	}
-	s:STATE_KAXITL = {
-		region_state:YOA = {
-			create_pop = {
-				culture = yoahtlan
-				size = 363660
-			}
-		}
-	}
-	s:STATE_YOAHTL_EASTERN_FRONTIER = {
-		region_state:YOA = {
-			create_pop = {
-				culture = yoahtlan
-				size = 280526
-			}
-		}
-	}
-	s:STATE_RESIMERE = {
-		region_state:YOA = {
-			create_pop = {
-				culture = resimerian
-				size = 54816
-			}
-		}
-	}
-	s:STATE_RESIMERIAN_FRONTIER = {
-		region_state:YOA = {
-			create_pop = {
-				culture = resimerian
-				size = 395205
-			}
-		}
-	}
-	s:STATE_MINI_YOAHTL = {
-		region_state:YOA = {
-			create_pop = {
-				culture = yoahtlan
-				size = 20300
-			}
-		}
-	}
-	s:STATE_MINI_YOAHTL_FRONTIER = {
-		region_state:YOA = {
-			create_pop = {
-				culture = yoahtlan
-				size = 115572
-			}
-		}
-	}
-	s:STATE_ROZIA = {
-		region_state:ROZ = {
-			create_pop = {
-				culture = examplish
-				size = 37088
-			}
-		}
-	}
-	s:STATE_KALLOS = {
-		region_state:KAL = {
-			create_pop = {
-				culture = kallosian
-				size = 372007
-			}
-		}
-	}
-	s:STATE_ARNEN = {
-		region_state:KAL = {
-			create_pop = {
-				culture = kallosian
-				size = 154322
-			}
-		}
-	}
-	s:STATE_COLUMBIA = {
-		region_state:KAL = {
-			create_pop = {
-				culture = kallosian
-				size = 495343
-			}
-		}
-	}
-	s:STATE_FLORENCE = {
-		region_state:KAL = {
-			create_pop = {
-				culture = kallosian
-				size = 207731
-			}
-		}
-	}
-	s:STATE_DELEWARE = {
-		region_state:KAL = {
-			create_pop = {
-				culture = kallosian
-				size = 223357
-			}
-		}
-	}
-	s:STATE_ZATOKA = {
-		region_state:KAL = {
-			create_pop = {
-				culture = kallosian
-				size = 259765
-			}
-		}
-	}
-	s:STATE_GAZEBO = {
-		region_state:KAL = {
-			create_pop = {
-				culture = kallosian
-				size = 211371
-			}
-		}
-	}
-	s:STATE_KROVIDENCIA = {
-		region_state:KAL = {
-			create_pop = {
-				culture = kallosian
-				size = 190640
-			}
-		}
-	}
-	s:STATE_ARCTIC_AND_EAST_TITAN = {
-		region_state:KAL = {
-			create_pop = {
-				culture = kallosian
-				size = 45337
-			}
-		}
-	}
-	
-	s:STATE_DEBUG = {
-		region_state:EXA = {
-			create_pop = {
-				culture = examplish
-				size = 10
-			}
-		}
-	}
+    s:STATE_NIDAROS = {
+        region_state:TRU = {
+            create_pop = {
+                culture = truidencian
+                size = 191407
+            }
+        }
+    }
+    s:STATE_HYLDOR = {
+        region_state:TRU = {
+            create_pop = {
+                culture = truidencian
+                size = 211525
+            }
+        }
+    }
+    s:STATE_SNOWPEAK = {
+        region_state:TRU = {
+            create_pop = {
+                culture = truidencian
+                size = 52073
+            }
+        }
+    }
+    s:STATE_FLATAGRAS = {
+        region_state:TRU = {
+            create_pop = {
+                culture = truidencian
+                size = 194373
+            }
+        }
+    }
+    s:STATE_SORLAND = {
+        region_state:TRU = {
+            create_pop = {
+                culture = thruitt
+                religion = bezism
+                size = 428564
+            }
+            create_pop = {
+                culture = gensokyojin
+                religion = bezism
+                size = 47618
+            }
+        }
+    }
+    s:STATE_SIX_COLONIES = {
+        region_state:TRU = {
+            create_pop = {
+                culture = truidencian
+                size = 142513
+            }
+        }
+    }
+    s:STATE_OUTLAND = {
+        region_state:TRU = {
+            create_pop = {
+                culture = thruitt
+                religion = bezism
+                size = 99183
+            }
+        }
+    }
+    s:STATE_OUTER_NIDAROS = {
+        region_state:TRU = {
+            create_pop = {
+                culture = truidencian
+                size = 113179
+            }
+        }
+    }
+    s:STATE_TENSEIMIYA = {
+        region_state:GEN = {
+            create_pop = {
+                culture = gensokyojin
+                size = 292239
+            }
+        }
+    }
+    s:STATE_MORINOYARI = {
+        region_state:GEN = {
+            create_pop = {
+                culture = thruitt
+                religion = bezism
+                size = 12439
+            }
+            create_pop = {
+                culture = gensokyojin
+                religion = bezism
+                size = 111956
+            }
+        }
+    }
+    s:STATE_DAISHIREIBOU = {
+        region_state:GEN = {
+            create_pop = {
+                culture = gensokyojin
+                size = 547486
+            }
+        }
+    }
+    s:STATE_MUMEITA = {
+        region_state:GEN = {
+            create_pop = {
+                culture = gensokyojin
+                size = 559755
+            }
+        }
+    }
+    s:STATE_NUMBERS_LAWN = {
+        region_state:GEN = {
+            create_pop = {
+                culture = gensokyojin
+                size = 275830
+            }
+        }
+    }
+    s:STATE_AMATERASU_SHORES = {
+        region_state:GEN = {
+            create_pop = {
+                culture = gensokyojin
+                size = 122281
+            }
+        }
+    }
+    s:STATE_YAMATO_KEN = {
+        region_state:GEN = {
+            create_pop = {
+                culture = gensokyojin
+                size = 171968
+            }
+        }
+    }
+    s:STATE_PORTUCALE = {
+        region_state:LUS = {
+            create_pop = {
+                culture = lusitan
+                size = 188429
+            }
+        }
+    }
+    s:STATE_CIV_PROVENCE = {
+        region_state:LUS = {
+            create_pop = {
+                culture = lusitan
+                size = 109834
+            }
+        }
+    }
+    s:STATE_CASCAIS = {
+        region_state:LUS = {
+            create_pop = {
+                culture = lusitan
+                size = 216600
+            }
+        }
+    }
+    s:STATE_OLIMPIA = {
+        region_state:LUS = {
+            create_pop = {
+                culture = lusitan
+                size = 166232
+            }
+        }
+    }
+    s:STATE_ATLAS = {
+        region_state:LUS = {
+            create_pop = {
+                culture = lusitan
+                size = 58379
+            }
+        }
+    }
+    s:STATE_AZORES = {
+        region_state:LUS = {
+            create_pop = {
+                culture = lusitan
+                size = 5999
+            }
+        }
+    }
+    s:STATE_CLASSICALE = {
+        region_state:LUS = {
+            create_pop = {
+                culture = lusitan
+                size = 147978
+            }
+        }
+    }
+    s:STATE_DREAMLAND = {
+        region_state:LUS = {
+            create_pop = {
+                culture = lusitan
+                size = 109494
+            }
+        }
+    }
+    s:STATE_LUSITAN_PLAINS = {
+        region_state:LUS = {
+            create_pop = {
+                culture = lusitan
+                size = 94200
+            }
+        }
+    }
+    s:STATE_CIV_ALENTEJO = {
+        region_state:LUS = {
+            create_pop = {
+                culture = lusitan
+                size = 88983
+            }
+        }
+    }
+    s:STATE_LUSITAN_PLATEAUS = {
+        region_state:LUS = {
+            create_pop = {
+                culture = lusitan
+                size = 189128
+            }
+        }
+    }
+    s:STATE_EBORA = {
+        region_state:LUS = {
+            create_pop = {
+                culture = lusitan
+                size = 34092
+            }
+        }
+    }
+    s:STATE_EAST_LAMBAT_CITY = {
+        region_state:LAM = {
+            create_pop = {
+                culture = lambatan
+                size = 179074
+            }
+        }
+    }
+    s:STATE_WEST_LAMBAT_CITY = {
+        region_state:LAM = {
+            create_pop = {
+                culture = lambatan
+                size = 190582
+            }
+        }
+    }
+    s:STATE_VALLE_OCCIDENTAL = {
+        region_state:LAM = {
+            create_pop = {
+                culture = lambatan
+                size = 476844
+            }
+        }
+    }
+    s:STATE_CHUNGIA = {
+        region_state:LAM = {
+            create_pop = {
+                culture = lambatan
+                size = 373038
+            }
+        }
+    }
+    s:STATE_BLANCO_STRAIT = {
+        region_state:LAM = {
+            create_pop = {
+                culture = lambatan
+                size = 239548
+            }
+        }
+        region_state:EXA = {
+            create_pop = {
+                culture = examplish
+                size = 239548
+            }
+        }
+    }
+    s:STATE_MERCADO_STRAIT = {
+        region_state:LAM = {
+            create_pop = {
+                culture = lambatan
+                size = 162382
+            }
+        }
+        region_state:EXA = {
+            create_pop = {
+                culture = examplish
+                size = 162382
+            }
+        }
+    }
+    s:STATE_PAMPANG = {
+        region_state:LAM = {
+            create_pop = {
+                culture = lambatan
+                size = 192875
+            }
+        }
+    }
+    s:STATE_PARFAIT_KAWAYAN = {
+        region_state:LAM = {
+            create_pop = {
+                culture = lambatan
+                size = 388276
+            }
+        }
+    }
+    s:STATE_PROVINCE_OF_NEW_DANZILONA = {
+        region_state:DAN = {
+            create_pop = {
+                culture = examplish
+                size = 329809
+            }
+        }
+    }
+    s:STATE_SOPHIA = {
+        region_state:DAN = {
+            create_pop = {
+                culture = examplish
+                size = 438377
+            }
+        }
+    }
+    s:STATE_MELIA = {
+        region_state:DAN = {
+            create_pop = {
+                culture = examplish
+                size = 576737
+            }
+        }
+    }
+    s:STATE_UPPER_MELIA = {
+        region_state:DAN = {
+            create_pop = {
+                culture = examplish
+                size = 169243
+            }
+        }
+    }
+    s:STATE_NEW_SWISSTON = {
+        region_state:DAN = {
+            create_pop = {
+                culture = examplish
+                size = 116941
+            }
+        }
+    }
+    s:STATE_SOUTHERN_PROVINCE = {
+        region_state:DAN = {
+            create_pop = {
+                culture = examplish
+                size = 233928
+            }
+        }
+    }
+    s:STATE_WEST_DANZILONA = {
+        region_state:DAN = {
+            create_pop = {
+                culture = examplish
+                size = 377673
+            }
+        }
+    }
+    s:STATE_PETERSKOGUR = {
+        region_state:DAN = {
+            create_pop = {
+                culture = examplish
+                size = 230386
+            }
+        }
+    }
+    s:STATE_EASTERN_SHINING_ISLES = {
+        region_state:DAN = {
+            create_pop = {
+                culture = examplish
+                size = 44847
+            }
+        }
+    }
+    s:STATE_SOUTH_MELIA = {
+        region_state:DAN = {
+            create_pop = {
+                culture = examplish
+                size = 143920
+            }
+        }
+        region_state:WOL = {
+            create_pop = {
+                culture = examplish
+                size = 143920
+            }
+        }
+        region_state:TRA = {
+            create_pop = {
+                culture = transylvanian
+                size = 143920
+            }
+        }
+    }
+    s:STATE_WOLKEN = {
+        region_state:WOL = {
+            create_pop = {
+                culture = examplish
+                size = 368126
+            }
+        }
+    }
+    s:STATE_WOLKEN_ISLANDS = {
+        region_state:WOL = {
+            create_pop = {
+                culture = examplish
+                size = 32003
+            }
+        }
+    }
+    s:STATE_NORTHERN_MERY = {
+        region_state:MER = {
+            create_pop = {
+                culture = mery_culture
+                size = 133228
+            }
+        }
+    }
+    s:STATE_CENTRAL_MERY = {
+        region_state:MER = {
+            create_pop = {
+                culture = mery_culture
+                size = 251414
+            }
+        }
+    }
+    s:STATE_SOUTHERN_MERY = {
+        region_state:MER = {
+            create_pop = {
+                culture = mery_culture
+                size = 226531
+            }
+        }
+    }
+    s:STATE_YOAHTL_HOMELANDS = {
+        region_state:YOA = {
+            create_pop = {
+                culture = yoahtlan
+                size = 57545
+            }
+        }
+    }
+    s:STATE_KOBYLINSKI = {
+        region_state:YOA = {
+            create_pop = {
+                culture = yoahtlan
+                size = 184098
+            }
+        }
+    }
+    s:STATE_CZECHIA = {
+        region_state:YOA = {
+            create_pop = {
+                culture = yoahtlan
+                size = 253400
+            }
+        }
+    }
+    s:STATE_WESTBURY = {
+        region_state:YOA = {
+            create_pop = {
+                culture = yoahtlan
+                size = 277959
+            }
+        }
+    }
+    s:STATE_EASTBURY = {
+        region_state:YOA = {
+            create_pop = {
+                culture = yoahtlan
+                size = 151051
+            }
+        }
+    }
+    s:STATE_YOAHTL_WESTERN_FRONTIER = {
+        region_state:YOA = {
+            create_pop = {
+                culture = yoahtlan
+                size = 351024
+            }
+        }
+    }
+    s:STATE_ALTEPETL = {
+        region_state:YOA = {
+            create_pop = {
+                culture = yoahtlan
+                size = 114672
+            }
+            create_pop = {
+                culture = resimerian
+                size = 3822
+            }
+        }
+    }
+    s:STATE_SOUTHBURY = {
+        region_state:YOA = {
+            create_pop = {
+                culture = yoahtlan
+                size = 284658
+            }
+        }
+    }
+    s:STATE_KAXITL = {
+        region_state:YOA = {
+            create_pop = {
+                culture = yoahtlan
+                size = 363660
+            }
+        }
+    }
+    s:STATE_YOAHTL_EASTERN_FRONTIER = {
+        region_state:YOA = {
+            create_pop = {
+                culture = yoahtlan
+                size = 280526
+            }
+        }
+    }
+    s:STATE_RESIMERE = {
+        region_state:YOA = {
+            create_pop = {
+                culture = resimerian
+                size = 54816
+            }
+        }
+    }
+    s:STATE_RESIMERIAN_FRONTIER = {
+        region_state:YOA = {
+            create_pop = {
+                culture = resimerian
+                size = 395205
+            }
+        }
+    }
+    s:STATE_MINI_YOAHTL = {
+        region_state:YOA = {
+            create_pop = {
+                culture = yoahtlan
+                size = 20300
+            }
+        }
+    }
+    s:STATE_MINI_YOAHTL_FRONTIER = {
+        region_state:YOA = {
+            create_pop = {
+                culture = yoahtlan
+                size = 115572
+            }
+        }
+    }
+    s:STATE_ROZIA = {
+        region_state:ROZ = {
+            create_pop = {
+                culture = examplish
+                size = 37088
+            }
+        }
+    }
+    s:STATE_KALLOS = {
+        region_state:KAL = {
+            create_pop = {
+                culture = kallosian
+                size = 354080
+            }
+        }
+    }
+    s:STATE_ARNEN = {
+        region_state:KAL = {
+            create_pop = {
+                culture = kallosian
+                size = 296881
+            }
+        }
+    }
+    s:STATE_COLUMBIA = {
+        region_state:KAL = {
+            create_pop = {
+                culture = kallosian
+                size = 370632
+            }
+        }
+    }
+    s:STATE_FLORENCE = {
+        region_state:KAL = {
+            create_pop = {
+                culture = kallosian
+                size = 232613
+            }
+        }
+    }
+    s:STATE_DELEWARE = {
+        region_state:KAL = {
+            create_pop = {
+                culture = kallosian
+                size = 185541
+            }
+        }
+    }
+    s:STATE_ZATOKA = {
+        region_state:KAL = {
+            create_pop = {
+                culture = kallosian
+                size = 275703
+            }
+        }
+    }
+    s:STATE_GAZEBO = {
+        region_state:KAL = {
+            create_pop = {
+                culture = kallosian
+                size = 195677
+            }
+        }
+    }
+    s:STATE_KROVIDENCIA = {
+        region_state:KAL = {
+            create_pop = {
+                culture = kallosian
+                size = 228226
+            }
+        }
+    }
+    s:STATE_ARCTIC_AND_EAST_TITAN = {
+        region_state:KAL = {
+            create_pop = {
+                culture = kallosian
+                size = 112402
+            }
+        }
+    }
+    s:STATE_DEBUG = {
+        region_state:EXA = {
+            create_pop = {
+                culture = examplish
+                size = 10
+            }
+        }
+    }
+    s:STATE_MOUNT_AUGUSTA = {
+        region_state:MTA = {
+            create_pop = {
+                culture = examplish
+                size = 1204843
+            }
+        }
+    }
+    s:STATE_SOUTH_MOUNT_AUGUSTA = {
+        region_state:MTA = {
+            create_pop = {
+                culture = examplish
+                size = 241891
+            }
+        }
+    }
+    s:STATE_GLATTEIS = {
+        region_state:MTA = {
+            create_pop = {
+                culture = examplish
+                size = 92745
+            }
+        }
+    }
+    s:STATE_EAST_MOUNT_AUGUSTA = {
+        region_state:MTA = {
+            create_pop = {
+                culture = examplish
+                size = 469388
+            }
+        }
+    }
+    s:STATE_EXCLAVE_MOUNT_AUGUSTA = {
+        region_state:MTA = {
+            create_pop = {
+                culture = examplish
+                size = 525637
+            }
+        }
+    }
+    s:STATE_CALW = {
+        region_state:CLW = {
+            create_pop = {
+                culture = examplish
+                size = 216939
+            }
+        }
+    }
+    s:STATE_CAWL_EXCLAVE = {
+        region_state:CLW = {
+            create_pop = {
+                culture = examplish
+                size = 40047
+            }
+        }
+    }
+    s:STATE_DOOM_CITY_NORTH = {
+        region_state:DOM = {
+            create_pop = {
+                culture = examplish
+                size = 628908
+            }
+        }
+    }
+    s:STATE_DOOM_CITY_SOUTH = {
+        region_state:DOM = {
+            create_pop = {
+                culture = examplish
+                size = 428205
+            }
+        }
+    }
+    s:STATE_SYMSTEAD = {
+        region_state:DOM = {
+            create_pop = {
+                culture = examplish
+                size = 129317
+            }
+        }
+    }
+    s:STATE_ADRINA = {
+        region_state:GRI = {
+            create_pop = {
+                culture = griffinian
+                size = 128120
+            }
+        }
+    }
+    s:STATE_ISLES_OF_CUCURBITS = {
+        region_state:GRI = {
+            create_pop = {
+                culture = griffinian
+                size = 72420
+            }
+        }
+    }
+    s:STATE_WYNFORD = {
+        region_state:GRI = {
+            create_pop = {
+                culture = griffinian
+                size = 82071
+            }
+        }
+    }
+    s:STATE_LILAC = {
+        region_state:GRI = {
+            create_pop = {
+                culture = griffinian
+                size = 66755
+            }
+        }
+    }
+    s:STATE_GRIFFIN_CROWNLANDS = {
+        region_state:GRI = {
+            create_pop = {
+                culture = griffinian
+                size = 333365
+            }
+        }
+    }
+    s:STATE_PAVIA_PROPER = {
+        region_state:PAV = {
+            create_pop = {
+                culture = pavian
+                size = 306801
+            }
+        }
+    }
+    s:STATE_BEDFORD = {
+        region_state:PAV = {
+            create_pop = {
+                culture = pavian
+                size = 141608
+            }
+        }
+    }
+    s:STATE_GREATER_PAVIA = {
+        region_state:PAV = {
+            create_pop = {
+                culture = pavian
+                size = 569651
+            }
+        }
+    }
+    s:STATE_PAVIA_AULDMARCHE = {
+        region_state:PAV = {
+            create_pop = {
+                culture = pavian
+                size = 312228
+            }
+        }
+    }
 }
+

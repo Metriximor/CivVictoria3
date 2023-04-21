@@ -1,366 +1,485 @@
 ﻿BUILDINGS = {
-	s:STATE_NIDAROS = {
-		region_state:TRU = {
-			create_building = {
-				building = building_government_administration
-				level = 1
-				reserves = 1
-				activate_production_methods = { pm_simple_organization_government_administration }
-			}
-		}
-	}
-	s:STATE_HYLDOR = {
-		region_state:TRU = {
-		}
-	}
-	s:STATE_SNOWPEAK = {
-		region_state:TRU = {
-		}
-	}
-	s:STATE_FLATAGRAS = {
-		region_state:TRU = {
-		}
-	}
-	s:STATE_SORLAND = {
-		region_state:TRU = {
-		}
-	}
-	s:STATE_SIX_COLONIES = {
-		region_state:TRU = {
-		}
-	}
-	s:STATE_OUTLAND = {
-		region_state:TRU = {
-		}
-	}
-	s:STATE_OUTER_NIDAROS = {
-		region_state:TRU = {
-		}
-	}
-	s:STATE_TENSEIMIYA = {
-		region_state:GEN = {
-			create_building = {
-				building = building_government_administration
-				level = 1
-				reserves = 1
-				activate_production_methods = { pm_simple_organization_government_administration }
-			}
-		}
-	}
-	s:STATE_MORINOYARI = {
-		region_state:GEN = {
-		}
-	}
-	s:STATE_DAISHIREIBOU = {
-		region_state:GEN = {
-		}
-	}
-	s:STATE_MUMEITA = {
-		region_state:GEN = {
-		}
-	}
-	s:STATE_NUMBERS_LAWN = {
-		region_state:GEN = {
-		}
-	}
-	s:STATE_AMATERASU_SHORES = {
-		region_state:GEN = {
-		}
-	}
-	s:STATE_YAMATO_KEN = {
-		region_state:GEN = {
-		}
-	}
-	s:STATE_PORTUCALE = {
-		region_state:LUS = {
-			create_building = {
-				building = building_government_administration
-				level = 1
-				reserves = 1
-				activate_production_methods = { pm_simple_organization_government_administration }
-			}
-		}
-	}
-	s:STATE_CIV_PROVENCE = {
-		region_state:LUS = {
-		}
-	}
-	s:STATE_CASCAIS = {
-		region_state:LUS = {
-		}
-	}
-	s:STATE_OLIMPIA = {
-		region_state:LUS = {
-		}
-	}
-	s:STATE_ATLAS = {
-		region_state:LUS = {
-		}
-	}
-	s:STATE_AZORES = {
-		region_state:LUS = {
-		}
-	}
-	s:STATE_CLASSICALE = {
-		region_state:LUS = {
-		}
-	}
-	s:STATE_DREAMLAND = {
-		region_state:LUS = {
-		}
-	}
-	s:STATE_LUSITAN_PLAINS = {
-		region_state:LUS = {
-		}
-	}
-	s:STATE_CIV_ALENTEJO = {
-		region_state:LUS = {
-		}
-	}
-	s:STATE_LUSITAN_PLATEAUS = {
-		region_state:LUS = {
-		}
-	}
-	s:STATE_EBORA = {
-		region_state:LUS = {
-		}
-	}
-	s:STATE_EAST_LAMBAT_CITY = {
-		region_state:LAM = {
-			create_building = {
-				building = building_government_administration
-				level = 1
-				reserves = 1
-				activate_production_methods = { pm_simple_organization_government_administration }
-			}
-		}
-	}
-	s:STATE_WEST_LAMBAT_CITY = {
-		region_state:LAM = {
-		}
-	}
-	s:STATE_VALLE_OCCIDENTAL = {
-		region_state:LAM = {
-		}
-	}
-	s:STATE_CHUNGIA = {
-		region_state:LAM = {
-		}
-	}
-	s:STATE_BLANCO_STRAIT = {
-		region_state:LAM = {
-		}
-		region_state:EXA = {
-		}
-	}
-	s:STATE_MERCADO_STRAIT = {
-		region_state:LAM = {
-		}
-		region_state:EXA = {
-		}
-	}
-	s:STATE_PAMPANG = {
-		region_state:LAM = {
-		}
-	}
-	s:STATE_PARFAIT_KAWAYAN = {
-		region_state:LAM = {
-		}
-	}
-	s:STATE_PROVINCE_OF_NEW_DANZILONA = {
-		region_state:DAN = {
-			create_building = {
-				building = building_government_administration
-				level = 1
-				reserves = 1
-				activate_production_methods = { pm_simple_organization_government_administration }
-			}
-		}
-	}
-	s:STATE_SOPHIA = {
-		region_state:DAN = {
-		}
-	}
-	s:STATE_MELIA = {
-		region_state:DAN = {
-		}
-	}
-	s:STATE_UPPER_MELIA = {
-		region_state:DAN = {
-		}
-	}
-	s:STATE_NEW_SWISSTON = {
-		region_state:DAN = {
-		}
-	}
-	s:STATE_SOUTHERN_PROVINCE = {
-		region_state:DAN = {
-		}
-	}
-	s:STATE_WEST_DANZILONA = {
-		region_state:DAN = {
-		}
-	}
-	s:STATE_PETERSKOGUR = {
-		region_state:DAN = {
-		}
-	}
-	s:STATE_EASTERN_SHINING_ISLES = {
-		region_state:DAN = {
-		}
-	}
-	s:STATE_SOUTH_MELIA = {
-		region_state:DAN = {
-		}
-		region_state:WOL = {
-		}
-		region_state:EXA = {
-		}
-	}
-	s:STATE_WOLKEN = {
-		region_state:WOL = {
-			create_building = {
-				building = building_government_administration
-				level = 1
-				reserves = 1
-				activate_production_methods = { pm_simple_organization_government_administration }
-			}
-		}
-	}
-	s:STATE_WOLKEN_ISLANDS = {
-		region_state:WOL = {
-		}
-	}
-	s:STATE_NORTHERN_MERY = {
-		region_state:MER = {
-		}
-	}
-	s:STATE_CENTRAL_MERY = {
-		region_state:MER = {
-			create_building = {
-				building = building_government_administration
-				level = 1
-				reserves = 1
-				activate_production_methods = { pm_simple_organization_government_administration }
-			}
-		}
-	}
-	s:STATE_SOUTHERN_MERY = {
-		region_state:MER = {
-		}
-	}
-	s:STATE_YOAHTL_HOMELANDS = {
-		region_state:YOA = {
-			create_building = {
-				building = building_government_administration
-				level = 1
-				reserves = 1
-				activate_production_methods = { pm_simple_organization_government_administration }
-			}
-		}
-	}
-	s:STATE_KOBYLINSKI = {
-		region_state:YOA = {
-		}
-	}
-	s:STATE_CZECHIA = {
-		region_state:YOA = {
-		}
-	}
-	s:STATE_WESTBURY = {
-		region_state:YOA = {
-		}
-	}
-	s:STATE_EASTBURY = {
-		region_state:YOA = {
-		}
-	}
-	s:STATE_YOAHTL_WESTERN_FRONTIER = {
-		region_state:YOA = {
-		}
-	}
-	s:STATE_ALTEPETL = {
-		region_state:YOA = {
-		}
-	}
-	s:STATE_SOUTHBURY = {
-		region_state:YOA = {
-		}
-	}
-	s:STATE_KAXITL = {
-		region_state:YOA = {
-		}
-	}
-	s:STATE_YOAHTL_EASTERN_FRONTIER = {
-		region_state:YOA = {
-		}
-	}
-	s:STATE_RESIMERE = {
-		region_state:YOA = {
-		}
-	}
-	s:STATE_RESIMERIAN_FRONTIER = {
-		region_state:YOA = {
-		}
-	}
-	s:STATE_MINI_YOAHTL = {
-		region_state:YOA = {
-		}
-	}
-	s:STATE_MINI_YOAHTL_FRONTIER = {
-		region_state:YOA = {
-		}
-	}
-	s:STATE_ROZIA = {
-		region_state:ROZ = {
-			create_building = {
-				building = building_government_administration
-				level = 1
-				reserves = 1
-				activate_production_methods = { pm_simple_organization_government_administration }
-			}
-		}
-	}
-	s:STATE_KALLOS = {
-		region_state:KAL = {
-			create_building = {
-				building = building_government_administration
-				level = 1
-				reserves = 1
-				activate_production_methods = { pm_simple_organization_government_administration }
-			}
-		}
-	}
-	s:STATE_ARNEN = {
-		region_state:KAL = {
-		}
-	}
-	s:STATE_COLUMBIA = {
-		region_state:KAL = {
-		}
-	}
-	s:STATE_FLORENCE = {
-		region_state:KAL = {
-		}
-	}
-	s:STATE_DELEWARE = {
-		region_state:KAL = {
-		}
-	}
-	s:STATE_ZATOKA = {
-		region_state:KAL = {
-		}
-	}
-	s:STATE_GAZEBO = {
-		region_state:KAL = {
-		}
-	}
-	s:STATE_KROVIDENCIA = {
-		region_state:KAL = {
-		}
-	}
-	s:STATE_ARCTIC_AND_EAST_TITAN = {
-		region_state:KAL = {
-		}
-	}
+    s:STATE_NIDAROS = {
+        region_state:TRU = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_HYLDOR = {
+        region_state:TRU = {
+        }
+    }
+    s:STATE_SNOWPEAK = {
+        region_state:TRU = {
+        }
+    }
+    s:STATE_FLATAGRAS = {
+        region_state:TRU = {
+        }
+    }
+    s:STATE_SORLAND = {
+        region_state:TRU = {
+        }
+    }
+    s:STATE_SIX_COLONIES = {
+        region_state:TRU = {
+        }
+    }
+    s:STATE_OUTLAND = {
+        region_state:TRU = {
+        }
+    }
+    s:STATE_OUTER_NIDAROS = {
+        region_state:TRU = {
+        }
+    }
+    s:STATE_TENSEIMIYA = {
+        region_state:GEN = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_MORINOYARI = {
+        region_state:GEN = {
+        }
+    }
+    s:STATE_DAISHIREIBOU = {
+        region_state:GEN = {
+        }
+    }
+    s:STATE_MUMEITA = {
+        region_state:GEN = {
+        }
+    }
+    s:STATE_NUMBERS_LAWN = {
+        region_state:GEN = {
+        }
+    }
+    s:STATE_AMATERASU_SHORES = {
+        region_state:GEN = {
+        }
+    }
+    s:STATE_YAMATO_KEN = {
+        region_state:GEN = {
+        }
+    }
+    s:STATE_PORTUCALE = {
+        region_state:LUS = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_CIV_PROVENCE = {
+        region_state:LUS = {
+        }
+    }
+    s:STATE_CASCAIS = {
+        region_state:LUS = {
+        }
+    }
+    s:STATE_OLIMPIA = {
+        region_state:LUS = {
+        }
+    }
+    s:STATE_ATLAS = {
+        region_state:LUS = {
+        }
+    }
+    s:STATE_AZORES = {
+        region_state:LUS = {
+        }
+    }
+    s:STATE_CLASSICALE = {
+        region_state:LUS = {
+        }
+    }
+    s:STATE_DREAMLAND = {
+        region_state:LUS = {
+        }
+    }
+    s:STATE_LUSITAN_PLAINS = {
+        region_state:LUS = {
+        }
+    }
+    s:STATE_CIV_ALENTEJO = {
+        region_state:LUS = {
+        }
+    }
+    s:STATE_LUSITAN_PLATEAUS = {
+        region_state:LUS = {
+        }
+    }
+    s:STATE_EBORA = {
+        region_state:LUS = {
+        }
+    }
+    s:STATE_EAST_LAMBAT_CITY = {
+        region_state:LAM = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_WEST_LAMBAT_CITY = {
+        region_state:LAM = {
+        }
+    }
+    s:STATE_VALLE_OCCIDENTAL = {
+        region_state:LAM = {
+        }
+    }
+    s:STATE_CHUNGIA = {
+        region_state:LAM = {
+        }
+    }
+    s:STATE_BLANCO_STRAIT = {
+        region_state:LAM = {
+        }
+        region_state:EXA = {
+        }
+    }
+    s:STATE_MERCADO_STRAIT = {
+        region_state:LAM = {
+        }
+        region_state:EXA = {
+        }
+    }
+    s:STATE_PAMPANG = {
+        region_state:LAM = {
+        }
+    }
+    s:STATE_PARFAIT_KAWAYAN = {
+        region_state:LAM = {
+        }
+    }
+    s:STATE_PROVINCE_OF_NEW_DANZILONA = {
+        region_state:DAN = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_SOPHIA = {
+        region_state:DAN = {
+        }
+    }
+    s:STATE_MELIA = {
+        region_state:DAN = {
+        }
+    }
+    s:STATE_UPPER_MELIA = {
+        region_state:DAN = {
+        }
+    }
+    s:STATE_NEW_SWISSTON = {
+        region_state:DAN = {
+        }
+    }
+    s:STATE_SOUTHERN_PROVINCE = {
+        region_state:DAN = {
+        }
+    }
+    s:STATE_WEST_DANZILONA = {
+        region_state:DAN = {
+        }
+    }
+    s:STATE_PETERSKOGUR = {
+        region_state:DAN = {
+        }
+    }
+    s:STATE_EASTERN_SHINING_ISLES = {
+        region_state:DAN = {
+        }
+    }
+    s:STATE_SOUTH_MELIA = {
+        region_state:DAN = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+        region_state:WOL = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+        region_state:TRA = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_WOLKEN = {
+        region_state:WOL = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_WOLKEN_ISLANDS = {
+        region_state:WOL = {
+        }
+    }
+    s:STATE_NORTHERN_MERY = {
+        region_state:MER = {
+        }
+    }
+    s:STATE_CENTRAL_MERY = {
+        region_state:MER = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_SOUTHERN_MERY = {
+        region_state:MER = {
+        }
+    }
+    s:STATE_YOAHTL_HOMELANDS = {
+        region_state:YOA = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_KOBYLINSKI = {
+        region_state:YOA = {
+        }
+    }
+    s:STATE_CZECHIA = {
+        region_state:YOA = {
+        }
+    }
+    s:STATE_WESTBURY = {
+        region_state:YOA = {
+        }
+    }
+    s:STATE_EASTBURY = {
+        region_state:YOA = {
+        }
+    }
+    s:STATE_YOAHTL_WESTERN_FRONTIER = {
+        region_state:YOA = {
+        }
+    }
+    s:STATE_ALTEPETL = {
+        region_state:YOA = {
+        }
+    }
+    s:STATE_SOUTHBURY = {
+        region_state:YOA = {
+        }
+    }
+    s:STATE_KAXITL = {
+        region_state:YOA = {
+        }
+    }
+    s:STATE_YOAHTL_EASTERN_FRONTIER = {
+        region_state:YOA = {
+        }
+    }
+    s:STATE_RESIMERE = {
+        region_state:YOA = {
+        }
+    }
+    s:STATE_RESIMERIAN_FRONTIER = {
+        region_state:YOA = {
+        }
+    }
+    s:STATE_MINI_YOAHTL = {
+        region_state:YOA = {
+        }
+    }
+    s:STATE_MINI_YOAHTL_FRONTIER = {
+        region_state:YOA = {
+        }
+    }
+    s:STATE_ROZIA = {
+        region_state:ROZ = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_KALLOS = {
+        region_state:KAL = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_ARNEN = {
+        region_state:KAL = {
+        }
+    }
+    s:STATE_COLUMBIA = {
+        region_state:KAL = {
+        }
+    }
+    s:STATE_FLORENCE = {
+        region_state:KAL = {
+        }
+    }
+    s:STATE_DELEWARE = {
+        region_state:KAL = {
+        }
+    }
+    s:STATE_ZATOKA = {
+        region_state:KAL = {
+        }
+    }
+    s:STATE_GAZEBO = {
+        region_state:KAL = {
+        }
+    }
+    s:STATE_KROVIDENCIA = {
+        region_state:KAL = {
+        }
+    }
+    s:STATE_ARCTIC_AND_EAST_TITAN = {
+        region_state:KAL = {
+        }
+    }
+    s:STATE_MOUNT_AUGUSTA = {
+        region_state:MTA = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_SOUTH_MOUNT_AUGUSTA = {
+        region_state:MTA = {
+        }
+    }
+    s:STATE_GLATTEIS = {
+        region_state:MTA = {
+        }
+    }
+    s:STATE_EAST_MOUNT_AUGUSTA = {
+        region_state:MTA = {
+        }
+    }
+    s:STATE_EXCLAVE_MOUNT_AUGUSTA = {
+        region_state:MTA = {
+        }
+    }
+    s:STATE_CALW = {
+        region_state:CLW = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_CAWL_EXCLAVE = {
+        region_state:CLW = {
+        }
+    }
+    s:STATE_DOOM_CITY_NORTH = {
+        region_state:DOM = {
+        }
+    }
+    s:STATE_DOOM_CITY_SOUTH = {
+        region_state:DOM = {
+        }
+    }
+    s:STATE_SYMSTEAD = {
+        region_state:DOM = {
+        }
+    }
+    s:STATE_ADRINA = {
+        region_state:GRI = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_ISLES_OF_CUCURBITS = {
+        region_state:GRI = {
+        }
+    }
+    s:STATE_WYNFORD = {
+        region_state:GRI = {
+        }
+    }
+    s:STATE_LILAC = {
+        region_state:GRI = {
+        }
+    }
+    s:STATE_GRIFFIN_CROWNLANDS = {
+        region_state:GRI = {
+        }
+    }
+    s:STATE_PAVIA_PROPER = {
+        region_state:PAV = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_BEDFORD = {
+        region_state:PAV = {
+        }
+    }
+    s:STATE_GREATER_PAVIA = {
+        region_state:PAV = {
+        }
+    }
+    s:STATE_PAVIA_AULDMARCHE = {
+        region_state:PAV = {
+        }
+    }
 }
+

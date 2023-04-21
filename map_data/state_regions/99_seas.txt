@@ -14,7 +14,7 @@ STATE_STONY_SEA = {
 
 STATE_LYREAN_SEA = {
     id = 3003
-    provinces = { "x000C4A" }
+    provinces = { "x000C4A" "x104404" }
 }
 
 STATE_FAREASTERN_OCEAN = {
@@ -24,7 +24,7 @@ STATE_FAREASTERN_OCEAN = {
 
 STATE_MIDDLE_OCEAN = {
     id = 3005
-    provinces = { "x031D2A" }
+    provinces = { "x031D2A" "x0E161C" "x7FBDFC" "xCAC3BA" }
 }
 
 STATE_SOUTHERN_SEA = {

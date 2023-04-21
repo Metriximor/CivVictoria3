@@ -1,4 +1,4 @@
-﻿# highest id used 75
+﻿# highest id used 92
 # Truidencia
 STATE_NIDAROS = {
     id = 1
@@ -912,4 +912,183 @@ STATE_ARCTIC_AND_EAST_TITAN = {
     }
     traits = { "state_trait_taiga" }
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_tree_farming" }
+}
+
+#mta
+STATE_MOUNT_AUGUSTA
+    id = 76
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+
+STATE_SOUTH_MOUNT_AUGUSTA
+    id = 77
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+
+STATE_GLATTEIS
+    id = 78
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+
+STATE_EAST_MOUNT_AUGUSTA
+    id = 79
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+#calw
+STATE_CALW
+    id = 80
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+
+STATE_CAWL_EXCLAVE
+    id = 81
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = { }
+    arable_resources = {}
+}
+
+#doomcity
+STATE_DOOM_CITY
+    id = 82
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+STATE_SYMSTEAD
+    id = 83
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+#griffin
+STATE_ADRINA
+    id = 84
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+STATE_ISLES_OF_CUCURBITS
+    id = 85
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+STATE_WYNFORD
+    id = 86
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+STATE_LILAC
+    id = 87
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+STATE_GRIFFIN_CROWNLANDS
+    id = 88
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+#pavia
+STATE_PAVIA_PROPER
+    id = 89
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+STATE_BEDFORD
+    id = 90
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+STATE_GREATER_PAVIA
+    id = 91
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+STATE_PAVIA_AULDMARCHE
+    id = 92
+    provinces = {}
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
 }

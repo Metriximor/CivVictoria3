@@ -107,4 +107,66 @@
 			}
 		}
 	}
+
+	flat_kallosian_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = flat_clothes
+				template = gene_kallosian_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				OR = {
+					AND = {
+						exists = scope:pop
+						scope:pop = {
+							culture = cu:kallosian
+						}
+					}
+					AND = {
+						exists = scope:character
+						scope:character = {
+							culture = cu:kallosian
+						}
+					}
+				}
+			}
+		}
+	}
+
+	flat_lusitan_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = flat_clothes
+				template = gene_lusitan_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				OR = {
+					AND = {
+						exists = scope:pop
+						scope:pop = {
+							culture = cu:lusitan
+						}
+					}
+					AND = {
+						exists = scope:character
+						scope:character = {
+							culture = cu:lusitan
+						}
+					}
+				}
+			}
+		}
+	}
 }

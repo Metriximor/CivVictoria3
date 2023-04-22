@@ -61,6 +61,7 @@ DEFAULT = {
 			coa_def_communist_flag_trigger = yes
 		}
 	}
+}
 DAN = { # Danzilona
 	flag_definition = {
 		coa = DAN
@@ -71,7 +72,7 @@ DAN = { # Danzilona
 		priority = 1
 	}
 		flag_definition = {
-		coa = DAN_vanguard_state
+		coa = DAN_VANGUARD
 		subject_canton = DAN_vanguard_state
 		allow_overlord_canton = yes
 		coa_with_overlord_canton = DAN_subject

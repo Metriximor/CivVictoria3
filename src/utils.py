@@ -43,6 +43,7 @@ def rgb_to_hex(r, g, b):
 def write_to_file(path: str, string: str, mode: str = 'w+'):
     print(f"Writing to {path}")
     output_file = Path(path)
+    output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, mode, encoding=UTF_8_BOM) as output_file:
         output_file.write(string)
 

@@ -43,8 +43,7 @@ generate_history_states()
 print("Moving results to history folder")
 generated_history_states = paradox.loads(
     load_file_into_string(STATE_HISTORY_OUTPUT))
-existing_history_states = paradox.loads(
-    load_file_into_string(STATES_HISTORY))
+existing_history_states = paradox.loads(load_file_into_string(STATES_HISTORY))
 
 # Merge the generated with existing states
 for state_abrev, create_state in generated_history_states.items():

@@ -197,33 +197,26 @@ KAL = {
 }
 
 PAV = {
-	pattern = "pattern_horizontal_split_01.tga"
-	color1 = "full_white"
-	color2 = "pavian_blue"
-	# textured_emblem = {
-		# texture = "te_coa_pavia.dds"
+    pattern = "pattern_horizontal_split_01.tga"
+    color1 = "full_white"
+    color2 = "pavian_blue"
+    # textured_emblem = {
+        # texture = "te_coa_pavia.dds"
 # }
-	colored_emblem = {
-		texture = "ce_shield_heater_sierra_leone.dds"
-		color1 = "full_white"
-            color2 = "pavian_blue"
-            color3 = "pavian_blue"
-		instance = { position = { 0.5 0.6 } scale = { 0.6 0.6 } }
-}
-	colored_emblem = {
-		texture = "ce_crown_swedish.dds"
-		color1 = "pavian_blue"
+    colored_emblem = {
+        texture = "ce_shield_heater_large_per_fess.dds"
+        color1 = "pavian_blue"
             color2 = "full_white"
             color3 = "full_white"
-		instance = { position = { 0.5 0.28 } scale = { 0.5 0.3 } }
+        instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }
 }
-	colored_emblem = {
-		texture = "ce_fleur_de_lis.dds"
-		color1 = "pavian_blue"
+    colored_emblem = {
+        texture = "ce_crown_swedish.dds"
+        color1 = "pavian_blue"
             color2 = "full_white"
             color3 = "full_white"
-		instance = { position = { 0.5 0.68 } scale = { 0.4 0.3 } }
-	}
+        instance = { position = { 0.5 0.22 } scale = { 0.4 0.3 } }
+    }
 }
 
 TRA = {

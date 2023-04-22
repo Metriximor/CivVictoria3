@@ -71,6 +71,38 @@ DAN = {
 		color1 = "full_white"
 		color2 = "danzilonan_grey"
 	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "full_white"
+		instance = { scale = { 1 1 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_anarchy.dds"
+		color1 = "truidencian_red"
+		color2 = "danzilonan_grey"
+		instance = { scale = { 0.8 0.8 } }
+	}
+}
+
+DAN_VANGUARD = {
+	pattern = "pattern_solid.tga"
+	color1 = "danzilonan_cyan"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "full_white"
+		color2 = "danzilonan_grey"
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "full_white"
+		instance = { scale = { 1 1 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_anarchy.dds"
+		color1 = "truidencian_red"
+		color2 = "truidencian_red"
+		instance = { scale = { 0.8 0.8 } }
+	}
 }
 
 WOL = {
@@ -133,7 +165,7 @@ KOV = {
         texture = "ce_gensokyo.dds"
         color2 = "full_white"
         color3 = "truidencian_red"
-        instance = { position { 0.5 0.5 } scale = { 0.4 0.4 } rotation = { 5 } } }
+        instance = { position { 0.5 0.5 } scale = { 0.4 0.4 } rotation = { 5 } } 
 	}
 }
 
@@ -168,8 +200,29 @@ PAV = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "full_white"
 	color2 = "pavian_blue"
-	textured_emblem = {
-		texture = "te_coa_pavia.dds"
+	# textured_emblem = {
+		# texture = "te_coa_pavia.dds"
+# }
+	colored_emblem = {
+		texture = "ce_shield_heater_sierra_leone.dds"
+		color1 = "full_white"
+            color2 = "pavian_blue"
+            color3 = "pavian_blue"
+		instance = { position = { 0.5 0.6 } scale = { 0.6 0.6 } }
+}
+	colored_emblem = {
+		texture = "ce_crown_swedish.dds"
+		color1 = "pavian_blue"
+            color2 = "full_white"
+            color3 = "full_white"
+		instance = { position = { 0.5 0.28 } scale = { 0.5 0.3 } }
+}
+	colored_emblem = {
+		texture = "ce_fleur_de_lis.dds"
+		color1 = "pavian_blue"
+            color2 = "full_white"
+            color3 = "full_white"
+		instance = { position = { 0.5 0.68 } scale = { 0.4 0.3 } }
 	}
 }
 
@@ -200,5 +253,36 @@ GRI = {
 	color1 = "griffin_blue"
 	colored_emblem = {
 		texture = "ce_griffin.dds"
+		color2 = "full_white"
 	}
+}
+
+MTA = {
+	pattern = "pattern_solid.tga"
+	color1 = "lusitan_shield_blue"
+	colored_emblem = {
+		texture = "ce_canton.dds"
+		color1 = "gensokyojin_red"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+}
+
+DOM = {
+	pattern = "pattern_per_saltire.dds"
+	color1 = "red"
+	color2 = "black"
+	textured_emblem = {
+		texture = "te_doom_city.dds"
+	}
+}
+
+CLW = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 23 111 33 }
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "full_white"
+		color2 = "full_black"
+	}
+}
 #####################

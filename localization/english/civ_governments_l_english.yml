@@ -11,4 +11,11 @@
   RULER_HEIR_PAVIAN: "Duke"
   RULER_HEIR_PAVIAN_F: "Duchess"
   gov_pavian: "Pavian Principality"
-  gov_pavian_desc: "A destinct form of elective monarchy where the prince/princess is elected from a pool of dukes and duchesses"
+  gov_pavian_desc: "A destinct form of elective monarchy where the prince/princess is elected from a pool of dukes and duchesses."
+
+  RULER_TITLE_KOVAN: "Padishah Emperor"
+  RULER_TITLE_KOVAN_F: "Padishah Empress"
+  RULER_HEIR_KOVAN: "Crown Prince"
+  RULER_HEIR_KOVAN_F: "Crown Princess"
+  gov_kovan: "Celestial Empire"
+  gov_kovan_desc: "A monarchy."

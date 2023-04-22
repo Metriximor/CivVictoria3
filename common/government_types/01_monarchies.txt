@@ -1,4 +1,20 @@
 ﻿#civ
+gov_kovan = {
+	transfer_of_power = hereditary
+	male_ruler = RULER_TITLE_KOVAN
+	female_ruler = RULER_TITLE_KOVAN_F
+
+	male_heir = RULER_HEIR_KOVAN
+	female_heir = RULER_HEIR_KOVAN_F
+
+	possible = {
+		has_law = law_type:law_monarchy
+		exists = c:KOV
+		c:TRU = ROOT
+		# add kova check
+	}
+}
+
 gov_truidencian = {
 	transfer_of_power = hereditary
 	male_ruler = RULER_TITLE_TRUIDENCIAN
@@ -17,7 +33,8 @@ gov_truidencian = {
 }
 
 gov_pavian = {
-	transfer_of_power = presidential_elective
+	transfer_of_power = parliamentary_elective
+	new_leader_on_reform_government = yes
 	male_ruler = RULER_TITLE_PAVIAN
 	female_ruler = RULER_TITLE_PAVIAN_F
 

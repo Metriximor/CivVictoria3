@@ -24,7 +24,7 @@ OUT_OF_BOUNDS_4 = {
 
 OUT_OF_BOUNDS_5 = {
     id = 5004
-    provinces = { "x171C12" }
+    provinces = { "x150313" "x171C12" }
     impassable = { "x171C12" }
 }
 

@@ -105,7 +105,6 @@ STATE_OUTER_NIDAROS = {
     traits = { "state_trait_taiga" }
 }
 
-
 # Gensokyo
 STATE_TENSEIMIYA = {
     id = 8
@@ -191,7 +190,6 @@ STATE_YAMATO_KEN = {
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
     traits = { "state_trait_jungle" }
 }
-
 
 # Lusitania
 STATE_PORTUCALE = {
@@ -353,7 +351,6 @@ STATE_EBORA = {
     traits = { "state_trait_mesa_plateau" }
 }
 
-
 # Lambat
 STATE_EAST_LAMBAT_CITY = {
     id = 27
@@ -463,7 +460,6 @@ STATE_PARFAIT_KAWAYAN = {
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
     traits = { "state_trait_jungle" }
 }
-
 
 # Danzilona
 STATE_PROVINCE_OF_NEW_DANZILONA = {
@@ -595,7 +591,6 @@ STATE_SOUTH_MELIA = {
     traits = { "state_trait_forest" }
 }
 
-
 # Wolken 
 STATE_WOLKEN = {
     id = 42
@@ -623,7 +618,6 @@ STATE_WOLKEN_ISLANDS = {
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
     traits = { "state_trait_plains" }
 }
-
 
 # Mehry
 STATE_NORTHERN_MERY = {
@@ -664,7 +658,6 @@ STATE_SOUTHERN_MERY = {
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
     traits = { "state_trait_jungle" }
 }
-
 
 # Yoahtl
 STATE_YOAHTL_HOMELANDS = {
@@ -820,7 +813,6 @@ STATE_MINI_YOAHTL_FRONTIER = {
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_cactus_farms" "bg_tree_farming" }
 }
 
-
 # Rozia
 STATE_ROZIA = {
     id = 66
@@ -831,7 +823,6 @@ STATE_ROZIA = {
     traits = { "state_trait_desert" }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_cactus_farms" "bg_tree_farming" }
 }
-
 
 #kallos
 STATE_KALLOS = {
@@ -932,7 +923,6 @@ STATE_ARCTIC_AND_EAST_TITAN = {
     arable_resources = { "bg_beetroot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_tree_farming" }
 }
 
-
 #mta
 STATE_MOUNT_AUGUSTA = {
     id = 76
@@ -988,7 +978,6 @@ STATE_EXCLAVE_MOUNT_AUGUSTA = {
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_cocoa_farms" "bg_wheat_farms" "bg_melon_farms" "bg_sugar_cane_farms" "bg_mushroom_farms" "bg_tree_farming" }
 }
 
-
 #calw
 STATE_CALW = {
     id = 81
@@ -1010,7 +999,6 @@ STATE_CAWL_EXCLAVE = {
     traits = { "state_trait_desert" }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_cactus_farms" "bg_tree_farming" }
 }
-
 
 #doomcity
 STATE_DOOM_CITY_NORTH = {
@@ -1044,7 +1032,6 @@ STATE_SYMSTEAD = {
     traits = { "state_trait_snowy_plains" }
     arable_resources = { "bg_beetroot_farms" "bg_pumpkin_farms" "bg_tree_farming" }
 }
-
 
 #griffin
 STATE_ADRINA = {
@@ -1100,7 +1087,6 @@ STATE_GRIFFIN_CROWNLANDS = {
     traits = { "state_trait_plains" }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
 }
-
 
 #pavia
 STATE_PAVIA_PROPER = {

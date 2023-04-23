@@ -1,0 +1,21 @@
+naran = {
+	color = rgb { 191 160 230 }
+	religion = taoism
+	traits = { inferno_heritage alenarith_culture_group english japanese }
+	male_common_first_names = {
+	
+	}
+	female_common_first_names = {
+	
+	}
+	noble_last_names = {
+
+	}
+	common_last_names = {
+
+	}
+	graphics = asian
+	ethnicities = {
+		1 = minecrafter
+	}
+}

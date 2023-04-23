@@ -643,7 +643,7 @@
     s:STATE_MOUNT_AUGUSTA = {
         region_state:MTA = {
             create_pop = {
-                culture = examplish
+                culture = augustan
                 size = 1204843
             }
         }
@@ -651,7 +651,7 @@
     s:STATE_SOUTH_MOUNT_AUGUSTA = {
         region_state:MTA = {
             create_pop = {
-                culture = examplish
+                culture = augustan
                 size = 241891
             }
         }
@@ -659,7 +659,7 @@
     s:STATE_GLATTEIS = {
         region_state:MTA = {
             create_pop = {
-                culture = examplish
+                culture = augustan
                 size = 92745
             }
         }
@@ -667,7 +667,7 @@
     s:STATE_EAST_MOUNT_AUGUSTA = {
         region_state:MTA = {
             create_pop = {
-                culture = examplish
+                culture = augustan
                 size = 469388
             }
         }
@@ -675,7 +675,7 @@
     s:STATE_EXCLAVE_MOUNT_AUGUSTA = {
         region_state:MTA = {
             create_pop = {
-                culture = examplish
+                culture = augustan
                 size = 525637
             }
         }
@@ -683,7 +683,7 @@
     s:STATE_CALW = {
         region_state:CLW = {
             create_pop = {
-                culture = examplish
+                culture = augustan
                 size = 216939
             }
         }
@@ -691,7 +691,7 @@
     s:STATE_CAWL_EXCLAVE = {
         region_state:CLW = {
             create_pop = {
-                culture = examplish
+                culture = augustan
                 size = 40047
             }
         }
@@ -699,7 +699,7 @@
     s:STATE_DOOM_CITY_NORTH = {
         region_state:DOM = {
             create_pop = {
-                culture = examplish
+                culture = augustan
                 size = 628908
             }
         }
@@ -707,7 +707,7 @@
     s:STATE_DOOM_CITY_SOUTH = {
         region_state:DOM = {
             create_pop = {
-                culture = examplish
+                culture = augustan
                 size = 428205
             }
         }
@@ -715,7 +715,7 @@
     s:STATE_SYMSTEAD = {
         region_state:DOM = {
             create_pop = {
-                culture = examplish
+                culture = augustan
                 size = 129317
             }
         }

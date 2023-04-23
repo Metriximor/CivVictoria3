@@ -1124,8 +1124,8 @@ STATE_NORTH_NARA = {
     capped_resources = {
         bg_sand_pit = 5
     }
-    traits = {}
-    arable_resources = {}
+    traits = { }
+    arable_resources = { }
 }
 
 STATE_CENTRAL_NARA = {
@@ -1134,8 +1134,8 @@ STATE_CENTRAL_NARA = {
     capped_resources = {
         bg_sand_pit = 5
     }
-    traits = {}
-    arable_resources = {}
+    traits = { }
+    arable_resources = { }
 }
 
 STATE_SOUTH_NARA = {
@@ -1144,8 +1144,8 @@ STATE_SOUTH_NARA = {
     capped_resources = {
         bg_sand_pit = 5
     }
-    traits = {}
-    arable_resources = {}
+    traits = { }
+    arable_resources = { }
 }
 STATE_QBARRA = {
     id = 98
@@ -1153,7 +1153,7 @@ STATE_QBARRA = {
     capped_resources = {
         bg_sand_pit = 5
     }
-    traits = {}
-    arable_resources = {}
+    traits = { }
+    arable_resources = { }
 }
 

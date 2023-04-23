@@ -1,4 +1,4 @@
-﻿# highest id used 94
+﻿# highest id used 98
 # Truidencia
 STATE_NIDAROS = {
     id = 1
@@ -1116,5 +1116,44 @@ STATE_PAVIA_AULDMARCHE = {
     }
     traits = { "state_trait_plains" }
     arable_resources = { "bg_beetroot_farms" "bg_carrot_farms" "bg_potato_farms" "bg_pumpkin_farms" "bg_wheat_farms" "bg_melon_farms" "bg_mushroom_farms" "bg_tree_farming" }
+}
+
+STATE_NORTH_NARA = {
+    id = 95
+    provinces = { 
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+STATE_CENTRAL_NARA = {
+    id = 96
+    provinces = { 
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+
+STATE_SOUTH_NARA = {
+    id = 97
+    provinces = { 
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
+}
+STATE_QBARRA = {
+    id = 98
+    provinces = { 
+    capped_resources = {
+        bg_sand_pit = 5
+    }
+    traits = {}
+    arable_resources = {}
 }
 

@@ -140,3 +140,11 @@ TRA = {
 	tier = kingdom
 	cultures = { transylvanian }
 }
+
+NAR = {
+	color = "BLUE"
+	country_type = recognized
+	tier = kingdom
+	cultures = { examplish }
+	capital = STATE_NORTH_NARA
+}

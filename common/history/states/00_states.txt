@@ -582,24 +582,24 @@
     s:STATE_NORTH_NARA = {
         create_state = {
             country = c:NAR
-            owned_provinces = { } 
+            owned_provinces = {} 
         }
     }
     s:STATE_CENTRAL_NARA = {
         create_state = {
             country = c:NAR
-            owned_provinces = { }
+            owned_provinces = {}
         }
     }
     s:STATE_SOUTH_NARA = {
         create_state = {
             country = c:NAR
-            owned_provinces = { } 
+            owned_provinces = {} 
     }
     s:STATE_QBARRA = {
         create_state = {
             country = c:NAR
-            owned_provinces = { } 
+            owned_provinces = {} 
         }
     }
 }

@@ -124,5 +124,12 @@
     ],
     "TRA": [
     "STATE_SOUTH_MELIA"
+  ],
+    "NAR": [
+    "STATE_NORTH_NARA",
+    "STATE_CENTRAL_NARA",
+    "STATE_SOUTH_NARA",
+    "STATE_QBARRA"
+    ],
   ]
 }

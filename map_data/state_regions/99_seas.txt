@@ -4,7 +4,7 @@
 
 STATE_MEDI_SEA = {
     id = 3001
-    provinces = { "x0A400D" "x0F410A" "x9BBAE2" }
+    provinces = { "x0A400D" "x0F410A" "x103510" "x113004" "x9BBAE2" }
 }
 
 STATE_STONY_SEA = {
@@ -24,7 +24,7 @@ STATE_FAREASTERN_OCEAN = {
 
 STATE_MIDDLE_OCEAN = {
     id = 3005
-    provinces = { "x031D2A" "x0E161C" "x15032D" "x1E2902" "x2C0709" "x3CD5E9" "x61B1FE" "x70E2F0" "x7FBDFC" "x83A5E3" "x92A2E9" "xA0BDDA" "xB3E2C3" "xBCB3B3" "xBCD56B" "xCAC3BA" "xD2A7A9" "xD4D6D6" "xD669CF" "xDCBDFD" "xF3B9CD" }
+    provinces = { "x031D2A" "x0E161C" "x1E2902" "x2C0709" "x3CD5E9" "x61B1FE" "x70E2F0" "x7FBDFC" "x83A5E3" "x92A2E9" "xA0BDDA" "xB3E2C3" "xBCB3B3" "xBCD56B" "xCAC3BA" "xD2A7A9" "xD4D6D6" "xD669CF" "xDCBDFD" "xF3B9CD" }
 }
 
 STATE_SOUTHERN_SEA = {
@@ -34,7 +34,7 @@ STATE_SOUTHERN_SEA = {
 
 STATE_LEONA_SEA = {
     id = 3007
-    provinces = { "x035003" }
+    provinces = { "x035003" "x361B0E" "x440D0A" "xBBA4DA" "xE5A575" "xF5F066" }
 }
 
 STATE_MERIDIEM_SEA = {
@@ -44,7 +44,7 @@ STATE_MERIDIEM_SEA = {
 
 STATE_NORTHLANDIC_SEA = {
     id = 3009
-    provinces = { "x123C0F" }
+    provinces = { "x123C0F" "x15032D" }
 }
 
 STATE_SEA_OF_SNEED = {

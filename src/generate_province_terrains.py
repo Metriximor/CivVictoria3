@@ -84,6 +84,8 @@ def main():
         for province in provinces:
             province = province[1:]  # remove the x from the province id
             # load all province coordinates
+            if province not in province_map:
+                raise KeyError(f"{province} does not exist in 'map_data/provinces.png', try to delete existing province_colors file or to fix the province manually")
             province_coords = province_map[province]
             for x, y in province_coords:
                 b, g, r = biomes_map[y][x]

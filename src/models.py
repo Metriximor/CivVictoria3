@@ -11,6 +11,7 @@ class CreateBuilding(BaseModel):
     # def dict(self, *args, **kwargs):
     #     return {'create_building': self.dict()}
 
+
 # class CultureId(str):
 #     pass
 

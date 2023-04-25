@@ -7,11 +7,11 @@ seas_map_data = paradox.load("map_data/state_regions/99_seas.txt")
 states_data: dict = yaml.load(load_file_into_string("src/input/state_data.yml"))
 
 # Add naval exit id
-NAVAL_EXIT_ID = 'naval_exit_id'
+NAVAL_EXIT_ID = "naval_exit_id"
 for state, state_data in states_data.items():
     if NAVAL_EXIT_ID in state_data:
         sea = state_data[NAVAL_EXIT_ID]
-        sea_province = seas_map_data[sea]['id']
+        sea_province = seas_map_data[sea]["id"]
         states_map_data[state][NAVAL_EXIT_ID] = sea_province
 
 # Update existing entries
@@ -26,9 +26,9 @@ for line in file_string:
         continue
     if state_match is not None:
         state = state_match.group(0)
-        line = line.replace(f"{state} = {{", '')
+        line = line.replace(f"{state} = {{", "")
         new_file.append(paradox.dumps({state: states_map_data[state]}))
-new_string = '\n'.join(new_file) 
+new_string = "\n".join(new_file)
 
 # Output to file
 write_to_file("src/output/00_states.txt", new_string)

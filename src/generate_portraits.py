@@ -6,13 +6,15 @@ root_dir = "./"
 
 ASSETS_PATH = "src/output/skins"
 ACCESSORIES_PATH = "src/output/accessories"
-PATHS_TO_DELETE = [ ASSETS_PATH, ACCESSORIES_PATH ]
+PATHS_TO_DELETE = [ASSETS_PATH, ACCESSORIES_PATH]
+
 
 def inPath(flags: list[str], path: str):
     for flag in flags:
         if flag in Path(path).parts:
             return True
     return False
+
 
 def determineTags(is_slim: bool, empty_override: bool = False):
     if empty_override:
@@ -22,9 +24,15 @@ def determineTags(is_slim: bool, empty_override: bool = False):
     else:
         return "base_model"
 
+
 def check_slim_file_exists(file_path: str) -> bool:
-    slim_path = Path(file_path).parent / 'slim' / (Path(file_path).stem + '_slim' + Path(file_path).suffix)
+    slim_path = (
+        Path(file_path).parent
+        / "slim"
+        / (Path(file_path).stem + "_slim" + Path(file_path).suffix)
+    )
     return slim_path.exists()
+
 
 for pathToDelete in PATHS_TO_DELETE:
     Path(pathToDelete).mkdir(parents=True, exist_ok=True)
@@ -32,7 +40,9 @@ for pathToDelete in PATHS_TO_DELETE:
         file.unlink()
 
 stored_clothes = {}
-for dds_path in glob.iglob(root_dir + "gfx/models/skins/skins_textures/**/*.dds", recursive=True):
+for dds_path in glob.iglob(
+    root_dir + "gfx/models/skins/skins_textures/**/*.dds", recursive=True
+):
     parent_dir = Path(dds_path).parent.name
     is_slim = False
     has_other_version_equivalent = False
@@ -45,7 +55,9 @@ for dds_path in glob.iglob(root_dir + "gfx/models/skins/skins_textures/**/*.dds"
         shader_dir = "body"
     else:
         shader_dir = parent_dir
-    relative_path = Path(dds_path).relative_to("gfx/models/skins/skins_textures").as_posix()
+    relative_path = (
+        Path(dds_path).relative_to("gfx/models/skins/skins_textures").as_posix()
+    )
     print(relative_path)
     filename = Path(dds_path).stem
     template = f"""pdxmesh = {{
@@ -67,8 +79,7 @@ entity = {{
 
 """
     if inPath(["body", "players"], dds_path):
-        entity_registration = \
-f"""{filename} = {{
+        entity_registration = f"""{filename} = {{
     set_tags = "{determineTags(is_slim)}"
     entity = {{ required_tags = "" shared_pose_entity = head entity = "{filename}_entity" }}
 """

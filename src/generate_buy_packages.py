@@ -2,11 +2,15 @@
 from utils import write_to_file
 from math import pow, ceil
 
+
 # Pop needs can:
 # Grow up to a max (logarithmic function)
 # Grow exponentially (exponential function)
-def need_grow_exponentially(x: int, base = 15.0, exponent = 4, rate_of_growth = 0.065, horizontal_offset = 2):
+def need_grow_exponentially(
+    x: int, base=15.0, exponent=4, rate_of_growth=0.065, horizontal_offset=2
+):
     return max(0, ceil(base + pow(exponent, (rate_of_growth * x) + horizontal_offset)))
+
 
 # Grow up and then grows down (parabola)
 pop_needs = paradox.load("common/pop_needs/civ_needs.txt")

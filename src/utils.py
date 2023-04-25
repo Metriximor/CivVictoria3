@@ -8,9 +8,9 @@ from pathlib import Path
 from ruamel.yaml import YAML
 from ruamel.yaml.scalarstring import DoubleQuotedScalarString as dq
 
-UTF_8_BOM = 'utf-8-sig'
+UTF_8_BOM = "utf-8-sig"
 
-yaml = YAML(typ='rt')
+yaml = YAML(typ="rt")
 yaml.default_flow_style = False
 
 
@@ -31,16 +31,16 @@ def load_province_color_maps(path: str):
     if not Path(path).is_file:
         return Exception(f"{path} does not exist")
     print(f"Loading province color map at {path}")
-    with bz2.BZ2File(path, 'rb') as provinces_colors:
+    with bz2.BZ2File(path, "rb") as provinces_colors:
         color_map = pickle.load(provinces_colors)
     return color_map
 
 
 def rgb_to_hex(r, g, b):
-    return '%02X%02X%02X' % (r, g, b)
+    return "%02X%02X%02X" % (r, g, b)
 
 
-def write_to_file(path: str, string: str, mode: str = 'w+'):
+def write_to_file(path: str, string: str, mode: str = "w+"):
     print(f"Writing to {path}")
     output_file = Path(path)
     output_file.parent.mkdir(parents=True, exist_ok=True)

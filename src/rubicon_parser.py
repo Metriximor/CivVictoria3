@@ -11,7 +11,7 @@ from utils import write_to_file
 
 
 def _read_file_as_string(location):
-    with open(location, encoding='utf-8-sig') as file:
+    with open(location, encoding="utf-8-sig") as file:
         data = file.read()
 
     return data
@@ -22,51 +22,50 @@ def _parse_pop(data_stack):
 
     Returns
         popped: the popped data string paired with a keyword
-        """
+    """
     popped = data_stack.popleft()
 
     try:
         next_pop = data_stack[0]
     except IndexError as E:
-        next_pop = 'end_of_file'
+        next_pop = "end_of_file"
 
     # popped is a word or (negative)number
-    if re.match(r'-*\w+', popped):
+    if re.match(r"-*\w+", popped):
+        if "end_of_file" in next_pop:
+            return popped, "value"  # the values always have the last word
 
-        if 'end_of_file' in next_pop:
-            return popped, 'value'       # the values always have the last word
+        if re.match(r"=", next_pop):
+            return popped, "key"
 
-        if re.match(r'=', next_pop):
-            return popped, 'key'
+        if re.match(r"\w+", next_pop):
+            return popped, "value"
 
-        if re.match(r'\w+', next_pop):
-            return popped, 'value'
+        if re.match(r",", next_pop):
+            return popped, "value"
 
-        if re.match(r',', next_pop):
-            return popped, 'value'
+        if re.match(r"}", next_pop):
+            return popped, "value"
 
-        if re.match(r'}', next_pop):
-            return popped, 'value'
+        if re.match(r"{", next_pop):
+            return popped, "key"
 
-        if re.match(r'{', next_pop):
-            return popped, 'key'
+    if re.match(r"{", popped):
+        return popped, "up"
 
-    if re.match(r'{', popped):
-        return popped, 'up'
+    if re.match(r"}", popped):
+        return popped, "down"
 
-    if re.match(r'}', popped):
-        return popped, 'down'
-
-    if re.match('=', popped):
+    if re.match("=", popped):
         return _parse_pop(data_stack)
 
-    if re.match(',', popped):
+    if re.match(",", popped):
         return _parse_pop(data_stack)
 
-    if re.match(r'[\w/.]*', popped):      # popped is link, most likely a value
-        return popped, 'value'
+    if re.match(r"[\w/.]*", popped):  # popped is link, most likely a value
+        return popped, "value"
 
-    raise NotImplementedError('Popped item does not match any switches')
+    raise NotImplementedError("Popped item does not match any switches")
 
 
 def _parse_data(data_stack):
@@ -96,31 +95,32 @@ def _parse_data(data_stack):
     while len(data_stack) > 1:
         popped, action = _parse_pop(data_stack)
 
-        if 'down' in action:
-            if 'last_key' in locals() and len(list_of_values) == 1:
+        if "down" in action:
+            if "last_key" in locals() and len(list_of_values) == 1:
                 data_dict.update({last_key: list_of_values.pop()})
-            if 'last_key' in locals() and len(list_of_values) > 1:
+            if "last_key" in locals() and len(list_of_values) > 1:
                 data_dict.update({last_key: []})
                 for i in list_of_values:
                     data_dict[last_key].append(i)
                 list_of_values.clear()
-            if 'last_key' not in locals() and len(list_of_values) > 0:
+            if "last_key" not in locals() and len(list_of_values) > 0:
                 return list_of_values
 
             return data_dict
 
-        if 'value' in action:
+        if "value" in action:
             list_of_values.append(popped)
 
-        if 'key' in action:
-            if 'last_key' in locals():
+        if "key" in action:
+            if "last_key" in locals():
                 if popped != last_key:
                     if len(list_of_values) == 1:
                         if last_key in data_dict.keys():
                             """This key already contains data, create list
                             with the old and new data"""
-                            data_dict[last_key] = '{0}, {1}'.format(
-                                data_dict[last_key], list_of_values.pop())
+                            data_dict[last_key] = "{0}, {1}".format(
+                                data_dict[last_key], list_of_values.pop()
+                            )
                         else:
                             data_dict.update({last_key: list_of_values.pop()})
                     if len(list_of_values) > 1:
@@ -131,11 +131,11 @@ def _parse_data(data_stack):
 
             last_key = popped
 
-        if 'up' in action:
+        if "up" in action:
             up_dict = _parse_data(data_stack)
-            if 'last_key' in locals():
+            if "last_key" in locals():
                 if last_key in data_dict:
-                    """Key already exists in this dictionary """
+                    """Key already exists in this dictionary"""
                     if isinstance(data_dict[last_key], list):
                         data_dict[last_key].append(up_dict)
                     else:
@@ -145,9 +145,9 @@ def _parse_data(data_stack):
                     """Key is unique for this dictionary"""
                     data_dict.update({last_key: up_dict})
             else:
-                """Dictionary does not have a key, and it might be a list 
+                """Dictionary does not have a key, and it might be a list
                 instead of a dictionary
-                
+
                 Data from UP is written to the dictionary.
                 If there is already data in the dictionary the data is
                 converted or appended to a list of UP dictionaries
@@ -165,23 +165,25 @@ def _parse_data(data_stack):
 
     return data_dict
 
+
 def loads(ds: str) -> dict:
-    ds = re.sub(r'(#.*)', '', ds)    # remove comment
-    ds = re.sub(r'\b\s\b', ',', ds)  # newlines and whitespaces to list items
-    ds = re.sub(r'\b\s(-\w)', r',\1', ds)   # whitespace before neg to list
-    ds = re.sub(r'(")\s(")', r'\1,\2', ds)  # items between "" should form a list
-    ds = re.sub(r'\t', '', ds)  # flatten by removing tabs
-    ds = re.sub(r'(\n)*', r'\1', ds)  # remove empty lines
-    ds = re.sub(r'([^}]\s+)}\s+{', r'\1,', ds)    # remove redundant dictionary
-    ds = re.sub(r' ', '', ds)          # remove meaningless whitespace
-    ds = re.sub(r'"', '', ds)           # remove ""
-    sp = re.split(r'(\n|{|}|,|=)', ds)  # split
-    sp[:] = [x for x in sp if x]         # remove whitespace
-    sp[:] = [x for x in sp if x != '\n']  # remove newlines
+    ds = re.sub(r"(#.*)", "", ds)  # remove comment
+    ds = re.sub(r"\b\s\b", ",", ds)  # newlines and whitespaces to list items
+    ds = re.sub(r"\b\s(-\w)", r",\1", ds)  # whitespace before neg to list
+    ds = re.sub(r'(")\s(")', r"\1,\2", ds)  # items between "" should form a list
+    ds = re.sub(r"\t", "", ds)  # flatten by removing tabs
+    ds = re.sub(r"(\n)*", r"\1", ds)  # remove empty lines
+    ds = re.sub(r"([^}]\s+)}\s+{", r"\1,", ds)  # remove redundant dictionary
+    ds = re.sub(r" ", "", ds)  # remove meaningless whitespace
+    ds = re.sub(r'"', "", ds)  # remove ""
+    sp = re.split(r"(\n|{|}|,|=)", ds)  # split
+    sp[:] = [x for x in sp if x]  # remove whitespace
+    sp[:] = [x for x in sp if x != "\n"]  # remove newlines
 
     ds_deque = deque(sp)
 
     return _parse_data(data_stack=ds_deque)
+
 
 def load(file_path) -> dict:
     """Parses file and returns dictionary
@@ -199,15 +201,18 @@ def load(file_path) -> dict:
     ds = _read_file_as_string(file_path)
 
     return loads(ds)
-    
+
+
 def _serialize(val, dump, indent_lvl=0):
     if isinstance(val, dict):
-        for k,v in val.items():
+        for k, v in val.items():
             if isinstance(v, dict):
                 indent_lvl += 1
                 object_str = _serialize(v, "", indent_lvl)
                 indent_lvl -= 1
-                dump += f"{'    '*indent_lvl}{k} = {{\n{object_str}{'    '*indent_lvl}}}\n"
+                dump += (
+                    f"{'    '*indent_lvl}{k} = {{\n{object_str}{'    '*indent_lvl}}}\n"
+                )
                 if indent_lvl == 0:
                     dump += "\n"
             elif isinstance(v, list) or isinstance(v, set):
@@ -241,5 +246,6 @@ def _serialize(val, dump, indent_lvl=0):
         raise Exception(f"Unknown type to serialize: {val}")
     return dump
 
-def dumps(dict, indent_lvl = 0):
-    return _serialize(dict, '', indent_lvl)
+
+def dumps(dict, indent_lvl=0):
+    return _serialize(dict, "", indent_lvl)

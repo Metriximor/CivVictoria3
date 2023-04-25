@@ -4,16 +4,22 @@ import re
 from utils import load_file_into_string, write_to_file
 import rubicon_parser as paradox
 
-gene_genders = [ 'male', 'female']
+gene_genders = ["male", "female"]
 # Determine unique skin gene value
 unique_player_skin_value = {}
 for gene_gender in gene_genders:
-    unique_players = paradox.load("common/genes/95_genes_portrait2d.txt")['accessory_genes']['base_skins']['gene_unique_skin'][gene_gender]['1']
+    unique_players = paradox.load("common/genes/95_genes_portrait2d.txt")[
+        "accessory_genes"
+    ]["base_skins"]["gene_unique_skin"][gene_gender]["1"]
     total_players = len(unique_players)
     for i, unique_player in enumerate(unique_players):
-        value = (i/total_players)
-        if total_players % 2 != 0: # the game makes it so if you have odd amount of genes, the boundaries are inclusive, and even, the boundaries are not inclusive
-            value += 0.01 # paradox you owe me one hour that it took me to figure this out
+        value = i / total_players
+        if (
+            total_players % 2 != 0
+        ):  # the game makes it so if you have odd amount of genes, the boundaries are inclusive, and even, the boundaries are not inclusive
+            value += (
+                0.01  # paradox you owe me one hour that it took me to figure this out
+            )
         unique_player_skin_value[unique_player.lower()] = ceil(value * 255)
 
 # Load all files in dna_data folder and update them

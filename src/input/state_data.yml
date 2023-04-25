@@ -60,7 +60,7 @@ STATE_PARFAIT_KAWAYAN:
   population: 388276
 STATE_PROVINCE_OF_NEW_DANZILONA:
   naval_exit_id: STATE_MEDI_SEA
-  population: 329809
+  population: 455524
 STATE_PAMPANG:
   naval_exit_id: STATE_LYREAN_SEA
   population: 192875
@@ -69,16 +69,16 @@ STATE_MELIA:
   population: 576737
 STATE_PETERSKOGUR:
   naval_exit_id: STATE_MEDI_SEA
-  population: 230386
+  population: 233559
 STATE_SOUTH_MELIA:
   naval_exit_id: STATE_MEDI_SEA
   population: 143920
 STATE_WOLKEN:
   naval_exit_id: STATE_MEDI_SEA
-  population: 368126
+  population: 355289
 STATE_SOUTHERN_PROVINCE:
   naval_exit_id: STATE_MEDI_SEA
-  population: 233928
+  population: 245912
 STATE_EASTERN_SHINING_ISLES:
   naval_exit_id: STATE_MEDI_SEA
   population: 44847
@@ -133,7 +133,7 @@ STATE_TENSEIMIYA:
 STATE_DAISHIREIBOU:
   population: 547486
 STATE_MUMEITA:
-  population: 559755
+  population: 556738
 STATE_YAMATO_KEN:
   population: 171968
 STATE_DREAMLAND:
@@ -147,9 +147,9 @@ STATE_EBORA:
 STATE_EAST_LAMBAT_CITY:
   population: 179074
 STATE_SOPHIA:
-  population: 438377
+  population: 309810
 STATE_WEST_DANZILONA:
-  population: 377673
+  population: 372272
 STATE_YOAHTL_HOMELANDS:
   population: 57545
 STATE_KOBYLINSKI:
@@ -192,11 +192,11 @@ STATE_MINI_YOAHTL_FRONTIER:
 STATE_ROZIA:
   population: 37088
 STATE_UPPER_MELIA:
-  population: 169243
+  population: 170465
 STATE_NEW_SWISSTON:
   population: 116941
 STATE_KALLOS:
-  population: 354080
+  population: 354106
 STATE_ARNEN:
   population: 296881
 STATE_COLUMBIA:
@@ -208,29 +208,29 @@ STATE_DELEWARE:
 STATE_ZATOKA:
   population: 275703
 STATE_GAZEBO:
-  population: 195677
+  population: 195781
 STATE_KROVIDENCIA:
-  population: 228226
+  population: 228200
 STATE_ARCTIC_AND_EAST_TITAN:
   population: 112402
 STATE_MOUNT_AUGUSTA:
-  population: 1204843
+  population: 1204893
 STATE_SOUTH_MOUNT_AUGUSTA:
   population: 241891
 STATE_GLATTEIS:
   population: 92745
 STATE_EAST_MOUNT_AUGUSTA:
-  population: 469388
+  population: 444663
 STATE_EXCLAVE_MOUNT_AUGUSTA:
-  population: 525637
+  population: 516327
 STATE_CALW:
   population: 216939
 STATE_CAWL_EXCLAVE:
   population: 40047
 STATE_DOOM_CITY_NORTH:
-  population: 628908
+  population: 628833
 STATE_DOOM_CITY_SOUTH:
-  population: 428205
+  population: 414694
 STATE_SYMSTEAD:
   population: 129317
 STATE_ADRINA:
@@ -250,4 +250,12 @@ STATE_BEDFORD:
 STATE_GREATER_PAVIA:
   population: 569651
 STATE_PAVIA_AULDMARCHE:
-  population: 312228
+  population: 306577
+STATE_NORTH_NARA:
+  population: 467141
+STATE_CENTRAL_NARA:
+  population: 518052
+STATE_SOUTH_NARA:
+  population: 525376
+STATE_QBARRA:
+  population: 232784

@@ -104,7 +104,7 @@
         region_state:GEN = {
             create_pop = {
                 culture = gensokyojin
-                size = 559755
+                size = 556738
             }
         }
     }
@@ -308,7 +308,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = examplish
-                size = 329809
+                size = 455524
             }
         }
     }
@@ -316,7 +316,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = examplish
-                size = 438377
+                size = 309810
             }
         }
     }
@@ -332,7 +332,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = examplish
-                size = 169243
+                size = 170465
             }
         }
     }
@@ -348,7 +348,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = examplish
-                size = 233928
+                size = 245912
             }
         }
     }
@@ -356,7 +356,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = examplish
-                size = 377673
+                size = 372272
             }
         }
     }
@@ -364,7 +364,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = examplish
-                size = 230386
+                size = 233559
             }
         }
     }
@@ -400,7 +400,7 @@
         region_state:WOL = {
             create_pop = {
                 culture = examplish
-                size = 368126
+                size = 355289
             }
         }
     }
@@ -564,7 +564,7 @@
         region_state:KAL = {
             create_pop = {
                 culture = kallosian
-                size = 354080
+                size = 354106
             }
         }
     }
@@ -612,7 +612,7 @@
         region_state:KAL = {
             create_pop = {
                 culture = kallosian
-                size = 195677
+                size = 195781
             }
         }
     }
@@ -620,7 +620,7 @@
         region_state:KAL = {
             create_pop = {
                 culture = kallosian
-                size = 228226
+                size = 228200
             }
         }
     }
@@ -644,7 +644,7 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 1204843
+                size = 1204893
             }
         }
     }
@@ -668,7 +668,7 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 469388
+                size = 444663
             }
         }
     }
@@ -676,7 +676,7 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 525637
+                size = 516327
             }
         }
     }
@@ -700,7 +700,7 @@
         region_state:DOM = {
             create_pop = {
                 culture = augustan
-                size = 628908
+                size = 628833
             }
         }
     }
@@ -708,7 +708,7 @@
         region_state:DOM = {
             create_pop = {
                 culture = augustan
-                size = 428205
+                size = 414694
             }
         }
     }
@@ -788,7 +788,39 @@
         region_state:PAV = {
             create_pop = {
                 culture = pavian
-                size = 312228
+                size = 306577
+            }
+        }
+    }
+    s:STATE_NORTH_NARA = {
+        region_state:NAR = {
+            create_pop = {
+                culture = examplish
+                size = 467141
+            }
+        }
+    }
+    s:STATE_CENTRAL_NARA = {
+        region_state:NAR = {
+            create_pop = {
+                culture = examplish
+                size = 518052
+            }
+        }
+    }
+    s:STATE_SOUTH_NARA = {
+        region_state:NAR = {
+            create_pop = {
+                culture = examplish
+                size = 525376
+            }
+        }
+    }
+    s:STATE_QBARRA = {
+        region_state:NAR = {
+            create_pop = {
+                culture = examplish
+                size = 232784
             }
         }
     }

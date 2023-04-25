@@ -1,24 +1,129 @@
 pavian = { 
     color = rgb { 153 255 255 } 
     religion = examplian
-    traits = { gabonese_heritage pavian_culture_group english }
+    traits = { gabonese_heritage lyrean_sea_culture_group english }
     male_common_first_names={
 
+    #french
+
+    Denisot Domin
+    Ymbelet
+    Edouart
+    Giles Gassot
+    Poncellet
+    Heliot
+    Aleaume
+    Bastien
+
+    #italian
+
+    Nello
+    Pasquino
+    Galeazzo
+    Simone
+    Vettorio
+    Marino
+    Ambrogio
+    Rinaldo
+    Carlo
+
+    #english
+
+    Osgood
+    Thurston
+    Aelnod Augustin
+    Wicing Wulfstan
+    Maximillian
+    Godfrey
+    Benedict Bertram
+    
 	}
 	female_common_first_names = {
+	# french
 
+	Eddeva Eulalia
+	Alberda Alote Aalaida Amelina Auisia
+	Mahalt
+	Helisabeth
+	Bertha
+
+	# italian
+
+	Lavinia
+	Pisana
+	Marieta
+	Franceschina Foscharina
+	Simona
+	Arcanzola
+	Olympia
+	Veronica
+
+	# english
+
+	Odelina
+	Adeline
+	Tovilda
+	Ingaret
+	Clarissa Christiana
+	Loveday
+	Maria
+	Sigrith
+	Ursula
 	}
 	noble_last_names = {
-	Of_Bedford Of_Windermere Of_Braemar Of_Cintra Of_Avalonna Of_Lugano Of_Vetranio
+	# civ
+
+Of_Bedford Of_Windermere Of_Braemar Of_Cintra Of_Avalonna Of_Lugano Of_Vetranio
+
+	Of_House_Lucatore Of_House_Visucius 
+	Of_House_Gijahr Of_House_Von_Thusis Of_House_Wanderer
+	# other
+
 	}
 	common_last_names={
-	Of_Lucassio Of_Solberg_Estate Of_Stonehaven Of_San_Selano Of_Bedford_Common Of_Tirana
+	
+	# civ
+
+Of_Lucassio Of_Solberg_Estate Of_Stonehaven Of_San_Selano Of_Bedford_Common Of_Tirana
+	# french
+
+	Ange Astier Azema
+	Balzae Brunelle Benett
+	Magnier Moineau Malet Manaudou Masson
+	Vandame
+	Charbonnier Charrier Carbonneau Courtial
+	Loup
+	Heroux
+	Grosjean
+	Thibodeaux
+
+	# italian
+
+	Calbo Corner Calza de_Calvenzano
+	Acordolo Albirio de_Albe Albarenno Albarate
+	Zani
+	Priuli
+	Badoer Barbo Barbato Bembo Bellini
+	Fiaschi di_Fiorelli
+
+	# english
+
+	Ashenhurst Hasard
+	Daubernoun Doreward
+	Coulthurst Cressy Culperer Cod
+	Leverer
+	Purvoche
+	Bothy Barfoot Bridgeman
+	Walden Wyatt
+	Marsham Mayne
+	Frilende
+	Kyrkeby
 	}
 	male_regal_first_names = {
-
+	Mark
 	}
 	female_regal_first_names = {
-
+	Maria
 	}
     	graphics = european
     	ethnicities = {

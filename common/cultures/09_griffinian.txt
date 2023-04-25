@@ -1,7 +1,7 @@
 griffinian = { 
     color = rgb { 39 131 186 } 
     religion = melonism
-    traits = { ?_heritage medi_sea_culture_group english }
+    traits = { ?_heritage lyrean_sea_culture_group english }
     male_common_first_names={
 
 	}

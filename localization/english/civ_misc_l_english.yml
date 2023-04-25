@@ -134,8 +134,8 @@
  DOM_ADJ: "Doomer"
  CLW: "Calw"
  CLW_ADJ: "Calwian"
-#  NRA:0 "Nara"
-#  NRA_ADJ:0 "$naran$"
+ NRA:0 "Nara"
+ NRA_ADJ:0 "$naran$"
 #  DLG:0 "Dalgon"
 #  DLG_ADJ:0 "$dalgonese$"
  

@@ -107,4 +107,8 @@
   STATE_BEDFORD:0 "Duchy of Bedford"
   STATE_GREATER_PAVIA:0 "Pavia Interior"
   STATE_PAVIA_AULDMARCHE:0 "Auldmarche"
+  STATE_NORTH_NARA:0 "North Nara"
+  STATE_CENTRAL_NARA:0 "Central Nara"
+  STATE_SOUTH_NARA:0 "South Nara"
+  STATE_QBARRA:0 "Q'Barra"
   

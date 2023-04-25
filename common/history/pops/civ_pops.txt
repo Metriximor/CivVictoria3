@@ -795,7 +795,7 @@
     s:STATE_NORTH_NARA = {
         region_state:NAR = {
             create_pop = {
-                culture = examplish
+                culture = naran
                 size = 467141
             }
         }
@@ -803,7 +803,7 @@
     s:STATE_CENTRAL_NARA = {
         region_state:NAR = {
             create_pop = {
-                culture = examplish
+                culture = naran
                 size = 518052
             }
         }
@@ -811,7 +811,7 @@
     s:STATE_SOUTH_NARA = {
         region_state:NAR = {
             create_pop = {
-                culture = examplish
+                culture = naran
                 size = 525376
             }
         }
@@ -819,7 +819,7 @@
     s:STATE_QBARRA = {
         region_state:NAR = {
             create_pop = {
-                culture = examplish
+                culture = naran
                 size = 232784
             }
         }

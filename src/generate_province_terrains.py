@@ -3,13 +3,14 @@ from pathlib import Path
 import re
 from paths import (
     PROVINCE_TERRAINS_OUTPUT,
+    PROVINCE_COLORS_OUTPUT,
     STATES_DATA_YML_OUTPUT,
     STATES_MAP_DATA,
     STATES_MAP_DATA_OUTPUT,
 )
 import rubicon_parser as paradox
-import pickle
 import cv2
+from msgpack import load as msgpack_load, dump as msgpack_dump
 from bz2 import BZ2File
 from utils import write_to_file, rgb_to_hex, file_exists, yaml, load_file_into_string
 
@@ -77,18 +78,17 @@ def main():
     }
 
     province_map = {}
-    provinces_path = "src/output/provinces_colors"
-    if file_exists(provinces_path):
+    if file_exists(PROVINCE_COLORS_OUTPUT):
         print("Loading existing province color terrains file (May take a while)")
-        with BZ2File(provinces_path, "rb") as provinces_colors:
-            province_map = pickle.load(provinces_colors)
+        with BZ2File(PROVINCE_COLORS_OUTPUT, "rb") as provinces_colors:
+            province_map = msgpack_load(provinces_colors)
         print("Loaded province terrains file")
     else:
         province_map = extract_colors("map_data/provinces.png")
         print(f"Found {len(province_map)} provinces")
         print("Color map generated, zipping into file...")
-        with BZ2File(provinces_path, "wb") as config_dictionary_file:
-            pickle.dump(province_map, config_dictionary_file)
+        with BZ2File(PROVINCE_COLORS_OUTPUT, "wb") as config_dictionary_file:
+            msgpack_dump(province_map, config_dictionary_file)
 
     biomes_map = cv2.imread("src/input/biomes.png")
     map_states_data = paradox.loads(load_file_into_string(STATES_MAP_DATA))

@@ -5,6 +5,7 @@ from utils import load_file_into_string, move_file, write_to_file, delete_file
 from generate_history_states import main as generate_history_states
 from strip_quotes_from_provinces_in_map_data import main as strip_quotes_from_provinces
 from generate_province_terrains import main as generate_province_terrains
+from generate_hub_localization import main as generate_hub_localization
 
 
 def main():
@@ -55,6 +56,10 @@ def main():
     )
     existing_history_states = paradox.loads(load_file_into_string(STATES_HISTORY))
 
+    # Generate hub localization
+    print("Generating city names, to customize them change src/input/city_names.yml")
+    generate_hub_localization()
+
     # Merge the generated with existing states
     for state_abrev, create_state in generated_history_states.items():
         existing_history_states["STATES"][state_abrev] = create_state
@@ -102,6 +107,7 @@ def main():
     for state_abrev, pops in generated_pops.items():
         existing_pops["POPS"][state_abrev] = pops
     write_to_file(POPS_HISTORY, paradox.dumps(existing_pops))
+    print("Success! :)")
 
 
 if __name__ == "__main__":
@@ -109,7 +115,7 @@ if __name__ == "__main__":
         main()
     except Exception as e:
         print(
-            f"Send this to Metriximor (remove personal details): \n{type(e).__name__}: {str(e)}"
+            f"When in doubt, send this to Metriximor (remove personal details): \n{type(e).__name__}: {str(e)}"
         )
         # traceback.print_exc() # DEBUG ONLY
     finally:

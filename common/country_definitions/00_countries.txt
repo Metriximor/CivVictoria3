@@ -99,7 +99,7 @@ KAL = {
 
 MTA = {
 	capital = STATE_MOUNT_AUGUSTA
-	color = rgb { 255 0 0 }
+	color = rgb { 0 0 225 }
 	country_type = recognized
 	tier = kingdom
 	cultures = { augustan }
@@ -143,7 +143,7 @@ TRA = {
 
 NAR = {
 	capital = STATE_NORTH_NARA
-	color = "white"
+	color = rgb { 222 246 255 }
 	country_type = recognized
 	tier = kingdom
 	cultures = { naran }

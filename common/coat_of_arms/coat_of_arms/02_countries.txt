@@ -280,22 +280,41 @@ CLW = {
 }
 NAR = {
 	pattern = "pattern_solid.tga"
-	color1 = "danzilonan_cyan"
+	color1 = "full_white"
 	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "full_white"
-		color2 = "danzilonan_grey"
+		texture = "ce_stripes_05.dds"
+		color1 = "lusitan_shield_blue"
+		instance = { position = { 0.1 0.5 } scale = { 0.6 0.5 } }
 	}
-	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "full_white"
-		instance = { scale = { 1 1 } }
-	}
-	colored_emblem = {
-		texture = "ce_star_anarchy.dds"
+		colored_emblem = {
+		texture = "ce_stripes_05.dds"
 		color1 = "truidencian_red"
-		color2 = "danzilonan_grey"
-		instance = { scale = { 0.8 0.8 } }
+		instance = { position = { 0.8 0.5 } scale = { 0.6 0.5 } }
+	}
+			colored_emblem = {
+		texture = "ce_per_saltire.dds"
+		color1 = "full_white"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.7 } rotation = 90 }
+	}
+				colored_emblem = {
+		texture = "ce_per_saltire.dds"
+		color1 = "full_white"
+		instance = { position = { 1 0.5 } scale = { 0.5 1 } rotation = 90 }
+	}
+					colored_emblem = {
+		texture = "ce_per_saltire.dds"
+		color1 = "full_white"
+		instance = { position = { 0 0.5 } scale = { 0.5 1 } rotation = 90 }
+	}
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "black"
+		instance = { scale = { 0.6 0.7 } }
+	}
+		colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "full_white"
+		instance = { scale = { 0.45 0.45 } }
 	}
 }
 #####################

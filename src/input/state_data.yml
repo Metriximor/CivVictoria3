@@ -196,22 +196,27 @@ STATE_UPPER_MELIA:
 STATE_NEW_SWISSTON:
   population: 116941
 STATE_KALLOS:
+  naval_exit_id: STATE_MIDDLE_OCEAN
   population: 354106
 STATE_ARNEN:
   population: 296881
 STATE_COLUMBIA:
   population: 370632
 STATE_FLORENCE:
+  naval_exit_id: STATE_NORTHLANDIC_SEA
   population: 232613
 STATE_DELEWARE:
+  naval_exit_id: STATE_LAKE_MICHIGAN
   population: 185541
 STATE_ZATOKA:
+  naval_exit_id: STATE_SEA_OF_SNEED
   population: 275703
 STATE_GAZEBO:
   population: 195781
 STATE_KROVIDENCIA:
   population: 228200
 STATE_ARCTIC_AND_EAST_TITAN:
+  naval_exit_id: STATE_SEA_OF_SNEED
   population: 112402
 STATE_MOUNT_AUGUSTA:
   population: 1204893
@@ -220,10 +225,13 @@ STATE_SOUTH_MOUNT_AUGUSTA:
 STATE_GLATTEIS:
   population: 92745
 STATE_EAST_MOUNT_AUGUSTA:
+  naval_exit_id: STATE_STONY_SEA
   population: 444663
 STATE_EXCLAVE_MOUNT_AUGUSTA:
+  naval_exit_id: STATE_STONY_SEA
   population: 516327
 STATE_CALW:
+  naval_exit_id: STATE_MIDDLE_OCEAN
   population: 216939
 STATE_CAWL_EXCLAVE:
   population: 40047
@@ -234,22 +242,29 @@ STATE_DOOM_CITY_SOUTH:
 STATE_SYMSTEAD:
   population: 129317
 STATE_ADRINA:
+  naval_exit_id: STATE_LYREAN_SEA
   population: 128120
 STATE_ISLES_OF_CUCURBITS:
+  naval_exit_id: STATE_LYREAN_SEA
   population: 72420
 STATE_WYNFORD:
   population: 82071
 STATE_LILAC:
   population: 66755
 STATE_GRIFFIN_CROWNLANDS:
+  naval_exit_id: STATE_LYREAN_SEA
   population: 333365
 STATE_PAVIA_PROPER:
+  naval_exit_id: STATE_MIDDLE_OCEAN
   population: 306801
 STATE_BEDFORD:
+  naval_exit_id: STATE_MIDDLE_OCEAN
   population: 141608
 STATE_GREATER_PAVIA:
+  naval_exit_id: STATE_LYREAN_SEA
   population: 569651
 STATE_PAVIA_AULDMARCHE:
+  naval_exit_id: STATE_LYREAN_SEA
   population: 306577
 STATE_NORTH_NARA:
   population: 467141

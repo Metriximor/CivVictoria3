@@ -10,8 +10,10 @@ gov_kovan = {
 	possible = {
 		has_law = law_type:law_monarchy
 		exists = c:KOV
-		c:TRU = ROOT
+		c:KOV = ROOT
+		country_tier = hegemony
 		# add kova check
+		
 	}
 }
 

@@ -203,6 +203,63 @@ def load(file_path) -> dict:
     return loads(ds)
 
 
+# def _serialize(val, dump="", indent_lvl=0):
+#     if isinstance(val, dict):
+#         for k, v in val.items():
+#             if isinstance(v, dict):
+#                 indent_lvl += 1
+#                 object_str = _serialize(v, "", indent_lvl)
+#                 indent_lvl -= 1
+#                 dump += (
+#                     f"{'    '*indent_lvl}{k}={{\n{object_str}{'    '*indent_lvl}}}\n"
+#                 )
+#                 if indent_lvl == 0:
+#                     dump += "\n"
+#             elif isinstance(v, list) or isinstance(v, set):
+#                 all_members_are_dicts = all(isinstance(e, dict) for e in v)
+#                 key_is_plural = isinstance(k, str) and k.endswith("s")
+#                 if isinstance(v, list) and all_members_are_dicts and key_is_plural:
+#                     dump += f"{'    '*indent_lvl}{k}={{\n"
+#                     for e in v:
+#                         indent_lvl += 2
+#                         set_str = _serialize(e, "", indent_lvl)
+#                         indent_lvl -= 2
+#                         indent_lvl += 1
+#                         dump += (
+#                             f"{'    '*indent_lvl}{{\n{set_str}{'    '*indent_lvl}}}\n"
+#                         )
+#                         indent_lvl -= 1
+#                     dump += f"{'    '*indent_lvl}}}\n"
+#                 elif (
+#                     isinstance(v, list) and all_members_are_dicts and not key_is_plural
+#                 ):
+#                     for e in v:
+#                         indent_lvl += 1
+#                         set_str = _serialize(e, "", indent_lvl)
+#                         indent_lvl -= 1
+#                         dump += f"{'    '*indent_lvl}{k} = {{\n{set_str}{'    '*indent_lvl}}}\n"
+#                 else:
+#                     list_str = _serialize(v, "", indent_lvl)
+#                     dump += f"{'    '*indent_lvl}{k}={{ {list_str}}}\n"
+#             else:
+#                 val_str = _serialize(v, "")
+#                 dump += f"{'    '*indent_lvl}{k}={val_str}\n"
+#     elif isinstance(val, list) or isinstance(val, set):
+#         for v in val:
+#             v_str = _serialize(v, "")
+#             dump += f"{v_str} "
+#     elif isinstance(val, str):
+#         dump += f"{val}"
+#     elif isinstance(val, int):
+#         dump += f"{str(val)}"
+#     elif val is None:
+#         dump += ""
+#     else:
+#         print(val)
+#         raise Exception(f"Unknown type to serialize: {val}")
+#     return dump
+
+
 def _serialize(val, dump, indent_lvl=0):
     if isinstance(val, dict):
         for k, v in val.items():
@@ -216,15 +273,13 @@ def _serialize(val, dump, indent_lvl=0):
                 if indent_lvl == 0:
                     dump += "\n"
             elif isinstance(v, list) or isinstance(v, set):
-                if isinstance(v, list) and all(isinstance(e, dict) for e in v):
+                all_members_are_dicts = all(isinstance(e, dict) for e in v)
+                if isinstance(v, list) and all_members_are_dicts:
                     for e in v:
                         indent_lvl += 1
                         set_str = _serialize(e, "", indent_lvl)
                         indent_lvl -= 1
                         dump += f"{'    '*indent_lvl}{k} = {{\n{set_str}{'    '*indent_lvl}}}\n"
-                #         key_set = set(next(iter(v)).keys())
-                #         if all(set(d.keys) & key_set for d in v):
-                #             for item in v:
                 else:
                     list_str = _serialize(v, "", indent_lvl)
                     dump += f"{'    '*indent_lvl}{k} = {{ {list_str}}}\n"

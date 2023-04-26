@@ -2,6 +2,8 @@
 OUTPUT_FOLDER = "src/output"
 INPUT_FOLDER = "src/input"
 HISTORY_FOLDER = "common/history"
+LOCALIZATION_FOLDER = "localization/english"
+MAP_OBJECT_DATA = "gfx/map/map_object_data"
 # Map Data
 STATES_MAP_DATA = MAP_DATA_STATE_REGIONS_FOLDER + "/00_states.txt"
 # Input
@@ -17,9 +19,12 @@ STATES_MAP_DATA_OUTPUT = OUTPUT_FOLDER + "/00_states.txt"
 STATES_DATA_YML_OUTPUT = OUTPUT_FOLDER + "/state_data.yml"
 PROVINCE_TERRAINS_OUTPUT = OUTPUT_FOLDER + "/province_terrains.txt"
 PROVINCE_COLORS_OUTPUT = OUTPUT_FOLDER + "/provinces_colors"
+CITY_NAMES_OUTPUT = OUTPUT_FOLDER + "/civ_hubs_l_english.yml"
 # History
 STATES_HISTORY = HISTORY_FOLDER + "/states/00_states.txt"
 BUILDINGS_HISTORY = HISTORY_FOLDER + "/buildings/civ_buildings.txt"
 POPS_HISTORY = HISTORY_FOLDER + "/pops/civ_pops.txt"
+# Localization
+CITY_NAMES_LOCALIZATION = LOCALIZATION_FOLDER + "/civ_hubs_l_english.yml"
 # Misc
 COUNTRY_DEFINITIONS = "common/country_definitions/00_countries.txt"

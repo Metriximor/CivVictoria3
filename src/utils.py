@@ -1,6 +1,6 @@
 ﻿import bz2
 import pickle
-from shutil import move
+from shutil import move, copy
 from os import remove
 from os.path import isfile
 from collections import defaultdict
@@ -67,3 +67,8 @@ def delete_file(file_path: str):
         remove(file_path)
     else:
         print(f"File {file_path} doesn't exist")
+
+
+def copy_file(src_path: str, dest_path: str):
+    print(f"Copying {src_path} to {dest_path}")
+    copy(src_path, dest_path)

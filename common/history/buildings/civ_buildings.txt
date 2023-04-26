@@ -210,22 +210,6 @@
         }
     }
     s:STATE_SOUTH_MELIA = {
-        region_state:DAN = {
-            create_building = {
-                building = building_government_administration
-                level = 1
-                reserves = 1
-                activate_production_methods = { pm_simple_organization_government_administration }
-            }
-        }
-        region_state:WOL = {
-            create_building = {
-                building = building_government_administration
-                level = 1
-                reserves = 1
-                activate_production_methods = { pm_simple_organization_government_administration }
-            }
-        }
         region_state:TRA = {
             create_building = {
                 building = building_government_administration

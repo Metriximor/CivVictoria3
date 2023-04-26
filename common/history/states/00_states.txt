@@ -273,16 +273,8 @@
     }
     s:STATE_SOUTH_MELIA = {
         create_state = {
-            country = c:DAN
-            owned_provinces = { xCCC9D9 xFD55C0 xD458EE xB8F753 }
-        }
-        create_state = {
-            country = c:WOL
-            owned_provinces = { xFB9BE0 x95A4FC xE1AAB7 x71B5FB xA1FCBC xB193C4 }
-        }
-        create_state = {
             country = c:TRA
-            owned_provinces = { x5CCFE4 x82B3E7 x44F9D9 x2CE2FE }
+            owned_provinces = { x2CE2FE x44F9D9 x5CCFE4 x71B5FB x82B3E7 x95A4FC xA1FCBC xB193C4 xB8F753 xCCC9D9 xD458EE xE1AAB7 xFB9BE0 xFD55C0 }
         }
     }
     s:STATE_WOLKEN = {

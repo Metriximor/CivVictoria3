@@ -1,5 +1,5 @@
 gensokyojin = { 
-	color = rgb { 196 23 23 } 
+	color = rgb { 224 33 182 } 
 	religion = taoism 
 	traits = { augustan_heritage medi_sea_culture_group english japanese }
 	male_common_first_names={

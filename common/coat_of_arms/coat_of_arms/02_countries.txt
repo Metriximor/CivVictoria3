@@ -228,16 +228,16 @@ TRA = {
 		color1 = "red"
 	}
 	textured_emblem = {
+		texture = "te_coa_transylvania_angel.dds"
+		instance = { position { 0.3 0.5 } scale = { 0.5 0.5 } }
+	}
+	textured_emblem = {
+		texture = "te_coa_transylvania_angel.dds"
+		instance = { position { 0.7 0.5 } scale = { -0.5 0.5 } }
+	}
+	textured_emblem = {
 		texture = "te_coa_transylvania.dds"
-		instance = { position { 0.5 0.5 } scale = { 0.5 0.5 } }
-	}
-	textured_emblem = {
-		texture = "te_coa_transylvania_angel.dds"
-		instance = { position { 0.24 0.5 } scale = { 0.5 0.5 } }
-	}
-	textured_emblem = {
-		texture = "te_coa_transylvania_angel.dds"
-		instance = { position { 0.75 0.5 } scale = { -0.5 0.5 } }
+		instance = { position { 0.5 0.5 } scale = { 0.4 0.4 } }
 	}
 }
 

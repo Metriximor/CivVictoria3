@@ -1,6 +1,6 @@
 ﻿STATE_MEDI_SEA = {
     id = 3001
-    provinces = { x0A400D x9BBAE2 }
+    provinces = { x0A400D }
 }
 
 STATE_STONY_SEA = {
@@ -20,7 +20,7 @@ STATE_FAREASTERN_OCEAN = {
 
 STATE_MIDDLE_OCEAN = {
     id = 3005
-    provinces = { x031D2A x3CD5E9 x83A5E3 xBCB3B3 xCAC3BA xDCBDFD }
+    provinces = { x031D2A xCAC3BA }
 }
 
 STATE_SOUTHERN_SEA = {
@@ -30,7 +30,7 @@ STATE_SOUTHERN_SEA = {
 
 STATE_LEONA_SEA = {
     id = 3007
-    provinces = { x035003 xE5A575 }
+    provinces = { x035003 }
 }
 
 STATE_MERIDIEM_SEA = {

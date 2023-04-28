@@ -194,7 +194,7 @@ STATE_ROZIA:
 STATE_UPPER_MELIA:
   population: 170065
 STATE_NEW_SWISSTON:
-  population: 116941
+  population: 130690
 STATE_KALLOS:
   naval_exit_id: STATE_MIDDLE_OCEAN
   population: 342051
@@ -221,7 +221,7 @@ STATE_ARCTIC_AND_EAST_TITAN:
 STATE_MOUNT_AUGUSTA:
   population: 1129377
 STATE_SOUTH_MOUNT_AUGUSTA:
-  population: 241891
+  population: 236345
 STATE_GLATTEIS:
   population: 71193
 STATE_EAST_MOUNT_AUGUSTA:
@@ -274,3 +274,21 @@ STATE_SOUTH_NARA:
   population: 525150
 STATE_QBARRA:
   population: 232784
+STATE_ICE_SHELF:
+  population: 449884
+STATE_NORTH_HADES_ISLANDS:
+  population: 161848
+STATE_WEST_CDM:
+  population: 117603
+STATE_IMBLOC:
+  population: 86032
+STATE_CONCORD:
+  population: 297667
+STATE_SOUTH_CDM:
+  population: 318486
+STATE_SANTIAGO:
+  population: 203202
+STATE_CDM_EXCLAVE:
+  population: 104697
+STATE_CDM_FRONTIER:
+  population: 651778

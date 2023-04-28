@@ -340,7 +340,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = examplish
-                size = 116941
+                size = 130690
             }
         }
     }
@@ -640,7 +640,7 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 241891
+                size = 236345
             }
         }
     }
@@ -809,6 +809,78 @@
             create_pop = {
                 culture = naran
                 size = 232784
+            }
+        }
+    }
+    s:STATE_ICE_SHELF = {
+        region_state:CDM = {
+            create_pop = {
+                culture = examplish
+                size = 449884
+            }
+        }
+    }
+    s:STATE_NORTH_HADES_ISLANDS = {
+        region_state:CDM = {
+            create_pop = {
+                culture = examplish
+                size = 161848
+            }
+        }
+    }
+    s:STATE_WEST_CDM = {
+        region_state:CDM = {
+            create_pop = {
+                culture = examplish
+                size = 117603
+            }
+        }
+    }
+    s:STATE_IMBLOC = {
+        region_state:CDM = {
+            create_pop = {
+                culture = examplish
+                size = 86032
+            }
+        }
+    }
+    s:STATE_CONCORD = {
+        region_state:CDM = {
+            create_pop = {
+                culture = examplish
+                size = 297667
+            }
+        }
+    }
+    s:STATE_SOUTH_CDM = {
+        region_state:CDM = {
+            create_pop = {
+                culture = examplish
+                size = 318486
+            }
+        }
+    }
+    s:STATE_SANTIAGO = {
+        region_state:CDM = {
+            create_pop = {
+                culture = examplish
+                size = 203202
+            }
+        }
+    }
+    s:STATE_CDM_EXCLAVE = {
+        region_state:CDM = {
+            create_pop = {
+                culture = examplish
+                size = 104697
+            }
+        }
+    }
+    s:STATE_CDM_FRONTIER = {
+        region_state:CDM = {
+            create_pop = {
+                culture = examplish
+                size = 651778
             }
         }
     }

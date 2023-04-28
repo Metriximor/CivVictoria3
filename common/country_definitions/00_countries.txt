@@ -148,3 +148,11 @@ NAR = {
 	tier = kingdom
 	cultures = { naran }
 }
+
+CDM = {
+	capital = STATE_CONCORD
+	color = rgb { 139 207 255 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { examplish }
+}

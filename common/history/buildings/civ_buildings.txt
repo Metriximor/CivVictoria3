@@ -487,5 +487,47 @@
         region_state:NAR = {
         }
     }
+    s:STATE_ICE_SHELF = {
+        region_state:CDM = {
+        }
+    }
+    s:STATE_NORTH_HADES_ISLANDS = {
+        region_state:CDM = {
+        }
+    }
+    s:STATE_WEST_CDM = {
+        region_state:CDM = {
+        }
+    }
+    s:STATE_IMBLOC = {
+        region_state:CDM = {
+        }
+    }
+    s:STATE_CONCORD = {
+        region_state:CDM = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_SOUTH_CDM = {
+        region_state:CDM = {
+        }
+    }
+    s:STATE_SANTIAGO = {
+        region_state:CDM = {
+        }
+    }
+    s:STATE_CDM_EXCLAVE = {
+        region_state:CDM = {
+        }
+    }
+    s:STATE_CDM_FRONTIER = {
+        region_state:CDM = {
+        }
+    }
 }
 

@@ -1,7 +1,7 @@
-cortesian = { 
-    color = { 51 140 255 } 
+danzilonan = { 
+    color = { 129 238 183 } 
     religion = examplian
-    traits = { cdm_heritage alenarith_culture_group english }
+    traits = { danzilonan_heritage medi_sea_culture_group english }
     male_common_first_names={
 
 	}

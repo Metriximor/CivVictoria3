@@ -307,7 +307,7 @@
     s:STATE_PROVINCE_OF_NEW_DANZILONA = {
         region_state:DAN = {
             create_pop = {
-                culture = examplish
+                culture = danzilonan
                 size = 452774
             }
         }
@@ -315,7 +315,7 @@
     s:STATE_SOPHIA = {
         region_state:DAN = {
             create_pop = {
-                culture = examplish
+                culture = danzilonan
                 size = 309810
             }
         }
@@ -323,7 +323,7 @@
     s:STATE_MELIA = {
         region_state:DAN = {
             create_pop = {
-                culture = examplish
+                culture = danzilonan
                 size = 576893
             }
         }
@@ -331,7 +331,7 @@
     s:STATE_UPPER_MELIA = {
         region_state:DAN = {
             create_pop = {
-                culture = examplish
+                culture = danzilonan
                 size = 170065
             }
         }
@@ -339,7 +339,7 @@
     s:STATE_NEW_SWISSTON = {
         region_state:DAN = {
             create_pop = {
-                culture = examplish
+                culture = danzilonan
                 size = 130690
             }
         }
@@ -347,7 +347,7 @@
     s:STATE_SOUTHERN_PROVINCE = {
         region_state:DAN = {
             create_pop = {
-                culture = examplish
+                culture = danzilonan
                 size = 242924
             }
         }
@@ -355,7 +355,7 @@
     s:STATE_WEST_DANZILONA = {
         region_state:DAN = {
             create_pop = {
-                culture = examplish
+                culture = danzilonan
                 size = 372324
             }
         }
@@ -363,7 +363,7 @@
     s:STATE_PETERSKOGUR = {
         region_state:DAN = {
             create_pop = {
-                culture = examplish
+                culture = danzilonan
                 size = 233491
             }
         }
@@ -371,7 +371,7 @@
     s:STATE_EASTERN_SHINING_ISLES = {
         region_state:DAN = {
             create_pop = {
-                culture = examplish
+                culture = mery_culture
                 size = 45797
             }
         }
@@ -395,7 +395,7 @@
     s:STATE_WOLKEN_ISLANDS = {
         region_state:WOL = {
             create_pop = {
-                culture = examplish
+                culture = mery_culture
                 size = 33535
             }
         }
@@ -815,7 +815,7 @@
     s:STATE_ICE_SHELF = {
         region_state:CDM = {
             create_pop = {
-                culture = examplish
+                culture = cortesian
                 size = 449884
             }
         }
@@ -823,7 +823,7 @@
     s:STATE_NORTH_HADES_ISLANDS = {
         region_state:CDM = {
             create_pop = {
-                culture = examplish
+                culture = cortesian
                 size = 161848
             }
         }
@@ -831,7 +831,7 @@
     s:STATE_WEST_CDM = {
         region_state:CDM = {
             create_pop = {
-                culture = examplish
+                culture = cortesian
                 size = 117603
             }
         }
@@ -839,7 +839,7 @@
     s:STATE_IMBLOC = {
         region_state:CDM = {
             create_pop = {
-                culture = examplish
+                culture = cortesian
                 size = 86032
             }
         }
@@ -847,7 +847,7 @@
     s:STATE_CONCORD = {
         region_state:CDM = {
             create_pop = {
-                culture = examplish
+                culture = cortesian
                 size = 297667
             }
         }
@@ -855,7 +855,7 @@
     s:STATE_SOUTH_CDM = {
         region_state:CDM = {
             create_pop = {
-                culture = examplish
+                culture = cortesian
                 size = 318486
             }
         }
@@ -863,7 +863,7 @@
     s:STATE_SANTIAGO = {
         region_state:CDM = {
             create_pop = {
-                culture = examplish
+                culture = cortesian
                 size = 203202
             }
         }
@@ -871,7 +871,7 @@
     s:STATE_CDM_EXCLAVE = {
         region_state:CDM = {
             create_pop = {
-                culture = examplish
+                culture = cortesian
                 size = 104697
             }
         }
@@ -879,7 +879,7 @@
     s:STATE_CDM_FRONTIER = {
         region_state:CDM = {
             create_pop = {
-                culture = examplish
+                culture = cortesian
                 size = 651778
             }
         }

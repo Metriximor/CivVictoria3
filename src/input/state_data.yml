@@ -1,99 +1,99 @@
 STATE_NIDAROS:
   naval_exit_id: STATE_MEDI_SEA
-  population: 191407
+  population: 192191
 STATE_HYLDOR:
   naval_exit_id: STATE_MEDI_SEA
-  population: 211525
+  population: 214248
 STATE_FLATAGRAS:
   naval_exit_id: STATE_MEDI_SEA
-  population: 194373
+  population: 200851
 STATE_SIX_COLONIES:
   naval_exit_id: STATE_MEDI_SEA
-  population: 142513
+  population: 145487
 STATE_OUTER_NIDAROS:
   naval_exit_id: STATE_MEDI_SEA
-  population: 113179
+  population: 114638
 STATE_NUMBERS_LAWN:
   naval_exit_id: STATE_MEDI_SEA
-  population: 275830
+  population: 275437
 STATE_CIV_PROVENCE:
   naval_exit_id: STATE_MEDI_SEA
-  population: 109834
+  population: 109715
 STATE_AMATERASU_SHORES:
   naval_exit_id: STATE_MEDI_SEA
-  population: 122281
+  population: 126275
 STATE_PORTUCALE:
   naval_exit_id: STATE_MEDI_SEA
-  population: 188429
+  population: 191394
 STATE_CASCAIS:
   naval_exit_id: STATE_MEDI_SEA
-  population: 216600
+  population: 216061
 STATE_OLIMPIA:
   naval_exit_id: STATE_MEDI_SEA
-  population: 166232
+  population: 168550
 STATE_ATLAS:
   naval_exit_id: STATE_MEDI_SEA
-  population: 58379
+  population: 58851
 STATE_AZORES:
   naval_exit_id: STATE_MEDI_SEA
-  population: 5999
+  population: 5389
 STATE_CLASSICALE:
   naval_exit_id: STATE_MEDI_SEA
-  population: 147978
+  population: 147862
 STATE_CIV_ALENTEJO:
   naval_exit_id: STATE_MEDI_SEA
-  population: 88983
+  population: 88967
 STATE_WEST_LAMBAT_CITY:
   naval_exit_id: STATE_MEDI_SEA
-  population: 190582
+  population: 187011
 STATE_VALLE_OCCIDENTAL:
   naval_exit_id: STATE_MEDI_SEA
-  population: 476844
+  population: 476226
 STATE_CHUNGIA:
   naval_exit_id: STATE_LYREAN_SEA
-  population: 373038
+  population: 374878
 STATE_MERCADO_STRAIT:
   naval_exit_id: STATE_STONY_SEA
-  population: 162382
+  population: 162360
 STATE_PARFAIT_KAWAYAN:
   naval_exit_id: STATE_STONY_SEA
-  population: 388276
+  population: 388851
 STATE_PROVINCE_OF_NEW_DANZILONA:
   naval_exit_id: STATE_MEDI_SEA
-  population: 455524
+  population: 452774
 STATE_PAMPANG:
   naval_exit_id: STATE_LYREAN_SEA
-  population: 192875
+  population: 192850
 STATE_MELIA:
   naval_exit_id: STATE_MEDI_SEA
-  population: 576737
+  population: 576893
 STATE_PETERSKOGUR:
   naval_exit_id: STATE_MEDI_SEA
-  population: 233559
+  population: 233491
 STATE_SOUTH_MELIA:
   naval_exit_id: STATE_MEDI_SEA
-  population: 143920
+  population: 148033
 STATE_WOLKEN:
   naval_exit_id: STATE_MEDI_SEA
-  population: 355289
+  population: 356793
 STATE_SOUTHERN_PROVINCE:
   naval_exit_id: STATE_MEDI_SEA
-  population: 245912
+  population: 242924
 STATE_EASTERN_SHINING_ISLES:
   naval_exit_id: STATE_MEDI_SEA
-  population: 44847
+  population: 45797
 STATE_WOLKEN_ISLANDS:
   naval_exit_id: STATE_MEDI_SEA
-  population: 32003
+  population: 33535
 STATE_NORTHERN_MERY:
   naval_exit_id: STATE_LYREAN_SEA
-  population: 133228
+  population: 134594
 STATE_CENTRAL_MERY:
   naval_exit_id: STATE_MIDDLE_OCEAN
-  population: 251414
+  population: 252607
 STATE_SOUTHERN_MERY:
   naval_exit_id: STATE_MIDDLE_OCEAN
-  population: 226531
+  population: 227400
 STATE_SORLAND:
   pops:
   - culture: thruitt
@@ -102,7 +102,7 @@ STATE_SORLAND:
   - culture: gensokyojin
     religion: bezism
     ratio: 1
-  population: 476183
+  population: 479943
 STATE_MORINOYARI:
   pops:
   - culture: thruitt
@@ -119,27 +119,27 @@ STATE_BLANCO_STRAIT:
   - lambatan
   - mery_culture
   naval_exit_id: STATE_STONY_SEA
-  population: 239548
+  population: 238218
 STATE_OUTLAND:
   pops:
   - culture: thruitt
     religion: bezism
     ratio: 1
-  population: 99183
+  population: 101520
 STATE_SNOWPEAK:
   population: 52073
 STATE_TENSEIMIYA:
-  population: 292239
+  population: 294891
 STATE_DAISHIREIBOU:
-  population: 547486
+  population: 548058
 STATE_MUMEITA:
-  population: 556738
+  population: 558408
 STATE_YAMATO_KEN:
   population: 171968
 STATE_DREAMLAND:
-  population: 109494
+  population: 110114
 STATE_LUSITAN_PLAINS:
-  population: 94200
+  population: 93900
 STATE_LUSITAN_PLATEAUS:
   population: 189128
 STATE_EBORA:
@@ -149,11 +149,11 @@ STATE_EAST_LAMBAT_CITY:
 STATE_SOPHIA:
   population: 309810
 STATE_WEST_DANZILONA:
-  population: 372272
+  population: 372324
 STATE_YOAHTL_HOMELANDS:
-  population: 57545
+  population: 58495
 STATE_KOBYLINSKI:
-  population: 184098
+  population: 185059
 STATE_CZECHIA:
   population: 253400
 STATE_WESTBURY:
@@ -172,105 +172,105 @@ STATE_ALTEPETL:
 STATE_SOUTHBURY:
   population: 284658
 STATE_KAXITL:
-  population: 363660
+  population: 363638
 STATE_YOAHTL_EASTERN_FRONTIER:
   population: 280526
 STATE_RESIMERE:
-  population: 54816
+  population: 55436
   pops:
   - culture: resimerian
     ratio: 1
 STATE_RESIMERIAN_FRONTIER:
-  population: 395205
+  population: 396645
   pops:
   - culture: resimerian
     ratio: 1
 STATE_MINI_YOAHTL:
   population: 20300
 STATE_MINI_YOAHTL_FRONTIER:
-  population: 115572
+  population: 115541
 STATE_ROZIA:
-  population: 37088
+  population: 37213
 STATE_UPPER_MELIA:
-  population: 170465
+  population: 170065
 STATE_NEW_SWISSTON:
   population: 116941
 STATE_KALLOS:
   naval_exit_id: STATE_MIDDLE_OCEAN
-  population: 354106
+  population: 342051
 STATE_ARNEN:
-  population: 296881
+  population: 290659
 STATE_COLUMBIA:
-  population: 370632
+  population: 358969
 STATE_FLORENCE:
   naval_exit_id: STATE_NORTHLANDIC_SEA
-  population: 232613
+  population: 221408
 STATE_DELEWARE:
   naval_exit_id: STATE_LAKE_MICHIGAN
-  population: 185541
+  population: 185516
 STATE_ZATOKA:
   naval_exit_id: STATE_SEA_OF_SNEED
-  population: 275703
+  population: 261981
 STATE_GAZEBO:
-  population: 195781
+  population: 190450
 STATE_KROVIDENCIA:
   population: 228200
 STATE_ARCTIC_AND_EAST_TITAN:
   naval_exit_id: STATE_SEA_OF_SNEED
-  population: 112402
+  population: 108733
 STATE_MOUNT_AUGUSTA:
-  population: 1204893
+  population: 1129377
 STATE_SOUTH_MOUNT_AUGUSTA:
   population: 241891
 STATE_GLATTEIS:
-  population: 92745
+  population: 71193
 STATE_EAST_MOUNT_AUGUSTA:
   naval_exit_id: STATE_STONY_SEA
-  population: 444663
+  population: 439352
 STATE_EXCLAVE_MOUNT_AUGUSTA:
   naval_exit_id: STATE_STONY_SEA
-  population: 516327
+  population: 499921
 STATE_CALW:
   naval_exit_id: STATE_MIDDLE_OCEAN
-  population: 216939
+  population: 203713
 STATE_CAWL_EXCLAVE:
   population: 40047
 STATE_DOOM_CITY_NORTH:
-  population: 628833
+  population: 624008
 STATE_DOOM_CITY_SOUTH:
-  population: 414694
+  population: 414674
 STATE_SYMSTEAD:
-  population: 129317
+  population: 127906
 STATE_ADRINA:
   naval_exit_id: STATE_LYREAN_SEA
-  population: 128120
+  population: 127353
 STATE_ISLES_OF_CUCURBITS:
   naval_exit_id: STATE_LYREAN_SEA
-  population: 72420
+  population: 64903
 STATE_WYNFORD:
   population: 82071
 STATE_LILAC:
-  population: 66755
+  population: 66781
 STATE_GRIFFIN_CROWNLANDS:
   naval_exit_id: STATE_LYREAN_SEA
-  population: 333365
+  population: 321654
 STATE_PAVIA_PROPER:
   naval_exit_id: STATE_MIDDLE_OCEAN
-  population: 306801
+  population: 305656
 STATE_BEDFORD:
   naval_exit_id: STATE_MIDDLE_OCEAN
-  population: 141608
+  population: 141930
 STATE_GREATER_PAVIA:
   naval_exit_id: STATE_LYREAN_SEA
-  population: 569651
+  population: 571336
 STATE_PAVIA_AULDMARCHE:
   naval_exit_id: STATE_LYREAN_SEA
-  population: 306577
+  population: 308907
 STATE_NORTH_NARA:
-  population: 467141
+  population: 460100
 STATE_CENTRAL_NARA:
-  population: 518052
+  population: 520592
 STATE_SOUTH_NARA:
-  population: 525376
+  population: 525150
 STATE_QBARRA:
   population: 232784

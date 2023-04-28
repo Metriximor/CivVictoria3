@@ -274,3 +274,4 @@ src/output/*
 build/*
 *.spec
 __pycache__
+map_editor_status.txt

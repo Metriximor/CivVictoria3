@@ -3,7 +3,7 @@
         region_state:TRU = {
             create_pop = {
                 culture = truidencian
-                size = 191407
+                size = 192191
             }
         }
     }
@@ -11,7 +11,7 @@
         region_state:TRU = {
             create_pop = {
                 culture = truidencian
-                size = 211525
+                size = 214248
             }
         }
     }
@@ -27,7 +27,7 @@
         region_state:TRU = {
             create_pop = {
                 culture = truidencian
-                size = 194373
+                size = 200851
             }
         }
     }
@@ -36,12 +36,12 @@
             create_pop = {
                 culture = thruitt
                 religion = bezism
-                size = 428564
+                size = 431948
             }
             create_pop = {
                 culture = gensokyojin
                 religion = bezism
-                size = 47618
+                size = 47994
             }
         }
     }
@@ -49,7 +49,7 @@
         region_state:TRU = {
             create_pop = {
                 culture = truidencian
-                size = 142513
+                size = 145487
             }
         }
     }
@@ -58,7 +58,7 @@
             create_pop = {
                 culture = thruitt
                 religion = bezism
-                size = 99183
+                size = 101520
             }
         }
     }
@@ -66,7 +66,7 @@
         region_state:TRU = {
             create_pop = {
                 culture = truidencian
-                size = 113179
+                size = 114638
             }
         }
     }
@@ -74,7 +74,7 @@
         region_state:GEN = {
             create_pop = {
                 culture = gensokyojin
-                size = 292239
+                size = 294891
             }
         }
     }
@@ -96,7 +96,7 @@
         region_state:GEN = {
             create_pop = {
                 culture = gensokyojin
-                size = 547486
+                size = 548058
             }
         }
     }
@@ -104,7 +104,7 @@
         region_state:GEN = {
             create_pop = {
                 culture = gensokyojin
-                size = 556738
+                size = 558408
             }
         }
     }
@@ -112,7 +112,7 @@
         region_state:GEN = {
             create_pop = {
                 culture = gensokyojin
-                size = 275830
+                size = 275437
             }
         }
     }
@@ -120,7 +120,7 @@
         region_state:GEN = {
             create_pop = {
                 culture = gensokyojin
-                size = 122281
+                size = 126275
             }
         }
     }
@@ -136,7 +136,7 @@
         region_state:LUS = {
             create_pop = {
                 culture = lusitan
-                size = 188429
+                size = 191394
             }
         }
     }
@@ -144,7 +144,7 @@
         region_state:LUS = {
             create_pop = {
                 culture = lusitan
-                size = 109834
+                size = 109715
             }
         }
     }
@@ -152,7 +152,7 @@
         region_state:LUS = {
             create_pop = {
                 culture = lusitan
-                size = 216600
+                size = 216061
             }
         }
     }
@@ -160,7 +160,7 @@
         region_state:LUS = {
             create_pop = {
                 culture = lusitan
-                size = 166232
+                size = 168550
             }
         }
     }
@@ -168,7 +168,7 @@
         region_state:LUS = {
             create_pop = {
                 culture = lusitan
-                size = 58379
+                size = 58851
             }
         }
     }
@@ -176,7 +176,7 @@
         region_state:LUS = {
             create_pop = {
                 culture = lusitan
-                size = 5999
+                size = 5389
             }
         }
     }
@@ -184,7 +184,7 @@
         region_state:LUS = {
             create_pop = {
                 culture = lusitan
-                size = 147978
+                size = 147862
             }
         }
     }
@@ -192,7 +192,7 @@
         region_state:LUS = {
             create_pop = {
                 culture = lusitan
-                size = 109494
+                size = 110114
             }
         }
     }
@@ -200,7 +200,7 @@
         region_state:LUS = {
             create_pop = {
                 culture = lusitan
-                size = 94200
+                size = 93900
             }
         }
     }
@@ -208,7 +208,7 @@
         region_state:LUS = {
             create_pop = {
                 culture = lusitan
-                size = 88983
+                size = 88967
             }
         }
     }
@@ -240,7 +240,7 @@
         region_state:LAM = {
             create_pop = {
                 culture = lambatan
-                size = 190582
+                size = 187011
             }
         }
     }
@@ -248,7 +248,7 @@
         region_state:LAM = {
             create_pop = {
                 culture = lambatan
-                size = 476844
+                size = 476226
             }
         }
     }
@@ -256,7 +256,7 @@
         region_state:LAM = {
             create_pop = {
                 culture = lambatan
-                size = 373038
+                size = 374878
             }
         }
     }
@@ -264,13 +264,13 @@
         region_state:LAM = {
             create_pop = {
                 culture = lambatan
-                size = 239548
+                size = 238218
             }
         }
         region_state:EXA = {
             create_pop = {
                 culture = examplish
-                size = 239548
+                size = 238218
             }
         }
     }
@@ -278,13 +278,13 @@
         region_state:LAM = {
             create_pop = {
                 culture = lambatan
-                size = 162382
+                size = 162360
             }
         }
         region_state:EXA = {
             create_pop = {
                 culture = examplish
-                size = 162382
+                size = 162360
             }
         }
     }
@@ -292,7 +292,7 @@
         region_state:LAM = {
             create_pop = {
                 culture = lambatan
-                size = 192875
+                size = 192850
             }
         }
     }
@@ -300,7 +300,7 @@
         region_state:LAM = {
             create_pop = {
                 culture = lambatan
-                size = 388276
+                size = 388851
             }
         }
     }
@@ -308,7 +308,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = examplish
-                size = 455524
+                size = 452774
             }
         }
     }
@@ -324,7 +324,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = examplish
-                size = 576737
+                size = 576893
             }
         }
     }
@@ -332,7 +332,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = examplish
-                size = 170465
+                size = 170065
             }
         }
     }
@@ -348,7 +348,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = examplish
-                size = 245912
+                size = 242924
             }
         }
     }
@@ -356,7 +356,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = examplish
-                size = 372272
+                size = 372324
             }
         }
     }
@@ -364,7 +364,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = examplish
-                size = 233559
+                size = 233491
             }
         }
     }
@@ -372,7 +372,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = examplish
-                size = 44847
+                size = 45797
             }
         }
     }
@@ -380,7 +380,7 @@
         region_state:TRA = {
             create_pop = {
                 culture = transylvanian
-                size = 143920
+                size = 148033
             }
         }
     }
@@ -388,7 +388,7 @@
         region_state:WOL = {
             create_pop = {
                 culture = examplish
-                size = 355289
+                size = 356793
             }
         }
     }
@@ -396,7 +396,7 @@
         region_state:WOL = {
             create_pop = {
                 culture = examplish
-                size = 32003
+                size = 33535
             }
         }
     }
@@ -404,7 +404,7 @@
         region_state:MER = {
             create_pop = {
                 culture = mery_culture
-                size = 133228
+                size = 134594
             }
         }
     }
@@ -412,7 +412,7 @@
         region_state:MER = {
             create_pop = {
                 culture = mery_culture
-                size = 251414
+                size = 252607
             }
         }
     }
@@ -420,7 +420,7 @@
         region_state:MER = {
             create_pop = {
                 culture = mery_culture
-                size = 226531
+                size = 227400
             }
         }
     }
@@ -428,7 +428,7 @@
         region_state:YOA = {
             create_pop = {
                 culture = yoahtlan
-                size = 57545
+                size = 58495
             }
         }
     }
@@ -436,7 +436,7 @@
         region_state:YOA = {
             create_pop = {
                 culture = yoahtlan
-                size = 184098
+                size = 185059
             }
         }
     }
@@ -496,7 +496,7 @@
         region_state:YOA = {
             create_pop = {
                 culture = yoahtlan
-                size = 363660
+                size = 363638
             }
         }
     }
@@ -512,7 +512,7 @@
         region_state:YOA = {
             create_pop = {
                 culture = resimerian
-                size = 54816
+                size = 55436
             }
         }
     }
@@ -520,7 +520,7 @@
         region_state:YOA = {
             create_pop = {
                 culture = resimerian
-                size = 395205
+                size = 396645
             }
         }
     }
@@ -536,7 +536,7 @@
         region_state:YOA = {
             create_pop = {
                 culture = yoahtlan
-                size = 115572
+                size = 115541
             }
         }
     }
@@ -544,7 +544,7 @@
         region_state:ROZ = {
             create_pop = {
                 culture = examplish
-                size = 37088
+                size = 37213
             }
         }
     }
@@ -552,7 +552,7 @@
         region_state:KAL = {
             create_pop = {
                 culture = kallosian
-                size = 354106
+                size = 342051
             }
         }
     }
@@ -560,7 +560,7 @@
         region_state:KAL = {
             create_pop = {
                 culture = kallosian
-                size = 296881
+                size = 290659
             }
         }
     }
@@ -568,7 +568,7 @@
         region_state:KAL = {
             create_pop = {
                 culture = kallosian
-                size = 370632
+                size = 358969
             }
         }
     }
@@ -576,7 +576,7 @@
         region_state:KAL = {
             create_pop = {
                 culture = kallosian
-                size = 232613
+                size = 221408
             }
         }
     }
@@ -584,7 +584,7 @@
         region_state:KAL = {
             create_pop = {
                 culture = kallosian
-                size = 185541
+                size = 185516
             }
         }
     }
@@ -592,7 +592,7 @@
         region_state:KAL = {
             create_pop = {
                 culture = kallosian
-                size = 275703
+                size = 261981
             }
         }
     }
@@ -600,7 +600,7 @@
         region_state:KAL = {
             create_pop = {
                 culture = kallosian
-                size = 195781
+                size = 190450
             }
         }
     }
@@ -616,7 +616,7 @@
         region_state:KAL = {
             create_pop = {
                 culture = kallosian
-                size = 112402
+                size = 108733
             }
         }
     }
@@ -632,7 +632,7 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 1204893
+                size = 1129377
             }
         }
     }
@@ -648,7 +648,7 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 92745
+                size = 71193
             }
         }
     }
@@ -656,7 +656,7 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 444663
+                size = 439352
             }
         }
     }
@@ -664,7 +664,7 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 516327
+                size = 499921
             }
         }
     }
@@ -672,7 +672,7 @@
         region_state:CLW = {
             create_pop = {
                 culture = augustan
-                size = 216939
+                size = 203713
             }
         }
     }
@@ -688,7 +688,7 @@
         region_state:DOM = {
             create_pop = {
                 culture = augustan
-                size = 628833
+                size = 624008
             }
         }
     }
@@ -696,7 +696,7 @@
         region_state:DOM = {
             create_pop = {
                 culture = augustan
-                size = 414694
+                size = 414674
             }
         }
     }
@@ -704,7 +704,7 @@
         region_state:DOM = {
             create_pop = {
                 culture = augustan
-                size = 129317
+                size = 127906
             }
         }
     }
@@ -712,7 +712,7 @@
         region_state:GRI = {
             create_pop = {
                 culture = griffinian
-                size = 128120
+                size = 127353
             }
         }
     }
@@ -720,7 +720,7 @@
         region_state:GRI = {
             create_pop = {
                 culture = griffinian
-                size = 72420
+                size = 64903
             }
         }
     }
@@ -736,7 +736,7 @@
         region_state:GRI = {
             create_pop = {
                 culture = griffinian
-                size = 66755
+                size = 66781
             }
         }
     }
@@ -744,7 +744,7 @@
         region_state:GRI = {
             create_pop = {
                 culture = griffinian
-                size = 333365
+                size = 321654
             }
         }
     }
@@ -752,7 +752,7 @@
         region_state:PAV = {
             create_pop = {
                 culture = pavian
-                size = 306801
+                size = 305656
             }
         }
     }
@@ -760,7 +760,7 @@
         region_state:PAV = {
             create_pop = {
                 culture = pavian
-                size = 141608
+                size = 141930
             }
         }
     }
@@ -768,7 +768,7 @@
         region_state:PAV = {
             create_pop = {
                 culture = pavian
-                size = 569651
+                size = 571336
             }
         }
     }
@@ -776,7 +776,7 @@
         region_state:PAV = {
             create_pop = {
                 culture = pavian
-                size = 306577
+                size = 308907
             }
         }
     }
@@ -784,7 +784,7 @@
         region_state:NAR = {
             create_pop = {
                 culture = naran
-                size = 467141
+                size = 460100
             }
         }
     }
@@ -792,7 +792,7 @@
         region_state:NAR = {
             create_pop = {
                 culture = naran
-                size = 518052
+                size = 520592
             }
         }
     }
@@ -800,7 +800,7 @@
         region_state:NAR = {
             create_pop = {
                 culture = naran
-                size = 525376
+                size = 525150
             }
         }
     }

@@ -2,8 +2,10 @@
 from pathlib import Path
 import re
 from paths import (
+    MAP_DATA_STATE_REGIONS_FOLDER,
     PROVINCE_TERRAINS_OUTPUT,
     PROVINCE_COLORS_OUTPUT,
+    PROVINCES_NEED_REMOVAL,
     STATES_DATA_YML_OUTPUT,
     STATES_MAP_DATA,
     STATES_MAP_DATA_OUTPUT,
@@ -67,7 +69,7 @@ def calculate_state_population(
     return pop_count
 
 
-def main():
+def main(should_clean_provinces: bool):
     # Prepares Inputs
     biome_data = yaml.load(load_file_into_string("src/input/biomes_mapping.yml"))
     state_data = yaml.load(load_file_into_string("src/input/state_data.yml"))
@@ -92,6 +94,23 @@ def main():
 
     biomes_map = cv2.imread("src/input/biomes.png")
     map_states_data = paradox.loads(load_file_into_string(STATES_MAP_DATA))
+
+    # Find out the amount of provinces that are missing from province_colors
+    provinces_that_need_to_be_removed = defaultdict(list)
+    for file in Path(MAP_DATA_STATE_REGIONS_FOLDER).glob("*.txt"):
+        states_map_data = paradox.loads(load_file_into_string(file.as_posix()))
+        for state_name, state_map_data in states_map_data.items():
+            for province in state_map_data["provinces"]:
+                province = province.removeprefix("x").upper()
+                if province not in province_map:
+                    provinces_that_need_to_be_removed[state_name].append(province)
+                    if should_clean_provinces:
+                        states_map_data[state_name]["provinces"].remove(f"x{province}")
+        if should_clean_provinces:
+            write_to_file(file.as_posix(), paradox.dumps(states_map_data))
+
+    print(f"Writing to {PROVINCES_NEED_REMOVAL}")
+    yaml.dump(dict(provinces_that_need_to_be_removed), Path(PROVINCES_NEED_REMOVAL))
 
     # Calculate arable land resources
     for state_name, map_state_data in map_states_data.items():
@@ -153,7 +172,7 @@ def main():
     print(f"Writing to {STATES_DATA_YML_OUTPUT}")
     yaml.dump(state_data, Path(STATES_DATA_YML_OUTPUT))
 
-    # Temporary province terrain
+    # Temporary province terrain TODO UPDATE TO ACTUAL TERRAIN
     output = (
         "#This is a generated file, do not modify unless you know what you are doing!\n"
     )
@@ -165,4 +184,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(False)

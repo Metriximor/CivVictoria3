@@ -19,6 +19,7 @@ STATES_MAP_DATA_OUTPUT = OUTPUT_FOLDER + "/00_states.txt"
 STATES_DATA_YML_OUTPUT = OUTPUT_FOLDER + "/state_data.yml"
 PROVINCE_TERRAINS_OUTPUT = OUTPUT_FOLDER + "/province_terrains.txt"
 PROVINCE_COLORS_OUTPUT = OUTPUT_FOLDER + "/provinces_colors"
+PROVINCES_NEED_REMOVAL = OUTPUT_FOLDER + "/provinces_that_need_to_be_removed.yml"
 CITY_NAMES_OUTPUT = OUTPUT_FOLDER + "/civ_hubs_l_english.yml"
 # History
 STATES_HISTORY = HISTORY_FOLDER + "/states/00_states.txt"

@@ -1,94 +1,90 @@
-﻿# Vanilla sea states start at 3000 so I've just retained that. Unlike land states, sea states only include one province per state. FOrtunately though, aside from getting a bunch of errors, the game still functions without you deifning these if you dont want to. I've defined the example province map sea provinces though to reduce the error count when you start working on your own.
-#You will want to remove these though if you add your own province map as the game typically doesn't like when you define provinces that arent on the map.
-# Seas
-
-STATE_MEDI_SEA = {
+﻿STATE_MEDI_SEA = {
     id = 3001
-    provinces = { "x0A400D" "x0F410A" "x103510" "x113004" "x9BBAE2" }
+    provinces = { x0A400D x9BBAE2 }
 }
 
 STATE_STONY_SEA = {
     id = 3002
-    provinces = { "x080654" "x0A1C11" "x27031D" "xDAB3D4" }
+    provinces = { x080654 }
 }
 
 STATE_LYREAN_SEA = {
     id = 3003
-    provinces = { "x000C4A" "x104404" "x1A4405" }
+    provinces = { x000C4A }
 }
 
 STATE_FAREASTERN_OCEAN = {
     id = 3004
-    provinces = { "x082334" }
+    provinces = { x082334 }
 }
 
 STATE_MIDDLE_OCEAN = {
     id = 3005
-    provinces = { "x031D2A" "x0E161C" "x1E2902" "x2C0709" "x3CD5E9" "x61B1FE" "x70E2F0" "x7FBDFC" "x83A5E3" "x92A2E9" "xA0BDDA" "xB3E2C3" "xBCB3B3" "xBCD56B" "xCAC3BA" "xD2A7A9" "xD4D6D6" "xD669CF" "xDCBDFD" "xF3B9CD" }
+    provinces = { x031D2A x3CD5E9 x83A5E3 xBCB3B3 xCAC3BA xDCBDFD }
 }
 
 STATE_SOUTHERN_SEA = {
     id = 3006
-    provinces = { "x002F2A" }
+    provinces = { x002F2A }
 }
 
 STATE_LEONA_SEA = {
     id = 3007
-    provinces = { "x035003" "x361B0E" "x440D0A" "xBBA4DA" "xE5A575" "xF5F066" }
+    provinces = { x035003 xE5A575 }
 }
 
 STATE_MERIDIEM_SEA = {
     id = 3008
-    provinces = { "x02092D" }
+    provinces = { x02092D }
 }
 
 STATE_NORTHLANDIC_SEA = {
     id = 3009
-    provinces = { "x123C0F" "x15032D" }
+    provinces = { x123C0F }
 }
 
 STATE_SEA_OF_SNEED = {
     id = 3011
-    provinces = { "x003A17" }
+    provinces = { x003A17 }
 }
 
 STATE_LAKE_MICHIGAN = {
     id = 3012
-    provinces = { "x074E0E" }
+    provinces = { x074E0E }
 }
 
 STATE_AZURE_SEA = {
     id = 3013
-    provinces = { "x4C0C05" }
+    provinces = { x4C0C05 }
 }
-# Lakes
 
 STATE_DREAMLAND_LAKE = {
     id = 3014
-    provinces = { "x440610" }
-    impassable = { "x440610" }
+    provinces = { x440610 }
+    impassable = { x440610 }
 }
 
 STATE_ERIE_LAKE = {
     id = 3015
-    provinces = { "x1F010B" }
-    impassable = { "x1F010B" }
+    provinces = { x1F010B }
+    impassable = { x1F010B }
 }
 
 STATE_IZANAGI_LAKE = {
     id = 3016
-    provinces = { "x040F37" }
-    impassable = { "x040F37" }
+    provinces = { x0A0250 }
+    impassable = { x0A0250 }
 }
 
 STATE_LAMAO_LAKE = {
     id = 3017
-    provinces = { "xF0F8C2" }
-    impassable = { "xF0F8C2" }
+    provinces = { xF0F8C2 }
+    impassable = { xF0F8C2 }
 }
 
 STATE_MELVIN_LAKE = {
     id = 3018
-    provinces = { "x0A0250" }
-    impassable = { "0A0250" }
+    provinces = { x012054 }
+    impassable = { x012054 }
 }
+

@@ -861,25 +861,25 @@
         }
     }
     s:STATE_SANTIAGO = {
-        region_state:CDM = {
+        region_state:AUR = {
             create_pop = {
-                culture = cortesian
+                culture = aurellian
                 size = 203202
             }
         }
     }
     s:STATE_CDM_EXCLAVE = {
-        region_state:CDM = {
+        region_state:AUR = {
             create_pop = {
-                culture = cortesian
+                culture = aurellian
                 size = 104697
             }
         }
     }
     s:STATE_CDM_FRONTIER = {
-        region_state:CDM = {
+        region_state:AUR = {
             create_pop = {
-                culture = cortesian
+                culture = aurellian
                 size = 651778
             }
         }

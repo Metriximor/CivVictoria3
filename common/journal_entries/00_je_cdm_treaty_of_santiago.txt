@@ -1,0 +1,52 @@
+﻿je_cdm_treaty_of_santiago = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	
+	is_shown_when_inactive = {
+		c:CDM = root
+	}
+
+	possible = {
+		AND = {
+			# Aurellia exists
+			exists = c:AUR
+			c:AUR = {
+				# Aurellia is AI
+				is_ai = yes
+				# CDM and Aurellia are allies
+				has_diplomatic_pact = {
+					who = root
+					type = alliance
+				}
+			}
+		}
+	}
+
+	complete = {
+		c:AUR = {
+			# CDM has higher GDP than Aurellia
+			root.gdp > this.gdp
+			g# CDM and Aurellia have high relations
+			relations:root >= relations_threshold:friendly
+			# CDM and Aurellia are in a customs union
+			has_diplomatic_pact = {
+				who = root
+				type = customs_union
+			}
+			# CDM and Aurellia are allies
+			has_diplomatic_pact = {
+				who = root
+				type = alliance
+			}
+		}
+		always = yes
+	}
+
+	on_complete = {
+		# Aurellia is annexed by CDM
+		trigger_event = { id = treaty_of_santiago.1 }
+	}
+
+	progressbar = no
+	weight = 100
+	should_be_pinned_by_default = yes
+}

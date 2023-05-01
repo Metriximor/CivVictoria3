@@ -1,0 +1,8 @@
+﻿DIPLOMACY = {
+	c:CDM = {
+		set_relations = {
+			country = c:AUR
+			value = 75
+		}
+	}
+}

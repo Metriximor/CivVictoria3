@@ -1,0 +1,23 @@
+﻿namespace = treaty_of_santiago
+
+# CDM annexes Aurellia
+treaty_of_santiago.1 = {
+	type = country_event
+	
+	title = treaty_of_santiago.1.t
+	desc = treaty_of_santiago.1.d
+	flavor = treaty_of_santiago.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	trigger = {}
+}

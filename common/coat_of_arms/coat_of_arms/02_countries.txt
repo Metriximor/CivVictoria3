@@ -336,4 +336,27 @@ CDM = {
 		instance = { scale = { 0.42 0.42 } position = { 0.4 0.5 } }
 	}
 }
+AUR = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+		colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = "blue"
+	}
+	colored_emblem = {
+		texture = "ce_shield_heater_border.dds"
+		color1 = "black"
+		color2 = "yellow"
+		color3 = rgb { 139 207 255 }
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_sun_face_gwalior.dds"
+		color1 = "yellow"
+		color2 = "black"
+		color3 = rgb { 139 207 255 }
+		instance = { scale = { 0.45 0.45 } }
+	}
+}
 #####################

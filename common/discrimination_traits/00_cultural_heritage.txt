@@ -12,4 +12,7 @@ udf_heritage = {
 	heritage = yes
 }
 
+augustan_heritage = {
+	heritage = yes
+}
 #####################

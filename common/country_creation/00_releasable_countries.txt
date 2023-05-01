@@ -1,2 +1,10 @@
 ﻿# melia, 
-# that east part of cdm
+
+
+AUR = {
+	capital = STATE_SANTIAGO
+	color = rgb { 51 140 255 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { aurellian }
+}

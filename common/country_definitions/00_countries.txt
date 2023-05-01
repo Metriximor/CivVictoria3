@@ -154,5 +154,13 @@ CDM = {
 	color = rgb { 51 140 255 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { cortesian }
+	cultures = { cortesian aurellian }
+}
+
+AUR = {
+	capital = STATE_SANTIAGO
+	color = rgb { 51 140 255 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { aurellian }
 }

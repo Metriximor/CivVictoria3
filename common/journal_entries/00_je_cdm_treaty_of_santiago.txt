@@ -11,13 +11,15 @@
 		c:AUR = {
 			# Aurellia is AI
 			is_ai = yes
-			# CDM and Aurellia are allies
-			has_diplomatic_pact = {
-				who = root
-				type = alliance
-			}
+			# Aurellia is alive
+			is_country_alive = yes
 			# Aurellia owns Santiago
 			owns_entire_state_region = STATE_SANTIAGO
+		}
+		# CDM and Aurellia are allies
+		has_diplomatic_pact = {
+			who = c:AUR
+			type = alliance
 		}
 	}
 
@@ -27,16 +29,16 @@
 			root.gdp > this.gdp
 			# CDM and Aurellia have high relations
 			relations:root >= relations_threshold:friendly
-			# CDM and Aurellia are in a customs union
-			has_diplomatic_pact = {
-				who = root
-				type = customs_union
-			}
-			# CDM and Aurellia are allies
-			has_diplomatic_pact = {
-				who = root
-				type = alliance
-			}
+		}
+		# CDM and Aurellia are in a customs union
+		has_diplomatic_pact = {
+			who = c:AUR
+			type = customs_union
+		}
+		# CDM and Aurellia are allies
+		has_diplomatic_pact = {
+			who = c:AUR
+			type = alliance
 		}
 	}
 

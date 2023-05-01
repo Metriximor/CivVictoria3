@@ -22,6 +22,12 @@ treaty_of_santiago.1 = {
 
 	trigger = {}
 
+	immediate = {
+		c:AUR = {
+			save_scope_as = treaty_of_santiago_aurellia_scope
+		}
+	}
+
 	option = { # Treaty goes through
 		name = treaty_of_santiago.1.a
 		default_option = yes

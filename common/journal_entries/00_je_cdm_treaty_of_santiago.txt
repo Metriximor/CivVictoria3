@@ -6,18 +6,18 @@
 	}
 
 	possible = {
-		AND = {
-			# Aurellia exists
-			exists = c:AUR
-			c:AUR = {
-				# Aurellia is AI
-				is_ai = yes
-				# CDM and Aurellia are allies
-				has_diplomatic_pact = {
-					who = root
-					type = alliance
-				}
+		# Aurellia exists
+		exists = c:AUR
+		c:AUR = {
+			# Aurellia is AI
+			is_ai = yes
+			# CDM and Aurellia are allies
+			has_diplomatic_pact = {
+				who = root
+				type = alliance
 			}
+			# Aurellia owns Santiago
+			owns_entire_state_region = STATE_SANTIAGO
 		}
 	}
 
@@ -25,7 +25,7 @@
 		c:AUR = {
 			# CDM has higher GDP than Aurellia
 			root.gdp > this.gdp
-			g# CDM and Aurellia have high relations
+			# CDM and Aurellia have high relations
 			relations:root >= relations_threshold:friendly
 			# CDM and Aurellia are in a customs union
 			has_diplomatic_pact = {
@@ -38,15 +38,17 @@
 				type = alliance
 			}
 		}
-		always = yes
 	}
 
 	on_complete = {
 		# Aurellia is annexed by CDM
-		trigger_event = { id = treaty_of_santiago.1 }
+		trigger_event = { 
+			id = treaty_of_santiago.1
+			days = 0
+		}
 	}
 
-	progressbar = no
 	weight = 100
+	
 	should_be_pinned_by_default = yes
 }

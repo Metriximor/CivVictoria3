@@ -3,6 +3,7 @@
 # CDM annexes Aurellia
 treaty_of_santiago.1 = {
 	type = country_event
+	placement = s:STATE_SANTIAGO.region_state:AUR
 	
 	title = treaty_of_santiago.1.t
 	desc = treaty_of_santiago.1.d
@@ -17,7 +18,17 @@ treaty_of_santiago.1 = {
 
 	icon = "gfx/interface/icons/event_icons/event_map.dds"
 
-	duration = 3
+	duration = 120
 
 	trigger = {}
+
+	option = { # Treaty goes through
+		name = treaty_of_santiago.1.a
+		default_option = yes
+		annex = c:AUR
+	}
+
+	option = { # Treaty fails
+		name = treaty_of_santiago.1.b
+	}
 }

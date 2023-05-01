@@ -2,31 +2,7 @@
   je_cdm_treaty_of_santiago: "Treaty of Santiago"
   je_cdm_treaty_of_santiago_reason: "There has long been a bond between the peoples of Cortesia Del Mar and Aurellia, and each nation admires the strengths and assets of the other, perhaps, a united future may enhance both peoples?"
   treaty_of_santiago.1.t: "$je_cdm_treaty_of_santiago$"
-  treaty_of_santiago.1.d: ""
-  WHEREAS there has long been a bond between the peoples of Cortesia Del Mar and Aurellia,
-  WHEREAS each nation admires the strengths and assets of the other, 
-  WHEREAS a united future may enhance both peoples,
-
-  The Republic of Cortesia Del Mar and the Kingdom of Aurellia are hereby merged into a single state.
-
-  I. Nature of the Merger
-  a. The state resulting from the merger of Cortesia Del Mar and Aurellia (hereafter “the merger state”, as needed to distinguish from the preceding Cortesia Del Mar) shall retain the name, flag, and other distinguishing features of Cortesia Del Mar.
-  b. The merger state shall inherit the land claims and other assets of both Cortesia Del Mar and Aurellia. 
-  c. The merger state shall inherit the foreign relations and obligations of both Cortesia Del Mar and Aurellia, insofar as they are consistent with one another.
-  II. Government
-  a. The Provisional Constitution, laws, and other domestic affairs of Cortesia Del Mar shall continue to govern the merger state.
-  b. The King of Aurellia and the Chancellor of Aurellia shall immediately join the Cortesian Secretariat as fully-empowered High Secretaries.
-  III. Nationality
-  a. All Cortesian nationals, whether of Permanent Resident or Citizen status, shall retain their respective roles in the merger state.
-  b. All Aurellian citizens shall receive either Permanent Residency or Citizenship in the merger state, as decided by a special convention of the Cortesian Secretariat following the implementation of (II).
-  IV. Integration of Land
-  a. Santiago shall become the interim capital of the merger state for so long as the Provisional Constitution remains in effect; afterwards, the designation of national capital returns to the jurisdiction of the appropriate governing body.
-  b. A city act for Santiago must be written and ratified, which respects the right of its creators to continue administrating it.
-  c. The current King of Aurellia shall be Mayor of Santiago under the merger state.
-
-  President IceCarim
-  Vice President yodabird19
-  King MrDoomBringer 
-  Chancellor Complexii
-  ""
-  treaty_of_santiago.1.f: "Flavour text hmm tasty"
+  treaty_of_santiago.1.d: "The Treaty of Santiago"
+  treaty_of_santiago.1.f: "WHEREAS there has long been a bond between the peoples of Cortesia Del Mar and Aurellia, WHEREAS each nation admires the strengths and assets of the other, WHEREAS a united future may enhance both peoples. The Republic of Cortesia Del Mar and the Kingdom of Aurellia are hereby merged into a single state."
+  treaty_of_santiago.1.a: "The Republic of Cortesia Del Mar and the Kingdom of Aurellia are hereby merged into a single state."
+  treaty_of_santiago.1.b: "On a second thought..."

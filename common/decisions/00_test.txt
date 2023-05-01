@@ -1,0 +1,19 @@
+﻿test_decision = {
+	is_shown = {
+		root = c:CDM
+	}
+
+	ai_chance = {
+		base = 100
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		trigger_event = { 
+			id = treaty_of_santiago.1
+		}
+	}
+}

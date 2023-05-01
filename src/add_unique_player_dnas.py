@@ -41,6 +41,7 @@ for player, unique_skin_value in unique_player_skin_value.items():
             eye_accessory={{ "normal_eyes" 0 "normal_eyes" 0 }}
             eye_lashes_accessory={{ "normal_eyelashes" 0 "normal_eyelashes" 0 }}
             teeth_accessory={{ "normal_teeth" 0 "normal_teeth" 0 }}
+			flat_clothes={{ "gene_no_clothes" 0 "gene_no_clothes" 0 }}
             gene_no_portrait={{ "no_portrait" 127 "no_portrait" 127 }}
             base_skins={{ "gene_unique_skin" {unique_skin_value} "gene_base_skin" 0 }}
         }}

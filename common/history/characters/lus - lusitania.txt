@@ -17,6 +17,7 @@
 				advanced_diplomat
 				advanced_builder
 				intermediate_botter
+				historical
 			}
 		}
 
@@ -38,6 +39,7 @@
 				advanced_builder
 				beginner_pvper
 				expert_artist
+				historical
 			}
 		}
 	}

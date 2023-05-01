@@ -18,6 +18,7 @@ CHARACTERS = {
 			age = 40
 			traits = {
 				meticulous
+				historical
 			}
 		 }
 	}

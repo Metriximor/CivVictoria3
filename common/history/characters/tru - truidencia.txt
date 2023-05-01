@@ -16,6 +16,7 @@
 				advanced_builder
 				intermediate_diplomat
 				intermediate_artist
+				historical
 			}
 		}
 

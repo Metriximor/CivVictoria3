@@ -12,6 +12,7 @@
 			traits = {
 				advanced_diplomat
 				reserved
+				historical
 			}
 		}
 
@@ -28,6 +29,7 @@
 				wholesome
 				direct
 				experienced_political_operator
+				historical
 			}
 		}
 
@@ -45,6 +47,7 @@
 				wholesome
 				direct
 				experienced_political_operator
+				historical
 			}
 		}
 
@@ -61,6 +64,7 @@
 				wholesome
 				direct
 				experienced_political_operator
+				historical
 			}
 		}
 
@@ -77,6 +81,7 @@
 				wholesome
 				direct
 				experienced_political_operator
+				historical
 			}
 		}
 	}

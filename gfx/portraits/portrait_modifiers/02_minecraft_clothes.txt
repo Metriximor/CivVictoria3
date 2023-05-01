@@ -38,7 +38,12 @@
 					AND = {
 						exists = scope:character
 						scope:character = {
-							culture = cu:truidencian
+							AND = {
+								culture = cu:truidencian
+								NOT = {
+									has_trait = historical
+								}
+							}
 						}
 					}
 				}
@@ -69,7 +74,12 @@
 					AND = {
 						exists = scope:character
 						scope:character = {
-							culture = cu:gensokyojin
+							AND = {
+								culture = cu:gensokyojin
+								NOT = {
+									has_trait = historical
+								}
+							}
 						}
 					}
 				}
@@ -100,7 +110,48 @@
 					AND = {
 						exists = scope:character
 						scope:character = {
-							culture = cu:lambatan
+							AND = {
+								culture = cu:lambatan
+								NOT = {
+									has_trait = historical
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	flat_lusitan_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = flat_clothes
+				template = gene_lusitan_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				OR = {
+					AND = {
+						exists = scope:pop
+						scope:pop = {
+							culture = cu:lusitan
+						}
+					}
+					AND = {
+						exists = scope:character
+						scope:character = {
+							AND = {
+								culture = cu:lusitan
+								NOT = {
+									has_trait = historical
+								}
+							}
 						}
 					}
 				}
@@ -131,38 +182,12 @@
 					AND = {
 						exists = scope:character
 						scope:character = {
-							culture = cu:kallosian
-						}
-					}
-				}
-			}
-		}
-	}
-
-	flat_lusitan_clothes = {
-		dna_modifiers = {
-			accessory = {
-				mode = replace
-				gene = flat_clothes
-				template = gene_lusitan_clothes
-				range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 1
-				OR = {
-					AND = {
-						exists = scope:pop
-						scope:pop = {
-							culture = cu:lusitan
-						}
-					}
-					AND = {
-						exists = scope:character
-						scope:character = {
-							culture = cu:lusitan
+							AND = {
+								culture = cu:kallosian
+								NOT = {
+									has_trait = historical
+								}
+							}
 						}
 					}
 				}

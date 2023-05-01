@@ -89,6 +89,12 @@ wholesome = {
 	value = 3
 }
 
+historical = {
+	type = personality
+	possible = {}
+	value = 0
+}
+
 witty = {
 	type = personality
 	

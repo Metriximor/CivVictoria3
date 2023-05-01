@@ -11,6 +11,7 @@ CHARACTERS = {
 			ideology = ideology_republican
 			interest_group = ig_buildfriends
 			traits = {
+				historical
 			}
 		}
 
@@ -27,6 +28,7 @@ CHARACTERS = {
 				wholesome
 				direct
 				experienced_political_operator
+				historical
 			}
 		}
 
@@ -43,6 +45,7 @@ CHARACTERS = {
 				wholesome
 				direct
 				experienced_political_operator
+				historical
 			}
 		}
 
@@ -60,6 +63,7 @@ CHARACTERS = {
 				wholesome
 				direct
 				experienced_political_operator
+				historical
 			}
 		}
 
@@ -77,6 +81,7 @@ CHARACTERS = {
 				wholesome
 				direct
 				experienced_political_operator
+				historical
 			}
 		}
 
@@ -89,11 +94,12 @@ CHARACTERS = {
 			dna = dna_smal
 			age = { 18 25 }
 			ideology = ideology_republican
-			interest_group = ig_pvper
+			interest_group = ig_pvpers
 			traits = {
 				wholesome
 				direct
 				experienced_political_operator
+				historical
 			}
 		}
 	}

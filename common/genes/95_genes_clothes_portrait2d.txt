@@ -31,7 +31,7 @@
 				1 = top_red_jacket_slim
 			}
 			boy = male
-			girl = male
+			girl = female
 		}
 
 		gene_truidencian_clothes = {
@@ -57,7 +57,7 @@
 				1 = top_red_jacket_slim
 			}
 			boy = male
-			girl = male
+			girl = female
 		}
 
 		gene_gensokyojin_clothes = {
@@ -77,12 +77,14 @@
 
 		gene_lambatan_clothes = {
 			index = 4
-			male = {}
+			male = {
+				1 = empty
+			}
 			female = {
 				1 = top_kapresuit_slim
 			}
 			boy = male
-			girl = male
+			girl = female
 		}
 
 		gene_kallosian_clothes = {
@@ -91,10 +93,10 @@
 				1 = top_diamond_full
 			}
 			female = {
-
+				1 = empty
 			}
 			boy = male
-			girl = male
+			girl = female
 		}
 
 		gene_lusitan_clothes = {
@@ -116,7 +118,7 @@
 				1 = top_red_jacket_slim
 			}
 			boy = male
-			girl = male
+			girl = female
 		}
 	}
 }

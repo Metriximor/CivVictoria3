@@ -25,6 +25,8 @@ lakes = {
 	x040F37 # Izanagi Lake
 	xF0F8C2 # Lake Lamao 
 	x012054 # Lake Melvin
+	x0D3600 # Achelous Lake
+	x7BB9FB # Yoahtl Lake
 	# Out of bounds
 	x02063F
 	x170635

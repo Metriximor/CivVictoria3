@@ -88,3 +88,15 @@ STATE_MELVIN_LAKE = {
     impassable = { x012054 }
 }
 
+STATE_ACHELOUS_LAKE = {
+    id = 3019
+    provinces = { x0D3600 }
+    impassable = { x0D3600 }
+}
+
+STATE_YOAHTL_LAKE = {
+    id = 3020
+    provinces = { x7BB9FB }
+    impassable = { x7BB9FB }
+}
+

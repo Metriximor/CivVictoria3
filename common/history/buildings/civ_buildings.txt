@@ -518,7 +518,7 @@
         }
     }
     s:STATE_SANTIAGO = {
-        region_state:CDM = {
+        region_state:AUR = {
             create_building = {
                 building = building_government_administration
                 level = 1
@@ -528,11 +528,11 @@
         }
     }
     s:STATE_CDM_EXCLAVE = {
-        region_state:CDM = {
+        region_state:AUR = {
         }
     }
     s:STATE_CDM_FRONTIER = {
-        region_state:CDM = {
+        region_state:AUR = {
         }
     }
 }

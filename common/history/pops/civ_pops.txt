@@ -340,7 +340,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = danzilonan
-                size = 130690
+                size = 118741
             }
         }
     }
@@ -371,7 +371,7 @@
     s:STATE_EASTERN_SHINING_ISLES = {
         region_state:DAN = {
             create_pop = {
-                culture = mery_culture
+                culture = danzilonan
                 size = 45797
             }
         }
@@ -395,7 +395,7 @@
     s:STATE_WOLKEN_ISLANDS = {
         region_state:WOL = {
             create_pop = {
-                culture = mery_culture
+                culture = examplish
                 size = 33535
             }
         }
@@ -640,7 +640,7 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 236345
+                size = 241891
             }
         }
     }
@@ -815,15 +815,15 @@
     s:STATE_ICE_SHELF = {
         region_state:CDM = {
             create_pop = {
-                culture = cortesian
-                size = 449884
+                culture = aurellian
+                size = 462499
             }
         }
     }
     s:STATE_NORTH_HADES_ISLANDS = {
         region_state:CDM = {
             create_pop = {
-                culture = cortesian
+                culture = aurellian
                 size = 161848
             }
         }
@@ -831,7 +831,7 @@
     s:STATE_WEST_CDM = {
         region_state:CDM = {
             create_pop = {
-                culture = cortesian
+                culture = aurellian
                 size = 117603
             }
         }
@@ -839,7 +839,7 @@
     s:STATE_IMBLOC = {
         region_state:CDM = {
             create_pop = {
-                culture = cortesian
+                culture = aurellian
                 size = 86032
             }
         }
@@ -847,7 +847,7 @@
     s:STATE_CONCORD = {
         region_state:CDM = {
             create_pop = {
-                culture = cortesian
+                culture = aurellian
                 size = 297667
             }
         }
@@ -855,7 +855,7 @@
     s:STATE_SOUTH_CDM = {
         region_state:CDM = {
             create_pop = {
-                culture = cortesian
+                culture = aurellian
                 size = 318486
             }
         }

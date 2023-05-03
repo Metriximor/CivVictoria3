@@ -37,7 +37,7 @@ save_neighbor_with_state = {
 warlord_setup_effect = {
 	activate_law = law_type:law_autocracy 
 	activate_law = law_type:law_presidential_republic
-	activate_law = law_type:law_peasant_levies
+	activate_law = law_type:law_designated_clickers
 		
 	every_scope_character = {
 		random_list = {

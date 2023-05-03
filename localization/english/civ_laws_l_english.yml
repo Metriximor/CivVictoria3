@@ -1,0 +1,11 @@
+﻿l_english:
+  law_disarmed_nation: "Disarmed Nation"
+  law_disarmed_nation_desc: "The nation is completely disarmed, relying on diplomacy, culture and allies to back it up at a world stage."
+  law_only_volunteers: "Only Volunteers"
+  law_only_volunteers_desc: "There is no organized army, and it mostly consists of a few volunteers who put themselves in risk to protect their nation."
+  law_national_militia: "National Militia"
+  law_national_militia: "There is a more organized army, involving a larger part of the populace, to protect the nation from possible threats."
+  law_designated_clickers: "Designated Clickers"
+  law_designated_clickers: "A few highly skilled individuals protect the nation."
+  law_army_with_a_state: "Army with a State"
+  law_army_with_a_state_desc: "The State and the Army are one and the same, with the staggering majority of the nation participating in the army."

@@ -11,9 +11,8 @@ effect_starting_politics_liberal = {
 	activate_law = law_type:law_interventionism
 	activate_law = law_type:law_mercantilism	
 	activate_law = law_type:law_cultural_exclusion
-	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_national_militia
 	activate_law = law_type:law_no_migration_controls
-	activate_law = law_type:law_professional_army
 }
 
 effect_starting_politics_conservative = {
@@ -29,9 +28,8 @@ effect_starting_politics_conservative = {
 	activate_law = law_type:law_mercantilism
 	activate_law = law_type:law_serfdom_banned
 	activate_law = law_type:law_censorship
-	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_national_militia
 	activate_law = law_type:law_migration_controls
-	activate_law = law_type:law_professional_army
 }
 
 effect_starting_politics_reactionary = {
@@ -46,9 +44,8 @@ effect_starting_politics_reactionary = {
 	activate_law = law_type:law_mercantilism
 	activate_law = law_type:law_serfdom_banned
 	activate_law = law_type:law_censorship
-	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_national_militia
 	activate_law = law_type:law_migration_controls
-	activate_law = law_type:law_professional_army
 }
 
 effect_starting_politics_traditional = {
@@ -66,7 +63,7 @@ effect_starting_politics_traditional = {
 		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_right_of_assembly	
 		activate_law = law_type:law_serfdom
-		activate_law = law_type:law_peasant_levies	
+		activate_law = law_type:law_only_volunteers	
 		activate_law = law_type:law_closed_borders
 	}
 	else = {
@@ -80,7 +77,7 @@ effect_starting_politics_traditional = {
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_serfdom
 		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_peasant_levies	
+		activate_law = law_type:law_only_volunteers	
 		activate_law = law_type:law_closed_borders
 	}
 }

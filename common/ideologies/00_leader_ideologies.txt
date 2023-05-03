@@ -393,10 +393,11 @@ ideology_pacifist = {
 	character_ideology = yes
 
 	lawgroup_army_model = {
-		law_national_militia = approve
-		law_professional_army = disapprove
-		law_peasant_levies = disapprove
-		law_mass_conscription = disapprove
+		law_disarmed_nation = strongly_approve
+		law_only_volunteers = approve
+		law_national_militia = disapprove
+		law_designated_clickers = neutral
+		law_army_with_a_state = strongly_disapprove
 	}
 
 	lawgroup_colonization = {		
@@ -417,8 +418,7 @@ ideology_pacifist = {
 					NOR = {
 						has_law = law_type:law_colonial_resettlement
 						has_law = law_type:law_colonial_exploitation
-						has_law = law_type:law_peasant_levies
-						has_law = law_type:law_mass_conscription
+						has_law = law_type:law_disarmed_nation
 					}
 				}
 			}
@@ -460,11 +460,12 @@ ideology_jingoist_leader = {
 	
 	character_ideology = yes
 	
-	lawgroup_army_model = {
-		law_mass_conscription = strongly_approve
-		law_professional_army = approve
+    lawgroup_army_model = {
+		law_disarmed_nation = strongly_disapprove
+		law_only_volunteers = strongly_disapprove
 		law_national_militia = neutral
-		law_peasant_levies = disapprove
+		law_designated_clickers = approve
+		law_army_with_a_state = strongly_approve
 	}
 
 	lawgroup_colonization = {		
@@ -824,10 +825,11 @@ ideology_fascist = {
 	}
 
 	lawgroup_army_model = {
-		law_mass_conscription = strongly_approve
-		law_professional_army = approve
-		law_national_militia = disapprove
-		law_peasant_levies = disapprove
+		law_disarmed_nation = strongly_disapprove
+		law_only_volunteers = strongly_disapprove
+		law_national_militia = neutral
+		law_designated_clickers = approve
+		law_army_with_a_state = strongly_approve
 	}
 
 	lawgroup_free_speech = {
@@ -946,10 +948,11 @@ ideology_anarchist = {
 	}
 
 	lawgroup_army_model = {
-		law_professional_army = strongly_approve
-		law_national_militia = approve
-		law_peasant_levies = disapprove
-		law_mass_conscription = strongly_disapprove
+		law_disarmed_nation = approve
+		law_only_volunteers = strongly_approve
+		law_national_militia = disapprove
+		law_designated_clickers = disapprove
+		law_army_with_a_state = strongly_disapprove
 	}
 
 	lawgroup_free_speech = {

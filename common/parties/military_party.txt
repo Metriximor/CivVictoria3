@@ -54,30 +54,6 @@ military_party = {
 				desc = "from_no_police"
 			}
 		}
-		if = { # opposition to peasant levies
-			limit = {
-				OR = {
-					has_ideology = ideology_jingoist
-					has_ideology = ideology_particularist
-					has_ideology = ideology_sikh_moralist
-					leader = {
-						OR = {
-							has_ideology = ideology_fascist
-							has_ideology = ideology_anarchist
-							has_ideology = ideology_pacifist
-							has_ideology = ideology_jingoist_leader
-						}
-					}
-				}
-				owner = {
-					has_law = law_type:law_peasant_levies
-				}
-			}
-			add = {
-				value = 3
-				desc = "from_peasant_levies"
-			}
-		}
 		if = { # loyalist-proletarian alliance for tax reform
 			limit = {
 				OR = {

@@ -27,6 +27,8 @@ lakes = {
 	x012054 # Lake Melvin
 	x0D3600 # Achelous Lake
 	x7BB9FB # Yoahtl Lake
+	x034414 # Biwa Lake
+	x352107 # Topher Lake
 	# Out of bounds
 	x02063F
 	x170635

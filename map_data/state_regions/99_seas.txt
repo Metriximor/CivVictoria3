@@ -100,3 +100,15 @@ STATE_YOAHTL_LAKE = {
     impassable = { x7BB9FB }
 }
 
+STATE_BIWA_LAKE = {
+    id = 3021
+    provinces = { x034414 }
+    impassable = { x034414 }
+}
+
+STATE_TOPHER_LAKE = {
+    id = 3022
+    provinces = { x352107 }
+    impassable = { x352107 }
+}
+

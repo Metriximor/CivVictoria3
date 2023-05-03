@@ -59,8 +59,8 @@ gov_military_dictatorship = {
 		has_law = law_type:law_presidential_republic
 		has_law = law_type:law_autocracy 
 		OR = {
-			has_law = law_type:law_mass_conscription
-			has_law = law_type:law_professional_army
+			has_law = law_type:law_designated_clickers
+			has_law = law_type:law_army_with_a_state
 		}
 	}
 }
@@ -75,7 +75,8 @@ gov_presidential_dictatorship = {
 		has_law = law_type:law_presidential_republic
 		has_law = law_type:law_autocracy 
 		OR = {
-			has_law = law_type:law_peasant_levies
+			has_law = law_type:law_army_with_a_state
+            has_law = law_type:law_designated_clickers
 			has_law = law_type:law_national_militia
 		}
 	}
@@ -91,8 +92,8 @@ gov_junta = {
 		has_law = law_type:law_presidential_republic
 		country_has_voting_franchise = no
 		OR = {
-			has_law = law_type:law_mass_conscription
-			has_law = law_type:law_professional_army
+			has_law = law_type:law_army_with_a_state
+			has_law = law_type:law_designated_clickers
 		}
 	}
 }

@@ -286,12 +286,12 @@ ideology_patriotic = {
 		law_no_police = disapprove
 	}	
 
-	lawgroup_internal_security = {
-		law_secret_police = approve
-		law_national_guard = approve
-		law_no_home_affairs = disapprove
-		law_guaranteed_liberties = strongly_disapprove
-	}	
+	lawgroup_legal_system = {
+        law_lawless = strongly_disapprove
+        law_no_formal_legal_system = disapprove
+        law_simple_legal_system = approve
+        law_complex_legal_system = approve
+    }
 	
 	lawgroup_free_speech = {
 		law_outlawed_dissent = strongly_approve
@@ -348,13 +348,13 @@ ideology_liberal = {
 		law_local_police = disapprove
 		law_militarized_police = strongly_disapprove
 	}
-	
-	lawgroup_internal_security = {
-		law_guaranteed_liberties = strongly_approve
-		law_no_home_affairs = neutral
-		law_national_guard = disapprove
-		law_secret_police = disapprove
-	}
+    
+    lawgroup_legal_system = {
+        law_lawless = approve
+        law_no_formal_legal_system = strongly_approve
+        law_simple_legal_system = neutral
+        law_complex_legal_system = disapprove
+    }
 	
 	lawgroup_free_speech = {
 		law_protected_speech = strongly_approve

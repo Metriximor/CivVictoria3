@@ -1,4 +1,5 @@
 ﻿l_english:
+  # Army system
   law_disarmed_nation: "Disarmed Nation"
   law_disarmed_nation_desc: "The nation is completely disarmed, relying on diplomacy, culture and allies to back it up at a world stage."
   law_only_volunteers: "Only Volunteers"
@@ -9,9 +10,21 @@
   law_designated_clickers: "A few highly skilled individuals protect the nation."
   law_army_with_a_state: "Army with a State"
   law_army_with_a_state_desc: "The State and the Army are one and the same, with the staggering majority of the nation participating in the army."
+  # Bureaucracy
   law_majority_newfriends: "Newfriend Bureaucrats"
   law_majority_newfriends_desc: "Newfriends have less experience governing a country, but always have wackier ideas."
   law_mixed_bureaucracy: "Mixed Bureaucracy"
   law_mixed_bureaucracy_desc: "The Icenian and Lambatan system, where oldfriends mostly rule but accept newfriends into lower ranks of government, thus giving newfriends something to strive to. Historically these tend to be the most populated nations."
   law_majority_oldfriends: "Oldfriend Bureaucrats"
   law_majority_oldfriends_desc: "Oldfriends know the community and have ample knowledge of gameplay mechanics. However they are also usually more careful towards changing the status quo."
+  # Law System
+  lawgroup_law_system: "Law System"
+  lawgroup_law_system_desc: "How the law is applied in your nation"
+  law_lawless: "Lawless"
+  law_lawless_desc: "This society has little to no established laws."
+  law_no_formal_legal_system: "No Formal Legal System"
+  law_no_formal_legal_system_desc: "A public forum is used to resolve quarrels. Issues are addressed on a case per case basis by the ruler or a general consensus of the populace."
+  law_simple_legal_system: "Simple Legal System"
+  law_simple_legal_system_desc: "A developed constitution or similar document is used to resolve disputes, but if unable to cover a specific situation, a ruler or judge will decide the best course of action."
+  law_complex_legal_system: "Complex Legal System"
+  law_complex_legal_system_desc: "An intricate constitution with well-established legal and penal systems with drawn jurisdictional processes, where complex court cases and a multitude of laws create a tapestry of political intrigue and legal drama."

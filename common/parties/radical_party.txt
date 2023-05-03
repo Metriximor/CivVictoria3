@@ -252,8 +252,7 @@ radical_party = {
 				}
 				owner = {
 					OR = {
-						has_law = law_type:law_national_guard
-						has_law = law_type:law_secret_police
+						has_law = law_type:law_complex_legal_system
 					}
 				}
 			}

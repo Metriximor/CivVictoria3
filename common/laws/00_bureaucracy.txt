@@ -6,7 +6,7 @@
 
     modifier = {
         state_tax_capacity_mult = -0.25
-        country_newfriends_voting_power_add = 0.2
+        country_newfriends_voting_power_add = 2
         technology_invention_cost_mult = -0.2
     }
 
@@ -22,7 +22,7 @@ law_mixed_bureaucracy = {
     modifier = {
         state_tax_capacity_mult = 0.1
         state_birth_rate_mult = 0.1 # More people spawn in mixed systems like Lambat and Icenia
-        country_oldfriends_voting_power_add = 0.15
+        country_oldfriends_voting_power_add = 1.5
         country_influence_add = 50
     }
 
@@ -41,10 +41,12 @@ law_majority_oldfriends = {
     modifier = {
         building_throughput_mult = 0.15
         country_bureaucracy_investment_cost_factor_mult = -0.15
-        country_oldfriends_voting_power_add = 0.25
+        country_oldfriends_voting_power_add = 2.5
         country_authority_add = 100
         country_government_wages_mult = 0.5
-        interest_group_approval_add = -2
+        # Harder to break the status quo
+        country_law_enactment_success_add = -.075
+        country_law_enactment_time_mult = 0.1
     }
 
     possible_political_movements = {

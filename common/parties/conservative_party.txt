@@ -218,11 +218,11 @@ conservative_party = {
 				desc = "from_multiculturalism"
 			}
 		}
-		if = { # patriots don't like freedom
+		if = { # patriots don't like changing the status quo
 			limit = {
 				has_ideology = ideology_patriotic
 				owner = {
-					has_law = law_type:law_guaranteed_liberties
+					has_law = law_type:law_complex_legal_system
 				}
 			}
 			add = {

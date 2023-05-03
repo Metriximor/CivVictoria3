@@ -91,6 +91,7 @@ wholesome = {
 
 historical = {
 	type = personality
+    texture = "gfx/interface/icons/character_trait_icons/historical.dds"
 	possible = {}
 	value = 0
 }

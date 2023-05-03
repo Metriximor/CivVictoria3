@@ -41,8 +41,15 @@
  expert_botter_desc: "This player is considered one of the most influential programmers in the community, their abilities influencing the community through the creation of new web apps or server plugins."
 
  elawyer: "E-Lawyer"
+ elawyer_desc: "This player likes to engage in, draw up and participate in the legal system of many nations."
  dramatic: "Dramatic"
+ dramatic_desc: "This player is often involved in drama and dramatic situations."
  verbose: "Verbose"
+ verbose_desc: "This player is fond of writing many words to communicate their intentions."
  wholesome: "Wholesome"
+ wholesome_desc: "This player is considered wholesome (hsm) and regularly cheers up other players."
  witty: "Witty"
+ witty_desc: "This player is witty and has a charming sense of humour."
+ historical: "Historical"
+ historical_desc: "This player is based on a real civ player and most likely has their own civwiki page."
  

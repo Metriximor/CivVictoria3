@@ -10,7 +10,7 @@ law_autocracy = {
 	progressiveness = -100
 
 	on_activate = {
-		deactivate_law = law_type:law_elected_bureaucrats
+		deactivate_law = law_type:law_majority_newfriends
 		scripted_effect_parties_disappearence = yes
 	}
 
@@ -36,7 +36,6 @@ law_oligarchy = {
 	progressiveness = -50
 
 	on_activate = {
-		deactivate_law = law_type:law_elected_bureaucrats
 		scripted_effect_parties_disappearence = yes
 	}
 	
@@ -71,7 +70,6 @@ law_elder_council = {
 	}
 	
 	on_activate = {
-		deactivate_law = law_type:law_elected_bureaucrats
 		scripted_effect_parties_disappearence = yes
 	}
 

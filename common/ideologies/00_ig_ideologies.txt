@@ -18,11 +18,11 @@
 		law_universal_suffrage = strongly_disapprove
 		law_anarchy = strongly_disapprove
 	}
-	
-	lawgroup_bureaucracy = {
-		law_hereditary_bureaucrats = approve
-		law_appointed_bureaucrats = neutral
-		law_elected_bureaucrats = disapprove
+
+    lawgroup_bureaucracy = {
+		law_majority_newfriends = disapprove
+		law_mixed_bureaucracy = neutral
+		law_majority_oldfriends = approve
 	}
 
 	lawgroup_policing = {
@@ -262,10 +262,10 @@ ideology_meritocratic = {
 	icon = "gfx/interface/icons/ideology_icons/meritocratic.dds"
 
 	lawgroup_bureaucracy = {
-		law_elected_bureaucrats = approve
-		law_appointed_bureaucrats = neutral		
-		law_hereditary_bureaucrats = disapprove
-	}	
+		law_majority_newfriends = neutral
+		law_mixed_bureaucracy = strongly_approve
+		law_majority_oldfriends = neutral
+	}
 	
 	lawgroup_taxation = {
 		law_per_capita_based_taxation = approve
@@ -387,10 +387,10 @@ ideology_anti_clerical = {
 		law_religious_schools = disapprove		
 	}
 
-	lawgroup_bureaucracy = {
-		law_appointed_bureaucrats = approve
-		law_elected_bureaucrats = neutral	
-		law_hereditary_bureaucrats = disapprove
+    lawgroup_bureaucracy = {
+		law_majority_newfriends = neutral
+		law_mixed_bureaucracy = approve
+		law_majority_oldfriends = neutral
 	}
 }
 

@@ -285,8 +285,6 @@ has_paternalist_ideology = {
 	OR = {
 		has_ideology = ideology_paternalistic
 		has_ideology = ideology_scholar_paternalistic
-		has_ideology = ideology_junker_paternalistic
-		has_ideology = ideology_papal_paternalistic
 	}
 }
 

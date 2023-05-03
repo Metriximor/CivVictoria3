@@ -102,7 +102,7 @@ STATE_YOAHTL_LAKE = {
 
 STATE_BIWA_LAKE = {
     id = 3021
-    provinces = { x034414 }
+    provinces = { x034414 "x200D1D" }
     impassable = { x034414 }
 }
 

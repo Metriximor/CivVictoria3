@@ -29,9 +29,8 @@ law_serfdom = {
 	progressiveness = -50
 	
 	disallowing_laws = {
-		law_interventionism
+		law_mixed_economy
 		law_laissez_faire
-		law_command_economy
 	}
 	
 	modifier = {

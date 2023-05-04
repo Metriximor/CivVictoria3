@@ -28,3 +28,12 @@
   law_simple_legal_system_desc: "A developed constitution or similar document is used to resolve disputes, but if unable to cover a specific situation, a ruler or judge will decide the best course of action."
   law_complex_legal_system: "Complex Legal System"
   law_complex_legal_system_desc: "An intricate constitution with well-established legal and penal systems with drawn jurisdictional processes, where complex court cases and a multitude of laws create a tapestry of political intrigue and legal drama."
+  # Economy system
+  law_newfriend_economy: "Newfriend Economy"
+  law_newfriend_economy_desc: "A newfriend economy, where factories are not yet set up, mostly due to lack of knowledge of game mechanics. Easy to manage but not very effective."
+  law_planned_economy: "Planned Economy"
+  law_planned_economy_desc: "The government acquires and owns the factories and farms. The national economy benefits from not having to acquire multiple of the same resource and can better coordinate, however in economic crisis a lack of resources can lead to an internal crisis if badly managed."
+  law_mixed_economy: "Mixed Economy"
+  law_mixed_economy_desc: "The government owns some factories and some farms, which it uses to produce basic necessary goods for the general populace but most specialized factories are owned by private individuals who sell the goods on the market."
+  law_laissez_faire: "Market Economy"
+  law_laissez_faire_desc: "Private individuals and corporations own the factories and the farms, with the government having little input or ownership in what’s produced. The government has less immediate access to resources and control of the economy."

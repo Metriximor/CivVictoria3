@@ -724,12 +724,11 @@ ideology_vanguardist = {
 		law_landed_voting = strongly_disapprove
 	}
 	
-	lawgroup_economic_system = {	
-		law_command_economy = strongly_approve
-		law_interventionism = neutral
-		law_agrarianism = disapprove
-		law_traditionalism = disapprove		
-		law_laissez_faire = strongly_disapprove
+	lawgroup_economic_system = {		
+        law_newfriend_economy = strongly_disapprove
+        law_planned_economy = strongly_approve
+        law_mixed_economy = neutral
+        law_laissez_faire = disapprove
 	}
 	
 	lawgroup_trade_policy = {		
@@ -1197,12 +1196,11 @@ ideology_market_liberal = {
 	
 	character_ideology = yes
 
-	lawgroup_economic_system = {	
-		law_laissez_faire = strongly_approve
-		law_interventionism = neutral
-		law_agrarianism = disapprove
-		law_traditionalism = disapprove		
-		law_command_economy = strongly_disapprove
+	lawgroup_economic_system = {		
+        law_newfriend_economy = approve
+        law_planned_economy = strongly_disapprove
+        law_mixed_economy = neutral
+        law_laissez_faire = strongly_approve
 	}
 	
 	lawgroup_childrens_rights = {
@@ -1231,8 +1229,7 @@ ideology_market_liberal = {
 			limit = {
 				owner = {
 					OR = {
-						has_law = law_type:law_agrarianism
-						has_law = law_type:law_traditionalism
+						has_law = law_type:law_newfriend_economy
 						has_law = law_type:law_isolationism
 						has_law = law_type:law_mercantilism
 					}

@@ -77,7 +77,7 @@ law_free_trade = {
 	progressiveness = 50
 	
 	disallowing_laws = {
-		law_command_economy
+		law_planned_economy
 	}	
 	
 	unlocking_technologies = {

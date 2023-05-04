@@ -1,6 +1,6 @@
 ﻿lambatan = {
 	color = { 248 239 0 }
-	religion = examplian
+	religion = non_religious
 	traits = {
 		medi_sea_heritage
 		medi_sea_culture_group

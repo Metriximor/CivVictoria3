@@ -1,6 +1,6 @@
-augustan = {
-	color = { 91 104 220 }
-	religion = examplian
+﻿septembrian = {
+	color = rgb { 229 57 53 }
+	religion = non_religious
 	traits = { augustan_heritage augustan_culture_group english }
 	male_common_first_names = {
 	comrade	

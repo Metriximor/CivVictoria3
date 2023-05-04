@@ -1,5 +1,6 @@
 ﻿l_english:
- bezism:0 "Bezist"
- rhayatshola:0 "rha'yatshola"
- melonism:0 "Melonist"
- taoism:0 "Taoist"
+  bezism: "Bezist"
+  rhayatshola: "rha'yatshola"
+  melonism: "Melonist"
+  taoism: "Taoist"
+  non_religious: "Non Religious"

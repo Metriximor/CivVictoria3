@@ -252,10 +252,10 @@ GRI = {
 
 MTA = {
 	pattern = "pattern_solid.tga"
-	color1 = "lusitan_shield_blue"
+	color1 = "augustan_blue"
 	colored_emblem = {
 		texture = "ce_canton.dds"
-		color1 = "gensokyojin_red"
+		color1 = "augustan_red"
 		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
 	}
 }

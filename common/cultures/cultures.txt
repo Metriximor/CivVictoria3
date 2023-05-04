@@ -1,7 +1,7 @@
 ﻿examplish={ #Culture name will be used until localisation is provided.
 	color= rgb{ 83 175 237 } #Colour of the culture under the culture lens.
-	religion = examplian #Default religion for pops of this culture.
-	traits = { example_heritage examplian } #Discrimination traits defined in common\discrimination_traits
+	religion = non_religious #Default religion for pops of this culture.
+	traits = { example_heritage non_religious } #Discrimination traits defined in common\discrimination_traits
 	male_common_first_names = {
 		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Abel Abijah Alonzo Ansel Amos Absalom
 		Benjamin Bartholomew Byron Benedict Barnabas Bildad

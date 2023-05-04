@@ -1,6 +1,6 @@
 ﻿###### EXAMPLE ######
 
-examplian = {
+non_religious = {
 	heritage = yes
 }
 

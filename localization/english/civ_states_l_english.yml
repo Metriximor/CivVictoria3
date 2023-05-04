@@ -89,7 +89,7 @@
   STATE_KROVIDENCIA:0 "Krovidencia"
   STATE_ARCTIC_AND_EAST_TITAN:0 "East Titan"
   STATE_MOUNT_AUGUSTA:0 "Mount Augusta"
-  STATE_SOUTH_MOUNT_AUGUSTA:0 "south Mount Augusta"
+  STATE_SOUTH_MOUNT_AUGUSTA:0 "South Mount Augusta"
   STATE_GLATTEIS:0 "Glatteis"
   STATE_EAST_MOUNT_AUGUSTA:0 "East Mount Augusta"
   STATE_EXCLAVE_MOUNT_AUGUSTA:0 "Mount Augusta Exclave"

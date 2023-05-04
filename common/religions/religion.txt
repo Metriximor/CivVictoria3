@@ -2,7 +2,7 @@
 
 ###### EXAMPLE ######
 
-examplian = {
+non_religious = {
 	texture = "gfx/interface/icons/religion_icons/catholic.dds"
 	traits = {
 		christian

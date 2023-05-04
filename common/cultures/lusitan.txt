@@ -1,6 +1,6 @@
 ﻿lusitan = { 
 	color = rgb { 207 0 0 } 
-	religion = examplian 
+	religion = non_religious 
 	traits = { medi_sea_heritage medi_sea_culture_group english portuguese filipino }
 	graphics = european
 	male_common_first_names={

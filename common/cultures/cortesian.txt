@@ -1,6 +1,6 @@
 cortesian = { 
     color = { 51 140 255 } 
-    religion = examplian
+    religion = non_religious
     traits = { cdm_heritage alenarith_culture_group english }
     male_common_first_names={
 
@@ -28,7 +28,7 @@ cortesian = {
 
 aurellian = { 
     color = { 128 160 215 } 
-    religion = examplian
+    religion = non_religious
     traits = { ?_heritage medi_sea_culture_group english }
     male_common_first_names={
 

@@ -220,13 +220,28 @@ STATE_ARCTIC_AND_EAST_TITAN:
   population: 108733
 STATE_MOUNT_AUGUSTA:
   population: 1129377
+  pops:
+  - culture: augustan
+    ratio: 7
+  - culture: septembrian
+    ratio: 2
 STATE_SOUTH_MOUNT_AUGUSTA:
   population: 241891
+  pops:
+  - culture: augustan
+    ratio: 7
+  - culture: septembrian
+    ratio: 3
 STATE_GLATTEIS:
   population: 71193
 STATE_EAST_MOUNT_AUGUSTA:
   naval_exit_id: STATE_STONY_SEA
   population: 439352
+  pops:
+  - culture: augustan
+    ratio: 7
+  - culture: septembrian
+    ratio: 2
 STATE_EXCLAVE_MOUNT_AUGUSTA:
   naval_exit_id: STATE_STONY_SEA
   population: 499921

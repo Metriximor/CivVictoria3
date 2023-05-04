@@ -51,6 +51,12 @@ colors = {
 	# Misc colors
 	bizantine_purple = rgb { 112 41 99 }
 
+    # Augusta
+    septembrian_red = rgb { 229 57 53 }
+    septembrian_blue = rgb { 40 53 147 }
+    augustan_red = rgb { 255 0 0 }
+    augustan_blue = rgb { 0 54 167 }
+
 	# Base Colors
 	cobblestone = rgb { 173 167 169 }
 	grass_green = rgb { 0 154 23 }

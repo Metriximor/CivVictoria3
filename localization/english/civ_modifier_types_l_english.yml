@@ -1,0 +1,10 @@
+﻿l_english:
+  modifier_state_midfriends_investment_pool_contribution_add: "$midfriends$ [concept_investment_pool] contribution"
+  modifier_state_midfriends_investment_pool_contribution_add_desc: "How much of their profits $midfriends$ will invest"
+  modifier_state_midfriends_investment_pool_efficiency_mult: "An increase or decrease to how much the invested profits from $midfriends$ will contribute to the [concept_investment_pool]"
+  modifier_state_newfriends_investment_pool_contribution_add: "$newfriends$ [concept_investment_pool] contribution"
+  modifier_state_newfriends_investment_pool_contribution_add_desc: "How much of their profits $newfriends$ will invest"
+  modifier_state_newfriends_investment_pool_efficiency_mult: "An increase or decrease to how much the invested profits from $newfriends$ will contribute to the [concept_investment_pool]"
+  modifier_state_oldfriends_investment_pool_contribution_add: "$oldfriends$ [concept_investment_pool] contribution"
+  modifier_state_oldfriends_investment_pool_contribution_add_desc: "How much of their profits $oldfriends$ will invest"
+  modifier_state_oldfriends_investment_pool_efficiency_mult: "An increase or decrease to how much the invested profits from $oldfriends$ will contribute to the [concept_investment_pool]"

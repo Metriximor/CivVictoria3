@@ -5,13 +5,8 @@ from os import remove
 from os.path import isfile
 from collections import defaultdict
 from pathlib import Path
-from ruamel.yaml import YAML
-from ruamel.yaml.scalarstring import DoubleQuotedScalarString as dq
 
 UTF_8_BOM = "utf-8-sig"
-
-yaml = YAML(typ="rt")
-yaml.default_flow_style = False
 
 
 def file_exists(path):

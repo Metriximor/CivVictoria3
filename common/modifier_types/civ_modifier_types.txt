@@ -841,14 +841,44 @@ building_group_bg_agriculture_employee_mult = {
 building_group_bg_agriculture_mortality_mult = {
 }
 
-building_group_bg_agriculture_standard_of_living_add  = {
+building_group_bg_agriculture_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_agriculture_tax_mult  = {
+building_group_bg_agriculture_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_agriculture_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_agriculture_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_agriculture_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_agriculture_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_agriculture_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_agriculture_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_subsistence_agriculture = {
@@ -864,14 +894,44 @@ building_group_bg_subsistence_agriculture_employee_mult = {
 building_group_bg_subsistence_agriculture_mortality_mult = {
 }
 
-building_group_bg_subsistence_agriculture_standard_of_living_add  = {
+building_group_bg_subsistence_agriculture_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_subsistence_agriculture_tax_mult  = {
+building_group_bg_subsistence_agriculture_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_subsistence_agriculture_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_subsistence_agriculture_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_subsistence_agriculture_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_subsistence_agriculture_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_subsistence_agriculture_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_subsistence_agriculture_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_public_infrastructure = {
@@ -887,14 +947,44 @@ building_group_bg_public_infrastructure_employee_mult = {
 building_group_bg_public_infrastructure_mortality_mult = {
 }
 
-building_group_bg_public_infrastructure_standard_of_living_add  = {
+building_group_bg_public_infrastructure_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_public_infrastructure_tax_mult  = {
+building_group_bg_public_infrastructure_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_public_infrastructure_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_public_infrastructure_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_public_infrastructure_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_public_infrastructure_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_public_infrastructure_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_public_infrastructure_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_construction = {
@@ -910,14 +1000,44 @@ building_group_bg_construction_employee_mult = {
 building_group_bg_construction_mortality_mult = {
 }
 
-building_group_bg_construction_standard_of_living_add  = {
+building_group_bg_construction_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_construction_tax_mult  = {
+building_group_bg_construction_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_construction_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_construction_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_construction_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_construction_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_construction_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_construction_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_military = {
@@ -933,14 +1053,44 @@ building_group_bg_military_employee_mult = {
 building_group_bg_military_mortality_mult = {
 }
 
-building_group_bg_military_standard_of_living_add  = {
+building_group_bg_military_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_military_tax_mult  = {
+building_group_bg_military_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_military_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_military_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_military_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_military_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_military_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_military_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_army = {
@@ -956,14 +1106,44 @@ building_group_bg_army_employee_mult = {
 building_group_bg_army_mortality_mult = {
 }
 
-building_group_bg_army_standard_of_living_add  = {
+building_group_bg_army_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_army_tax_mult  = {
+building_group_bg_army_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_army_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_army_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_army_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_army_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_army_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_army_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_navy = {
@@ -979,14 +1159,44 @@ building_group_bg_navy_employee_mult = {
 building_group_bg_navy_mortality_mult = {
 }
 
-building_group_bg_navy_standard_of_living_add  = {
+building_group_bg_navy_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_navy_tax_mult  = {
+building_group_bg_navy_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_navy_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_navy_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_navy_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_navy_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_navy_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_navy_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_service = {
@@ -1002,14 +1212,44 @@ building_group_bg_service_employee_mult = {
 building_group_bg_service_mortality_mult = {
 }
 
-building_group_bg_service_standard_of_living_add  = {
+building_group_bg_service_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_service_tax_mult  = {
+building_group_bg_service_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_service_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_service_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_service_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_service_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_service_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_service_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_conscription = {
@@ -1025,14 +1265,44 @@ building_group_bg_conscription_employee_mult = {
 building_group_bg_conscription_mortality_mult = {
 }
 
-building_group_bg_conscription_standard_of_living_add  = {
+building_group_bg_conscription_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_conscription_tax_mult  = {
+building_group_bg_conscription_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_conscription_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_conscription_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_conscription_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_conscription_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_conscription_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_conscription_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_trade = {
@@ -1048,14 +1318,44 @@ building_group_bg_trade_employee_mult = {
 building_group_bg_trade_mortality_mult = {
 }
 
-building_group_bg_trade_standard_of_living_add  = {
+building_group_bg_trade_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_trade_tax_mult  = {
+building_group_bg_trade_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_trade_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_trade_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_trade_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_trade_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_trade_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_trade_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_urban_facilities = {
@@ -1071,14 +1371,44 @@ building_group_bg_urban_facilities_employee_mult = {
 building_group_bg_urban_facilities_mortality_mult = {
 }
 
-building_group_bg_urban_facilities_standard_of_living_add  = {
+building_group_bg_urban_facilities_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_urban_facilities_tax_mult  = {
+building_group_bg_urban_facilities_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_urban_facilities_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_urban_facilities_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_urban_facilities_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_urban_facilities_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_urban_facilities_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_urban_facilities_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_tree_farming = {
@@ -1094,14 +1424,44 @@ building_group_bg_tree_farming_employee_mult = {
 building_group_bg_tree_farming_mortality_mult = {
 }
 
-building_group_bg_tree_farming_standard_of_living_add  = {
+building_group_bg_tree_farming_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_tree_farming_tax_mult  = {
+building_group_bg_tree_farming_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_tree_farming_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_tree_farming_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_tree_farming_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_tree_farming_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_tree_farming_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_tree_farming_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_sand_pit = {
@@ -1117,14 +1477,44 @@ building_group_bg_sand_pit_employee_mult = {
 building_group_bg_sand_pit_mortality_mult = {
 }
 
-building_group_bg_sand_pit_standard_of_living_add  = {
+building_group_bg_sand_pit_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_sand_pit_tax_mult  = {
+building_group_bg_sand_pit_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_sand_pit_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_sand_pit_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_sand_pit_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_sand_pit_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_sand_pit_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_sand_pit_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_mine = {
@@ -1140,14 +1530,44 @@ building_group_bg_mine_employee_mult = {
 building_group_bg_mine_mortality_mult = {
 }
 
-building_group_bg_mine_standard_of_living_add  = {
+building_group_bg_mine_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_mine_tax_mult  = {
+building_group_bg_mine_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_mine_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_mine_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_mine_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_mine_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_mine_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_mine_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_factories = {
@@ -1163,14 +1583,44 @@ building_group_bg_factories_employee_mult = {
 building_group_bg_factories_mortality_mult = {
 }
 
-building_group_bg_factories_standard_of_living_add  = {
+building_group_bg_factories_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_factories_tax_mult  = {
+building_group_bg_factories_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_factories_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_factories_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_factories_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_factories_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_factories_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_factories_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_wheat_farms = {
@@ -1186,14 +1636,44 @@ building_group_bg_wheat_farms_employee_mult = {
 building_group_bg_wheat_farms_mortality_mult = {
 }
 
-building_group_bg_wheat_farms_standard_of_living_add  = {
+building_group_bg_wheat_farms_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_wheat_farms_tax_mult  = {
+building_group_bg_wheat_farms_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_wheat_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_wheat_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_wheat_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_wheat_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_wheat_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_wheat_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_beetroot_farms = {
@@ -1209,14 +1689,44 @@ building_group_bg_beetroot_farms_employee_mult = {
 building_group_bg_beetroot_farms_mortality_mult = {
 }
 
-building_group_bg_beetroot_farms_standard_of_living_add  = {
+building_group_bg_beetroot_farms_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_beetroot_farms_tax_mult  = {
+building_group_bg_beetroot_farms_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_beetroot_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_beetroot_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_beetroot_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_beetroot_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_beetroot_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_beetroot_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_carrot_farms = {
@@ -1232,14 +1742,44 @@ building_group_bg_carrot_farms_employee_mult = {
 building_group_bg_carrot_farms_mortality_mult = {
 }
 
-building_group_bg_carrot_farms_standard_of_living_add  = {
+building_group_bg_carrot_farms_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_carrot_farms_tax_mult  = {
+building_group_bg_carrot_farms_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_carrot_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_carrot_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_carrot_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_carrot_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_carrot_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_carrot_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_cocoa_farms = {
@@ -1255,14 +1795,44 @@ building_group_bg_cocoa_farms_employee_mult = {
 building_group_bg_cocoa_farms_mortality_mult = {
 }
 
-building_group_bg_cocoa_farms_standard_of_living_add  = {
+building_group_bg_cocoa_farms_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_cocoa_farms_tax_mult  = {
+building_group_bg_cocoa_farms_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_cocoa_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_cocoa_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_cocoa_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_cocoa_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_cocoa_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_cocoa_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_potato_farms = {
@@ -1278,14 +1848,44 @@ building_group_bg_potato_farms_employee_mult = {
 building_group_bg_potato_farms_mortality_mult = {
 }
 
-building_group_bg_potato_farms_standard_of_living_add  = {
+building_group_bg_potato_farms_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_potato_farms_tax_mult  = {
+building_group_bg_potato_farms_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_potato_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_potato_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_potato_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_potato_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_potato_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_potato_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_pumpkin_farms = {
@@ -1301,14 +1901,44 @@ building_group_bg_pumpkin_farms_employee_mult = {
 building_group_bg_pumpkin_farms_mortality_mult = {
 }
 
-building_group_bg_pumpkin_farms_standard_of_living_add  = {
+building_group_bg_pumpkin_farms_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_pumpkin_farms_tax_mult  = {
+building_group_bg_pumpkin_farms_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_pumpkin_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_pumpkin_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_pumpkin_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_pumpkin_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_pumpkin_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_pumpkin_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_melon_farms = {
@@ -1324,14 +1954,44 @@ building_group_bg_melon_farms_employee_mult = {
 building_group_bg_melon_farms_mortality_mult = {
 }
 
-building_group_bg_melon_farms_standard_of_living_add  = {
+building_group_bg_melon_farms_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_melon_farms_tax_mult  = {
+building_group_bg_melon_farms_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_melon_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_melon_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_melon_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_melon_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_melon_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_melon_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_cactus_farms = {
@@ -1347,14 +2007,44 @@ building_group_bg_cactus_farms_employee_mult = {
 building_group_bg_cactus_farms_mortality_mult = {
 }
 
-building_group_bg_cactus_farms_standard_of_living_add  = {
+building_group_bg_cactus_farms_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_cactus_farms_tax_mult  = {
+building_group_bg_cactus_farms_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_cactus_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_cactus_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_cactus_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_cactus_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_cactus_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_cactus_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_sugar_cane_farms = {
@@ -1370,14 +2060,44 @@ building_group_bg_sugar_cane_farms_employee_mult = {
 building_group_bg_sugar_cane_farms_mortality_mult = {
 }
 
-building_group_bg_sugar_cane_farms_standard_of_living_add  = {
+building_group_bg_sugar_cane_farms_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_sugar_cane_farms_tax_mult  = {
+building_group_bg_sugar_cane_farms_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_sugar_cane_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_sugar_cane_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_sugar_cane_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_sugar_cane_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_sugar_cane_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_sugar_cane_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_mushroom_farms = {
@@ -1393,14 +2113,44 @@ building_group_bg_mushroom_farms_employee_mult = {
 building_group_bg_mushroom_farms_mortality_mult = {
 }
 
-building_group_bg_mushroom_farms_standard_of_living_add  = {
+building_group_bg_mushroom_farms_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_mushroom_farms_tax_mult  = {
+building_group_bg_mushroom_farms_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_mushroom_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_mushroom_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_mushroom_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_mushroom_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_mushroom_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_mushroom_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_government = {
@@ -1416,14 +2166,44 @@ building_group_bg_government_employee_mult = {
 building_group_bg_government_mortality_mult = {
 }
 
-building_group_bg_government_standard_of_living_add  = {
+building_group_bg_government_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_government_tax_mult  = {
+building_group_bg_government_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_government_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_government_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_government_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_government_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_government_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_government_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_bureaucracy = {
@@ -1439,14 +2219,44 @@ building_group_bg_bureaucracy_employee_mult = {
 building_group_bg_bureaucracy_mortality_mult = {
 }
 
-building_group_bg_bureaucracy_standard_of_living_add  = {
+building_group_bg_bureaucracy_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_bureaucracy_tax_mult  = {
+building_group_bg_bureaucracy_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_bureaucracy_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_bureaucracy_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_bureaucracy_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_bureaucracy_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_bureaucracy_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_bureaucracy_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 
 country_subsidies_bg_infrastructure = {
@@ -1462,13 +2272,43 @@ building_group_bg_infrastructure_employee_mult = {
 building_group_bg_infrastructure_mortality_mult = {
 }
 
-building_group_bg_infrastructure_standard_of_living_add  = {
+building_group_bg_infrastructure_standard_of_living_add = {
     good = yes
     percent = no
 }
 
-building_group_bg_infrastructure_tax_mult  = {
+building_group_bg_infrastructure_tax_mult = {
     good = yes
     percent = yes
+}
+
+building_group_bg_infrastructure_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_infrastructure_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_infrastructure_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_infrastructure_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_infrastructure_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_infrastructure_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
 }
 

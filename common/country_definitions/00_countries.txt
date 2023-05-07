@@ -21,7 +21,7 @@ TRU = {
 	color = "full_white"
 	country_type = recognized
 	tier = kingdom
-	cultures = { thruitt truidencian }
+	cultures = { truidencian thruitt }
 	capital = STATE_NIDAROS
 }
 

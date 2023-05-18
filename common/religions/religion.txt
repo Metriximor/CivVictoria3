@@ -22,12 +22,17 @@ rhayatshola = {
 
 melonism = {
 	texture = "gfx\coat_of_arms\textured_emblems/te_coa_griffin.dds"
-	color = { 225 67 120 }
+	color = { 67 225 83 }
 }
 
 taoism = {
 	texture = "gfx\coat_of_arms\textured_emblems/te_coa_gensokyo.dds" 
 	color = { 225 67 120 }
+}
+
+eastern_faith = {
+	texture = "gfx\interface\icons\religion_icons\shinto.dds" 
+	color = { 225 219 67 }
 }
 
 #####################

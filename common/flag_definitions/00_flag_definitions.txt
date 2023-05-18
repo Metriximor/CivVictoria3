@@ -83,3 +83,14 @@ DAN = { # Danzilona
 		}
 	}
 }
+GEN = { # Gensokyo
+	flag_definition = {
+		coa = GEN
+		subject_canton = GEN
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = GEN_TRUIDENCIA
+		overlord_canton_scale = { 0.337 0.337 }
+		priority = 1
+	}
+
+}

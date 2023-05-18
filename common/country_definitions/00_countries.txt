@@ -135,7 +135,7 @@ GRI = {
 }
 TRA = {
 	capital = STATE_SOUTH_MELIA
-	color = "yellow"
+	color = rgb { 79 75 98 }
 	country_type = recognized
 	tier = kingdom
 	cultures = { transylvanian }
@@ -154,12 +154,12 @@ CDM = {
 	color = rgb { 51 140 255 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { aurellian cortesian }
+	cultures = { cortesian aurellian }
 }
 
 AUR = {
 	capital = STATE_SANTIAGO
-	color = rgb { 51 140 255 }
+	color = rgb { 135 135 13 }
 	country_type = recognized
 	tier = kingdom
 	cultures = { aurellian }

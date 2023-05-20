@@ -1,0 +1,45 @@
+namespace = hooters_treaty
+
+# Truidencia causes Genso to become a puppet/ colony idk what its called yet
+hooters_treaty.1 = {
+	type = country_event
+	placement = s:STATE_TENSEIMIYA.region_state:GEN
+	
+	title = hooters_treaty.1.t
+	desc = hooters_treaty.1.d
+	flavor = hooters_treaty.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 120
+
+	trigger = {}
+
+	immediate = {
+		c:GEN = {
+			save_scope_as = hooters_treaty_scope
+		}
+	}
+
+	option = { # Treaty goes through
+		c:GEN = {
+			change_subject_type = subject_type_dominion
+		}
+		name = hooters_treaty.1.a
+		default_option = yes
+		
+
+		
+	}
+
+	option = { # Treaty fails
+		name = hooters_treaty.1.b
+	}
+}

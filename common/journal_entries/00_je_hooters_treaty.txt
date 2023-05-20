@@ -1,0 +1,56 @@
+je_hooters_treaty = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	
+	is_shown_when_inactive = {
+		c:TRU = root
+	}
+
+	possible = {
+		# Gensokyo exists
+		exists = c:GEN
+		c:GEN = {
+			# Gensokyo is AI
+			is_ai = yes
+			# Gensokyo is alive
+			is_country_alive = yes
+			# Gensokyo owns Tensemiya
+			owns_entire_state_region = STATE_TENSEIMIYA
+		}
+		# Truidencia and Gensokyo are allies
+		has_diplomatic_pact = {
+			who = c:GEN
+			type = alliance
+		}
+	}
+
+	complete = {
+		c:TRU = {
+			# Truidencia has higher GDP than Gensokyo
+			root.gdp > this.gdp
+			# Truidencia and Gensokyo have high relations
+			relations:root >= relations_threshold:friendly
+		}
+		# Truidencia and Gensokyo are in a customs union
+		has_diplomatic_pact = {
+			who = c:GEN
+			type = customs_union
+		}
+		# Truidencia and Gensokyo are allies
+		has_diplomatic_pact = {
+			who = c:GEN
+			type = alliance
+		}
+	}
+
+	on_complete = {
+		# Gensokyo is annexed by Truidencia
+		trigger_event = { 
+			id = hooters_treaty.1 
+			days = 0
+		}
+	}
+
+	weight = 100
+	
+	should_be_pinned_by_default = yes
+}

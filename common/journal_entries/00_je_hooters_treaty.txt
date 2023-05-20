@@ -1,4 +1,4 @@
-je_cdm_treaty_of_santiago = {
+je_hooters_treaty = {
 	icon = "gfx/interface/icons/event_icons/event_map.dds"
 	
 	is_shown_when_inactive = {
@@ -45,7 +45,7 @@ je_cdm_treaty_of_santiago = {
 	on_complete = {
 		# Gensokyo is annexed by Truidencia
 		trigger_event = { 
-			id = treaty_of_santiago.1 # <- add the event after
+			id = hooters_treaty.1 
 			days = 0
 		}
 	}

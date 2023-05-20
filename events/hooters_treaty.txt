@@ -29,13 +29,12 @@ hooters_treaty.1 = {
 	}
 
 	option = { # Treaty goes through
-		c:GEN = {
-			change_subject_type = subject_type_dominion
+		c:TRU ={
+			create_diplomatic_pact = {
+				country = c:GEN
+				type = dominion
+			}
 		}
-		name = hooters_treaty.1.a
-		default_option = yes
-		
-
 		
 	}
 

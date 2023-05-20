@@ -70,13 +70,15 @@ for file in Path("common/pop_types").glob("*.txt"):
         localizations[
             f"modifier_state_{pop_type}_investment_pool_contribution_add_desc"
         ] = dq(f"How much of their profits ${pop_type}$ will invest")
-        
+
         localizations[
             f"modifier_state_{pop_type}_investment_pool_efficiency_mult"
         ] = dq(f"${pop_type}$ [concept_investment_pool] contribution efficiency")
         localizations[
             f"modifier_state_{pop_type}_investment_pool_efficiency_mult"
-        ] = dq(f"An increase or decrease to how much the invested profits from ${pop_type}$ will contribute to the [concept_investment_pool]")
+        ] = dq(
+            f"An increase or decrease to how much the invested profits from ${pop_type}$ will contribute to the [concept_investment_pool]"
+        )
 
 
 # Generate building groups modifiers

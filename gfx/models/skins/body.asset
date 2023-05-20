@@ -168,7 +168,6 @@ entity = {
     pdxmesh = "thruitt_arctic_mesh"
 }
 
-
 pdxmesh = {
     name = "thruitt_blond_mesh"
     file = "hm_prophet.mesh"
@@ -201,6 +200,23 @@ pdxmesh = {
 entity = {
     name = "zuri_entity"
     pdxmesh = "zuri_mesh"
+}
+
+pdxmesh = {
+    name = "zuri_clothed_mesh"
+    file = "hm_prophet.mesh"
+    scale = 1.6
+    meshsettings = {
+        name = "prophet_shieldShape"
+        index = 0
+        texture_diffuse = "skins_textures/body/zuri_clothed.dds"
+        shader = "portrait_attachment_alpha_to_coverage"
+        shader_file = "gfx/models/skins/body.shader"
+    }
+}
+entity = {
+    name = "zuri_clothed_entity"
+    pdxmesh = "zuri_clothed_mesh"
 }
 
 pdxmesh = {

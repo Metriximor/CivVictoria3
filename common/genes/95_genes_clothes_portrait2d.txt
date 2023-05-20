@@ -46,6 +46,7 @@
 				1 = top_baroque_gray2
 				1 = top_victorian_tailcoat
 				1 = top_victorian_tailcoat_red
+				1 = top_two_piece_suit
 			}
 			female = {
 				1 = top_brown_jacket_slim
@@ -55,6 +56,12 @@
 				1 = top_dress_blue_slim
 				1 = top_dress_green
 				1 = top_red_jacket_slim
+				1 = top_pirate_green_slim
+				1 = top_green_shirt_slim
+				1 = top_pirate_white_slim
+				1 = top_red_dress_slim
+				1 = top_shirt_slim
+				1 = top_blue_tunic_slim
 			}
 			boy = male
 			girl = female
@@ -78,10 +85,11 @@
 		gene_lambatan_clothes = {
 			index = 4
 			male = {
-				1 = empty
+				1 = top_two_piece_suit
 			}
 			female = {
 				1 = top_kapresuit_slim
+				1 = top_two_piece_suit_slim
 			}
 			boy = male
 			girl = female
@@ -109,13 +117,23 @@
 				1 = top_baroque_blue2
 				1 = top_baroque_bluehue
 				1 = top_baroque_gray2
+				1 = top_lusitan_armor
+				1 = top_lusitan_armor2
 			}
 			female = {
 				1 = top_brown_jacket_slim
+				1 = top_coat_blue_slim
 				1 = top_coat_blue_nohat_slim
 				1 = top_dress_blue_nohat_slim
+				1 = top_dress_blue_slim
 				1 = top_dress_green
 				1 = top_red_jacket_slim
+				1 = top_pirate_green_slim
+				1 = top_green_shirt_slim
+				1 = top_pirate_white_slim
+				1 = top_red_dress_slim
+				1 = top_shirt_slim
+				1 = top_blue_tunic_slim
 			}
 			boy = male
 			girl = female

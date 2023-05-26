@@ -142,5 +142,7 @@
  AUR_ADJ: "Aurellian"
  MED: "Medi Nostrum"
  MED_ADJ: "Medi"
+ EST: "Estalia"
+ EST_ADJ: "Estalian"
 #  DLG:0 "Dalgon"
 #  DLG_ADJ:0 "$dalgonese$"

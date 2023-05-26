@@ -20,7 +20,7 @@ STATE_FAREASTERN_OCEAN = {
 
 STATE_MIDDLE_OCEAN = {
     id = 3005
-    provinces = { x031D2A xCAC3BA }
+    provinces = { x031D2A }
 }
 
 STATE_SOUTHERN_SEA = {
@@ -102,7 +102,7 @@ STATE_YOAHTL_LAKE = {
 
 STATE_BIWA_LAKE = {
     id = 3021
-    provinces = { x034414 "x200D1D" }
+    provinces = { x034414 x200D1D }
     impassable = { x034414 }
 }
 

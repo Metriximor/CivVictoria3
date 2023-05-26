@@ -54,7 +54,7 @@ STATE_CHUNGIA:
   population: 374878
 STATE_MERCADO_STRAIT:
   naval_exit_id: STATE_STONY_SEA
-  population: 162360
+  population: 164550
 STATE_PARFAIT_KAWAYAN:
   naval_exit_id: STATE_STONY_SEA
   population: 388851
@@ -66,7 +66,7 @@ STATE_PAMPANG:
   population: 192850
 STATE_MELIA:
   naval_exit_id: STATE_MEDI_SEA
-  population: 576893
+  population: 593210
 STATE_PETERSKOGUR:
   naval_exit_id: STATE_MEDI_SEA
   population: 233491
@@ -129,11 +129,11 @@ STATE_OUTLAND:
 STATE_SNOWPEAK:
   population: 52073
 STATE_TENSEIMIYA:
-  population: 294891
+  population: 288371
 STATE_DAISHIREIBOU:
   population: 548058
 STATE_MUMEITA:
-  population: 558408
+  population: 558084
 STATE_YAMATO_KEN:
   population: 171968
 STATE_DREAMLAND:
@@ -149,7 +149,7 @@ STATE_EAST_LAMBAT_CITY:
 STATE_SOPHIA:
   population: 309810
 STATE_WEST_DANZILONA:
-  population: 372324
+  population: 366697
 STATE_YOAHTL_HOMELANDS:
   population: 58495
 STATE_KOBYLINSKI:
@@ -194,7 +194,7 @@ STATE_ROZIA:
 STATE_UPPER_MELIA:
   population: 170065
 STATE_NEW_SWISSTON:
-  population: 118741
+  population: 130690
 STATE_KALLOS:
   naval_exit_id: STATE_MIDDLE_OCEAN
   population: 342051
@@ -226,7 +226,7 @@ STATE_MOUNT_AUGUSTA:
   - culture: septembrian
     ratio: 2
 STATE_SOUTH_MOUNT_AUGUSTA:
-  population: 241891
+  population: 236345
   pops:
   - culture: augustan
     ratio: 7
@@ -244,7 +244,7 @@ STATE_EAST_MOUNT_AUGUSTA:
     ratio: 2
 STATE_EXCLAVE_MOUNT_AUGUSTA:
   naval_exit_id: STATE_STONY_SEA
-  population: 499921
+  population: 366646
 STATE_CALW:
   naval_exit_id: STATE_MIDDLE_OCEAN
   population: 203713
@@ -282,15 +282,15 @@ STATE_PAVIA_AULDMARCHE:
   naval_exit_id: STATE_LYREAN_SEA
   population: 308907
 STATE_NORTH_NARA:
-  population: 460100
+  population: 459523
 STATE_CENTRAL_NARA:
-  population: 520592
+  population: 524045
 STATE_SOUTH_NARA:
-  population: 525150
+  population: 525479
 STATE_QBARRA:
   population: 232784
 STATE_ICE_SHELF:
-  population: 462499
+  population: 449884
 STATE_NORTH_HADES_ISLANDS:
   population: 161848
 STATE_WEST_CDM:
@@ -307,3 +307,33 @@ STATE_CDM_EXCLAVE:
   population: 104697
 STATE_CDM_FRONTIER:
   population: 651778
+STATE_ESTALIA_1:
+  population: 1268737
+STATE_ESTALIA_2:
+  population: 78925
+STATE_ESTALIA_3:
+  population: 152790
+STATE_ESTALIA_4:
+  population: 492116
+STATE_ESTALIA_5:
+  population: 87248
+STATE_ESTALIA_6:
+  population: 448904
+STATE_ESTALIA_7:
+  population: 873544
+STATE_ESTALIA_8:
+  population: 589077
+STATE_ESTALIA_9:
+  population: 641871
+STATE_ESTALIA_10:
+  population: 615025
+STATE_ESTALIA_11:
+  population: 308683
+STATE_ESTALIA_12:
+  population: 493566
+STATE_ESTALIA_13:
+  population: 241790
+STATE_ESTALIA_14:
+  population: 43277
+STATE_ESTALIA_15:
+  population: 18053

@@ -172,3 +172,11 @@ MED = {
 	cultures = { lusitan thruitt truidencian gensokyojin danzilonan }
 	capital = STATE_WOLKEN_ISLANDS
 }
+
+EST = {
+	color = "purple"
+	country_type = recognized
+	tier = empire
+	cultures = { rexamplish }
+	capital = STATE_ESTALIA_1
+}

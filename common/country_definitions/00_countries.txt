@@ -164,3 +164,11 @@ AUR = {
 	tier = kingdom
 	cultures = { aurellian }
 }
+
+MED = {
+	color = "lusitan_shield_blue"
+	country_type = recognized
+	tier = hegemony
+	cultures = { lusitan thruitt truidencian gensokyojin danzilonan }
+	capital = STATE_WOLKEN_ISLANDS
+}

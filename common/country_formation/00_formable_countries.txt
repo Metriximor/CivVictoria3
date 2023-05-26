@@ -26,4 +26,37 @@
 		}
 	}
 }
+MED = {
+	states = {
+		STATE_NIDAROS
+		STATE_HYLDOR
+		STATE_SIX_COLONIES
+		STATE_OUTER_NIDAROS
+		STATE_NUMBERS_LAWN
+		STATE_AMATERASU_SHORES
+		STATE_PORTUCALE
+		STATE_CASCAIS
+		STATE_CIV_PROVENCE
+		STATE_AZORES
+		STATE_PROVINCE_OF_NEW_DANZILONA
+		STATE_EASTERN_SHINING_ISLES
+		STATE_SOUTH_MELIA
+		STATE_WOLKEN
+		STATE_WOLKEN_ISLANDS
+		STATE_SOUTHERN_PROVINCE
+		STATE_OLIMPIA
+
+	}
+	required_states_fraction = 0.75
+	ai_will_do = { always = no }	
+	possible = {
+		OR = {
+			country_has_primary_culture = cu:lusitan
+			country_has_primary_culture = cu:danzilonan
+			country_has_primary_culture = cu:gensokyojin
+			country_has_primary_culture = cu:truidencian
+			country_has_primary_culture = cu:thruittan
+		}
+	}
+}
 	

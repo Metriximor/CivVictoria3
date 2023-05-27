@@ -701,4 +701,55 @@ MED = {
 		color3 = "gensokyojin_red"
 	}
 }
+SOU = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+		colored_emblem = {
+		texture = "ce_bend_sinister_fimbriated.dds"
+		color1 = "full_white"
+		color2 = "full_white"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } } 
+		}
+		colored_emblem = {
+		texture = "ce_bend_sinister.dds"
+		color1 = "green"
+		instance = { scale = { 1.4 1.4 } position = { 0.5 0.5 } } 
+		}
+		colored_emblem = {
+		texture = "ce_bend_sinister.dds"
+		color1 = "full_white"
+		instance = { scale = { 1.1 1.1 } position = { 0.5 0.5 } } 
+		}
+		colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "full_white"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } } 
+		}
+		colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "green"
+		instance = { scale = { 0.53 0.53 } position = { 0.5 0.5 } } 
+		}
+		colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "full_white"
+		instance = { scale = { 0.46 0.46 } position = { 0.5 0.5 } }
+		}
+		colored_emblem = {
+		texture = "ce_star_05_pinwheeled.dds"
+		color1 = "green"
+		instance = { scale = { 0.2 0.2 } position = { 0.5 0.38 } }
+		}
+		colored_emblem = {
+		texture = "ce_star_05_tilted.dds"
+		color1 = "green"
+		instance = { scale = { 0.2 0.2 } position = { 0.58 0.55 } }
+		}
+		colored_emblem = {
+		texture = "ce_star_05_tilted.dds"
+		color1 = "green"
+		instance = { scale = { 0.2 0.2 } position = { 0.43 0.57 }  rotation = 180 }
+	}
+	}
+}
 #####################

@@ -2,7 +2,8 @@
 import rubicon_parser as paradox
 from random import randint
 from models import CreateBuilding, MapDataState
-from utils import load_file_into_string, write_to_file, yaml
+from utils import load_file_into_string, write_to_file
+from yaml_wrapper import yaml
 from paths import (
     BUILDINGS_OUTPUT,
     POPS_OUTPUT,
@@ -26,7 +27,7 @@ def create_pops(
         state_population = state_details[state_name]["population"]
 
     # Initialize pops with pop culture
-    pops[country_data[country_abrev]["cultures"][-1]] = {"quantity": state_population}
+    pops[country_data[country_abrev]["cultures"][0]] = {"quantity": state_population}
     if state_name in state_details and "pops" in state_details[state_name]:
         # Delete existing data about pops
         pops = {}

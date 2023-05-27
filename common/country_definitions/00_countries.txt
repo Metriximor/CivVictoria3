@@ -77,7 +77,7 @@ YOA = {
 	color = "yoahtlan_yellow"
 	country_type = recognized
 	tier = empire
-	cultures = { resimerian, yoahtlan }
+	cultures = { yoahtlan resimerian }
 	capital = STATE_YOAHTL_HOMELANDS
 }
 
@@ -165,18 +165,18 @@ AUR = {
 	cultures = { aurellian }
 }
 
+EST = {
+	capital = STATE_ESTALIA_1
+	color = "purple"
+	country_type = recognized
+	tier = empire
+	cultures = { examplish }
+}
+
 MED = {
+	capital = STATE_WOLKEN_ISLANDS
 	color = "lusitan_shield_blue"
 	country_type = recognized
 	tier = hegemony
 	cultures = { lusitan thruitt truidencian gensokyojin danzilonan }
-	capital = STATE_WOLKEN_ISLANDS
-}
-
-EST = {
-	color = "purple"
-	country_type = recognized
-	tier = empire
-	cultures = { rexamplish }
-	capital = STATE_ESTALIA_1
 }

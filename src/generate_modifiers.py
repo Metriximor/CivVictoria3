@@ -1,7 +1,7 @@
 ﻿from collections import defaultdict
 import rubicon_parser as paradox
-import metrix_yaml as yaml
-from metrix_yaml import dq
+import yaml_wrapper as yaml
+from yaml_wrapper import dq
 from utils import load_file_into_string, write_to_file
 from pathlib import Path
 from paths import OUTPUT_FOLDER

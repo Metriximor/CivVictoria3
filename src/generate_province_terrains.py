@@ -14,7 +14,8 @@ import rubicon_parser as paradox
 import cv2
 from msgpack import load as msgpack_load, dump as msgpack_dump
 from bz2 import BZ2File
-from utils import write_to_file, rgb_to_hex, file_exists, yaml, load_file_into_string
+from utils import write_to_file, rgb_to_hex, file_exists, load_file_into_string
+from yaml_wrapper import yaml
 
 
 # Generates province_colors if it doesn't exist yet

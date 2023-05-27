@@ -74,7 +74,7 @@
         region_state:GEN = {
             create_pop = {
                 culture = gensokyojin
-                size = 294891
+                size = 288371
             }
         }
     }
@@ -104,7 +104,7 @@
         region_state:GEN = {
             create_pop = {
                 culture = gensokyojin
-                size = 558408
+                size = 558084
             }
         }
     }
@@ -278,13 +278,13 @@
         region_state:LAM = {
             create_pop = {
                 culture = lambatan
-                size = 162360
+                size = 164550
             }
         }
         region_state:EXA = {
             create_pop = {
                 culture = examplish
-                size = 162360
+                size = 164550
             }
         }
     }
@@ -324,7 +324,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = danzilonan
-                size = 576893
+                size = 593210
             }
         }
     }
@@ -340,7 +340,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = danzilonan
-                size = 118741
+                size = 130690
             }
         }
     }
@@ -356,7 +356,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = danzilonan
-                size = 372324
+                size = 366697
             }
         }
     }
@@ -644,11 +644,11 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 169323
+                size = 165441
             }
             create_pop = {
                 culture = septembrian
-                size = 72567
+                size = 70903
             }
         }
     }
@@ -676,7 +676,7 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 499921
+                size = 366646
             }
         }
     }
@@ -796,7 +796,7 @@
         region_state:NAR = {
             create_pop = {
                 culture = naran
-                size = 460100
+                size = 459523
             }
         }
     }
@@ -804,7 +804,7 @@
         region_state:NAR = {
             create_pop = {
                 culture = naran
-                size = 520592
+                size = 524045
             }
         }
     }
@@ -812,7 +812,7 @@
         region_state:NAR = {
             create_pop = {
                 culture = naran
-                size = 525150
+                size = 525479
             }
         }
     }
@@ -828,7 +828,7 @@
         region_state:CDM = {
             create_pop = {
                 culture = cortesian
-                size = 462499
+                size = 449884
             }
         }
     }
@@ -893,6 +893,126 @@
             create_pop = {
                 culture = aurellian
                 size = 651778
+            }
+        }
+    }
+    s:STATE_ESTALIA_1 = {
+        region_state:EST = {
+            create_pop = {
+                culture = examplish
+                size = 1268737
+            }
+        }
+    }
+    s:STATE_ESTALIA_2 = {
+        region_state:EST = {
+            create_pop = {
+                culture = examplish
+                size = 78925
+            }
+        }
+    }
+    s:STATE_ESTALIA_3 = {
+        region_state:EST = {
+            create_pop = {
+                culture = examplish
+                size = 152790
+            }
+        }
+    }
+    s:STATE_ESTALIA_4 = {
+        region_state:EST = {
+            create_pop = {
+                culture = examplish
+                size = 492116
+            }
+        }
+    }
+    s:STATE_ESTALIA_5 = {
+        region_state:EST = {
+            create_pop = {
+                culture = examplish
+                size = 87248
+            }
+        }
+    }
+    s:STATE_ESTALIA_6 = {
+        region_state:EST = {
+            create_pop = {
+                culture = examplish
+                size = 448904
+            }
+        }
+    }
+    s:STATE_ESTALIA_7 = {
+        region_state:EST = {
+            create_pop = {
+                culture = examplish
+                size = 873544
+            }
+        }
+    }
+    s:STATE_ESTALIA_8 = {
+        region_state:EST = {
+            create_pop = {
+                culture = examplish
+                size = 589077
+            }
+        }
+    }
+    s:STATE_ESTALIA_9 = {
+        region_state:EST = {
+            create_pop = {
+                culture = examplish
+                size = 641871
+            }
+        }
+    }
+    s:STATE_ESTALIA_10 = {
+        region_state:EST = {
+            create_pop = {
+                culture = examplish
+                size = 615025
+            }
+        }
+    }
+    s:STATE_ESTALIA_11 = {
+        region_state:EST = {
+            create_pop = {
+                culture = examplish
+                size = 308683
+            }
+        }
+    }
+    s:STATE_ESTALIA_12 = {
+        region_state:EST = {
+            create_pop = {
+                culture = examplish
+                size = 493566
+            }
+        }
+    }
+    s:STATE_ESTALIA_13 = {
+        region_state:EST = {
+            create_pop = {
+                culture = examplish
+                size = 241790
+            }
+        }
+    }
+    s:STATE_ESTALIA_14 = {
+        region_state:EST = {
+            create_pop = {
+                culture = examplish
+                size = 43277
+            }
+        }
+    }
+    s:STATE_ESTALIA_15 = {
+        region_state:EST = {
+            create_pop = {
+                culture = examplish
+                size = 18053
             }
         }
     }

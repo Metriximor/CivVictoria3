@@ -750,6 +750,28 @@ SOU = {
 		color1 = "green"
 		instance = { scale = { 0.2 0.2 } position = { 0.43 0.57 }  rotation = 180 }
 	}
+}
+MOL = {
+    pattern = "pattern_horizontal_split_01.TGA"
+    color1 = "full_white"
+    color2 = rgb { 72 159 226 }
+		textured_emblem = {
+		texture = "te_coa_moloka.dds"
+	}
+}
+# cordoba under spqr
+HIS = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+		colored_emblem = {
+		texture = "ce_wreath_thin.dds"
+		color1 = "yellow"
+		}
+		colored_emblem = {
+		texture = "ce_bull_head.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = { 0.7 0.7 } }
 	}
 }
 #####################

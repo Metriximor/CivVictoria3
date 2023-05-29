@@ -94,6 +94,7 @@
     ],
     "MTA": [
         "STATE_MOUNT_AUGUSTA",
+        "STATE_MTA_2",
         "STATE_SOUTH_MOUNT_AUGUSTA",
         "STATE_GLATTEIS",
         "STATE_EAST_MOUNT_AUGUSTA",
@@ -141,7 +142,8 @@
     "AUR": [
         "STATE_SANTIAGO",
         "STATE_CDM_FRONTIER",
-        "STATE_CDM_EXCLAVE"
+        "STATE_CDM_EXCLAVE",
+        "STATE_CDM_FRONTIER_2"
     ],
     "EST": [
         "STATE_ESTALIA_1",
@@ -159,5 +161,25 @@
         "STATE_ESTALIA_13",
         "STATE_ESTALIA_14",
         "STATE_ESTALIA_15"
+    ],
+    "IRI": [
+        "STATE_IRIA_1",
+        "STATE_IRIA_2",
+        "STATE_IRIA_3",
+        "STATE_IRIA_4",
+        "STATE_IRIA_5",
+        "STATE_IRIA_6",
+        "STATE_IRIA_7",
+        "STATE_IRIA_8",
+        "STATE_IRIA_9",
+        "STATE_IRIA_10",
+        "STATE_IRIA_11",
+        "STATE_IRIA_12",
+        "STATE_IRIA_13",
+        "STATE_IRIA_14",
+        "STATE_IRIA_15",
+        "STATE_IRIA_16",
+        "STATE_IRIA_17",
+        "STATE_IRIA_18"
     ]
 }

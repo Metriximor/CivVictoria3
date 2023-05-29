@@ -96,7 +96,7 @@
         region_state:GEN = {
             create_pop = {
                 culture = gensokyojin
-                size = 548058
+                size = 547718
             }
         }
     }
@@ -104,7 +104,7 @@
         region_state:GEN = {
             create_pop = {
                 culture = gensokyojin
-                size = 558084
+                size = 558424
             }
         }
     }
@@ -300,7 +300,7 @@
         region_state:LAM = {
             create_pop = {
                 culture = lambatan
-                size = 388851
+                size = 397473
             }
         }
     }
@@ -632,11 +632,11 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 878404
+                size = 534825
             }
             create_pop = {
                 culture = septembrian
-                size = 250972
+                size = 152807
             }
         }
     }
@@ -676,7 +676,7 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 366646
+                size = 356504
             }
         }
     }
@@ -684,7 +684,7 @@
         region_state:CLW = {
             create_pop = {
                 culture = augustan
-                size = 203713
+                size = 199163
             }
         }
     }
@@ -820,7 +820,7 @@
         region_state:NAR = {
             create_pop = {
                 culture = naran
-                size = 232784
+                size = 253002
             }
         }
     }
@@ -836,7 +836,7 @@
         region_state:CDM = {
             create_pop = {
                 culture = cortesian
-                size = 161848
+                size = 154616
             }
         }
     }
@@ -844,7 +844,7 @@
         region_state:CDM = {
             create_pop = {
                 culture = cortesian
-                size = 117603
+                size = 117053
             }
         }
     }
@@ -860,7 +860,7 @@
         region_state:CDM = {
             create_pop = {
                 culture = cortesian
-                size = 297667
+                size = 304925
             }
         }
     }
@@ -868,7 +868,7 @@
         region_state:CDM = {
             create_pop = {
                 culture = cortesian
-                size = 318486
+                size = 319036
             }
         }
     }
@@ -876,7 +876,7 @@
         region_state:AUR = {
             create_pop = {
                 culture = aurellian
-                size = 203202
+                size = 204087
             }
         }
     }
@@ -884,7 +884,7 @@
         region_state:AUR = {
             create_pop = {
                 culture = aurellian
-                size = 104697
+                size = 102876
             }
         }
     }
@@ -892,7 +892,7 @@
         region_state:AUR = {
             create_pop = {
                 culture = aurellian
-                size = 651778
+                size = 374879
             }
         }
     }
@@ -1013,6 +1013,166 @@
             create_pop = {
                 culture = examplish
                 size = 18053
+            }
+        }
+    }
+    s:STATE_IRIA_1 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 293419
+            }
+        }
+    }
+    s:STATE_IRIA_2 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 199360
+            }
+        }
+    }
+    s:STATE_IRIA_3 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 121460
+            }
+        }
+    }
+    s:STATE_IRIA_4 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 304530
+            }
+        }
+    }
+    s:STATE_IRIA_5 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 180166
+            }
+        }
+    }
+    s:STATE_IRIA_6 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 51199
+            }
+        }
+    }
+    s:STATE_IRIA_7 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 137824
+            }
+        }
+    }
+    s:STATE_IRIA_8 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 172708
+            }
+        }
+    }
+    s:STATE_IRIA_9 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 193950
+            }
+        }
+    }
+    s:STATE_IRIA_10 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 150869
+            }
+        }
+    }
+    s:STATE_IRIA_11 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 180978
+            }
+        }
+    }
+    s:STATE_IRIA_12 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 124782
+            }
+        }
+    }
+    s:STATE_IRIA_13 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 222860
+            }
+        }
+    }
+    s:STATE_IRIA_14 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 291132
+            }
+        }
+    }
+    s:STATE_IRIA_15 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 179732
+            }
+        }
+    }
+    s:STATE_CDM_FRONTIER_2 = {
+        region_state:AUR = {
+            create_pop = {
+                culture = aurellian
+                size = 135696
+            }
+        }
+    }
+    s:STATE_MTA_2 = {
+        region_state:MTA = {
+            create_pop = {
+                culture = augustan
+                size = 441796
+            }
+        }
+    }
+    s:STATE_IRIA_16 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 65940
+            }
+        }
+    }
+    s:STATE_IRIA_17 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 171838
+            }
+        }
+    }
+    s:STATE_IRIA_18 = {
+        region_state:IRI = {
+            create_pop = {
+                culture = irian
+                size = 107858
             }
         }
     }

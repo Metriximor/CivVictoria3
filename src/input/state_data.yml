@@ -57,7 +57,7 @@ STATE_MERCADO_STRAIT:
   population: 164550
 STATE_PARFAIT_KAWAYAN:
   naval_exit_id: STATE_STONY_SEA
-  population: 388851
+  population: 397473
 STATE_PROVINCE_OF_NEW_DANZILONA:
   naval_exit_id: STATE_MEDI_SEA
   population: 452774
@@ -131,9 +131,9 @@ STATE_SNOWPEAK:
 STATE_TENSEIMIYA:
   population: 288371
 STATE_DAISHIREIBOU:
-  population: 548058
+  population: 547718
 STATE_MUMEITA:
-  population: 558084
+  population: 558424
 STATE_YAMATO_KEN:
   population: 171968
 STATE_DREAMLAND:
@@ -219,7 +219,7 @@ STATE_ARCTIC_AND_EAST_TITAN:
   naval_exit_id: STATE_SEA_OF_SNEED
   population: 108733
 STATE_MOUNT_AUGUSTA:
-  population: 1129377
+  population: 687633
   pops:
   - culture: augustan
     ratio: 7
@@ -244,10 +244,10 @@ STATE_EAST_MOUNT_AUGUSTA:
     ratio: 2
 STATE_EXCLAVE_MOUNT_AUGUSTA:
   naval_exit_id: STATE_STONY_SEA
-  population: 366646
+  population: 356504
 STATE_CALW:
   naval_exit_id: STATE_MIDDLE_OCEAN
-  population: 203713
+  population: 199163
 STATE_CAWL_EXCLAVE:
   population: 40047
 STATE_DOOM_CITY_NORTH:
@@ -288,25 +288,25 @@ STATE_CENTRAL_NARA:
 STATE_SOUTH_NARA:
   population: 525479
 STATE_QBARRA:
-  population: 232784
+  population: 253002
 STATE_ICE_SHELF:
   population: 449884
 STATE_NORTH_HADES_ISLANDS:
-  population: 161848
+  population: 154616
 STATE_WEST_CDM:
-  population: 117603
+  population: 117053
 STATE_IMBLOC:
   population: 86032
 STATE_CONCORD:
-  population: 297667
+  population: 304925
 STATE_SOUTH_CDM:
-  population: 318486
+  population: 319036
 STATE_SANTIAGO:
-  population: 203202
+  population: 204087
 STATE_CDM_EXCLAVE:
-  population: 104697
+  population: 102876
 STATE_CDM_FRONTIER:
-  population: 651778
+  population: 374879
 STATE_ESTALIA_1:
   population: 1268737
 STATE_ESTALIA_2:
@@ -337,3 +337,45 @@ STATE_ESTALIA_14:
   population: 43277
 STATE_ESTALIA_15:
   population: 18053
+STATE_IRIA_1:
+  population: 293419
+STATE_IRIA_2:
+  population: 199360
+STATE_IRIA_3:
+  population: 121460
+STATE_IRIA_4:
+  population: 304530
+STATE_IRIA_5:
+  population: 180166
+STATE_IRIA_6:
+  population: 51199
+STATE_IRIA_7:
+  population: 137824
+STATE_IRIA_8:
+  population: 172708
+STATE_IRIA_9:
+  population: 193950
+STATE_IRIA_10:
+  population: 150869
+STATE_IRIA_11:
+  population: 180978
+STATE_IRIA_12:
+  population: 124782
+STATE_IRIA_13:
+  population: 222860
+STATE_IRIA_14:
+  population: 291132
+STATE_IRIA_15:
+  population: 179732
+STATE_CDM_FRONTEIR_2:
+  population: 135696
+STATE_MTA_2:
+  population: 441796
+STATE_IRIA_16:
+  population: 65940
+STATE_IRIA_17:
+  population: 171838
+STATE_IRIA_18:
+  population: 107858
+STATE_CDM_FRONTIER_2:
+  population: 135696

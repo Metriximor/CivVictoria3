@@ -607,5 +607,91 @@
         region_state:EST = {
         }
     }
+    s:STATE_IRIA_1 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_IRIA_2 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_IRIA_3 = {
+        region_state:IRI = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_IRIA_4 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_IRIA_5 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_IRIA_6 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_IRIA_7 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_IRIA_8 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_IRIA_9 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_IRIA_10 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_IRIA_11 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_IRIA_12 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_IRIA_13 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_IRIA_14 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_IRIA_15 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_CDM_FRONTIER_2 = {
+        region_state:AUR = {
+        }
+    }
+    s:STATE_MTA_2 = {
+        region_state:MTA = {
+        }
+    }
+    s:STATE_IRIA_16 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_IRIA_17 = {
+        region_state:IRI = {
+        }
+    }
+    s:STATE_IRIA_18 = {
+        region_state:IRI = {
+        }
+    }
 }
 

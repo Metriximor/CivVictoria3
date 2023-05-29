@@ -140,9 +140,11 @@
  CDM_ADJ: "Cortesia"
  AUR: "Aurellia"
  AUR_ADJ: "Aurellian"
- MED: "Medi Nostrum"
+ MED: "Medi Union"
  MED_ADJ: "Medi"
  EST: "Estalia"
  EST_ADJ: "Estalian"
+ IRI: "Iria"
+ IRI_ADJ: "Irian
 #  DLG:0 "Dalgon"
 #  DLG_ADJ:0 "$dalgonese$"

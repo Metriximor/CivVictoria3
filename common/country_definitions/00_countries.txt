@@ -178,5 +178,13 @@ MED = {
 	color = "lusitan_shield_blue"
 	country_type = recognized
 	tier = hegemony
-	cultures = { lusitan thruitt truidencian gensokyojin danzilonan }
+	cultures = { lusitan thruitt truidencian gensokyojin danzilonan irian }
+}
+
+IRI = {
+	capital = STATE_IRIA_3
+	color = rgb { 74 111 40 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { irian }
 }

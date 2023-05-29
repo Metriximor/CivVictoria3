@@ -112,3 +112,10 @@ STATE_TOPHER_LAKE = {
     impassable = { x352107 }
 }
 
+STATE_LINDOR_LAKE = {
+    id = 3023
+    provinces = { x0C4903 }
+    impassable = {
+    }
+}
+

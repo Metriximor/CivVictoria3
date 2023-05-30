@@ -18,7 +18,7 @@ VertexShader =
 		[[
 			PDX_MAIN
 			{
-				VS_OUTPUT_MAPNAME Out = MapNameVertexShader( Input, FlatMapHeight, FlatMapLerp );
+				VS_OUTPUT_MAPNAME Out = MapNameVertexShader( Input, FlatmapHeight, FlatmapLerp );
 				return Out;
 			}
 		]]
@@ -49,15 +49,15 @@ PixelShader =
 				float3 Color = float3( 0.0f, 0.0f, 0.0f );
 
                 // All credits to terrapass for this shader code
-				static const float3 TARGET_COUNTRY_COLOR = float3(0.0f, 0.0f, 9.0f)/255.0f; // Country we want to change
-                static const float3 TARGET_MAPNAME_COLOR = float3(1.0f, 1.0f, 1.0f); // Full black
+				static const float3 MERY_COUNTRY_COLOR = float3(0.0f, 0.0f, 9.0f)/255.0f; // Mery
+                static const float3 MERY_MAPNAME_COLOR = float3(1.0f, 1.0f, 1.0f); // Full black
 
 				float2 ProvinceCoords = Input.WorldSpacePos.xz / ProvinceMapSize;
 				float4 CountryColor   = BilinearColorSample( ProvinceCoords, IndirectionMapSize, InvIndirectionMapSize, ProvinceColorIndirectionTexture, ProvinceColorTexture );
 
-				if (distance(CountryColor, TARGET_COUNTRY_COLOR) < 0.012f) { // Tweak the distance comparison value to get it working
-					Color = lerp(Color, TARGET_MAPNAME_COLOR, FlatMapLerp);
-                    Alpha *= lerp(1.0f, 0.5f, FlatMapLerp);
+				if (distance(CountryColor, MERY_COUNTRY_COLOR) < 0.012f) { // Tweak the distance comparison value to get it working
+					Color = lerp(Color, MERY_MAPNAME_COLOR, FlatmapLerp);
+                    Alpha *= lerp(1.0f, 0.5f, FlatmapLerp);
                 }
 
 				float3 FlatmapColor = Color; // Pre effects color
@@ -66,7 +66,7 @@ PixelShader =
 				Color = ApplyFogOfWar( Color, Input.WorldSpacePos );
 
 				// Flatmap color
-				Color = lerp( Color, FlatmapColor, FlatMapLerp);
+				Color = lerp( Color, FlatmapColor, FlatmapLerp);
 
 				return float4( Color, Alpha );
 			}

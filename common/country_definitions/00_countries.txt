@@ -183,7 +183,7 @@ MED = {
 
 IRI = {
 	capital = STATE_IRIA_3
-	color = rgb { 74 111 40 }
+	color = irian_green
 	country_type = recognized
 	tier = kingdom
 	cultures = { irian }

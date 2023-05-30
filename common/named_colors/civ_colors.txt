@@ -57,6 +57,9 @@ colors = {
     augustan_red = rgb { 255 0 0 }
     augustan_blue = rgb { 0 54 167 }
 
+    # Iria
+    irian_green = rgb { 74 111 40 }
+
 	# Base Colors
 	cobblestone = rgb { 173 167 169 }
 	grass_green = rgb { 0 154 23 }

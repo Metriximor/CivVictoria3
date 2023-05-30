@@ -17,7 +17,7 @@
             teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
 			flat_clothes={ "gene_no_clothes" 0 "gene_no_clothes" 0 }
             gene_no_portrait={ "no_portrait" 127 "no_portrait" 127 }
-            base_skins={ "gene_unique_skin" 170 "gene_base_skin" 0 }
+            base_skins={ "gene_unique_skin" 100 "gene_base_skin" 0 }
         }
     }
     enabled = yes

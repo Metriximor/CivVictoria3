@@ -41,6 +41,15 @@
 				1 = chocchips
 				1 = tshola
 				1 = pythius
+                1 = anon00014
+                1 = elementkz
+                1 = horizonleap
+                1 = lottosprayer
+                1 = ofunknown
+                1 = retyu
+                1 = squareblob
+                1 = wolfeyes
+                1 = reddevel
 			}
 			female = {
 				1 = topaz
@@ -48,6 +57,8 @@
 				1 = smal
 				1 = amandacc
 				1 = redsteel
+                1 = ladykat
+                1 = bellamorte
 			}
 			boy = male
 			girl = female

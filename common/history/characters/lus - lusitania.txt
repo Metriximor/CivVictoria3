@@ -19,6 +19,9 @@
 				intermediate_botter
 				historical
 			}
+            on_created = {
+				set_variable = is_married
+			}
 		}
 
 		create_character = {
@@ -40,6 +43,9 @@
 				beginner_pvper
 				expert_artist
 				historical
+			}
+            on_created = {
+				set_variable = is_married
 			}
 		}
 	}

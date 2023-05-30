@@ -1,0 +1,102 @@
+﻿CHARACTERS = {
+	c:IRI = {
+		create_character = {
+			first_name = wolfeyes
+			last_name = no_last_name
+			noble = yes
+			ruler = yes
+			culture = cu:irian
+			dna = dna_wolfeyes
+			age = { 20 30 }
+			interest_group = ig_roleplayers
+			ideology = ideology_pacifist # TODO
+			traits = {
+                # TODO
+				historical
+			}
+		}
+
+        create_character = {
+			first_name = lottosprayer
+			last_name = no_last_name
+			noble = yes
+			ig_leader = yes
+			culture = cu:irian
+			dna = dna_lottosprayer
+			age = { 20 30 }
+			interest_group = ig_buildfriends
+			ideology = ideology_pacifist # TODO
+			traits = {
+                # TODO
+				historical
+			}
+		}
+
+        create_character = {
+			first_name = horizonleap
+			last_name = no_last_name
+			noble = yes
+			culture = cu:irian
+			dna = dna_horizonleap
+			age = { 20 30 }
+			interest_group = ig_roleplayers
+			ideology = ideology_pacifist # TODO
+			traits = {
+                # TODO
+				historical
+			}
+		}
+
+        create_character = {
+			first_name = ofunknown
+			last_name = no_last_name
+			noble = yes
+			culture = cu:irian
+			dna = dna_wolfeyes
+			age = { 20 30 }
+			interest_group = ig_roleplayers
+			ideology = ideology_pacifist # TODO
+			traits = {
+                # TODO
+				historical
+			}
+		}
+
+        create_character = {
+			first_name = reddevel
+			last_name = no_last_name
+			noble = yes
+			culture = cu:irian
+			dna = dna_wolfeyes
+			age = { 20 30 }
+			interest_group = ig_roleplayers
+			ideology = ideology_pacifist # TODO
+			traits = {
+                # TODO
+				historical
+			}
+		}
+
+		# create_character = {
+		# 	first_name = banyough
+		# 	last_name = no_last_name
+		# 	noble = yes
+		# 	female = yes
+		# 	culture = cu:lusitan
+		# 	ig_leader = yes
+		# 	dna = dna_banyough
+		# 	age = { 18 25 }
+		# 	ideology = ideology_pacifist
+		# 	interest_group = ig_grinders
+		# 	traits = {
+		# 		wholesome
+		# 		reserved
+		# 		expensive_tastes
+		# 		advanced_builder
+		# 		beginner_pvper
+		# 		expert_artist
+		# 		historical
+		# 	}
+		# }
+	}
+}

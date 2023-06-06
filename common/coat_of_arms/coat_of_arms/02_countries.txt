@@ -262,6 +262,39 @@ PAV = {
     }
 }
 
+PAV_EMPIRE = {
+    pattern = "pattern_checkers_01.tga"
+    color1 = "full_white"
+    color2 = rgb { 223 60 78 }
+    # textured_emblem = {
+        # texture = "te_coa_pavia.dds"
+# }
+    colored_emblem = {
+        texture = "ce_cross_england.dds"
+        color1 = rgb { 66 182 223 }
+        instance = { position = { 0.75 0.75 } scale = { 0.5 0.5 } }
+}
+    colored_emblem = {
+        texture = "ce_cross_england.dds"
+        color1 = rgb { 66 182 223 }
+        instance = { position = { 0.25 0.25 } scale = { 0.5 0.5 } }
+}
+    colored_emblem = {
+        texture = "ce_lion_rampant.dds"
+        color1 = "full_white"
+            color2 = "full_white"
+            color3 = "full_white"
+        instance = { position = { 0.25 0.75 } scale = { 0.6 0.5 } }
+    }
+    colored_emblem = {
+        texture = "ce_lion_rampant.dds"
+        color1 = "full_white"
+            color2 = "full_white"
+            color3 = "full_white"
+        instance = { position = { 0.75 0.25 } scale = { 0.6 0.5 } }
+    }
+}
+
 TRA = {
 	pattern = "pattern_solid.tga"
 	color1 = "lusitan_shield_blue"

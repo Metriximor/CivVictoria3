@@ -1,0 +1,21 @@
+meracydian = {
+	color = rgb { 69 0 104 }
+	religion = non_religious
+	traits = { newfriend_heritage medi_sea_culture_group english }
+	male_common_first_names = {
+	
+	}
+	female_common_first_names = {
+		
+	}
+	noble_last_names = {
+	
+	}
+	common_last_names = {
+	
+	}
+	graphics = european
+	ethnicities = {
+		1 = minecrafter
+	}
+}

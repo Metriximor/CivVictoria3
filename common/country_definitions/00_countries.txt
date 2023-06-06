@@ -188,3 +188,11 @@ IRI = {
 	tier = kingdom
 	cultures = { irian }
 }
+
+MRA = {
+	capital = STATE_MUMEITA
+	color = rgb { 69 0 104 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { meracydian gensokyojin thruitt }
+}

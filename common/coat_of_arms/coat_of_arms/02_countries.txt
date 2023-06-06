@@ -807,4 +807,23 @@ HIS = {
 		instance = { scale = { 0.7 0.7 } }
 	}
 }
+MRA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 207 148 48 }
+		colored_emblem = {
+		texture = "ce_coa_meracydia.dds"
+		color2 = rgb { 69 0 104 }
+		instance = { scale = { 0.65 0.65 } }
+		}
+		colored_emblem = {
+		texture = "ce_frame_square.dds"
+		color1 = rgb { 69 0 104 }
+		instance = { scale = { 1 1 } position = { 1.1 0.5 } }
+		}
+		colored_emblem = {
+		texture = "ce_frame_square.dds"
+		color1 = rgb { 69 0 104 }
+		instance = { scale = { 1 1 } position = { -0.1 0.5 } }
+	}
+}
 #####################

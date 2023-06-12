@@ -27,8 +27,7 @@ naran = {
 		Kusuno Kisa
 		
 	}
-	noble_last_names = {
-		Gensokyo 
+	noble_last_names = { 
 		Yakumo
 		Hakurei Hijiri
 		Kochiya Kirisame

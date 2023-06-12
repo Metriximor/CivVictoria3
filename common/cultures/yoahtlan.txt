@@ -4,6 +4,7 @@
 	traits = { udf_heritage yoahtlan_culture_group english nahuatl spanish scandinavian }
 	male_common_first_names = {
 	# aztec
+	
 	Yaretzi Yolihuani Yoltzin Yoliyamanimina
 	Xipil Xilochitl
 	Nocheyaxi Necahual

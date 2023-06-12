@@ -1,7 +1,7 @@
 pavian = { 
     color = rgb { 153 255 255 } 
     religion = non_religious
-    traits = { gabonese_heritage lyrean_sea_culture_group english }
+    traits = { gabonese_heritage lyrean_sea_culture_group english french }
     male_common_first_names={
 
     #french
@@ -73,10 +73,11 @@ pavian = {
 	noble_last_names = {
 	# civ
 
-Of_Bedford Of_Windermere Of_Braemar Of_Cintra Of_Avalonna Of_Lugano Of_Vetranio
+	of_Bedford of_Windermere of_Braemar 
+	of_Cintra of_Avalonna of_Lugano of_Vetranio
 
-	Of_House_Lucatore Of_House_Visucius 
-	Of_House_Gijahr Of_House_Von_Thusis Of_House_Wanderer
+	of_House_Lucatore of_House_Visucius 
+	of_House_Gijahr of_House_Von_Thusis of_House_Wanderer
 	# other
 
 	}
@@ -84,7 +85,8 @@ Of_Bedford Of_Windermere Of_Braemar Of_Cintra Of_Avalonna Of_Lugano Of_Vetranio
 	
 	# civ
 
-Of_Lucassio Of_Solberg_Estate Of_Stonehaven Of_San_Selano Of_Bedford_Common Of_Tirana
+	of_Lucassio of_Solberg_Estate of_Stonehaven 
+	of_San_Selano of_Bedford_Common of_Tirana
 	# french
 
 	Ange Astier Azema

@@ -109,12 +109,4 @@ def main():
             f.write(entity_registration)
 
 if __name__ == "__main__":
-    try:
-        main()
-    except Exception as e:
-        print(
-            f"When in doubt, send this to Metriximor (remove personal details): \n{type(e).__name__}: {str(e)}"
-        )
-        # import traceback; traceback.print_exc() # DEBUG ONLY
-    finally:
-        input("Finish? (Press Enter) ")
+    main()

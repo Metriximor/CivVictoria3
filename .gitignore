@@ -273,5 +273,6 @@ tools/*
 src/output/*
 build/*
 *.spec
+release/*
 __pycache__
 tools/mapeditor/map_editor_status.txt

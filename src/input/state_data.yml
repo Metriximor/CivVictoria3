@@ -1,0 +1,381 @@
+STATE_NIDAROS:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 192191
+STATE_HYLDOR:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 214248
+STATE_FLATAGRAS:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 200851
+STATE_SIX_COLONIES:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 145487
+STATE_OUTER_NIDAROS:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 114638
+STATE_NUMBERS_LAWN:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 275437
+STATE_CIV_PROVENCE:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 109715
+STATE_AMATERASU_SHORES:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 126275
+STATE_PORTUCALE:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 191394
+STATE_CASCAIS:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 216061
+STATE_OLIMPIA:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 168550
+STATE_ATLAS:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 58851
+STATE_AZORES:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 5389
+STATE_CLASSICALE:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 147862
+STATE_CIV_ALENTEJO:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 88967
+STATE_WEST_LAMBAT_CITY:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 187011
+STATE_VALLE_OCCIDENTAL:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 476226
+STATE_CHUNGIA:
+  naval_exit_id: STATE_LYREAN_SEA
+  population: 374878
+STATE_MERCADO_STRAIT:
+  naval_exit_id: STATE_STONY_SEA
+  population: 164550
+STATE_PARFAIT_KAWAYAN:
+  naval_exit_id: STATE_STONY_SEA
+  population: 397473
+STATE_PROVINCE_OF_NEW_DANZILONA:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 452774
+STATE_PAMPANG:
+  naval_exit_id: STATE_LYREAN_SEA
+  population: 192850
+STATE_MELIA:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 593210
+STATE_PETERSKOGUR:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 233491
+STATE_SOUTH_MELIA:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 148033
+STATE_WOLKEN:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 356793
+STATE_SOUTHERN_PROVINCE:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 242924
+STATE_EASTERN_SHINING_ISLES:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 45797
+STATE_WOLKEN_ISLANDS:
+  naval_exit_id: STATE_MEDI_SEA
+  population: 33535
+STATE_NORTHERN_MERY:
+  naval_exit_id: STATE_LYREAN_SEA
+  population: 134594
+STATE_CENTRAL_MERY:
+  naval_exit_id: STATE_MIDDLE_OCEAN
+  population: 252607
+STATE_SOUTHERN_MERY:
+  naval_exit_id: STATE_MIDDLE_OCEAN
+  population: 227400
+STATE_SORLAND:
+  pops:
+  - culture: thruitt
+    religion: bezism
+    ratio: 9
+  - culture: gensokyojin
+    religion: bezism
+    ratio: 1
+  population: 479943
+STATE_MORINOYARI:
+  pops:
+  - culture: thruitt
+    religion: bezism
+    ratio: 1
+  - culture: gensokyojin
+    religion: bezism
+    ratio: 9
+  homelands:
+  - thruittans
+  population: 124396
+STATE_BLANCO_STRAIT:
+  homelands:
+  - lambatan
+  - mery_culture
+  naval_exit_id: STATE_STONY_SEA
+  population: 238218
+STATE_OUTLAND:
+  pops:
+  - culture: thruitt
+    religion: bezism
+    ratio: 1
+  population: 101520
+STATE_SNOWPEAK:
+  population: 52073
+STATE_TENSEIMIYA:
+  population: 288371
+STATE_DAISHIREIBOU:
+  population: 547718
+STATE_MUMEITA:
+  population: 558424
+STATE_YAMATO_KEN:
+  population: 171968
+STATE_DREAMLAND:
+  population: 110114
+STATE_LUSITAN_PLAINS:
+  population: 93900
+STATE_LUSITAN_PLATEAUS:
+  population: 189128
+STATE_EBORA:
+  population: 34092
+STATE_EAST_LAMBAT_CITY:
+  population: 179074
+STATE_SOPHIA:
+  population: 309810
+STATE_WEST_DANZILONA:
+  population: 366697
+STATE_YOAHTL_HOMELANDS:
+  population: 58495
+STATE_KOBYLINSKI:
+  population: 185059
+STATE_CZECHIA:
+  population: 253400
+STATE_WESTBURY:
+  population: 277959
+STATE_EASTBURY:
+  population: 151051
+STATE_YOAHTL_WESTERN_FRONTIER:
+  population: 351024
+STATE_ALTEPETL:
+  population: 118495
+  pops:
+  - culture: yoahtlan
+    ratio: 90
+  - culture: resimerian
+    ratio: 3
+STATE_SOUTHBURY:
+  population: 284658
+STATE_KAXITL:
+  population: 363638
+STATE_YOAHTL_EASTERN_FRONTIER:
+  population: 280526
+STATE_RESIMERE:
+  population: 55436
+  pops:
+  - culture: resimerian
+    ratio: 1
+STATE_RESIMERIAN_FRONTIER:
+  population: 396645
+  pops:
+  - culture: resimerian
+    ratio: 1
+STATE_MINI_YOAHTL:
+  population: 20300
+STATE_MINI_YOAHTL_FRONTIER:
+  population: 115541
+STATE_ROZIA:
+  population: 37213
+STATE_UPPER_MELIA:
+  population: 170065
+STATE_NEW_SWISSTON:
+  population: 130690
+STATE_KALLOS:
+  naval_exit_id: STATE_MIDDLE_OCEAN
+  population: 342051
+STATE_ARNEN:
+  population: 290659
+STATE_COLUMBIA:
+  population: 358969
+STATE_FLORENCE:
+  naval_exit_id: STATE_NORTHLANDIC_SEA
+  population: 221408
+STATE_DELEWARE:
+  naval_exit_id: STATE_LAKE_MICHIGAN
+  population: 185516
+STATE_ZATOKA:
+  naval_exit_id: STATE_SEA_OF_SNEED
+  population: 261981
+STATE_GAZEBO:
+  population: 190450
+STATE_KROVIDENCIA:
+  population: 228200
+STATE_ARCTIC_AND_EAST_TITAN:
+  naval_exit_id: STATE_SEA_OF_SNEED
+  population: 108733
+STATE_MOUNT_AUGUSTA:
+  population: 687633
+  pops:
+  - culture: augustan
+    ratio: 7
+  - culture: septembrian
+    ratio: 2
+STATE_SOUTH_MOUNT_AUGUSTA:
+  population: 236345
+  pops:
+  - culture: augustan
+    ratio: 7
+  - culture: septembrian
+    ratio: 3
+STATE_GLATTEIS:
+  population: 71193
+STATE_EAST_MOUNT_AUGUSTA:
+  naval_exit_id: STATE_STONY_SEA
+  population: 439352
+  pops:
+  - culture: augustan
+    ratio: 7
+  - culture: septembrian
+    ratio: 2
+STATE_EXCLAVE_MOUNT_AUGUSTA:
+  naval_exit_id: STATE_STONY_SEA
+  population: 356504
+STATE_CALW:
+  naval_exit_id: STATE_MIDDLE_OCEAN
+  population: 199163
+STATE_CAWL_EXCLAVE:
+  population: 40047
+STATE_DOOM_CITY_NORTH:
+  population: 624008
+STATE_DOOM_CITY_SOUTH:
+  population: 414674
+STATE_SYMSTEAD:
+  population: 127906
+STATE_ADRINA:
+  naval_exit_id: STATE_LYREAN_SEA
+  population: 127353
+STATE_ISLES_OF_CUCURBITS:
+  naval_exit_id: STATE_LYREAN_SEA
+  population: 64903
+STATE_WYNFORD:
+  population: 82071
+STATE_LILAC:
+  population: 66781
+STATE_GRIFFIN_CROWNLANDS:
+  naval_exit_id: STATE_LYREAN_SEA
+  population: 321654
+STATE_PAVIA_PROPER:
+  naval_exit_id: STATE_MIDDLE_OCEAN
+  population: 305656
+STATE_BEDFORD:
+  naval_exit_id: STATE_MIDDLE_OCEAN
+  population: 141930
+STATE_GREATER_PAVIA:
+  naval_exit_id: STATE_LYREAN_SEA
+  population: 571336
+STATE_PAVIA_AULDMARCHE:
+  naval_exit_id: STATE_LYREAN_SEA
+  population: 308907
+STATE_NORTH_NARA:
+  population: 459523
+STATE_CENTRAL_NARA:
+  population: 524045
+STATE_SOUTH_NARA:
+  population: 525479
+STATE_QBARRA:
+  population: 253002
+STATE_ICE_SHELF:
+  population: 449884
+STATE_NORTH_HADES_ISLANDS:
+  population: 154616
+STATE_WEST_CDM:
+  population: 117053
+STATE_IMBLOC:
+  population: 86032
+STATE_CONCORD:
+  population: 304925
+STATE_SOUTH_CDM:
+  population: 319036
+STATE_SANTIAGO:
+  population: 204087
+STATE_CDM_EXCLAVE:
+  population: 102876
+STATE_CDM_FRONTIER:
+  population: 374879
+STATE_ESTALIA_1:
+  population: 1268737
+STATE_ESTALIA_2:
+  population: 78925
+STATE_ESTALIA_3:
+  population: 152790
+STATE_ESTALIA_4:
+  population: 492116
+STATE_ESTALIA_5:
+  population: 87248
+STATE_ESTALIA_6:
+  population: 448904
+STATE_ESTALIA_7:
+  population: 873544
+STATE_ESTALIA_8:
+  population: 589077
+STATE_ESTALIA_9:
+  population: 641871
+STATE_ESTALIA_10:
+  population: 615025
+STATE_ESTALIA_11:
+  population: 308683
+STATE_ESTALIA_12:
+  population: 493566
+STATE_ESTALIA_13:
+  population: 241790
+STATE_ESTALIA_14:
+  population: 43277
+STATE_ESTALIA_15:
+  population: 18053
+STATE_IRIA_1:
+  population: 293419
+STATE_IRIA_2:
+  population: 199360
+STATE_IRIA_3:
+  population: 121460
+STATE_IRIA_4:
+  population: 304530
+STATE_IRIA_5:
+  population: 180166
+STATE_IRIA_6:
+  population: 51199
+STATE_IRIA_7:
+  population: 137824
+STATE_IRIA_8:
+  population: 172708
+STATE_IRIA_9:
+  population: 193950
+STATE_IRIA_10:
+  population: 150869
+STATE_IRIA_11:
+  population: 180978
+STATE_IRIA_12:
+  population: 124782
+STATE_IRIA_13:
+  population: 222860
+STATE_IRIA_14:
+  population: 291132
+STATE_IRIA_15:
+  population: 179732
+STATE_CDM_FRONTEIR_2:
+  population: 135696
+STATE_MTA_2:
+  population: 441796
+STATE_IRIA_16:
+  population: 65940
+STATE_IRIA_17:
+  population: 171838
+STATE_IRIA_18:
+  population: 107858
+STATE_CDM_FRONTIER_2:
+  population: 135696

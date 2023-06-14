@@ -1,0 +1,52 @@
+﻿CHARACTERS = {
+	c:LUS = {
+		create_character = {
+			first_name = Metriximor
+			last_name = no_last_name
+			noble = yes
+			ruler = yes
+			culture = cu:lusitan
+			dna = dna_metriximor
+			age = { 18 25 }
+			interest_group = ig_buildfriends
+			ideology = ideology_pacifist
+			traits = {
+				alcoholic
+				wholesome
+				reserved
+				advanced_diplomat
+				advanced_builder
+				intermediate_botter
+				historical
+			}
+            on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = banyough
+			last_name = no_last_name
+			noble = yes
+			female = yes
+			culture = cu:lusitan
+			ig_leader = yes
+			dna = dna_banyough
+			age = { 18 25 }
+			ideology = ideology_pacifist
+			interest_group = ig_grinders
+			traits = {
+				wholesome
+				reserved
+				expensive_tastes
+				advanced_builder
+				beginner_pvper
+				expert_artist
+				historical
+			}
+            on_created = {
+				set_variable = is_married
+			}
+		}
+	}
+}

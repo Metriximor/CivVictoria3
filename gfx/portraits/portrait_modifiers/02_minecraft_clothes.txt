@@ -1,0 +1,197 @@
+﻿flat_clothes = {
+	usage = game
+
+	flat_thruittan_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = flat_clothes
+				template = gene_thruitt_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+		}
+	}
+
+	flat_truidencian_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = flat_clothes
+				template = gene_truidencian_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				OR = {
+					AND = {
+						exists = scope:pop
+						scope:pop = {
+							culture = cu:truidencian
+						}
+					}
+					AND = {
+						exists = scope:character
+						scope:character = {
+							AND = {
+								culture = cu:truidencian
+								NOT = {
+									has_trait = historical
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	flat_gensokyojin_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = flat_clothes
+				template = gene_gensokyojin_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				OR = {
+					AND = {
+						exists = scope:pop
+						scope:pop = {
+							culture = cu:gensokyojin
+						}
+					}
+					AND = {
+						exists = scope:character
+						scope:character = {
+							AND = {
+								culture = cu:gensokyojin
+								NOT = {
+									has_trait = historical
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	flat_lambatan_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = flat_clothes
+				template = gene_lambatan_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				OR = {
+					AND = {
+						exists = scope:pop
+						scope:pop = {
+							culture = cu:lambatan
+						}
+					}
+					AND = {
+						exists = scope:character
+						scope:character = {
+							AND = {
+								culture = cu:lambatan
+								NOT = {
+									has_trait = historical
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	flat_lusitan_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = flat_clothes
+				template = gene_lusitan_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				OR = {
+					AND = {
+						exists = scope:pop
+						scope:pop = {
+							culture = cu:lusitan
+						}
+					}
+					AND = {
+						exists = scope:character
+						scope:character = {
+							AND = {
+								culture = cu:lusitan
+								NOT = {
+									has_trait = historical
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	flat_kallosian_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = flat_clothes
+				template = gene_kallosian_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				OR = {
+					AND = {
+						exists = scope:pop
+						scope:pop = {
+							culture = cu:kallosian
+						}
+					}
+					AND = {
+						exists = scope:character
+						scope:character = {
+							AND = {
+								culture = cu:kallosian
+								NOT = {
+									has_trait = historical
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

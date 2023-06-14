@@ -1,0 +1,8 @@
+﻿l_english:
+  je_cdm_treaty_of_santiago: "Treaty of Santiago"
+  je_cdm_treaty_of_santiago_reason: "There has long been a bond between the peoples of Cortesia Del Mar and Aurellia, and each nation admires the strengths and assets of the other, perhaps, a united future may enhance both peoples?"
+  treaty_of_santiago.1.t: "$je_cdm_treaty_of_santiago$"
+  treaty_of_santiago.1.d: "The Treaty of Santiago"
+  treaty_of_santiago.1.f: "WHEREAS there has long been a bond between the peoples of [ROOT.GetCountry.GetNameNoFormatting] and [SCOPE.sCountry('treaty_of_santiago_aurellia_scope').GetNameNoFormatting] \n WHEREAS each nation admires the strengths and assets of the other \n WHEREAS a united future may enhance both peoples."
+  treaty_of_santiago.1.a: "[ROOT.GetCountry.GetName] and [SCOPE.sCountry('treaty_of_santiago_aurellia_scope').GetName] are hereby merged into a single state."
+  treaty_of_santiago.1.b: "On a second thought..."

@@ -25,9 +25,6 @@ agrarian_party = {
 	available_for_interest_group = {
 		owner = {
 			country_has_voting_franchise = yes
-			ig:ig_rural_folk = {
-				is_powerful = yes
-			}
 		}
 	}
 	join_weight = {
@@ -35,17 +32,17 @@ agrarian_party = {
 			value = -5
 			desc = "base_value"
 		}
-		if = { # a party for powerful farmers
+		if = { # a party for powerful newfriends
 			limit = {
 				has_ideology = ideology_agrarian
 				is_powerful = yes
 			}
 			add = {
 				value = 10
-				desc = "from_peasants"
+				desc = "from_newfriends"
 			}
 		}
-		if = { # weak anti-serfdom types might fall in line behind strong farmers
+		if = { # weak anti-serfdom types might fall in line behind strong newfriends
 			limit = {
 				is_powerful = no
 				owner = {
@@ -58,7 +55,7 @@ agrarian_party = {
 			}
 			add = {
 				value = 10
-				desc = "from_powerful_farmers"
+				desc = "from_powerful_newfriends"
 			}
 		}
 		if = { # pacifist anti-colonial alliance
@@ -168,30 +165,6 @@ agrarian_party = {
 				desc = "from_anti_free_trade"
 			}
 		}
-		if = { # opposition to peasant levies
-			limit = {
-				OR = {
-					has_ideology = ideology_jingoist
-					has_ideology = ideology_particularist
-					has_ideology = ideology_sikh_moralist
-					leader = {
-						OR = {
-							has_ideology = ideology_fascist
-							has_ideology = ideology_anarchist
-							has_ideology = ideology_pacifist
-							has_ideology = ideology_jingoist_leader
-						}
-					}
-				}
-				owner = {
-					has_law = law_type:law_peasant_levies
-				}
-			}
-			add = {
-				value = 6
-				desc = "from_peasant_levies"
-			}
-		}
 		if = { # anti-serfdom
 			limit = {
 				owner = {
@@ -199,11 +172,9 @@ agrarian_party = {
 				}
 				OR = {
 					has_ideology = ideology_egalitarian
-					has_ideology = ideology_anti_slavery
 					has_ideology = ideology_laissez_faire
 					has_ideology = ideology_particularist
 					leader = {
-						has_ideology = ideology_abolitionist
 						has_ideology = ideology_social_democrat
 						has_ideology = ideology_communist
 					}
@@ -212,43 +183,6 @@ agrarian_party = {
 			add = {
 				value = 10
 				desc = "from_serfdom"
-			}
-		}
-		if = { # opposition to debt slavery
-			limit = {
-				owner = {
-					has_law = law_type:law_debt_slavery
-				}
-				OR = {
-					has_ideology = ideology_anti_slavery
-					leader = {
-						has_ideology = ideology_abolitionist
-					}
-				}
-			}
-			add = {
-				value = 10
-				desc = "from_debt_slavery"
-			}
-		}
-		if = { # nobody will join if the rural folk don't join
-			limit = {
-				NOT = { is_interest_group_type = ig_rural_folk }
-				OR = {
-					NOT = { exists = owner.py:agrarian_party }
-					AND = {
-						exists = owner.py:agrarian_party
-						owner = {
-							ig:ig_rural_folk = {
-								NOT = { is_member_of_party = owner.py:agrarian_party }
-							}
-						}
-					}
-				}
-			}
-			add = {
-				value = -20
-				desc = "from_no_rural_folk_in_party" # this should probably never actually display in game because the party won't exist
 			}
 		}
 	}

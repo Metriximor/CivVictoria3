@@ -1,0 +1,28 @@
+﻿accessory_genes = {
+	#####################################
+	#									#
+	# 			   HAIR 			    #
+	#									#
+	#####################################
+	hairstyles = {
+		inheritable = no
+		no_hairstyles = {
+			index = 0
+			male = {
+				1 = empty
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+		all_hairstyles = {
+			index = 1
+			male = {
+				1 = empty
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	}
+}

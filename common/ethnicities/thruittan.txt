@@ -1,0 +1,11 @@
+﻿thruittan = {
+	ethnicity_template = ethnicity_template
+
+	base_skins = {
+		1 = { name = gene_thruitt 			range = { 0.0 1.0 } }
+	}
+
+	flat_clothes = {
+		1 = { name = gene_thruitt_clothes 	range = { 0.0 1.0 } }
+	}
+}

@@ -6,9 +6,5 @@
 
 			building_output_charcoal_add = 48
 		}
-
-		level_scaled = {
-			building_employment_laborers_add = 20
-		}
 	}
 }

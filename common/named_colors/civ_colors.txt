@@ -1,0 +1,74 @@
+colors = {
+	# Lusitania
+	lusitan_red = rgb { 207 0 0 }
+	lusitan_shield_blue = rgb { 20 71 155 }
+	lusitan_castle_yellow = rgb { 249 199 0 }
+	lusitan_castle_yellow_border = rgb { 30 14 0 }
+	
+	# Truidencia
+	truidencian_red = rgb { 192 29 56 }
+	truidencian_yellow = rgb { 247 200 64 }
+
+	# Lambat
+	lambatan_yellow = rgb { 248 239 0 }
+	lambatan_blue = rgb { 43 53 148 }
+	lambatan_red = rgb { 239 54 36 }
+	lambatan_civmc_yellow = rgb {252 209 22 }
+	lambatan_civmc_blue = rgb { 0 68 106 }
+	lambatan_civmc_red = rgb { 206 17 38 }
+
+	# Gensokyo
+	gensokyojin_red = rgb { 196 23 23 }
+
+	# Danzilona
+	danzilonan_cyan = rgb { 24 165 165 }
+	danzilonan_grey = rgb { 56 62 63 }
+
+	# Wolken
+	wolken_blue = rgb { 117 171 217 }
+	wolken_green = rgb { 11 127 71 }
+
+	# Mery
+	mery_black = rgb { 0 0 9 }
+
+	# Yoahtl
+	yoahtlan_yellow = rgb { 255 204 51 }
+	yoahtlan_red = rgb { 198 3 31 }
+
+	# Rozia
+	rozian_blue = rgb { 64 224 208 }
+
+	# Kallos
+	kallosian_purple = rgb { 85 43 115 }
+	kallosian_light_purple = rgb { 117 61 162 }
+
+	# Pavia
+	pavian_blue = rgb { 94 182 228 }
+
+	# Griffin
+	griffin_blue = rgb { 39 131 186 }
+	
+	# Misc colors
+	bizantine_purple = rgb { 112 41 99 }
+
+    # Augusta
+    septembrian_red = rgb { 229 57 53 }
+    septembrian_blue = rgb { 40 53 147 }
+    augustan_red = rgb { 255 0 0 }
+    augustan_blue = rgb { 0 54 167 }
+
+    # Iria
+    irian_green = rgb { 74 111 40 }
+
+	# Base Colors
+	cobblestone = rgb { 173 167 169 }
+	grass_green = rgb { 0 154 23 }
+	chestnut_brown = rgb { 172 126 89 }
+	dark_magenta = rgb { 139 0 139 }
+    blueprint_blue = rgb { 53 99 124 }
+	burgundy = rgb { 128 0 32 }
+	golden_yellow = rgb { 236 182 0 }
+	pastel_pink = rgb { 255 209 220 }
+	full_white = rgb { 255 255 255 }
+	full_black = rgb { 0 0 0 }
+}

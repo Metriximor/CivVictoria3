@@ -3,4 +3,16 @@
 example_culture_group={ #Works same as cultural_descriptive traits.
 }
 
+medi_sea_culture_group = {
+}
+
+lyrean_sea_culture_group = {
+}
+
+alenarith_culture_group = {
+}
+
+yoahtlan_culture_group = {
+}
+
 #####################

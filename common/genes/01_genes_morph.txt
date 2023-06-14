@@ -1,0 +1,1394 @@
+﻿@maleMin = 0.0
+@maleMax = 1.0
+@femaleMin = 0.0
+@femaleMax = 0.8
+
+@maleAnimMin = -0.5
+@maleAnimMax = 0.5
+@femaleAnimMin = -0.4
+@femaleAnimMax = 0.4
+
+@maleBsMin = -1.0
+@maleBsMax = 1.0
+@femaleBsMin = -0.8
+@femaleBsMax = 0.8
+
+@boyMin = 0.0
+@boyMax = 1.0
+@girlMin = 0.2
+@girlMax = 0.8
+
+age_presets = {
+	age_preset_aging_primary = {
+		mode = multiply
+		curve = {
+			{ 0.0 0.0 }
+			{ 0.25 0.0 }
+			{ 0.35 0.2 }
+			{ 0.75 1.0 }
+		}
+	}
+	age_preset_aging_secondary = {
+		mode = multiply
+		curve = {
+			{ 0.0 0.0 }
+			{ 0.55 0.0 }
+			{ 0.90 0.5 }
+		}
+	}
+	age_preset_beard_growth = {
+		mode = multiply
+		curve = {
+			{ 0.0 0.0 }
+			{ 0.15 0.0 }
+			{ 0.22 1.0 }
+		}
+	}
+	age_preset_aging_hsv_curve = {
+		mode = multiply
+		curve = {
+			{ 0.0 0.0 }
+			{ 0.35 0.0 }
+            { 0.7 0.0 }
+			{ 0.8 1.0 }
+		}
+	}
+	age_preset_infant_joints = {
+        mode = multiply
+        curve = {
+            { 0.0 -1.0 }
+            { 0.03 -0.6 }
+            { 0.07 -0.43 }
+            { 0.10 -0.28 }
+            { 0.15 -0.05 }
+            { 0.18 0.0 }
+            { 1.0 1.0 }
+        }
+    }
+    age_preset_infant_joints_body = {
+        mode = multiply
+        curve = {
+            { 0.0 -1.0 }
+            { 0.03 -0.7 }
+            { 0.07 -0.45 }
+            { 0.15 -0.05 }
+            { 0.18 0.0 }
+            { 1.0 1.0 }
+        }
+    }
+	age_preset_child_bs_head = {
+		mode = multiply
+		curve = {
+			{ 0.03 0.7 }
+			{ 0.05 0.6 }
+			{ 0.10 0.5 }
+			{ 0.20 0.0 }
+		}
+	}
+	age_preset_child_bs_body = {
+		mode = multiply
+		curve = {
+			{ 0.00 1.0 }
+			{ 0.05 0.4 }
+			{ 0.10 0.2 }
+            { 0.10 0.1 }
+			{ 0.15 0.0 }
+		}
+	}
+	age_preset_child_features = {
+		mode = multiply
+		curve = {
+			{ 0.0 1 }
+			{ 0.05 0.5 }
+			{ 0.10 0.65 }
+			{ 0.22 1.0 }
+		}
+	}
+	age_preset_child_fat = {
+		mode = multiply
+		curve = {
+			{ 0.0 0.2 }
+			{ 0.10 0.5 }
+			{ 0.18 1.0 }
+			{ 0.7 1.0 }
+			{ 0.95 0.2 }
+		}
+	}
+	age_preset_child_fat_decal = {
+		mode = multiply
+		curve = {
+			{ 0.0 0.0 }
+			{ 0.10 0.0 }
+			{ 0.15 0.3 }
+			{ 0.2 1.0 }
+		}
+	}
+	age_preset_aging_gauntness = {
+		mode = add
+		curve = {
+			{ 0.0 0.0 }
+			{ 0.7 0.0 }
+			{ 0.95 0.4 }
+		}					
+	}
+	age_preset_height = {
+		mode = multiply
+		curve = {
+			{ 0.0 0.0 }
+			{ 0.18 1.0 }
+            { 0.7 1.0 }
+            { 0.9 0.6 }
+		}
+	}
+        age_preset_eyebrows = {
+        mode = multiply
+        curve = {
+            { 0.0 0.5 }
+            { 0.15 0.75 }
+            { 0.2 1.0 }
+            { 0.5 1.0 }
+            { 0.9 0.8 }
+        }
+    }
+    age_preset_eyebrows_fullness = {
+        mode = multiply
+        curve = {
+            { 0.0 0.5 }
+            { 0.15 0.75 }
+            { 0.2 1.0 }
+            { 0.5 1.0 }
+            { 0.9 0.2 }
+        }
+    }
+    age_preset_eyebrows_old = {
+        mode = multiply
+        curve = {
+            { 0.4 0.0 }
+            { 0.8 1.0 }
+        }
+    }
+}
+
+morph_genes = {
+	gene_complexion = {
+		complexion_01 = {
+			index = 0
+			male = {
+				texture_override = {
+					weight = 100  #if there are multiple texture_overrides in a character's dna one will be picked by weighted random
+					diffuse = "gfx/models/portraits/male_head/male_head_01_diffuse.dds"
+					normal = "gfx/models/portraits/male_head/male_head_01_normal.dds"
+					specular = "gfx/models/portraits/male_head/male_head_01_properties.dds"
+				}
+	            decal = { #Lip color
+	                                         
+	                    body_part = head
+	                    textures = {
+	                        diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_lip_color_01_diffuse.dds"
+	                    }
+	                    alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+	                        #gene strength%, decal alpha
+	                        { 0.0  0.0 }
+	                        { 1.0  0.7 }
+	                    }
+	                    blend_modes = {              #overlay/replace/hard_light/multiply
+	                        diffuse = multiply 
+	                        # normal = overlay
+	                        # properties = 
+	                    }
+	                    priority = 1
+	                    # age = age_preset_aging_definition_male
+	            }
+			}			
+			female = { 
+				texture_override = {
+					weight = 100  #if there are multiple texture_overrides in a character's dna one will be picked by weighted random
+					diffuse = "gfx/models/portraits/female_head/female_head_01_diffuse.dds"
+					normal = "gfx/models/portraits/female_head/female_head_01_normal.dds"
+					specular = "gfx/models/portraits/female_head/female_head_01_properties.dds"
+				}
+	            decal = { #Lip color
+	                                         
+	                    body_part = head
+	                    textures = {
+	                        diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_lip_color_01_diffuse.dds"
+	                    }
+	                    alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+	                        #gene strength%, decal alpha
+	                        { 0.0  0.0 }
+	                        { 1.0  0.8 }
+	                    }
+	                    blend_modes = {              #overlay/replace/hard_light/multiply
+	                        diffuse = multiply 
+	                        # normal = overlay
+	                        # properties = 
+	                    }
+	                    priority = 1
+	                    # age = age_preset_aging_definition_male
+	            }    			 
+			}
+			boy = male
+			girl = female
+		}	
+
+		complexion_02 = {
+			index = 1
+			male = {
+				texture_override = {
+					weight = 100  #if there are multiple texture_overrides in a character's dna one will be picked by weighted random
+					diffuse = "gfx/models/portraits/male_head/male_head_02_diffuse.dds"
+					normal = "gfx/models/portraits/male_head/male_head_01_normal.dds"
+					specular = "gfx/models/portraits/male_head/male_head_01_properties.dds"
+				}
+	            decal = { #Lip color
+	                                         
+	                    body_part = head
+	                    textures = {
+	                        diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_lip_color_01_diffuse.dds"
+	                    }
+	                    alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+	                        #gene strength%, decal alpha
+	                        { 0.0  0.0 }
+	                        { 1.0  0.7 }
+	                    }
+	                    blend_modes = {              #overlay/replace/hard_light/multiply
+	                        diffuse = multiply 
+	                        # normal = overlay
+	                        # properties = 
+	                    }
+	                    priority = 1
+	                    # age = age_preset_aging_definition_male
+	            }
+			}			
+			female = {  
+				texture_override = {
+					weight = 100  #if there are multiple texture_overrides in a character's dna one will be picked by weighted random
+					diffuse = "gfx/models/portraits/female_head/female_head_02_diffuse.dds"
+					normal = "gfx/models/portraits/female_head/female_head_01_normal.dds"
+					specular = "gfx/models/portraits/female_head/female_head_01_properties.dds"
+				}
+	            decal = { #Lip color
+	                                         
+	                    body_part = head
+	                    textures = {
+	                        diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_lip_color_01_diffuse.dds"
+	                    }
+	                    alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+	                        #gene strength%, decal alpha
+	                        { 0.0  0.0 }
+	                        { 1.0  0.8 }
+	                    }
+	                    blend_modes = {              #overlay/replace/hard_light/multiply
+	                        diffuse = multiply 
+	                        # normal = overlay
+	                        # properties = 
+	                    }
+	                    priority = 1
+	                    # age = age_preset_aging_definition_male
+	            }       			 
+			}
+			boy = male
+			girl = female
+		}	
+
+		complexion_03 = {
+			index = 2
+			male = {
+				texture_override = {
+					weight = 100  #if there are multiple texture_overrides in a character's dna one will be picked by weighted random
+					diffuse = "gfx/models/portraits/male_head/male_head_03_diffuse.dds"
+					normal = "gfx/models/portraits/male_head/male_head_01_normal.dds"
+					specular = "gfx/models/portraits/male_head/male_head_01_properties.dds"
+				}
+	            decal = { #Lip color
+	                                         
+	                    body_part = head
+	                    textures = {
+	                        diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_lip_color_01_diffuse.dds"
+	                    }
+	                    alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+	                        #gene strength%, decal alpha
+	                        { 0.0  0.0 }
+	                        { 1.0  0.7 }
+	                    }
+	                    blend_modes = {              #overlay/replace/hard_light/multiply
+	                        diffuse = multiply 
+	                        # normal = overlay
+	                        # properties = 
+	                    }
+	                    priority = 1
+	                    # age = age_preset_aging_definition_male
+	            }
+			}			
+			female = { 
+				texture_override = {
+					weight = 100  #if there are multiple texture_overrides in a character's dna one will be picked by weighted random
+					diffuse = "gfx/models/portraits/female_head/female_head_03_diffuse.dds"
+					normal = "gfx/models/portraits/female_head/female_head_01_normal.dds"
+					specular = "gfx/models/portraits/female_head/female_head_01_properties.dds"
+				}
+	            decal = { #Lip color
+	                                         
+	                    body_part = head
+	                    textures = {
+	                        diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_lip_color_01_diffuse.dds"
+	                    }
+	                    alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+	                        #gene strength%, decal alpha
+	                        { 0.0  0.0 }
+	                        { 1.0  0.8 }
+	                    }
+	                    blend_modes = {              #overlay/replace/hard_light/multiply
+	                        diffuse = multiply 
+	                        # normal = overlay
+	                        # properties = 
+	                    }
+	                    priority = 1
+	                    # age = age_preset_aging_definition_male
+	            }        			 
+			}
+			boy = male
+			girl = female
+		}
+
+        complexion_04 = {
+            index = 3
+            male = {
+                texture_override = {
+                    weight = 100  #if there are multiple texture_overrides in a character's dna one will be picked by weighted random
+                    diffuse = "gfx/models/portraits/male_head/male_head_04_diffuse.dds"
+                    normal = "gfx/models/portraits/male_head/male_head_01_normal.dds"
+                    specular = "gfx/models/portraits/male_head/male_head_01_properties.dds"
+                }
+                decal = { #Lip color
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_lip_color_01_diffuse.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  0.7 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            # normal = overlay
+                            # properties = 
+                        }
+                        priority = 1
+                        # age = age_preset_aging_definition_male
+                }
+            }           
+            female = { 
+                texture_override = {
+                    weight = 100  #if there are multiple texture_overrides in a character's dna one will be picked by weighted random
+                    diffuse = "gfx/models/portraits/female_head/female_head_04_diffuse.dds"
+                    normal = "gfx/models/portraits/female_head/female_head_01_normal.dds"
+                    specular = "gfx/models/portraits/female_head/female_head_01_properties.dds"
+                }
+                decal = { #Lip color
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_lip_color_01_diffuse.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  0.8 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            # normal = overlay
+                            # properties = 
+                        }
+                        priority = 1
+                        # age = age_preset_aging_definition_male
+                }                    
+            }
+            boy = male
+            girl = female
+        }
+
+	}
+
+	gene_stubble = {
+		stubble_low = {
+			index = 0
+			male = {
+				decal = {                             
+	                body_part = head
+	                textures = {
+	                    diffuse = "gfx/models/portraits/decals/male_head/decal_male_head_stubble_03_diffuse.dds"
+	                    normal = "gfx/models/portraits/decals/male_head/decal_male_head_stubble_03_normal.dds"
+	                }
+                    alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                        #gene strength%, decal alpha
+                        { 0.0  0.0 }
+                        { 0.75  1.0 }
+                        { 1.0  1.0 }
+                    }
+	                blend_modes = {              #overlay/replace/hard_light/multiply
+	                    diffuse = multiply 
+	                    normal = overlay
+	                    # properties = 
+	                }
+	                age = age_preset_beard_growth
+	                priority = 1
+	            }
+			}			
+			female = {     			 
+			}
+			boy = male
+			girl = female
+		}	
+
+		stubble_medium = {
+			index = 1
+			male = {
+				decal = {                             
+	                body_part = head
+	                textures = {
+	                    diffuse = "gfx/models/portraits/decals/male_head/decal_male_head_stubble_02_diffuse.dds"
+	                    normal = "gfx/models/portraits/decals/male_head/decal_male_head_stubble_02_normal.dds"
+	                }
+                    alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                        #gene strength%, decal alpha
+                        { 0.0  0.0 }
+                        { 0.75  1.0 }
+                        { 1.0  1.0 }
+                    }
+	                blend_modes = {              #overlay/replace/hard_light/multiply
+	                    diffuse = multiply 
+	                    normal = overlay
+	                    # properties = 
+	                }
+	                age = age_preset_beard_growth
+	                priority = 1
+	            }
+			}			
+			female = {     			 
+			}
+			boy = male
+			girl = female
+		}	
+
+		stubble_full = {
+			index = 2
+			male = {
+				decal = {                             
+	                body_part = head
+	                textures = {
+	                    diffuse = "gfx/models/portraits/decals/male_head/decal_male_head_stubble_01_diffuse.dds"
+	                    normal = "gfx/models/portraits/decals/male_head/decal_male_head_stubble_01_normal.dds"
+	                }
+                    alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                        #gene strength%, decal alpha
+                        { 0.0  0.0 }
+                        { 0.75  1.0 }
+                        { 1.0  1.0 }
+                    }
+	                blend_modes = {              #overlay/replace/hard_light/multiply
+	                    diffuse = multiply 
+	                    normal = overlay
+	                    # properties = 
+	                }
+	                age = age_preset_beard_growth
+	                priority = 1
+	            }
+			}			
+			female = {     			 
+			}
+			boy = male
+			girl = female
+		}	
+
+		stubble_patchy = {
+			index = 3
+			male = {
+				decal = {                             
+	                body_part = head
+	                textures = {
+	                    diffuse = "gfx/models/portraits/decals/male_head/decal_male_head_stubble_04_diffuse.dds"
+	                    normal = "gfx/models/portraits/decals/male_head/decal_male_head_stubble_04_normal.dds"
+	                }
+                    alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                        #gene strength%, decal alpha
+                        { 0.0  0.0 }
+                        { 0.75  1.0 }
+                        { 1.0  1.0 }
+                    }	
+	                blend_modes = {              #overlay/replace/hard_light/multiply
+	                    diffuse = multiply 
+	                    normal = overlay
+	                    # properties = 
+	                }
+	                age = age_preset_beard_growth
+	                priority = 1
+	            }
+			}			
+			female = {     			 
+			}
+			boy = male
+			girl = female
+		}
+
+	}
+
+gene_face_dacals = {
+        face_dacal_01 = {
+            index = 0
+            male = { 
+
+               decal = {                             
+                    body_part = head
+                    textures = {
+                        diffuse = "gfx/models/portraits/decals/visual_traits/face_01_diffuse.dds"
+                        normal = "gfx/models/portraits/decals/visual_traits/face_01_normal.dds"
+                    }
+                    blend_modes = {              #overlay/replace/hard_light/multiply
+                        diffuse = overlay 
+                        normal = overlay
+                        # properties = 
+                    }
+                    age = {
+                        mode = multiply
+                        curve = {
+                            { 0.0 0.0 }
+                            { 0.25 1.0 }
+                            { 1.0 1.0 }
+                        }
+                    }
+                    priority = 0
+                }
+            }
+            female = {
+
+                decal = {                             
+                    body_part = head
+                    textures = {
+                        diffuse = "gfx/models/portraits/decals/visual_traits/face_01_diffuse.dds"
+                        normal = "gfx/models/portraits/decals/visual_traits/face_01_normal.dds"
+                    }
+                    blend_modes = {              #overlay/replace/hard_light/multiply
+                        diffuse = overlay 
+                        normal = overlay
+                        # properties = 
+                    }
+                    age = {
+                        mode = multiply
+                        curve = {
+                            { 0 0.0 }
+                            { 0.18 0.0 }
+                            { 0.30 0.8 }
+                            { 1 1 }
+                        }
+                    }
+                    priority = 0
+                }            
+            }           
+    }  
+
+            face_dacal_02 = {
+            index = 1
+            male = { 
+
+               decal = {                             
+                    body_part = head
+                    textures = {
+                        diffuse = "gfx/models/portraits/decals/visual_traits/face_02_diffuse.dds"
+                        normal = "gfx/models/portraits/decals/visual_traits/face_02_normal.dds"
+                    }
+                    blend_modes = {              #overlay/replace/hard_light/multiply
+                        diffuse = overlay 
+                        normal = overlay
+                        # properties = 
+                    }
+                    age = {
+                        mode = multiply
+                        curve = {
+                           { 0.0 0.0 }
+                            { 0.25 1.0 }
+                            { 1.0 1.0 }
+                        }
+                    }
+                    priority = 0
+                }
+            }
+            female = {
+
+                decal = {                             
+                    body_part = head
+                    textures = {
+                        diffuse = "gfx/models/portraits/decals/visual_traits/face_02_diffuse.dds"
+                        normal = "gfx/models/portraits/decals/visual_traits/face_02_normal.dds"
+                    }
+                    blend_modes = {              #overlay/replace/hard_light/multiply
+                       diffuse = multiply 
+                        normal = overlay
+                        # properties = 
+                    }
+                    age = {
+                        mode = multiply
+                        curve = {
+                           { 0 1 }
+                            { 1 1 }
+                            { 1 1 }
+                        }
+                    }
+                    priority = 0
+                }            
+            }
+             
+    } 
+        face_dacal_03 = {
+            index = 2
+            male = { 
+
+               decal = {                             
+                    body_part = head
+                    textures = {
+                        diffuse = "gfx/models/portraits/decals/visual_traits/face_03_diffuse.dds"
+                        normal = "gfx/models/portraits/decals/visual_traits/face_03_normal.dds"
+                    }
+                    blend_modes = {              #overlay/replace/hard_light/multiply
+                        diffuse = overlay
+                        normal = overlay
+                        # properties = 
+                    }
+                    age = {
+                        mode = multiply
+                        curve = {
+
+                          { 0.0 0.0 }
+                            { 0.25 0.8 }
+                            { 1.0 1.0 }
+                        }
+                    }
+                    priority = 0
+                }
+            }
+           female = {
+              decal = {                             
+                    body_part = head
+                    textures = {
+                        diffuse = "gfx/models/portraits/decals/visual_traits/face_03_diffuse.dds"
+                        normal = "gfx/models/portraits/decals/visual_traits/face_03_normal.dds"
+                    }
+                    blend_modes = {              #overlay/replace/hard_light/multiply
+                        diffuse = overlay 
+                        normal = overlay
+                        # properties = 
+                    }
+                    age = {
+                        mode = multiply
+                        curve = {
+                            { 0.0 0.4 }
+                            { 1 1 }
+                         { 1 1 }
+                        }
+                    }
+                    priority = 0
+                }            
+            }
+    }
+
+            face_dacal_04 = {
+            index = 3
+            male = { 
+
+               decal = {                             
+                    body_part = head
+                    textures = {
+                        diffuse = "gfx/models/portraits/decals/visual_traits/face_04_diffuse.dds"
+                        normal = "gfx/models/portraits/decals/visual_traits/face_04_normal.dds"
+                    }
+                    blend_modes = {              #overlay/replace/hard_light/multiply
+                        diffuse = overlay
+                        normal = overlay
+                        # properties = 
+                    }
+                    age = {
+                        mode = multiply
+                        curve = {
+                            { 0.0 0.0 }
+                            { 0.25 1.0 }
+                            { 1.0 1.0 }
+
+                        }
+                    }
+                    priority = 0
+                }
+            }
+           female = {
+              decal = {                             
+                    body_part = head
+                    textures = {
+                        diffuse = "gfx/models/portraits/decals/visual_traits/face_02_diffuse.dds"
+                        normal = "gfx/models/portraits/decals/visual_traits/face_02_normal.dds"
+                    }
+                    blend_modes = {              #overlay/replace/hard_light/multiply
+                        diffuse = overlay 
+                        normal = overlay
+                        # properties = 
+                    }
+                    age = {
+                        mode = multiply
+                        curve = {
+                            { 0.0 0.0 }
+                            { 1.0 1.0 }
+                         { 1 1 }
+                        }
+                    }
+                    priority = 0
+                }            
+            }
+    }
+
+                face_dacal_05 = {
+            index = 4
+            male = { 
+
+               decal = {                             
+                    body_part = head
+                    textures = {
+                        diffuse = "gfx/models/portraits/decals/visual_traits/face_04_diffuse.dds"
+                        normal = "gfx/models/portraits/decals/visual_traits/face_04_normal.dds"
+                    }
+                    blend_modes = {              #overlay/replace/hard_light/multiply
+                        diffuse = overlay
+                        normal = overlay
+                        # properties = 
+                    }
+                    age = {
+                        mode = multiply
+                        curve = {
+                            { 0.0 0.0 }
+                            { 1.0 0.0 }
+                        }
+                    }
+                    priority = 0
+                }
+            }
+           female = {
+              decal = {                             
+                    body_part = head
+                    textures = {
+                        diffuse = "gfx/models/portraits/decals/visual_traits/face_02_diffuse.dds"
+                        normal = "gfx/models/portraits/decals/visual_traits/face_02_normal.dds"
+                    }
+                    blend_modes = {              #overlay/replace/hard_light/multiply
+                        diffuse = overlay 
+                        normal = overlay
+                        # properties = 
+                    }
+                    age = {
+                        mode = multiply
+                        curve = {
+                              { 0.0 0.0 }
+                            { 1.0 0.0 }
+                        
+                        }
+                    }
+                    priority = 0
+                }            
+            }
+    }
+}
+
+    gene_eyebrows_shape = {
+        group = eyes
+
+        no_eyebrows = { 
+            index = 0 
+        } 
+
+        avg_spacing_avg_thickness = { 
+            index = 1 
+            male = { 
+                decal = {   
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_avg_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_avg_thickness_normal.dds"
+                            properties = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_avg_thickness_properties.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay
+                            properties = replace
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+        avg_spacing_high_thickness = { 
+            index = 2 
+            male = { 
+                decal = {   
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_normal.dds"
+                            properties = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_properties.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay
+                            properties = replace
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+        avg_spacing_low_thickness = { 
+            index = 3 
+            male = { 
+                decal = {   
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_low_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_normal.dds"
+                            properties = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_properties.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay
+                            properties = replace
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+        avg_spacing_lower_thickness = { 
+            index = 4 
+            male = { 
+                decal = {   
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_lower_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_normal.dds"
+                            properties = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_properties.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay
+                            properties = replace
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+        avg_spacing_lowest_thickness = { 
+            index = 5 
+            male = { 
+                decal = {   
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_lowest_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_normal.dds"
+                            properties = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_properties.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay
+                            properties = replace
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        }
+        far_spacing_avg_thickness = { 
+            index = 6 
+            male = { 
+                decal = {   
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_far_spacing_avg_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_avg_thickness_normal.dds"
+                            properties = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_avg_thickness_properties.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay
+                            properties = replace
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+        far_spacing_high_thickness = { 
+            index = 7 
+            male = { 
+                decal = {   
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_far_spacing_high_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_normal.dds"
+                            properties = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_properties.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay
+                            properties = replace
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+        far_spacing_low_thickness = { 
+            index = 8 
+            male = { 
+                decal = {   
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_far_spacing_low_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_normal.dds"
+                            properties = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_properties.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay
+                            properties = replace
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+        far_spacing_lower_thickness = { 
+            index = 9 
+            male = { 
+                decal = {   
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_far_spacing_lower_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_normal.dds"
+                            properties = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_properties.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay
+                            properties = replace
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+        far_spacing_lowest_thickness = { 
+            index = 10 
+            male = { 
+                decal = {   
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_far_spacing_lowest_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_normal.dds"
+                            properties = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_properties.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay
+                            properties = replace
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        }
+        close_spacing_avg_thickness = { 
+            index = 11 
+            male = { 
+                decal = {   
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_close_spacing_avg_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_avg_thickness_normal.dds"
+                            properties = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_avg_thickness_properties.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay
+                            properties = replace
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+        close_spacing_high_thickness = { 
+            index = 12 
+            male = { 
+                decal = {   
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_close_spacing_high_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_normal.dds"
+                            properties = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_properties.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay
+                            properties = replace
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+        close_spacing_low_thickness = { 
+            index = 13 
+            male = { 
+                decal = {   
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_close_spacing_low_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_normal.dds"
+                            properties = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_properties.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay
+                            properties = replace
+                        }
+                        priority = 11
+                        age = age_preset_eyebrows
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        }   
+        close_spacing_lower_thickness = { 
+            index = 14 
+            male = { 
+                decal = {   
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_close_spacing_lower_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_normal.dds"
+                            properties = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_properties.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay
+                            properties = replace
+                        }
+                        priority = 11
+                        age = age_preset_eyebrows
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        }
+         close_spacing_lowest_thickness = { 
+            index = 15 
+            male = { 
+                decal = {   
+                                             
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_close_spacing_lowest_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_normal.dds"
+                            properties = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_avg_spacing_high_thickness_properties.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay
+                            properties = replace
+                        }
+                        priority = 11
+                        age = age_preset_eyebrows
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+    }
+
+    gene_eyebrows_fullness = {
+        group = eyes
+
+        no_eyebrows = {
+            index = 0
+        }
+
+        layer_2_avg_thickness = { 
+            index = 1 
+            male = { 
+                decal = {   
+
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_layer_2_avg_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_layer_2_avg_thickness_normal.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay 
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows_fullness
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+
+        layer_2_high_thickness = { 
+            index = 2 
+            male = { 
+                decal = {   
+
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_layer_2_high_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_layer_2_avg_thickness_normal.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay 
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows_fullness
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+
+        layer_2_low_thickness = { 
+            index = 3 
+            male = { 
+                decal = {   
+
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_layer_2_low_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_layer_2_avg_thickness_normal.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay 
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows_fullness
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+
+        layer_2_lower_thickness = { 
+            index = 4 
+            male = { 
+                decal = {   
+
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_layer_2_lower_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_layer_2_avg_thickness_normal.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay 
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows_fullness
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+            layer_2_lowest_thickness = { 
+            index = 5 
+            male = { 
+                decal = {   
+
+                        body_part = head
+                        textures = {
+                            diffuse = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_layer_2_lowest_thickness_diffuse.dds"
+                            normal = "gfx/models/portraits/decals/male_eyebrows/decal_male_eyebrows_layer_2_avg_thickness_normal.dds"
+                        }
+                        alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+                            #gene strength%, decal alpha
+                            { 0.0  0.0 }
+                            { 1.0  1.0 }
+                        }
+                        blend_modes = {              #overlay/replace/hard_light/multiply
+                            diffuse = multiply 
+                            normal = overlay 
+                        }
+                        priority = 10
+                        age = age_preset_eyebrows_fullness
+                }
+            }
+            female = male
+            boy = male
+            girl = female
+        } 
+    }       
+
+
+
+
+}

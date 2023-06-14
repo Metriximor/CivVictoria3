@@ -1,12 +1,7 @@
 ﻿bg_tree_farming = {
 	category = rural
-
-	capped_by_resources = yes
-	
 	economy_of_scale = yes
-	
-	can_use_slaves = yes
-	
+	land_usage = rural
 	default_building = building_tree_farm
 	
 	lens = forestry	
@@ -21,13 +16,21 @@
 	}
 }
 
+bg_sand_pit = {
+	category = rural
+	capped_by_resources = yes
+	economy_of_scale = yes
+	default_building = building_sand_pit
+	lens = mine
+	cash_reserves_max = 25000
+	urbanization = 3
+	infrastructure_usage_per_level = 1
+}
+
 bg_mine = {
 	category = rural
-
+	always_possible = yes
 	economy_of_scale = yes
-	
-	capped_by_resources = yes
-	
 	default_building = building_mine
 
 	lens = mine
@@ -40,4 +43,70 @@ bg_mine = {
 	should_auto_expand = { 
 		default_auto_expand_rule = yes
 	}
+}
+
+bg_factories = {
+	category = urban
+    always_possible = yes
+    economy_of_scale = yes
+    cash_reserves_max = 25000
+
+	lens = light_industry
+	
+    should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+
+	urbanization = 20
+	infrastructure_usage_per_level = 1
+}
+
+bg_wheat_farms = {
+	parent_group = bg_agriculture
+	default_building = building_wheat_farm
+}
+
+bg_beetroot_farms = {
+	parent_group = bg_agriculture
+	default_building = building_beetroot_farm
+}
+
+bg_carrot_farms = {
+	parent_group = bg_agriculture
+	default_building = building_carrot_farm
+}
+
+bg_cocoa_farms = {
+	parent_group = bg_agriculture
+	default_building = building_cocoa_farm
+}
+
+bg_potato_farms = {
+	parent_group = bg_agriculture
+	default_building = building_potato_farm
+}
+
+bg_pumpkin_farms = {
+	parent_group = bg_agriculture
+	default_building = building_pumpkin_farm
+}
+
+bg_melon_farms = {
+	parent_group = bg_agriculture
+	default_building = building_melon_farm
+}
+
+bg_cactus_farms = {
+	parent_group = bg_agriculture
+	default_building = building_cactus_farm
+}
+
+bg_sugar_cane_farms = {
+	parent_group = bg_agriculture
+	default_building = building_sugar_cane_farm
+}
+
+bg_mushroom_farms = {
+	parent_group = bg_agriculture
+	default_building = building_mushroom_farm
 }

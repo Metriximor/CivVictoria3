@@ -240,134 +240,10 @@ ai_strategy_default = {
 	wanted_army_ratio = 200000 # 1 barrack per 200k incorporated population
 	wanted_navy_ratio = 400000 # 1 naval base per 400k coastal incorporated population
 	
-	subsidies = {
-		building_power_plant = should_have
-		building_railway = should_have
-		building_trade_center = should_have		
+	subsidies = {	
 	}
 	
 	goods_stances = {
-		small_arms = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = napoleonic_warfare
-			}
-		}
-		artillery = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = artillery
-			}
-		}
-		ammunition = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = general_staff
-			}
-		}
-		aeroplanes = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = military_aviation
-				country_rank >= rank_value:major_power
-			}
-		}
-		tanks = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = mobile_armor
-				country_rank >= rank_value:major_power
-			}
-		}
-		clippers = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = navigation
-				NAND = {
-					has_technology_researched = ironclad_tech
-					has_technology_researched = gantry_cranes				
-				}
-				has_port = yes
-				country_rank >= rank_value:major_power
-			}
-		}
-		manowars = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = admiralty
-				NAND = {
-					has_technology_researched = ironclad_tech
-					has_technology_researched = gantry_cranes				
-				}
-				has_port = yes
-				country_rank >= rank_value:major_power
-			}
-		}	
-		steamers = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = ironclad_tech
-				has_technology_researched = gantry_cranes
-				has_port = yes
-				country_rank >= rank_value:major_power
-			}
-		}			
-		ironclads = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = ironclad_tech
-				has_technology_researched = gantry_cranes
-				has_port = yes
-				country_rank >= rank_value:major_power				
-			}
-		}	
-		paper = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = centralization
-				total_population >= 1000000
-				NOT = { has_law = law_type:law_traditionalism }
-			}
-		}
-		electricity = { 
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = electrical_generation
-			}
-		}			
-		coal = { 
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = railways
-			}
-		}	
-		engines = { 
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = railways
-			}
-		}		
-		dye = { 
-			stance = wants_high_supply 
-			trigger = {
-				has_building = building_textile_mills
-				has_technology_researched = lathe
-			}
-		}
-		silk = { 
-			stance = wants_high_supply 
-			trigger = {
-				has_building = building_textile_mills
-				total_population >= 1000000
-			}
-		}
-		hardwood = { 
-			stance = wants_high_supply 
-			trigger = {
-				has_building = building_furniture_manufacturies
-				total_population >= 1000000
-			}
-		}		
 	}
 	
 	colonial_interest_ratio = {
@@ -433,21 +309,7 @@ ai_strategy_default = {
 				add = 1
 				min = 0.25
 				max = 2.0
-			}				
-			
-			if = {
-				limit = {
-					lenient_ai_behavior_trigger = yes
-				}
-				multiply = 1.5
-			}
-			
-			if = {
-				limit = {
-					harsh_ai_behavior_trigger = yes
-				}
-				multiply = 0.75
-			}	
+			}		
 
 			if = {
 				limit = {
@@ -507,20 +369,6 @@ ai_strategy_default = {
 				add = 1
 				min = 0.25
 				max = 2.0
-			}			
-			
-			if = {
-				limit = {
-					lenient_ai_behavior_trigger = yes
-				}
-				multiply = 1.5
-			}
-			
-			if = {
-				limit = {
-					harsh_ai_behavior_trigger = yes
-				}
-				multiply = 0.75
 			}	
 
 			if = {
@@ -564,13 +412,6 @@ ai_strategy_default = {
 				min = 0.25
 				max = 2.0
 			}	
-
-			if = {
-				limit = {
-					harsh_ai_behavior_trigger = yes
-				}
-				multiply = 0.75
-			}
 
 			if = {
 				limit = {
@@ -668,21 +509,7 @@ ai_strategy_default = {
 				add = 1
 				min = 0.25
 				max = 2.0
-			}							
-			
-			if = {
-				limit = {
-					lenient_ai_behavior_trigger = yes
-				}
-				multiply = 0.75
-			}
-			
-			if = {
-				limit = {
-					harsh_ai_behavior_trigger = yes
-				}
-				multiply = 1.5
-			}	
+			}		
 			
 			if = {
 				limit = {
@@ -753,11 +580,6 @@ ai_strategy_default = {
 					}
 					multiply = 0.25
 				}				
-			}				
-			
-			if = {
-				limit = { is_still_learning = yes }
-				multiply = 0
 			}		
 		}
 		conquer = {
@@ -818,21 +640,7 @@ ai_strategy_default = {
 			if = {
 				limit = { scope:target_country = { has_modifier = declared_bankruptcy } }
 				multiply = 2.0
-			}			
-			
-			if = {
-				limit = {
-					lenient_ai_behavior_trigger = yes
-				}
-				multiply = 0.25
-			}
-			
-			if = {
-				limit = {
-					harsh_ai_behavior_trigger = yes
-				}
-				multiply = 1.25
-			}
+			}		
 			
 			if = {
 				limit = {
@@ -903,12 +711,7 @@ ai_strategy_default = {
 					is_subject_of = scope:target_country	
 				}
 				multiply = 0.0	
-			}			
-			
-			if = {
-				limit = { is_still_learning = yes }
-				multiply = 0
-			}
+			}	
 		}		
 		dominate = {
 			value = 0		
@@ -952,26 +755,12 @@ ai_strategy_default = {
 				add = 1
 				min = 0.25
 				max = 2.0
-			}			
-			
-			if = {
-				limit = {
-					lenient_ai_behavior_trigger = yes
-				}
-				multiply = 0.50
-			}		
+			}	
 			
 			if = {
 				limit = { scope:target_country = { has_modifier = declared_bankruptcy } }
 				multiply = 2.0
-			}			
-			
-			if = {
-				limit = {
-					harsh_ai_behavior_trigger = yes
-				}
-				multiply = 1.5
-			}	
+			}		
 
 			if = {
 				limit = {
@@ -1056,11 +845,6 @@ ai_strategy_default = {
 					is_subject_of = scope:target_country	
 				}
 				multiply = 0.0	
-			}
-			
-			if = {
-				limit = { is_still_learning = yes }
-				multiply = 0
 			}
 		}			
 	}
@@ -1183,14 +967,6 @@ ai_strategy_default = {
 				}
 			}				
 			
-			if = {
-				limit = {
-					lenient_ai_behavior_trigger = yes
-					scope:target_state = { is_homeland_of_country_cultures = scope:target_country }
-				}
-				multiply = 0.0
-			}				
-			
 			min = 0
 			max = 100			
 		}
@@ -1275,17 +1051,6 @@ ai_strategy_default = {
 						value = scope:target_state.gdp
 						divide = 200000
 						max = 10						
-					}				
-				
-					if = {
-						limit = {
-							any_scope_building = {
-								is_building_type = building_trade_center
-								level > 0
-							}						
-						}
-						
-						add = 5
 					}
 						
 					if = {
@@ -1359,14 +1124,7 @@ ai_strategy_default = {
 						multiply = 1.25
 					}						
 				}			
-			}			
-
-			if = {
-				limit = {
-					lenient_ai_behavior_trigger = yes
-				}
-				multiply = 0.5
-			}
+			}	
 
 			min = 0
 			max = 100			
@@ -1405,13 +1163,6 @@ ai_strategy_default = {
 				}
 			}	
 
-			if = {
-				limit = {
-					lenient_ai_behavior_trigger = yes
-				}
-				multiply = 0.5
-			}
-
 			min = 0
 			max = 100				
 		}
@@ -1447,13 +1198,6 @@ ai_strategy_default = {
 						multiply = 1.25
 					}						
 				}
-			}	
-
-			if = {
-				limit = {
-					lenient_ai_behavior_trigger = yes
-				}
-				multiply = 0.5
 			}	
 
 			min = 0
@@ -1618,14 +1362,7 @@ ai_strategy_default = {
 					has_strategic_adjacency = scope:target_country
 				}
 				multiply = 1.5
-			}									
-			
-			if = {
-				limit = {
-					lenient_ai_behavior_trigger = yes
-				}
-				multiply = 0.0
-			}
+			}	
 
 			min = 0
 			max = 200			
@@ -1650,13 +1387,6 @@ ai_strategy_default = {
 				}
 				multiply = 1.5
 			}	
-			
-			if = {
-				limit = {
-					lenient_ai_behavior_trigger = yes
-				}
-				multiply = 0.0
-			}
 
 			min = 0
 			max = 200				

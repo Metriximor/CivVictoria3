@@ -1,0 +1,8 @@
+﻿pmg_buildings_employment = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_employ_newfriends
+		pm_employ_midfriends
+		pm_employ_oldfriends
+	}
+}

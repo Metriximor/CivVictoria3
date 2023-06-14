@@ -2,11 +2,13 @@ import glob
 from wand.image import Image
 from pathlib import Path
 
-root_dir = "./"
-
-for png_image in glob.iglob(root_dir + "gfx/interface/**/*.png", recursive=True):
+for png_image in (
+    glob.iglob("gfx/interface/**/*.png", recursive=True)
+    or glob.iglob("gfx/coat_of_arms/**/*.png")
+    or glob.iglob("gfx/models/**/*.png")
+):
     with Image(filename=png_image) as open_image:
         print(f"Converting {png_image} to .dds from .png")
-        open_image.compression='dxt5'
+        open_image.compression = "dxt5"
         path = Path(png_image)
-        open_image.save(filename=path.with_suffix('.dds'))
+        open_image.save(filename=path.with_suffix(".dds"))

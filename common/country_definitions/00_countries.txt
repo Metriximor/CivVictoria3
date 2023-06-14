@@ -1,14 +1,198 @@
 ﻿###### EXAMPLE ######
-
 EXA = {
-	color = { 39 84 135 } #The colour of this country on the map.
+	color = { 255 255 255 } #The colour of this country on the map.
+	capital = STATE_DEBUG #Which state holds this nation's default capital
 
-	country_type = recognized #See common\country_types
-
+	country_type = decentralized #See common\country_types
 	tier = kingdom #See common\country_ranks
 
 	cultures = { examplish } #What are their primary culture/s - you can set multiple.
-	capital = STATE_EXAMPLE #Which state holds this nation's default capital
 }
 
-#####################
+LUS = {
+	color = "lusitan_red"
+	country_type = recognized
+	tier = kingdom
+	cultures = { lusitan }
+	capital = STATE_PORTUCALE
+}
+
+TRU = {
+	color = "full_white"
+	country_type = recognized
+	tier = kingdom
+	cultures = { truidencian thruitt }
+	capital = STATE_NIDAROS
+}
+
+GEN = {
+	color = "gensokyojin_red"
+	country_type = recognized
+	tier = kingdom
+	cultures = { gensokyojin }
+	capital = STATE_TENSEIMIYA
+}
+
+LAM = {
+	color = "lambatan_yellow"
+	country_type = recognized
+	tier = kingdom
+	cultures = { lambatan }
+	capital = STATE_EAST_LAMBAT_CITY
+}
+
+DAN = {
+	color = "danzilonan_cyan"
+	country_type = recognized
+	tier = kingdom
+	cultures = { danzilonan }
+	capital = STATE_PROVINCE_OF_NEW_DANZILONA
+}
+
+WOL = {
+	color = "wolken_green"
+	country_type = recognized
+	tier = principality
+	cultures = { examplish }
+	capital = STATE_WOLKEN
+}
+
+MER = {
+	color = "mery_black"
+	country_type = recognized
+	tier = principality
+	cultures = { mery_culture }
+	capital = STATE_CENTRAL_MERY
+}
+
+KOV = {
+	color = "lusitan_shield_blue"
+	country_type = recognized
+	tier = hegemony
+	cultures = { thruitt truidencian gensokyojin }
+	capital = STATE_NIDAROS
+}
+
+YOA = {
+	color = "yoahtlan_yellow"
+	country_type = recognized
+	tier = empire
+	cultures = { yoahtlan resimerian }
+	capital = STATE_YOAHTL_HOMELANDS
+}
+
+ROZ = {
+	capital = STATE_ROZIA
+	color = "rozian_pink"
+	country_type = unrecognized
+	tier = principality
+	cultures = { examplish }
+}
+
+KAL = {
+	capital = STATE_KALLOS
+	color = "purple"
+	country_type = recognized
+	tier = kingdom
+	cultures = { kallosian }
+}
+
+MTA = {
+	capital = STATE_MOUNT_AUGUSTA
+	color = rgb { 0 54 167 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { augustan }
+}
+
+CLW = {
+	capital = STATE_CALW
+	color = "orange"
+	country_type = recognized
+	tier = principality
+	cultures = { augustan }
+}
+DOM = {
+	capital = STATE_DOOM_CITY
+	color = rgb { 72 57 90 }
+	country_type = recognized
+	tier = principality
+	cultures = { augustan }
+}
+PAV = {
+	capital = STATE_PAVIA_PROPER
+	color = "pavian_blue"
+	country_type = recognized
+	tier = kingdom
+	cultures = { pavian }
+}
+GRI = {
+	capital = STATE_ADRINA
+	color = rgb { 0 102 204 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { griffinian }
+}
+TRA = {
+	capital = STATE_SOUTH_MELIA
+	color = rgb { 79 75 98 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { transylvanian }
+}
+
+NAR = {
+	capital = STATE_NORTH_NARA
+	color = rgb { 222 246 255 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { naran }
+}
+
+CDM = {
+	capital = STATE_CONCORD
+	color = rgb { 51 140 255 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { cortesian aurellian }
+}
+
+AUR = {
+	capital = STATE_SANTIAGO
+	color = rgb { 135 135 13 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { aurellian }
+}
+
+EST = {
+	capital = STATE_ESTALIA_1
+	color = "purple"
+	country_type = recognized
+	tier = empire
+	cultures = { examplish }
+}
+
+MED = {
+	capital = STATE_WOLKEN_ISLANDS
+	color = "lusitan_shield_blue"
+	country_type = recognized
+	tier = hegemony
+	cultures = { lusitan thruitt truidencian gensokyojin danzilonan irian }
+}
+
+IRI = {
+	capital = STATE_IRIA_3
+	color = irian_green
+	country_type = recognized
+	tier = kingdom
+	cultures = { irian }
+}
+
+MRA = {
+	capital = STATE_MUMEITA
+	color = rgb { 69 0 104 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { meracydian gensokyojin thruitt }
+}

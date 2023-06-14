@@ -1,0 +1,8 @@
+﻿[01:40:59][state_region_template.cpp:272]: Failed to assign province to state region! State region: STATE_DEBUG, Error: Referencing inexistent province!, Key: x00052E
+[01:40:59][state_region_template.cpp:272]: Failed to assign province to state region! State region: STATE_DEBUG, Error: Referencing inexistent province!, Key: x080309
+[01:40:59][state_region_template.cpp:272]: Failed to assign province to state region! State region: STATE_DEBUG, Error: Referencing inexistent province!, Key: x0E1326
+[01:40:59][state_region_template.cpp:272]: Failed to assign province to state region! State region: STATE_DEBUG, Error: Referencing inexistent province!, Key: x260823
+[01:40:59][state_region_template.cpp:272]: Failed to assign province to state region! State region: STATE_DEBUG, Error: Referencing inexistent province!, Key: x381114
+[01:40:59][state_region_template.cpp:272]: Failed to assign province to state region! State region: STATE_DEBUG, Error: Referencing inexistent province!, Key: x97A3FB
+[01:40:59][state_region_template.cpp:272]: Failed to assign province to state region! State region: STATE_DEBUG, Error: Referencing inexistent province!, Key: xDEDAAA
+[01:40:59][state_region_template.cpp:272]: Failed to assign province to state region! State region: STATE_DEBUG, Error: Referencing inexistent province!, Key: xF893DC

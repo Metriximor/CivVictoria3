@@ -1,0 +1,134 @@
+pavian = { 
+    color = rgb { 153 255 255 } 
+    religion = non_religious
+    traits = { gabonese_heritage lyrean_sea_culture_group english french }
+    male_common_first_names={
+
+    #french
+
+    Denisot Domin
+    Ymbelet
+    Edouart
+    Giles Gassot
+    Poncellet
+    Heliot
+    Aleaume
+    Bastien
+
+    #italian
+
+    Nello
+    Pasquino
+    Galeazzo
+    Simone
+    Vettorio
+    Marino
+    Ambrogio
+    Rinaldo
+    Carlo
+
+    #english
+
+    Osgood
+    Thurston
+    Aelnod Augustin
+    Wicing Wulfstan
+    Maximillian
+    Godfrey
+    Benedict Bertram
+    
+	}
+	female_common_first_names = {
+	# french
+
+	Eddeva Eulalia
+	Alberda Alote Aalaida Amelina Auisia
+	Mahalt
+	Helisabeth
+	Bertha
+
+	# italian
+
+	Lavinia
+	Pisana
+	Marieta
+	Franceschina Foscharina
+	Simona
+	Arcanzola
+	Olympia
+	Veronica
+
+	# english
+
+	Odelina
+	Adeline
+	Tovilda
+	Ingaret
+	Clarissa Christiana
+	Loveday
+	Maria
+	Sigrith
+	Ursula
+	}
+	noble_last_names = {
+	# civ
+
+	of_Bedford of_Windermere of_Braemar 
+	of_Cintra of_Avalonna of_Lugano of_Vetranio
+
+	of_House_Lucatore of_House_Visucius 
+	of_House_Gijahr of_House_Von_Thusis of_House_Wanderer
+	# other
+
+	}
+	common_last_names={
+	
+	# civ
+
+	of_Lucassio of_Solberg_Estate of_Stonehaven 
+	of_San_Selano of_Bedford_Common of_Tirana
+	# french
+
+	Ange Astier Azema
+	Balzae Brunelle Benett
+	Magnier Moineau Malet Manaudou Masson
+	Vandame
+	Charbonnier Charrier Carbonneau Courtial
+	Loup
+	Heroux
+	Grosjean
+	Thibodeaux
+
+	# italian
+
+	Calbo Corner Calza de_Calvenzano
+	Acordolo Albirio de_Albe Albarenno Albarate
+	Zani
+	Priuli
+	Badoer Barbo Barbato Bembo Bellini
+	Fiaschi di_Fiorelli
+
+	# english
+
+	Ashenhurst Hasard
+	Daubernoun Doreward
+	Coulthurst Cressy Culperer Cod
+	Leverer
+	Purvoche
+	Bothy Barfoot Bridgeman
+	Walden Wyatt
+	Marsham Mayne
+	Frilende
+	Kyrkeby
+	}
+	male_regal_first_names = {
+	Mark
+	}
+	female_regal_first_names = {
+	Maria
+	}
+    	graphics = european
+    	ethnicities = {
+        1 = minecrafter
+    }
+}

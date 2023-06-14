@@ -1,0 +1,18 @@
+﻿COUNTRIES = {
+	c:TRU = {
+		effect_starting_technology_tier_2_tech = yes
+
+		activate_law = law_type:law_mixed_economy
+		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_proportional_taxation
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_monarchy
+
+		ig:ig_pvpers = {
+			set_interest_group_name = ig_tru_imperial_army
+		ig:ig_industrialists = {
+			set_interest_group_name = ig_northland_industries
+		}
+	}
+}
+}

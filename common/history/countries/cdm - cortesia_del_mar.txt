@@ -1,0 +1,22 @@
+COUNTRIES = {
+	c:CDM = {
+		effect_starting_technology_tier_2_tech = yes
+
+		activate_law = law_type:law_mixed_economy
+		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_proportional_taxation
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_wealth_voting
+		}
+}
+COUNTRIES = {
+	c:AUR = {
+		effect_starting_technology_tier_2_tech = yes
+
+		activate_law = law_type:law_mixed_economy
+		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_proportional_taxation
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_wealth_voting
+		}
+}

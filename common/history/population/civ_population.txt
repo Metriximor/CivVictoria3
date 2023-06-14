@@ -1,0 +1,16 @@
+﻿POPULATION = {
+	c:LUS = {
+		effect_starting_pop_wealth_high = yes
+		effect_starting_pop_literacy_high = yes
+	}
+
+	c:TRU = {
+		effect_starting_pop_wealth_high = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+
+	c:LAM = {
+		effect_starting_pop_wealth_high = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+}

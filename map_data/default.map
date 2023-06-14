@@ -5,6 +5,62 @@ adjacencies = "adjacencies.csv"
 wrap_x = yes
 
 sea_starts = {
-	 x6770A8 x6D719D x6677FB x667CFB x7A84AF x7987B1 x6E8ABB x8583D3 x6D9092 x838CA8 x6697CF x6E98D0 x7EA0BE x9F95C7 x819EDC x7CA3CB x70A6D6 x3AB4FF x6AA8E5 x86A0EE x80A7CB x80AAAF x6CB1D8 x8DA7EF x93A5FD x7AB5BE x78B6C4 x8FACF1 x99B1D9 x78BEDA x96B3F4 x85BDCA x95BBB6 x99B8E1 x80C3D6 xA1B9DD x68D0DE x81CADA x7CC9F9 x92C4F0 x96C6EC xA5C4EE x9ACDDC xA6C7FC xB0C6E5 x81D9CE xAFC8FA xA4CDF6 xACCEDE xB8CDDD xB9CCF8 x92DCEA x8BE5D1 xBCDCF0 x87F9F5 }
+	x0A400D # Medi sea
+	x080654 # Stony Sea
+	x000C4A # Lyrean sea
+	x082334 # Fareastern ocean
+	x031D2A # Middle ocean
+	x002F2A # Southern sea
+	x035003 # Leona sea
+	x02092D # Meridiem sea
+	x123C0F # Northlandic ocean
+	x003A17 # Sea of sneed
+	x074E0E # Lake Michigan
+	x4C0C05 # Azure sea
+}
+
 lakes = {
+	x440610 # Dreamland lake
+	x1F010B # Lake erie
+	x0A0250 # Izanagi Lake
+	xF0F8C2 # Lake Lamao 
+	x012054 # Lake Melvin
+	x0D3600 # Achelous Lake
+	x7BB9FB # Yoahtl Lake
+	x034414 # Biwa Lake
+	x352107 # Topher Lake
+    x0C4903 # Lindor Lake
+	# Out of bounds
+	x02063F
+	x170635
+	x05332A
+	x133400
+	x171C12
+	x1F182B
+	x2B0A1E
+	x080F4C
+	x0C1D38
+	x330402
+	x43030F
+	x060057
+	x0D0824
+	x2E190F
+	x1C3E02
+	x0C1909
+	x16120D
+	x080E4D
+	x0A1207
+	x301011
+	x13251C
+	x1A1023
+	x322809
+	x2E250E
+	x112514
+	x0B2D2A
+	x11231A
+	x230C04
+	x010B45
+	x109766
+	x26042E
+	x3E0109
 }

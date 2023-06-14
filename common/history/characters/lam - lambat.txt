@@ -1,0 +1,88 @@
+﻿CHARACTERS = {
+	c:LAM = {
+		create_character = {
+			first_name = Kaprediem
+			last_name = no_last_name
+			ruler = yes
+			culture = cu:lambatan
+			dna = dna_kaprediem
+			age = { 25 35 }
+			interest_group = ig_roleplayers
+			ideology = ideology_patriotic
+			traits = {
+				advanced_diplomat
+				reserved
+				historical
+			}
+		}
+
+		create_character = {
+			first_name = AKJanklin
+			last_name = no_last_name
+			culture = cu:lambatan
+			ig_leader = yes
+			dna = dna_akjanklin
+			age = { 18 25 }
+			ideology = ideology_republican
+			interest_group = ig_buildfriends
+			traits = {
+				wholesome
+				direct
+				experienced_political_operator
+				historical
+			}
+		}
+
+		# TODO finish traits and ideologies
+		create_character = {
+			first_name = Orhint
+			last_name = no_last_name
+			culture = cu:lambatan
+			ig_leader = yes
+			dna = dna_orhint
+			age = { 18 25 }
+			ideology = ideology_republican
+			interest_group = ig_roleplayers
+			traits = {
+				wholesome
+				direct
+				experienced_political_operator
+				historical
+			}
+		}
+
+		create_character = {
+			first_name = Magnileve
+			last_name = no_last_name
+			culture = cu:lambatan
+			ig_leader = yes
+			dna = dna_magnileve
+			age = { 18 25 }
+			ideology = ideology_republican
+			interest_group = ig_grinders
+			traits = {
+				wholesome
+				direct
+				experienced_political_operator
+				historical
+			}
+		}
+
+		create_character = {
+			first_name = SamBonusG
+			last_name = no_last_name
+			culture = cu:lambatan
+			ig_leader = yes
+			dna = dna_sambonusg
+			age = { 18 25 }
+			ideology = ideology_republican
+			interest_group = ig_civ_industrialists
+			traits = {
+				wholesome
+				direct
+				experienced_political_operator
+				historical
+			}
+		}
+	}
+}

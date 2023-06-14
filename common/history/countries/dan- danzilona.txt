@@ -1,0 +1,15 @@
+COUNTRIES = {
+	c:DAN = {
+		effect_starting_technology_tier_2_tech = yes
+
+		activate_law = law_type:law_mixed_economy
+		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_proportional_taxation
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_autocracy
+
+		ig:ig_roleplayers = {
+			set_interest_group_name = ig_bonepartists
+		}
+	}
+}

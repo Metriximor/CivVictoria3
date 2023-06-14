@@ -1,3 +1,0 @@
-gfx/map/terrain/*.tga filter=lfs diff=lfs merge=lfs -text
-gfx/map/textures/*.dds filter=lfs diff=lfs merge=lfs -text
-gfx/models/papermap/flatmap.dds filter=lfs diff=lfs merge=lfs -text

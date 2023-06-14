@@ -3,6 +3,9 @@
 	production_methods = {
 		pm_punch_wood
 		pm_wood_axe
+		pm_stone_axe
+		pm_iron_axe
+		pm_gold_axe
 	}
 }
 

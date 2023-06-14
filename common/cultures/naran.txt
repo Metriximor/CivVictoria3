@@ -1,0 +1,63 @@
+naran = {
+	color = rgb { 191 160 230 }
+	religion = eastern_faith
+	traits = { inferno_heritage alenarith_culture_group english japanese }
+	male_common_first_names={
+		Sukeie Sadakata
+		Toshiatsu Takemichi Tanemasa Terumochi
+		Kanemitsu
+		Hirosuke Hiroyori
+		Yasukage
+		Arinari Atsumitsu Arimichi
+		Nagatake Narinobu Naoari
+		Fusahisa
+		Uchitake
+		Morishige Mitsuaki
+		
+	}
+	female_common_first_names = {
+		Fumeshi Futsuko
+		Satsu Saruko Shuu Shio Shina
+		Mare Magimi Maneko
+		Tsuna
+		Ishi Ise Ineko
+		Uba
+		Yuki
+		Oma Omako
+		Kusuno Kisa
+		
+	}
+	noble_last_names = { 
+		Yakumo
+		Hakurei Hijiri
+		Kochiya Kirisame
+		Mikoto
+	
+	}	
+	common_last_names={
+		Tadashi Tokugawa Tanaka Takamatsu Tozawa
+		Yamamoto Yanagizawa Yamanoi
+		Ito Ina Ishiyama Itou Izumi Ichijo Ishii
+		Nakamura Nomura Nasu Nakayama
+		Arai Aso Azai
+		Enya Enomoto
+		Fukui
+		Wakizaka
+		Shiba Suganuma Seki
+		Hashimoto Hozumi Kitanokouji
+		Karahashi Kujou Kamiizumi Kagae Kanou
+		Mizumo
+		Ogasawara
+	
+	}
+	male_regal_first_names = {
+
+	}
+	female_regal_first_names = {
+
+	}
+	graphics = asian
+	ethnicities = {
+		1 = minecrafter
+	}
+}

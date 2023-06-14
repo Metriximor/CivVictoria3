@@ -1,0 +1,185 @@
+﻿{
+    "LUS": [
+        "STATE_PORTUCALE",
+        "STATE_CIV_PROVENCE",
+        "STATE_CASCAIS",
+        "STATE_OLIMPIA",
+        "STATE_ATLAS",
+        "STATE_AZORES",
+        "STATE_CLASSICALE",
+        "STATE_DREAMLAND",
+        "STATE_LUSITAN_PLAINS",
+        "STATE_CIV_ALENTEJO",
+        "STATE_LUSITAN_PLATEAUS",
+        "STATE_EBORA"
+    ],
+    "TRU": [
+        "STATE_NIDAROS",
+        "STATE_HYLDOR",
+        "STATE_SNOWPEAK",
+        "STATE_FLATAGRAS",
+        "STATE_SORLAND",
+        "STATE_SIX_COLONIES",
+        "STATE_OUTLAND",
+        "STATE_OUTER_NIDAROS"
+    ],
+    "GEN": [
+        "STATE_TENSEIMIYA",
+        "STATE_MORINOYARI",
+        "STATE_DAISHIREIBOU",
+        "STATE_MUMEITA",
+        "STATE_NUMBERS_LAWN",
+        "STATE_YAMATO_KEN",
+        "STATE_AMATERASU_SHORES"
+    ],
+    "LAM": [
+        "STATE_EAST_LAMBAT_CITY",
+        "STATE_WEST_LAMBAT_CITY",
+        "STATE_VALLE_OCCIDENTAL",
+        "STATE_CHUNGIA",
+        "STATE_BLANCO_STRAIT",
+        "STATE_MERCADO_STRAIT",
+        "STATE_PAMPANG",
+        "STATE_PARFAIT_KAWAYAN"
+    ],
+    "DAN": [
+        "STATE_PROVINCE_OF_NEW_DANZILONA",
+        "STATE_SOPHIA",
+        "STATE_MELIA",
+        "STATE_NEW_SWISSTON",
+        "STATE_SOUTHERN_PROVINCE",
+        "STATE_WEST_DANZILONA",
+        "STATE_PETERSKOGUR",
+        "STATE_EASTERN_SHINING_ISLES",
+        "STATE_UPPER_MELIA"
+    ],
+    "WOL": [
+        "STATE_WOLKEN",
+        "STATE_WOLKEN_ISLANDS"
+    ],
+    "MER": [
+        "STATE_NORTHERN_MERY",
+        "STATE_SOUTHERN_MERY",
+        "STATE_CENTRAL_MERY"
+    ],
+    "YOA": [
+        "STATE_MINI_YOAHTL_FRONTIER",
+        "STATE_MINI_YOAHTL",
+        "STATE_RESIMERIAN_FRONTIER",
+        "STATE_RESIMERE",
+        "STATE_YOAHTL_EASTERN_FRONTIER",
+        "STATE_KAXITL",
+        "STATE_SOUTHBURY",
+        "STATE_ALTEPETL",
+        "STATE_YOAHTL_WESTERN_FRONTIER",
+        "STATE_EASTBURY",
+        "STATE_CZECHIA",
+        "STATE_WESTBURY",
+        "STATE_KOBYLINSKI",
+        "STATE_YOAHTL_HOMELANDS"
+    ],
+    "ROZ": [
+        "STATE_ROZIA"
+    ],
+    "KAL": [
+        "STATE_KALLOS",
+        "STATE_ARNEN",
+        "STATE_COLUMBIA",
+        "STATE_FLORENCE",
+        "STATE_DELEWARE",
+        "STATE_ZATOKA",
+        "STATE_GAZEBO",
+        "STATE_KROVIDENCIA",
+        "STATE_ARCTIC_AND_EAST_TITAN"
+    ],
+    "MTA": [
+        "STATE_MOUNT_AUGUSTA",
+        "STATE_MTA_2",
+        "STATE_SOUTH_MOUNT_AUGUSTA",
+        "STATE_GLATTEIS",
+        "STATE_EAST_MOUNT_AUGUSTA",
+        "STATE_EXCLAVE_MOUNT_AUGUSTA"
+    ],
+    "CLW": [
+        "STATE_CALW",
+        "STATE_CAWL_EXCLAVE"
+    ],
+    "DOM": [
+        "STATE_DOOM_CITY_NORTH",
+        "STATE_DOOM_CITY_SOUTH",
+        "STATE_SYMSTEAD"
+    ],
+    "GRI": [
+        "STATE_ADRINA",
+        "STATE_ISLES_OF_CUCURBITS",
+        "STATE_WYNFORD",
+        "STATE_LILAC",
+        "STATE_GRIFFIN_CROWNLANDS"
+    ],
+    "PAV": [
+        "STATE_PAVIA_PROPER",
+        "STATE_BEDFORD",
+        "STATE_GREATER_PAVIA",
+        "STATE_PAVIA_AULDMARCHE"
+    ],
+    "TRA": [
+        "STATE_SOUTH_MELIA"
+    ],
+    "NAR": [
+        "STATE_NORTH_NARA",
+        "STATE_CENTRAL_NARA",
+        "STATE_SOUTH_NARA",
+        "STATE_QBARRA"
+    ],
+    "CDM": [
+        "STATE_CONCORD",
+        "STATE_ICE_SHELF",
+        "STATE_NORTH_HADES_ISLANDS",
+        "STATE_WEST_CDM",
+        "STATE_IMBLOC",
+        "STATE_SOUTH_CDM"
+    ],
+    "AUR": [
+        "STATE_SANTIAGO",
+        "STATE_CDM_FRONTIER",
+        "STATE_CDM_EXCLAVE",
+        "STATE_CDM_FRONTIER_2"
+    ],
+    "EST": [
+        "STATE_ESTALIA_1",
+        "STATE_ESTALIA_2",
+        "STATE_ESTALIA_3",
+        "STATE_ESTALIA_4",
+        "STATE_ESTALIA_5",
+        "STATE_ESTALIA_6",
+        "STATE_ESTALIA_7",
+        "STATE_ESTALIA_8",
+        "STATE_ESTALIA_9",
+        "STATE_ESTALIA_10",
+        "STATE_ESTALIA_11",
+        "STATE_ESTALIA_12",
+        "STATE_ESTALIA_13",
+        "STATE_ESTALIA_14",
+        "STATE_ESTALIA_15"
+    ],
+    "IRI": [
+        "STATE_IRIA_1",
+        "STATE_IRIA_2",
+        "STATE_IRIA_3",
+        "STATE_IRIA_4",
+        "STATE_IRIA_5",
+        "STATE_IRIA_6",
+        "STATE_IRIA_7",
+        "STATE_IRIA_8",
+        "STATE_IRIA_9",
+        "STATE_IRIA_10",
+        "STATE_IRIA_11",
+        "STATE_IRIA_12",
+        "STATE_IRIA_13",
+        "STATE_IRIA_14",
+        "STATE_IRIA_15",
+        "STATE_IRIA_16",
+        "STATE_IRIA_17",
+        "STATE_IRIA_18"
+    ]
+}

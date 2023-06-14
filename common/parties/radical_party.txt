@@ -33,10 +33,6 @@ radical_party = {
 				}
 			}
 		}
-		NOR = {
-			is_interest_group_type = ig_landowners
-			is_interest_group_type = ig_devout
-		}
 		leader = { # fascists and conservatives hate radicals
 			NOT = {
 				has_ideology = ideology_fascist
@@ -44,7 +40,6 @@ radical_party = {
 				has_ideology = ideology_traditionalist
 				has_ideology = ideology_royalist
 				has_ideology = ideology_theocrat
-				has_ideology = ideology_slaver
 			}
 		}
 	}
@@ -142,7 +137,6 @@ radical_party = {
 				leader = {
 					OR = {
 						has_ideology = ideology_feminist
-						has_ideology = ideology_abolitionist
 						has_ideology = ideology_pacifist
 						has_ideology = ideology_social_democrat
 						has_ideology = ideology_reformer
@@ -179,21 +173,6 @@ radical_party = {
 			add = {
 				value = 10
 				desc = "from_republican"
-			}
-		}
-		if = {
-			limit = { # particularists will join in when their issues are relevant
-				has_ideology = ideology_particularist
-				owner = {
-					OR = {
-						has_law = law_type:law_serfdom
-						has_law = law_type:law_debt_slavery
-					}
-				}
-			}
-			add = {
-				value = 3
-				desc = "from_particularism_cares_about_laws"
 			}
 		}
 		if = { # moderates are scared of radical politics
@@ -273,8 +252,7 @@ radical_party = {
 				}
 				owner = {
 					OR = {
-						has_law = law_type:law_national_guard
-						has_law = law_type:law_secret_police
+						has_law = law_type:law_complex_legal_system
 					}
 				}
 			}
@@ -291,12 +269,6 @@ radical_party = {
 						has_law = law_type:law_slave_trade
 					}
 				}
-				OR = {
-					has_ideology = ideology_anti_slavery
-					leader = {
-						has_ideology = ideology_abolitionist
-					}
-				}
 			}
 			add = {
 				value = 3
@@ -310,11 +282,9 @@ radical_party = {
 				}
 				OR = {
 					has_ideology = ideology_egalitarian
-					has_ideology = ideology_anti_slavery
 					has_ideology = ideology_laissez_faire
 					has_ideology = ideology_particularist
 					leader = {
-						has_ideology = ideology_abolitionist
 						has_ideology = ideology_social_democrat
 						has_ideology = ideology_communist
 					}

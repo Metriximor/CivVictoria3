@@ -1,0 +1,287 @@
+﻿colored_emblem_texture_lists = {
+
+	charge = {
+		5 = "ce_circle.dds"
+		5 = "ce_star_05_circle.dds"
+		5 = "ce_star_05_ring.dds"		
+		10 = "ce_star_05.dds"
+		5 = "ce_star_05_hollow.dds"	
+		1 = 	"ce_star_04.dds"
+		5 = 	"ce_star_06.dds"
+		5 = 	"ce_star_07.dds"
+		5 = 	"ce_star_08.dds"
+		1 = 	"ce_star_09.dds"
+		1 = 	"ce_star_10.dds"
+		1 = 	"ce_star_11.dds"
+		1 = 	"ce_star_12.dds"
+		1 = 	"ce_star_13.dds"
+		1 = 	"ce_star_14.dds"	
+	}
+	
+	ordinaries = {
+		5 = "ce_bend_sinister_fimbriated.dds"
+		5 = "ce_bend_sinister.dds"
+		5 = "ce_bend_dexter.dds"
+		5 = "ce_bend_dexter_fimbriated.dds"
+		5 = "ce_saltire.dds"
+		5 = "ce_saltire_fimbriated.dds"	
+		1 = "ce_stripes_03_middle.dds"
+		1 = "ce_stripes_04.dds"
+		1 = "ce_stripes_05.dds"
+		1 = "ce_stripes_06.dds"
+		1 = "ce_stripes_07.dds"
+		1 = "ce_stripes_08.dds"
+		1 = "ce_stripes_09.dds"
+		1 = "ce_stripes_10.dds"
+		1 = "ce_stripes_10_alternating.dds"
+		1 = "ce_stripes_11.dds"
+		1 = "ce_stripes_12.dds"
+		1 = "ce_stripes_13.dds"
+		1 = "ce_checker_04.dds"
+		1 = "ce_checker_06.dds"
+		1 = "ce_checker_08.dds"
+		1 = "ce_hexacolor_horizontal.dds"
+		10 = "ce_bicolor_left.dds"
+		10 = "ce_bicolor_right.dds"
+	}
+	
+	saltires = {
+		5 = "ce_saltire.dds"
+		5 = "ce_saltire_fimbriated.dds"
+		#1 = "ce_cross_burgundy.dds"
+	}
+	
+	cross_central = {
+		#1 = "ce_cross_sardinia.dds"
+		5 = "ce_cross_england.dds"
+		1 = "ce_cross_england_fimbriated.dds"
+	}
+	
+	cross_central_background = {
+		10 = "ce_solid.dds"
+		20 = "ce_per_cross.dds"
+		5 = "ce_bicolor_left.dds"
+		5 = "ce_bicolor_right.dds"
+		10 = "ce_bicolor_top.dds"
+		10 = "ce_bicolor_bottom.dds"
+		30 = "ce_canton.dds"
+	}
+	
+	bicolors = {
+		10 = "ce_bicolor_top.dds"
+		10 = "ce_bicolor_bottom.dds"
+	}
+	
+	canton_or_bicolor = {
+		10 = "ce_solid.dds"
+		10 = "ce_canton.dds"
+		10 = "ce_bicolor_top.dds"
+	}
+	
+	stripes = {
+		1 = "ce_stripes_03_middle.dds"
+		50 = "ce_stripes_04.dds"
+		40 = "ce_stripes_05.dds"
+		25 = "ce_stripes_06.dds"
+		25 = "ce_stripes_07.dds"
+		20 = "ce_stripes_08.dds"
+		20 = "ce_stripes_09.dds"
+		10 = "ce_stripes_10.dds"
+		1 = "ce_stripes_10_alternating.dds"
+		5 = "ce_stripes_11.dds"
+		5 = "ce_stripes_12.dds"
+		5 = "ce_stripes_13.dds"
+	}
+	
+	stripes_even = {
+		50 = "ce_bicolor_bottom.dds"
+		50 = "ce_stripes_04.dds"
+		30 = "ce_stripes_06.dds"
+		10 = "ce_stripes_08.dds"
+		10 = "ce_stripes_10.dds"
+		1 = "ce_stripes_10_alternating.dds"
+		5 = "ce_stripes_12.dds"		
+	}
+	
+	tricolors = {
+		30 = "ce_tricolor_vertical.dds"
+		10 = "ce_tricolor_horizontal.dds"
+		5 = "ce_tricolor_bend.dds"
+		1 = "ce_tricolor_horizontal_fifth.dds"	
+	}
+	
+	crosses = {
+		10 = "ce_cross_england_fimbriated.dds"
+		100 = "ce_cross_england.dds"
+		# cotised
+		# voided
+	}	
+
+	coa_centered_ordinaries = {
+
+		#10 = "ce_solid.dds"
+		10 = "ce_tricolor_vertical.dds"
+		10 = "ce_tricolor_horizontal.dds"	
+		10 = "ce_bicolor_top.dds"
+		10 = "ce_bicolor_bottom.dds"		
+		5 = "ce_per_cross.dds"		
+		1 = "ce_bend_sinister_fimbriated.dds"
+		2 = "ce_bend_sinister.dds"
+		2 = "ce_bend_dexter.dds"
+		1 = "ce_bend_dexter_fimbriated.dds"
+		1 = "ce_saltire.dds"
+		1 = "ce_cross_burgundy.dds"			
+	}	
+	
+	full_size_charges = {
+	# Uses charge that fit the canvas horizontally (1300x680)
+	
+		1 = "ce_solid.dds"
+		# dragon bhutan
+		# elephants
+		# dragon china (pb need to be enlarged)
+		# bird paradise
+		# eagle for germany		
+	}	
+	
+	circle_frames = {
+		10 = "ce_frame_circle.dds"
+		
+		# native americans : circle of triangles, circle of stars (7), double circle outlined	
+	}
+
+	circle_outline_frames = {
+		10 = "ce_frame_circle_outline.dds"		
+	}	
+	
+	tricolors_fimbriated = {
+		10 = "ce_tricolor_fimbriated_large.dds"
+		10 = "ce_tricolor_fimbriated_thin.dds"
+	}	
+	
+	communist_centered_stripes = {
+		10 = "ce_stripe_center.dds"
+		10 = "ce_fess_fimbriated.dds"
+		10 = "ce_stripes_02_center.dds"
+		10 = "ce_stripes_03_center.dds"
+	}	
+	communist_bottom_stripes = {
+		10 = "ce_stripes_02_bottom_karelia.dds"
+		10 = "ce_stripes_02_bottom_lithuania.dds"		
+		10 = "ce_stripes_02_bottom_tajik.dds"			
+		10 = "ce_stripe_bottom.dds"		
+		10 = "ce_stripe_bottom_raised.dds"				
+	}	
+	communist_random_stripe = {
+		30 = "ce_blank.dds"		
+		10 = "ce_solid.dds"					
+	}
+	communist_bicolors = {
+		10 = "ce_bicolor_right.dds"
+		10 = "ce_bicolor_bottom.dds"
+	}	
+
+	communist_opposite_charges = {
+		# specific generic list for communist center charges
+		# Selection of charges to avoid any odd/misaligned result
+		
+		10 = "ce_hammer_and_sickle.dds"
+		## more possible additions (to check, not exhaustive and depends of needed level of diversity)
+		
+		# 100 = "ce_sun_philippines.dds"		
+		# 100 = "ce_horse.dds"				
+		# 100 = "ce_soyombo_modern.dds"		
+		# 100 = "ce_tamga_idel_ural.dds"			
+		# 100 = "ce_dharmachakra_india.dds"	
+		# 100 = "ce_zulfikar.dds"	
+		# 100 = "ce_shahada_and_sword.dds"	
+		# 100 = "ce_beaver.dds"	
+		# 100 = "ce_bird_paradise.dds"
+		# 100 = "ce_swan.dds"
+		# 100 = "ce_dragon_bhutan.dds"
+		# 100 = "ce_aurochs_head.dds"
+
+	}	
+	communist_charges = {
+		250 = "ce_hammer_and_sickle.dds"
+		100 = "ce_hammer_and_sickle_round.dds"
+		100 = "ce_star_05.dds"
+		100 = "ce_star_05_hollow.dds"
+		50 = "ce_star_05_ring.dds"
+		25 = "ce_hammer_sickle_star_ussr.dds"
+		25 = "ce_hammer_sickle_star_cogwheel.dds"
+		25 = "ce_hammer_sickle_star_wreath.dds"
+		25 = "ce_star_frame_hammer_sickle.dds"
+		25 = "ce_hammer_sickle_wreath.dds"		
+		25 = "ce_hammer_wheat.dds"		
+	}			
+	communist_stars = {
+		100 = "ce_star_05.dds"
+		100 = "ce_star_05_hollow.dds"	
+		50 = "ce_star_05_pinwheeled.dds"		
+	}	
+	fascist_random_stripe = {
+		80 = "ce_blank.dds"		
+		20 = "ce_solid.dds"					
+	}	
+	fascist_charges = {
+		# Listed separately for now
+		
+		50 = "ce_cross_pointed.dds"
+		50 = "ce_cross_celtic.dds"
+		50 = "ce_cross_fleury.dds"
+		50 = "ce_cross_pommee.dds"
+		50 = "ce_cross_couped_voided.dds"
+		50 = "ce_cross_fourchee.dds"
+		50 = "ce_cross_patty.dds"
+		50 = "ce_cross_hlinka.dds"		
+		50 = "ce_cross_crosslet.dds"
+		50 = "ce_cross_couped.dds"
+		50 = "ce_flame_canada_nup.dds"					
+		50 = "ce_endless_knot.dds"
+		50 = "ce_omega.dds"
+		50 = "ce_rune_tiwaz.dds"
+		50 = "ce_cross_auseklis.dds"
+		50 = "ce_cross_tursas.dds"
+		50 = "ce_rune_hagal.dds"
+		50 = "ce_lightning_bolt.dds"		
+		50 = "ce_delta.dds"
+		50 = "ce_cross_st_michael.dds"
+		50 = "ce_rune_algiz.dds"
+		50 = "ce_triskel.dds"
+		50 = "ce_arrow_cross.dds"
+		50 = "ce_kolovrat.dds"
+		50 = "ce_cross_finnic.dds"
+		50 = "ce_cross_mara.dds"
+		50 = "ce_wolfsangel.dds"
+		50 = "ce_cross_wheel.dds"
+		50 = "ce_sigma.dds"	
+		50 = "ce_walknut.dds"	
+		50 = "ce_balkenkreuz.dds"
+	}	
+	fascist_charges_square = {
+		# Selected to fit within square. Pb Needs more diversity
+		
+		50 = "ce_cross_pointed.dds"
+		50 = "ce_cross_celtic.dds"
+		50 = "ce_cross_fleury.dds"
+		50 = "ce_cross_pommee.dds"
+		50 = "ce_cross_couped_voided.dds"
+		50 = "ce_cross_fourchee.dds"
+		50 = "ce_cross_patty.dds"
+		50 = "ce_cross_hlinka.dds"		
+		50 = "ce_cross_crosslet.dds"
+		50 = "ce_cross_couped.dds"			
+		50 = "ce_rune_tiwaz.dds"
+		50 = "ce_cross_auseklis.dds"
+		50 = "ce_lightning_bolt.dds"		
+		50 = "ce_triskel.dds"
+		50 = "ce_arrow_cross.dds"
+		50 = "ce_odal_square.dds"
+		50 = "ce_three_arrows_square.dds"
+		50 = "ce_cross_finnic.dds"
+		50 = "ce_wolfsangel.dds"
+		50 = "ce_sigma.dds"
+		50 = "ce_falanga.dds"
+	}	
+}

@@ -1,0 +1,40 @@
+thruitt = { 
+	color = rgb { 153 58 134 } 
+	religion = bezism 
+	traits = { udf_heritage medi_sea_culture_group scandinavian }
+	male_common_first_names={
+		Loke Lodur
+		Odin Od
+		Tor
+		Froy
+		Balder
+		Hod Hermod
+		Mode
+	}
+	female_common_first_names = {
+		Froya Frigga
+		Idunn
+		Sigyn Siv Syn
+		Nanna
+		Rind
+		
+	}
+	noble_last_names = {
+		av_Soria_Moria av_Trydensia
+	}	
+	common_last_names={
+		The_Fox
+	}
+	male_regal_first_names = {
+		Zeldrin
+		Zeldronix
+	}
+	female_regal_first_names = {
+		Froya
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = thruittan
+	}
+}

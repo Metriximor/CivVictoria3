@@ -1,0 +1,23 @@
+﻿je_bazariskes_question = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	is_shown_when_inactive = {
+		# Is either Lambat or Mery
+		OR = {
+			c:LAM = root
+			c:MER = root
+		}
+	}
+
+	possible = {
+		# Lambat and Mery have poor relations
+		c:LAM = {
+			c:MER = {
+				relations:prev < relations_threshold:poor
+			}
+		}
+	}
+
+	weight = 100
+	should_be_pinned_by_default = no
+}

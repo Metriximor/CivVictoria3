@@ -1,0 +1,2314 @@
+﻿building_output_oak_log_add = {
+    good = no
+    percent = no
+}
+
+building_output_oak_log_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_oak_log_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_oak_log_mult = {
+    good = yes
+    percent = yes
+}
+
+country_oak_log_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_stone_add = {
+    good = no
+    percent = no
+}
+
+building_output_stone_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_stone_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_stone_mult = {
+    good = yes
+    percent = yes
+}
+
+country_stone_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_sand_add = {
+    good = no
+    percent = no
+}
+
+building_output_sand_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_sand_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_sand_mult = {
+    good = yes
+    percent = yes
+}
+
+country_sand_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_glass_add = {
+    good = no
+    percent = no
+}
+
+building_output_glass_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_glass_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_glass_mult = {
+    good = yes
+    percent = yes
+}
+
+country_glass_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_glass_bottle_add = {
+    good = no
+    percent = no
+}
+
+building_output_glass_bottle_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_glass_bottle_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_glass_bottle_mult = {
+    good = yes
+    percent = yes
+}
+
+country_glass_bottle_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_charcoal_add = {
+    good = no
+    percent = no
+}
+
+building_output_charcoal_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_charcoal_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_charcoal_mult = {
+    good = yes
+    percent = yes
+}
+
+country_charcoal_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_iron_ore_add = {
+    good = no
+    percent = no
+}
+
+building_output_iron_ore_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_iron_ore_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_iron_ore_mult = {
+    good = yes
+    percent = yes
+}
+
+country_iron_ore_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_iron_ingot_add = {
+    good = no
+    percent = no
+}
+
+building_output_iron_ingot_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_iron_ingot_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_iron_ingot_mult = {
+    good = yes
+    percent = yes
+}
+
+country_iron_ingot_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_gold_ore_add = {
+    good = no
+    percent = no
+}
+
+building_output_gold_ore_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_gold_ore_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_gold_ore_mult = {
+    good = yes
+    percent = yes
+}
+
+country_gold_ore_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_gold_ingot_add = {
+    good = no
+    percent = no
+}
+
+building_output_gold_ingot_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_gold_ingot_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_gold_ingot_mult = {
+    good = yes
+    percent = yes
+}
+
+country_gold_ingot_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_wood_tools_add = {
+    good = no
+    percent = no
+}
+
+building_output_wood_tools_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_wood_tools_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_wood_tools_mult = {
+    good = yes
+    percent = yes
+}
+
+country_wood_tools_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_stone_tools_add = {
+    good = no
+    percent = no
+}
+
+building_output_stone_tools_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_stone_tools_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_stone_tools_mult = {
+    good = yes
+    percent = yes
+}
+
+country_stone_tools_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_iron_tools_add = {
+    good = no
+    percent = no
+}
+
+building_output_iron_tools_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_iron_tools_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_iron_tools_mult = {
+    good = yes
+    percent = yes
+}
+
+country_iron_tools_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_gold_tools_add = {
+    good = no
+    percent = no
+}
+
+building_output_gold_tools_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_gold_tools_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_gold_tools_mult = {
+    good = yes
+    percent = yes
+}
+
+country_gold_tools_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_diamond_tools_add = {
+    good = no
+    percent = no
+}
+
+building_output_diamond_tools_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_diamond_tools_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_diamond_tools_mult = {
+    good = yes
+    percent = yes
+}
+
+country_diamond_tools_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_redstone_add = {
+    good = no
+    percent = no
+}
+
+building_output_redstone_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_redstone_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_redstone_mult = {
+    good = yes
+    percent = yes
+}
+
+country_redstone_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_diamond_add = {
+    good = no
+    percent = no
+}
+
+building_output_diamond_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_diamond_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_diamond_mult = {
+    good = yes
+    percent = yes
+}
+
+country_diamond_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_wheat_add = {
+    good = no
+    percent = no
+}
+
+building_output_wheat_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_wheat_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_wheat_mult = {
+    good = yes
+    percent = yes
+}
+
+country_wheat_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_beetroot_add = {
+    good = no
+    percent = no
+}
+
+building_output_beetroot_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_beetroot_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_beetroot_mult = {
+    good = yes
+    percent = yes
+}
+
+country_beetroot_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_carrot_add = {
+    good = no
+    percent = no
+}
+
+building_output_carrot_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_carrot_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_carrot_mult = {
+    good = yes
+    percent = yes
+}
+
+country_carrot_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_potato_add = {
+    good = no
+    percent = no
+}
+
+building_output_potato_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_potato_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_potato_mult = {
+    good = yes
+    percent = yes
+}
+
+country_potato_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_pumpkin_add = {
+    good = no
+    percent = no
+}
+
+building_output_pumpkin_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_pumpkin_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_pumpkin_mult = {
+    good = yes
+    percent = yes
+}
+
+country_pumpkin_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_melon_add = {
+    good = no
+    percent = no
+}
+
+building_output_melon_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_melon_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_melon_mult = {
+    good = yes
+    percent = yes
+}
+
+country_melon_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_cactus_add = {
+    good = no
+    percent = no
+}
+
+building_output_cactus_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_cactus_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_cactus_mult = {
+    good = yes
+    percent = yes
+}
+
+country_cactus_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_sugar_add = {
+    good = no
+    percent = no
+}
+
+building_output_sugar_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_sugar_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_sugar_mult = {
+    good = yes
+    percent = yes
+}
+
+country_sugar_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_mushroom_add = {
+    good = no
+    percent = no
+}
+
+building_output_mushroom_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_mushroom_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_mushroom_mult = {
+    good = yes
+    percent = yes
+}
+
+country_mushroom_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_cocoa_bean_add = {
+    good = no
+    percent = no
+}
+
+building_output_cocoa_bean_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_cocoa_bean_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_cocoa_bean_mult = {
+    good = yes
+    percent = yes
+}
+
+country_cocoa_bean_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_experience_bottle_add = {
+    good = no
+    percent = no
+}
+
+building_output_experience_bottle_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_experience_bottle_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_experience_bottle_mult = {
+    good = yes
+    percent = yes
+}
+
+country_experience_bottle_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_tree_sapling_add = {
+    good = no
+    percent = no
+}
+
+building_output_tree_sapling_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_tree_sapling_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_tree_sapling_mult = {
+    good = yes
+    percent = yes
+}
+
+country_tree_sapling_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+building_output_mob_drop_add = {
+    good = no
+    percent = no
+}
+
+building_output_mob_drop_mult = {
+    good = yes
+    percent = yes
+}
+
+building_input_mob_drop_add = {
+    good = no
+    percent = no
+}
+
+building_throughput_mob_drop_mult = {
+    good = yes
+    percent = yes
+}
+
+country_mob_drop_reserve_limit_mult = {
+    good = yes
+    percent = yes
+}
+
+interest_group_ig_buildfriends_pop_attraction_mult = {
+    neutral = yes
+    percent = yes
+}
+
+interest_group_ig_buildfriends_pol_str_mult = {
+    neutral = yes
+    percent = yes
+    num_decimals = 0
+}
+
+interest_group_ig_buildfriends_pol_attraction_mult = {
+    neutral = yes
+    percent = yes
+}
+
+interest_group_ig_grinders_pop_attraction_mult = {
+    neutral = yes
+    percent = yes
+}
+
+interest_group_ig_grinders_pol_str_mult = {
+    neutral = yes
+    percent = yes
+    num_decimals = 0
+}
+
+interest_group_ig_grinders_pol_attraction_mult = {
+    neutral = yes
+    percent = yes
+}
+
+interest_group_ig_civ_industrialists_pop_attraction_mult = {
+    neutral = yes
+    percent = yes
+}
+
+interest_group_ig_civ_industrialists_pol_str_mult = {
+    neutral = yes
+    percent = yes
+    num_decimals = 0
+}
+
+interest_group_ig_civ_industrialists_pol_attraction_mult = {
+    neutral = yes
+    percent = yes
+}
+
+interest_group_ig_pvpers_pop_attraction_mult = {
+    neutral = yes
+    percent = yes
+}
+
+interest_group_ig_pvpers_pol_str_mult = {
+    neutral = yes
+    percent = yes
+    num_decimals = 0
+}
+
+interest_group_ig_pvpers_pol_attraction_mult = {
+    neutral = yes
+    percent = yes
+}
+
+interest_group_ig_roleplayers_pop_attraction_mult = {
+    neutral = yes
+    percent = yes
+}
+
+interest_group_ig_roleplayers_pol_str_mult = {
+    neutral = yes
+    percent = yes
+    num_decimals = 0
+}
+
+interest_group_ig_roleplayers_pol_attraction_mult = {
+    neutral = yes
+    percent = yes
+}
+
+country_subsidies_bg_agriculture = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_agriculture_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_agriculture_mortality_mult = {
+}
+
+building_group_bg_agriculture_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_agriculture_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_agriculture_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_agriculture_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_agriculture_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_agriculture_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_agriculture_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_agriculture_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_subsistence_agriculture = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_subsistence_agriculture_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_subsistence_agriculture_mortality_mult = {
+}
+
+building_group_bg_subsistence_agriculture_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_subsistence_agriculture_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_subsistence_agriculture_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_subsistence_agriculture_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_subsistence_agriculture_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_subsistence_agriculture_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_subsistence_agriculture_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_subsistence_agriculture_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_public_infrastructure = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_public_infrastructure_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_public_infrastructure_mortality_mult = {
+}
+
+building_group_bg_public_infrastructure_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_public_infrastructure_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_public_infrastructure_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_public_infrastructure_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_public_infrastructure_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_public_infrastructure_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_public_infrastructure_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_public_infrastructure_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_construction = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_construction_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_construction_mortality_mult = {
+}
+
+building_group_bg_construction_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_construction_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_construction_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_construction_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_construction_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_construction_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_construction_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_construction_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_military = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_military_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_military_mortality_mult = {
+}
+
+building_group_bg_military_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_military_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_military_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_military_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_military_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_military_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_military_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_military_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_army = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_army_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_army_mortality_mult = {
+}
+
+building_group_bg_army_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_army_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_army_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_army_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_army_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_army_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_army_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_army_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_navy = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_navy_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_navy_mortality_mult = {
+}
+
+building_group_bg_navy_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_navy_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_navy_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_navy_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_navy_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_navy_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_navy_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_navy_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_service = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_service_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_service_mortality_mult = {
+}
+
+building_group_bg_service_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_service_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_service_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_service_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_service_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_service_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_service_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_service_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_conscription = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_conscription_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_conscription_mortality_mult = {
+}
+
+building_group_bg_conscription_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_conscription_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_conscription_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_conscription_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_conscription_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_conscription_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_conscription_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_conscription_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_trade = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_trade_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_trade_mortality_mult = {
+}
+
+building_group_bg_trade_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_trade_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_trade_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_trade_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_trade_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_trade_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_trade_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_trade_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_urban_facilities = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_urban_facilities_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_urban_facilities_mortality_mult = {
+}
+
+building_group_bg_urban_facilities_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_urban_facilities_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_urban_facilities_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_urban_facilities_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_urban_facilities_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_urban_facilities_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_urban_facilities_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_urban_facilities_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_tree_farming = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_tree_farming_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_tree_farming_mortality_mult = {
+}
+
+building_group_bg_tree_farming_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_tree_farming_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_tree_farming_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_tree_farming_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_tree_farming_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_tree_farming_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_tree_farming_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_tree_farming_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_sand_pit = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_sand_pit_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_sand_pit_mortality_mult = {
+}
+
+building_group_bg_sand_pit_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_sand_pit_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_sand_pit_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_sand_pit_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_sand_pit_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_sand_pit_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_sand_pit_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_sand_pit_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_mine = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_mine_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_mine_mortality_mult = {
+}
+
+building_group_bg_mine_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_mine_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_mine_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_mine_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_mine_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_mine_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_mine_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_mine_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_factories = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_factories_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_factories_mortality_mult = {
+}
+
+building_group_bg_factories_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_factories_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_factories_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_factories_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_factories_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_factories_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_factories_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_factories_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_wheat_farms = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_wheat_farms_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_wheat_farms_mortality_mult = {
+}
+
+building_group_bg_wheat_farms_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_wheat_farms_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_wheat_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_wheat_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_wheat_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_wheat_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_wheat_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_wheat_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_beetroot_farms = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_beetroot_farms_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_beetroot_farms_mortality_mult = {
+}
+
+building_group_bg_beetroot_farms_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_beetroot_farms_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_beetroot_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_beetroot_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_beetroot_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_beetroot_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_beetroot_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_beetroot_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_carrot_farms = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_carrot_farms_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_carrot_farms_mortality_mult = {
+}
+
+building_group_bg_carrot_farms_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_carrot_farms_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_carrot_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_carrot_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_carrot_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_carrot_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_carrot_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_carrot_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_cocoa_farms = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_cocoa_farms_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_cocoa_farms_mortality_mult = {
+}
+
+building_group_bg_cocoa_farms_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_cocoa_farms_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_cocoa_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_cocoa_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_cocoa_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_cocoa_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_cocoa_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_cocoa_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_potato_farms = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_potato_farms_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_potato_farms_mortality_mult = {
+}
+
+building_group_bg_potato_farms_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_potato_farms_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_potato_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_potato_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_potato_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_potato_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_potato_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_potato_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_pumpkin_farms = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_pumpkin_farms_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_pumpkin_farms_mortality_mult = {
+}
+
+building_group_bg_pumpkin_farms_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_pumpkin_farms_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_pumpkin_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_pumpkin_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_pumpkin_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_pumpkin_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_pumpkin_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_pumpkin_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_melon_farms = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_melon_farms_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_melon_farms_mortality_mult = {
+}
+
+building_group_bg_melon_farms_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_melon_farms_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_melon_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_melon_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_melon_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_melon_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_melon_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_melon_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_cactus_farms = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_cactus_farms_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_cactus_farms_mortality_mult = {
+}
+
+building_group_bg_cactus_farms_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_cactus_farms_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_cactus_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_cactus_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_cactus_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_cactus_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_cactus_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_cactus_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_sugar_cane_farms = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_sugar_cane_farms_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_sugar_cane_farms_mortality_mult = {
+}
+
+building_group_bg_sugar_cane_farms_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_sugar_cane_farms_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_sugar_cane_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_sugar_cane_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_sugar_cane_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_sugar_cane_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_sugar_cane_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_sugar_cane_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_mushroom_farms = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_mushroom_farms_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_mushroom_farms_mortality_mult = {
+}
+
+building_group_bg_mushroom_farms_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_mushroom_farms_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_mushroom_farms_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_mushroom_farms_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_mushroom_farms_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_mushroom_farms_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_mushroom_farms_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_mushroom_farms_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_government = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_government_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_government_mortality_mult = {
+}
+
+building_group_bg_government_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_government_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_government_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_government_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_government_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_government_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_government_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_government_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_bureaucracy = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_bureaucracy_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_bureaucracy_mortality_mult = {
+}
+
+building_group_bg_bureaucracy_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_bureaucracy_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_bureaucracy_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_bureaucracy_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_bureaucracy_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_bureaucracy_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_bureaucracy_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_bureaucracy_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+country_subsidies_bg_infrastructure = {
+    good = yes
+    boolean = yes
+}
+
+building_group_bg_infrastructure_employee_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_infrastructure_mortality_mult = {
+}
+
+building_group_bg_infrastructure_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_infrastructure_tax_mult = {
+    good = yes
+    percent = yes
+}
+
+building_group_bg_infrastructure_midfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_infrastructure_midfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_infrastructure_newfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_infrastructure_newfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+
+building_group_bg_infrastructure_oldfriends_mortality_mult = {
+    good = no
+    percent = yes
+}
+
+building_group_bg_infrastructure_oldfriends_standard_of_living_add = {
+    good = yes
+    percent = no
+}
+

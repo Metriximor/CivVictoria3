@@ -1,0 +1,79 @@
+﻿building_port = {
+	building_group = bg_public_infrastructure
+	city_type = port
+	texture = "gfx/interface/icons/building_icons/building_port.dds"
+
+	has_max_level = yes
+	ignore_stateregion_max_level = yes
+	port = yes
+
+	production_method_groups = {
+		pmg_base_building_port
+	}
+
+	required_construction = construction_cost_medium
+
+	terrain_manipulator = urban_port
+	
+	can_build = {
+		error_check = {
+			severity = fail
+			is_coastal = yes
+		}
+	}
+}
+
+building_government_administration = {
+	building_group = bg_bureaucracy
+	city_type = city
+
+	levels_per_mesh = 10
+
+	production_method_groups = {
+		pmg_government_administration_base
+		pmg_buildings_employment
+	}
+
+	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
+
+	required_construction = construction_cost_medium
+}
+
+building_railway = {
+	building_group = bg_public_infrastructure	
+	texture = "gfx/interface/icons/building_icons/building_railway.dds"
+	
+	production_method_groups = {
+	}
+
+	required_construction = construction_cost_high
+	
+	ai_value = 2000 # Railways are important
+	
+	should_auto_expand = { 
+		OR = {
+			cash_reserves_ratio > 0.5
+			is_subsidized = yes
+		}
+		state.market_access < 1.1
+		owner.construction_queue_duration < max_autoexpand_queue_weeks
+	}
+}
+
+building_shipyards = {
+	building_group = bg_factories
+	texture = "gfx/interface/icons/building_icons/shipyards.dds"
+	city_type = port
+	
+	production_method_groups = {
+	}
+
+	required_construction = construction_cost_high
+	
+	can_build = {
+		error_check = {
+			severity = fail
+			is_coastal = yes
+		}
+	}
+}

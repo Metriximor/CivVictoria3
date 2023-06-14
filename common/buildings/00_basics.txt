@@ -1,0 +1,128 @@
+﻿# All of these buildings are required by the vanilla game so they cannot be removed
+
+building_subsistence_farms = {
+	texture = "gfx/interface/icons/building_icons/subsistence_farm.dds"
+	building_group = bg_subsistence_agriculture
+
+	production_method_groups = {
+		pmg_base_building_civ_subsistence_farms
+	}
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
+	min_raise_to_hire = 0.30
+}
+
+building_construction_sector = {
+	building_group = bg_construction
+	texture = "gfx/interface/icons/building_icons/construction_camp.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	has_max_level = yes
+	
+	required_construction = construction_cost_very_low
+	
+	production_method_groups = {
+		pmg_base_civ_construction_sector
+		pmg_construction_tool_usage
+		pmg_reinforcement_type
+		pmg_buildings_employment
+	}
+	
+	ai_value = 2000 # Construction sector should generally be preferred over other equal-priority spending items
+}
+
+building_barracks = {
+	building_group = bg_army
+	# recruits_combat_unit = combat_unit_regular
+	texture = "gfx/interface/icons/building_icons/building_barracks.dds"
+	city_type = city
+	
+	has_max_level = yes
+	
+	levels_per_mesh = 10
+
+	production_method_groups = {
+	}
+
+	required_construction = construction_cost_very_low
+}
+
+building_naval_base = {
+	building_group = bg_navy
+	# recruits_combat_unit = combat_unit_flotilla
+	city_type = port
+	levels_per_mesh = 10
+	
+	has_max_level = yes
+	
+	texture = "gfx/interface/icons/building_icons/naval_base.dds"
+	naval = yes
+	
+	production_method_groups = {
+	}
+	
+	required_construction = construction_cost_very_low
+	
+	# Can only build naval bases on the coast
+	can_build = {
+		error_check = {
+			severity = fail
+			is_coastal = yes
+		}
+	}
+}
+
+building_urban_center = {
+	building_group = bg_service
+	texture = "gfx/interface/icons/building_icons/village.dds"
+	city_type = city
+	residence_points_per_level = 0
+	
+	production_method_groups = {
+	}
+	
+	buildable = no
+	expandable = no
+	downsizeable = no	
+	
+	terrain_manipulator = urban_city
+}
+
+building_conscription_center = {
+	building_group = bg_conscription
+	buildable = no
+	expandable = no
+	downsizeable = no
+	
+	has_max_level = yes	
+
+	levels_per_mesh = 0
+	residence_points_per_level = 0
+	city_type = none
+
+	recruits_combat_unit = combat_unit_conscript
+	texture = "gfx/interface/icons/building_icons/building_conscription_center.dds"
+
+	production_method_groups = {
+	}
+}
+
+building_trade_center = {
+	building_group = bg_trade
+	city_type = city
+	levels_per_mesh = 10
+
+	lens = infrastructure
+
+	texture = "gfx/interface/icons/building_icons/building_trade_center.dds"
+
+	production_method_groups = {
+	}
+
+	buildable = no
+	expandable = no
+	downsizeable = no	
+}

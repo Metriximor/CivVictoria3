@@ -1,8 +1,133 @@
 ﻿building_tree_farm = {
 	building_group = bg_tree_farming
+	city_type = wood
 	texture = "gfx/interface/icons/building_icons/wood_farm.dds"
 	
+	
+	levels_per_mesh = 5
 	production_method_groups = {
 		pmg_base_building_tree_farm
+		pmg_buildings_employment
 	}
+	required_construction = construction_cost_medium
+}
+
+building_wheat_farm = {
+	texture = "gfx/interface/icons/building_icons/wheat_farm.dds"
+	building_group = bg_wheat_farms
+	city_type = farm
+	
+	levels_per_mesh = 5
+	production_method_groups = {
+		pmg_base_wheat_farms
+		pmg_buildings_employment
+	}
+	required_construction = construction_cost_low
+}
+
+building_beetroot_farm = {
+	texture = "gfx/interface/icons/building_icons/beetroot_farm.dds"
+	building_group = bg_beetroot_farms
+	city_type = farm
+	levels_per_mesh = 5
+	production_method_groups = {
+		pmg_base_beetroot_farms
+		pmg_buildings_employment
+	}
+	required_construction = construction_cost_low
+}
+
+building_carrot_farm = {
+	texture = "gfx/interface/icons/building_icons/carrot_farm.dds"
+	building_group = bg_carrot_farms
+	city_type = farm
+	levels_per_mesh = 5
+	production_method_groups = {
+		pmg_base_carrot_farms
+		pmg_buildings_employment
+	}
+	required_construction = construction_cost_low
+}
+
+building_cocoa_farm = {
+	texture = "gfx/interface/icons/building_icons/cocoa_farm.dds"
+	building_group = bg_cocoa_farms
+	city_type = farm
+	levels_per_mesh = 5
+	production_method_groups = {
+		pmg_buildings_employment
+	}
+	required_construction = construction_cost_low
+}
+
+building_potato_farm = {
+	texture = "gfx/interface/icons/building_icons/potato_farm.dds"
+	building_group = bg_potato_farms
+	city_type = farm
+	levels_per_mesh = 5
+	production_method_groups = {
+		pmg_base_potato_farms
+		pmg_buildings_employment
+	}
+	required_construction = construction_cost_low
+}
+
+building_pumpkin_farm = {
+	texture = "gfx/interface/icons/building_icons/pumpkin_farm.dds"
+	building_group = bg_pumpkin_farms
+	city_type = farm
+	levels_per_mesh = 5
+	production_method_groups = {
+		pmg_base_pumpkin_farms
+		pmg_buildings_employment
+	}
+	required_construction = construction_cost_low
+}
+
+building_melon_farm = {
+	texture = "gfx/interface/icons/building_icons/melon_farm.dds"
+	building_group = bg_melon_farms
+	city_type = farm
+	levels_per_mesh = 5
+	production_method_groups = {
+		pmg_base_melon_farms
+		pmg_buildings_employment
+	}
+	required_construction = construction_cost_low
+}
+
+building_cactus_farm = {
+	texture = "gfx/interface/icons/building_icons/cactus_farm.dds"
+	building_group = bg_cactus_farms
+	city_type = farm
+	levels_per_mesh = 5
+	production_method_groups = {
+		pmg_base_cactus_farms
+		pmg_buildings_employment
+	}
+	required_construction = construction_cost_low
+}
+
+building_sugar_cane_farm = {
+	texture = "gfx/interface/icons/building_icons/sugar_cane_farm.dds"
+	building_group = bg_sugar_cane_farms
+	city_type = farm
+	levels_per_mesh = 5
+	production_method_groups = {
+		pmg_base_sugar_farms
+		pmg_buildings_employment
+	}
+	required_construction = construction_cost_low
+}
+
+building_mushroom_farm = {
+	texture = "gfx/interface/icons/building_icons/mushroom_farm.dds"
+	building_group = bg_mushroom_farms
+	city_type = mine
+	levels_per_mesh = 5
+	production_method_groups = {
+		pmg_base_mushroom_farms
+		pmg_buildings_employment
+	}
+	required_construction = construction_cost_low
 }

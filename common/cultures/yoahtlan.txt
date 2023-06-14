@@ -1,0 +1,135 @@
+﻿yoahtlan = {
+	color = { 244 13 44 }
+	religion = non_religious
+	traits = { udf_heritage yoahtlan_culture_group english nahuatl spanish scandinavian }
+	male_common_first_names = {
+	# aztec
+	
+	Yaretzi Yolihuani Yoltzin Yoliyamanimina
+	Xipil Xilochitl
+	Nocheyaxi Necahual
+	Etalcatl Etaltaca
+	Ilhuinolli Itztli
+	Coacuintli Camaxtli Chalchiuhxochitl Cuetzpalli Cozamatonal
+	Patli
+	Acolmixtli
+	Olli Ollin
+	Sacpa
+	Huedira
+	Tepiltzin Tlazohcotzin Tlaloc Teiton
+	Mahuima Mizquixochitl
+
+	# castillian Spanish probably
+
+	Ezequiel Erick
+	Jorge Jairo Jonathan
+	Alejandro Aaron Alfredo
+	Paúl Pascual
+ 	Gael Gustavo
+	Bautista
+	Orlando
+	Fernando
+	Isaías Iker
+	Lucho
+  	Martín
+	Emilio
+ 
+	}
+	female_common_first_names = {
+	# aztec
+	
+	Papan
+	Etalpalli
+	Huitzilihuitl Huemac
+	Zaniyah Yoliyamanitzin Yaotencatl
+	Chicomecoatl Citlaltzotl Cozamalotl Coataca Citlalyaxi
+	Amoxcoyotl Atl
+	Mazatla Miyaoaxochitl
+	Acahuani
+	Ixtlimetl Icnoyotl Iccauhlxochitl
+	Xochiyotl Xiuhtonal
+	Teoxihuitl Teoxiliztli Tecolohuani Tonalnan Tlaltonal Teoxitli
+	Quauhyaxi Quetzaltia
+
+	# castillian Spanish probably
+
+	Octavia 
+	Eduarda Estela Evangelina
+	Débora 
+	Natalia Naomí Nazarena
+	Magdalena Marcela
+	Josefina 
+	Abril Alicia
+ 	Viviana 
+	Alba Ángeles
+	Gabriela 
+	Zarina 
+	Laura 
+	Isabela 
+
+	}
+	common_last_names = {
+	# axztec couldnt find any
+
+	# americas
+
+	Ordóñez
+ 	Luque Lacasa
+ 	Villacrés Velázquez Venegas
+ 	Santángel
+ 	Pareja Pozo Pinto Piñón
+ 	Gallo Gaona Gayoso
+ 	Carvallo Cotilla
+ 	Abasto Arnal Agramonte Atenas Alarcón
+ 	Isaías Illescas Indiano
+ 	Tafalla Tasis Tassis
+ 	Elvira
+ 	Fontirroig
+	Zoido
+	Barrios
+ 	de_la_Cavallería
+ 	Xirau
+ 	Manzanedo Mina
+	}
+	noble_last_names = {
+	Quauhtli
+	}
+	male_regal_first_names = {
+
+	}
+	female_regal_first_names = {
+	
+	}
+	graphics = european
+	ethnicities = {
+		1 = minecrafter
+	}
+}
+
+resimerian = {
+	color = { 146 20 84 }
+	religion = non_religious
+	traits = { udf_heritage yoahtlan_culture_group english }
+	male_common_first_names = {
+		
+	}
+	female_common_first_names = {
+
+	}
+	common_last_names = {
+		
+	}
+	noble_last_names = {
+		
+	}
+	male_regal_first_names = {
+
+	}
+	female_regal_first_names = {
+	
+	}
+	graphics = european
+	ethnicities = {
+		1 = minecrafter
+	}
+}

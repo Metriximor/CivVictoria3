@@ -1,0 +1,21 @@
+augustan = {
+	color = rgb { 0 54 167 }
+	religion = non_religious
+	traits = { augustan_heritage augustan_culture_group english }
+	male_common_first_names = {
+	comrade	
+	}
+	female_common_first_names = {
+	comrade	
+	}
+	noble_last_names = {
+	nick
+	}
+	common_last_names = {
+	nick
+	}
+	graphics = european
+	ethnicities = {
+		1 = minecrafter
+	}
+}

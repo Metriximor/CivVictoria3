@@ -1,0 +1,280 @@
+﻿no_portrait_trigger = {
+	always = yes
+}
+
+slightly_underweight_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			AND = {
+				pop_weight_modifier_scale < 25	
+				standard_of_living >= 10		
+			}
+			AND = {
+				standard_of_living >= 5
+				standard_of_living < 10
+				pop_weight_modifier_scale >= 25
+				pop_weight_modifier_scale < 50
+			}			
+			AND = {
+				standard_of_living < 5
+				pop_weight_modifier_scale >= 50
+			}		
+		}	
+    }
+}
+
+underweight_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			AND = {
+				pop_weight_modifier_scale < 25
+				standard_of_living >= 5
+				standard_of_living < 10
+			}		
+			AND = {
+				standard_of_living < 5
+				pop_weight_modifier_scale >= 25
+				pop_weight_modifier_scale < 50
+			}		
+		}	
+    }
+}
+
+very_underweight_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		pop_weight_modifier_scale < 25
+		standard_of_living < 5	
+    }
+}
+
+slightly_overweight_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			AND = {
+				standard_of_living >= 15
+				standard_of_living < 20
+				pop_weight_modifier_scale >= 90	
+			}
+			AND = {
+				standard_of_living >= 20
+				standard_of_living < 40
+				pop_weight_modifier_scale >= 85	
+				pop_weight_modifier_scale < 90
+			}
+			AND = {
+				standard_of_living >= 40
+				pop_weight_modifier_scale >= 70
+				pop_weight_modifier_scale < 80
+			}					
+		}	
+    }
+}
+
+overweight_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			AND = {
+				standard_of_living >= 15
+				standard_of_living < 20
+				pop_weight_modifier_scale >= 95
+			}
+			AND = {
+				standard_of_living >= 20
+				standard_of_living < 40
+				pop_weight_modifier_scale >= 90
+				pop_weight_modifier_scale < 95
+			}
+			AND = {
+				standard_of_living >= 40
+				pop_weight_modifier_scale >= 80	
+				pop_weight_modifier_scale < 90
+			}				
+		}	
+    }
+}
+
+very_overweight_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			AND = {
+				standard_of_living >= 20
+				standard_of_living < 40
+				pop_weight_modifier_scale >= 95
+			}
+			AND = {
+				standard_of_living >= 40
+				pop_weight_modifier_scale >= 90
+			}				
+		}	
+    }
+}
+
+struggling_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		standard_of_living < 10
+	}
+}
+
+#
+#should_be_topless_portrait_trigger = {
+#	exists = scope:pop
+#	has_character_flag = single_combat_stripped_to_waist
+#	should_show_nudity = yes
+#}
+
+midfriends_clothes_pop_trigger = {
+   exists = scope:pop
+   scope:pop = {
+	   is_pop_type = midfriends
+   } 
+}
+
+oldfriends_clothes_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+	   is_pop_type = oldfriends	
+	}   
+}
+
+newfriends_clothes_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+	   is_pop_type = newfriends	
+	}   
+}
+
+poor_clothes_pop_trigger = {
+	exists = scope:pop
+     scope:pop = {
+       	OR = {
+			is_pop_type = newfriends
+       	}
+     }   
+}
+
+middle_clothes_pop_trigger = {
+     exists = scope:pop
+     scope:pop = {
+       	OR = {
+			is_pop_type = midfriends
+       	}
+     }  
+}
+
+upper_clothes_pop_trigger = {
+     exists = scope:pop
+     scope:pop = {
+     	OR = {
+			is_pop_type = oldfriends
+     	}
+     }  
+}
+
+ruler_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		is_ruler = yes
+	}
+}
+
+military_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		OR = {
+			has_role = general
+			has_role = admiral
+		}
+	}
+}
+
+monarchy_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		OR = {
+	     	is_ruler = yes
+	     	is_heir = yes
+	     }
+     	owner = {
+     		has_law = law_type:law_monarchy
+     	}
+	}
+}
+
+republic_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		is_ruler = yes
+		owner = {
+			NOT = { has_law = law_type:law_monarchy}
+		}
+	}
+}
+
+overweight_trigger = {
+	exists = scope:character
+	scope:character = {
+     	has_trait = expensive_tastes
+     }
+}
+
+politician_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		AND = {
+			has_role = politician
+			is_ruler = no
+		}
+		
+	}
+}
+
+recognized_country_trigger = {
+	exists = scope:character
+	scope:character = {
+		OR = {
+			owner = {
+				OR = {
+					is_country_type = recognized
+					is_country_type = colonial
+				}	
+			}
+			owner = {
+				top_overlord = {
+					OR = {
+						is_country_type = recognized
+						is_country_type = colonial
+					}	
+				}
+			}
+		}
+	}       
+}
+
+recognized_country_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			owner = {
+				OR = {
+					is_country_type = recognized
+					is_country_type = colonial
+				}	
+			}
+			owner = {
+				top_overlord = {
+					OR = {
+						is_country_type = recognized
+						is_country_type = colonial
+					}	
+				}
+			}
+		}
+	}       
+}

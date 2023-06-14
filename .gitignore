@@ -266,3 +266,13 @@ fabric.properties
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,intellij,pycharm,pycharm+all
+gfx/editor_terrain/*
+mapeditor*
+Civ Mod.zip
+tools/*
+src/output/*
+build/*
+*.spec
+release/*
+__pycache__
+tools/mapeditor/map_editor_status.txt

@@ -1,0 +1,22 @@
+﻿accessories = {
+	usage = game
+	selection_behavior = weighted_random
+	#fallback = no_headgear
+
+    no_acessories = {
+        dna_modifiers = {
+            
+        }   
+        weight = {
+            base = 0
+
+            modifier = {
+                add = 100000000
+                    
+                no_portrait_trigger = yes
+            }
+        }
+    }
+
+    
+}

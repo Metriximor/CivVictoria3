@@ -1,0 +1,25 @@
+CHARACTERS = {
+	c:YOA = {
+		create_character = {
+		culture = resimerian
+		}
+
+		create_character = { # General
+			is_general = yes
+			culture = resimerian
+
+			traits = {
+			}
+		}
+		
+		create_character = { # Admiral
+			is_admiral = yes
+			culture = yoahtlan
+			age = 40
+			traits = {
+				meticulous
+				historical
+			}
+		 }
+	}
+}

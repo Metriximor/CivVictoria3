@@ -57,8 +57,8 @@ flowchart
     wood{{Oak Log}}
     stone{{Stone}}
     charcoal{{Charcoal}}
-    ironOre{{Iron Ore}}
-    ironIngot{{Iron Ingot}}
+    iron_ore{{Iron Ore}}
+    iron_ingot{{Iron Ingot}}
     stoneTools{{Stone Tools}}
     
     %% Tree farm
@@ -73,7 +73,7 @@ flowchart
     %% Mine
     stoneTools-.Stone Pickaxes.->mine
     mine--Stone Pickaxes-->stone
-    mine--Stone Pickaxes-->ironOre
+    mine--Stone Pickaxes-->iron_ore
     
     %% Charcoal Smelter
     wood-.Convert Logs.->charcoalSmelter
@@ -81,11 +81,11 @@ flowchart
     
     %% Ore Smelter
     charcoal-.Basic Smelting.->oreSmelter
-    ironOre-.Basic Smelting.->oreSmelter
-    oreSmelter--Basic Smelting-->ironIngot
+    iron_ore-.Basic Smelting.->oreSmelter
+    oreSmelter--Basic Smelting-->iron_ingot
     
     %% Building site
-    ironIngot-."Iron Reinforcing (Modifier)".->building
+    iron_ingot-."Iron Reinforcing (Modifier)".->building
 ```
 # Iron Tier
 ```mermaid

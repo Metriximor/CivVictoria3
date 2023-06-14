@@ -1,0 +1,60 @@
+﻿pmg_base_wheat_farms = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_wheat_farm
+	}
+}
+pmg_base_beetroot_farms = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_beetroot_farm
+	}
+}
+pmg_base_carrot_farms = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_carrot_farm
+	}
+}
+pmg_base_potato_farms = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_potato_farm
+	}
+}
+pmg_base_pumpkin_farms = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_pumpkin_farm
+	}
+}
+pmg_base_melon_farms = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_melon_farm
+	}
+}
+pmg_base_cactus_farms = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_cactus_farm
+	}
+}
+pmg_base_sugar_farms = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_sugar_farm
+	}
+}
+pmg_base_mushroom_farms = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_mushroom_farm
+	}
+}
+pmg_base_cocoa_bean_farms = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_cocoa_bean_farm
+	}
+}

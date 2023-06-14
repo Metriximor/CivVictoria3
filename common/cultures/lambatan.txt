@@ -1,0 +1,128 @@
+﻿lambatan = {
+	color = { 248 239 0 }
+	religion = non_religious
+	traits = {
+		medi_sea_heritage
+		medi_sea_culture_group
+		english
+		filipino
+	}
+	male_common_first_names = {
+		Andre
+		Andres
+		Antonio
+		Apolinario
+		Artemio
+		Angelo
+		Christian
+		Daniel
+		Emilio
+		Enrico
+		Francisco
+		Gabriel
+		James
+		Jacinto
+		Jacob
+		Jester
+		Jose
+		Joshua
+		John_Mark
+		John_Paul
+		Juan
+		Lambert
+		Leon
+		Manuel
+		Marcelo
+		Mariano
+		Michael
+		Nathaniel
+		Nikolai
+		Nicolas
+		Santiago
+		Simeon
+		Teodoro
+		Mikmik
+		Monito
+		Rodrigo
+	}
+	female_common_first_names = {
+		Anna
+		Andrea
+		Althea
+		Angel
+		Angela
+		Samantha
+		Darna
+		Joan
+		Monita
+		Carmen
+		Catalina
+		Jennie
+		Leona
+		Nathalie
+		Pacita
+		Princess
+		Sophia
+		Teodora
+		Trinidad
+		Glhynnyl_Hylhyr_Yzzyghyl
+		Diyknyll_Rysym
+	}
+	noble_last_names = {
+		Aguinaldo
+		Bonifacio
+		Burgos
+		Mangubat
+		Adriosola_Reyes
+		Perez
+		Locsin
+	}
+	common_last_names = {
+		Aguinaldo
+		Bautista
+		Castillo
+		Flores
+		de_Guzman
+		Garcia
+		Latosa
+		Lim
+		Lopez
+		Marcos
+		Martinez
+		Mendoza
+		Perez
+		Ramos
+		Rivera
+		sta_Maria
+		Tamayo
+		Torres
+		Bonifacio
+		Burgos
+		Mangubat
+		ng_Lambat
+		ng_Valle_Flor
+		Arellano
+		Basa
+		del_Pilar
+		dela_Cruz
+		del_Mundo
+		Diwa
+		Diaz
+		Dizon
+		Jacinto
+		Mabini
+		Miranda
+		Nakpil
+		Nocon
+		Pascual
+		Plata
+		Reyes
+		Rizal
+		Rodriguez
+		Santos
+	}
+	graphics = european
+	ethnicities = {
+		1 = minecrafter
+	}
+}

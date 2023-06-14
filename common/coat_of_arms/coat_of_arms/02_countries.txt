@@ -6,28 +6,879 @@
 @canton_scale_cross_x = @[ ( 333 / 768 ) + 0.001 ]
 @canton_scale_cross_y = @[ ( 205 / 512 ) + 0.001 ]
 
-@canton_scale_sweden_x = @[ ( 255 / 768 ) + 0.001 ]
-@canton_scale_sweden_y = @[ ( 204 / 512 ) + 0.001 ]
-
-@uru_canton_height = 0.556
-@NZL_coa_offset = @[3/16] 
 0.3 = 0.16
 
-###### EXAMPLE ######
-
-EXA = {
-	pattern = "pattern_solid.tga" #Choose a base from gfx\coat_of_arms\patterns
-	color1 = "white" #Use a predefined colour or you can do 'color1 = rgb{ x x x }'.
-	textured_emblem = { #Adds a textured emblem.
-		texture = "te_coa_bahamas.dds" #From gfx\coat_of_arms\textured_emblems
-		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+TRU = {
+	pattern = "pattern_stripes_truidencia.dds"
+	color1 = "full_white"
+	color2 = "truidencian_yellow"
+	color3 = "truidencian_red"
+	colored_emblem = {
+		texture = "ce_truidencia_monarchy.dds"
+		color2 = "full_white"
+		color3 = "truidencian_red"
+		instance = { position { 0.5 0.5} scale = { 1 1 } }
 	}
-	colored_emblem = { #Adds a colored emblem.
-		texture = "ce_coa_frame_costa_rica.dds" #From gfx\coat_of_arms\textured_emblems
-		color1 = "red"
-		color2 = color1 #You can tell it to just use the same base color1 (in this case "white").
+}
+
+LUS = {
+	pattern = "pattern_lusitania.dds"
+	color1 = "lusitan_red"
+	color2 = "full_black"
+	color3 = "full_white"
+	colored_emblem = {
+		texture = "ce_lusitania_shields.dds"
+		color1 = "lusitan_shield_blue"
+		color2 = "full_white"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }	
+	}
+	colored_emblem = {
+		texture = "ce_lusitania.dds"
+		color1 = "lusitan_castle_yellow"
+		color2 = "lusitan_castle_yellow_border"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }	
+	}
+}
+
+LAM = {
+	pattern = "pattern_solid.tga"
+	color1 = "lambatan_civmc_yellow"
+	colored_emblem = {
+		texture = "ce_stripes_05.dds"
+		color1 = "lambatan_civmc_blue"
+	}
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "lambatan_civmc_red"
+		instance = { position = { 0 0.5 } scale = { 1 1 } }
+	}
+}
+
+MER = {
+	pattern = "pattern_solid.tga"
+	color1 = "full_black"
+	colored_emblem = {
+		texture = "ce_mehri.dds"
+		color1 = "full_white"
+	}
+}
+
+DAN = {
+	pattern = "pattern_solid.tga"
+	color1 = "danzilonan_cyan"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "full_white"
+		color2 = "danzilonan_grey"
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "full_white"
+		instance = { scale = { 1 1 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_anarchy.dds"
+		color1 = "truidencian_red"
+		color2 = "danzilonan_grey"
+		instance = { scale = { 0.8 0.8 } }
+	}
+}
+
+DAN_VANGUARD = {
+	pattern = "pattern_solid.tga"
+	color1 = "danzilonan_cyan"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "full_white"
+		color2 = "danzilonan_grey"
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "full_white"
+		instance = { scale = { 1 1 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_anarchy.dds"
+		color1 = "truidencian_red"
+		color2 = "truidencian_red"
+		instance = { scale = { 0.8 0.8 } }
+	}
+}
+
+WOL = {
+	pattern = "pattern_solid.tga"
+	color1 = "full_white"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "wolken_blue"
+		color2 = "wolken_green"
+	}
+		colored_emblem = {
+		texture = "ce_border_orle.dds"
+		color1 = yellow
+		color2 = "wolken_green"
+		instance = { position = { 0.255 0.28 } scale = { 0.5 0.55 } }
+	}
+		colored_emblem = {
+		texture = "ce_arsenio_pact.dds"
+		color2 = "full_white"
+		instance = { position = { 0.255 0.28 } scale = { 0.55 0.55 } }
+	}
+}
+
+GEN_TRUIDENCIA = {
+pattern = "pattern_solid.tga"
+    color1 = green
+        colored_emblem = {
+        texture = "ce_canton.dds"
+        color1 = "full_white"
+        instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+        }
+        colored_emblem = {
+        texture = "ce_stripe_center.dds"
+        color1 = "truidencian_yellow"
+        instance = { position = { 0.25 0.25 } scale = { 0.5 0.9 } }
+        }
+        colored_emblem = {
+        texture = "ce_stripe_center.dds"
+        color1 = "truidencian_red"
+        instance = { position = { 0.25 0.25 } scale = { 0.5 0.35 } }
+        }
+    colored_emblem = {
+        texture = "ce_shield_round_per_pale.dds"
+        color2 = "full_white"
+        color1 = "gensokyojin_red"
+        instance = { position = { 0.7 0.5 } scale = { 0.7 0.55 } }
+    }
+    colored_emblem = {
+        texture = "ce_gensokyo.dds"
+        color2 = "full_white"
+        color3 = "gensokyojin_red"
+        instance = { position = { 0.7 0.5 } scale = { 0.35 0.35 } }
+    }
+}
+
+GEN = {
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "gensokyojin_red"
+	color2 = "full_white"
+	colored_emblem = {
+		texture = "ce_gensokyo.dds"
+		color2 = "full_white"
+		color3 = "gensokyojin_red"
 		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
 	}
 }
 
+YOA = {
+	pattern = "pattern_solid.tga"
+	color1 = "yoahtlan_yellow"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "full_white"
+		color2 = "yoahtlan_red"
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "full_white"
+	}
+	colored_emblem = {
+		texture = "ce_coa_yoahtl.dds"
+		color1 = "full_black"
+		instance = { scale = { 0.6 0.6 } }
+	}
+}
+
+KOV = {
+    pattern = "pattern_stripes_truidencia.dds"
+    color1 = "full_white"
+    color2 = "truidencian_red"
+    color3 = "truidencian_red"
+    colored_emblem = {
+        texture = "ce_lotus.dds"
+        color1 = "truidencian_red"
+        instance = { position { 0.5 0.5 } scale = { 1.1 1 } }
+	}
+	colored_emblem = {
+        texture = "ce_lotus.dds"
+        color1 = "truidencian_yellow"
+        instance = { position { 0.5 0.5 } scale = { 0.8 0.8 } }
+    }
+    colored_emblem = {
+        texture = "ce_gensokyo.dds"
+        color2 = "full_white"
+        color3 = "truidencian_red"
+        instance = { position { 0.5 0.5 } scale = { 0.4 0.4 } rotation = { 5 } } 
+	}
+}
+
+ROZ = {
+	pattern = "pattern_solid.tga"
+	color1 = "full_white"
+	textured_emblem = {
+		texture = "te_rose.dds"		
+	}
+}
+KAL = {
+	pattern = "pattern_gironny_16_center.dds"
+	color1 = "kallosian_purple"
+	color2 = "full_white"
+	textured_emblem = {
+		texture = "te_coa_kallos.dds"
+        instance = { position = { 0.505 0.5 } }
+}
+    colored_emblem = {
+        texture = "ce_stripe_bottom.dds"
+        color1 = "kallosian_purple"
+}
+    colored_emblem = {
+        texture = "ce_waves.dds"
+        color1 = "full_white"
+        color2 = "kallosian_purple"
+        instance = { position = { 0.5 0.76 } }
+	}
+}
+
+PAV = {
+    pattern = "pattern_horizontal_split_01.tga"
+    color1 = "full_white"
+    color2 = "pavian_blue"
+    # textured_emblem = {
+        # texture = "te_coa_pavia.dds"
+# }
+    colored_emblem = {
+        texture = "ce_shield_heater_large_per_fess.dds"
+        color1 = "pavian_blue"
+            color2 = "full_white"
+            color3 = "full_white"
+        instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }
+}
+    colored_emblem = {
+        texture = "ce_crown_tudor.dds"
+        color1 = "pavian_blue"
+            color2 = "full_white"
+            color3 = "pavian_blue"
+        instance = { position = { 0.5 0.2 } scale = { 0.4 0.3 } }
+    }
+}
+
+PAV_EMPIRE = {
+    pattern = "pattern_checkers_01.tga"
+    color1 = "full_white"
+    color2 = rgb { 223 60 78 }
+    # textured_emblem = {
+        # texture = "te_coa_pavia.dds"
+# }
+    colored_emblem = {
+        texture = "ce_cross_england.dds"
+        color1 = rgb { 66 182 223 }
+        instance = { position = { 0.75 0.75 } scale = { 0.5 0.5 } }
+}
+    colored_emblem = {
+        texture = "ce_cross_england.dds"
+        color1 = rgb { 66 182 223 }
+        instance = { position = { 0.25 0.25 } scale = { 0.5 0.5 } }
+}
+    colored_emblem = {
+        texture = "ce_lion_rampant.dds"
+        color1 = "full_white"
+            color2 = "full_white"
+            color3 = "full_white"
+        instance = { position = { 0.25 0.75 } scale = { 0.6 0.5 } }
+    }
+    colored_emblem = {
+        texture = "ce_lion_rampant.dds"
+        color1 = "full_white"
+            color2 = "full_white"
+            color3 = "full_white"
+        instance = { position = { 0.75 0.25 } scale = { 0.6 0.5 } }
+    }
+}
+
+TRA_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "lusitan_shield_blue"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color2 = "yellow"
+		color1 = "red"
+	}
+	textured_emblem = {
+		texture = "te_coa_transylvania_angel.dds"
+		instance = { position { 0.3 0.5 } scale = { 0.5 0.5 } }
+	}
+	textured_emblem = {
+		texture = "te_coa_transylvania_angel.dds"
+		instance = { position { 0.7 0.5 } scale = { -0.5 0.5 } }
+	}
+	textured_emblem = {
+		texture = "te_coa_transylvania.dds"
+		instance = { position { 0.5 0.5 } scale = { 0.4 0.4 } }
+	}
+}
+
+TRA = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = rgb { 4 110 177 }
+	color2 = rgb { 200 50 50 }
+	colored_emblem = {
+		texture = "ce_shield_vertical_split.dds"
+		color1 = rgb { 4 110 177 }
+		color2 = "black"
+		color3 = rgb { 200 50 50 }
+		instance = { position { 0.5 0.5 } scale = { 0.7 0.7 } }
+	}
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color2 = black
+		color1 = yellow
+		instance = { position { 0.5 0.68 } scale = { 0.15 0.1 } }
+	}
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color2 = black
+		color1 = yellow
+		instance = { position { 0.6 0.53 } scale = { 0.15 0.1 } }
+	}
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color2 = black
+		color1 = yellow
+		instance = { position { 0.4 0.53 } scale = { 0.15 0.1 } }
+	}
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color2 = black
+		color1 = yellow
+		instance = { position { 0.6 0.35 } scale = { 0.15 0.1 } }
+	}
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color2 = black
+		color1 = yellow
+		instance = { position { 0.4 0.35 } scale = { 0.15 0.1 } }
+	}
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color2 = black
+		color1 = yellow
+		instance = { position { 0.5 0.35 } scale = { 0.15 0.1 } }
+	}
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color2 = black
+		color1 = yellow
+		instance = { position { 0.5 0.53 } scale = { 0.15 0.1 } }
+	}
+}
+
+GRI = {
+	pattern = "pattern_solid.tga"
+	color1 = "griffin_blue"
+	colored_emblem = {
+		texture = "ce_griffin.dds"
+		color2 = "full_white"
+	}
+}
+
+MTA = {
+	pattern = "pattern_solid.tga"
+	color1 = "augustan_blue"
+	colored_emblem = {
+		texture = "ce_canton.dds"
+		color1 = "augustan_red"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+}
+
+DOM = {
+	pattern = "pattern_per_saltire.dds"
+	color1 = "red"
+	color2 = "black"
+	textured_emblem = {
+		texture = "te_doom_city.dds"
+	}
+}
+
+CLW = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 23 111 33 }
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "full_white"
+		color2 = "full_black"
+	}
+}
+NAR = {
+	pattern = "pattern_solid.tga"
+	color1 = "full_white"
+	colored_emblem = {
+		texture = "ce_stripes_05.dds"
+		color1 = "lusitan_shield_blue"
+		instance = { position = { 0.1 0.5 } scale = { 0.6 0.5 } }
+	}
+		colored_emblem = {
+		texture = "ce_stripes_05.dds"
+		color1 = "truidencian_red"
+		instance = { position = { 0.8 0.5 } scale = { 0.6 0.5 } }
+	}
+			colored_emblem = {
+		texture = "ce_per_saltire.dds"
+		color1 = "full_white"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.7 } rotation = 90 }
+	}
+				colored_emblem = {
+		texture = "ce_per_saltire.dds"
+		color1 = "full_white"
+		instance = { position = { 1 0.5 } scale = { 0.5 1 } rotation = 90 }
+	}
+					colored_emblem = {
+		texture = "ce_per_saltire.dds"
+		color1 = "full_white"
+		instance = { position = { 0 0.5 } scale = { 0.5 1 } rotation = 90 }
+	}
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "black"
+		instance = { scale = { 0.6 0.7 } }
+	}
+		colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "full_white"
+		instance = { scale = { 0.45 0.45 } }
+	}
+}
+CDM = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = rgb { 51 153 255 }
+	color2 = "full_black"
+		colored_emblem = {
+		texture = "ce_frame_circle_per_fess.dds"
+		color1 = rgb { 139 207 255 }
+		color2 = rgb { 139 207 255 }
+		color3 = rgb { 51 153 255 }
+		instance = { scale = { 0.5 0.5 } position = { 0.4 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_frame_circle_per_fess.dds"
+		color1 = "full_white"
+		color2 = "full_white"
+		color3 = rgb { 139 207 255 }
+		instance = { scale = { 0.42 0.42 } position = { 0.4 0.5 } }
+	}
+}
+AUR = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+		colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = "blue"
+	}
+	colored_emblem = {
+		texture = "ce_shield_heater_border.dds"
+		color1 = "black"
+		color2 = "yellow"
+		color3 = rgb { 139 207 255 }
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_sun_face_gwalior.dds"
+		color1 = "yellow"
+		color2 = "black"
+		color3 = rgb { 139 207 255 }
+		instance = { scale = { 0.45 0.45 } }
+	}
+}
+ICE = {
+	pattern = "pattern_solid.tga"
+	color1 = "full_white"
+		colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = rgb {0 195 255}
+	}
+}
+ILA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 101 1 59 }
+		colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = rgb { 101 1 59 }
+		}
+	colored_emblem = {
+		texture = "ce_crossed_scimitars_horizontal.dds"
+		color1 = rgb {101 1 59}
+		instance = { scale = { 0.45 0.45 } }
+	}
+}
+IRI = {
+	pattern = "pattern_solid.tga"
+	color1 = "full_white"
+		colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = rgb { 0 102 0 }
+		color2 = rgb { 0 0 255 }
+	}
+}
+EST = {
+	pattern = "pattern_solid.tga"
+	color1 = "full_white"
+		colored_emblem = {
+		texture = "ce_estalia.dds"
+		color2 = rgb { 170 8 8 }
+	}
+}
+ARS = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = rgb { 0 126 87 }
+	color2 = rgb { 0 82 58 }
+		colored_emblem = {
+		texture = "ce_arsenio_pact.dds"
+		color2 = "full_white"
+	}
+}
+IMP = {
+	pattern = "pattern_solid.tga"
+	color1 = "lusitan_shield_blue"
+		colored_emblem = {
+		texture = "ce_saltire_fimbriated_02.dds"
+		color1 = "red"
+		color2 = "full_white"
+		color3 = "full_white"
+		}
+		colored_emblem = {
+		texture = "ce_cross_england_fimbriated.dds"
+		color1 = "full_white"
+		color2 = "red"
+		}
+		colored_emblem = {
+		texture = "ce_if.dds"
+		color2 = "full_white"
+		color3 = "red"
+	}
+}
+ICA = {
+	pattern = "pattern_solid.tga"
+	color1 = "full_black"
+		colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "full_white"
+		color2 = "truidencian_red"
+		}
+		textured_emblem = {
+		texture = "te_coa_icarus.dds"
+		instance = { scale = { 0.6 0.6 } }
+	}
+}
+PAC = {
+	pattern = "pattern_solid.tga"
+	color1 = "full_back"
+		colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "full_white"
+		color2 = rgb {0 48 93}
+	}
+}
+OTO = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+		colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "full_black"
+		color2 = "truidencian_yellow"
+	}
+}
+DAL = {
+	pattern = "pattern_cross.dds"
+	color1 = "full_black"
+	color2 = "red"
+		colored_emblem = {
+		texture = "ce_star_04.dds"
+		color1 = "red"
+		instance = { scale = { 1.5 1.5 } }
+	}
+}
+PET = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+		colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "full_white"
+		color2 = "full_black"
+		}
+		colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "full_white"
+		}
+		colored_emblem = {
+		texture = "ce_laurel_circled.dds"
+		color1 = "full_black"
+		color2 = "full_white"
+		instance = { scale = { 0.7 0.7 } }
+		}
+		colored_emblem = {
+		texture = "ce_star_05_pinwheeled.dds"
+		color1 = "full_black"
+		instance = { scale = { 0.4 0.4 } }
+	}
+}
+SOV = {
+	pattern = "pattern_solid.tga"
+	color1 = "full_black"
+		colored_emblem = {
+		texture = "ce_crossed_scimitars.dds"
+		color1 = "full_white"
+	}
+}
+REG = {
+	pattern = "pattern_solid.tga"
+	color1 = "full_white"
+		textured_emblem = {
+		texture = "te_coa_reggio_Argeddina.dds"
+	}
+}
+SPQ = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+		colored_emblem = {
+		texture = "ce_wreath_thin.dds"
+		color1 = "yellow"
+		}
+		colored_emblem = {
+		texture = "ce_letter_s.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.3 0.3 } position = { 0.35 0.5 } }
+		}
+		colored_emblem = {
+		texture = "ce_letter_p.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.3 0.3 } position = { 0.45 0.5 } }
+		}
+		colored_emblem = {
+		texture = "ce_letter_q.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.3 0.3 } position = { 0.55 0.5 } }
+		}
+		colored_emblem = {
+		texture = "ce_letter_r.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.3 0.3 } position = { 0.65 0.5 } }
+	}
+}
+FEM = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 137 201 }
+		colored_emblem = {
+		texture = "ce_hammer_and_sickle.dds"
+		color1 = rgb { 255 254 187 }
+		instance = { scale = { 0.5 0.5 } position = { 0.25 0.4 } }
+		}
+		colored_emblem = {
+		texture = "ce_sun_xia.dds"
+		color1 = rgb { 255 254 187 }
+		instance = { scale = { 0.15 0.15 } position = { 0.25 0.15 } }
+		}
+		colored_emblem = {
+		texture = "ce_star_05_circle.dds"
+		color1 = rgb { 177 0 215 }
+		color2 = rgb { 255 254 187 }
+		instance = { scale = { 0.35 0.3 } position = { 0.2 0.3 } }
+	}
+}
+COR = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+		colored_emblem = {
+		texture = "ce_canton.dds"
+		color1 = "lusitan_shield_blue"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+		}
+		colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "full_white"
+		instance = { scale = { 0.7 1 } position = { 0.5 0.5 } rotation = 90 }
+	}
+		colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "full_white"
+		instance = { scale = { 1 0.7 } }
+	}
+		colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "lusitan_shield_blue"
+		instance = { scale = { 0.5 1 } position = { 0.5 0.5 } rotation = 90 } 
+	}
+		colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "lusitan_shield_blue"
+		instance = { scale = { 1 0.5 } position = { 0.5 0.5 } }
+	}
+		colored_emblem = {
+		texture = "ce_crown_ducal.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "yellow"
+		instance = { scale = { 0.5 0.7 } position = { 0.2 0.22 } }
+	}
+}
+WIN = {
+	pattern = "pattern_solid.tga"
+	color1 = "full_black"
+		colored_emblem = {
+		texture = "ce_saltire_fimbriated.dds"
+		color1 = "full_white"
+		color2 = "full_black"
+	}
+}
+NAS = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "full_white"
+	color2 = "lusitan_shield_blue"
+		colored_emblem = {
+		texture = "ce_galley.dds"
+		color1 = "yellow"
+		color2 = "lusitan_shield_blue"
+		color3 = "lusitan_shield_blue"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }
+	}
+}
+VAL = {
+	pattern = "pattern_per_bend_senester.dds"
+	color1 = "full_white"
+	color2 = "red"
+		colored_emblem = {
+		texture = "ce_bend_sinister.dds"
+		color1 = "grey"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } } 
+	}
+		colored_emblem = {
+		texture = "ce_coa_haiti.dds"
+		color1 = "full_white"
+		color2 = "red"
+		color3 = "red"
+		instance = { scale = { 0.5 0.5 } position = { 0.2 0.3 } } 
+	}
+}
+VOL = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+		colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "full_white"
+		color2 = "full_black"
+		}
+		colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		instance = { scale = { 0.6 0.6 } }
+		color1 = "full_black"
+		color2 = "full_black"
+		}
+		textured_emblem = {
+		texture = "te_german_state_crown.dds"
+		instance = { scale = { 0.3 0.3 } position = { 0.5 0.2 } } 
+	}
+}
+MED = {
+	pattern = "pattern_solid.tga"
+	color1 = "full_white"
+		colored_emblem = {
+		texture = "ce_medi.dds"
+		color1 = "gensokyojin_red"
+		color2 = "gensokyojin_red"
+		color3 = "gensokyojin_red"
+	}
+}
+SOU = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+		colored_emblem = {
+		texture = "ce_bend_sinister_fimbriated.dds"
+		color1 = "full_white"
+		color2 = "full_white"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } } 
+		}
+		colored_emblem = {
+		texture = "ce_bend_sinister.dds"
+		color1 = "green"
+		instance = { scale = { 1.4 1.4 } position = { 0.5 0.5 } } 
+		}
+		colored_emblem = {
+		texture = "ce_bend_sinister.dds"
+		color1 = "full_white"
+		instance = { scale = { 1.1 1.1 } position = { 0.5 0.5 } } 
+		}
+		colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "full_white"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } } 
+		}
+		colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "green"
+		instance = { scale = { 0.53 0.53 } position = { 0.5 0.5 } } 
+		}
+		colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "full_white"
+		instance = { scale = { 0.46 0.46 } position = { 0.5 0.5 } }
+		}
+		colored_emblem = {
+		texture = "ce_star_05_pinwheeled.dds"
+		color1 = "green"
+		instance = { scale = { 0.2 0.2 } position = { 0.5 0.38 } }
+		}
+		colored_emblem = {
+		texture = "ce_star_05_tilted.dds"
+		color1 = "green"
+		instance = { scale = { 0.2 0.2 } position = { 0.58 0.55 } }
+		}
+		colored_emblem = {
+		texture = "ce_star_05_tilted.dds"
+		color1 = "green"
+		instance = { scale = { 0.2 0.2 } position = { 0.43 0.57 }  rotation = 180 }
+	}
+}
+MOL = {
+    pattern = "pattern_horizontal_split_01.TGA"
+    color1 = "full_white"
+    color2 = rgb { 72 159 226 }
+		textured_emblem = {
+		texture = "te_coa_moloka.dds"
+	}
+}
+# cordoba under spqr
+HIS = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+		colored_emblem = {
+		texture = "ce_wreath_thin.dds"
+		color1 = "yellow"
+		}
+		colored_emblem = {
+		texture = "ce_bull_head.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = { 0.7 0.7 } }
+	}
+}
+MRA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 207 148 48 }
+		colored_emblem = {
+		texture = "ce_coa_meracydia.dds"
+		color2 = rgb { 69 0 104 }
+		instance = { scale = { 0.65 0.65 } }
+		}
+		colored_emblem = {
+		texture = "ce_frame_square.dds"
+		color1 = rgb { 69 0 104 }
+		instance = { scale = { 1 1 } position = { 1.1 0.5 } }
+		}
+		colored_emblem = {
+		texture = "ce_frame_square.dds"
+		color1 = rgb { 69 0 104 }
+		instance = { scale = { 1 1 } position = { -0.1 0.5 } }
+	}
+}
 #####################

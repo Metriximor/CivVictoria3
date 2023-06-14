@@ -1,0 +1,107 @@
+﻿pm_experience_1 = {
+	texture = "gfx/interface/icons/production_method_icons/experience_1.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_glass_bottle_add = 32
+			building_input_beetroot_add = 512
+			building_input_pumpkin_add = 128
+			building_input_potato_add = 128
+			building_input_charcoal_add = 16
+			building_input_tree_sapling_add = 16
+			building_input_mob_drop_add = 16
+
+			building_output_experience_bottle_add = 64
+		}
+	}
+}
+
+pm_experience_2 = {
+	texture = "gfx/interface/icons/production_method_icons/experience_2.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_glass_bottle_add = 32
+			building_input_melon_add = 384
+			building_input_cactus_add = 384
+			building_input_iron_ore_add = 16 # stand in for copper ore
+			building_input_tree_sapling_add = 16 # stand in for birch sapling
+			building_input_mob_drop_add = 16
+
+			building_output_experience_bottle_add = 64
+		}
+	}
+}
+
+pm_experience_3 = {
+	texture = "gfx/interface/icons/production_method_icons/experience_3.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_glass_bottle_add = 32
+			building_input_wheat_add = 512
+			building_input_carrot_add = 256
+			building_input_redstone_add = 16
+			building_input_tree_sapling_add = 32
+			building_input_mob_drop_add = 8
+
+			building_output_experience_bottle_add = 64
+		}
+	}
+}
+
+pm_experience_4 = {
+	texture = "gfx/interface/icons/production_method_icons/experience_4.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_glass_bottle_add = 32
+			building_input_sugar_cane_add = 512
+			building_input_cocoa_add = 256 # stand in for vines
+			building_input_redstone_add = 16 # stand in for lapis lazuli
+			building_input_tree_sapling_add = 16 # stand in for jungle sapling
+			building_input_mob_drop_add = 16 # stand in for gunpowder
+
+			building_output_experience_bottle_add = 64
+		}
+	}
+}
+
+pm_experience_5 = {
+	texture = "gfx/interface/icons/production_method_icons/experience_5.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_glass_bottle_add = 32
+			# TODO add nether goods
+		}
+	}
+}
+
+pm_advanced_experience_1 = {
+	texture = "gfx/interface/icons/production_method_icons/advanced_experience_1.dds"
+	building_modifiers = {
+		workforce_scaled = {
+		}
+	}
+}
+
+#TODO Finish advanced recipes
+pm_advanced_experience_2 = {
+	texture = "gfx/interface/icons/production_method_icons/advanced_experience_2.dds"
+	building_modifiers = {
+		workforce_scaled = {
+		}
+	}
+}
+
+pm_advanced_experience_3 = {
+	texture = "gfx/interface/icons/production_method_icons/advanced_experience_3.dds"
+	building_modifiers = {
+		workforce_scaled = {
+		}
+	}
+}
+
+pm_advanced_experience_4 = {
+	texture = "gfx/interface/icons/production_method_icons/advanced_experience_4.dds"
+	building_modifiers = {
+		workforce_scaled = {
+		}
+	}
+}

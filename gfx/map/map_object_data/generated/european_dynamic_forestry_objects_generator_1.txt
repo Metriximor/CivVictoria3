@@ -5,8 +5,10 @@
 	generated_content=yes
 	layer="forestry_dynamic"
 	pdxmesh="generic_rural_forestry_camp_01_mesh"
-	count=0
-}
+	count=2
+	transform="5232.205566 0.000000 734.271240 0.000000 0.276466 0.000000 0.961024 0.000000 0.000000 0.000000
+5212.793945 0.000000 737.138672 0.000000 0.705402 0.000000 0.708807 0.000000 0.000000 0.000000
+"}
 object={
 	name="european_dynamic_forestry_objects_generator_1_1"
 	clamp_to_water_level=no
@@ -14,5 +16,6 @@ object={
 	generated_content=yes
 	layer="forestry_dynamic"
 	pdxmesh="generic_rural_forestry_camp_02_mesh"
-	count=0
-}
+	count=1
+	transform="5204.968750 0.000000 729.937622 0.000000 0.123798 0.000000 -0.992307 0.000000 0.000000 0.000000
+"}

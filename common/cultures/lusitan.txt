@@ -1,0 +1,77 @@
+﻿lusitan = { 
+	color = rgb { 207 0 0 } 
+	religion = non_religious 
+	traits = { medi_sea_heritage medi_sea_culture_group english portuguese filipino }
+	graphics = european
+	male_common_first_names={
+		Joao
+		Santiago
+		Francisco
+		Afonso
+		Rodrigo
+		Martim
+		Tomas
+		Pedro
+		Duarte
+		Miguel
+		Gabriel
+	}
+	female_common_first_names = {
+		Maria
+		Leonor
+		Matilde
+		Beatriz
+		Carolina
+		Mariana
+		Ana
+		Sofia
+		Francisca
+		Ines
+	}
+	noble_last_names = {
+		da_Gama
+		Vaz
+		de_Caminha
+		Guimaraes
+		de_Lusitania
+		de_Borgonha
+	}	
+	common_last_names={
+		de_Portucale
+		de_Provence
+		Silva
+		Rodrigues
+		Fernandes
+		Goncalves
+		Santos
+		Pereira
+		Costa
+		Ferreira
+		Gomes
+		Martins
+		Sousa
+		Dias
+		Oliveira
+		Lopes
+		Freitas
+		Francisco
+		Nunes
+		Ribeiro
+		Almeida
+		Mendes
+	}
+	male_regal_first_names = {
+		Henrique
+		Joao
+		Pedro
+		Manuel
+	}
+	female_regal_first_names = {
+		Maria
+		Ana
+		Regina
+	}
+	ethnicities = {
+		1 = minecrafter
+	}
+}

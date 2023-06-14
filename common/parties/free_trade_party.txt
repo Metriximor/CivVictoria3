@@ -29,7 +29,6 @@ free_trade_party = {
 			any_interest_group = {
 				is_powerful = yes
 				OR = {
-					is_interest_group_type = ig_industrialists
 					leader = {
 						has_ideology = ideology_market_liberal
 					}
@@ -42,7 +41,7 @@ free_trade_party = {
 			value = -5
 			desc = "base_value"
 		}
-		if = { # capitalists like capitalism
+		if = { # oldfriends like capitalism
 			limit = {
 				OR = {
 					leader = {
@@ -56,7 +55,7 @@ free_trade_party = {
 				desc = "from_capitalism"
 			}
 		}
-		# powerful capitalists likely to form their own party
+		# powerful oldfriends likely to form their own party
 		if = {
 			limit = {
 				is_powerful = yes
@@ -69,25 +68,7 @@ free_trade_party = {
 			}
 			add = {
 				value = 10
-				desc = "from_powerful_capitalists"
-			}
-		}
-		# weaker market liberals fall behind powerful industrialists
-		if = {
-			limit = {
-				is_powerful = no
-				owner = {
-					ig:ig_industrialists = {
-						is_powerful = yes
-					}
-				}
-				leader = {
-					has_ideology = ideology_market_liberal
-				}
-			}
-			add = {
-				value = 5
-				desc = "from_powerful_capitalists_other"
+				desc = "from_powerful_oldfriends"
 			}
 		}
 		if = { # landowners and industrialists hate labor rights
@@ -126,7 +107,7 @@ free_trade_party = {
 				desc = "from_welfare"
 			}
 		}
-		if = { # capitalists hate children
+		if = { # oldfriends hate children
 			limit = {
 				owner = {
 					NOT = { has_law = law_type:law_child_labor_allowed }
@@ -143,7 +124,7 @@ free_trade_party = {
 				desc = "from_hates_children"
 			}
 		}
-		if = { # capitalists want free trade
+		if = { # oldfriends want free trade
 			limit = {
 				owner = {
 					NOT = { has_law = law_type:law_free_trade }
@@ -160,7 +141,7 @@ free_trade_party = {
 				desc = "from_no_free_trade"
 			}
 		}
-		if = { # capitalists want to have power
+		if = { # oldfriends want to have power
 			limit = {
 				owner = {
 					NOR = {
@@ -256,7 +237,7 @@ free_trade_party = {
 		if = { # opposition to command economy
 			limit = {
 				owner = {
-					has_law = law_type:law_command_economy
+					has_law = law_type:law_planned_economy
 					has_technology_researched = central_planning
 				}
 				OR = {

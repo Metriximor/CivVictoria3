@@ -1,0 +1,24 @@
+﻿dna_sambonusg = {
+    portrait_info = {
+        genes = {         
+            hair_color={ 0 0 0 0 }
+            skin_color={ 0 0 0 0 }
+            eye_color={ 0 0 0 0 }
+            gene_complexion={ "complexion_01" 127 "complexion_01" 127 }
+            gene_stubble={ "stubble_low" 127 "stubble_low" 127 }
+            gene_face_dacals={ "face_dacal_01" 127 "face_dacal_01" 127 }
+            gene_eyebrows_shape={ "no_eyebrows" 127 "no_eyebrows" 127 }
+            gene_eyebrows_fullness={ "no_eyebrows" 127 "no_eyebrows" 127 }
+            hairstyles={ "no_hairstyles" 0 "no_hairstyles" 0 }
+            beards={ "all_beards" 0 "all_beards" 0 }
+            props={ "no_prop" 0 "no_prop" 0 }
+            eye_accessory={ "normal_eyes" 0 "normal_eyes" 0 }
+            eye_lashes_accessory={ "normal_eyelashes" 0 "normal_eyelashes" 0 }
+            teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
+			flat_clothes={ "gene_no_clothes" 0 "gene_no_clothes" 0 }
+            gene_no_portrait={ "no_portrait" 127 "no_portrait" 127 }
+            base_skins={ "gene_unique_skin" 88 "gene_base_skin" 0 }
+        }
+    }
+    enabled = yes
+}

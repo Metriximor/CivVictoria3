@@ -1,0 +1,78 @@
+﻿law_newfriend_economy = {
+	group = lawgroup_economic_system
+    icon = "gfx/interface/icons/pops_icons/newfriend.dds"
+    progressiveness = 0
+
+    modifier = {
+        state_bureaucracy_population_base_cost_factor_mult = -0.25
+        state_tax_collection_mult = -0.15
+        state_newfriends_investment_pool_contribution_add = 0.5
+		country_mandate_subsidies = yes
+    }
+
+    # TODO require midfriends tech
+    possible_political_movements = {
+        law_planned_economy
+        law_mixed_economy
+        law_laissez_faire
+	}
+}
+
+law_planned_economy = {
+	group = lawgroup_economic_system
+    icon = "gfx/interface/icons/law_icons/planned_economy.dds"
+    progressiveness = 50
+
+    # TODO require midfriends tech
+    modifier = {
+		country_mandate_subsidies = yes # Must subsidize everything
+        state_tax_capacity_mult = -0.25 # Too busy managing economy to tax
+        state_oldfriends_investment_pool_contribution_add = 0.1
+        state_midfriends_investment_pool_contribution_add = 0.15
+        country_authority_add = 100 # You control the economy so you have more authority
+    }
+
+    possible_political_movements = {
+        law_mixed_economy
+	}
+}
+
+law_mixed_economy = {
+	group = lawgroup_economic_system
+    icon = "gfx/interface/icons/law_icons/mixed_economy.dds"
+    progressiveness = 50
+
+    # TODO require midfriends tech
+    modifier = {
+		country_subsidies_all = yes
+        state_oldfriends_investment_pool_contribution_add = 0.1
+        state_midfriends_investment_pool_contribution_add = 0.2
+    }
+
+    possible_political_movements = {
+        law_planned_economy
+        law_laissez_faire
+	}
+}
+
+law_laissez_faire = {
+	group = lawgroup_economic_system
+    icon = "gfx/interface/icons/law_icons/laissez_faire.dds"
+    progressiveness = 50
+    # TODO require midfriends tech
+
+    modifier = {
+        interest_group_industrialists_pop_attraction_mult = 0.25
+        interest_group_industrialists_pol_str_mult = 0.1
+        state_oldfriends_investment_pool_contribution_add = 0.2
+        state_midfriends_investment_pool_contribution_add = 0.25
+        country_loan_interest_rate_mult = -0.25
+        state_tax_capacity_mult = 0.25 # Plenty of spare time to tax their citizens
+		country_subsidies_bg_infrastructure = yes
+		country_subsidies_bg_trade = yes
+    }
+
+    possible_political_movements = {
+        law_planned_economy
+    }
+}

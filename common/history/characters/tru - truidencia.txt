@@ -1,0 +1,40 @@
+﻿CHARACTERS = {
+	c:TRU = {
+		create_character = {
+			first_name = Zeldronix
+			last_name = av_Trydensia
+			noble = yes
+			ruler = yes
+			culture = cu:thruitt
+			dna = dna_zeldronix
+			age = 22
+			interest_group = ig_roleplayers
+			ideology = ideology_royalist
+			traits = {
+				reserved 
+				pious
+				advanced_builder
+				intermediate_diplomat
+				intermediate_artist
+				historical
+			}
+		}
+
+		create_character = { # General
+			is_general = yes
+			culture = truidencian
+
+			traits = {
+			}
+		}
+		
+		create_character = { # Admiral
+			is_admiral = yes
+			culture = truidencian
+			age = 40
+			traits = {
+				meticulous
+			}
+		 }
+	}
+}

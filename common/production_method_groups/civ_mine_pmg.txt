@@ -3,5 +3,7 @@
 	production_methods = {
 		pm_wood_pickaxe
 		pm_stone_pickaxe
+		pm_iron_pickaxe
+		pm_gold_pickaxe
 	}
 }

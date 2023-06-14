@@ -951,33 +951,9 @@ mining = {
 		value = 0
 		if = {
 			limit = {
-				exists = state.b:building_coal_mine
+				exists = state.b:building_mine
 			}
-			add = state.b:building_coal_mine.level
-		}
-		if = {
-			limit = {
-				exists = state.b:building_iron_mine
-			}
-			add = state.b:building_iron_mine.level
-		}
-		if = {
-			limit = {
-				exists = state.b:building_lead_mine
-			}
-			add = state.b:building_lead_mine.level
-		}
-		if = {
-			limit = {
-				exists = state.b:building_sulfur_mine
-			}
-			add = state.b:building_sulfur_mine.level
-		}
-		if = {
-			limit = {
-				exists = state.b:building_gold_mine
-			}
-			add = state.b:building_gold_mine.level
+			add = state.b:building_mine.level
 		}
 		subtract = 5
 		min = 0.1
@@ -1009,9 +985,9 @@ forestry = {
 		value = 0
 		if = {
 			limit = {
-				exists = state.b:building_logging_camp
+				exists = state.b:building_tree_farm
 			}
-			add = state.b:building_logging_camp.level
+			add = state.b:building_tree_farm.level
 		}
 		subtract = 5
 		min = 0.1
@@ -1052,104 +1028,10 @@ urban = {
 		}
 	}
 	textures = {
-		{
-			weight = {
-				value = 0
-#				if = {
-#					limit = {
-#						scope:region = {
-#							state_is_in_africa = yes
-#						}
-#					}
-#					add = 1
-#				}
-			}
-			path = "gfx/state_pictures/urban_african.dds"
-		}
-		{
-			weight = {
-				value = 0
-#				if = {
-#					limit = {
-#						scope:region = {
-#							or = {
-#								state_is_in_middle_east = yes
-#								state_is_in_central_asia = yes
-#								state_is_in_india = yes
-#							}
-#						}
-#					}
-#					add = 1
-#				}			
-			}
-			path = "gfx/state_pictures/urban_arabic.dds"
-		}
-		{
-			weight = {
-				value = 0
-#				if = {
-#					limit = {
-#						scope:region = {
-#							or = {
-#								state_is_in_east_asia = yes
-#								state_is_in_southeast_asia = yes
-#							}
-#						}
-#					}
-#					add = 1
-#				}
-			}
-			path = "gfx/state_pictures/urban_asian.dds"
-		}
-		{
-			weight = {
-				value = 0
-#				if = {
-#					limit = {
-#						scope:region = {
-#							is_subtropic_farmland = yes
-#						}
-#					}
-#					add = 1
-#				}
-			}
-			path = "gfx/state_pictures/urban_latin_american.dds"
-		}
-		{
-			weight = {
-				value = 0
-#				if = {
-#					limit = {
-#						scope:region = {
-#							state_is_in_europe = yes
-#						}
-#					}
-#					add = 1
-#				}
-			}
-			path = "gfx/state_pictures/urban_european.dds"
-		}
 		# fallback
 		{
 			weight = {
 				value = 0
-#				if = {
-#					limit = {
-#						scope:region = {
-#							AND = {
-#								state_is_in_europe = no
-#								is_subtropic_farmland = no
-#								state_is_in_east_asia = no
-#								state_is_in_southeast_asia = no
-#								state_is_in_middle_east = no
-#								state_is_in_central_asia = no
-#								state_is_in_india = no
-#								state_is_in_africa = no
-#							}
-#						}
-#					}
-#					add = 1
-#				}
 			}
 			path = "gfx/state_pictures/urban_european.dds"
 		}

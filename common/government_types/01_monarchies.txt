@@ -1,4 +1,56 @@
-﻿#gov_shogunate = {
+﻿#civ
+gov_kovan = {
+	transfer_of_power = hereditary
+	male_ruler = RULER_TITLE_KOVAN
+	female_ruler = RULER_TITLE_KOVAN_F
+
+	male_heir = RULER_HEIR_KOVAN
+	female_heir = RULER_HEIR_KOVAN_F
+
+	possible = {
+		has_law = law_type:law_monarchy
+		exists = c:KOV
+		c:KOV = ROOT
+		country_tier = hegemony
+		# add kova check
+		
+	}
+}
+
+gov_truidencian = {
+	transfer_of_power = hereditary
+	male_ruler = RULER_TITLE_TRUIDENCIAN
+	female_ruler = RULER_TITLE_TRUIDENCIAN_F
+
+	male_heir = RULER_HEIR_TRUIDENCIAN
+	female_heir = RULER_HEIR_TRUIDENCIAN_F
+
+	possible = {
+		has_law = law_type:law_monarchy
+		exists = c:TRU
+		c:TRU = ROOT
+		# TODO make Bezism be obligatory
+		# add kova check
+	}
+}
+
+gov_pavian = {
+	transfer_of_power = parliamentary_elective
+	new_leader_on_reform_government = yes
+	male_ruler = RULER_TITLE_PAVIAN
+	female_ruler = RULER_TITLE_PAVIAN_F
+
+	male_heir = RULER_HEIR_PAVIAN
+	female_heir = RULER_HEIR_PAVIAN_F
+
+	possible = {
+		has_law = law_type:law_monarchy
+		exists = c:PAV
+		c:PAV = ROOT
+	}
+}
+
+#gov_shogunate = {
 #	transfer_of_power = hereditary
 #	
 #	male_ruler = "RULER_TITLE_SHOGUN"
@@ -133,22 +185,6 @@
 #	}
 #}
 
-gov_kongolese_kingdom = {
-	transfer_of_power = hereditary
-	
-	male_ruler = "RULER_TITLE_MANIKONGO"
-	female_ruler = "RULER_TITLE_QUEEN"
-
-	male_heir = "RULER_TITLE_PRINCE"
-	female_heir = "RULER_TITLE_PRINCESS"
-	
-	possible = {
-		has_law = law_type:law_monarchy
-		exists = c:ULO 
-		c:ULO = ROOT
-	}
-}
-
 #gov_sunanate = {
 #	transfer_of_power = hereditary
 #	
@@ -229,23 +265,19 @@ gov_kongolese_kingdom = {
 #	}			
 #}
 
-gov_prince = {
-	transfer_of_power = hereditary
+# gov_prince = {
+# 	transfer_of_power = hereditary
 	
-	male_ruler = "RULER_TITLE_PRINCE"
-	female_ruler = "" # Empty on purpose
+# 	male_ruler = "RULER_TITLE_PRINCE"
+# 	female_ruler = "" # Empty on purpose
 
-	male_heir = "RULER_TITLE_HEIR_APPARENT"
-	female_heir = "" # Empty on purpose
+# 	male_heir = "RULER_TITLE_HEIR_APPARENT"
+# 	female_heir = "" # Empty on purpose
 	
-	possible = {	
-		has_law = law_type:law_monarchy
-		OR = {
-			AND = { exists = c:SHI c:SHI = ROOT }
-			AND = { exists = c:VOS c:VOS = ROOT }
-		}
-	}		
-}
+# 	possible = {	
+# 		has_law = law_type:law_monarchy
+# 	}		
+# }
 
 #gov_sharif = {
 #	transfer_of_power = hereditary
@@ -278,9 +310,6 @@ gov_kaiser = {
 			country_tier = empire
 		}
 		has_law = law_type:law_monarchy
-		OR = {
-			country_has_primary_culture = cu:belkan
-		}
 	}
 }
 
@@ -315,7 +344,6 @@ gov_hm_gov = {
 	
 	possible = {
 		has_law = law_type:law_monarchy
-		AND = { exists = c:ERU c:ERU = ROOT }
 	}
 }
 

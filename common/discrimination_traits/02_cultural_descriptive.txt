@@ -1,6 +1,15 @@
 ﻿###### EXAMPLE ######
 
-sorvanophone = { #This creates a trait using this name until localisation is provided.
+portuguese = {
+}
+
+norwegian = {
+}
+
+filipino = {
+}
+
+english = {
 }
 
 #####################

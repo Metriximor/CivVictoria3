@@ -1,0 +1,8 @@
+﻿DIPLOMACY = {
+	c:CDM = {
+		create_diplomatic_pact = {
+			country = c:AUR
+			type = trade_agreement
+		}
+	}
+}

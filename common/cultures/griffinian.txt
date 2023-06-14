@@ -1,0 +1,28 @@
+griffinian = { 
+    color = rgb { 39 131 186 } 
+    religion = melonism
+    traits = { ?_heritage lyrean_sea_culture_group english }
+    male_common_first_names={
+
+	}
+	female_common_first_names = {
+
+	}
+	noble_last_names = {
+
+	}
+	common_last_names={
+
+	}
+	male_regal_first_names = {
+		Jack
+		Seekinq
+	}
+	female_regal_first_names = {
+		Trin Trinity
+	}
+    graphics = european
+    ethnicities = {
+        1 = minecrafter
+    }
+}

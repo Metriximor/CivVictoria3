@@ -4,4 +4,15 @@ example_heritage = {
 	heritage = yes
 }
 
+medi_sea_heritage = {
+	heritage = yes
+}
+
+udf_heritage = {
+	heritage = yes
+}
+
+augustan_heritage = {
+	heritage = yes
+}
 #####################

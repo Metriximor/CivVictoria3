@@ -1,0 +1,118 @@
+﻿elawyer = {
+	type = personality
+	
+	character_modifier = {
+		character_popularity_add = -10
+	}
+
+	command_modifier = {}
+
+	country_modifier = {}
+
+	possible = {}
+
+	weight = 1 #TODO increase weight when already dramatic
+
+	replace = {}
+
+	value = 3
+}
+
+dramatic = {
+	type = personality
+	
+	character_modifier = {
+		character_popularity_add = -10
+	}
+
+	command_modifier = {}
+
+	country_modifier = {}
+
+	possible = {}
+
+	weight = 1
+
+	replace = {}
+
+	value = 3
+}
+
+verbose = {
+	type = personality
+	
+	character_modifier = {
+		character_popularity_add = -10
+	}
+
+	command_modifier = {}
+
+	country_modifier = {}
+
+	possible = {}
+
+	weight = 1 #TODO increase weight when already elawyer
+
+	replace = {}
+
+	value = 3
+}
+
+wholesome = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/wholesome.dds"
+
+	character_modifier = {	
+		character_health_add = 0.1
+		character_popularity_add = +10
+	}
+
+	command_modifier = {
+	}
+	
+	country_modifier = {
+		state_loyalists_from_sol_change_mult = 0.1
+		country_improve_relations_speed_mult = 0.1
+	}
+	
+	interest_group_modifier = {
+	}
+	
+	possible = {
+	}
+	
+	weight = 1
+	
+	replace = {																
+	}
+	
+	value = 3
+}
+
+historical = {
+	type = personality
+    texture = "gfx/interface/icons/character_trait_icons/historical.dds"
+	possible = {}
+	value = 0
+}
+
+witty = {
+	type = personality
+	
+	character_modifier = {
+		character_popularity_add = +25
+	}
+
+	command_modifier = {}
+
+	country_modifier = {}
+
+	possible = {}
+
+	weight = 1
+
+	replace = {}
+
+	value = 3
+}
+

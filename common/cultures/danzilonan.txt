@@ -1,0 +1,27 @@
+danzilonan = { 
+    color = { 129 238 183 } 
+    religion = non_religious
+    traits = { danzilonan_heritage medi_sea_culture_group english }
+    male_common_first_names={
+
+	}
+	female_common_first_names = {
+
+	}
+	noble_last_names = {
+
+	}
+	common_last_names={
+
+	}
+	male_regal_first_names = {
+
+	}
+	female_regal_first_names = {
+
+	}
+    graphics = european
+    ethnicities = {
+        1 = minecrafter
+    }
+}

@@ -1,0 +1,74 @@
+﻿#	Example:
+# 
+#	example_effect = {
+#		x = 100
+#		y = 50
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+save_neighbor_with_state = {
+	random_neighbouring_state = {
+		limit = {
+			owner = {
+				$CRITERIA$
+			}
+		}
+		save_scope_as = neighbor_state
+		owner = {
+			save_scope_as = neighbor_country
+		}
+
+		random_neighbouring_state = {
+			limit = {
+				owner = ROOT
+			}
+			save_scope_as = neighbor_neighbor_state
+		}
+	}
+}
+
+warlord_setup_effect = {
+	activate_law = law_type:law_autocracy 
+	activate_law = law_type:law_presidential_republic
+	activate_law = law_type:law_designated_clickers
+		
+	every_scope_character = {
+		random_list = {
+			80 =  {
+			}
+
+			20 = {
+				add_trait = bandit
+			}
+		}			
+	}
+}
+
+scripted_effect_parties_emergence = {
+	if = {
+		limit = {
+			country_has_voting_franchise = no
+		}
+		custom_tooltip = PARTIES_EMERGENCE
+	}
+
+	# Will immediately trigger elections and thus update parties so no need to call update_party_support here
+}
+
+scripted_effect_parties_disappearence = {
+	if = {
+		limit = {
+			country_has_voting_franchise = yes
+		}
+		custom_tooltip = PARTIES_DISAPPEARENCE
+	}
+
+	deactivate_parties = yes
+}

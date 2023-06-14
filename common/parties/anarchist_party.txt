@@ -171,40 +171,12 @@ anarchist_party = {
 				desc = "from_anticlerical"
 			}
 		}
-		if = { # opposition to peasant levies
-			limit = {
-				OR = {
-					has_ideology = ideology_jingoist
-					has_ideology = ideology_particularist
-					has_ideology = ideology_sikh_moralist
-					leader = {
-						OR = {
-							has_ideology = ideology_anarchist
-							has_ideology = ideology_pacifist
-						}
-					}
-				}
-				owner = {
-					has_law = law_type:law_peasant_levies
-				}
-			}
-			add = {
-				value = 3
-				desc = "from_peasant_levies"
-			}
-		}
 		if = { # general anti-slavery
 			limit = {
 				owner = {
 					OR = {
 						has_law = law_type:law_legacy_slavery
 						has_law = law_type:law_slave_trade
-					}
-				}
-				OR = {
-					has_ideology = ideology_anti_slavery
-					leader = {
-						has_ideology = ideology_abolitionist
 					}
 				}
 			}
@@ -220,11 +192,9 @@ anarchist_party = {
 				}
 				OR = {
 					has_ideology = ideology_egalitarian
-					has_ideology = ideology_anti_slavery
 					has_ideology = ideology_laissez_faire
 					has_ideology = ideology_particularist
 					leader = {
-						has_ideology = ideology_abolitionist
 						has_ideology = ideology_social_democrat
 						has_ideology = ideology_communist
 					}

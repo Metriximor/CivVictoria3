@@ -1,8 +1,24 @@
 ﻿building_mine = {
 	building_group = bg_mine
+	city_type = mine
 	texture = "gfx/interface/icons/building_icons/mine.dds"
 	
 	production_method_groups = {
 		pmg_base_mine
+		pmg_buildings_employment
 	}
+	required_construction = construction_cost_medium
+}
+
+building_sand_pit = {
+	texture = "gfx/interface/icons/building_icons/sand_pit.dds"
+	building_group = bg_sand_pit
+	city_type = farm
+	
+	levels_per_mesh = 5
+	production_method_groups = {
+		pmg_base_building_sand_pit
+		pmg_buildings_employment
+	}
+	required_construction = construction_cost_low
 }

@@ -1,7 +1,11 @@
 ﻿###### EXAMPLE ######
 
-region_example_sea = {
-	states = { STATE_EXAMPLE_SEA } # Vanilla just has one state per region for the water strategic regions.
+# region_example_sea = {
+# 	states = { STATE_EXAMPLE_SEA } # Vanilla just has one state per region for the water strategic regions.
+# }
+
+region_medi_sea = {
+	states = { STATE_MEDI_SEA STATE_DREAMLAND_LAKE }
 }
 
 #####################

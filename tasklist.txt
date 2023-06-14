@@ -1,0 +1,13 @@
+look at river in tenseymia
+interest groups have no pops
+add military laws
+add barracks
+add conscripts
+add ports
+fix debug provinces in flatagras and six colonies islands
+make pounds be emeralds
+elaborate buildings doesnt require inputs
+event where random shitter takes over state
+add strategic regions
+add strategic region names
+add military laws

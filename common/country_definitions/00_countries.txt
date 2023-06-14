@@ -196,8 +196,6 @@ MRA = {
 	tier = kingdom
 	cultures = { meracydian gensokyojin thruitt }
 }
-<<<<<<< Updated upstream
-=======
 
 KLE = {
 	capital = MERCADO_STRAIT
@@ -206,4 +204,4 @@ KLE = {
 	tier = principality
 	cultures = { examplish }
 }
->>>>>>> Stashed changes
+

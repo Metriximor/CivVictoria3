@@ -191,7 +191,7 @@
             owned_provinces = { x4DF0D3 x66EAB3 x808CF4 x8AD3CE x8CF5A9 x91F1A1 xA29DC9 xB34272 xB3DF88 xB871D5 xB8DDC4 xBACFCD xC28FC7 xCFB8CE xD88BC8 xDCB3E4 xDDC0EE xE48EE7 xEA16F7 xEA79A8 xEAA1E5 xF2D18F xF572AE xF6BB87 xFBDDFE xFEE27E }
         }
         create_state = {
-            country = c:EXA
+            country = c:KLE
             owned_provinces = { x6CE5D3 x81C8E9 xCB6FF4 xF886B2 }
         }
     }
@@ -201,7 +201,7 @@
             owned_provinces = { x63CFD7 x7CD0F2 x90E4A8 x9BEDC1 xB08EFA xB8F7F6 xC7FB9B }
         }
         create_state = {
-            country = c:EXA
+            country = c:KLE
             owned_provinces = { x5CA9F2 x73ABDC x898BEB x9C9CF0 xADA3F1 xC284B6 xD3CFE9 xD5BBBC xDCE8AB xE5A881 xE6E861 xEF8D80 xF260E2 xF3CD93 }
         }
     }

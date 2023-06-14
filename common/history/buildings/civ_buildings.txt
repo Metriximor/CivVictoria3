@@ -57,6 +57,12 @@
     }
     s:STATE_MUMEITA = {
         region_state:GEN = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
         }
     }
     s:STATE_NUMBERS_LAWN = {
@@ -150,13 +156,13 @@
     s:STATE_BLANCO_STRAIT = {
         region_state:LAM = {
         }
-        region_state:EXA = {
+        region_state:KLE = {
         }
     }
     s:STATE_MERCADO_STRAIT = {
         region_state:LAM = {
         }
-        region_state:EXA = {
+        region_state:KLE = {
         }
     }
     s:STATE_PAMPANG = {

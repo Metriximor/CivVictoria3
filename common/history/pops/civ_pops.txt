@@ -4,11 +4,6 @@
             create_pop = {
                 culture = truidencian
                 size = 192191
-                }
-            create_pop = {
-                culture = thruitt
-                religion = bezism
-                size = 9520
             }
         }
     }
@@ -18,11 +13,6 @@
                 culture = truidencian
                 size = 214248
             }
-            create_pop = {
-                culture = thruitt
-                religion = bezism
-                size = 6500
-            }
         }
     }
     s:STATE_SNOWPEAK = {
@@ -31,23 +21,13 @@
                 culture = truidencian
                 size = 52073
             }
-            create_pop = {
-                culture = thruitt
-                religion = bezism
-                size = 3800
-            }
         }
     }
     s:STATE_FLATAGRAS = {
         region_state:TRU = {
             create_pop = {
                 culture = truidencian
-                size = 180851
-            }
-            create_pop = {
-                culture = thruitt
-                religion = bezism
-                size = 48500
+                size = 200851
             }
         }
     }
@@ -79,11 +59,6 @@
                 culture = thruitt
                 religion = bezism
                 size = 101520
-            }
-            create_pop = {
-                culture = meracydian
-                religion = bezism
-                size = 7994
             }
         }
     }
@@ -130,11 +105,6 @@
             create_pop = {
                 culture = gensokyojin
                 size = 558424
-            }
-            create_pop = {
-                culture = meracydian
-                religion = bezism
-                size = 10000
             }
         }
     }
@@ -297,7 +267,7 @@
                 size = 238218
             }
         }
-        region_state:EXA = {
+        region_state:KLE = {
             create_pop = {
                 culture = examplish
                 size = 238218
@@ -311,7 +281,7 @@
                 size = 164550
             }
         }
-        region_state:EXA = {
+        region_state:KLE = {
             create_pop = {
                 culture = examplish
                 size = 164550

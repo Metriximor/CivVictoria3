@@ -181,5 +181,9 @@
         "STATE_IRIA_16",
         "STATE_IRIA_17",
         "STATE_IRIA_18"
+    ],
+    "KLE": [
+        "MERCADO_STRAIT",
+        "STATE_BLANCO_STRAIT"
     ]
 }

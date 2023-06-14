@@ -196,3 +196,14 @@ MRA = {
 	tier = kingdom
 	cultures = { meracydian gensokyojin thruitt }
 }
+<<<<<<< Updated upstream
+=======
+
+KLE = {
+	capital = MERCADO_STRAIT
+	color = "blue"
+	country_type = recognized
+	tier = principality
+	cultures = { examplish }
+}
+>>>>>>> Stashed changes

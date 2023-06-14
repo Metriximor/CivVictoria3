@@ -295,7 +295,7 @@ PAV_EMPIRE = {
     }
 }
 
-TRA = {
+TRA_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "lusitan_shield_blue"
 	colored_emblem = {
@@ -314,6 +314,61 @@ TRA = {
 	textured_emblem = {
 		texture = "te_coa_transylvania.dds"
 		instance = { position { 0.5 0.5 } scale = { 0.4 0.4 } }
+	}
+}
+
+TRA = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = rgb { 4 110 177 }
+	color2 = rgb { 200 50 50 }
+	colored_emblem = {
+		texture = "ce_shield_vertical_split.dds"
+		color1 = rgb { 4 110 177 }
+		color2 = "black"
+		color3 = rgb { 200 50 50 }
+		instance = { position { 0.5 0.5 } scale = { 0.7 0.7 } }
+	}
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color2 = black
+		color1 = yellow
+		instance = { position { 0.5 0.68 } scale = { 0.15 0.1 } }
+	}
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color2 = black
+		color1 = yellow
+		instance = { position { 0.6 0.53 } scale = { 0.15 0.1 } }
+	}
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color2 = black
+		color1 = yellow
+		instance = { position { 0.4 0.53 } scale = { 0.15 0.1 } }
+	}
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color2 = black
+		color1 = yellow
+		instance = { position { 0.6 0.35 } scale = { 0.15 0.1 } }
+	}
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color2 = black
+		color1 = yellow
+		instance = { position { 0.4 0.35 } scale = { 0.15 0.1 } }
+	}
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color2 = black
+		color1 = yellow
+		instance = { position { 0.5 0.35 } scale = { 0.15 0.1 } }
+	}
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color2 = black
+		color1 = yellow
+		instance = { position { 0.5 0.53 } scale = { 0.15 0.1 } }
 	}
 }
 

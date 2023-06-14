@@ -8,3 +8,11 @@ AUR = {
 	tier = kingdom
 	cultures = { aurellian }
 }
+
+MRA = {
+	capital = STATE_MUMEITA
+	color = rgb { 69 0 104 }
+	country_type = recognized
+	tier = principality
+	cultures = { meracydian gensokyojin thruitt }
+}

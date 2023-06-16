@@ -1260,7 +1260,7 @@
         region_state:ICE = {
             create_pop = {
                 culture = icenian
-                size = 270378
+                size = 238182
             }
         }
     }
@@ -1321,9 +1321,9 @@
         }
     }
     s:STATE_EAST_CANE_CORP = {
-        region_state:ICE = {
+        region_state:PET = {
             create_pop = {
-                culture = icenian
+                culture = examplish
                 size = 128437
             }
         }
@@ -1356,7 +1356,7 @@
         region_state:ICE = {
             create_pop = {
                 culture = icenian
-                size = 52030
+                size = 92806
             }
         }
     }
@@ -1365,6 +1365,126 @@
             create_pop = {
                 culture = icenian
                 size = 151826
+            }
+        }
+    }
+    s:STATE_PETRICHOR_DESERT = {
+        region_state:PET = {
+            create_pop = {
+                culture = examplish
+                size = 83955
+            }
+        }
+    }
+    s:STATE_PETRICHOR_STRIP = {
+        region_state:PET = {
+            create_pop = {
+                culture = examplish
+                size = 69531
+            }
+        }
+    }
+    s:STATE_PETRICHOR_ISLAND = {
+        region_state:PET = {
+            create_pop = {
+                culture = examplish
+                size = 102453
+            }
+        }
+    }
+    s:STATE_PETRICHOR_CITY = {
+        region_state:PET = {
+            create_pop = {
+                culture = examplish
+                size = 213837
+            }
+        }
+    }
+    s:STATE_PETRICHOR_PLAINS = {
+        region_state:PET = {
+            create_pop = {
+                culture = examplish
+                size = 367862
+            }
+        }
+    }
+    s:STATE_PETRICHOR_RIVER_DESERT = {
+        region_state:PET = {
+            create_pop = {
+                culture = examplish
+                size = 67501
+            }
+        }
+    }
+    s:STATE_PETRICHOR_SHORE = {
+        region_state:PET = {
+            create_pop = {
+                culture = examplish
+                size = 325539
+            }
+        }
+    }
+    s:STATE_PETRICHOR_EXCLAVE_ICE = {
+        region_state:PET = {
+            create_pop = {
+                culture = examplish
+                size = 65059
+            }
+        }
+    }
+    s:STATE_PETRICHOR_EXCLAVE = {
+        region_state:PET = {
+            create_pop = {
+                culture = examplish
+                size = 241526
+            }
+        }
+    }
+    s:STATE_BLOOM = {
+        region_state:BLO = {
+            create_pop = {
+                culture = examplish
+                size = 589723
+            }
+        }
+    }
+    s:STATE_BLOOM_ISLANDS = {
+        region_state:BLO = {
+            create_pop = {
+                culture = examplish
+                size = 60074
+            }
+        }
+    }
+    s:STATE_SOUTHSHIRE_WOODS = {
+        region_state:SOU = {
+            create_pop = {
+                culture = examplish
+                size = 305801
+            }
+        }
+    }
+    s:STATE_SOUTHSHIRE_EAST_PLAINS = {
+        region_state:SOU = {
+            create_pop = {
+                culture = examplish
+                size = 227619
+            }
+        }
+    }
+    s:STATE_SOUTHSHIRE_WEST_PLAINS = {
+        region_state:SOU = {
+            create_pop = {
+                culture = examplish
+                size = 551834
+            }
+        }
+    }
+    s:STATE_SOUTHSHIRE = {
+        region_state:SOU = {
+            create_pop = {
+                culture = examplish
+                size = 505372
             }
         }
     }

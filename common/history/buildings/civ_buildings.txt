@@ -790,7 +790,7 @@
         }
     }
     s:STATE_EAST_CANE_CORP = {
-        region_state:ICE = {
+        region_state:PET = {
         }
     }
     s:STATE_ICENIA_INTERIOR_EAST = {
@@ -811,6 +811,78 @@
     }
     s:STATE_ICENIA_INNER_PLAINS = {
         region_state:ICE = {
+        }
+    }
+    s:STATE_PETRICHOR_DESERT = {
+        region_state:PET = {
+        }
+    }
+    s:STATE_PETRICHOR_STRIP = {
+        region_state:PET = {
+        }
+    }
+    s:STATE_PETRICHOR_ISLAND = {
+        region_state:PET = {
+        }
+    }
+    s:STATE_PETRICHOR_CITY = {
+        region_state:PET = {
+        }
+    }
+    s:STATE_PETRICHOR_PLAINS = {
+        region_state:PET = {
+        }
+    }
+    s:STATE_PETRICHOR_RIVER_DESERT = {
+        region_state:PET = {
+        }
+    }
+    s:STATE_PETRICHOR_SHORE = {
+        region_state:PET = {
+        }
+    }
+    s:STATE_PETRICHOR_EXCLAVE_ICE = {
+        region_state:PET = {
+        }
+    }
+    s:STATE_PETRICHOR_EXCLAVE = {
+        region_state:PET = {
+        }
+    }
+    s:STATE_BLOOM = {
+        region_state:BLO = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_BLOOM_ISLANDS = {
+        region_state:BLO = {
+        }
+    }
+    s:STATE_SOUTHSHIRE_WOODS = {
+        region_state:SOU = {
+        }
+    }
+    s:STATE_SOUTHSHIRE_EAST_PLAINS = {
+        region_state:SOU = {
+        }
+    }
+    s:STATE_SOUTHSHIRE_WEST_PLAINS = {
+        region_state:SOU = {
+        }
+    }
+    s:STATE_SOUTHSHIRE = {
+        region_state:SOU = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
         }
     }
 }

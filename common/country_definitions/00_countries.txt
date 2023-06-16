@@ -213,3 +213,27 @@ ICE = {
 	cultures = { icenian }
 }
 
+PET = {
+	capital = STATE_ICENIA_CITY
+	color = rgb { 212 89 89 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { examplish }
+}
+
+BLO = {
+	capital = STATE_BLOOM
+	color = rgb { 175 130 209 }
+	country_type = recognized
+	tier = principality
+	cultures = { examplish }
+}
+
+SOU = {
+	capital = STATE_SOUTHSHIRE
+	color = rgb { 71 210 113 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { examplish }
+}
+

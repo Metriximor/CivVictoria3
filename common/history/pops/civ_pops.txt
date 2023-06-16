@@ -1176,5 +1176,197 @@
             }
         }
     }
+    s:STATE_ICENIA_CITY = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 188375
+            }
+        }
+    }
+    s:STATE_ICENIA_INTERIOR = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 270451
+            }
+        }
+    }
+    s:STATE_ICENIA_DESERT = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 61626
+            }
+        }
+    }
+    s:STATE_ICENIA_RED_DESERT = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 153727
+            }
+        }
+    }
+    s:STATE_ICENIA_HIGHLANDS = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 301100
+            }
+        }
+    }
+    s:STATE_ICENIA_FARM_ISLAND = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 184389
+            }
+        }
+    }
+    s:STATE_ICENIA_SHORE_PLAINS = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 353219
+            }
+        }
+    }
+    s:STATE_ICENIA_PRESIDENTS_PALACE = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 34724
+            }
+        }
+    }
+    s:STATE_ICENIA_RIVER_DESERT = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 35374
+            }
+        }
+    }
+    s:STATE_ICENIA_FARMLAND = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 291938
+            }
+        }
+    }
+    s:STATE_ICENIA_NORTH_FOREST = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 270378
+            }
+        }
+    }
+    s:STATE_ICENIA_WEST_PLAINS = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 209913
+            }
+        }
+    }
+    s:STATE_ICENIA_SOUTH_INTERIOR = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 233832
+            }
+        }
+    }
+    s:STATE_ICENIA_BORDERZONE = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 91893
+            }
+        }
+    }
+    s:STATE_ICENIA_CITY_OUTSKIRTS = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 280435
+            }
+        }
+    }
+    s:STATE_ICENIA_BUTTERNUT_PORT = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 39452
+            }
+        }
+    }
+    s:STATE_ICENIA_TORTUGA = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 351201
+            }
+        }
+    }
+    s:STATE_WEST_CANE_CORP = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 119675
+            }
+        }
+    }
+    s:STATE_EAST_CANE_CORP = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 128437
+            }
+        }
+    }
+    s:STATE_ICENIA_INTERIOR_EAST = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 121470
+            }
+        }
+    }
+    s:STATE_ICENIA_UPPER_HIGHLANDS = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 174581
+            }
+        }
+    }
+    s:STATE_ICENIA_UPPER_INTERIOR = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 79590
+            }
+        }
+    }
+    s:STATE_ICENIA_NORTH_SETTLEMENT = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 52030
+            }
+        }
+    }
+    s:STATE_ICENIA_INNER_PLAINS = {
+        region_state:ICE = {
+            create_pop = {
+                culture = icenian
+                size = 151826
+            }
+        }
+    }
 }
 

@@ -1902,16 +1902,6 @@ STATE_ICENIA_UPPER_INTERIOR = {
 }
 
 
-STATE_ICENIA_EXTRA = {
-    id = 166
-    provinces = {
-    }
-    capped_resources = {
-        bg_sand_pit = 5
-    }
-}
-
-
 STATE_ICENIA_NORTH_SETTLEMENT = {
     id = 167
     provinces = { x59B4F2 x7DCFD7 xD5F7D9 xDAA69D xE6A6BF xF66F97 }

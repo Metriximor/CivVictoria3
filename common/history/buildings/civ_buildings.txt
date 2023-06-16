@@ -161,8 +161,20 @@
     }
     s:STATE_MERCADO_STRAIT = {
         region_state:LAM = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
         }
         region_state:KLE = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
         }
     }
     s:STATE_PAMPANG = {
@@ -697,6 +709,108 @@
     }
     s:STATE_IRIA_18 = {
         region_state:IRI = {
+        }
+    }
+    s:STATE_ICENIA_CITY = {
+        region_state:ICE = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_ICENIA_INTERIOR = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_DESERT = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_RED_DESERT = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_HIGHLANDS = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_FARM_ISLAND = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_SHORE_PLAINS = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_PRESIDENTS_PALACE = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_RIVER_DESERT = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_FARMLAND = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_NORTH_FOREST = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_WEST_PLAINS = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_SOUTH_INTERIOR = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_BORDERZONE = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_CITY_OUTSKIRTS = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_BUTTERNUT_PORT = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_TORTUGA = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_WEST_CANE_CORP = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_EAST_CANE_CORP = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_INTERIOR_EAST = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_UPPER_HIGHLANDS = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_UPPER_INTERIOR = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_NORTH_SETTLEMENT = {
+        region_state:ICE = {
+        }
+    }
+    s:STATE_ICENIA_INNER_PLAINS = {
+        region_state:ICE = {
         }
     }
 }

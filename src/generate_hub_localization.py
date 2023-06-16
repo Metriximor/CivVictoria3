@@ -60,7 +60,11 @@ def main():
                 is_plural = ""
             hub_names[state][hub_type] = f"{state_localization[state]}{is_plural}{suffix}"
     if unnamed_states:
-        raise KeyError(f"States dont have localization in localization/english/civ_states_l_english.yml: {unnamed_states}")
+        unnamed_states_loc = ""
+        for unnamed_state in unnamed_states:
+            fancy_name = unnamed_state.replace('_', ' ')
+            unnamed_states_loc += f'  {unnamed_state}:0 "{fancy_name}"\n'
+        raise KeyError(f"States dont have localization in localization/english/civ_states_l_english.yml: \n{unnamed_states_loc}")
 
     # Convert hub_names to output yaml
     output = {}

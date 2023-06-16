@@ -14,9 +14,10 @@ folders_to_not_copy: list[Path] = [
     Path("gfx/editor_terrain"),
     Path("content_source"),
     Path("release"),
+    Path("docs"),
 ]
 disallowed_extensions = [".spec", ".lnk", ".psd", ".pdn", ".gitignore", ".dvc"]
-disallowed_files = ["tasklist.txt"]
+disallowed_files = ["tasklist.txt", "docs.md"]
 folders_to_keep_pngs: list[Path] = [Path("gfx/map/terrain"), Path("map_data")]
 
 files_to_package = []
@@ -32,9 +33,9 @@ def compress_files_to_zip(file_list: list[str], zip_file_name: str) -> None:
         for file_path in file_list:
             zipf.write(file_path)
             files_processed += 1
-            print(f'Progress: {files_processed}/{total_files} files compressed.')
-    
-        print('Compression completed.')
+            print(f"Progress: {files_processed}/{total_files} files compressed.")
+
+        print("Compression completed.")
 
 
 def copy_files_to_release_folder(file_paths: list[str], release_folder: str) -> None:

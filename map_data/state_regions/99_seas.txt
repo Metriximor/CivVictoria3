@@ -66,7 +66,7 @@ STATE_DREAMLAND_LAKE = {
 
 STATE_ERIE_LAKE = {
     id = 3015
-    provinces = { x1F010B }
+    provinces = { x1F010B x29002C }
     impassable = { x1F010B }
 }
 

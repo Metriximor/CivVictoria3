@@ -859,5 +859,11 @@
             owned_provinces = { x30F7D6 x37E5F3 x63A9F3 x7FF6E0 x83D3FC x8FF5A7 x9FB5B5 xA666EC xCCF9A7 xD8E0DF xE8FEA7 }
         }
     }
+    s:STATE_ICENIA_CITY = {
+        create_state = {
+            country = c:ICE
+            owned_provinces = { x49DDE7 x5BEAB3 x5FD8F3 x64E5F8 x6BB4E6 x81E4FD x908BDA x93F0C2 xA5F0B9 xA97BDE xABE7BF xACDD92 xAFA8FB xB9EE83 xC6E8F8 xCEBAA4 xE1D9BE xE3F4FE xF183DD xF291C0 xF828E4 xFCF0D1 xFEF6F5 }
+        }
+    }
 }
 

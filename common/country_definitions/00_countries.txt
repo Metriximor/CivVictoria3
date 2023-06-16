@@ -198,10 +198,18 @@ MRA = {
 }
 
 KLE = {
-	capital = MERCADO_STRAIT
+	capital = STATE_MERCADO_STRAIT
 	color = "blue"
 	country_type = recognized
 	tier = principality
 	cultures = { examplish }
+}
+
+ICE = {
+	capital = STATE_ICENIA_CITY
+	color = rgb { 102 178 255 }
+	country_type = recognized
+	tier = empire
+	cultures = { icenian }
 }
 

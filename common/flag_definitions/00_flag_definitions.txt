@@ -69,7 +69,7 @@ DAN = { # Danzilona
 		allow_overlord_canton = yes
 		coa_with_overlord_canton = DAN_subject
 		overlord_canton_scale = { 0.337 0.337 }
-		priority = 1
+		priority = 20
 	}
 		flag_definition = {
 		coa = DAN_VANGUARD
@@ -77,10 +77,20 @@ DAN = { # Danzilona
 		allow_overlord_canton = yes
 		coa_with_overlord_canton = DAN_subject
 		overlord_canton_scale = { 0.337 0.337 }
-		priority = 20
+		priority = 1
 		trigger = {
 			coa_def_vanguard_state_flag_trigger = yes 
 		}
+	}
+}
+TRU = { # Gensokyo
+	flag_definition = {
+		coa = TRU
+		subject_canton = TRU
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = TRU
+		overlord_canton_scale = { 0.337 0.337 }
+		priority = 1
 	}
 }
 GEN = { # Gensokyo
@@ -89,8 +99,7 @@ GEN = { # Gensokyo
 		subject_canton = GEN
 		allow_overlord_canton = yes
 		coa_with_overlord_canton = GEN_TRUIDENCIA
-		overlord_canton_scale = { 0.337 0.337 }
+		overlord_canton_scale = { 0.5 0.5 }
 		priority = 1
+		}
 	}
-
-}

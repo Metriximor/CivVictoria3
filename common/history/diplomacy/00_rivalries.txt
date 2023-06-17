@@ -1,0 +1,27 @@
+DIPLOMACY = {
+	c:EST = {
+		create_diplomatic_pact = {
+			country = c:YOA
+			type = rivalry
+		}
+	}		
+
+	c:KAL = {
+		create_diplomatic_pact = {
+			country = c:ICE
+			type = rivalry
+		}
+	}
+	c:ICE = {
+		create_diplomatic_pact = {
+			country = c:KAL
+			type = rivalry
+		}
+	}
+	c:YOA = {
+		create_diplomatic_pact = {
+			country = c:EST
+			type = rivalry
+		}
+	}
+}

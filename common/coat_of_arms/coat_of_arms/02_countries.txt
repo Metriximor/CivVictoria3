@@ -129,27 +129,6 @@ WOL = {
 GEN_TRUIDENCIA = {
 pattern = "pattern_solid.tga"
     color1 = green
-        colored_emblem = {
-        texture = "ce_canton.dds"
-        color1 = "full_white"
-        instance = { position = { 0.5 0.5 } scale = { 1 1 } }
-        }
-        colored_emblem = {
-        texture = "ce_stripe_center.dds"
-        color1 = "truidencian_yellow"
-        instance = { position = { 0.25 0.25 } scale = { 0.5 0.9 } }
-        }
-        colored_emblem = {
-        texture = "ce_stripe_center.dds"
-        color1 = "truidencian_red"
-        instance = { position = { 0.25 0.25 } scale = { 0.5 0.35 } }
-        }
-    colored_emblem = {
-        texture = "ce_shield_round_per_pale.dds"
-        color2 = "full_white"
-        color1 = "gensokyojin_red"
-        instance = { position = { 0.7 0.5 } scale = { 0.7 0.55 } }
-    }
     colored_emblem = {
         texture = "ce_gensokyo.dds"
         color2 = "full_white"

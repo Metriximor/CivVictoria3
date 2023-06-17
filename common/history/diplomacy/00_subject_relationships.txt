@@ -1,0 +1,16 @@
+DIPLOMACY = {
+	c:ICE = {
+		create_diplomatic_pact = {
+			country = c:PET
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:BLO
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SOU
+			type = dominion
+		}	
+	}
+}

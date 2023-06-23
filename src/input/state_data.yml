@@ -1,20 +1,57 @@
 STATE_NIDAROS:
   naval_exit_id: STATE_MEDI_SEA
+  pops:
+  - culture: thruitt
+    religion: bezism
+    ratio: 2
+  - culture: truidencian
+    religion: bezism
+    ratio: 8
   population: 192191
 STATE_HYLDOR:
   naval_exit_id: STATE_MEDI_SEA
+  pops:
+  - culture: thruitt
+    religion: bezism
+    ratio: 1
+  - culture: truidencian
+    religion: bezism
+    ratio: 9
   population: 214248
 STATE_FLATAGRAS:
   naval_exit_id: STATE_MEDI_SEA
+  pops:
+  - culture: thruitt
+    religion: bezism
+    ratio: 3
+  - culture: truidencian
+    religion: bezism
+    ratio: 7
   population: 200851
 STATE_SIX_COLONIES:
   naval_exit_id: STATE_MEDI_SEA
   population: 145487
 STATE_OUTER_NIDAROS:
   naval_exit_id: STATE_MEDI_SEA
+  pops:
+  - culture: thruitt
+    religion: bezism
+    ratio: 1
+  - culture: truidencian
+    religion: bezism
+    ratio: 9
   population: 114638
 STATE_NUMBERS_LAWN:
   naval_exit_id: STATE_MEDI_SEA
+  pops:
+  - culture: thruitt
+    religion: bezism
+    ratio: 1
+  - culture: truidencian
+    religion: bezism
+    ratio: 1
+  - culture: gensokyojin
+    ratio: 8
   population: 275437
 STATE_CIV_PROVENCE:
   naval_exit_id: STATE_MEDI_SEA
@@ -102,15 +139,15 @@ STATE_SORLAND:
   - culture: gensokyojin
     religion: bezism
     ratio: 1
-  population: 479943
+  population: 192306
 STATE_MORINOYARI:
   pops:
   - culture: thruitt
     religion: bezism
-    ratio: 1
+    ratio: 3
   - culture: gensokyojin
     religion: bezism
-    ratio: 9
+    ratio: 7
   homelands:
   - thruittans
   population: 124396
@@ -131,9 +168,9 @@ STATE_SNOWPEAK:
 STATE_TENSEIMIYA:
   population: 288371
 STATE_DAISHIREIBOU:
-  population: 547718
+  population: 553462
 STATE_MUMEITA:
-  population: 558424
+  population: 552680
 STATE_YAMATO_KEN:
   population: 171968
 STATE_DREAMLAND:
@@ -224,7 +261,7 @@ STATE_MOUNT_AUGUSTA:
   - culture: augustan
     ratio: 7
   - culture: septembrian
-    ratio: 2
+    ratio: 3
 STATE_SOUTH_MOUNT_AUGUSTA:
   population: 236345
   pops:
@@ -241,7 +278,7 @@ STATE_EAST_MOUNT_AUGUSTA:
   - culture: augustan
     ratio: 7
   - culture: septembrian
-    ratio: 2
+    ratio: 3
 STATE_EXCLAVE_MOUNT_AUGUSTA:
   naval_exit_id: STATE_STONY_SEA
   population: 356504
@@ -286,7 +323,7 @@ STATE_NORTH_NARA:
 STATE_CENTRAL_NARA:
   population: 524045
 STATE_SOUTH_NARA:
-  population: 525479
+  population: 360830
 STATE_QBARRA:
   population: 253002
 STATE_ICE_SHELF:
@@ -473,3 +510,25 @@ STATE_EXILUS_SOUTH_JUNGLE:
   population: 119713
 STATE_EXILUS_ROOVED_FOREST_2:
   population: 126504
+STATE_TERRA_ROOVED_FOREST:
+  population: 176798
+STATE_TERRA_JUNGLE:
+  population: 143239
+STATE_TERRA_NORTH_PLAINS:
+  population: 372805
+STATE_TERRA_SOUTH_PLAINS:
+  population: 194510
+STATE_EAST_AMBOISE:
+  population: 187794
+STATE_MIDDLE_AMBOISE:
+  population: 224544
+STATE_WEST_AMBOISE:
+  population: 180622
+STATE_MA_WALO:
+  population: 164649
+STATE_WEST_THRUITTANIA:
+  pops:
+  - culture: thruitt
+    religion: bezism
+    ratio: 1
+  population: 287637

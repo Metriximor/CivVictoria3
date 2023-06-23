@@ -245,3 +245,18 @@ EXI = {
 	cultures = { examplish }
 } 
 
+AMB = {
+	capital = STATE_MIDDLE_AMBOISE
+	color = rgb { 175 130 209 }
+	country_type = recognized
+	tier = principality
+	cultures = { griffinian }
+}
+
+TER = {
+	capital = STATE_TERRA_NORTH_PLAINS
+	color = rgb { 175 130 209 }
+	country_type = recognized
+	tier = principality
+	cultures = { examplish }
+}

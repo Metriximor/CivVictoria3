@@ -21,6 +21,7 @@
         "STATE_SORLAND",
         "STATE_SIX_COLONIES",
         "STATE_OUTLAND",
+        "STATE_WEST_THRUITTANIA",
         "STATE_OUTER_NIDAROS"
     ],
     "GEN": [
@@ -129,6 +130,7 @@
         "STATE_NORTH_NARA",
         "STATE_CENTRAL_NARA",
         "STATE_SOUTH_NARA",
+        "STATE_MA_WALO",
         "STATE_QBARRA"
     ],
     "CDM": [
@@ -242,5 +244,16 @@
 	"STATE_EXILUS_HILLS",
 	"STATE_EXILUS_SOUTH_JUNGLE",
 	"STATE_EXILUS_ROOVED_FOREST_2"
+    ],
+    "AMB": [
+        "STATE_EAST_AMBOISE",
+        "STATE_MIDDLE_AMBOISE",
+	"STATE_WEST_AMBOISE"
+    ],
+    "TER": [
+        "STATE_TERRA_NORTH_PLAINS",
+        "STATE_TERRA_SOUTH_PLAINS",
+	"STATE_TERRA_JUNGLE",
+	"STATE_TERRA_ROOVED_FOREST"
     ]
 }

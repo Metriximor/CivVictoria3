@@ -923,5 +923,53 @@
         region_state:EXI = {
         }
     }
+    s:STATE_TERRA_ROOVED_FOREST = {
+        region_state:TER = {
+        }
+    }
+    s:STATE_TERRA_JUNGLE = {
+        region_state:TER = {
+        }
+    }
+    s:STATE_TERRA_NORTH_PLAINS = {
+        region_state:TER = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_TERRA_SOUTH_PLAINS = {
+        region_state:TER = {
+        }
+    }
+    s:STATE_EAST_AMBOISE = {
+        region_state:AMB = {
+        }
+    }
+    s:STATE_MIDDLE_AMBOISE = {
+        region_state:AMB = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_WEST_AMBOISE = {
+        region_state:AMB = {
+        }
+    }
+    s:STATE_MA_WALO = {
+        region_state:NAR = {
+        }
+    }
+    s:STATE_WEST_THRUITTANIA = {
+        region_state:TRU = {
+        }
+    }
 }
 

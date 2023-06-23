@@ -1,0 +1,27 @@
+gangshian = { 
+    color = "black" 
+    religion = non_religious
+    traits = { idk_heritage idk_culture_group english }
+    male_common_first_names={
+
+	}
+	female_common_first_names = {
+
+	}
+	noble_last_names = {
+
+	}
+	common_last_names={
+
+	}
+	male_regal_first_names = {
+
+	}
+	female_regal_first_names = {
+
+	}
+    graphics = asian
+    ethnicities = {
+        1 = minecrafter
+    }
+}

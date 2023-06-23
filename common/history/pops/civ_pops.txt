@@ -2,16 +2,28 @@
     s:STATE_NIDAROS = {
         region_state:TRU = {
             create_pop = {
+                culture = thruitt
+                religion = bezism
+                size = 38438
+            }
+            create_pop = {
                 culture = truidencian
-                size = 192191
+                religion = bezism
+                size = 153752
             }
         }
     }
     s:STATE_HYLDOR = {
         region_state:TRU = {
             create_pop = {
+                culture = thruitt
+                religion = bezism
+                size = 21424
+            }
+            create_pop = {
                 culture = truidencian
-                size = 214248
+                religion = bezism
+                size = 192823
             }
         }
     }
@@ -26,8 +38,14 @@
     s:STATE_FLATAGRAS = {
         region_state:TRU = {
             create_pop = {
+                culture = thruitt
+                religion = bezism
+                size = 60255
+            }
+            create_pop = {
                 culture = truidencian
-                size = 200851
+                religion = bezism
+                size = 140595
             }
         }
     }
@@ -36,12 +54,12 @@
             create_pop = {
                 culture = thruitt
                 religion = bezism
-                size = 431948
+                size = 173075
             }
             create_pop = {
                 culture = gensokyojin
                 religion = bezism
-                size = 47994
+                size = 19230
             }
         }
     }
@@ -65,8 +83,14 @@
     s:STATE_OUTER_NIDAROS = {
         region_state:TRU = {
             create_pop = {
+                culture = thruitt
+                religion = bezism
+                size = 11463
+            }
+            create_pop = {
                 culture = truidencian
-                size = 114638
+                religion = bezism
+                size = 103174
             }
         }
     }
@@ -83,12 +107,12 @@
             create_pop = {
                 culture = thruitt
                 religion = bezism
-                size = 12439
+                size = 37318
             }
             create_pop = {
                 culture = gensokyojin
                 religion = bezism
-                size = 111956
+                size = 87077
             }
         }
     }
@@ -96,7 +120,7 @@
         region_state:GEN = {
             create_pop = {
                 culture = gensokyojin
-                size = 547718
+                size = 553462
             }
         }
     }
@@ -104,15 +128,25 @@
         region_state:GEN = {
             create_pop = {
                 culture = gensokyojin
-                size = 558424
+                size = 552680
             }
         }
     }
     s:STATE_NUMBERS_LAWN = {
         region_state:GEN = {
             create_pop = {
+                culture = thruitt
+                religion = bezism
+                size = 27543
+            }
+            create_pop = {
+                culture = truidencian
+                religion = bezism
+                size = 27543
+            }
+            create_pop = {
                 culture = gensokyojin
-                size = 275437
+                size = 220349
             }
         }
     }
@@ -632,11 +666,11 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 534825
+                size = 481343
             }
             create_pop = {
                 culture = septembrian
-                size = 152807
+                size = 206289
             }
         }
     }
@@ -664,11 +698,11 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 341718
+                size = 307546
             }
             create_pop = {
                 culture = septembrian
-                size = 97633
+                size = 131805
             }
         }
     }
@@ -812,7 +846,7 @@
         region_state:NAR = {
             create_pop = {
                 culture = naran
-                size = 525479
+                size = 360830
             }
         }
     }
@@ -1549,6 +1583,79 @@
             create_pop = {
                 culture = examplish
                 size = 126504
+            }
+        }
+    }
+    s:STATE_TERRA_ROOVED_FOREST = {
+        region_state:TER = {
+            create_pop = {
+                culture = examplish
+                size = 176798
+            }
+        }
+    }
+    s:STATE_TERRA_JUNGLE = {
+        region_state:TER = {
+            create_pop = {
+                culture = examplish
+                size = 143239
+            }
+        }
+    }
+    s:STATE_TERRA_NORTH_PLAINS = {
+        region_state:TER = {
+            create_pop = {
+                culture = examplish
+                size = 372805
+            }
+        }
+    }
+    s:STATE_TERRA_SOUTH_PLAINS = {
+        region_state:TER = {
+            create_pop = {
+                culture = examplish
+                size = 194510
+            }
+        }
+    }
+    s:STATE_EAST_AMBOISE = {
+        region_state:AMB = {
+            create_pop = {
+                culture = griffinian
+                size = 187794
+            }
+        }
+    }
+    s:STATE_MIDDLE_AMBOISE = {
+        region_state:AMB = {
+            create_pop = {
+                culture = griffinian
+                size = 224544
+            }
+        }
+    }
+    s:STATE_WEST_AMBOISE = {
+        region_state:AMB = {
+            create_pop = {
+                culture = griffinian
+                size = 180622
+            }
+        }
+    }
+    s:STATE_MA_WALO = {
+        region_state:NAR = {
+            create_pop = {
+                culture = naran
+                size = 164649
+            }
+        }
+    }
+    s:STATE_WEST_THRUITTANIA = {
+        region_state:TRU = {
+            create_pop = {
+                culture = thruitt
+                religion = bezism
+                size = 287637
             }
         }
     }

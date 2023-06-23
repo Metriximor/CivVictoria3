@@ -300,7 +300,7 @@
         region_state:LAM = {
             create_pop = {
                 culture = lambatan
-                size = 397473
+                size = 398423
             }
         }
     }
@@ -1485,6 +1485,70 @@
             create_pop = {
                 culture = examplish
                 size = 505372
+            }
+        }
+    }
+    s:STATE_EXILUS_ISLAND = {
+        region_state:EXI = {
+            create_pop = {
+                culture = examplish
+                size = 39235
+            }
+        }
+    }
+    s:STATE_EXILUS_ROOVED_FOREST_1 = {
+        region_state:EXI = {
+            create_pop = {
+                culture = examplish
+                size = 157436
+            }
+        }
+    }
+    s:STATE_EXILUS_PLAINS = {
+        region_state:EXI = {
+            create_pop = {
+                culture = examplish
+                size = 298421
+            }
+        }
+    }
+    s:STATE_EXILUS_MOUNTAIN_1 = {
+        region_state:EXI = {
+            create_pop = {
+                culture = examplish
+                size = 136817
+            }
+        }
+    }
+    s:STATE_EXILUS_EAST_FOREST = {
+        region_state:EXI = {
+            create_pop = {
+                culture = examplish
+                size = 190218
+            }
+        }
+    }
+    s:STATE_EXILUS_HILLS = {
+        region_state:EXI = {
+            create_pop = {
+                culture = examplish
+                size = 163333
+            }
+        }
+    }
+    s:STATE_EXILUS_SOUTH_JUNGLE = {
+        region_state:EXI = {
+            create_pop = {
+                culture = examplish
+                size = 119713
+            }
+        }
+    }
+    s:STATE_EXILUS_ROOVED_FOREST_2 = {
+        region_state:EXI = {
+            create_pop = {
+                culture = examplish
+                size = 126504
             }
         }
     }

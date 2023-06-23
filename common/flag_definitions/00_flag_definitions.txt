@@ -83,12 +83,12 @@ DAN = { # Danzilona
 		}
 	}
 }
-TRU = { # Gensokyo
+TRU = { # Truidencia
 	flag_definition = {
 		coa = TRU
-		subject_canton = TRU
+		subject_canton = TRU_CIVIL
 		allow_overlord_canton = yes
-		coa_with_overlord_canton = TRU
+		coa_with_overlord_canton = TRU_CIVIL
 		overlord_canton_scale = { 0.337 0.337 }
 		priority = 1
 	}
@@ -99,6 +99,26 @@ GEN = { # Gensokyo
 		subject_canton = GEN
 		allow_overlord_canton = yes
 		coa_with_overlord_canton = GEN_TRUIDENCIA
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 1
+		}
+	}
+YOA = { # Yoahtl
+	flag_definition = {
+		coa = YOA
+		subject_canton = YOA
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = YOA
+		overlord_canton_scale = { 0.337 0.337 }
+		priority = 1
+	}
+}
+EXI = { # Exilus
+	flag_definition = {
+		coa = EXI
+		subject_canton = EXI
+		allow_overlord_canton = NO
+		coa_with_overlord_canton = EXI
 		overlord_canton_scale = { 0.5 0.5 }
 		priority = 1
 		}

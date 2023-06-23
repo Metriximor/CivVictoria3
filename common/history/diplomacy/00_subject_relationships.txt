@@ -13,4 +13,10 @@ DIPLOMACY = {
 			type = dominion
 		}	
 	}
+	c:YOA = {
+		create_diplomatic_pact = {
+			country = c:EXI
+			type = puppet
+		}
+	}
 }

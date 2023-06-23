@@ -885,5 +885,43 @@
             }
         }
     }
+    s:STATE_EXILUS_ISLAND = {
+        region_state:EXI = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_EXILUS_ROOVED_FOREST_1 = {
+        region_state:EXI = {
+        }
+    }
+    s:STATE_EXILUS_PLAINS = {
+        region_state:EXI = {
+        }
+    }
+    s:STATE_EXILUS_MOUNTAIN_1 = {
+        region_state:EXI = {
+        }
+    }
+    s:STATE_EXILUS_EAST_FOREST = {
+        region_state:EXI = {
+        }
+    }
+    s:STATE_EXILUS_HILLS = {
+        region_state:EXI = {
+        }
+    }
+    s:STATE_EXILUS_SOUTH_JUNGLE = {
+        region_state:EXI = {
+        }
+    }
+    s:STATE_EXILUS_ROOVED_FOREST_2 = {
+        region_state:EXI = {
+        }
+    }
 }
 

@@ -233,7 +233,15 @@ SOU = {
 	capital = STATE_SOUTHSHIRE
 	color = rgb { 71 210 113 }
 	country_type = recognized
-	tier = kingdom
+	tier = principality
 	cultures = { examplish }
 }
+
+EXI = {
+	capital = STATE_EXILUS_ISLAND
+	color = rgb { 198 69 135 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { examplish }
+} 
 

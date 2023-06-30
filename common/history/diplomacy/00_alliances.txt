@@ -5,4 +5,10 @@
 			type = alliance
 		}
 	}
+	c:NAR = {
+		create_diplomatic_pact = {
+			country = c:DAL
+			type = alliance
+		}
+	}
 }

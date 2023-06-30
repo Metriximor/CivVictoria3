@@ -208,5 +208,5 @@
 # WAR_ADJ: "Warmian"
 # CCT: "CCTT"
 # CCT_ADJ: "CCTT"
-#  DLG:0 "Dalgon"
-#  DLG_ADJ:0 "$dalgonese$"
+DAL:0 "Dalgon"
+DAL_ADJ:0 "$dalgonese$"

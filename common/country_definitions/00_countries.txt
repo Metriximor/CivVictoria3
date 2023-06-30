@@ -69,7 +69,7 @@ KOV = {
 	color = "lusitan_shield_blue"
 	country_type = recognized
 	tier = hegemony
-	cultures = { thruitt truidencian gensokyojin }
+	cultures = { thruitt truidencian gensokyojin meracydian }
 	capital = STATE_NIDAROS
 }
 
@@ -178,7 +178,7 @@ MED = {
 	color = "lusitan_shield_blue"
 	country_type = recognized
 	tier = hegemony
-	cultures = { lusitan thruitt truidencian gensokyojin danzilonan irian }
+	cultures = { lusitan thruitt truidencian gensokyojin danzilonan irian meracydian }
 }
 
 IRI = {
@@ -190,11 +190,11 @@ IRI = {
 }
 
 MRA = {
-	capital = STATE_MUMEITA
+	capital = STATE_WEST_THRUITTANIA
 	color = rgb { 69 0 104 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { meracydian gensokyojin thruitt }
+	cultures = { meracydian }
 }
 
 KLE = {
@@ -266,5 +266,13 @@ ILA = {
 	color = rgb { 142 41 98 }
 	country_type = recognized
 	tier = principality
+	cultures = { examplish }
+}
+
+DAL = {
+	capital = STATE_DALGON_CAPITAL
+	color = rgb { 127 0 0 }
+	country_type = recognized
+	tier = kingdom
 	cultures = { examplish }
 }

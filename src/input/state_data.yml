@@ -161,7 +161,9 @@ STATE_OUTLAND:
   pops:
   - culture: thruitt
     religion: bezism
-    ratio: 1
+    ratio: 7
+  - culture: meracydian
+    ratio: 3
   population: 101520
 STATE_SNOWPEAK:
   population: 52073
@@ -170,6 +172,14 @@ STATE_TENSEIMIYA:
 STATE_DAISHIREIBOU:
   population: 553462
 STATE_MUMEITA:
+  pops:
+  - culture: thruitt
+    religion: bezism
+    ratio: 3
+  - culture: meracydian
+    ratio: 27
+  - culture: gensokyojin
+    ratio: 70
   population: 552680
 STATE_YAMATO_KEN:
   population: 171968
@@ -319,7 +329,7 @@ STATE_PAVIA_AULDMARCHE:
   naval_exit_id: STATE_LYREAN_SEA
   population: 308907
 STATE_NORTH_NARA:
-  population: 459523
+  population: 462073
 STATE_CENTRAL_NARA:
   population: 524045
 STATE_SOUTH_NARA:
@@ -530,7 +540,9 @@ STATE_WEST_THRUITTANIA:
   pops:
   - culture: thruitt
     religion: bezism
-    ratio: 1
+    ratio: 7
+  - culture: meracydian
+    ratio: 3
   population: 287637
 STATE_WEST_ILA:
   population: 341675
@@ -546,3 +558,15 @@ STATE_ARID_KYANROJA:
   population: 86438
 STATE_DESERT_KYANROJA:
   population: 95165
+STATE_DALGON_FOREST:
+  population: 179692
+STATE_DALGON_TAIGA:
+  population: 165365
+STATE_DALGON_CAPITAL:
+  population: 145302
+STATE_DALGON_SNOW:
+  population: 172747
+STATE_DALGON_SOUTH_TAIGA:
+  population: 114244
+STATE_DALGON_MOUNTAINS:
+  population: 118873

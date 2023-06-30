@@ -276,11 +276,11 @@ PAV_EMPIRE = {
 
 TRA_monarchy = {
 	pattern = "pattern_solid.tga"
-	color1 = "lusitan_shield_blue"
+	color1 = rgb { 12 102 147 }
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
-		color2 = "yellow"
-		color1 = "red"
+		color2 = rgb { 242 188 81 }
+		color1 = rgb { 192 44 44 }
 	}
 	textured_emblem = {
 		texture = "te_coa_transylvania_angel.dds"
@@ -296,7 +296,7 @@ TRA_monarchy = {
 	}
 }
 
-TRA = {
+TRA_DEMOCRATIC = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = rgb { 4 110 177 }
 	color2 = rgb { 200 50 50 }
@@ -348,6 +348,20 @@ TRA = {
 		color2 = black
 		color1 = yellow
 		instance = { position { 0.5 0.53 } scale = { 0.15 0.1 } }
+	}
+}
+
+TRA = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = rgb { 12 102 147 }
+	color2 = rgb { 242 188 81 }
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = rgb { 192 44 44 }
+		}
+	textured_emblem = {
+		texture = "te_coa_transylvania_republic.dds"
+		instance = { position = { 0.5 0.47 } scale = { 0.7 0.7 } }
 	}
 }
 
@@ -1184,15 +1198,22 @@ TRU_CIVIL = {
 	color3 = "truidencian_red"
 }
 AMB = {
-	pattern = "pattern_stripes_truidencia.dds"
-	color1 = "full_white"
-	color2 = "truidencian_yellow"
-	color3 = "truidencian_red"
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = rgb { 90 208 225 }
+	color2 = rgb { 221 40 41 }
 	colored_emblem = {
-		texture = "ce_truidencia_monarchy.dds"
-		color2 = "full_white"
-		color3 = "truidencian_red"
-		instance = { position { 0.5 0.5} scale = { 1 1 } }
+		texture = "ce_stripe_center.dds"
+		color1 = "full_white"
+		}
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "full_white"
+		instance = { scale = { 0.8 0.7 } position = { 0.5 0.5 } }
+		}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = rgb { 245 201 30 }
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 } }
 	}
 }
 TER = {

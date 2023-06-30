@@ -358,7 +358,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = danzilonan
-                size = 593210
+                size = 593158
             }
         }
     }
@@ -366,7 +366,7 @@
         region_state:DAN = {
             create_pop = {
                 culture = danzilonan
-                size = 170065
+                size = 163967
             }
         }
     }
@@ -414,7 +414,7 @@
         region_state:TRA = {
             create_pop = {
                 culture = transylvanian
-                size = 148033
+                size = 154208
             }
         }
     }
@@ -726,7 +726,7 @@
         region_state:CLW = {
             create_pop = {
                 culture = augustan
-                size = 40047
+                size = 40297
             }
         }
     }
@@ -926,7 +926,7 @@
         region_state:AUR = {
             create_pop = {
                 culture = aurellian
-                size = 374879
+                size = 377089
             }
         }
     }
@@ -1102,7 +1102,7 @@
         region_state:IRI = {
             create_pop = {
                 culture = irian
-                size = 137824
+                size = 136918
             }
         }
     }
@@ -1174,7 +1174,7 @@
         region_state:AUR = {
             create_pop = {
                 culture = aurellian
-                size = 135696
+                size = 149814
             }
         }
     }
@@ -1656,6 +1656,62 @@
                 culture = thruitt
                 religion = bezism
                 size = 287637
+            }
+        }
+    }
+    s:STATE_WEST_ILA = {
+        region_state:ILA = {
+            create_pop = {
+                culture = examplish
+                size = 341675
+            }
+        }
+    }
+    s:STATE_EAST_ILA = {
+        region_state:ILA = {
+            create_pop = {
+                culture = examplish
+                size = 196824
+            }
+        }
+    }
+    s:STATE_SOUTHDARK_KYANROJA = {
+        region_state:ILA = {
+            create_pop = {
+                culture = examplish
+                size = 142764
+            }
+        }
+    }
+    s:STATE_JUNGLE_KYANROJA = {
+        region_state:ILA = {
+            create_pop = {
+                culture = examplish
+                size = 174339
+            }
+        }
+    }
+    s:STATE_NORTHDARK_KYANROJA = {
+        region_state:ILA = {
+            create_pop = {
+                culture = examplish
+                size = 236551
+            }
+        }
+    }
+    s:STATE_ARID_KYANROJA = {
+        region_state:ILA = {
+            create_pop = {
+                culture = examplish
+                size = 86438
+            }
+        }
+    }
+    s:STATE_DESERT_KYANROJA = {
+        region_state:ILA = {
+            create_pop = {
+                culture = examplish
+                size = 95165
             }
         }
     }

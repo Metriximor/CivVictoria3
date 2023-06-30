@@ -260,3 +260,11 @@ TER = {
 	tier = principality
 	cultures = { examplish }
 }
+
+ILA = {
+	capital = STATE_EAST_ILA
+	color = rgb { 142 41 98 }
+	country_type = recognized
+	tier = principality
+	cultures = { examplish }
+}

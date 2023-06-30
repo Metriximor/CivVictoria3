@@ -19,4 +19,11 @@
 			type = puppet
 		}
 	}
+
+	c:GRI = {
+		create_diplomatic_pact = {
+			country = c:AMB
+			type = puppet
+		}
+	}
 }

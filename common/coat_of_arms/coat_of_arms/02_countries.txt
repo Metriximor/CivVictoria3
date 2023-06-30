@@ -52,6 +52,21 @@ LAM = {
 		color1 = "lambatan_civmc_red"
 		instance = { position = { 0 0.5 } scale = { 1 1 } }
 	}
+	textured_emblem = {
+		texture = "te_coa_lambat.dds"
+		instance = { position = { 0.16 0.5 } scale = { 0.4 0.4 } }
+	}
+}
+
+LAM_VASSAL = {
+	pattern = "pattern_two_stripes_fimbriated.dds"
+	color1 = "lambatan_civmc_blue"
+			color2 = "lambatan_civmc_yellow"
+						color3 = "lambatan_civmc_yellow"
+	textured_emblem = {
+		texture = "te_coa_lambat.dds"
+		instance = { position = { 0.7 0.5 } scale = { 0.6 0.6 } }
+	}
 }
 
 MER = {
@@ -512,16 +527,11 @@ ICE = {
 }
 ILA = {
 	pattern = "pattern_solid.tga"
-	color1 = rgb { 101 1 59 }
-		colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "yellow"
-		color2 = rgb { 101 1 59 }
-		}
+	color1 = rgb { 102 2 60 }
 	colored_emblem = {
-		texture = "ce_crossed_scimitars_horizontal.dds"
-		color1 = rgb {101 1 59}
-		instance = { scale = { 0.45 0.45 } }
+		texture = "ce_ila.dds"
+		color2 = rgb { 228 187 27 }
+		instance = { scale = { 1 1 } }
 	}
 }
 IRI = {
@@ -1217,15 +1227,15 @@ AMB = {
 	}
 }
 TER = {
-	pattern = "pattern_stripes_truidencia.dds"
+	pattern = "pattern_border_venice.dds"
 	color1 = "full_white"
-	color2 = "truidencian_yellow"
-	color3 = "truidencian_red"
+	color2 = "truidencian_red"
 	colored_emblem = {
-		texture = "ce_truidencia_monarchy.dds"
-		color2 = "full_white"
+		texture = "ce_milanese_eagle.dds"
 		color3 = "truidencian_red"
-		instance = { position { 0.5 0.5} scale = { 1 1 } }
+				color2 = "truidencian_red"
+						color1 = "truidencian_red"
+		instance = { position { 0.5 0.5} scale = { 0.9 0.9 } }
 	}
 }
 #####################

@@ -73,9 +73,9 @@ DAN = { # Danzilona
 	}
 		flag_definition = {
 		coa = DAN_VANGUARD
-		subject_canton = DAN_vanguard_state
+		subject_canton = DAN_VANGUARD
 		allow_overlord_canton = yes
-		coa_with_overlord_canton = DAN_subject
+		coa_with_overlord_canton = DAN
 		overlord_canton_scale = { 0.337 0.337 }
 		priority = 1
 		trigger = {
@@ -117,8 +117,88 @@ EXI = { # Exilus
 	flag_definition = {
 		coa = EXI
 		subject_canton = EXI
-		allow_overlord_canton = NO
-		coa_with_overlord_canton = EXI
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = JUD
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 1
+		}
+	}
+LAM = { # Lambat
+	flag_definition = {
+		coa = LAM
+		subject_canton = LAM
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = LAM_VASSAL
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 1
+		}
+	}
+GRI = { # griffin
+	flag_definition = {
+		coa = GRI
+		subject_canton = GRI
+		allow_overlord_canton = no
+		coa_with_overlord_canton = GRI
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 1
+		}
+	}
+AMB = { # amboise
+	flag_definition = {
+		coa = AMB
+		subject_canton = AMB
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = AMB
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 1
+		}
+	}
+ICE = { # icenia
+	flag_definition = {
+		coa = ICE
+		subject_canton = ICE
+		allow_overlord_canton = no
+		coa_with_overlord_canton = ICE
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 1
+		}
+	}
+BLO = { # bloom
+	flag_definition = {
+		coa = BLO
+		subject_canton = BLO
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = BLO
+		overlord_canton_scale = { 0.34 0.34 }
+		priority = 1
+		}
+	}
+SOU = { # southshire
+	flag_definition = {
+		coa = SOU
+		subject_canton = SOU
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = SOU
+		overlord_canton_scale = { 0.346 0.346 }
+		priority = 1
+		}
+	}
+PET = { # petrichor
+	flag_definition = {
+		coa = PET
+		subject_canton = PET
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = PET
+		overlord_canton_scale = { 0.346 0.346 }
+		priority = 1
+		}
+	}
+EST = { # estalia
+	flag_definition = {
+		coa = EST
+		subject_canton = EST
+		allow_overlord_canton = no
+		coa_with_overlord_canton = EST
 		overlord_canton_scale = { 0.5 0.5 }
 		priority = 1
 		}

@@ -103,13 +103,13 @@ STATE_PAMPANG:
   population: 192850
 STATE_MELIA:
   naval_exit_id: STATE_MEDI_SEA
-  population: 593210
+  population: 593158
 STATE_PETERSKOGUR:
   naval_exit_id: STATE_MEDI_SEA
   population: 233491
 STATE_SOUTH_MELIA:
   naval_exit_id: STATE_MEDI_SEA
-  population: 148033
+  population: 154208
 STATE_WOLKEN:
   naval_exit_id: STATE_MEDI_SEA
   population: 356793
@@ -229,7 +229,7 @@ STATE_MINI_YOAHTL_FRONTIER:
 STATE_ROZIA:
   population: 37213
 STATE_UPPER_MELIA:
-  population: 170065
+  population: 163967
 STATE_NEW_SWISSTON:
   population: 130690
 STATE_KALLOS:
@@ -286,7 +286,7 @@ STATE_CALW:
   naval_exit_id: STATE_MIDDLE_OCEAN
   population: 199163
 STATE_CAWL_EXCLAVE:
-  population: 40047
+  population: 40297
 STATE_DOOM_CITY_NORTH:
   population: 624008
 STATE_DOOM_CITY_SOUTH:
@@ -343,7 +343,7 @@ STATE_SANTIAGO:
 STATE_CDM_EXCLAVE:
   population: 102876
 STATE_CDM_FRONTIER:
-  population: 374879
+  population: 377089
 STATE_ESTALIA_1:
   population: 1268737
 STATE_ESTALIA_2:
@@ -387,7 +387,7 @@ STATE_IRIA_5:
 STATE_IRIA_6:
   population: 51199
 STATE_IRIA_7:
-  population: 137824
+  population: 136918
 STATE_IRIA_8:
   population: 172708
 STATE_IRIA_9:
@@ -415,7 +415,7 @@ STATE_IRIA_17:
 STATE_IRIA_18:
   population: 107858
 STATE_CDM_FRONTIER_2:
-  population: 135696
+  population: 149814
 STATE_ICENIA_CITY:
   population: 188375
 STATE_ICENIA_INTERIOR:
@@ -532,3 +532,17 @@ STATE_WEST_THRUITTANIA:
     religion: bezism
     ratio: 1
   population: 287637
+STATE_WEST_ILA:
+  population: 341675
+STATE_EAST_ILA:
+  population: 196824
+STATE_SOUTHDARK_KYANROJA:
+  population: 142764
+STATE_JUNGLE_KYANROJA:
+  population: 174339
+STATE_NORTHDARK_KYANROJA:
+  population: 236551
+STATE_ARID_KYANROJA:
+  population: 86438
+STATE_DESERT_KYANROJA:
+  population: 95165

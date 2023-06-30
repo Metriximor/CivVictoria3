@@ -1,4 +1,4 @@
-
+﻿
 #Default Values
 saturation_scale = 1
 value_scale = 1		# Light multiplier

@@ -1,4 +1,4 @@
-naran = {
+﻿naran = {
 	color = rgb { 191 160 230 }
 	religion = eastern_faith
 	traits = { inferno_heritage alenarith_culture_group english japanese }

@@ -1,4 +1,4 @@
-irian = {
+﻿irian = {
 	color = rgb { 74 111 40 }
 	religion = non_religious
 	traits = { corum_heritage medi_sea_culture_group english }

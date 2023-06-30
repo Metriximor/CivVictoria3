@@ -1,4 +1,4 @@
-top_blue_soldier = {
+﻿top_blue_soldier = {
         entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_blue_soldier_entity" }
     }
 

@@ -1,4 +1,4 @@
-namespace = hooters_treaty
+﻿namespace = hooters_treaty
 
 # Truidencia causes Genso to become a puppet/ colony idk what its called yet
 hooters_treaty.1 = {

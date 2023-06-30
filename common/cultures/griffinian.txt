@@ -1,4 +1,4 @@
-griffinian = { 
+﻿griffinian = { 
     color = rgb { 39 131 186 } 
     religion = melonism
     traits = { ?_heritage lyrean_sea_culture_group english }

@@ -1,4 +1,4 @@
-enable_posteffects = yes
+﻿enable_posteffects = yes
 		
 male = {
 	head = "male_head_entity"

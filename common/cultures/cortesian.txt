@@ -1,4 +1,4 @@
-cortesian = { 
+﻿cortesian = { 
     color = { 51 140 255 } 
     religion = non_religious
     traits = { cdm_heritage alenarith_culture_group english }

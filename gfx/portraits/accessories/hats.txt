@@ -1,4 +1,4 @@
-hat_thruitt = {
+﻿hat_thruitt = {
         entity = { required_tags = "base_model" shared_pose_entity = head entity = "hat_thruitt_entity" }
     }
 

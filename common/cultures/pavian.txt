@@ -1,4 +1,4 @@
-pavian = { 
+﻿pavian = { 
     color = rgb { 153 255 255 } 
     religion = non_religious
     traits = { gabonese_heritage lyrean_sea_culture_group english french }

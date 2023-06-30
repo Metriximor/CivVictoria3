@@ -1,4 +1,4 @@
-top_baroque_blue = {
+﻿top_baroque_blue = {
         entity = { required_tags = "base_model" shared_pose_entity = head entity = "top_baroque_blue_entity" }
     }
 

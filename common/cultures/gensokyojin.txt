@@ -1,4 +1,4 @@
-gensokyojin = { 
+﻿gensokyojin = { 
 	color = rgb { 224 33 182 } 
 	religion = taoism 
 	traits = { augustan_heritage medi_sea_culture_group english japanese }

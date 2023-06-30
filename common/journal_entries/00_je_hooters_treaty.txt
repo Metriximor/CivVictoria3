@@ -1,4 +1,4 @@
-je_hooters_treaty = {
+﻿je_hooters_treaty = {
 	icon = "gfx/interface/icons/event_icons/event_map.dds"
 	
 	is_shown_when_inactive = {

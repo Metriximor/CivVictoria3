@@ -1,4 +1,4 @@
-colors = {
+﻿colors = {
 	# Lusitania
 	lusitan_red = rgb { 207 0 0 }
 	lusitan_shield_blue = rgb { 20 71 155 }

@@ -1,4 +1,4 @@
-sword_diamond = {
+﻿sword_diamond = {
         entity = { required_tags = "base_model" shared_pose_entity = head entity = "sword_diamond_entity" }
     }
 

@@ -1,4 +1,4 @@
-kallosian = {
+﻿kallosian = {
 	color = { 85 43 115 }
 	religion = non_religious
 	traits = { pvper_heritage kallosian_culture_group english }

@@ -1,4 +1,4 @@
-thruitt = { 
+﻿thruitt = { 
 	color = rgb { 153 58 134 } 
 	religion = bezism 
 	traits = { udf_heritage medi_sea_culture_group scandinavian }

@@ -20,7 +20,21 @@ TRU = {
 		instance = { position { 0.5 0.5} scale = { 1 1 } }
 	}
 }
-
+TRU_CIVIL = {
+	pattern = "pattern_stripes_truidencia.dds"
+	color1 = "full_white"
+	color2 = "truidencian_yellow"
+	color3 = "truidencian_red"
+}
+TRU_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "truidencian_red"
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color2 = "full_white"
+		color1 = "truidencian_yellow"
+	}
+}
 LUS = {
 	pattern = "pattern_lusitania.dds"
 	color1 = "lusitan_red"
@@ -256,7 +270,7 @@ PAV = {
     }
 }
 
-PAV_EMPIRE = {
+PAV_empire = {
     pattern = "pattern_checkers_01.tga"
     color1 = "full_white"
     color2 = rgb { 223 60 78 }
@@ -1200,12 +1214,6 @@ JUD = {
 	color1 = "full_white"
 		instance = { scale = { 0.3 0.3 } position = { 0.7 0.5 } }
 	}
-}
-TRU_CIVIL = {
-	pattern = "pattern_stripes_truidencia.dds"
-	color1 = "full_white"
-	color2 = "truidencian_yellow"
-	color3 = "truidencian_red"
 }
 AMB = {
 	pattern = "pattern_horizontal_split_01.tga"

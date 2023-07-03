@@ -4,7 +4,7 @@
   RULER_HEIR_TRUIDENCIAN: "Crown Prince"
   RULER_HEIR_TRUIDENCIAN_F: "Crown Princess"
   gov_truidencian: "Bezist Empire"
-  gov_truidencian_desc: "A monarchy centred around the state-religion where the clergy holds strong sway with the emperor/empress being seen as God's representative on earth, destined to carry out their will."
+  gov_truidencian_desc: "A monarchy centred around the state-religion where the clergy holds strong sway with the emperor being seen as God's representative on earth, destined to carry out their will."
 
   RULER_TITLE_PAVIAN: "Crown Prince"
   RULER_TITLE_PAVIAN_F: "Crown Princess"
@@ -19,3 +19,8 @@
   RULER_HEIR_KOVAN_F: "Crown Princess"
   gov_kovan: "Celestial Empire"
   gov_kovan_desc: "A monarchy."
+
+  RULER_TITLE_PAVIAN_EMPEROR: "Emperor"
+  RULER_TITLE_PAVIAN_EMPRESS: "Empress"
+  gov_pavian_empire: "Mortal Empire"
+  gov_pavian_empire_desc: "The Empire ceases to exist on the death of its monarch."

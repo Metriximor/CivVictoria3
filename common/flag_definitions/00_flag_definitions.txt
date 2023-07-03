@@ -67,30 +67,20 @@ DAN = { # Danzilona
 		coa = DAN
 		subject_canton = DAN
 		allow_overlord_canton = yes
-		coa_with_overlord_canton = DAN_subject
+		coa_with_overlord_canton = DAN
 		overlord_canton_scale = { 0.337 0.337 }
-		priority = 20
+		priority = 1
 	}
 		flag_definition = {
 		coa = DAN_VANGUARD
 		subject_canton = DAN_VANGUARD
 		allow_overlord_canton = yes
-		coa_with_overlord_canton = DAN
+		coa_with_overlord_canton = DAN_VANGUARD 
 		overlord_canton_scale = { 0.337 0.337 }
-		priority = 1
+		priority = 10
 		trigger = {
-			coa_def_vanguard_state_flag_trigger = yes 
+			coa_def_communist_flag_trigger = yes 
 		}
-	}
-}
-TRU = { # Truidencia
-	flag_definition = {
-		coa = TRU
-		subject_canton = TRU_CIVIL
-		allow_overlord_canton = yes
-		coa_with_overlord_canton = TRU_CIVIL
-		overlord_canton_scale = { 0.337 0.337 }
-		priority = 1
 	}
 }
 GEN = { # Gensokyo
@@ -203,3 +193,45 @@ EST = { # estalia
 		priority = 1
 		}
 	}
+PAV = { # pavia
+	flag_definition = {
+		coa = PAV
+		subject_canton = PAV
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = PAV
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 1
+	}
+	flag_definition = {
+		coa = PAV_empire
+		subject_canton = PAV_empire
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = PAV_empire
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 10
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+}
+TRU = { # truidencia
+	flag_definition = {
+		coa = TRU
+		subject_canton = TRU
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = TRU_CIVIL
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 1
+	}
+	flag_definition = {
+		coa = TRU_republic
+		subject_canton = TRU_republic
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = TRU_republic
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 10
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}

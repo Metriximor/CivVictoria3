@@ -53,7 +53,22 @@ LUS = {
 		instance = { position = { 0.5 0.5 } scale = { 1 1 } }	
 	}
 }
-
+LUS_republic = {
+	pattern = "pattern_tricorners.dds"
+	color1 = "lusitan_red"
+	color2 = "full_white"
+	color3 = "green"
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.ddse"
+		color1 = "full_white"
+		color2 = "lusitan_red"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }	
+	}
+	textured_emblem = {
+		texture = "te_coa_portuguese_republic.dds"
+		instance = { position = { 0.5 0.5 } scale = { 0.7 0.8 } }		
+	}
+}
 LAM = {
 	pattern = "pattern_solid.tga"
 	color1 = "lambatan_civmc_yellow"

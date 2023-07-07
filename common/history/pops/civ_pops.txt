@@ -1679,7 +1679,7 @@
     s:STATE_WEST_ILA = {
         region_state:ILA = {
             create_pop = {
-                culture = examplish
+                culture = kayev
                 size = 341675
             }
         }
@@ -1687,7 +1687,7 @@
     s:STATE_EAST_ILA = {
         region_state:ILA = {
             create_pop = {
-                culture = examplish
+                culture = kayev
                 size = 196824
             }
         }
@@ -1695,7 +1695,7 @@
     s:STATE_SOUTHDARK_KYANROJA = {
         region_state:ILA = {
             create_pop = {
-                culture = examplish
+                culture = kayev
                 size = 142764
             }
         }
@@ -1703,7 +1703,7 @@
     s:STATE_JUNGLE_KYANROJA = {
         region_state:ILA = {
             create_pop = {
-                culture = examplish
+                culture = kayev
                 size = 174339
             }
         }
@@ -1711,7 +1711,7 @@
     s:STATE_NORTHDARK_KYANROJA = {
         region_state:ILA = {
             create_pop = {
-                culture = examplish
+                culture = kayev
                 size = 236551
             }
         }
@@ -1719,7 +1719,7 @@
     s:STATE_ARID_KYANROJA = {
         region_state:ILA = {
             create_pop = {
-                culture = examplish
+                culture = kayev
                 size = 86438
             }
         }
@@ -1727,7 +1727,7 @@
     s:STATE_DESERT_KYANROJA = {
         region_state:ILA = {
             create_pop = {
-                culture = examplish
+                culture = kayev
                 size = 95165
             }
         }

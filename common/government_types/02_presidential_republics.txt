@@ -28,10 +28,24 @@ gov_pavian = {
 
 	possible = {
 		has_law = law_type:law_presidential_republic
+		has_law = law_type:law_parliamentary_republic
 		exists = c:PAV
 		c:PAV = ROOT
 	}
 }
+gov_gronrulyet = {
+	transfer_of_power = dictatorial
+	male_ruler = RULER_TITLE_ILA
+	female_ruler = RULER_TITLE_ILA_F
+
+	possible = {
+		has_law = law_type:law_presidential_republic
+		has_law = law_type:law_autocracy 
+			exists = c:ILA
+			c:ILA = ROOT
+	}
+}
+
 gov_fascist_state = {
 	transfer_of_power = dictatorial
 
@@ -43,8 +57,16 @@ gov_fascist_state = {
 			has_law = law_type:law_presidential_republic
 			has_law = law_type:law_parliamentary_republic
 		}
-		has_law = law_type:law_autocracy 
+		OR = {
+			has_law = law_type:law_autocracy 
+			has_law = law_type:law_oligarchy
+			has_law = law_type:law_single_party_state 
+		}
 		coa_fascist_trigger = yes
+	}
+
+	on_government_type_change = {
+		change_to_dictatorial = yes
 	}
 }
 

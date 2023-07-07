@@ -266,7 +266,7 @@ ILA = {
 	color = rgb { 142 41 98 }
 	country_type = recognized
 	tier = principality
-	cultures = { examplish }
+	cultures = { kayev }
 }
 
 DAL = {

@@ -11,7 +11,7 @@
   RULER_HEIR_PAVIAN: "Duke"
   RULER_HEIR_PAVIAN_F: "Duchess"
   gov_pavian: "Pavian Principality"
-  gov_pavian_desc: "A destinct form of elective monarchy where the prince/princess is elected from a pool of dukes and duchesses."
+  gov_pavian_desc: "A destinct form of elective monarchy where the crown prince/princess is elected from a pool of dukes and duchesses."
 
   RULER_TITLE_KOVAN: "Padishah Emperor"
   RULER_TITLE_KOVAN_F: "Padishah Empress"
@@ -23,4 +23,9 @@
   RULER_TITLE_PAVIAN_EMPEROR: "Emperor"
   RULER_TITLE_PAVIAN_EMPRESS: "Empress"
   gov_pavian_empire: "Mortal Empire"
-  gov_pavian_empire_desc: "The Empire ceases to exist on the death of its monarch."
+  gov_pavian_empire_desc: "An Empire that supposedly ceases to exist on the death of its monarch."
+
+  RULER_TITLE_ILA: "Gronrul"
+  RULER_TITLE_ILA_F: "Gronrul"
+  gov_gronrulyet: "Gronrulyet"
+  gov_gronrulyet_desc: "A divinely-mandated dictatorship ruled by the Gronrul"

@@ -334,6 +334,20 @@ PAV_empire = {
     }
 }
 
+TRA = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = rgb { 12 102 147 }
+	color2 = rgb { 242 188 81 }
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = rgb { 192 44 44 }
+		}
+	textured_emblem = {
+		texture = "te_coa_transylvania_republic.dds"
+		instance = { position = { 0.5 0.47 } scale = { 0.7 0.7 } }
+	}
+}
+
 TRA_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 12 102 147 }
@@ -408,20 +422,6 @@ TRA_republic = {
 		color2 = black
 		color1 = yellow
 		instance = { position { 0.5 0.53 } scale = { 0.15 0.1 } }
-	}
-}
-
-TRA = {
-	pattern = "pattern_horizontal_split_01.tga"
-	color1 = rgb { 12 102 147 }
-	color2 = rgb { 242 188 81 }
-	colored_emblem = {
-		texture = "ce_stripe_center.dds"
-		color1 = rgb { 192 44 44 }
-		}
-	textured_emblem = {
-		texture = "te_coa_transylvania_republic.dds"
-		instance = { position = { 0.5 0.47 } scale = { 0.7 0.7 } }
 	}
 }
 
@@ -1333,6 +1333,21 @@ TER = {
 				color2 = "truidencian_red"
 						color1 = "truidencian_red"
 		instance = { position { 0.5 0.5} scale = { 0.9 0.9 } }
+	}
+}
+SUN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 238 175 97 }
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = rgb { 251 144 98 }
+		color2 = rgb { 238 93 108 }
+		instance = { position { 0.5 0.5} scale = { 1 1 } }
+	}
+	colored_emblem = {
+		texture = "ce_laurels_big.dds"
+		color1 = rgb { 206 73 147 }
+		instance = { position { 0.5 0.5} scale = { 0.7 0.9 } }
 	}
 }
 #####################

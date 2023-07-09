@@ -2,6 +2,7 @@
 
 Main dev - Metriximor
 Main dev - Zeldrin
+dev - Argonaut
 Art - banyough
 
 ## Many thanks to

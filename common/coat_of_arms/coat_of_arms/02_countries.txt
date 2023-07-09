@@ -192,6 +192,22 @@ GEN = {
 		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
 	}
 }
+GEN_20 = {
+	pattern = "pattern_gironny_32.dds"
+	color1 = rgb { 252 206 55 }
+	color2 = rgb { 147 76 124 }
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "full_black"
+		instance = { position = { 0.5 0.5 } scale = { 0.67 0.67 } }
+	}
+	colored_emblem = {
+		texture = "ce_gensokyo.dds"
+		color2 = "full_black"
+		color3 = "full_white"
+		instance = { position = { 0.5 0.5 } scale = { 0.6 0.6 } }
+	}
+}
 
 YOA = {
 	pattern = "pattern_solid.tga"
@@ -340,7 +356,7 @@ TRA_monarchy = {
 	}
 }
 
-TRA_DEMOCRATIC = {
+TRA_republic = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = rgb { 4 110 177 }
 	color2 = rgb { 200 50 50 }
@@ -417,6 +433,30 @@ GRI = {
 		color2 = "full_white"
 	}
 }
+GRI_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "griffin_blue"
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "full_white"
+		color2 = "griffin_blue"
+	}
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "full_white"
+		instance = { position = { 0.5 0.5 } scale = { 0.7 0.7 } }
+	}
+	colored_emblem = {
+		texture = "ce_griffin.dds"
+		color2 = "griffin_blue"
+		instance = { position = { 0.48 0.5 } scale = { 0.45 0.45 } }
+	}
+	colored_emblem = {
+		texture = "ce_wreath_thin.dds"
+		color1 = "griffin_blue"
+		instance = { position = { 0.5 0.5 } scale = { 0.7 0.7 } }
+	}
+}
 
 MTA = {
 	pattern = "pattern_solid.tga"
@@ -427,7 +467,41 @@ MTA = {
 		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
 	}
 }
-
+MTA_mts = {
+	pattern = "pattern_per_bend_senester.dds"
+	color1 = "augustan_red"
+	color2 = "augustan_blue"
+	colored_emblem = {
+		texture = "ce_canton.dds"
+		color1 = "augustan_red"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+}
+MTA_sotw = {
+	pattern = "pattern_solid.tga"
+	color1 = "augustan_blue"
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "augustan_red"
+		instance = { position = { 0 0.5 } scale = { 1 1 } }
+	}
+}
+MTA_csa = {
+	pattern = "pattern_solid.tga"
+	color1 = "augustan_blue"
+	colored_emblem = {
+		texture = "ce_tribar.dds"
+		color1 = "full_white"
+		color2 = rgb { 191 10 48 }
+		color3 = rgb { 0 40 104 }
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+		}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "full_white"
+		instance = { position = { 0.17 0.5 } scale = { 0.4 0.4 } }
+	}
+}
 DOM = {
 	pattern = "pattern_per_saltire.dds"
 	color1 = "red"

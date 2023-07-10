@@ -1350,4 +1350,43 @@ SUN = {
 		instance = { position { 0.5 0.5} scale = { 0.7 0.9 } }
 	}
 }
+ALE = {
+	pattern = "pattern_solid.tga"
+	color1 = "augustan_blue"
+	colored_emblem = {
+		texture = "ce_wreath.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+	colored_emblem = {
+		texture = "ce_frame_ddr_flags_tricolour.dds"
+		color1 = "danzilonan_cyan"
+		color2 = "full_white"
+		color3 = "full_black"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+		}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "red"
+		instance = { position = { 0.3 0.69 } scale = { 0.1 0.1 } }
+		}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "red"
+		instance = { position = { 0.7 0.69 } scale = { 0.1 0.1 } }
+		}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "red"
+		instance = { position = { 0.5 0.834 } scale = { 0.1 0.1 } }
+		}
+	colored_emblem = {
+		texture = "ce_sun_face.dds"
+		color1 = "yellow"
+		color2 = "augustan_red"
+		color3 = "augustan_blue"
+		instance = { position = { 0.5 0.49 } scale = { 0.6 0.6 } }
+	}
+	}
+}
 #####################

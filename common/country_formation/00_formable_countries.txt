@@ -14,6 +14,7 @@
 		STATE_MUMEITA
 		STATE_NUMBERS_LAWN
 		STATE_AMATERASU_SHORES
+		STATE_WEST_THRUITTANIA
 
 	}
 	required_states_fraction = 0.75
@@ -47,6 +48,13 @@ MED = {
 		STATE_OLIMPIA
 		STATE_EAST_ILA
 		STATE_WEST_ILA
+		STATE_CLASSICALE
+		STATE_SANTIAGO
+		STATE_PETERSKOGUR
+		STATE_SOUTH_MELIA
+		STATE_IMBLOC
+		STATE_WEST_THRUITTANIA
+		STATE_TENSEIMIYA
 
 	}
 	required_states_fraction = 0.75
@@ -57,8 +65,88 @@ MED = {
 			country_has_primary_culture = cu:danzilonan
 			country_has_primary_culture = cu:gensokyojin
 			country_has_primary_culture = cu:truidencian
-			country_has_primary_culture = cu:thruittan
+			country_has_primary_culture = cu:thruitt
+			country_has_primary_culture = cu:irian
+			country_has_primary_culture = cu:wolkish
+			country_has_primary_culture = cu:melian
+			country_has_primary_culture = cu:kayev
+			country_has_primary_culture = cu:lambatan
+			country_has_primary_culture = cu:mery_culture
 		}
 	}
 }
-	
+ALE = {
+	states = {
+		STATE_NIDAROS
+		STATE_HYLDOR
+		STATE_SNOWPEAK
+		STATE_FLATAGRAS
+		STATE_SORLAND
+		STATE_SIX_COLONIES
+		STATE_OUTLAND
+		STATE_OUTER_NIDAROS
+		STATE_TENSEIMIYA
+		STATE_MORINOYARI
+		STATE_DAISHIREIBOU
+		STATE_MUMEITA
+		STATE_NUMBERS_LAWN
+		STATE_AMATERASU_SHORES
+		STATE_PROVINCE_OF_NEW_DANZILONA
+		STATE_SOPHIA
+		STATE_MELIA
+		STATE_NEW_SWISSTON
+		STATE_SOUTHERN_PROVINCE
+		STATE_WEST_DANZILONA
+		STATE_PETERSKOGUR
+		STATE_EASTERN_SHINING_ISLES
+		STATE_UPPER_MELIA
+		STATE_WOLKEN
+		STATE_WOLKEN_ISLANDS
+		STATE_MOUNT_AUGUSTA
+		STATE_MTA_2
+		STATE_SOUTH_MOUNT_AUGUSTA
+		STATE_GLATTEIS
+		STATE_EAST_MOUNT_AUGUSTA
+		STATE_CALW
+		STATE_DOOM_CITY_NORTH
+		STATE_DOOM_CITY_SOUTH
+		STATE_SYMSTEAD
+		STATE_SOUTH_MELIA
+		STATE_CONCORD
+		STATE_ICE_SHELF
+		STATE_NORTH_HADES_ISLANDS
+		STATE_WEST_CDM
+		STATE_IMBLOC
+		STATE_SOUTH_CDM
+		STATE_ESTALIA_13
+		STATE_DALGON_MOUNTAINS
+		STATE_DALGON_SOUTH_TAIGA
+		STATE_DALGON_SNOW
+		STATE_DALGON_CAPITAL
+		STATE_DALGON_TAIGA
+		STATE_DALGON_FOREST
+		STATE_NORTH_NARA
+		STATE_CENTRAL_NARA
+		STATE_SOUTH_NARA
+		STATE_MA_WALO
+		STATE_WEST_THRUITTANIA
+	}
+	required_states_fraction = 0.75
+	ai_will_do = { always = no }	
+	possible = {
+		OR = {
+			country_has_primary_culture = cu:gensokyojin
+			country_has_primary_culture = cu:truidencian
+			country_has_primary_culture = cu:thruittan
+			country_has_primary_culture = cu:wolkish
+			country_has_primary_culture = cu:danzilonan
+			country_has_primary_culture = cu:cortesian
+			country_has_primary_culture = cu:augustan
+			country_has_primary_culture = cu:septembrian
+			country_has_primary_culture = cu:transylvanian
+			country_has_primary_culture = cu:meracydian
+			country_has_primary_culture = cu:naran
+			country_has_primary_culture = cu:melian
+		}
+	}
+}

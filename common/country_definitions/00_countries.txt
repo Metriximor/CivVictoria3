@@ -178,7 +178,7 @@ MED = {
 	color = "lusitan_shield_blue"
 	country_type = recognized
 	tier = hegemony
-	cultures = { lusitan thruitt truidencian gensokyojin danzilonan irian meracydian }
+	cultures = { lusitan thruitt truidencian gensokyojin danzilonan irian meracydian melian wolkish kayev mery_culture }
 }
 
 IRI = {
@@ -291,4 +291,12 @@ MEL = {
 	country_type = recognized
 	tier = kingdom
 	cultures = { melian }
+}
+
+ALE = {
+	color = rgb { 206 132 0 }
+	country_type = recognized
+	tier = hegemony
+	cultures = { thruitt truidencian gensokyojin meracydian melian danzilonan cortesian naran septembrian augustan wolkish transylvanian }
+	capital = STATE_MOUNT_AUGUSTA
 }

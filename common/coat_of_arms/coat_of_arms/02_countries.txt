@@ -81,10 +81,6 @@ LAM = {
 		color1 = "lambatan_civmc_red"
 		instance = { position = { 0 0.5 } scale = { 1 1 } }
 	}
-	textured_emblem = {
-		texture = "te_coa_lambat.dds"
-		instance = { position = { 0.16 0.5 } scale = { 0.4 0.4 } }
-	}
 }
 
 LAM_VASSAL = {
@@ -1387,6 +1383,66 @@ ALE = {
 		color3 = "augustan_blue"
 		instance = { position = { 0.5 0.49 } scale = { 0.6 0.6 } }
 	}
+}
+GAN = {
+	pattern = "pattern_gironny_32.dds"
+	color1 = rgb { 255 0 0 }
+	color2 = "full_black"
+	colored_emblem = {
+		texture = "ce_frame_octagon.dds"
+		color1 = "full_black"
+		color2 = rgb { 255 0 0 }
+		instance = { position { 0.5 0.5} scale = { 0.7 0.7 } }
+		}
+		colored_emblem = {
+		texture = "ce_korea_taegeuk.dds"
+		color1 = "full_black"
+		color2 = rgb { 255 0 0 }
+		instance = { position { 0.5 0.5} scale = { 0.7 0.7 } }
+	}
+}
+IMP_dictatorial = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 62 69 137 }
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "full_white"
+		instance = { position { 0.5 0.35 } scale = { 0.5 0.7 } }
+		}
+		colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "full_white"
+		instance = { position = { 0.4 0.5 } scale = { 0.5 0.7 } rotation = 90 }
+		}
+		colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "full_white"
+		instance = { position { 0.5 0.65 } scale = { 0.5 0.7 } }
+		}
+		colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "full_white"
+		instance = { position = { 0.6 0.5 } scale = { 0.5 0.7 } rotation = 90 }
+		}
+		colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = rgb { 197 47 59 }
+		instance = { position { 0.5 0.35 } scale = { 0.4 0.3 } }
+		}
+		colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = rgb { 197 47 59 }
+		instance = { position = { 0.4 0.5 } scale = { 0.2 0.6 } rotation = 90 }
+		}
+		colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = rgb { 197 47 59 }
+		instance = { position { 0.5 0.65 } scale = { 0.4 0.3 } }
+		}
+		colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = rgb { 197 47 59 }
+		instance = { position = { 0.6 0.5 } scale = { 0.2 0.6 } rotation = 90 }
 	}
 }
 #####################

@@ -53,7 +53,7 @@ WOL = {
 	color = "wolken_green"
 	country_type = recognized
 	tier = principality
-	cultures = { examplish }
+	cultures = { wolkish }
 	capital = STATE_WOLKEN
 }
 
@@ -275,4 +275,20 @@ DAL = {
 	country_type = recognized
 	tier = kingdom
 	cultures = { examplish }
+}
+
+SUN = {
+	capital = STATE_SIX_COLONIES
+	color = rgb { 238 93 108 }
+	country_type = recognized
+	tier = principality
+	cultures = { truidencian }
+}
+
+MEL = {
+	capital = STATE_MELIA
+	color = rgb { 255 198 44 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { melian }
 }

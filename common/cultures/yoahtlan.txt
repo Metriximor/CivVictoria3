@@ -128,7 +128,7 @@ resimerian = {
 	female_regal_first_names = {
 	
 	}
-	graphics = european
+	graphics = south_american
 	ethnicities = {
 		1 = minecrafter
 	}

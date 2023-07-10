@@ -5,4 +5,10 @@
 			value = 75
 		}
 	}
+	c:NAR = {
+		set_relations = {
+			country = c:DAL
+			value = 75
+		}
+	}
 }

@@ -26,7 +26,13 @@
         }
     }
     s:STATE_SIX_COLONIES = {
-        region_state:TRU = {
+        region_state:SUN = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
         }
     }
     s:STATE_OUTLAND = {
@@ -195,6 +201,12 @@
     }
     s:STATE_MELIA = {
         region_state:DAN = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
         }
     }
     s:STATE_UPPER_MELIA = {
@@ -242,7 +254,7 @@
         }
     }
     s:STATE_WOLKEN_ISLANDS = {
-        region_state:WOL = {
+        region_state:SUN = {
             create_building = {
                 building = building_government_administration
                 level = 1

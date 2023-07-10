@@ -1,5 +1,11 @@
 ﻿# melia, 
-
+MEL = {
+	capital = STATE_MELIA
+	color = rgb { 255 198 44 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { melian }
+}
 
 AUR = {
 	capital = STATE_SANTIAGO
@@ -15,4 +21,12 @@ MRA = {
 	country_type = recognized
 	tier = principality
 	cultures = { meracydian gensokyojin thruitt }
+}
+
+SUN = {
+	capital = STATE_SIX_COLONIES
+	color = rgb { 238 93 108 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { truidencian }
 }

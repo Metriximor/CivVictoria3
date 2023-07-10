@@ -7,18 +7,49 @@ STATE_NIDAROS:
   - culture: truidencian
     religion: bezism
     ratio: 8
+  homelands:
+  - truidencian
   population: 192191
 STATE_HYLDOR:
   naval_exit_id: STATE_MEDI_SEA
   pops:
   - culture: thruitt
     religion: bezism
-    ratio: 1
+    ratio: 7
   - culture: truidencian
     religion: bezism
-    ratio: 9
+    ratio: 93
+  homelands:
+  - truidencian
   population: 214248
 STATE_FLATAGRAS:
+  naval_exit_id: STATE_MEDI_SEA
+  pops:
+  - culture: thruitt
+    religion: bezism
+    ratio: 2
+  - culture: truidencian
+    religion: bezism
+    ratio: 8
+  homelands:
+  - truidencian
+  population: 200851
+STATE_SIX_COLONIES:
+  naval_exit_id: STATE_MEDI_SEA
+  pops:
+  - culture: thruitt
+    religion: bezism
+    ratio: 2
+  - culture: truidencian
+    religion: bezism
+    ratio: 90
+  - culture: melian
+    religion: bezism
+    ratio: 1
+  homelands:
+  - truidencian
+  population: 145487
+STATE_OUTER_NIDAROS:
   naval_exit_id: STATE_MEDI_SEA
   pops:
   - culture: thruitt
@@ -26,38 +57,31 @@ STATE_FLATAGRAS:
     ratio: 3
   - culture: truidencian
     religion: bezism
-    ratio: 7
-  population: 200851
-STATE_SIX_COLONIES:
-  naval_exit_id: STATE_MEDI_SEA
-  population: 145487
-STATE_OUTER_NIDAROS:
-  naval_exit_id: STATE_MEDI_SEA
-  pops:
-  - culture: thruitt
-    religion: bezism
-    ratio: 1
-  - culture: truidencian
-    religion: bezism
-    ratio: 9
+    ratio: 90
+  homelands:
+  - truidencian
   population: 114638
 STATE_NUMBERS_LAWN:
   naval_exit_id: STATE_MEDI_SEA
   pops:
   - culture: thruitt
     religion: bezism
-    ratio: 1
+    ratio: 4
   - culture: truidencian
     religion: bezism
-    ratio: 1
+    ratio: 6
   - culture: gensokyojin
-    ratio: 8
+    ratio: 80
+  homelands:
+  - gensokyojin
   population: 275437
 STATE_CIV_PROVENCE:
   naval_exit_id: STATE_MEDI_SEA
   population: 109715
 STATE_AMATERASU_SHORES:
   naval_exit_id: STATE_MEDI_SEA
+  homelands:
+  - gensokyojin
   population: 126275
 STATE_PORTUCALE:
   naval_exit_id: STATE_MEDI_SEA
@@ -103,15 +127,28 @@ STATE_PAMPANG:
   population: 192850
 STATE_MELIA:
   naval_exit_id: STATE_MEDI_SEA
+  pops:
+  - culture: melian
+    ratio: 7
+  - culture: danzilonan
+    ratio: 3
+  homelands:
+  - danzilonan
+  - melian
   population: 593158
 STATE_PETERSKOGUR:
   naval_exit_id: STATE_MEDI_SEA
+  homelands:
+  - danzilonan
   population: 233491
 STATE_SOUTH_MELIA:
   naval_exit_id: STATE_MEDI_SEA
   population: 154208
 STATE_WOLKEN:
   naval_exit_id: STATE_MEDI_SEA
+  pops:
+  - culture: wolkish
+    ratio: 1
   population: 356793
 STATE_SOUTHERN_PROVINCE:
   naval_exit_id: STATE_MEDI_SEA
@@ -121,6 +158,9 @@ STATE_EASTERN_SHINING_ISLES:
   population: 45797
 STATE_WOLKEN_ISLANDS:
   naval_exit_id: STATE_MEDI_SEA
+  pops:
+  - culture: wolkish
+    ratio: 1
   population: 33535
 STATE_NORTHERN_MERY:
   naval_exit_id: STATE_LYREAN_SEA
@@ -139,6 +179,8 @@ STATE_SORLAND:
   - culture: gensokyojin
     religion: bezism
     ratio: 1
+  homelands:
+  - thruitt
   population: 192306
 STATE_MORINOYARI:
   pops:
@@ -149,7 +191,7 @@ STATE_MORINOYARI:
     religion: bezism
     ratio: 7
   homelands:
-  - thruittans
+  - thruitt
   population: 124396
 STATE_BLANCO_STRAIT:
   homelands:
@@ -161,11 +203,15 @@ STATE_OUTLAND:
   pops:
   - culture: thruitt
     religion: bezism
-    ratio: 7
+    ratio: 9
   - culture: meracydian
-    ratio: 3
+    ratio: 1
+  homelands:
+  - thruitt
   population: 101520
 STATE_SNOWPEAK:
+  homelands:
+  - truidencian
   population: 52073
 STATE_TENSEIMIYA:
   population: 288371
@@ -180,6 +226,9 @@ STATE_MUMEITA:
     ratio: 27
   - culture: gensokyojin
     ratio: 70
+  homelands:
+  - thruitt
+  - gensokyojin
   population: 552680
 STATE_YAMATO_KEN:
   population: 171968
@@ -239,6 +288,11 @@ STATE_MINI_YOAHTL_FRONTIER:
 STATE_ROZIA:
   population: 37213
 STATE_UPPER_MELIA:
+  pops:
+  - culture: melian
+    ratio: 3
+  - culture: danzilonan
+    ratio: 7
   population: 163967
 STATE_NEW_SWISSTON:
   population: 130690

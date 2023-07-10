@@ -26,4 +26,10 @@
 			type = puppet
 		}
 	}
+	c:TRU = {
+		create_diplomatic_pact = {
+			country = c:SUN
+			type = tributary
+		}
+	}
 }

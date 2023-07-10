@@ -31,7 +31,7 @@
     }
     s:STATE_SIX_COLONIES = {
         create_state = {
-            country = c:TRU
+            country = c:SUN
             owned_provinces = { x3FE2DC x60E9CD x6BE1C5 x77E8D0 x8D8EFA x9CAEC6 xA8EEF9 xB0DDF8 xB8B88E xBCF1FD xC093AE xC19DCD xC1F2EB xC4B8FD xCC3DEC xCE8EC1 xD1C95B xD5C4A9 xD6A979 xD6BFE2 xD79AD4 xD8CFE8 xDB9891 xDEACD0 xE05DC9 xE075D1 xE5DE3C xE77EBF xE855E9 xE8F54F xF647E4 xF96CE5 xF99F74 xFBC74D }
         }
     }
@@ -285,7 +285,7 @@
     }
     s:STATE_WOLKEN_ISLANDS = {
         create_state = {
-            country = c:WOL
+            country = c:SUN
             owned_provinces = { x0D0705 x8BD59B xAB78FD xB67DF0 xC0D1BB xC6E554 xC778CB xCCBF6A xEA25F5 xFC82A0 }
         }
     }

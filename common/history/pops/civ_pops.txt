@@ -18,12 +18,12 @@
             create_pop = {
                 culture = thruitt
                 religion = bezism
-                size = 21424
+                size = 14997
             }
             create_pop = {
                 culture = truidencian
                 religion = bezism
-                size = 192823
+                size = 199250
             }
         }
     }
@@ -40,12 +40,12 @@
             create_pop = {
                 culture = thruitt
                 religion = bezism
-                size = 60255
+                size = 40170
             }
             create_pop = {
                 culture = truidencian
                 religion = bezism
-                size = 140595
+                size = 160680
             }
         }
     }
@@ -64,10 +64,21 @@
         }
     }
     s:STATE_SIX_COLONIES = {
-        region_state:TRU = {
+        region_state:SUN = {
+            create_pop = {
+                culture = thruitt
+                religion = bezism
+                size = 3128
+            }
             create_pop = {
                 culture = truidencian
-                size = 145487
+                religion = bezism
+                size = 140793
+            }
+            create_pop = {
+                culture = melian
+                religion = bezism
+                size = 1564
             }
         }
     }
@@ -76,11 +87,11 @@
             create_pop = {
                 culture = thruitt
                 religion = bezism
-                size = 71064
+                size = 91368
             }
             create_pop = {
                 culture = meracydian
-                size = 30456
+                size = 10152
             }
         }
     }
@@ -89,12 +100,12 @@
             create_pop = {
                 culture = thruitt
                 religion = bezism
-                size = 11463
+                size = 3698
             }
             create_pop = {
                 culture = truidencian
                 religion = bezism
-                size = 103174
+                size = 110940
             }
         }
     }
@@ -150,16 +161,16 @@
             create_pop = {
                 culture = thruitt
                 religion = bezism
-                size = 27543
+                size = 12241
             }
             create_pop = {
                 culture = truidencian
                 religion = bezism
-                size = 27543
+                size = 18362
             }
             create_pop = {
                 culture = gensokyojin
-                size = 220349
+                size = 244832
             }
         }
     }
@@ -370,16 +381,24 @@
     s:STATE_MELIA = {
         region_state:DAN = {
             create_pop = {
+                culture = melian
+                size = 415210
+            }
+            create_pop = {
                 culture = danzilonan
-                size = 593158
+                size = 177947
             }
         }
     }
     s:STATE_UPPER_MELIA = {
         region_state:DAN = {
             create_pop = {
+                culture = melian
+                size = 49190
+            }
+            create_pop = {
                 culture = danzilonan
-                size = 163967
+                size = 114776
             }
         }
     }
@@ -434,15 +453,15 @@
     s:STATE_WOLKEN = {
         region_state:WOL = {
             create_pop = {
-                culture = examplish
+                culture = wolkish
                 size = 356793
             }
         }
     }
     s:STATE_WOLKEN_ISLANDS = {
-        region_state:WOL = {
+        region_state:SUN = {
             create_pop = {
-                culture = examplish
+                culture = wolkish
                 size = 33535
             }
         }

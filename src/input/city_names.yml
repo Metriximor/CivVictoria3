@@ -31,6 +31,7 @@ STATE_PORTUCALE:
 STATE_NIDAROS:
   mine: Fox's Landing
   farm: Soria Moria
+  wood: Bogavarta
 STATE_HYLDOR:
   city: Andeon
 STATE_AZORES:
@@ -39,3 +40,9 @@ STATE_AZORES:
   port: Portas do Mar
   mine: Algar do Carvão
   farm: Quinta das vacas
+STATE_STATE_SOUTH_MELIA:
+  city: Cluj
+  wood: Cluj Woods
+  port: Cluj Port
+  mine: Cluj Mine
+  farm: Cluj Farm

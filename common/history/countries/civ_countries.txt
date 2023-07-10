@@ -249,6 +249,18 @@
         activate_law = law_type:law_majority_oldfriends
         activate_law = law_type:law_simple_legal_system
 	}
+	c:SUN = {
+		effect_starting_technology_tier_2_tech = yes
+
+		activate_law = law_type:law_mixed_economy
+		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_proportional_taxation
+        activate_law = law_type:law_disarmed_nation
+        activate_law = law_type:law_majority_oldfriends
+        activate_law = law_type:law_simple_legal_system
+	}
 	c:EXA = {
 		effect_starting_technology_tier_5_tech = yes
 

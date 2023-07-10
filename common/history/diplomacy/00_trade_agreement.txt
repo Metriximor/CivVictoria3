@@ -8,7 +8,7 @@
 	c:NAR = {
 		create_diplomatic_pact = {
 			country = c:DAL
-			type = alliance
+			type = trade_agreement
 		}
 	}
 }

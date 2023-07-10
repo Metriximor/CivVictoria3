@@ -19,7 +19,6 @@
       "STATE_SNOWPEAK",
       "STATE_FLATAGRAS",
       "STATE_SORLAND",
-      "STATE_SIX_COLONIES",
       "STATE_OUTER_NIDAROS"
    ],
    "GEN":[
@@ -52,8 +51,7 @@
       "STATE_UPPER_MELIA"
    ],
    "WOL":[
-      "STATE_WOLKEN",
-      "STATE_WOLKEN_ISLANDS"
+      "STATE_WOLKEN"
    ],
    "MER":[
       "STATE_NORTHERN_MERY",
@@ -274,5 +272,9 @@
       "STATE_DALGON_CAPITAL",
       "STATE_DALGON_TAIGA",
       "STATE_DALGON_FOREST"
+   ],
+   "SUN":[
+      "STATE_SIX_COLONIES",
+      "STATE_WOLKEN_ISLANDS"
    ]
 }

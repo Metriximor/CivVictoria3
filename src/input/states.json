@@ -85,12 +85,14 @@
    ],
    "DUS":[
       "STATE_DUSKWOOD",
-      "STATE_YOATHL_SOUTH_ARID",
       "STATE_YOAHTL_MISSING"
    ],
    "CAP":[
       "STATE_YOATHL_NORTH_PLAINS",
       "STATE_YOATHL_SOUTH_PLAINS"
+   ],
+   "RAU":[
+      "STATE_YOATHL_SOUTH_ARID"
    ],
    "ROZ":[
       "STATE_ROZIA"

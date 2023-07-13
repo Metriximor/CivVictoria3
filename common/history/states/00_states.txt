@@ -1311,7 +1311,7 @@
     }
     s:STATE_YOATHL_SOUTH_ARID = {
         create_state = {
-            country = c:DUS
+            country = c:RAU
             owned_provinces = { x3FFEE8 x50E9D9 x51F0F7 x74F89B x75CFCF x8B81F9 x8EAFD7 x90E5E2 x92D5FC x93AFDF x94ADE4 x97C8F8 x9BA6D8 xA3D7E2 xA6E189 xA7EEF6 xABFD5E xAEB298 xB4A3FE xB985FD xB9A8BE xC3DCF9 xC4F07F xC9E75F xCCD3A3 xCEBFE7 xD170D5 xDDF1A6 xE556E4 xEBA7DF xEFDE94 }
         }
     }

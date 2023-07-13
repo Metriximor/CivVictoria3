@@ -307,13 +307,15 @@ KHA = {
 	tier = kingdom
 	cultures = { examplish }
 }
+
 DUS = {
 	capital = STATE_DUSKWOOD
 	color = rgb { 94 172 41 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { examplish }
+	cultures = { lambatan }
 }
+
 CAP = {
 	capital = STATE_YOATHL_NORTH_PLAINS
 	color = rgb { 44 199 238 }
@@ -321,10 +323,27 @@ CAP = {
 	tier = principality
 	cultures = { examplish }
 }
+
 LLO = {
 	capital = STATE_YOATHL_EAST_JUNGLE
 	color = rgb { 202 125 124 }
-	country_type = recognized
+	country_type = decentralized
 	tier = principality
 	cultures = { examplish }
+}
+
+RAU = {
+	capital = STATE_YOATHL_SOUTH_ARID
+	color = rgb { 202 125 124 }
+	country_type = decentralized
+	tier = principality
+	cultures = { examplish }
+}
+
+REU = {
+	capital = STATE_DUSKWOOD
+	color = rgb { 94 172 41 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { examplish lamtatan }
 }

@@ -1810,7 +1810,7 @@
     s:STATE_DUSKWOOD = {
         region_state:DUS = {
             create_pop = {
-                culture = examplish
+                culture = lambatan
                 size = 594654
             }
         }
@@ -1848,7 +1848,7 @@
         }
     }
     s:STATE_YOATHL_SOUTH_ARID = {
-        region_state:DUS = {
+        region_state:RAU = {
             create_pop = {
                 culture = examplish
                 size = 123003
@@ -1874,7 +1874,7 @@
     s:STATE_YOAHTL_MISSING = {
         region_state:DUS = {
             create_pop = {
-                culture = examplish
+                culture = lambatan
                 size = 258384
             }
         }

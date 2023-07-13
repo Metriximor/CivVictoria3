@@ -150,3 +150,20 @@ ALE = {
 		}
 	}
 }
+REU = {
+	states = {
+		STATE_DUSKWOOD
+		STATE_YOATHL_SOUTH_ARID
+		STATE_KHAGANATE
+		STATE_YOAHTL_MISSING
+		STATE_YOATHL_SOUTH_MESA
+	}
+	required_states_fraction = 0.75
+	ai_will_do = { always = no }	
+	possible = {
+		OR = {
+			country_has_primary_culture = cu:examplish
+			country_has_primary_culture = cu:lambatan
+		}
+	}
+}

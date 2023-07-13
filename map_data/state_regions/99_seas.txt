@@ -96,7 +96,7 @@ STATE_ACHELOUS_LAKE = {
 
 STATE_YOAHTL_LAKE = {
     id = 3020
-    provinces = { x7BB9FB }
+    provinces = { x7BB9FB xFC56E6 }
     impassable = { x7BB9FB }
 }
 
@@ -115,6 +115,7 @@ STATE_TOPHER_LAKE = {
 STATE_LINDOR_LAKE = {
     id = 3023
     provinces = { x0C4903 }
-    impassable = {}
+    impassable = {
+    }
 }
 

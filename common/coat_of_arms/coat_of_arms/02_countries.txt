@@ -1445,4 +1445,44 @@ IMP_dictatorial = {
 		instance = { position = { 0.6 0.5 } scale = { 0.2 0.6 } rotation = 90 }
 	}
 }
+DUS = {
+	pattern = "pattern_per_bend_senester.dds"
+	color1 = "augustan_red"
+	color2 = "augustan_blue"
+	colored_emblem = {
+		texture = "ce_canton.dds"
+		color1 = "augustan_red"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+}
+CAP = {
+	pattern = "pattern_per_bend_senester.dds"
+	color1 = "augustan_red"
+	color2 = "augustan_blue"
+	colored_emblem = {
+		texture = "ce_canton.dds"
+		color1 = "augustan_red"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+}
+LLO = {
+	pattern = "pattern_per_bend_senester.dds"
+	color1 = "augustan_red"
+	color2 = "augustan_blue"
+	colored_emblem = {
+		texture = "ce_canton.dds"
+		color1 = "augustan_red"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+}
+KHA = {
+	pattern = "pattern_per_bend_senester.dds"
+	color1 = "augustan_red"
+	color2 = "augustan_blue"
+	colored_emblem = {
+		texture = "ce_canton.dds"
+		color1 = "augustan_red"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+}
 #####################

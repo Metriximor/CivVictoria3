@@ -562,7 +562,7 @@
         region_state:YOA = {
             create_pop = {
                 culture = yoahtlan
-                size = 363638
+                size = 342034
             }
         }
     }
@@ -594,7 +594,7 @@
         region_state:YOA = {
             create_pop = {
                 culture = yoahtlan
-                size = 20300
+                size = 30646
             }
         }
     }
@@ -618,7 +618,7 @@
         region_state:KAL = {
             create_pop = {
                 culture = kallosian
-                size = 342051
+                size = 337899
             }
         }
     }
@@ -674,7 +674,7 @@
         region_state:KAL = {
             create_pop = {
                 culture = kallosian
-                size = 228200
+                size = 232352
             }
         }
     }
@@ -1110,7 +1110,7 @@
         region_state:IRI = {
             create_pop = {
                 culture = irian
-                size = 304530
+                size = 305666
             }
         }
     }
@@ -1158,7 +1158,7 @@
         region_state:IRI = {
             create_pop = {
                 culture = irian
-                size = 150869
+                size = 161533
             }
         }
     }
@@ -1190,7 +1190,7 @@
         region_state:IRI = {
             create_pop = {
                 culture = irian
-                size = 291132
+                size = 282414
             }
         }
     }
@@ -1230,7 +1230,7 @@
         region_state:IRI = {
             create_pop = {
                 culture = irian
-                size = 171838
+                size = 165584
             }
         }
     }
@@ -1638,7 +1638,7 @@
         region_state:TER = {
             create_pop = {
                 culture = examplish
-                size = 372805
+                size = 319325
             }
         }
     }
@@ -1731,7 +1731,7 @@
         region_state:ILA = {
             create_pop = {
                 culture = kayev
-                size = 236551
+                size = 222005
             }
         }
     }
@@ -1796,6 +1796,94 @@
             create_pop = {
                 culture = examplish
                 size = 118873
+            }
+        }
+    }
+    s:STATE_KHAGANATE = {
+        region_state:KHA = {
+            create_pop = {
+                culture = examplish
+                size = 205484
+            }
+        }
+    }
+    s:STATE_DUSKWOOD = {
+        region_state:DUS = {
+            create_pop = {
+                culture = examplish
+                size = 594654
+            }
+        }
+    }
+    s:STATE_YOAHTL_ROOVED_FOREST = {
+        region_state:YOA = {
+            create_pop = {
+                culture = yoahtlan
+                size = 345245
+            }
+        }
+    }
+    s:STATE_YOATHL_NORTH_PLAINS = {
+        region_state:CAP = {
+            create_pop = {
+                culture = examplish
+                size = 316476
+            }
+        }
+    }
+    s:STATE_YOATHL_SOUTH_PLAINS = {
+        region_state:CAP = {
+            create_pop = {
+                culture = examplish
+                size = 148794
+            }
+        }
+    }
+    s:STATE_YOATHL_SOUTH_MESA = {
+        region_state:KHA = {
+            create_pop = {
+                culture = examplish
+                size = 64573
+            }
+        }
+    }
+    s:STATE_YOATHL_SOUTH_ARID = {
+        region_state:DUS = {
+            create_pop = {
+                culture = examplish
+                size = 123003
+            }
+        }
+    }
+    s:STATE_YOATHL_EAST_JUNGLE = {
+        region_state:LLO = {
+            create_pop = {
+                culture = examplish
+                size = 565420
+            }
+        }
+    }
+    s:STATE_CALW_EAST = {
+        region_state:CLW = {
+            create_pop = {
+                culture = augustan
+                size = 179238
+            }
+        }
+    }
+    s:STATE_YOAHTL_MISSING = {
+        region_state:DUS = {
+            create_pop = {
+                culture = examplish
+                size = 258384
+            }
+        }
+    }
+    s:STATE_YOAHTL_MISSING2 = {
+        region_state:YOA = {
+            create_pop = {
+                culture = yoahtlan
+                size = 339592
             }
         }
     }

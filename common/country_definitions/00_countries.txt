@@ -38,7 +38,7 @@ LAM = {
 	country_type = recognized
 	tier = kingdom
 	cultures = { lambatan }
-	capital = STATE_EAST_LAMBAT_CITY
+	capital = STATE_WEST_LAMBAT_CITY
 }
 
 DAN = {
@@ -78,7 +78,7 @@ YOA = {
 	country_type = recognized
 	tier = empire
 	cultures = { yoahtlan resimerian }
-	capital = STATE_YOAHTL_HOMELANDS
+	capital = STATE_ALTEPETL
 }
 
 ROZ = {
@@ -299,4 +299,32 @@ ALE = {
 	tier = hegemony
 	cultures = { thruitt truidencian gensokyojin meracydian melian danzilonan cortesian naran septembrian augustan wolkish transylvanian }
 	capital = STATE_MOUNT_AUGUSTA
+}
+KHA = {
+	capital = STATE_KHAGANATE
+	color = rgb { 101 27 11 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { examplish }
+}
+DUS = {
+	capital = STATE_DUSKWOOD
+	color = rgb { 94 172 41 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { examplish }
+}
+CAP = {
+	capital = STATE_YOATHL_NORTH_PLAINS
+	color = rgb { 44 199 238 }
+	country_type = recognized
+	tier = principality
+	cultures = { examplish }
+}
+LLO = {
+	capital = STATE_YOATHL_EAST_JUNGLE
+	color = rgb { 202 125 124 }
+	country_type = recognized
+	tier = principality
+	cultures = { examplish }
 }

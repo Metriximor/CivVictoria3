@@ -1100,13 +1100,7 @@
         }
     }
     s:STATE_YOATHL_EAST_JUNGLE = {
-        region_state:LLO = {
-            create_building = {
-                building = building_government_administration
-                level = 1
-                reserves = 1
-                activate_production_methods = { pm_simple_organization_government_administration }
-            }
+        region_state:EXA = {
         }
     }
     s:STATE_CALW_EAST = {
@@ -1119,6 +1113,14 @@
     }
     s:STATE_YOAHTL_MISSING2 = {
         region_state:YOA = {
+        }
+    }
+    s:STATE_KHAN_BORDER = {
+        region_state:KHA = {
+        }
+    }
+    s:STATE_LUSITAN_EXCLAVE = {
+        region_state:LUS = {
         }
     }
 }

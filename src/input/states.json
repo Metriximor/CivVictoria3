@@ -11,7 +11,8 @@
       "STATE_LUSITAN_PLAINS",
       "STATE_CIV_ALENTEJO",
       "STATE_LUSITAN_PLATEAUS",
-      "STATE_EBORA"
+      "STATE_EBORA",
+      "STATE_LUSITAN_EXCLAVE"
    ],
    "TRU":[
       "STATE_NIDAROS",
@@ -78,9 +79,10 @@
    ],
    "KHA":[
       "STATE_KHAGANATE",
-      "STATE_YOATHL_SOUTH_MESA"
+      "STATE_YOATHL_SOUTH_MESA",
+      "STATE_KHAN_BORDER"
    ],
-   "LLO":[
+   "EXA":[
       "STATE_YOATHL_EAST_JUNGLE"
    ],
    "DUS":[

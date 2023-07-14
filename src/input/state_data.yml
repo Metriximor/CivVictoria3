@@ -231,7 +231,7 @@ STATE_MUMEITA:
   - gensokyojin
   population: 552680
 STATE_YAMATO_KEN:
-  population: 171968
+  population: 169240
 STATE_DREAMLAND:
   population: 110114
 STATE_LUSITAN_PLAINS:
@@ -268,7 +268,7 @@ STATE_ALTEPETL:
 STATE_SOUTHBURY:
   population: 284658
 STATE_KAXITL:
-  population: 342034
+  population: 328680
 STATE_YOAHTL_EASTERN_FRONTIER:
   population: 280526
 STATE_RESIMERE:
@@ -284,7 +284,7 @@ STATE_RESIMERIAN_FRONTIER:
 STATE_MINI_YOAHTL:
   population: 30646
 STATE_MINI_YOAHTL_FRONTIER:
-  population: 115541
+  population: 115533
 STATE_ROZIA:
   population: 37213
 STATE_UPPER_MELIA:
@@ -313,7 +313,7 @@ STATE_ZATOKA:
   naval_exit_id: STATE_SEA_OF_SNEED
   population: 261981
 STATE_GAZEBO:
-  population: 190450
+  population: 193051
 STATE_KROVIDENCIA:
   population: 232352
 STATE_ARCTIC_AND_EAST_TITAN:
@@ -337,7 +337,7 @@ STATE_GLATTEIS:
   population: 71193
 STATE_EAST_MOUNT_AUGUSTA:
   naval_exit_id: STATE_STONY_SEA
-  population: 439352
+  population: 448437
   pops:
   - culture: augustan
     ratio: 7
@@ -348,7 +348,7 @@ STATE_EXCLAVE_MOUNT_AUGUSTA:
   population: 356504
 STATE_CALW:
   naval_exit_id: STATE_MIDDLE_OCEAN
-  population: 199163
+  population: 203208
 STATE_CAWL_EXCLAVE:
   population: 40297
 STATE_DOOM_CITY_NORTH:
@@ -625,9 +625,9 @@ STATE_DALGON_SOUTH_TAIGA:
 STATE_DALGON_MOUNTAINS:
   population: 118873
 STATE_KHAGANATE:
-  population: 205484
+  population: 199378
 STATE_DUSKWOOD:
-  population: 594654
+  population: 611056
 STATE_YOAHTL_ROOVED_FOREST:
   population: 345245
 STATE_YOATHL_NORTH_PLAINS:
@@ -637,12 +637,16 @@ STATE_YOATHL_SOUTH_PLAINS:
 STATE_YOATHL_SOUTH_MESA:
   population: 64573
 STATE_YOATHL_SOUTH_ARID:
-  population: 123003
+  population: 126201
 STATE_YOATHL_EAST_JUNGLE:
   population: 565420
 STATE_CALW_EAST:
   population: 179238
 STATE_YOAHTL_MISSING:
-  population: 258384
+  population: 213430
 STATE_YOAHTL_MISSING2:
-  population: 339592
+  population: 342298
+STATE_KHAN_BORDER:
+  population: 58326
+STATE_LUSITAN_EXCLAVE:
+  population: 37284

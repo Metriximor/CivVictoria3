@@ -186,7 +186,7 @@
         region_state:GEN = {
             create_pop = {
                 culture = gensokyojin
-                size = 171968
+                size = 169240
             }
         }
     }
@@ -562,7 +562,7 @@
         region_state:YOA = {
             create_pop = {
                 culture = yoahtlan
-                size = 342034
+                size = 328680
             }
         }
     }
@@ -602,7 +602,7 @@
         region_state:YOA = {
             create_pop = {
                 culture = yoahtlan
-                size = 115541
+                size = 115533
             }
         }
     }
@@ -666,7 +666,7 @@
         region_state:KAL = {
             create_pop = {
                 culture = kallosian
-                size = 190450
+                size = 193051
             }
         }
     }
@@ -730,11 +730,11 @@
         region_state:MTA = {
             create_pop = {
                 culture = augustan
-                size = 307546
+                size = 313905
             }
             create_pop = {
                 culture = septembrian
-                size = 131805
+                size = 134531
             }
         }
     }
@@ -750,7 +750,7 @@
         region_state:CLW = {
             create_pop = {
                 culture = augustan
-                size = 199163
+                size = 203208
             }
         }
     }
@@ -1803,7 +1803,7 @@
         region_state:KHA = {
             create_pop = {
                 culture = examplish
-                size = 205484
+                size = 199378
             }
         }
     }
@@ -1811,7 +1811,7 @@
         region_state:DUS = {
             create_pop = {
                 culture = lambatan
-                size = 594654
+                size = 611056
             }
         }
     }
@@ -1851,12 +1851,12 @@
         region_state:RAU = {
             create_pop = {
                 culture = examplish
-                size = 123003
+                size = 126201
             }
         }
     }
     s:STATE_YOATHL_EAST_JUNGLE = {
-        region_state:LLO = {
+        region_state:EXA = {
             create_pop = {
                 culture = examplish
                 size = 565420
@@ -1875,7 +1875,7 @@
         region_state:DUS = {
             create_pop = {
                 culture = lambatan
-                size = 258384
+                size = 213430
             }
         }
     }
@@ -1883,7 +1883,23 @@
         region_state:YOA = {
             create_pop = {
                 culture = yoahtlan
-                size = 339592
+                size = 342298
+            }
+        }
+    }
+    s:STATE_KHAN_BORDER = {
+        region_state:KHA = {
+            create_pop = {
+                culture = examplish
+                size = 58326
+            }
+        }
+    }
+    s:STATE_LUSITAN_EXCLAVE = {
+        region_state:LUS = {
+            create_pop = {
+                culture = lusitan
+                size = 37284
             }
         }
     }

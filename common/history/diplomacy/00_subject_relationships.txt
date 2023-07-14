@@ -32,4 +32,10 @@
 			type = tributary
 		}
 	}
+	c:KHA = {
+		create_diplomatic_pact = {
+			country = c:RAU
+			type = puppet
+		}
+	}
 }

@@ -300,7 +300,8 @@ PAV = {
 PAV_empire = {
     pattern = "pattern_checkers_01.tga"
     color1 = "full_white"
-    color2 = rgb { 223 60 78 }
+    #color2 = rgb { 223 60 78 }
+    color2 = light_green
     # textured_emblem = {
         # texture = "te_coa_pavia.dds"
 # }
@@ -1531,12 +1532,60 @@ RAU = {
 	}
 }
 REU = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
+	pattern = "pattern_border_of_2_double.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	color3 = "red"
 	colored_emblem = {
-		texture = "ce_soyombo_modern.dds"
+		texture = "ce_stripe_center.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+		}
+		colored_emblem = {
+		texture = "ce_stripe_center.dds"
 		color1 = "red"
-		instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }
+		instance = { position = { 0.5 0.5 } scale = { 1 0.6 } }
+		}
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "full_black"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+		}
+	colored_emblem = {
+		#texture = "ce_rhombus.dds"
+		color1 = "yellow"
+		instance = { position = { 0 0.17 } scale = { 0.35 0.35 } }
+		}
+	colored_emblem = {
+		#texture = "ce_rhombus.dds"
+		color1 = "yellow"
+		instance = { position = { 0 0.83 } scale = { 0.35 0.35 } }
+		}
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "yellow"
+		instance = { position = { 0.18 0.5 } scale = { 0.35 0.35 } }
+	}
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "yellow"
+		instance = { position = { 0.82 0.5 } scale = { 0.35 0.35 } }
+	}
+	colored_emblem = {
+		texture = "ce_mongol_flame.dds"
+		color1 = "full_white"
+		color2 = "full_white"
+		instance = { position = { 0.5 0.24 } scale = { 0.26 0.26 } }
+		}
+	colored_emblem = {
+		texture = "ce_crescent_pale.dds"
+		color1 = "full_white"
+		instance = { position = { 0.5 0.6 } scale = { 0.6 0.5 } }
+		}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "full_white"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }
 	}
 }
 #####################

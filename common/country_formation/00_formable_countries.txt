@@ -157,13 +157,17 @@ REU = {
 		STATE_KHAGANATE
 		STATE_YOAHTL_MISSING
 		STATE_YOATHL_SOUTH_MESA
+		STATE_DUSKWOOD_EAST
+		STATE_DUSKWOOD_MOUNTAINS
+		STATE_DUSKWOOD_SWAMP
+		STATE_KHAN_BORDER
 	}
 	required_states_fraction = 0.75
 	ai_will_do = { always = no }	
 	possible = {
 		OR = {
-			country_has_primary_culture = cu:examplish
-			country_has_primary_culture = cu:lambatan
+			country_has_primary_culture = cu:duskish
+			country_has_primary_culture = cu:khanite
 		}
 	}
 }

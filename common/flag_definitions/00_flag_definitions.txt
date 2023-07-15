@@ -132,7 +132,18 @@ GRI = { # griffin
 		overlord_canton_scale = { 0.5 0.5 }
 		priority = 1
 		}
+	flag_definition = {
+		coa = GRI_republic
+		subject_canton = GRI_republic
+		allow_overlord_canton = no
+		coa_with_overlord_canton = GRI_republic
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 10
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
 	}
+}
 AMB = { # amboise
 	flag_definition = {
 		coa = AMB
@@ -253,6 +264,69 @@ LUS = { # lusitania
 		priority = 10
 		trigger = {
 			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+TRA = { # transylvania
+	flag_definition = {
+		coa = TRA
+		subject_canton = TRA
+		allow_overlord_canton = no
+		coa_with_overlord_canton = TRA
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 1
+		}
+	flag_definition = {
+		coa = TRA_monarchy
+		subject_canton = TRA_monarchy
+		allow_overlord_canton = no
+		coa_with_overlord_canton = TRA_monarchy
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 10
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+		}
+	flag_definition = {
+		coa = TRA_republic
+		subject_canton = TRA_republic
+		allow_overlord_canton = no
+		coa_with_overlord_canton = TRA_republic
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 20
+		trigger = {
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+}
+
+MTA = { # mta
+	flag_definition = {
+		coa = MTA
+		subject_canton = MTA
+		allow_overlord_canton = no
+		coa_with_overlord_canton = MTA
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 1
+		}
+	flag_definition = {
+		coa = MTA_csa
+		subject_canton = MTA_csa
+		allow_overlord_canton = no
+		coa_with_overlord_canton = MTA_csa
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 10
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	flag_definition = {
+		coa = MTA_mts
+		subject_canton = MTA_mts
+		allow_overlord_canton = no
+		coa_with_overlord_canton = MTA_mts
+		overlord_canton_scale = { 0.5 0.5 }
+		priority = 20
+		trigger = {
+			coa_def_secessionist_country_trigger = yes
 		}
 	}
 }

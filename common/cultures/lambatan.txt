@@ -121,7 +121,7 @@
 		Rodriguez
 		Santos
 	}
-	graphics = european
+	graphics = south_american
 	ethnicities = {
 		1 = minecrafter
 	}

@@ -11,7 +11,8 @@
       "STATE_LUSITAN_PLAINS",
       "STATE_CIV_ALENTEJO",
       "STATE_LUSITAN_PLATEAUS",
-      "STATE_EBORA"
+      "STATE_EBORA",
+      "STATE_LUSITAN_EXCLAVE"
    ],
    "TRU":[
       "STATE_NIDAROS",
@@ -19,7 +20,6 @@
       "STATE_SNOWPEAK",
       "STATE_FLATAGRAS",
       "STATE_SORLAND",
-      "STATE_SIX_COLONIES",
       "STATE_OUTER_NIDAROS"
    ],
    "GEN":[
@@ -52,8 +52,7 @@
       "STATE_UPPER_MELIA"
    ],
    "WOL":[
-      "STATE_WOLKEN",
-      "STATE_WOLKEN_ISLANDS"
+      "STATE_WOLKEN"
    ],
    "MER":[
       "STATE_NORTHERN_MERY",
@@ -74,7 +73,28 @@
       "STATE_CZECHIA",
       "STATE_WESTBURY",
       "STATE_KOBYLINSKI",
-      "STATE_YOAHTL_HOMELANDS"
+      "STATE_YOAHTL_HOMELANDS",
+      "STATE_YOAHTL_ROOVED_FOREST",
+      "STATE_YOAHTL_MISSING2"
+   ],
+   "KHA":[
+      "STATE_KHAGANATE",
+      "STATE_YOATHL_SOUTH_MESA",
+      "STATE_KHAN_BORDER"
+   ],
+   "EXA":[
+      "STATE_YOATHL_EAST_JUNGLE"
+   ],
+   "DUS":[
+      "STATE_DUSKWOOD",
+      "STATE_YOAHTL_MISSING"
+   ],
+   "CAP":[
+      "STATE_YOATHL_NORTH_PLAINS",
+      "STATE_YOATHL_SOUTH_PLAINS"
+   ],
+   "RAU":[
+      "STATE_YOATHL_SOUTH_ARID"
    ],
    "ROZ":[
       "STATE_ROZIA"
@@ -100,7 +120,8 @@
    ],
    "CLW":[
       "STATE_CALW",
-      "STATE_CAWL_EXCLAVE"
+      "STATE_CAWL_EXCLAVE",
+      "STATE_CALW_EAST"
    ],
    "DOM":[
       "STATE_DOOM_CITY_NORTH",
@@ -274,5 +295,9 @@
       "STATE_DALGON_CAPITAL",
       "STATE_DALGON_TAIGA",
       "STATE_DALGON_FOREST"
+   ],
+   "SUN":[
+      "STATE_SIX_COLONIES",
+      "STATE_WOLKEN_ISLANDS"
    ]
 }

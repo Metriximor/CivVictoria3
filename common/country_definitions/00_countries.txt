@@ -38,7 +38,7 @@ LAM = {
 	country_type = recognized
 	tier = kingdom
 	cultures = { lambatan }
-	capital = STATE_EAST_LAMBAT_CITY
+	capital = STATE_WEST_LAMBAT_CITY
 }
 
 DAN = {
@@ -53,7 +53,7 @@ WOL = {
 	color = "wolken_green"
 	country_type = recognized
 	tier = principality
-	cultures = { examplish }
+	cultures = { wolkish }
 	capital = STATE_WOLKEN
 }
 
@@ -78,7 +78,7 @@ YOA = {
 	country_type = recognized
 	tier = empire
 	cultures = { yoahtlan resimerian }
-	capital = STATE_YOAHTL_HOMELANDS
+	capital = STATE_ALTEPETL
 }
 
 ROZ = {
@@ -178,7 +178,7 @@ MED = {
 	color = "lusitan_shield_blue"
 	country_type = recognized
 	tier = hegemony
-	cultures = { lusitan thruitt truidencian gensokyojin danzilonan irian meracydian }
+	cultures = { lusitan thruitt truidencian gensokyojin danzilonan irian meracydian melian wolkish kayev mery_culture }
 }
 
 IRI = {
@@ -275,4 +275,67 @@ DAL = {
 	country_type = recognized
 	tier = kingdom
 	cultures = { examplish }
+}
+
+SUN = {
+	capital = STATE_SIX_COLONIES
+	color = rgb { 238 93 108 }
+	country_type = recognized
+	tier = principality
+	cultures = { truidencian }
+}
+
+MEL = {
+	capital = STATE_MELIA
+	color = rgb { 255 198 44 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { melian }
+}
+
+ALE = {
+	color = rgb { 206 132 0 }
+	country_type = recognized
+	tier = hegemony
+	cultures = { thruitt truidencian gensokyojin meracydian melian danzilonan cortesian naran septembrian augustan wolkish transylvanian }
+	capital = STATE_MOUNT_AUGUSTA
+}
+KHA = {
+	capital = STATE_KHAGANATE
+	color = rgb { 101 27 11 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { examplish }
+}
+
+DUS = {
+	capital = STATE_DUSKWOOD
+	color = rgb { 94 172 41 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { lambatan }
+}
+
+CAP = {
+	capital = STATE_YOATHL_NORTH_PLAINS
+	color = rgb { 44 199 238 }
+	country_type = recognized
+	tier = principality
+	cultures = { examplish }
+}
+
+RAU = {
+	capital = STATE_YOATHL_SOUTH_ARID
+	color = rgb { 202 125 124 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { examplish }
+}
+
+REU = {
+	capital = STATE_DUSKWOOD
+	color = rgb { 94 172 41 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { examplish lamtatan }
 }

@@ -26,7 +26,13 @@
         }
     }
     s:STATE_SIX_COLONIES = {
-        region_state:TRU = {
+        region_state:SUN = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
         }
     }
     s:STATE_OUTLAND = {
@@ -127,16 +133,16 @@
     }
     s:STATE_EAST_LAMBAT_CITY = {
         region_state:LAM = {
+        }
+    }
+    s:STATE_WEST_LAMBAT_CITY = {
+        region_state:LAM = {
             create_building = {
                 building = building_government_administration
                 level = 1
                 reserves = 1
                 activate_production_methods = { pm_simple_organization_government_administration }
             }
-        }
-    }
-    s:STATE_WEST_LAMBAT_CITY = {
-        region_state:LAM = {
         }
     }
     s:STATE_VALLE_OCCIDENTAL = {
@@ -195,6 +201,12 @@
     }
     s:STATE_MELIA = {
         region_state:DAN = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
         }
     }
     s:STATE_UPPER_MELIA = {
@@ -242,7 +254,7 @@
         }
     }
     s:STATE_WOLKEN_ISLANDS = {
-        region_state:WOL = {
+        region_state:SUN = {
             create_building = {
                 building = building_government_administration
                 level = 1
@@ -271,12 +283,6 @@
     }
     s:STATE_YOAHTL_HOMELANDS = {
         region_state:YOA = {
-            create_building = {
-                building = building_government_administration
-                level = 1
-                reserves = 1
-                activate_production_methods = { pm_simple_organization_government_administration }
-            }
         }
     }
     s:STATE_KOBYLINSKI = {
@@ -301,6 +307,12 @@
     }
     s:STATE_ALTEPETL = {
         region_state:YOA = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
         }
     }
     s:STATE_SOUTHBURY = {
@@ -1033,6 +1045,82 @@
     }
     s:STATE_DALGON_MOUNTAINS = {
         region_state:DAL = {
+        }
+    }
+    s:STATE_KHAGANATE = {
+        region_state:KHA = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_DUSKWOOD = {
+        region_state:DUS = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_YOAHTL_ROOVED_FOREST = {
+        region_state:YOA = {
+        }
+    }
+    s:STATE_YOATHL_NORTH_PLAINS = {
+        region_state:CAP = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_YOATHL_SOUTH_PLAINS = {
+        region_state:CAP = {
+        }
+    }
+    s:STATE_YOATHL_SOUTH_MESA = {
+        region_state:KHA = {
+        }
+    }
+    s:STATE_YOATHL_SOUTH_ARID = {
+        region_state:RAU = {
+            create_building = {
+                building = building_government_administration
+                level = 1
+                reserves = 1
+                activate_production_methods = { pm_simple_organization_government_administration }
+            }
+        }
+    }
+    s:STATE_YOATHL_EAST_JUNGLE = {
+        region_state:EXA = {
+        }
+    }
+    s:STATE_CALW_EAST = {
+        region_state:CLW = {
+        }
+    }
+    s:STATE_YOAHTL_MISSING = {
+        region_state:DUS = {
+        }
+    }
+    s:STATE_YOAHTL_MISSING2 = {
+        region_state:YOA = {
+        }
+    }
+    s:STATE_KHAN_BORDER = {
+        region_state:KHA = {
+        }
+    }
+    s:STATE_LUSITAN_EXCLAVE = {
+        region_state:LUS = {
         }
     }
 }

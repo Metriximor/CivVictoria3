@@ -282,7 +282,7 @@ STATE_RESIMERIAN_FRONTIER:
   - culture: resimerian
     ratio: 1
 STATE_MINI_YOAHTL:
-  population: 30646
+  population: 34730
 STATE_MINI_YOAHTL_FRONTIER:
   population: 115533
 STATE_ROZIA:
@@ -350,7 +350,7 @@ STATE_CALW:
   naval_exit_id: STATE_MIDDLE_OCEAN
   population: 203208
 STATE_CAWL_EXCLAVE:
-  population: 40297
+  population: 38881
 STATE_DOOM_CITY_NORTH:
   population: 624008
 STATE_DOOM_CITY_SOUTH:
@@ -607,9 +607,9 @@ STATE_SOUTHDARK_KYANROJA:
 STATE_JUNGLE_KYANROJA:
   population: 174339
 STATE_NORTHDARK_KYANROJA:
-  population: 222005
+  population: 222551
 STATE_ARID_KYANROJA:
-  population: 86438
+  population: 85622
 STATE_DESERT_KYANROJA:
   population: 95165
 STATE_DALGON_FOREST:
@@ -625,9 +625,9 @@ STATE_DALGON_SOUTH_TAIGA:
 STATE_DALGON_MOUNTAINS:
   population: 118873
 STATE_KHAGANATE:
-  population: 199378
+  population: 197514
 STATE_DUSKWOOD:
-  population: 611056
+  population: 279190
 STATE_YOAHTL_ROOVED_FOREST:
   population: 345245
 STATE_YOATHL_NORTH_PLAINS:
@@ -635,18 +635,24 @@ STATE_YOATHL_NORTH_PLAINS:
 STATE_YOATHL_SOUTH_PLAINS:
   population: 148794
 STATE_YOATHL_SOUTH_MESA:
-  population: 64573
+  population: 69739
 STATE_YOATHL_SOUTH_ARID:
-  population: 126201
+  population: 117766
 STATE_YOATHL_EAST_JUNGLE:
-  population: 565420
+  population: 547422
 STATE_CALW_EAST:
-  population: 179238
+  population: 179734
 STATE_YOAHTL_MISSING:
-  population: 213430
+  population: 218190
 STATE_YOAHTL_MISSING2:
-  population: 342298
+  population: 330120
 STATE_KHAN_BORDER:
-  population: 58326
+  population: 57868
 STATE_LUSITAN_EXCLAVE:
   population: 37284
+STATE_DUSKWOOD_EAST:
+  population: 161663
+STATE_DUSKWOOD_MOUNTAINS:
+  population: 123665
+STATE_DUSKWOOD_SWAMP:
+  population: 74714

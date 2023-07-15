@@ -594,7 +594,7 @@
         region_state:YOA = {
             create_pop = {
                 culture = yoahtlan
-                size = 30646
+                size = 34730
             }
         }
     }
@@ -758,7 +758,7 @@
         region_state:CLW = {
             create_pop = {
                 culture = augustan
-                size = 40297
+                size = 38881
             }
         }
     }
@@ -1731,7 +1731,7 @@
         region_state:ILA = {
             create_pop = {
                 culture = kayev
-                size = 222005
+                size = 222551
             }
         }
     }
@@ -1739,7 +1739,7 @@
         region_state:ILA = {
             create_pop = {
                 culture = kayev
-                size = 86438
+                size = 85622
             }
         }
     }
@@ -1802,16 +1802,16 @@
     s:STATE_KHAGANATE = {
         region_state:KHA = {
             create_pop = {
-                culture = examplish
-                size = 199378
+                culture = khanite
+                size = 197514
             }
         }
     }
     s:STATE_DUSKWOOD = {
         region_state:DUS = {
             create_pop = {
-                culture = lambatan
-                size = 611056
+                culture = duskish
+                size = 279190
             }
         }
     }
@@ -1842,16 +1842,16 @@
     s:STATE_YOATHL_SOUTH_MESA = {
         region_state:KHA = {
             create_pop = {
-                culture = examplish
-                size = 64573
+                culture = khanite
+                size = 69739
             }
         }
     }
     s:STATE_YOATHL_SOUTH_ARID = {
         region_state:RAU = {
             create_pop = {
-                culture = examplish
-                size = 126201
+                culture = khanite
+                size = 117766
             }
         }
     }
@@ -1859,7 +1859,7 @@
         region_state:EXA = {
             create_pop = {
                 culture = examplish
-                size = 565420
+                size = 547422
             }
         }
     }
@@ -1867,15 +1867,15 @@
         region_state:CLW = {
             create_pop = {
                 culture = augustan
-                size = 179238
+                size = 179734
             }
         }
     }
     s:STATE_YOAHTL_MISSING = {
         region_state:DUS = {
             create_pop = {
-                culture = lambatan
-                size = 213430
+                culture = duskish
+                size = 218190
             }
         }
     }
@@ -1883,15 +1883,15 @@
         region_state:YOA = {
             create_pop = {
                 culture = yoahtlan
-                size = 342298
+                size = 330120
             }
         }
     }
     s:STATE_KHAN_BORDER = {
         region_state:KHA = {
             create_pop = {
-                culture = examplish
-                size = 58326
+                culture = khanite
+                size = 57868
             }
         }
     }
@@ -1900,6 +1900,30 @@
             create_pop = {
                 culture = lusitan
                 size = 37284
+            }
+        }
+    }
+    s:STATE_DUSKWOOD_EAST = {
+        region_state:DUS = {
+            create_pop = {
+                culture = duskish
+                size = 161663
+            }
+        }
+    }
+    s:STATE_DUSKWOOD_MOUNTAINS = {
+        region_state:DUS = {
+            create_pop = {
+                culture = duskish
+                size = 123665
+            }
+        }
+    }
+    s:STATE_DUSKWOOD_SWAMP = {
+        region_state:DUS = {
+            create_pop = {
+                culture = duskish
+                size = 74714
             }
         }
     }

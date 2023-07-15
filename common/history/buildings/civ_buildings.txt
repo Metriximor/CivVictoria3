@@ -1123,5 +1123,17 @@
         region_state:LUS = {
         }
     }
+    s:STATE_DUSKWOOD_EAST = {
+        region_state:DUS = {
+        }
+    }
+    s:STATE_DUSKWOOD_MOUNTAINS = {
+        region_state:DUS = {
+        }
+    }
+    s:STATE_DUSKWOOD_SWAMP = {
+        region_state:DUS = {
+        }
+    }
 }
 

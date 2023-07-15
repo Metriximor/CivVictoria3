@@ -305,7 +305,7 @@ KHA = {
 	color = rgb { 101 27 11 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { examplish }
+	cultures = { khanite }
 }
 
 DUS = {
@@ -313,7 +313,7 @@ DUS = {
 	color = rgb { 94 172 41 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { lambatan }
+	cultures = { duskish lambatan }
 }
 
 CAP = {
@@ -329,7 +329,7 @@ RAU = {
 	color = rgb { 202 125 124 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { examplish }
+	cultures = { khanite duskish }
 }
 
 REU = {
@@ -337,5 +337,5 @@ REU = {
 	color = rgb { 94 172 41 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { examplish lamtatan }
+	cultures = { duskish khanite }
 }

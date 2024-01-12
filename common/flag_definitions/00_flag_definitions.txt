@@ -330,3 +330,24 @@ MTA = { # mta
 		}
 	}
 }
+SUN = { # Sunrise
+	flag_definition = {
+		coa = SUN
+		subject_canton = SUN
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = SUN
+		overlord_canton_scale = { 0.337 0.337 }
+		priority = 1
+	}
+		flag_definition = {
+		coa = SUN_DPR
+		subject_canton = SUN_DPR
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = SUN_DPR 
+		overlord_canton_scale = { 0.337 0.337 }
+		priority = 10
+		trigger = {
+			coa_def_communist_flag_trigger = yes 
+		}
+	}
+}

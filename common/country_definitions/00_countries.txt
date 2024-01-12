@@ -68,7 +68,7 @@ MER = {
 KOV = {
 	color = "lusitan_shield_blue"
 	country_type = recognized
-	tier = hegemony
+	tier = empire
 	cultures = { thruitt truidencian gensokyojin meracydian }
 	capital = STATE_NIDAROS
 }

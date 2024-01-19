@@ -1754,7 +1754,7 @@
     s:STATE_DALGON_FOREST = {
         region_state:DAL = {
             create_pop = {
-                culture = examplish
+                culture = dalgonese
                 size = 179692
             }
         }
@@ -1762,7 +1762,7 @@
     s:STATE_DALGON_TAIGA = {
         region_state:DAL = {
             create_pop = {
-                culture = examplish
+                culture = dalgonese
                 size = 165365
             }
         }
@@ -1770,7 +1770,7 @@
     s:STATE_DALGON_CAPITAL = {
         region_state:DAL = {
             create_pop = {
-                culture = examplish
+                culture = dalgonese
                 size = 145302
             }
         }
@@ -1778,7 +1778,7 @@
     s:STATE_DALGON_SNOW = {
         region_state:DAL = {
             create_pop = {
-                culture = examplish
+                culture = dalgonese
                 size = 172747
             }
         }
@@ -1786,7 +1786,7 @@
     s:STATE_DALGON_SOUTH_TAIGA = {
         region_state:DAL = {
             create_pop = {
-                culture = examplish
+                culture = dalgonese
                 size = 114244
             }
         }
@@ -1794,7 +1794,7 @@
     s:STATE_DALGON_MOUNTAINS = {
         region_state:DAL = {
             create_pop = {
-                culture = examplish
+                culture = dalgonese
                 size = 118873
             }
         }

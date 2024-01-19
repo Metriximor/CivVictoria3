@@ -274,7 +274,7 @@ DAL = {
 	color = rgb { 127 0 0 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { examplish }
+	cultures = { dalgonese }
 }
 
 SUN = {
@@ -297,7 +297,7 @@ ALE = {
 	color = rgb { 206 132 0 }
 	country_type = recognized
 	tier = hegemony
-	cultures = { thruitt truidencian gensokyojin meracydian melian danzilonan cortesian naran septembrian augustan wolkish transylvanian }
+	cultures = { thruitt truidencian gensokyojin dalgonese meracydian melian danzilonan cortesian naran septembrian augustan wolkish transylvanian }
 	capital = STATE_MOUNT_AUGUSTA
 }
 KHA = {
